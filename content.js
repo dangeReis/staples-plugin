@@ -4,7 +4,7 @@ function functionToShowAlert() {
     console.log('functionToShowAlert called');
 
     // Select the containers for each order
-    const orderContainers = document.querySelectorAll('[id^="ptd.ph.ordertile.container"]');
+    const orderContainers = document.querySelectorAll('[id^="ph-order-container"]');
 
     orderContainers.forEach((container, index) => {
         // Select the element containing the order number within this container

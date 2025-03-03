@@ -1,59 +1,84 @@
-chrome.runtime.sendMessage({icon: 'active'});
 // content.js
-function functionToShowAlert() {
-    console.log('functionToShowAlert called');
+// This script runs in the context of the Staples order history page and extracts order information.
 
-    // Select the containers for each order
-    const orderContainers = document.querySelectorAll('[id^="ph-order-container"]');
+chrome.runtime.sendMessage({ icon: 'active' }); // Notify background script of activity
 
-    orderContainers.forEach((container, index) => {
-        // Select the element containing the order number within this container
-        const orderNumberElement = container.querySelector('a[aria-label^="Order number"]');
-        const orderNumber = orderNumberElement ? orderNumberElement.textContent : 'Order number not found';
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+  if (request.message === 'iconClicked') {
+    processOrders();
+  }
+});
 
-        // Select the element containing the order date within this container
-        const orderDateElement = container.querySelector('div[aria-label^="Order date"]');
-        let orderDate = orderDateElement ? orderDateElement.textContent : 'Order date not found';
+function processOrders() {
+  console.log('processOrders started');
+  const orderContainers = document.querySelectorAll('[id^="ph-order-container"]'); // Selects order containers
 
-        if (orderDate !== 'Order date not found') {
-            // Remove the "Order date" prefix
-            orderDate = orderDate.replace('Order date', '');
-        
-            // Convert the date string into a Date object
-            const dateParts = orderDate.split('/');
-            // Convert two-digit year to four-digit year
-            const year = dateParts[2].length === 2 ? `20${dateParts[2]}` : dateParts[2];
-            const month = dateParts[0];
-            const day = dateParts[1];
-            const dateObject = new Date(Date.parse(`${month}/${day}/${year}`));
-        
-            // Format the date as YYYY-MM-DD
-            orderDate = dateObject.toISOString().split('T')[0];
-        }
-        // Select the element containing the receipt link within this container
-        const receiptLinkElement = container.querySelector('a[aria-label^="View receipt for order number"]');
-        const receiptLink = receiptLinkElement ? receiptLinkElement.href : 'Receipt link not found';
-
-        console.log(`Order Number: ${orderNumber}`);
-        console.log(`Order Date: ${orderDate}`);
-        console.log(`Receipt Link: ${receiptLink}`);
-
-        // Send a message to the background script to download the receipt
-        if (receiptLink !== 'Receipt link not found') {
-            const filename = `staples/${orderDate}-${orderNumber}.pdf`;
-            chrome.runtime.sendMessage({
-                message: 'downloadReceipt',
-                url: receiptLink,
-                filename: filename,
-                delay: index * 2000
-            });
-       
-        }
-    });
+  orderContainers.forEach((container, index) => {
+    const orderData = extractOrderData(container);
+    if (orderData) {
+      sendDownloadRequest(orderData, index);
+    } else {
+      console.warn(`Could not extract data from order at index ${index}.`);
+    }
+  });
 }
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.message === 'iconClicked') {
-        functionToShowAlert();
+
+function extractOrderData(orderContainer) {
+  try {
+    const orderNumber = extractOrderNumber(orderContainer);
+    const orderDate = extractOrderDate(orderContainer);
+    const receiptLink = extractReceiptLink(orderContainer);
+
+    if (!orderNumber || !orderDate || !receiptLink) {
+      return null; // Return null if any data is missing
     }
-});
+
+    return { orderNumber, orderDate, receiptLink };
+  } catch (error) {
+    console.error("Error extracting order data:", error);
+    return null;
+  }
+}
+
+function extractOrderNumber(orderContainer) {
+  const orderNumberElement = orderContainer.querySelector('a[aria-label^="Order number"]');
+  return orderNumberElement ? orderNumberElement.textContent : null;
+}
+
+function extractOrderDate(orderContainer) {
+  const orderDateElement = orderContainer.querySelector('div[aria-label^="Order date"]');
+  let orderDate = orderDateElement ? orderDateElement.textContent.trim().replace('Order date', '') : null;
+  if (orderDate) {
+    orderDate = formatDate(parseDate(orderDate));
+  }
+  return orderDate;
+}
+
+function extractReceiptLink(orderContainer) {
+  const receiptLinkElement = orderContainer.querySelector('a[aria-label^="View receipt for order number"]');
+  return receiptLinkElement ? receiptLinkElement.href : null;
+}
+
+function parseDate(dateString) {
+  const [month, day, year] = dateString.split('/');
+  const fourDigitYear = year.length === 2 ? `20${year}` : year;
+  return new Date(Date.parse(`${month}/${day}/${fourDigitYear}`));
+}
+
+function formatDate(date) {
+  return date.toISOString().split('T')[0];
+}
+
+
+function sendDownloadRequest(orderData, index) {
+  const { orderNumber, orderDate, receiptLink } = orderData;
+  const filename = `staples/${orderDate}-${orderNumber}.pdf`;
+  chrome.runtime.sendMessage({
+    message: 'downloadReceipt',
+    url: receiptLink,
+    filename: filename,
+    delay: index * 2000
+  });
+}
+

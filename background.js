@@ -11,6 +11,26 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
         chrome.action.setIcon({ path: 'icon_active.png', tabId: sender.tab.id }).catch(err => {
           console.log('Could not set icon (tab may be closed):', err.message);
         });
+        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+        chrome.action.setTitle({ title: 'Download Staples Receipts', tabId: sender.tab.id });
+      }
+    } else if (message.icon === 'inactive') {
+      // Set icon to inactive/default state
+      if (sender.tab && sender.tab.id) {
+        chrome.action.setIcon({ path: 'icon.png', tabId: sender.tab.id }).catch(err => {
+          console.log('Could not set icon (tab may be closed):', err.message);
+        });
+        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+        chrome.action.setTitle({ title: 'Staples Page Indicator', tabId: sender.tab.id });
+      }
+    } else if (message.icon === 'processing') {
+      // Set icon to stop icon
+      if (sender.tab && sender.tab.id) {
+        chrome.action.setIcon({ path: 'icon_stop.png', tabId: sender.tab.id }).catch(err => {
+          console.log('Could not set icon (tab may be closed):', err.message);
+        });
+        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+        chrome.action.setTitle({ title: 'Click to STOP downloading receipts', tabId: sender.tab.id });
       }
     }
   });
@@ -74,6 +94,9 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
     }
   });
 
+  // Track active PDF captures so we can't cancel them mid-process
+  const activeCaptureTabIds = new Set();
+
   async function capturePDFFromUrl(url, transactionNumber, transactionDate) {
     let tabId = null;
     try {
@@ -82,6 +105,7 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       // Create a new tab in the background
       const tab = await chrome.tabs.create({ url: url, active: false });
       tabId = tab.id;
+      activeCaptureTabIds.add(tabId); // Mark as active capture
       console.log(`Created tab ${tabId} for ${transactionNumber}`);
 
       // Wait for the page to fully load with timeout
@@ -213,6 +237,7 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
 
       // Close the tab
       await chrome.tabs.remove(tabId);
+      activeCaptureTabIds.delete(tabId); // Remove from active captures
       console.log(`Successfully captured PDF: ${filename}`);
 
     } catch (error) {
@@ -231,6 +256,7 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
         // Try to close the tab
         try {
           await chrome.tabs.remove(tabId);
+          activeCaptureTabIds.delete(tabId); // Remove from active captures
           console.log(`Tab ${tabId} closed after error`);
         } catch (e) {
           console.log(`Could not close tab ${tabId}:`, e.message);
@@ -238,3 +264,23 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       }
     }
   }
+
+  // Add message handler to cancel active captures
+  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if (request.message === 'cancelActiveCapturesRequested') {
+      console.log(`Cancelling ${activeCaptureTabIds.size} active PDF captures...`);
+
+      // Close all tabs with active captures
+      activeCaptureTabIds.forEach(async (tabId) => {
+        try {
+          await chrome.tabs.remove(tabId);
+          console.log(`Closed active capture tab ${tabId}`);
+        } catch (err) {
+          console.log(`Could not close tab ${tabId}:`, err.message);
+        }
+      });
+
+      activeCaptureTabIds.clear();
+      sendResponse({ cancelled: activeCaptureTabIds.size });
+    }
+  });

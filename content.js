@@ -11,29 +11,96 @@ new MutationObserver(() => {
   if (currentUrl !== lastUrl) {
     lastUrl = currentUrl;
     console.log('URL changed to:', currentUrl);
-    // Re-initialize when URL changes
-    initializePage();
+
+    // Use a small delay to ensure the page context is ready
+    setTimeout(() => {
+      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+        // Check if we're on an order page
+        if (currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails')) {
+          console.log('Navigated to order page, activating icon');
+          chrome.runtime.sendMessage({ icon: 'active' }).catch(err => {
+            console.log('Could not send icon message:', err.message);
+          });
+        } else {
+          console.log('Navigated away from order page, deactivating icon');
+          chrome.runtime.sendMessage({ icon: 'inactive' }).catch(err => {
+            console.log('Could not send icon message:', err.message);
+          });
+        }
+      }
+    }, 100);
   }
 }).observe(document, { subtree: true, childList: true });
 
 function initializePage() {
   console.log('Initializing page:', location.href);
-  // Notify background script of activity
-  chrome.runtime.sendMessage({ icon: 'active' }).catch(err => {
-    console.log('Could not send icon message (extension may be reloading):', err.message);
-  });
+
+  // Check if we're on the order list page
+  const pageType = detectPageType();
+
+  if (pageType === 'orderList') {
+    // Notify background script of activity - check if chrome.runtime exists
+    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+      chrome.runtime.sendMessage({ icon: 'active' }).catch(err => {
+        console.log('Could not send icon message (extension may be reloading):', err.message);
+      });
+    }
+  }
 }
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.message === 'iconClicked') {
     const pageType = detectPageType();
     if (pageType === 'orderList') {
-      processOrders();
+      if (isProcessing) {
+        // Stop processing
+        stopProcessing();
+        sendResponse({ action: 'stopped' });
+      } else {
+        // Start processing
+        processOrders();
+        sendResponse({ action: 'started' });
+      }
     }
     // Order details pages are now handled automatically by background.js
     // No manual interaction needed
   }
+  return true; // Keep message channel open for async response
 });
+
+function stopProcessing() {
+  console.log('Stopping all scheduled downloads...');
+  isProcessing = false;
+
+  // Clear all scheduled timeouts
+  scheduledTimeouts.forEach(timeoutId => clearTimeout(timeoutId));
+  scheduledTimeouts = [];
+
+  // Clear navigation timeout
+  if (navigationTimeout) {
+    clearTimeout(navigationTimeout);
+    navigationTimeout = null;
+  }
+
+  // Clear sessionStorage flags
+  sessionStorage.removeItem('autoProcessNextPage');
+  sessionStorage.removeItem('globalTransactionIndex');
+
+  // Reset global index
+  globalTransactionIndex = 0;
+
+  // Request cancellation of active PDF captures in background
+  chrome.runtime.sendMessage({ message: 'cancelActiveCapturesRequested' }, (response) => {
+    if (response && response.cancelled > 0) {
+      console.log(`Cancelled ${response.cancelled} active PDF captures`);
+    }
+  });
+
+  // Update icon back to normal
+  chrome.runtime.sendMessage({ icon: 'active' });
+
+  console.log('All downloads cancelled');
+}
 
 function detectPageType() {
   const url = window.location.href;
@@ -47,9 +114,34 @@ function detectPageType() {
 
 // Track transactions across pages to maintain proper delays
 let globalTransactionIndex = 0;
+let isProcessing = false;
+let scheduledTimeouts = [];
+let navigationTimeout = null;
+
+// Check if we should auto-process on page load (from pagination)
+window.addEventListener('load', () => {
+  const shouldAutoProcess = sessionStorage.getItem('autoProcessNextPage');
+  if (shouldAutoProcess === 'true') {
+    console.log('Auto-processing next page...');
+    const savedIndex = sessionStorage.getItem('globalTransactionIndex');
+    if (savedIndex) {
+      globalTransactionIndex = parseInt(savedIndex, 10);
+      console.log(`Continuing from transaction index: ${globalTransactionIndex}`);
+    }
+    sessionStorage.removeItem('autoProcessNextPage'); // Remove flag
+    // Wait a moment for page to fully render
+    setTimeout(() => {
+      processOrders();
+    }, 1000);
+  }
+});
 
 function processOrders() {
   console.log('processOrders started');
+  isProcessing = true;
+
+  // Update icon to show processing state
+  chrome.runtime.sendMessage({ icon: 'processing' });
 
   // Process online orders
   const onlineOrderContainers = document.querySelectorAll('[id^="ph-order-container"]');
@@ -65,14 +157,16 @@ function processOrders() {
   // Process in-store transactions on current page
   const instoreTransactions = document.querySelectorAll('[id^="ph-order-ordernumber-POS"]');
   console.log(`Found ${instoreTransactions.length} in-store transactions on this page`);
+  console.log(`Starting from global transaction index: ${globalTransactionIndex}`);
 
   instoreTransactions.forEach((container, index) => {
     console.log(`Processing in-store transaction ${index}:`, container.id);
     const transactionData = extractInStoreTransactionData(container);
     if (transactionData) {
       console.log(`Extracted transaction data:`, transactionData);
-      // Use global index to maintain proper delays across pages
-      openOrderDetailsPage(transactionData, globalTransactionIndex);
+      // Use local page index for delays (0, 5s, 10s per page)
+      // But pass global index for tracking/logging
+      openOrderDetailsPage(transactionData, index, globalTransactionIndex);
       globalTransactionIndex++;
     } else {
       console.warn(`Could not extract data from in-store transaction at index ${index}.`);
@@ -82,22 +176,39 @@ function processOrders() {
   // Check if there's a next page button
   const nextPageButton = document.querySelector('a[aria-label="Next page of results"]:not([aria-disabled="true"])');
   if (nextPageButton) {
-    console.log('Found next page button, will navigate after current page completes');
-    // Schedule navigation to next page after all current transactions are queued
-    // Wait enough time for all current transactions to be sent
-    const delayBeforeNextPage = (instoreTransactions.length * 5000) + 5000;
-    setTimeout(() => {
-      console.log('Navigating to next page...');
-      nextPageButton.click();
+    console.log('Found next page button, will navigate after current page transactions are scheduled');
 
-      // Wait for page to load and process next page
-      setTimeout(() => {
-        processOrders();
-      }, 3000);
+    // Store flag in sessionStorage to auto-process next page
+    sessionStorage.setItem('autoProcessNextPage', 'true');
+    sessionStorage.setItem('globalTransactionIndex', globalTransactionIndex.toString());
+
+    // Calculate how long we need to wait for all transactions on this page to be scheduled
+    // Each transaction is scheduled with a 5-second delay, so we need to wait for the last one
+    // Plus a small buffer to ensure the message is sent
+    const lastTransactionDelay = (instoreTransactions.length - 1) * 5000;
+    const delayBeforeNextPage = lastTransactionDelay + 3000; // Last transaction delay + 3 second buffer
+
+    console.log(`Waiting ${delayBeforeNextPage}ms before navigating to next page`);
+
+    navigationTimeout = setTimeout(() => {
+      // Check if still processing before navigating
+      if (!isProcessing) {
+        console.log('Navigation cancelled - processing stopped');
+        return;
+      }
+      console.log('All transactions scheduled, navigating to next page...');
+      nextPageButton.click();
+      // The new page will auto-process thanks to sessionStorage flag
     }, delayBeforeNextPage);
   } else {
     console.log('No more pages to process');
+    isProcessing = false;
     globalTransactionIndex = 0; // Reset for next run
+    sessionStorage.removeItem('autoProcessNextPage');
+    sessionStorage.removeItem('globalTransactionIndex');
+
+    // Update icon back to normal
+    chrome.runtime.sendMessage({ icon: 'active' });
   }
 }
 
@@ -184,7 +295,7 @@ function formatDateFromString(dateString) {
   return `${year}-${month}-${day}`;
 }
 
-function openOrderDetailsPage(transactionData, index) {
+function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
   const { transactionNumber, transactionDate, detailsLink } = transactionData;
 
   // Construct the print page URL directly
@@ -193,14 +304,21 @@ function openOrderDetailsPage(transactionData, index) {
     ? `${detailsLink}&print=true&xsmall=false`
     : `${detailsLink}?print=true&xsmall=false`;
 
-  // Use shorter delays - 5 seconds between each
-  const delay = index * 5000;
+  // Use page index for delays (resets to 0 on each page)
+  // This ensures delays are 0s, 5s, 10s, 15s... on EACH page
+  const delay = pageIndex * 5000;
 
-  console.log(`Scheduling capturePDF for ${transactionNumber} with ${delay}ms delay`);
+  console.log(`Scheduling capturePDF for ${transactionNumber} (global #${globalIndex}, page #${pageIndex}) with ${delay}ms delay`);
   console.log(`Print URL: ${printUrl}`);
 
   // Handle the delay on the content script side to avoid service worker timeouts
-  setTimeout(() => {
+  const timeoutId = setTimeout(() => {
+    // Check if still processing before sending
+    if (!isProcessing) {
+      console.log(`Skipping ${transactionNumber} - processing stopped`);
+      return;
+    }
+
     console.log(`Now sending capturePDF message for ${transactionNumber}`);
 
     // Send message to background script to open the print page and capture PDF
@@ -218,6 +336,9 @@ function openOrderDetailsPage(transactionData, index) {
       }
     });
   }, delay);
+
+  // Store timeout ID so we can cancel it later
+  scheduledTimeouts.push(timeoutId);
 }
 
 function sendDownloadRequest(orderData, index) {

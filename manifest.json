@@ -14,8 +14,7 @@
     "content_scripts": [
       {
         "matches": [
-          "https://www.staples.com/ptd/myorders*",
-          "https://www.staples.com/ptd/orderdetails*"
+          "https://www.staples.com/*"
         ],
         "js": ["content.js"]
       }

@@ -6,12 +6,38 @@ const transactionDataMap = new Map();
 
 chrome.runtime.onMessage.addListener(function(message, sender) {
     if (message.icon === 'active') {
-      chrome.action.setIcon({ path: 'icon_active.png', tabId: sender.tab.id });
+      // Only set icon if sender has a tab
+      if (sender.tab && sender.tab.id) {
+        chrome.action.setIcon({ path: 'icon_active.png', tabId: sender.tab.id }).catch(err => {
+          console.log('Could not set icon (tab may be closed):', err.message);
+        });
+      }
     }
   });
 
-  chrome.action.onClicked.addListener((tab) => {
-    chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
+  chrome.action.onClicked.addListener(async (tab) => {
+    // Check if we're on a Staples order page
+    if (!tab.url || (!tab.url.includes('/ptd/myorders') && !tab.url.includes('/ptd/orderdetails'))) {
+      console.log('Not on a Staples order page, ignoring click');
+      return;
+    }
+
+    try {
+      await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
+    } catch (err) {
+      console.log('Could not send iconClicked message (content script may not be loaded):', err.message);
+      // Try to inject the content script manually
+      try {
+        await chrome.scripting.executeScript({
+          target: { tabId: tab.id },
+          files: ['content.js']
+        });
+        // Try sending the message again after injection
+        await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
+      } catch (injectErr) {
+        console.error('Could not inject or communicate with content script:', injectErr.message);
+      }
+    }
   });
 
   chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {

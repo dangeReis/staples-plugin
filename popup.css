@@ -369,30 +369,16 @@ body {
   border-top: 1px solid #eee;
 }
 
-.footer-links {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.footer-link {
-  color: #666;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.footer-link:hover {
-  color: #cc0000;
-  text-decoration: underline;
-}
-
-.separator {
-  color: #ccc;
+.footer-text {
+  font-size: 11px;
+  color: #999;
+  font-style: italic;
 }
 
 .version {
   font-size: 11px;
   color: #999;
+  font-weight: 600;
 }
 
 /* Scrollbar styling */

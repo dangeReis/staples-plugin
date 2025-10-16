@@ -8,6 +8,12 @@ console.log('Chrome runtime exists:', typeof chrome !== 'undefined' && !!chrome.
 // Initialize the page
 initializePage();
 
+// Also trigger URL change detection on initial load
+// This ensures icon state is set correctly when page first loads
+setTimeout(() => {
+  handleUrlChange(location.href);
+}, 1000);
+
 // Watch for URL changes (SPA navigation) - Multiple strategies
 let lastUrl = location.href;
 console.log('Setting up URL change detection...');
@@ -103,7 +109,10 @@ function handleUrlChange(currentUrl) {
       console.log('Chrome runtime is valid');
 
       // Check if we're on an order page
-      if (currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails')) {
+      const isOrderPage = currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails');
+      console.log(`Is order page: ${isOrderPage}`);
+
+      if (isOrderPage) {
         console.log('✓ On order page, sending ACTIVE message');
         chrome.runtime.sendMessage({ icon: 'active' }).then(() => {
           console.log('Active icon message sent successfully');
@@ -124,7 +133,7 @@ function handleUrlChange(currentUrl) {
     } else {
       console.error('Chrome runtime not available!');
     }
-  }, 100);
+  }, 500); // Increased delay to 500ms to ensure page is fully loaded
 }
 
 function checkAndAutoProcess() {

@@ -253,7 +253,10 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       console.log(`Debugger detached from tab ${tabId}`);
 
       // Download the PDF using data URL (blob URLs don't work in service workers)
-      const filename = `staples/${transactionDate}-${transactionNumber}.pdf`;
+      // Add suffix based on print method and image setting
+      const imageSuffix = printWithImages ? '-img' : '-noimg';
+      const methodSuffix = '-print';
+      const filename = `staples/${transactionDate}-${transactionNumber}${methodSuffix}${imageSuffix}.pdf`;
       console.log(`Downloading ${filename}`);
 
       // Create a data URL from the base64 PDF data

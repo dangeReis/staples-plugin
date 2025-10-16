@@ -565,7 +565,6 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
 
 function sendDownloadRequest(orderData, index) {
   const { orderNumber, orderDate, receiptLink } = orderData;
-  const filename = `staples/${orderDate}-${orderNumber}.pdf`;
 
   // Check if user wants to print online orders instead of direct download
   const useOnlineOrderPrint = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
@@ -588,6 +587,9 @@ function sendDownloadRequest(orderData, index) {
     });
   } else {
     // Direct PDF download (original behavior)
+    // Add -direct suffix to indicate this is a direct download
+    const filename = `staples/${orderDate}-${orderNumber}-direct.pdf`;
+
     chrome.runtime.sendMessage({
       message: 'downloadReceipt',
       url: receiptLink,

@@ -183,8 +183,13 @@ let statusData = {
   transactionsFound: 0,
   scheduled: 0,
   completed: 0,
+  failed: 0,
   total: 0
 };
+
+// Failed downloads tracking
+let failedDownloads = [];
+const MAX_RETRIES = 3;
 
 function sendStatusUpdate() {
   chrome.runtime.sendMessage({
@@ -236,7 +241,43 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     sendResponse({ autonomousMode });
   } else if (request.message === 'getStatus') {
     // Send current status to popup
-    sendResponse(statusData);
+    sendResponse({...statusData, failedDownloads});
+  } else if (request.message === 'retryFailed') {
+    retryFailedDownloads();
+    sendResponse({ action: 'retrying' });
+  } else if (request.message === 'togglePrintWithImages') {
+    const currentMode = localStorage.getItem('staplesPrintWithImages') !== 'false';
+    const newMode = !currentMode;
+    localStorage.setItem('staplesPrintWithImages', newMode.toString());
+    console.log(`Print with images ${newMode ? 'ENABLED' : 'DISABLED'}`);
+    sendResponse({ printWithImages: newMode });
+  } else if (request.message === 'toggleOnlineOrderPrint') {
+    const currentMode = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
+    const newMode = !currentMode;
+    localStorage.setItem('staplesOnlineOrderPrint', newMode.toString());
+    console.log(`Online order print mode ${newMode ? 'ENABLED' : 'DISABLED'}`);
+    sendResponse({ onlineOrderPrint: newMode });
+  } else if (request.message === 'downloadComplete') {
+    // Notification from background that a download completed
+    statusData.completed++;
+    sendStatusUpdate();
+    sendActivity('success', `Downloaded ${request.filename}`);
+  } else if (request.message === 'downloadFailed') {
+    // Notification from background that a download failed
+    const failedItem = {
+      ...request.data,
+      retries: (request.data.retries || 0) + 1,
+      lastError: request.error
+    };
+
+    if (failedItem.retries < MAX_RETRIES) {
+      failedDownloads.push(failedItem);
+      statusData.failed = failedDownloads.length;
+      sendStatusUpdate();
+      sendActivity('error', `Failed: ${request.data.transactionNumber} (retry ${failedItem.retries}/${MAX_RETRIES})`);
+    } else {
+      sendActivity('error', `Failed permanently: ${request.data.transactionNumber}`);
+    }
   }
   return true; // Keep message channel open for async response
 });
@@ -498,12 +539,16 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
 
     console.log(`Now sending capturePDF message for ${transactionNumber}`);
 
+    // Get print with images setting
+    const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+
     // Send message to background script to open the print page and capture PDF
     chrome.runtime.sendMessage({
       message: 'capturePDF',
       url: printUrl,
       transactionNumber: transactionNumber,
       transactionDate: transactionDate,
+      printWithImages: printWithImages,
       delay: 0  // No delay in background, we already delayed here
     }, (response) => {
       if (chrome.runtime.lastError) {
@@ -521,11 +566,62 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
 function sendDownloadRequest(orderData, index) {
   const { orderNumber, orderDate, receiptLink } = orderData;
   const filename = `staples/${orderDate}-${orderNumber}.pdf`;
-  chrome.runtime.sendMessage({
-    message: 'downloadReceipt',
-    url: receiptLink,
-    filename: filename,
-    delay: index * 2000
+
+  // Check if user wants to print online orders instead of direct download
+  const useOnlineOrderPrint = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
+
+  if (useOnlineOrderPrint) {
+    // Treat online orders like in-store: navigate to print page
+    const printUrl = receiptLink.includes('?')
+      ? `${receiptLink}&print=true&xsmall=false`
+      : `${receiptLink}?print=true&xsmall=false`;
+
+    const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+
+    chrome.runtime.sendMessage({
+      message: 'capturePDF',
+      url: printUrl,
+      transactionNumber: orderNumber,
+      transactionDate: orderDate,
+      printWithImages,
+      delay: index * 2000
+    });
+  } else {
+    // Direct PDF download (original behavior)
+    chrome.runtime.sendMessage({
+      message: 'downloadReceipt',
+      url: receiptLink,
+      filename: filename,
+      delay: index * 2000
+    });
+  }
+}
+
+function retryFailedDownloads() {
+  console.log(`Retrying ${failedDownloads.length} failed downloads...`);
+  sendActivity('info', `Retrying ${failedDownloads.length} failed downloads`);
+
+  const toRetry = [...failedDownloads];
+  failedDownloads = [];
+  statusData.failed = 0;
+  sendStatusUpdate();
+
+  toRetry.forEach((item, index) => {
+    const delay = index * 5000; // 5 second delay between retries
+
+    setTimeout(() => {
+      const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+
+      chrome.runtime.sendMessage({
+        message: 'capturePDF',
+        url: item.url,
+        transactionNumber: item.transactionNumber,
+        transactionDate: item.transactionDate,
+        printWithImages,
+        retries: item.retries,
+        delay: 0
+      });
+    }, delay);
   });
 }
 

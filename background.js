@@ -107,12 +107,12 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
         });
       }, delay);
     } else if (request.message === 'capturePDF') {
-      const { url, transactionNumber, transactionDate } = request;
-      console.log(`Received capturePDF request for ${transactionNumber}`);
+      const { url, transactionNumber, transactionDate, printWithImages, retries } = request;
+      console.log(`Received capturePDF request for ${transactionNumber} (printWithImages: ${printWithImages})`);
       console.log(`Starting capturePDFFromUrl immediately for ${transactionNumber}`);
 
       // Start the PDF capture immediately - delay is handled in content script
-      capturePDFFromUrl(url, transactionNumber, transactionDate);
+      capturePDFFromUrl(url, transactionNumber, transactionDate, printWithImages, retries || 0, sender.tab.id);
 
       // Send response to keep the message channel open
       sendResponse({ status: 'started', transactionNumber });
@@ -125,10 +125,10 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
   // Track active PDF captures so we can't cancel them mid-process
   const activeCaptureTabIds = new Set();
 
-  async function capturePDFFromUrl(url, transactionNumber, transactionDate) {
+  async function capturePDFFromUrl(url, transactionNumber, transactionDate, printWithImages = true, retries = 0, senderTabId = null) {
     let tabId = null;
     try {
-      console.log(`Starting PDF capture for ${transactionNumber} from ${url}`);
+      console.log(`Starting PDF capture for ${transactionNumber} from ${url} (printWithImages: ${printWithImages}, retries: ${retries})`);
 
       // Create a new tab in the background
       const tab = await chrome.tabs.create({ url: url, active: false });
@@ -153,12 +153,12 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
         });
       });
 
-      // Enable "Print with images" toggle by injecting a script
-      console.log(`Enabling 'Print with images' for tab ${tabId}`);
+      // Enable/disable "Print with images" toggle based on setting
+      console.log(`${printWithImages ? 'Enabling' : 'Disabling'} 'Print with images' for tab ${tabId}`);
       try {
         const result = await chrome.scripting.executeScript({
           target: { tabId: tabId },
-          func: () => {
+          func: (shouldEnable) => {
             // Try multiple selectors and wait for the element
             const selectors = [
               'button[role="switch"][aria-checked="false"]',
@@ -179,11 +179,12 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
             }
 
             if (toggleButton) {
-              const isChecked = toggleButton.getAttribute('aria-checked');
+              const isChecked = toggleButton.getAttribute('aria-checked') === 'true';
               console.log(`Found toggle with selector: ${selectorUsed}, aria-checked: ${isChecked}`);
 
-              if (isChecked === 'false') {
-                console.log('Clicking toggle to enable images');
+              // Click if current state doesn't match desired state
+              if (isChecked !== shouldEnable) {
+                console.log(`Clicking toggle to ${shouldEnable ? 'enable' : 'disable'} images`);
                 toggleButton.click();
 
                 // Verify it was clicked
@@ -194,8 +195,8 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
 
                 return { success: true, clicked: true, selector: selectorUsed };
               } else {
-                console.log('Toggle already enabled');
-                return { success: true, clicked: false, alreadyEnabled: true };
+                console.log(`Toggle already in desired state (${shouldEnable ? 'enabled' : 'disabled'})`);
+                return { success: true, clicked: false, alreadyCorrect: true };
               }
             } else {
               console.log('Toggle button not found with any selector');
@@ -208,7 +209,8 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
                 html: printSection ? printSection.innerHTML.substring(0, 500) : 'Section not found'
               };
             }
-          }
+          },
+          args: [printWithImages]
         });
 
         console.log(`Toggle script result for tab ${tabId}:`, result[0].result);
@@ -268,9 +270,40 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       activeCaptureTabIds.delete(tabId); // Remove from active captures
       console.log(`Successfully captured PDF: ${filename}`);
 
+      // Notify content script of success
+      if (senderTabId) {
+        try {
+          await chrome.tabs.sendMessage(senderTabId, {
+            message: 'downloadComplete',
+            filename: filename
+          });
+        } catch (err) {
+          console.log('Could not notify content script of success:', err.message);
+        }
+      }
+
     } catch (error) {
       console.error(`Error capturing PDF for ${transactionNumber}:`, error);
       console.error('Error details:', error.message, error.stack);
+
+      // Notify content script of failure
+      if (senderTabId) {
+        try {
+          await chrome.tabs.sendMessage(senderTabId, {
+            message: 'downloadFailed',
+            error: error.message,
+            data: {
+              url,
+              transactionNumber,
+              transactionDate,
+              printWithImages,
+              retries
+            }
+          });
+        } catch (err) {
+          console.log('Could not notify content script of failure:', err.message);
+        }
+      }
 
       // Try to detach debugger if still attached
       if (tabId) {

@@ -35,6 +35,10 @@
         <span class="stat-label">Downloads Complete:</span>
         <span class="stat-value" id="downloadsComplete">0</span>
       </div>
+      <div class="stat-row">
+        <span class="stat-label">Downloads Failed:</span>
+        <span class="stat-value stat-value-error" id="downloadsFailed">0</span>
+      </div>
     </div>
 
     <!-- Progress Bar -->
@@ -57,14 +61,39 @@
       </button>
     </div>
 
+    <!-- Retry Failed Button -->
+    <div class="retry-section" id="retrySection" style="display: none;">
+      <button id="retryBtn" class="btn btn-warning">
+        <span class="btn-icon">↻</span>
+        Retry Failed Downloads (<span id="retryCount">0</span>)
+      </button>
+    </div>
+
     <!-- Settings -->
     <div class="settings">
+      <h3 class="settings-header">Download Settings</h3>
       <div class="setting-item">
         <label class="checkbox-label">
           <input type="checkbox" id="autonomousMode">
           <span class="checkmark"></span>
           Autonomous Mode
           <span class="help-icon" title="Automatically start downloading when you visit the orders page">?</span>
+        </label>
+      </div>
+      <div class="setting-item">
+        <label class="checkbox-label">
+          <input type="checkbox" id="printWithImages" checked>
+          <span class="checkmark"></span>
+          Print with Images
+          <span class="help-icon" title="Include images in PDF receipts (slower but more complete)">?</span>
+        </label>
+      </div>
+      <div class="setting-item">
+        <label class="checkbox-label">
+          <input type="checkbox" id="onlineOrderPrint">
+          <span class="checkmark"></span>
+          Print Online Orders
+          <span class="help-icon" title="Generate PDF from print page instead of direct download (consistent formatting)">?</span>
         </label>
       </div>
     </div>

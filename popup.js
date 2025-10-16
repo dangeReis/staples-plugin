@@ -9,12 +9,18 @@ const currentPage = document.getElementById('currentPage');
 const transactionsFound = document.getElementById('transactionsFound');
 const downloadsScheduled = document.getElementById('downloadsScheduled');
 const downloadsComplete = document.getElementById('downloadsComplete');
+const downloadsFailed = document.getElementById('downloadsFailed');
 const progressContainer = document.getElementById('progressContainer');
 const progressFill = document.getElementById('progressFill');
 const progressText = document.getElementById('progressText');
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
+const retryBtn = document.getElementById('retryBtn');
+const retrySection = document.getElementById('retrySection');
+const retryCount = document.getElementById('retryCount');
 const autonomousMode = document.getElementById('autonomousMode');
+const printWithImages = document.getElementById('printWithImages');
+const onlineOrderPrint = document.getElementById('onlineOrderPrint');
 const activityLog = document.getElementById('activityLog');
 const clearLog = document.getElementById('clearLog');
 
@@ -45,9 +51,15 @@ async function init() {
   // Load saved state from storage
   loadState();
 
-  // Load autonomous mode setting
+  // Load settings
   const autonomousSetting = localStorage.getItem('staplesAutonomousMode') === 'true';
   autonomousMode.checked = autonomousSetting;
+
+  const printWithImagesSetting = localStorage.getItem('staplesPrintWithImages') !== 'false';
+  printWithImages.checked = printWithImagesSetting;
+
+  const onlineOrderPrintSetting = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
+  onlineOrderPrint.checked = onlineOrderPrintSetting;
 
   // Get current status from content script
   try {
@@ -135,6 +147,21 @@ function setupEventListeners(tabId) {
     }
   });
 
+  // Retry failed button
+  retryBtn.addEventListener('click', async () => {
+    console.log('Retry button clicked');
+    try {
+      await chrome.tabs.sendMessage(tabId, { message: 'retryFailed' });
+      addActivity({
+        type: 'info',
+        message: 'Retrying failed downloads',
+        time: new Date().toLocaleTimeString()
+      });
+    } catch (err) {
+      console.error('Error retrying failed downloads:', err);
+    }
+  });
+
   // Autonomous mode toggle
   autonomousMode.addEventListener('change', async (e) => {
     const enabled = e.target.checked;
@@ -153,6 +180,48 @@ function setupEventListeners(tabId) {
       });
     } catch (err) {
       console.error('Error toggling autonomous mode:', err);
+    }
+  });
+
+  // Print with images toggle
+  printWithImages.addEventListener('change', async (e) => {
+    const enabled = e.target.checked;
+    localStorage.setItem('staplesPrintWithImages', enabled.toString());
+
+    try {
+      await chrome.tabs.sendMessage(tabId, {
+        message: 'togglePrintWithImages',
+        enabled
+      });
+
+      addActivity({
+        type: 'info',
+        message: `Print with images ${enabled ? 'enabled' : 'disabled'}`,
+        time: new Date().toLocaleTimeString()
+      });
+    } catch (err) {
+      console.error('Error toggling print with images:', err);
+    }
+  });
+
+  // Online order print toggle
+  onlineOrderPrint.addEventListener('change', async (e) => {
+    const enabled = e.target.checked;
+    localStorage.setItem('staplesOnlineOrderPrint', enabled.toString());
+
+    try {
+      await chrome.tabs.sendMessage(tabId, {
+        message: 'toggleOnlineOrderPrint',
+        enabled
+      });
+
+      addActivity({
+        type: 'info',
+        message: `Online order print ${enabled ? 'enabled' : 'disabled'}`,
+        time: new Date().toLocaleTimeString()
+      });
+    } catch (err) {
+      console.error('Error toggling online order print:', err);
     }
   });
 
@@ -185,6 +254,18 @@ function updateStatus(data) {
 
   if (data.completed !== undefined) {
     downloadsComplete.textContent = data.completed;
+  }
+
+  if (data.failed !== undefined) {
+    downloadsFailed.textContent = data.failed;
+
+    // Show/hide retry section based on failed count
+    if (data.failed > 0) {
+      retrySection.style.display = 'block';
+      retryCount.textContent = data.failed;
+    } else {
+      retrySection.style.display = 'none';
+    }
   }
 
   if (data.total && data.completed) {

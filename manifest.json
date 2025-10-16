@@ -2,7 +2,8 @@
     "manifest_version": 3,
     "name": "Staples Page Indicator",
     "version": "1.0",
-    "permissions": ["activeTab", "tabs", "scripting","downloads"],
+    "permissions": ["activeTab", "tabs", "scripting", "downloads", "debugger"],
+    "host_permissions": ["https://www.staples.com/*"],
     "action": {
       "default_title": "On Staples Order Page",
       "default_icon": "icon.png"
@@ -12,7 +13,10 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://www.staples.com/ptd/myorders*"],
+        "matches": [
+          "https://www.staples.com/ptd/myorders*",
+          "https://www.staples.com/ptd/orderdetails*"
+        ],
         "js": ["content.js"]
       }
     ]

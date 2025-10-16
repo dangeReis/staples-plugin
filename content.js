@@ -3,22 +3,57 @@
 
 chrome.runtime.sendMessage({ icon: 'active' }); // Notify background script of activity
 
+// Detect page type
+const pageType = detectPageType();
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.message === 'iconClicked') {
-    processOrders();
+    if (pageType === 'orderList') {
+      processOrders();
+    }
+    // Order details pages are now handled automatically by background.js
+    // No manual interaction needed
   }
 });
 
+function detectPageType() {
+  const url = window.location.href;
+  if (url.includes('/ptd/orderdetails')) {
+    return 'orderDetails';
+  } else if (url.includes('/ptd/myorders')) {
+    return 'orderList';
+  }
+  return 'unknown';
+}
+
 function processOrders() {
   console.log('processOrders started');
-  const orderContainers = document.querySelectorAll('[id^="ph-order-container"]'); // Selects order containers
 
-  orderContainers.forEach((container, index) => {
+  // Process online orders
+  const onlineOrderContainers = document.querySelectorAll('[id^="ph-order-container"]');
+  onlineOrderContainers.forEach((container, index) => {
     const orderData = extractOrderData(container);
     if (orderData) {
       sendDownloadRequest(orderData, index);
     } else {
-      console.warn(`Could not extract data from order at index ${index}.`);
+      console.warn(`Could not extract data from online order at index ${index}.`);
+    }
+  });
+
+  // Process in-store transactions
+  const instoreTransactions = document.querySelectorAll('[id^="ph-order-ordernumber-POS"]');
+  console.log(`Found ${instoreTransactions.length} in-store transactions`);
+
+  instoreTransactions.forEach((container, index) => {
+    console.log(`Processing in-store transaction ${index}:`, container.id);
+    const transactionData = extractInStoreTransactionData(container);
+    if (transactionData) {
+      console.log(`Extracted transaction data:`, transactionData);
+      // Use index directly, not offset by online orders
+      // In-store receipts are processed independently
+      openOrderDetailsPage(transactionData, index);
+    } else {
+      console.warn(`Could not extract data from in-store transaction at index ${index}.`);
     }
   });
 }
@@ -70,6 +105,77 @@ function formatDate(date) {
   return date.toISOString().split('T')[0];
 }
 
+
+function extractInStoreTransactionData(transactionContainer) {
+  try {
+    // Extract transaction number from the container ID
+    // Format: ph-order-ordernumber-POS.542.20251004.4.23365
+    const containerId = transactionContainer.id;
+    const transactionNumber = containerId.replace('ph-order-ordernumber-', '');
+
+    // Extract transaction date from the transaction number
+    // Format: POS.542.20251004.4.23365
+    const datePart = transactionNumber.split('.')[2]; // Gets "20251004"
+    const transactionDate = formatDateFromString(datePart);
+
+    // Find the transaction link
+    const linkElement = transactionContainer.querySelector('a[href*="orderdetails"]');
+    const detailsLink = linkElement ? linkElement.href : null;
+
+    if (!transactionNumber || !transactionDate || !detailsLink) {
+      return null;
+    }
+
+    return { transactionNumber, transactionDate, detailsLink };
+  } catch (error) {
+    console.error("Error extracting in-store transaction data:", error);
+    return null;
+  }
+}
+
+function formatDateFromString(dateString) {
+  // Convert "20251004" to "2025-10-04"
+  const year = dateString.substring(0, 4);
+  const month = dateString.substring(4, 6);
+  const day = dateString.substring(6, 8);
+  return `${year}-${month}-${day}`;
+}
+
+function openOrderDetailsPage(transactionData, index) {
+  const { transactionNumber, transactionDate, detailsLink } = transactionData;
+
+  // Construct the print page URL directly
+  // Add print=true parameter to go straight to print view
+  const printUrl = detailsLink.includes('?')
+    ? `${detailsLink}&print=true&xsmall=false`
+    : `${detailsLink}?print=true&xsmall=false`;
+
+  // Use shorter delays - 5 seconds between each
+  const delay = index * 5000;
+
+  console.log(`Scheduling capturePDF for ${transactionNumber} with ${delay}ms delay`);
+  console.log(`Print URL: ${printUrl}`);
+
+  // Handle the delay on the content script side to avoid service worker timeouts
+  setTimeout(() => {
+    console.log(`Now sending capturePDF message for ${transactionNumber}`);
+
+    // Send message to background script to open the print page and capture PDF
+    chrome.runtime.sendMessage({
+      message: 'capturePDF',
+      url: printUrl,
+      transactionNumber: transactionNumber,
+      transactionDate: transactionDate,
+      delay: 0  // No delay in background, we already delayed here
+    }, (response) => {
+      if (chrome.runtime.lastError) {
+        console.error(`Error sending message for ${transactionNumber}:`, chrome.runtime.lastError);
+      } else {
+        console.log(`Message sent successfully for ${transactionNumber}`);
+      }
+    });
+  }, delay);
+}
 
 function sendDownloadRequest(orderData, index) {
   const { orderNumber, orderDate, receiptLink } = orderData;

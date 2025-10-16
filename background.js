@@ -4,6 +4,34 @@
 // Store transaction data for later use when printing
 const transactionDataMap = new Map();
 
+// Create context menu on install for autonomous mode toggle
+chrome.runtime.onInstalled.addListener(() => {
+  console.log('Extension installed/updated, setting up context menu');
+  chrome.contextMenus.create({
+    id: 'toggleAutonomous',
+    title: 'Toggle Autonomous Download',
+    contexts: ['action']
+  });
+});
+
+// Handle context menu clicks
+chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+  if (info.menuItemId === 'toggleAutonomous') {
+    console.log('Autonomous mode toggle clicked');
+    try {
+      const response = await chrome.tabs.sendMessage(tab.id, { message: 'toggleAutonomous' });
+      console.log(`Autonomous mode is now: ${response.autonomousMode ? 'ENABLED' : 'DISABLED'}`);
+
+      // Update the menu title to reflect current state
+      chrome.contextMenus.update('toggleAutonomous', {
+        title: response.autonomousMode ? '✓ Autonomous Download (ON)' : 'Autonomous Download (OFF)'
+      });
+    } catch (err) {
+      console.error('Could not toggle autonomous mode:', err);
+    }
+  }
+});
+
 chrome.runtime.onMessage.addListener(function(message, sender) {
     if (message.icon === 'active') {
       // Only set icon if sender has a tab

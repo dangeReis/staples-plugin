@@ -1,36 +1,164 @@
 // content.js
 // This script runs in the context of the Staples order history page and extracts order information.
 
+console.log('=== STAPLES EXTENSION CONTENT SCRIPT LOADED ===', location.href);
+console.log('Document readyState:', document.readyState);
+console.log('Chrome runtime exists:', typeof chrome !== 'undefined' && !!chrome.runtime);
+
 // Initialize the page
 initializePage();
 
-// Watch for URL changes (SPA navigation)
+// Watch for URL changes (SPA navigation) - Multiple strategies
 let lastUrl = location.href;
-new MutationObserver(() => {
+console.log('Setting up URL change detection...');
+
+// Strategy 1: MutationObserver
+const observer = new MutationObserver(() => {
   const currentUrl = location.href;
   if (currentUrl !== lastUrl) {
+    console.log('*** MutationObserver detected URL change ***');
     lastUrl = currentUrl;
-    console.log('URL changed to:', currentUrl);
-
-    // Use a small delay to ensure the page context is ready
-    setTimeout(() => {
-      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
-        // Check if we're on an order page
-        if (currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails')) {
-          console.log('Navigated to order page, activating icon');
-          chrome.runtime.sendMessage({ icon: 'active' }).catch(err => {
-            console.log('Could not send icon message:', err.message);
-          });
-        } else {
-          console.log('Navigated away from order page, deactivating icon');
-          chrome.runtime.sendMessage({ icon: 'inactive' }).catch(err => {
-            console.log('Could not send icon message:', err.message);
-          });
-        }
-      }
-    }, 100);
+    handleUrlChange(currentUrl);
   }
-}).observe(document, { subtree: true, childList: true });
+});
+observer.observe(document, { subtree: true, childList: true });
+console.log('MutationObserver set up');
+
+// Strategy 2: Polling (more reliable for SPAs)
+console.log('Setting up polling for URL changes...');
+setInterval(() => {
+  const currentUrl = location.href;
+  if (currentUrl !== lastUrl) {
+    console.log('*** POLLING DETECTED URL CHANGE ***');
+    console.log('Old URL:', lastUrl);
+    console.log('New URL:', currentUrl);
+    lastUrl = currentUrl;
+    handleUrlChange(currentUrl);
+  }
+}, 500);
+
+// Strategy 3: History API interception
+const originalPushState = history.pushState;
+const originalReplaceState = history.replaceState;
+
+history.pushState = function() {
+  console.log('*** HISTORY.PUSHSTATE CALLED ***', arguments);
+  originalPushState.apply(this, arguments);
+  handleUrlChange(location.href);
+};
+
+history.replaceState = function() {
+  console.log('*** HISTORY.REPLACESTATE CALLED ***', arguments);
+  originalReplaceState.apply(this, arguments);
+  handleUrlChange(location.href);
+};
+
+// Listen for popstate events (back/forward)
+window.addEventListener('popstate', () => {
+  console.log('*** POPSTATE EVENT ***', location.href);
+  handleUrlChange(location.href);
+});
+
+console.log('All URL detection strategies initialized');
+
+// Strategy 4: Watch pagination element for changes (indicates page navigation in SPA)
+let lastPaginationText = '';
+const paginationObserver = new MutationObserver(() => {
+  const paginationElement = document.querySelector('div[aria-label*="Viewing"][aria-label*="of"]');
+  if (paginationElement) {
+    const currentText = paginationElement.getAttribute('aria-label');
+    if (currentText && currentText !== lastPaginationText) {
+      console.log('*** PAGINATION CHANGE DETECTED ***');
+      console.log('Old pagination:', lastPaginationText);
+      console.log('New pagination:', currentText);
+      lastPaginationText = currentText;
+
+      // Give the DOM a moment to update, then check for auto-processing
+      setTimeout(() => {
+        console.log('Pagination changed, checking for auto-process...');
+        checkAndAutoProcess();
+      }, 500);
+    }
+  }
+});
+
+// Start observing the document for pagination changes
+paginationObserver.observe(document.body, {
+  subtree: true,
+  childList: true,
+  attributes: true,
+  attributeFilter: ['aria-label']
+});
+
+console.log('Pagination observer set up');
+
+function handleUrlChange(currentUrl) {
+  console.log('=== HANDLING URL CHANGE ===');
+  console.log('URL:', currentUrl);
+
+  // Use a small delay to ensure the page context is ready
+  setTimeout(() => {
+    console.log('Checking chrome.runtime...');
+    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+      console.log('Chrome runtime is valid');
+
+      // Check if we're on an order page
+      if (currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails')) {
+        console.log('✓ On order page, sending ACTIVE message');
+        chrome.runtime.sendMessage({ icon: 'active' }).then(() => {
+          console.log('Active icon message sent successfully');
+        }).catch(err => {
+          console.error('Failed to send active icon message:', err);
+        });
+
+        // Check if we should auto-process (for pagination or autonomous mode)
+        checkAndAutoProcess();
+      } else {
+        console.log('✗ NOT on order page, sending INACTIVE message');
+        chrome.runtime.sendMessage({ icon: 'inactive' }).then(() => {
+          console.log('Inactive icon message sent successfully');
+        }).catch(err => {
+          console.error('Failed to send inactive icon message:', err);
+        });
+      }
+    } else {
+      console.error('Chrome runtime not available!');
+    }
+  }, 100);
+}
+
+function checkAndAutoProcess() {
+  console.log('Checking if auto-process is needed...');
+
+  // Check for pagination flag (page 2+)
+  const shouldAutoProcess = sessionStorage.getItem('autoProcessNextPage');
+  if (shouldAutoProcess === 'true') {
+    console.log('Auto-processing next page from pagination...');
+    const savedIndex = sessionStorage.getItem('globalTransactionIndex');
+    if (savedIndex) {
+      globalTransactionIndex = parseInt(savedIndex, 10);
+      console.log(`Continuing from transaction index: ${globalTransactionIndex}`);
+    }
+    sessionStorage.removeItem('autoProcessNextPage');
+
+    // Wait for DOM to be ready
+    setTimeout(() => {
+      processOrders();
+    }, 1500);
+    return;
+  }
+
+  // Check for autonomous mode flag
+  const autonomousMode = localStorage.getItem('staplesAutonomousMode');
+  if (autonomousMode === 'true' && !isProcessing) {
+    console.log('Autonomous mode enabled - starting download automatically...');
+
+    // Wait for DOM to be ready
+    setTimeout(() => {
+      processOrders();
+    }, 2000);
+  }
+}
 
 function initializePage() {
   console.log('Initializing page:', location.href);
@@ -64,6 +192,15 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     }
     // Order details pages are now handled automatically by background.js
     // No manual interaction needed
+  } else if (request.message === 'toggleAutonomous') {
+    const currentMode = localStorage.getItem('staplesAutonomousMode') === 'true';
+    const newMode = !currentMode;
+    localStorage.setItem('staplesAutonomousMode', newMode.toString());
+    console.log(`Autonomous mode ${newMode ? 'ENABLED' : 'DISABLED'}`);
+    sendResponse({ autonomousMode: newMode });
+  } else if (request.message === 'getAutonomousStatus') {
+    const autonomousMode = localStorage.getItem('staplesAutonomousMode') === 'true';
+    sendResponse({ autonomousMode });
   }
   return true; // Keep message channel open for async response
 });
@@ -117,24 +254,6 @@ let globalTransactionIndex = 0;
 let isProcessing = false;
 let scheduledTimeouts = [];
 let navigationTimeout = null;
-
-// Check if we should auto-process on page load (from pagination)
-window.addEventListener('load', () => {
-  const shouldAutoProcess = sessionStorage.getItem('autoProcessNextPage');
-  if (shouldAutoProcess === 'true') {
-    console.log('Auto-processing next page...');
-    const savedIndex = sessionStorage.getItem('globalTransactionIndex');
-    if (savedIndex) {
-      globalTransactionIndex = parseInt(savedIndex, 10);
-      console.log(`Continuing from transaction index: ${globalTransactionIndex}`);
-    }
-    sessionStorage.removeItem('autoProcessNextPage'); // Remove flag
-    // Wait a moment for page to fully render
-    setTimeout(() => {
-      processOrders();
-    }, 1000);
-  }
-});
 
 function processOrders() {
   console.log('processOrders started');

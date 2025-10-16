@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Staples Page Indicator",
     "version": "1.0",
-    "permissions": ["activeTab", "tabs", "scripting", "downloads", "debugger"],
+    "permissions": ["activeTab", "tabs", "scripting", "downloads", "debugger", "contextMenus"],
     "host_permissions": ["https://www.staples.com/*"],
     "action": {
       "default_title": "On Staples Order Page",

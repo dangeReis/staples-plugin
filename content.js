@@ -176,6 +176,39 @@ function initializePage() {
   }
 }
 
+// Status tracking for popup
+let statusData = {
+  isProcessing: false,
+  currentPage: '1',
+  transactionsFound: 0,
+  scheduled: 0,
+  completed: 0,
+  total: 0
+};
+
+function sendStatusUpdate() {
+  chrome.runtime.sendMessage({
+    type: 'statusUpdate',
+    data: statusData
+  }).catch(err => {
+    // Popup might not be open, that's okay
+    console.log('Status update not sent (popup may be closed)');
+  });
+}
+
+function sendActivity(type, message) {
+  chrome.runtime.sendMessage({
+    type: 'activityUpdate',
+    activity: {
+      type,
+      message,
+      time: new Date().toLocaleTimeString()
+    }
+  }).catch(err => {
+    console.log('Activity not sent (popup may be closed)');
+  });
+}
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.message === 'iconClicked') {
     const pageType = detectPageType();
@@ -201,6 +234,9 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   } else if (request.message === 'getAutonomousStatus') {
     const autonomousMode = localStorage.getItem('staplesAutonomousMode') === 'true';
     sendResponse({ autonomousMode });
+  } else if (request.message === 'getStatus') {
+    // Send current status to popup
+    sendResponse(statusData);
   }
   return true; // Keep message channel open for async response
 });
@@ -208,6 +244,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 function stopProcessing() {
   console.log('Stopping all scheduled downloads...');
   isProcessing = false;
+  statusData.isProcessing = false;
 
   // Clear all scheduled timeouts
   scheduledTimeouts.forEach(timeoutId => clearTimeout(timeoutId));
@@ -230,11 +267,14 @@ function stopProcessing() {
   chrome.runtime.sendMessage({ message: 'cancelActiveCapturesRequested' }, (response) => {
     if (response && response.cancelled > 0) {
       console.log(`Cancelled ${response.cancelled} active PDF captures`);
+      sendActivity('info', `Cancelled ${response.cancelled} active downloads`);
     }
   });
 
   // Update icon back to normal
   chrome.runtime.sendMessage({ icon: 'active' });
+  sendStatusUpdate();
+  sendActivity('info', 'All downloads cancelled');
 
   console.log('All downloads cancelled');
 }
@@ -258,9 +298,21 @@ let navigationTimeout = null;
 function processOrders() {
   console.log('processOrders started');
   isProcessing = true;
+  statusData.isProcessing = true;
 
   // Update icon to show processing state
   chrome.runtime.sendMessage({ icon: 'processing' });
+
+  // Get pagination info
+  const paginationElement = document.querySelector('div[aria-label*="Viewing"][aria-label*="of"]');
+  if (paginationElement) {
+    const paginationText = paginationElement.getAttribute('aria-label');
+    const match = paginationText.match(/Viewing (\d+)-(\d+) of (\d+)/);
+    if (match) {
+      statusData.currentPage = `${match[1]}-${match[2]}`;
+      statusData.total = parseInt(match[3]);
+    }
+  }
 
   // Process online orders
   const onlineOrderContainers = document.querySelectorAll('[id^="ph-order-container"]');
@@ -278,6 +330,10 @@ function processOrders() {
   console.log(`Found ${instoreTransactions.length} in-store transactions on this page`);
   console.log(`Starting from global transaction index: ${globalTransactionIndex}`);
 
+  statusData.transactionsFound = instoreTransactions.length;
+  sendStatusUpdate();
+  sendActivity('info', `Found ${instoreTransactions.length} transactions on this page`);
+
   instoreTransactions.forEach((container, index) => {
     console.log(`Processing in-store transaction ${index}:`, container.id);
     const transactionData = extractInStoreTransactionData(container);
@@ -287,6 +343,8 @@ function processOrders() {
       // But pass global index for tracking/logging
       openOrderDetailsPage(transactionData, index, globalTransactionIndex);
       globalTransactionIndex++;
+      statusData.scheduled++;
+      sendStatusUpdate();
     } else {
       console.warn(`Could not extract data from in-store transaction at index ${index}.`);
     }

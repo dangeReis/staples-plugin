@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staples Receipt Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <img src="icon_active.png" alt="Staples" width="24" height="24">
+        <h1>Staples Receipts</h1>
+      </div>
+      <div class="status-badge" id="statusBadge">Ready</div>
+    </div>
+
+    <!-- Status Section -->
+    <div class="status-section">
+      <div class="stat-row">
+        <span class="stat-label">Current Page:</span>
+        <span class="stat-value" id="currentPage">-</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Transactions Found:</span>
+        <span class="stat-value" id="transactionsFound">0</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Downloads Scheduled:</span>
+        <span class="stat-value" id="downloadsScheduled">0</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Downloads Complete:</span>
+        <span class="stat-value" id="downloadsComplete">0</span>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container" id="progressContainer" style="display: none;">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-text" id="progressText">0%</div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button id="startBtn" class="btn btn-primary">
+        <span class="btn-icon">▶</span>
+        Start Download
+      </button>
+      <button id="stopBtn" class="btn btn-danger" style="display: none;">
+        <span class="btn-icon">■</span>
+        Stop
+      </button>
+    </div>
+
+    <!-- Settings -->
+    <div class="settings">
+      <div class="setting-item">
+        <label class="checkbox-label">
+          <input type="checkbox" id="autonomousMode">
+          <span class="checkmark"></span>
+          Autonomous Mode
+          <span class="help-icon" title="Automatically start downloading when you visit the orders page">?</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Recent Activity Log -->
+    <div class="activity-section">
+      <div class="activity-header">
+        <h3>Recent Activity</h3>
+        <button id="clearLog" class="btn-link">Clear</button>
+      </div>
+      <div class="activity-log" id="activityLog">
+        <div class="activity-item empty">No recent activity</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#" id="helpLink" class="footer-link">Help</a>
+        <span class="separator">•</span>
+        <a href="#" id="settingsLink" class="footer-link">Settings</a>
+      </div>
+      <div class="version">v1.0</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -220,13 +220,14 @@ body {
 
 .checkbox-label {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   cursor: pointer;
   user-select: none;
   font-size: 13px;
   position: relative;
   padding-left: 30px;
+  width: 100%;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -240,11 +241,13 @@ body {
 .checkmark {
   position: absolute;
   left: 0;
+  top: 2px;
   height: 20px;
   width: 20px;
   background-color: #eee;
   border-radius: 4px;
   transition: all 0.2s;
+  flex-shrink: 0;
 }
 
 .checkbox-label:hover input ~ .checkmark {
@@ -272,18 +275,19 @@ body {
   display: block;
 }
 
-.help-icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: #999;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 16px;
+.setting-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.help-tooltip {
   font-size: 11px;
-  cursor: help;
-  margin-left: 4px;
+  color: #666;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 2px;
+  font-style: italic;
 }
 
 /* Activity Log */

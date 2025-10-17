@@ -113,9 +113,9 @@
 ### Tests for User Story 3 (TDD - Write FIRST) ⚠️
 
 - [ ] T035 [P] [US3] Unit test for OrderDiscovery with mock DOM in tests/unit/modules/orderDiscovery.test.js
-- [ ] T036 [P] [US3] Unit test for ReceiptGenerator with mock Chrome APIs in tests/unit/modules/receiptGenerator.test.js
-- [ ] T037 [P] [US3] Unit test for StatusTracker with mock storage in tests/unit/modules/statusTracker.test.js
-- [ ] T038 [P] [US3] Unit test for DownloadScheduler with mocks in tests/unit/modules/scheduler.test.js
+- [x] T036 [P] [US3] Unit test for ReceiptGenerator with mock Chrome APIs in tests/unit/modules/receiptGenerator.test.js
+- [x] T037 [P] [US3] Unit test for StatusTracker with mock storage in tests/unit/modules/statusTracker.test.js
+- [x] T038 [P] [US3] Unit test for DownloadScheduler with mocks in tests/unit/modules/scheduler.test.js
 
 ### Implementation for User Story 3
 

@@ -94,7 +94,7 @@
 ### Implementation for User Story 2
 
 - [x] T029 [P] [US2] Implement OnlineOrderDiscovery in src/modules/orderDiscovery/online.js using interface
-- [ ] T030 [P] [US2] Implement InstoreOrderDiscovery in src/modules/orderDiscovery/instore.js using interface
+- [x] T030 [P] [US2] Implement InstoreOrderDiscovery in src/modules/orderDiscovery/instore.js using interface
 - [ ] T031 [P] [US2] Implement ChromePrintReceiptGenerator in src/modules/receiptGenerator/chromePrint.js using interface
 - [ ] T032 [US2] Create coordinator with dependency injection in src/coordinator.js
 - [ ] T033 [US2] Verify swap tests PASS (modules are 100% replaceable)

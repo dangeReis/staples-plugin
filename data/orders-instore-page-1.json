@@ -1,0 +1,1720 @@
+{
+  "page": 1,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20251004.4.23365",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T15:03:17",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVoc3BIa1dHZ3Vib2dOMjZjUE1rTm13b29Rd0h1aXA5NkVmeTNuS2ZRVEdPQlo0SnRQb2tlMCtBSTVkd2xCZXJmYklHZWZxQzJvZkh2WENIWEpMQ0U9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 40.98,
+      "orderLines": [
+        {
+          "productSku": "865670",
+          "productName": "Green Mountain Dark Magic Coffee Keurig",
+          "productShortDesc": "Green Mountain Dark Magic Coffee Keurig",
+          "productLongDesc": "Green Mountain Dark Magic Coffee Keurig",
+          "unitPrice": 76.99,
+          "orderQty": 2,
+          "originalOrderedQty": 2,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Green Mountain Dark Magic Coffee Keurig® K-Cup® Pods, Dark Roast, 96/Carton (4061)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7?$thb$",
+          "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670",
+          "model": "4061",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "865670",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 8040,
+      "pointsRedeemed": 2000,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19708",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T18:23:53",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZyOEhJbVI0cE85OHBielZiNWhpSXJDc3ZUYTZGazdXWWZYYTVTSnA1eUt0RWh4OWQxUkc2ZkxoUU9IMld1S2Q3RUNLbzBDdThpcXUveThrRzRJVlk9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.31,
+      "orderLines": [
+        {
+          "productSku": "24386293",
+          "productName": "2 PCKT HD PLYPORT",
+          "productShortDesc": "2 PCKT HD PLYPORT",
+          "productLongDesc": "2 PCKT HD PLYPORT",
+          "unitPrice": 5.39,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples Matte 2-Pocket Plastic Portfolio Folder with Fasteners, Orange (ST55474-CC)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08F49329-5860-4A7C-B87613571D617AEE_sc7?$thb$",
+          "productURL": "staples-2-pocket-plastic-portfolio-folder-with-fasteners-orange-st55474-cc/product_24386293",
+          "model": "ST55474-CC",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24386293",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24392195",
+          "productName": "8IN TITANIUM LITE",
+          "productShortDesc": "8IN TITANIUM LITE",
+          "productLongDesc": "8IN TITANIUM LITE",
+          "unitPrice": 5.31,
+          "orderQty": 2,
+          "originalOrderedQty": 2,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/27F9D3D7-B60C-4314-BA980BA912167642_sc7?$thb$",
+          "productURL": "westcott-8-titanium-multi-purpose-heavy-duty-scissor-blunt-tip-navy-17509/product_24392195",
+          "model": "17509",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24392195",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "901974",
+          "productName": "EVIAN 1LITER 12PK",
+          "productShortDesc": "EVIAN 1LITER 12PK",
+          "productLongDesc": "EVIAN 1LITER 12PK",
+          "unitPrice": 35.19,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+          "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+          "model": "EVI10000",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "901974",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 4200,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19706",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T18:11:10",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZhbGFzZVkzamRMeGRFUjRmaHF4L29nMDMwa0RpYVUxOWRVUXMxWEttR2xzQ3ZzVkxGY2NQaFFuYmh1Z3M5elVoUG5EZnEvQXhYM2VxN2wrUytOM1E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 60.96,
+      "orderLines": [
+        {
+          "productSku": "901974",
+          "productName": "EVIAN 1LITER 12PK",
+          "productShortDesc": "EVIAN 1LITER 12PK",
+          "productLongDesc": "EVIAN 1LITER 12PK",
+          "unitPrice": 35.19,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+          "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+          "model": "EVI10000",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "901974",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 63,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19629",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T13:46:08",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhrNmM3WGZCQ2xZdW1hZ1MxQlNMUkcrTWpPVVordzVBRjFOdHAyZXBrOW5xK25TbFBkWjRCUEJEcFJtajNtSEMwUlhaY0tUckdnZ05sNlJMbFYwKzQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19628",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T13:45:51",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVFU1V4bW5zUjVkMVdNaS94eC9MSWF1cS9Bb0NRZGVSeDlNU2JDSEt4S2NZNHUwSWVWVkd3dTljWmpGWTBHaWFsT1Vmd0IxQU9PMTRXT3dvMmNQWXc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 2000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19627",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T13:45:33",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREUra2JpdW5XUXo3TUU5WkhYUUtMN3VYQVNWMnl5TUVKZTNGSS9rWWFPanI1QWhyc3BaWkRRZ3lCREIvMzc3NEgyZzIwNVhxV3NrYW04Q3BtVS9XYTQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 17000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19626",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T13:45:10",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREUzdFZ2aGV4RnpBaXdtN0JOV2JTMHBFMjZ4NWh6aTBLRmxmaG5TcTBvSmNzY3A3Nm4vRVdPdDBDQ3VzQXNzYzJUNHg4WjlqZFBaYUsyc0g2clcvc1k9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250913.4.19625",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-13T13:44:47",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZTTlJ6amMvdXlDRmFIZ05VcWp5V3AxaUxOUlc5cnFoVlRVTW1RWkdPaVNPN083WC91QTNSUXNMYWtQL2tDdG8vZytvc08rZU5iZGlBc1ErK1FEenc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50187",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:18:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREU2T1BQc2FkdXczeGtyam5sQ1BCZUp3RkoxeTVtdThha0R4ekdsS2FIeG9tdzBHWjZaZTgzalpjSnpyTjBmVCt6VWptWitSN0dnRWxSRkJDYXR3a2s9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 1.03,
+      "orderLines": [
+        {
+          "productSku": "2855093",
+          "productName": "FIVESTAR SPORTS PO",
+          "productShortDesc": "FIVESTAR SPORTS PO",
+          "productLongDesc": "FIVESTAR SPORTS PO",
+          "unitPrice": 2.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BC0E1955-CF25-4D77-B813572531C1435A_sc7?$thb$",
+          "productURL": "five-star-sports-3-hole-punched-4-pocket-folder-assorted-colors-33176/product_2855093",
+          "model": "33176KBF",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2855093",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24474492",
+          "productName": "FIVESTAR BINDER XL",
+          "productShortDesc": "FIVESTAR BINDER XL",
+          "productLongDesc": "FIVESTAR BINDER XL",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+          "productURL": "five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+          "model": "50782",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24474492",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24474492",
+          "productName": "FIVESTAR BINDER XL",
+          "productShortDesc": "FIVESTAR BINDER XL",
+          "productLongDesc": "FIVESTAR BINDER XL",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+          "productURL": "five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+          "model": "50782",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24474492",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50186",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:14:56",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdZTGYwZi9xYnJDcWw4QnN5OWJXSm02VUVlbDQwTEZUSWVjVlF1R2UvZThIaE5mQ1ZOUW5OMlZGL2QvMXIrclQreThwTk9qOG90aVROZDBydEl4UnM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 2000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50185",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:14:25",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREgxZTNXOFdTVnFzeW5oQ0x6TTdBTFhvempzUDU3VUdZZnQwWlRYZWt6eGt2cjUzc0gxSm9hSm1XL3ZoNUZxejZUNmExV1k3N3N2SzNkUFNGWGNMY289",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 10000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50184",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:13:56",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREc4SXRud2tJUFZxT2RuWFcwZEt2Qnh6ZlljZmpNR1dFV2hwV2dHNE8zcy9vS2N0UHlWam1laW05anpPK1dYNmU1ZVlmNGt0YjE5eDhLVnZlTUNsYUk9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 10000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50183",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:13:22",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZMbHd4MERBcTB6TjZad2xqcTFtaDB3dVVzTEcyQmRmRDNyK09CVUxpTHA1NFNTZVFUdm9wVVBmK3dJM3JUeEF1VDFIdVhWZ3hDdmVZUFZhTWp0YnM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250824.2.50182",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-24T16:12:52",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZ2aTRLMjNxV0xqMXAvZnduZm5YTXhCMm1SbVdPbTlqbnpyZlRmWFNhc0RwOStnZURrcGloYWM0RTJWOTdiRFFBeFQvVmVOT1JNMEs5TjJpTENwNXM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250810.2.48651",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-08-10T13:08:55",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdOSWdxS1N0eUlvejcwbng0bTErbXNGU25hWk1DZDZmbTc2RHRETG9NendTNndZSmVydVp0TUlET2VLcXRkYlI0aXByckNGTmVTeklXd2hjenErcnM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 60.95,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.89,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24645505",
+          "productName": "POST-IT SS 3X3 APP",
+          "productShortDesc": "POST-IT SS 3X3 APP",
+          "productLongDesc": "POST-IT SS 3X3 APP",
+          "unitPrice": 4,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/2589312F-4253-4824-B21B0E4379FC0F4A_sc7?$thb$",
+          "productURL": "post-it-super-sticky-notes-3-x-3-assorted-bright-colors-70-sheets-pad-8-pads-pack-654-8ssap/product_24645505",
+          "model": "654-8SSAP",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24645505",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 300,
+      "pointsRedeemed": 2400,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250727.1.21701",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-27T18:06:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREg3Y0NTWVZZMlFwUVI0cFRMUm9UWEtlem5qazRnQXJMWWZZTlA4YzFuY0ZZbENxRDJDU2RTWUpDTHFHMU14WkJwaDlKZ0NZREVFMGxSK0I3UExqa3c9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.31,
+      "orderLines": [
+        {
+          "productSku": "421175",
+          "productName": "STPLS COMP POLY WR",
+          "productShortDesc": "STPLS COMP POLY WR",
+          "productLongDesc": "STPLS COMP POLY WR",
+          "unitPrice": 1.29,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples® Poly Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 80 Sheets, Color chosen at random (ST54890)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B7231C82-82D0-4E59-8E0875F3170130FF_sc7?$thb$",
+          "productURL": "staples-composition-notebook-7-5-x-9-75-wide-ruled-80-sheets-assorted-colors-st54890/product_421175",
+          "model": "ST54890C",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "421175",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24646699",
+          "productName": "PNY 16GB ATTACHE 3",
+          "productShortDesc": "PNY 16GB ATTACHE 3",
+          "productLongDesc": "PNY 16GB ATTACHE 3",
+          "unitPrice": 4.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "PNY Attaché 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+          "productURL": "pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+          "model": "P-FD16GATT3-BG",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24646699",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 200,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250727.4.9850",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-27T13:10:16",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZTVDZjRHdEV0RzQjRJYzl4WXBoQW5PNHFIYUpmTFViaTZjdHg0OXJRZmJlQUJiTlVHSXZZemV4SmhmSExWaXZIdlY5dHlKVzhDMUdVSnZYbytNZz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "430579",
+          "productName": "CV 2POCKET PAPER F",
+          "productShortDesc": "CV 2POCKET PAPER F",
+          "productLongDesc": "CV 2POCKET PAPER F",
+          "unitPrice": 0.79,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+          "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+          "model": "13017-CC",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "430579",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "430579",
+          "productName": "CV 2POCKET PAPER F",
+          "productShortDesc": "CV 2POCKET PAPER F",
+          "productLongDesc": "CV 2POCKET PAPER F",
+          "unitPrice": 0.79,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+          "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+          "model": "13017-CC",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "430579",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "430579",
+          "productName": "CV 2POCKET PAPER F",
+          "productShortDesc": "CV 2POCKET PAPER F",
+          "productLongDesc": "CV 2POCKET PAPER F",
+          "unitPrice": 0.79,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+          "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+          "model": "13017-CC",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "430579",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "430579",
+          "productName": "CV 2POCKET PAPER F",
+          "productShortDesc": "CV 2POCKET PAPER F",
+          "productLongDesc": "CV 2POCKET PAPER F",
+          "unitPrice": 0.79,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+          "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+          "model": "13017-CC",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "430579",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24646699",
+          "productName": "PNY 16GB ATTACHE 3",
+          "productShortDesc": "PNY 16GB ATTACHE 3",
+          "productLongDesc": "PNY 16GB ATTACHE 3",
+          "unitPrice": 4.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "PNY Attaché 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+          "productURL": "pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+          "model": "P-FD16GATT3-BG",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24646699",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 200,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250726.2.53077",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-26T13:43:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVKUitucTd3VlF4Q1pQeXVPQXNNdWNyWlFPbXJHRWRJT3ZkWXdnR3NUZit1eUhPRU5kSWc2NFZ5cEtHWVc1VUhXYW9KdHU4VlRWUFFsTGYwYkZhQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 216.7,
+      "orderLines": [
+        {
+          "productSku": "1635472",
+          "productName": "KCUP GM DK MAGIC B",
+          "productShortDesc": "KCUP GM DK MAGIC B",
+          "productLongDesc": "KCUP GM DK MAGIC B",
+          "unitPrice": 38.99,
+          "orderQty": 3,
+          "originalOrderedQty": 3,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Green Mountain Dark Magic Coffee Keurig® K-Cup® Pods, Dark Roast, 48/Box (81911/15171)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E0D3945B-DE49-4AE6-A36DF27666CB0DA0_sc7?$thb$",
+          "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-48-box-81911-15171/product_1635472",
+          "model": "5000356566",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1635472",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 9944,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250713.2.47075",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-13T16:02:21",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREd6blJXc3d1RzNxTkkreDE5azNWcEc5dXlPK1Jjd2dacnFHNFY0R0t6aTMxd1l4L1hJVEpCWnAvZHZIelgyVHRrVDFXOXBVcHlkWjhRSWFjZGpxMzQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 9.56,
+      "orderLines": [
+        {
+          "productSku": "901974",
+          "productName": "EVIAN 1LITER 12PK",
+          "productShortDesc": "EVIAN 1LITER 12PK",
+          "productLongDesc": "EVIAN 1LITER 12PK",
+          "unitPrice": 35.19,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+          "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+          "model": "EVI10000",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "901974",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 81,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250713.2.15698",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-13T15:37:03",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREg5Zm9nQkRNd2VOT0dlZzRidi9wQXQyVVZLVGp2TnpDb0drS2FUMTFvODBYTzUyWitscCtlNGd0eXZJM250VUo0aUx1SE1VRHZmbERZNHVHOHlmRzA9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 50.97,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 3,
+          "originalOrderedQty": 3,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 2550,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250705.4.6117",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-05T18:31:15",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREU1ZDlyT1gzSCtnaENTR1JqVEZrdWtjSUZndXAzL3dEeHRYNzFSNWc5RWdCZnBkcmtmNkhVNDRLR09QMlRvaXlRSEh6dGVaMHRUdG92ZEdtOVlPQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250705.4.6116",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-05T18:30:49",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdzaFdUYmZFRytIam8rSXZtZ3piUGdocjlBVWVxNHNkSjA5cUcxRkJ1ZlhYVjZQa2pHamorSGlnNzhXOEVmQXNRK0poUkVSUU5UL243dytjdnh6Zz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 24000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250705.4.6115",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-05T18:30:24",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREgxTjhDZWYvdTZxWkpzbVdpTnZ2anNLcVRQQ2Z3MVdtb3pYWnlzVURlckc3eHdialZPWm5hUTZWY1ZxZHp0Q2hVY2xQczZzallzTjY5QWtndGhLdz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 24000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250705.4.6114",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-05T18:29:48",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREUycS9OUk9VSFdKd3JQbE1nMUlDR1l4NTZrdXdBRlh4aXVaVWlEQTVKSjFXb0Y3Sy91UU1zZTUxL2dZaTE5ekQ1OVhpU2VXNi9EVEY4SUR5NHFMdz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250705.4.6113",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-07-05T18:29:27",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZZcXF0d1VUTDUwdmdHOVdhNzNiRnAwR2syZVI4eGtvTHlpNUNWSDY5RnVFazRreEdxT3FDSE8zV0xVbHRObEF3TythVUljUFdrS2tObkNtbWVodz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    }
+  ],
+  "totalResults": 152,
+  "fetchedAt": "2025-10-17T00:58:27.092Z"
+}

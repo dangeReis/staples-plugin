@@ -15,12 +15,14 @@ const progressFill = document.getElementById('progressFill');
 const progressText = document.getElementById('progressText');
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
+const fetchOrdersBtn = document.getElementById('fetchOrdersBtn');
 const retryBtn = document.getElementById('retryBtn');
 const retrySection = document.getElementById('retrySection');
 const retryCount = document.getElementById('retryCount');
 const autonomousMode = document.getElementById('autonomousMode');
 const printWithImages = document.getElementById('printWithImages');
 const onlineOrderPrint = document.getElementById('onlineOrderPrint');
+const autoExportJson = document.getElementById('autoExportJson');
 const activityLog = document.getElementById('activityLog');
 const clearLog = document.getElementById('clearLog');
 
@@ -60,6 +62,9 @@ async function init() {
 
   const onlineOrderPrintSetting = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
   onlineOrderPrint.checked = onlineOrderPrintSetting;
+
+  const autoExportJsonSetting = localStorage.getItem('staplesAutoExportJson') !== 'false'; // Default true
+  autoExportJson.checked = autoExportJsonSetting;
 
   // Get current status from content script
   try {
@@ -162,6 +167,38 @@ function setupEventListeners(tabId) {
     }
   });
 
+  // Fetch order details button
+  fetchOrdersBtn.addEventListener('click', async () => {
+    console.log('Fetch order details button clicked');
+    try {
+      fetchOrdersBtn.disabled = true;
+      fetchOrdersBtn.innerHTML = '<span class="btn-icon">⏳</span> Fetching...';
+
+      await chrome.tabs.sendMessage(tabId, { message: 'fetchOrderDetails' });
+
+      addActivity({
+        type: 'info',
+        message: 'Fetching order details from API...',
+        time: new Date().toLocaleTimeString()
+      });
+
+      // Re-enable button after a delay
+      setTimeout(() => {
+        fetchOrdersBtn.disabled = false;
+        fetchOrdersBtn.innerHTML = '<span class="btn-icon">📊</span> Export All Orders (JSON)';
+      }, 5000);
+    } catch (err) {
+      console.error('Error fetching order details:', err);
+      fetchOrdersBtn.disabled = false;
+      fetchOrdersBtn.innerHTML = '<span class="btn-icon">📊</span> Export All Orders (JSON)';
+      addActivity({
+        type: 'error',
+        message: 'Failed to fetch order details',
+        time: new Date().toLocaleTimeString()
+      });
+    }
+  });
+
   // Autonomous mode toggle
   autonomousMode.addEventListener('change', async (e) => {
     const enabled = e.target.checked;
@@ -222,6 +259,27 @@ function setupEventListeners(tabId) {
       });
     } catch (err) {
       console.error('Error toggling online order print:', err);
+    }
+  });
+
+  // Auto-export JSON toggle
+  autoExportJson.addEventListener('change', async (e) => {
+    const enabled = e.target.checked;
+    localStorage.setItem('staplesAutoExportJson', enabled.toString());
+
+    try {
+      await chrome.tabs.sendMessage(tabId, {
+        message: 'toggleAutoExportJson',
+        enabled
+      });
+
+      addActivity({
+        type: 'info',
+        message: `Auto-export JSON ${enabled ? 'enabled' : 'disabled'}`,
+        time: new Date().toLocaleTimeString()
+      });
+    } catch (err) {
+      console.error('Error toggling auto-export JSON:', err);
     }
   });
 

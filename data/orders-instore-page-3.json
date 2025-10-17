@@ -1,0 +1,2204 @@
+{
+  "page": 3,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250402.4.90466",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-02T19:43:40",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVYOGdEaTJ2bjVSaklnZUc5Y2FhaWxlZi9GU3IxcW9FVkFkNEVMZ2ZWMzJTTkVmck85NElTTFVYZ1NvaDY4UHpmL0xnaHg2SU9nakt4ZXZTNnN4SUk9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 7.45,
+      "orderLines": [
+        {
+          "productSku": "24580025",
+          "productName": "APPLE AIRPODS PRO",
+          "productShortDesc": "APPLE AIRPODS PRO",
+          "productLongDesc": "APPLE AIRPODS PRO",
+          "unitPrice": 209,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB‑C, White (MTJV3LL/A)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+          "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+          "model": "MTJV3LL/A",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24580025",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24573908",
+          "productName": "65W GAN SLIM PD3.0",
+          "productShortDesc": "65W GAN SLIM PD3.0",
+          "productLongDesc": "65W GAN SLIM PD3.0",
+          "unitPrice": 49.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$thb$",
+          "productURL": "j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908",
+          "model": "JUP2465",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24573908",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24580025",
+          "productName": "APPLE AIRPODS PRO",
+          "productShortDesc": "APPLE AIRPODS PRO",
+          "productLongDesc": "APPLE AIRPODS PRO",
+          "unitPrice": 209,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB‑C, White (MTJV3LL/A)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+          "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+          "model": "MTJV3LL/A",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24580025",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250329.2.1645",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-29T18:36:42",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhEM3B0cUpGaFp2YzFUQXVqU2M1cHR0aUNENGtpRU54K2xYZGcwZ2k1V2F6YWRsQWllWjB3Q1RiQXA3Y2ZMQ2hEQXQzK3VpLzlvUDBjSFZQVjY5dz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 44.2,
+      "orderLines": [
+        {
+          "productSku": "24572587",
+          "productName": "J5 USBC 100W SYNC",
+          "productShortDesc": "J5 USBC 100W SYNC",
+          "productLongDesc": "J5 USBC 100W SYNC",
+          "unitPrice": 14.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+          "productURL": "j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+          "model": "JUCX25L18",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24572587",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24572587",
+          "productName": "J5 USBC 100W SYNC",
+          "productShortDesc": "J5 USBC 100W SYNC",
+          "productLongDesc": "J5 USBC 100W SYNC",
+          "unitPrice": 14.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+          "productURL": "j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+          "model": "JUCX25L18",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24572587",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "265574",
+          "productName": "AIRHEADS XTREMES B",
+          "productShortDesc": "AIRHEADS XTREMES B",
+          "productLongDesc": "AIRHEADS XTREMES B",
+          "unitPrice": 3.49,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp62655931_sc7?$thb$",
+          "productURL": "airheads-xtremes-bites-chewy-gummy-rainbow-berry-6-oz-ahxbites12/product_265574",
+          "model": "AHXBITES12",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "265574",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "482898",
+          "productName": "GLAD DS TRASH BAGS",
+          "productShortDesc": "GLAD DS TRASH BAGS",
+          "productLongDesc": "GLAD DS TRASH BAGS",
+          "unitPrice": 21.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Glad 13 Gallon Trash Bag, 8.5\"x8.5\", Low Density, .72 mil, White, 100 Bags/Box (CLO 78526)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/53B6F749-7B7C-4A72-B861B81C528A4C46_sc7?$thb$",
+          "productURL": "cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+          "model": "CLO 78526",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "482898",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24580006",
+          "productName": "BOSE QC ULTRA EARB",
+          "productShortDesc": "BOSE QC ULTRA EARB",
+          "productLongDesc": "BOSE QC ULTRA EARB",
+          "unitPrice": 267.65,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$thb$",
+          "productURL": "bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006",
+          "model": "882826-0010",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24580006",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24590914",
+          "productName": "POKEMON CARDS",
+          "productShortDesc": "POKEMON CARDS",
+          "productLongDesc": "POKEMON CARDS",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "POKEMON CARDS",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 1,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250329.6.10404",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-29T15:20:05",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVQdERoNFF4ZnlUOXpod1EyTUxCSVhwK2dLbnpsWGNCM3gxSXprN2NVSFl1RDgrM2xlRVRkOXB5WnZMNGtyaWJUR1N6Z0syMWtFZlVyNnlvYk96UT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.74,
+      "orderLines": [
+        {
+          "productSku": "24580025",
+          "productName": "APPLE AIRPODS PRO",
+          "productShortDesc": "APPLE AIRPODS PRO",
+          "productLongDesc": "APPLE AIRPODS PRO",
+          "unitPrice": 249,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB‑C, White (MTJV3LL/A)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+          "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+          "model": "MTJV3LL/A",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24580025",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24584663",
+          "productName": "STPLS TECH USBC-C",
+          "productShortDesc": "STPLS TECH USBC-C",
+          "productLongDesc": "STPLS TECH USBC-C",
+          "unitPrice": 12.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+          "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+          "model": "ST62335",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24584663",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24584663",
+          "productName": "STPLS TECH USBC-C",
+          "productShortDesc": "STPLS TECH USBC-C",
+          "productLongDesc": "STPLS TECH USBC-C",
+          "unitPrice": 12.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+          "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+          "model": "ST62335",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24584663",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24584664",
+          "productName": "STPLS TECH C-C BRA",
+          "productShortDesc": "STPLS TECH C-C BRA",
+          "productLongDesc": "STPLS TECH C-C BRA",
+          "unitPrice": 15.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+          "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+          "model": "ST62336",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24584664",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24387496",
+          "productName": "SISTEMA SALAD",
+          "productShortDesc": "SISTEMA SALAD",
+          "productLongDesc": "SISTEMA SALAD",
+          "unitPrice": 11.49,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+          "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+          "model": "21356ZS",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24387496",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24387496",
+          "productName": "SISTEMA SALAD",
+          "productShortDesc": "SISTEMA SALAD",
+          "productLongDesc": "SISTEMA SALAD",
+          "unitPrice": 11.49,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+          "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+          "model": "21356ZS",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24387496",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "485999",
+          "productName": "FELLOWES FOOTREST",
+          "productShortDesc": "FELLOWES FOOTREST",
+          "productLongDesc": "FELLOWES FOOTREST",
+          "unitPrice": 28.44,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Fellowes Standard Footrest, Graphite (48121)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+          "productURL": "fellowes-standard-footrests-graphite-48121/product_485999",
+          "model": "48121",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "485999",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250327.4.89424",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-27T21:01:26",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZwWkJ1OTcvZWJnQ05lS3lwNjM1R2N4WWV1UWdoQ001RmF4emprNG9UKzVXdm1tQmM4VXVBV1pnbWlhT2lkMkhaSnEyUXZ2dnAwNDVvQ1hhaTd5YUk9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.28,
+      "orderLines": [
+        {
+          "productSku": "2841782",
+          "productName": "WOVEN STRAP LG ESP",
+          "productShortDesc": "WOVEN STRAP LG ESP",
+          "productLongDesc": "WOVEN STRAP LG ESP",
+          "unitPrice": 16.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$thb$",
+          "productURL": "kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782",
+          "model": "25091-CHOCO-ST",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2841782",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "319320",
+          "productName": "SOUR PATCH KIDS 3.",
+          "productShortDesc": "SOUR PATCH KIDS 3.",
+          "productLongDesc": "SOUR PATCH KIDS 3.",
+          "unitPrice": 2.29,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$thb$",
+          "productURL": "cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320",
+          "model": "SPK12",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "319320",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "485949",
+          "productName": "SCOTCH INT/EXT MNT",
+          "productShortDesc": "SCOTCH INT/EXT MNT",
+          "productLongDesc": "SCOTCH INT/EXT MNT",
+          "unitPrice": 29.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+          "productURL": "scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+          "model": "4011-LONG",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "485949",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "485949",
+          "productName": "SCOTCH INT/EXT MNT",
+          "productShortDesc": "SCOTCH INT/EXT MNT",
+          "productLongDesc": "SCOTCH INT/EXT MNT",
+          "unitPrice": 29.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+          "productURL": "scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+          "model": "4011-LONG",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "485949",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250322.2.744",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-22T16:36:24",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREUyZzNyYS9BN1ZuZFV3a2hWcUtWc2ZGRU45THp6SXY0OCtYdWJ0MXJlRUh1bmlXTHBXMFB3NnA4R29Ua0Q4YkpPUGx2RlBjSGZRZXNxMklZTUs=",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 1,
+      "orderLines": [
+        {
+          "productSku": "24561375",
+          "productName": "CASCADE PLAT PLUS",
+          "productShortDesc": "CASCADE PLAT PLUS",
+          "productLongDesc": "CASCADE PLAT PLUS",
+          "unitPrice": 21.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+          "productURL": "cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+          "model": "57893/6156",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24561375",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24561375",
+          "productName": "CASCADE PLAT PLUS",
+          "productShortDesc": "CASCADE PLAT PLUS",
+          "productLongDesc": "CASCADE PLAT PLUS",
+          "unitPrice": 21.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+          "productURL": "cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+          "model": "57893/6156",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24561375",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24461600",
+          "productName": "JLAB STUDIO ONEAR",
+          "productShortDesc": "JLAB STUDIO ONEAR",
+          "productLongDesc": "JLAB STUDIO ONEAR",
+          "unitPrice": 19.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$thb$",
+          "productURL": "jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600",
+          "model": "HASTUDIORBLK4",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24461600",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24592536",
+          "productName": "360 5FT C-C CABLE",
+          "productShortDesc": "360 5FT C-C CABLE",
+          "productLongDesc": "360 5FT C-C CABLE",
+          "unitPrice": 29.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$thb$",
+          "productURL": "360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536",
+          "model": "3E0793-GRG8NA",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24592536",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24584664",
+          "productName": "STPLS TECH C-C BRA",
+          "productShortDesc": "STPLS TECH C-C BRA",
+          "productLongDesc": "STPLS TECH C-C BRA",
+          "unitPrice": 15.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+          "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+          "model": "ST62336",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24584664",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24592535",
+          "productName": "360 5FT C-C CABLE",
+          "productShortDesc": "360 5FT C-C CABLE",
+          "productLongDesc": "360 5FT C-C CABLE",
+          "unitPrice": 29.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$thb$",
+          "productURL": "360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535",
+          "model": "3E0793-PDW8NA",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24592535",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250320.2.396",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-20T17:59:03",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdZZDM0UVAzUkhmME41YVVDdjkreGZGTWpwZERtUG04azk3cmpqWm8wWWh5MG8zTWhBWGpZakJOZHE3ZGJ2NkRmVkFqRkpVUEJ1anJ0ekpzMjI=",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 1.06,
+      "orderLines": [
+        {
+          "productSku": "24552240",
+          "productName": "CASC AP FR SC 105C",
+          "productShortDesc": "CASC AP FR SC 105C",
+          "productLongDesc": "CASC AP FR SC 105C",
+          "unitPrice": 27.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$thb$",
+          "productURL": "cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240",
+          "model": "3700028028",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details",
+            "type": "DISCONTINUED",
+            "displayName": "Discontinued",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "",
+            "actionLabel": "expertsSuggest",
+            "altProducts": [
+              "24561371"
+            ],
+            "limitedQtyTxt": "Limited quantities"
+          },
+          "itemId": "24552240",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250320.2.395",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-20T17:58:04",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZHYUhtMnI0SXVETEpsQXkwTkd0L2JjYXNIY0RCZ0I2WmppRVpuL1k4Y0s5NWZWM0Qxc296U0xrSjNXZFo4RWtIRStyMGZBcVZaRnZSMzd1VEw=",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 1.06,
+      "orderLines": [
+        {
+          "productSku": "24552240",
+          "productName": "CASC AP FR SC 105C",
+          "productShortDesc": "CASC AP FR SC 105C",
+          "productLongDesc": "CASC AP FR SC 105C",
+          "unitPrice": 27.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$thb$",
+          "productURL": "cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240",
+          "model": "3700028028",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details",
+            "type": "DISCONTINUED",
+            "displayName": "Discontinued",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "",
+            "actionLabel": "expertsSuggest",
+            "altProducts": [
+              "24561371"
+            ],
+            "limitedQtyTxt": "Limited quantities"
+          },
+          "itemId": "24552240",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.213.20250315.1.36709",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-15T18:24:41",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdyNXZsekVTK3laaGMySUVIUXNvTkhMRnpaQm1BbjAvUmpDd29yL0NaZW53VUJWRUJCNHB6OHExa0hPeHN4bWd2azQrOHNFZXM3bmliOTNuVFZXRkE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.49,
+      "orderLines": [
+        {
+          "productSku": "24413845",
+          "productName": "3D DISPLAY BOARD 3",
+          "productShortDesc": "3D DISPLAY BOARD 3",
+          "productLongDesc": "3D DISPLAY BOARD 3",
+          "unitPrice": 1.46,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "3D DISPLAY BOARD 3",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "213",
+      "storeAddressLine1": "653 W Edgar Rd",
+      "storeCity": "LINDEN",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 200,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.161.20250314.2.81787",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-14T21:05:10",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdlUXZFTG1oaWVOT3Z2UzdYNWVNUW5BUFUwMExFdVhGSUVaTkJIeXFPczJFZjEzVGgvVThJMFJmYlVSa1VtcmVDdHAwMVhtNUtSVVVwdndWZkVrKzA9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.02,
+      "orderLines": [
+        {
+          "productSku": "742295",
+          "productName": "24X16X10 LARGE REC",
+          "productShortDesc": "24X16X10 LARGE REC",
+          "productLongDesc": "24X16X10 LARGE REC",
+          "unitPrice": 5.5,
+          "orderQty": 5,
+          "originalOrderedQty": 5,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "24\" x 10\" x 16\" Shipping Boxes (ST55963)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$thb$",
+          "productURL": "staples-24-x-16-x-10-32-ect-box-each/product_742295",
+          "model": "ST55963",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "742295",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "742293",
+          "productName": "16X12X10 RECTANGLE",
+          "productShortDesc": "16X12X10 RECTANGLE",
+          "productLongDesc": "16X12X10 RECTANGLE",
+          "unitPrice": 3.5,
+          "orderQty": 6,
+          "originalOrderedQty": 6,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "16 \" x 12 \" x 10 \" Shipping Box, 32 ECT, Brown (10023)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$thb$",
+          "productURL": "16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293",
+          "model": "ST55961",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "742293",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "1989257",
+          "productName": "12X9X9 RECTANGLE B",
+          "productShortDesc": "12X9X9 RECTANGLE B",
+          "productLongDesc": "12X9X9 RECTANGLE B",
+          "unitPrice": 3,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "12\" x 9\" x 9\" Shipping Boxes (ST55968)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0193773_sc7?$thb$",
+          "productURL": "staples-12-x-9-x-9-32-ect-box-each/product_1989257",
+          "model": "ST55968",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1989257",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "161",
+      "storeAddressLine1": "280 Rte 17, Suite 197",
+      "storeCity": "EAST RUTHERFORD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 3600,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85628",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T20:24:49",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhqS095Nm9JNWZjSWNJY1liS1dzZktJTytnRHZ4L2ZLTnZ6bVkyTDZGRyt2UjEvTitzUHEyc3hCaHNtd1FpUU1aVmswYUh0NmlYVWVIK2V4bXhEY009",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 52.11,
+      "orderLines": [
+        {
+          "productSku": "062171",
+          "productName": "DURACELL ION RECHA",
+          "productShortDesc": "DURACELL ION RECHA",
+          "productLongDesc": "DURACELL ION RECHA",
+          "unitPrice": 21.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "DURACELL ION RECHA",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "062171",
+          "productName": "DURACELL ION RECHA",
+          "productShortDesc": "DURACELL ION RECHA",
+          "productLongDesc": "DURACELL ION RECHA",
+          "unitPrice": 21.99,
+          "orderQty": 3,
+          "originalOrderedQty": 3,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "DURACELL ION RECHA",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 9648,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85611",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T19:07:21",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhiTHJBeHQ0eHpLTUtuSmFRU1EvSmdLR1JhcDIrNzVJNEpQdDlVcy83OEM3OFlSRFJ3WGJiSW1Icm1adEcwbDdvaEhHTXB6Uk81K201YWtVYzI3Z1k9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85610",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T19:06:57",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREV5eWlxdkVFeWpYYnRiZVJqeDRnWkEvdVAyVnlNNmxJQ0Y1L3FvZFI4YzYrZm5hdlhRdjdBcnIwMGZLc20yTDMzTnl4TDFNTkVXYmlPV1VwMWlDMGc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85609",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T19:06:37",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdWd2FaWFdncHg4Wjlma1dSQWpIdFpFaGlTUnA5V1NoUUxtTWxZVTNkRmxMZGw1bHgvMmJsYVF1R1l6OTVTTS9Ib05oZGI4dkV5d2J3Q2tIZnA5V3M9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85608",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T19:06:13",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZTVS9UZzZsckY3dEcvZW9jWjZiMW5MZkFEM0tRbElFWTdVYS9CTUcwZVlDRHp2cHI2RFRDTFdmeFowWVk4blJhTlJLRzRPQjdYTy9iRzRsMkxYVDQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250306.4.85607",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T19:05:50",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhVUityTjAvcWVid092Ty9DQmphaWVVcnhQMzJIMGRHSmwrTVc1c2Q3ZXd0L1c0eUNrTDVUZExzQWQ5STlaWS85a2djL1E0aEwwMkxiNCtnM2NvVHc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250222.2.96117",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-22T18:46:20",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREYyU0tHMUYrNng5RjdxS09uZkx0NzhNdklyN3BLTEpyQyt0WlhTWTJTMExQQnZ6U1d2MDdCa0tJRmw4Q1JqUXdIejN0L2VYUGI5Q1prZWdmbW9oMEU9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250222.2.96113",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-22T18:40:06",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZrKzYxb251N3R1YlhxUWp0OFExU2RPRjAwSi91NzhsSXhZUnhZRVNidDBLNjEzMURneUhVMjlEeWE0U2ZvR3FveEhnMGU5aTRzSWRVeWJIN0c4N1E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 100.95,
+      "orderLines": [
+        {
+          "productSku": "2847075",
+          "productName": "BOUNTY SAS DOUBLE",
+          "productShortDesc": "BOUNTY SAS DOUBLE",
+          "productLongDesc": "BOUNTY SAS DOUBLE",
+          "unitPrice": 25.99,
+          "orderQty": 3,
+          "originalOrderedQty": 3,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$thb$",
+          "productURL": "bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075",
+          "model": "57053/61305",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2847075",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 29.24,
+          "orderQty": 2,
+          "originalOrderedQty": 2,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 8950,
+      "pointsRedeemed": 400,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250208.2.32347",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T10:20:23",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZtSG1udFFpQkp2WHFEaGxLM2E4TmhFVG1jKzNoS252b2pnOHVhandjb2lRYk9vODRzMTNyaDB4SStGMkhTUDgxNzZ0VmZRZXpISHhBeXpGSVYyQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250208.2.32346",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T10:20:03",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZHRmw3T2srTFp0N0Z3TDROMmNhTVNOV05CZ1FjcUp6Z096YjZXckowNEVGc2EyUUFlNGFxTkhvOVVpeUU0c2RzYzRRajZnNTZVZlhHajdhS0xhZz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250208.2.32345",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T10:19:41",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZpNlp0ektiZ3lCTGhlam1KcmxTVlR5NWRWQ0FUMGNyNC8xOXJEMkRsU3ZDSjU3R0V1R1huazFxY3BiYSszTm13ZlhJMVFCVjBKVkh1UDRBZzg3dz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 1500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.39.20250208.2.32344",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T10:19:18",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREcra1B4a1B1aW9UejdrYU1FTk5VTmRkYnRYbG54OXloa1h2a1hncStXdHg4YnY2QmNDeEk5L0hJUk40QU5aNXZ2MGRiOHVjUlNGVEZLK3pjbzVudz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 1500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250125.4.79018",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-01-25T16:29:47",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZibUUrYmRRVFdadXFtN3RLTGVyaFc5dVBpamtpTkJ6RWQ0cmE5ZVNCNXBrNXArMnFlaUV1aHJxOTJ3TEcwWlVFaWJFTW5BNkJJQUd6dHM3UkFScWc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250125.4.79017",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-01-25T16:29:23",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZ0aW13K25NeGFxWTFoQzNBZk15TU8xS2hqY1JMaFFhV1JSWmRRRDQxOThOL01Ndld3VWFqengwYk1PRDFoZXRTd1ZjYm1HT1RwK1hSZ1cxUlNPdWM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 1000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.542.20250125.4.79016",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-01-25T16:28:59",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREgxaEdldGRCM1hnVDM5OVJveU5zb0NvUXpjVE0zZzlQTGp3YnhtMGhla0dFQUM5V2VJVkNKNlF1dVV1M0t0bXd1eUpVQkVoYTRtRTlmR1BlR0ZTVGM9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20250104.2.88263",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-01-04T16:55:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZHY2VCbHMwMjBCcVFvcVJubUZqZENWcFAvSjlpWXVwV2kraHlQK0FyWWR0NDBiNjVrRFZ0Wm9SYzloYzFyU0JoYzFESFJlWHpxdlhqZFQ2azJyemc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 50.96,
+      "orderLines": [
+        {
+          "productSku": "1666504",
+          "productName": "KCUP CAFE BUSTELO",
+          "productShortDesc": "KCUP CAFE BUSTELO",
+          "productLongDesc": "KCUP CAFE BUSTELO",
+          "unitPrice": 17.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig® K-Cup® Pods, Medium Roast, 24/Box (6107)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+          "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+          "model": "5000330301",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1666504",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "1666504",
+          "productName": "KCUP CAFE BUSTELO",
+          "productShortDesc": "KCUP CAFE BUSTELO",
+          "productLongDesc": "KCUP CAFE BUSTELO",
+          "unitPrice": 17.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig® K-Cup® Pods, Medium Roast, 24/Box (6107)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+          "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+          "model": "5000330301",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1666504",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "1666504",
+          "productName": "KCUP CAFE BUSTELO",
+          "productShortDesc": "KCUP CAFE BUSTELO",
+          "productLongDesc": "KCUP CAFE BUSTELO",
+          "unitPrice": 17.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig® K-Cup® Pods, Medium Roast, 24/Box (6107)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+          "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+          "model": "5000330301",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1666504",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "1666504",
+          "productName": "KCUP CAFE BUSTELO",
+          "productShortDesc": "KCUP CAFE BUSTELO",
+          "productLongDesc": "KCUP CAFE BUSTELO",
+          "unitPrice": 17.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig® K-Cup® Pods, Medium Roast, 24/Box (6107)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+          "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+          "model": "5000330301",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "1666504",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 10050,
+      "pointsRedeemed": 2200,
+      "returnable": false,
+      "cancelable": false
+    }
+  ],
+  "totalResults": 152,
+  "fetchedAt": "2025-10-17T01:02:39.211Z"
+}

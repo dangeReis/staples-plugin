@@ -65,7 +65,64 @@ window.addEventListener('popstate', () => {
   handleUrlChange(location.href);
 });
 
-console.log('All URL detection strategies initialized');
+// Strategy 4: Listen for hashchange (some SPAs use this)
+window.addEventListener('hashchange', () => {
+  console.log('*** HASHCHANGE EVENT ***', location.href);
+  handleUrlChange(location.href);
+});
+
+// Strategy 5: Watch for specific DOM elements that indicate page type change
+const pageTypeObserver = new MutationObserver(() => {
+  const currentUrl = location.href;
+
+  // Check if we have in-store transaction elements
+  const hasInstoreTransactions = document.querySelector('[id^="ph-order-ordernumber-POS"]');
+  // Check if we have online order elements
+  const hasOnlineOrders = document.querySelector('[id^="ph-order-container"]');
+
+  // Determine expected URL based on DOM content
+  let expectedUrlPattern = null;
+  if (hasInstoreTransactions && !hasOnlineOrders) {
+    expectedUrlPattern = '/ptd/myorders/instore';
+  } else if (hasOnlineOrders && !hasInstoreTransactions) {
+    expectedUrlPattern = '/ptd/myorders';
+  }
+
+  if (expectedUrlPattern) {
+    const urlMatches = currentUrl.includes(expectedUrlPattern);
+
+    if (!urlMatches) {
+      console.log('*** DOM-BASED PAGE TYPE MISMATCH DETECTED ***');
+      console.log('Expected URL pattern:', expectedUrlPattern);
+      console.log('Current URL:', currentUrl);
+      console.log('Has in-store transactions:', !!hasInstoreTransactions);
+      console.log('Has online orders:', !!hasOnlineOrders);
+      console.log('Forcing handleUrlChange...');
+
+      // Force a URL change check
+      handleUrlChange(currentUrl);
+    }
+
+    // Also force update if URL changed but lastUrl wasn't updated
+    if (currentUrl !== lastUrl) {
+      console.log('*** PAGE TYPE OBSERVER DETECTED URL MISMATCH ***');
+      console.log('lastUrl:', lastUrl);
+      console.log('currentUrl:', currentUrl);
+      lastUrl = currentUrl;
+      handleUrlChange(currentUrl);
+    }
+  }
+});
+
+// Observe the main content area for order elements
+const mainContent = document.querySelector('main') || document.body;
+pageTypeObserver.observe(mainContent, {
+  subtree: true,
+  childList: true,
+  attributes: false
+});
+
+console.log('All URL detection strategies initialized (including hashchange and DOM-based)');
 
 // Strategy 4: Watch pagination element for changes (indicates page navigation in SPA)
 let lastPaginationText = '';
@@ -101,6 +158,8 @@ console.log('Pagination observer set up');
 function handleUrlChange(currentUrl) {
   console.log('=== HANDLING URL CHANGE ===');
   console.log('URL:', currentUrl);
+  console.log('Is in-store orders:', currentUrl.includes('/ptd/myorders/instore'));
+  console.log('Is online orders:', currentUrl.includes('/ptd/myorders') && !currentUrl.includes('/ptd/myorders/instore'));
 
   // Use a small delay to ensure the page context is ready
   setTimeout(() => {
@@ -254,6 +313,9 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   } else if (request.message === 'retryFailed') {
     retryFailedDownloads();
     sendResponse({ action: 'retrying' });
+  } else if (request.message === 'fetchOrderDetails') {
+    fetchOrderDetails();
+    sendResponse({ action: 'fetching' });
   } else if (request.message === 'togglePrintWithImages') {
     const currentMode = localStorage.getItem('staplesPrintWithImages') !== 'false';
     const newMode = !currentMode;
@@ -266,6 +328,12 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     localStorage.setItem('staplesOnlineOrderPrint', newMode.toString());
     console.log(`Online order print mode ${newMode ? 'ENABLED' : 'DISABLED'}`);
     sendResponse({ onlineOrderPrint: newMode });
+  } else if (request.message === 'toggleAutoExportJson') {
+    const currentMode = localStorage.getItem('staplesAutoExportJson') !== 'false';
+    const newMode = !currentMode;
+    localStorage.setItem('staplesAutoExportJson', newMode.toString());
+    console.log(`Auto-export JSON ${newMode ? 'ENABLED' : 'DISABLED'}`);
+    sendResponse({ autoExportJson: newMode });
   } else if (request.message === 'downloadComplete') {
     // Notification from background that a download completed
     statusData.completed++;
@@ -345,7 +413,7 @@ let isProcessing = false;
 let scheduledTimeouts = [];
 let navigationTimeout = null;
 
-function processOrders() {
+async function processOrders() {
   console.log('processOrders started');
   isProcessing = true;
   statusData.isProcessing = true;
@@ -355,23 +423,47 @@ function processOrders() {
 
   // Get pagination info
   const paginationElement = document.querySelector('div[aria-label*="Viewing"][aria-label*="of"]');
+  let currentPageNum = 1;
   if (paginationElement) {
     const paginationText = paginationElement.getAttribute('aria-label');
     const match = paginationText.match(/Viewing (\d+)-(\d+) of (\d+)/);
     if (match) {
       statusData.currentPage = `${match[1]}-${match[2]}`;
       statusData.total = parseInt(match[3]);
+      // Calculate current page number (e.g., 1-25 = page 1, 26-50 = page 2)
+      const startItem = parseInt(match[1]);
+      currentPageNum = Math.ceil(startItem / 25);
     }
+  }
+
+  // Fetch and save JSON data for current page (if enabled)
+  const autoExportJson = localStorage.getItem('staplesAutoExportJson') !== 'false'; // Default true
+  if (autoExportJson) {
+    await fetchCurrentPageOrderDetails(currentPageNum);
   }
 
   // Process online orders
   const onlineOrderContainers = document.querySelectorAll('[id^="ph-order-container"]');
+  console.log(`Found ${onlineOrderContainers.length} online orders on this page`);
   onlineOrderContainers.forEach((container, index) => {
+    console.log(`Processing online order ${index}:`, container.id);
     const orderData = extractOrderData(container);
     if (orderData) {
+      console.log(`Extracted online order data:`, orderData);
       sendDownloadRequest(orderData, index);
     } else {
-      console.warn(`Could not extract data from online order at index ${index}.`);
+      console.error(`Could not extract data from online order at index ${index}.`);
+      // Debug: Log what we found for each field
+      const orderNumberElement = container.querySelector('a[aria-label^="Order number"]');
+      const orderDateElement = container.querySelector('div[aria-label^="Order date"]');
+      const receiptLinkElement = container.querySelector('a[aria-label^="View receipt for order number"]');
+      console.error('Debug extraction:', {
+        containerId: container.id,
+        orderNumber: orderNumberElement ? orderNumberElement.textContent : 'NOT FOUND',
+        orderDate: orderDateElement ? orderDateElement.textContent : 'NOT FOUND',
+        receiptLink: receiptLinkElement ? receiptLinkElement.href : 'NOT FOUND',
+        containerHTML: container.innerHTML.substring(0, 500) // First 500 chars
+      });
     }
   });
 
@@ -428,14 +520,26 @@ function processOrders() {
       // The new page will auto-process thanks to sessionStorage flag
     }, delayBeforeNextPage);
   } else {
-    console.log('No more pages to process');
-    isProcessing = false;
-    globalTransactionIndex = 0; // Reset for next run
-    sessionStorage.removeItem('autoProcessNextPage');
-    sessionStorage.removeItem('globalTransactionIndex');
+    console.log('No more pages to process - this is the last page');
 
-    // Update icon back to normal
-    chrome.runtime.sendMessage({ icon: 'active' });
+    // Calculate total time needed for all transactions on this final page
+    const lastTransactionDelay = (instoreTransactions.length - 1) * 5000;
+    const totalProcessingTime = lastTransactionDelay + 8000; // Add buffer for PDF capture
+
+    console.log(`Final page: waiting ${totalProcessingTime}ms for all ${instoreTransactions.length} transactions to complete`);
+
+    // Don't set isProcessing to false immediately - wait for all transactions to be sent
+    navigationTimeout = setTimeout(() => {
+      console.log('All transactions on final page have been sent');
+      isProcessing = false;
+      globalTransactionIndex = 0; // Reset for next run
+      sessionStorage.removeItem('autoProcessNextPage');
+      sessionStorage.removeItem('globalTransactionIndex');
+
+      // Update icon back to normal
+      chrome.runtime.sendMessage({ icon: 'active' });
+      sendActivity('success', 'All pages processed - downloads complete');
+    }, totalProcessingTime);
   }
 }
 
@@ -520,6 +624,228 @@ function formatDateFromString(dateString) {
   const month = dateString.substring(4, 6);
   const day = dateString.substring(6, 8);
   return `${year}-${month}-${day}`;
+}
+
+async function fetchCurrentPageOrderDetails(pageNumber) {
+  console.log(`Fetching order details for page ${pageNumber} from API...`);
+
+  // Determine if we're on in-store or online orders page
+  const isInStore = window.location.href.includes('/ptd/myorders/instore');
+  console.log(`Page type: ${isInStore ? 'In-Store' : 'Online'} orders`);
+
+  try {
+    const requestBody = isInStore ? {
+      request: {
+        criteria: {
+          sortBy: '',
+          pageNumber: pageNumber,
+          pageSize: 25
+        },
+        isRetailUS: true,
+        approvalOrdersOnly: false,
+        includeDeclinedOrders: false,
+        standAloneMode: false,
+        testOrdersOnly: false,
+        origin: '',
+        viewAllOrders: false,
+        isOrderManagementDisabled: false,
+        is3PP: false
+      }
+    } : {
+      request: {
+        criteria: {
+          sortBy: 'orderdate',
+          sortOrder: 'asc',
+          pageNumber: pageNumber,
+          esdOrdersOnly: false,
+          autoRestockOrdersOnly: false,
+          filterForOrdersWithBreakroomItems: false,
+          pageSize: 25
+        },
+        isRetailUS: false,
+        approvalOrdersOnly: false,
+        includeDeclinedOrders: false,
+        standAloneMode: false,
+        testOrdersOnly: false,
+        origin: '',
+        viewAllOrders: false,
+        isOrderManagementDisabled: false,
+        is3PP: false
+      }
+    };
+
+    const response = await fetch('https://www.staples.com/sdc/ptd/api/mmxPTD/mmxSearchOrder', {
+      method: 'POST',
+      headers: {
+        'accept': 'application/json, text/plain, */*',
+        'content-type': 'application/json;charset=UTF-8'
+      },
+      body: JSON.stringify(requestBody)
+    });
+
+    if (!response.ok) {
+      console.error(`Failed to fetch page ${pageNumber}: ${response.status}`);
+      return [];
+    }
+
+    const data = await response.json();
+    if (data.orderDetailsList && data.orderDetailsList.length > 0) {
+      console.log(`Fetched ${data.orderDetailsList.length} ${isInStore ? 'in-store' : 'online'} orders from page ${pageNumber}`);
+
+      // Save to a JSON file
+      const orderType = isInStore ? 'instore' : 'online';
+      const jsonData = JSON.stringify({
+        page: pageNumber,
+        orderType: orderType,
+        orders: data.orderDetailsList,
+        totalResults: data.totalResults,
+        fetchedAt: new Date().toISOString()
+      }, null, 2);
+      const blob = new Blob([jsonData], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+
+      const filename = `staples/orders-${orderType}-page-${pageNumber}.json`;
+
+      // Download the JSON file
+      chrome.runtime.sendMessage({
+        message: 'downloadJSON',
+        url: url,
+        filename: filename
+      });
+
+      sendActivity('success', `Saved ${orderType} page ${pageNumber} (${data.orderDetailsList.length} orders)`);
+
+      return data.orderDetailsList;
+    }
+
+    return [];
+  } catch (error) {
+    console.error(`Error fetching order details for page ${pageNumber}:`, error);
+    return [];
+  }
+}
+
+async function fetchOrderDetails() {
+  console.log('Fetching ALL order details from API...');
+
+  // Determine if we're on in-store or online orders page
+  const isInStore = window.location.href.includes('/ptd/myorders/instore');
+  const orderType = isInStore ? 'instore' : 'online';
+  console.log(`Fetching all ${orderType} orders...`);
+
+  try {
+    // Get pagination info to fetch all orders
+    const paginationElement = document.querySelector('div[aria-label*="Viewing"][aria-label*="of"]');
+    let totalPages = 1;
+
+    if (paginationElement) {
+      const paginationText = paginationElement.getAttribute('aria-label');
+      const match = paginationText.match(/Viewing (\d+)-(\d+) of (\d+)/);
+      if (match) {
+        const totalOrders = parseInt(match[3]);
+        const pageSize = 25; // Default page size from the API
+        totalPages = Math.ceil(totalOrders / pageSize);
+      }
+    }
+
+    console.log(`Fetching ${totalPages} page(s) of ${orderType} orders...`);
+
+    const allOrders = [];
+
+    // Fetch all pages
+    for (let page = 1; page <= totalPages; page++) {
+      console.log(`Fetching page ${page}/${totalPages}...`);
+
+      const requestBody = isInStore ? {
+        request: {
+          criteria: {
+            sortBy: '',
+            pageNumber: page,
+            pageSize: 25
+          },
+          isRetailUS: true,
+          approvalOrdersOnly: false,
+          includeDeclinedOrders: false,
+          standAloneMode: false,
+          testOrdersOnly: false,
+          origin: '',
+          viewAllOrders: false,
+          isOrderManagementDisabled: false,
+          is3PP: false
+        }
+      } : {
+        request: {
+          criteria: {
+            sortBy: 'orderdate',
+            sortOrder: 'asc',
+            pageNumber: page,
+            esdOrdersOnly: false,
+            autoRestockOrdersOnly: false,
+            filterForOrdersWithBreakroomItems: false,
+            pageSize: 25
+          },
+          isRetailUS: false,
+          approvalOrdersOnly: false,
+          includeDeclinedOrders: false,
+          standAloneMode: false,
+          testOrdersOnly: false,
+          origin: '',
+          viewAllOrders: false,
+          isOrderManagementDisabled: false,
+          is3PP: false
+        }
+      };
+
+      const response = await fetch('https://www.staples.com/sdc/ptd/api/mmxPTD/mmxSearchOrder', {
+        method: 'POST',
+        headers: {
+          'accept': 'application/json, text/plain, */*',
+          'content-type': 'application/json;charset=UTF-8'
+        },
+        body: JSON.stringify(requestBody)
+      });
+
+      if (!response.ok) {
+        console.error(`Failed to fetch page ${page}: ${response.status}`);
+        continue;
+      }
+
+      const data = await response.json();
+      if (data.orderDetailsList && data.orderDetailsList.length > 0) {
+        allOrders.push(...data.orderDetailsList);
+        console.log(`Fetched ${data.orderDetailsList.length} orders from page ${page}`);
+      }
+    }
+
+    console.log(`Total ${orderType} orders fetched: ${allOrders.length}`);
+
+    // Save to a JSON file
+    const jsonData = JSON.stringify({
+      orderType: orderType,
+      orders: allOrders,
+      totalResults: allOrders.length,
+      fetchedAt: new Date().toISOString()
+    }, null, 2);
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const filename = `staples/orders-all-${orderType}-${new Date().toISOString().split('T')[0]}.json`;
+
+    // Download the JSON file
+    chrome.runtime.sendMessage({
+      message: 'downloadJSON',
+      url: url,
+      filename: filename
+    });
+
+    sendActivity('success', `Saved ${allOrders.length} ${orderType} orders to file`);
+
+    return allOrders;
+  } catch (error) {
+    console.error('Error fetching order details:', error);
+    sendActivity('error', `Failed to fetch order details: ${error.message}`);
+    return [];
+  }
 }
 
 function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {

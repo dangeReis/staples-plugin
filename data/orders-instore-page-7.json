@@ -1,0 +1,122 @@
+{
+  "page": 7,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20231025.3.18920",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2023-10-25T10:14:04",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVCUThLVjl0RjErYWVDZWFDVjB4ZkVmZVVleVhxanorZm8raENwTnpyWnNKOHF5eHV0eVd4dWZ4cmxVa0h0d1pGSnB2cHNGK0NRekNqZ0JUcU54WDQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3439231444",
+      "orderNumber": "POS.522.20231025.3.18919",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2023-10-25T10:13:29",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVlTWc0dEN1MllNbG5hSHBRSVlZc05JenMxWnpXRjVLSjVsMDFLL2VSSmZBQ25xbGp5d09QNVNVQjliZGptU25rOUgyRFFwQ0JiNE9MaWtVT1RoWXc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    }
+  ],
+  "totalResults": 152,
+  "fetchedAt": "2025-10-17T01:11:02.957Z"
+}

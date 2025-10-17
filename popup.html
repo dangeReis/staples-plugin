@@ -59,6 +59,10 @@
         <span class="btn-icon">■</span>
         Stop
       </button>
+      <button id="fetchOrdersBtn" class="btn btn-secondary">
+        <span class="btn-icon">📊</span>
+        Export All Orders (JSON)
+      </button>
     </div>
 
     <!-- Retry Failed Button -->
@@ -99,6 +103,16 @@
           <span class="setting-text">
             Print Online Orders
             <span class="help-tooltip">Generate PDFs from print page (like in-store) instead of downloading directly. Ensures consistent formatting.</span>
+          </span>
+        </label>
+      </div>
+      <div class="setting-item">
+        <label class="checkbox-label">
+          <input type="checkbox" id="autoExportJson" checked>
+          <span class="checkmark"></span>
+          <span class="setting-text">
+            Auto-Export Order Data (JSON)
+            <span class="help-tooltip">Automatically downloads structured order data as JSON files for each page during PDF download. Great for analysis!</span>
           </span>
         </label>
       </div>

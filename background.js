@@ -106,6 +106,16 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
           filename: filename
         });
       }, delay);
+    } else if (request.message === 'downloadJSON') {
+      const { url, filename } = request;
+      console.log(`Downloading JSON file: ${filename}`);
+      chrome.downloads.download({
+        url: url,
+        filename: filename,
+        saveAs: false
+      });
+      sendResponse({ status: 'started' });
+      return true;
     } else if (request.message === 'capturePDF') {
       const { url, transactionNumber, transactionDate, printWithImages, retries } = request;
       console.log(`Received capturePDF request for ${transactionNumber} (printWithImages: ${printWithImages})`);

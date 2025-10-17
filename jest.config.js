@@ -2,12 +2,17 @@ module.exports = {
   // Test environment
   testEnvironment: 'jsdom',
 
-  // Test file patterns
+  // Root directories for module resolution
+  roots: ['<rootDir>/src', '<rootDir>/tests'],
+
+  // Test file patterns grouped by suite type
   testMatch: [
-    '**/tests/**/*.test.js'
+    '<rootDir>/tests/contract/**/*.test.js',
+    '<rootDir>/tests/integration/**/*.test.js',
+    '<rootDir>/tests/unit/**/*.test.js'
   ],
 
-  // Test grouping for organization
+  // Named display for reporters
   displayName: {
     name: 'BLACK-BOX-TESTS',
     color: 'blue'
@@ -23,7 +28,8 @@ module.exports = {
     '!src/adapters/mocks.js' // Exclude mocks from coverage
   ],
 
-  // Coverage thresholds (per constitution)
+  // Dedicated coverage directory and thresholds
+  coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
     global: {
       statements: 80,
@@ -45,6 +51,9 @@ module.exports = {
 
   // Timeout for async tests
   testTimeout: 10000,
+
+  // Grouped coverage and transformation options
+  transform: {},
 
   // Clear mocks between tests
   clearMocks: true,

@@ -2,8 +2,15 @@
 node_modules/
 package-lock.json
 
-# Test coverage
+# Test coverage artifacts
 coverage/
+coverage-final.json
+coverage-report/
+
+# Jest / testing output
+reports/
+test-results/
+.nyc_output/
 
 # IDE
 .vscode/
@@ -26,15 +33,17 @@ npm-debug.log*
 *.pem
 
 # Build artifacts
-dist/
 build/
+dist/
+.tmp/
 *.tmp
+out/
 
 # Environment files
 .env
 .env.local
 .env.*
 
-# Test outputs
-test-results/
-.nyc_output/
+# Python cache
+__pycache__/
+*.pyc

@@ -22,10 +22,10 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create src/ directory structure per implementation plan (primitives/, modules/, adapters/)
-- [ ] T002 [P] Initialize ESLint configuration with max-lines rule (500 hard limit, 200 warning) in .eslintrc.js
-- [ ] T003 [P] Configure Jest for contract/unit/integration tests in jest.config.js
-- [ ] T004 [P] Create .gitignore entries for test coverage and build artifacts
+- [X] T001 Create src/ directory structure per implementation plan (primitives/, modules/, adapters/)
+- [X] T002 [P] Initialize ESLint configuration with max-lines rule (500 hard limit, 200 warning) in .eslintrc.js
+- [X] T003 [P] Configure Jest for contract/unit/integration tests in jest.config.js
+- [X] T004 [P] Create .gitignore entries for test coverage and build artifacts
 
 ---
 

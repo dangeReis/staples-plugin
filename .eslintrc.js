@@ -1,3 +1,5 @@
+const maxLinesWarningRule = require('./eslint-rules/max-lines-warning');
+
 module.exports = {
   env: {
     browser: true,
@@ -11,8 +13,20 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  plugins: {
+    'soft-lines': {
+      rules: {
+        'max-lines-warning': maxLinesWarningRule
+      }
+    }
+  },
   rules: {
     // Module size enforcement (constitution requirement)
+    'soft-lines/max-lines-warning': ['warn', {
+      max: 200,
+      skipBlankLines: true,
+      skipComments: true
+    }],
     'max-lines': ['error', {
       max: 500,
       skipBlankLines: true,

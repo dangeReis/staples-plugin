@@ -22,10 +22,10 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [X] T001 Create src/ directory structure per implementation plan (primitives/, modules/, adapters/)
-- [X] T002 [P] Initialize ESLint configuration with max-lines rule (500 hard limit, 200 warning) in .eslintrc.js
-- [X] T003 [P] Configure Jest for contract/unit/integration tests in jest.config.js
-- [X] T004 [P] Create .gitignore entries for test coverage and build artifacts
+- [x] T001 Create src/ directory structure per implementation plan (primitives/, modules/, adapters/)
+- [x] T002 [P] Initialize ESLint configuration with max-lines rule (500 hard limit, 200 warning) in .eslintrc.js
+- [x] T003 [P] Configure Jest for contract/unit/integration tests in jest.config.js
+- [x] T004 [P] Create .gitignore entries for test coverage and build artifacts
 
 ---
 
@@ -35,16 +35,16 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [X] T005 [P] Create Order primitive factory in src/primitives/Order.js with validation and Object.freeze
-- [X] T006 [P] Create Receipt primitive factory in src/primitives/Receipt.js with validation and Object.freeze
-- [X] T007 [P] Create Status primitive factory in src/primitives/Status.js with validation
-- [X] T008 [P] Create Activity primitive factory in src/primitives/Activity.js with validation and Object.freeze
-- [X] T009 [P] Create ChromeDownloadsAdapter in src/adapters/chromeApi.js with promise-based interface
-- [X] T010 [P] Create ChromeTabsAdapter in src/adapters/chromeApi.js with promise-based interface
-- [X] T011 [P] Create ChromeDebuggerAdapter in src/adapters/chromeApi.js with promise-based interface
-- [X] T012 [P] Create ChromeStorageAdapter in src/adapters/chromeApi.js with promise-based interface
-- [X] T013 [P] Create DOMAdapter in src/adapters/dom.js for page element access
-- [X] T014 [P] Create Mock adapters for testing (MockChromeDownloads, MockChromeTabs, etc.) in src/adapters/mocks.js
+- [x] T005 [P] Create Order primitive factory in src/primitives/Order.js with validation and Object.freeze
+- [x] T006 [P] Create Receipt primitive factory in src/primitives/Receipt.js with validation and Object.freeze
+- [x] T007 [P] Create Status primitive factory in src/primitives/Status.js with validation
+- [x] T008 [P] Create Activity primitive factory in src/primitives/Activity.js with validation and Object.freeze
+- [x] T009 [P] Create ChromeDownloadsAdapter in src/adapters/chromeApi.js with promise-based interface
+- [x] T010 [P] Create ChromeTabsAdapter in src/adapters/chromeApi.js with promise-based interface
+- [x] T011 [P] Create ChromeDebuggerAdapter in src/adapters/chromeApi.js with promise-based interface
+- [x] T012 [P] Create ChromeStorageAdapter in src/adapters/chromeApi.js with promise-based interface
+- [x] T013 [P] Create DOMAdapter in src/adapters/dom.js for page element access
+- [x] T014 [P] Create Mock adapters for testing (MockChromeDownloads, MockChromeTabs, etc.) in src/adapters/mocks.js
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -60,19 +60,19 @@
 
 **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T015 [P] [US1] Contract test for OrderDiscovery interface in tests/contract/orderDiscovery.test.js
-- [ ] T016 [P] [US1] Contract test for ReceiptGenerator interface in tests/contract/receiptGenerator.test.js
-- [ ] T017 [P] [US1] Contract test for DownloadScheduler interface in tests/contract/scheduler.test.js
-- [ ] T018 [P] [US1] Contract test for StatusTracker interface in tests/contract/statusTracker.test.js
+- [x] T015 [P] [US1] Contract test for OrderDiscovery interface in tests/contract/orderDiscovery.test.js
+- [x] T016 [P] [US1] Contract test for ReceiptGenerator interface in tests/contract/receiptGenerator.test.js
+- [x] T017 [P] [US1] Contract test for DownloadScheduler interface in tests/contract/scheduler.test.js
+- [x] T018 [P] [US1] Contract test for StatusTracker interface in tests/contract/statusTracker.test.js
 
 ### Implementation for User Story 1
 
-- [ ] T019 [P] [US1] Create OrderDiscovery interface definition in src/modules/orderDiscovery/interface.js with full JSDoc
-- [ ] T020 [P] [US1] Create ReceiptGenerator interface definition in src/modules/receiptGenerator/interface.js with full JSDoc
-- [ ] T021 [P] [US1] Create DownloadScheduler interface definition in src/modules/scheduler/interface.js with full JSDoc
-- [ ] T022 [P] [US1] Create StatusTracker interface definition in src/modules/statusTracker/interface.js with full JSDoc
-- [ ] T023 [US1] Verify all contract tests PASS with interface definitions
-- [ ] T024 [US1] Run interface validation: verify each interface can be explained in one sentence (manual review)
+- [x] T019 [P] [US1] Create OrderDiscovery interface definition in src/modules/orderDiscovery/interface.js with full JSDoc
+- [x] T020 [P] [US1] Create ReceiptGenerator interface definition in src/modules/receiptGenerator/interface.js with full JSDoc
+- [x] T021 [P] [US1] Create DownloadScheduler interface definition in src/modules/scheduler/interface.js with full JSDoc
+- [x] T022 [P] [US1] Create StatusTracker interface definition in src/modules/statusTracker/interface.js with full JSDoc
+- [x] T023 [US1] Verify all contract tests PASS with interface definitions
+- [x] T024 [US1] Run interface validation: verify each interface can be explained in one sentence (manual review)
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 
@@ -86,14 +86,14 @@
 
 ### Tests for User Story 2 (TDD - Write FIRST) ⚠️
 
-- [ ] T025 [P] [US2] Create stub OrderDiscovery implementation in tests/stubs/orderDiscovery.stub.js
-- [ ] T026 [P] [US2] Create stub ReceiptGenerator implementation in tests/stubs/receiptGenerator.stub.js
-- [ ] T027 [P] [US2] Integration test for swapping OrderDiscovery in tests/integration/orderDiscovery.swap.test.js
-- [ ] T028 [P] [US2] Integration test for swapping ReceiptGenerator in tests/integration/receiptGenerator.swap.test.js
+- [x] T025 [P] [US2] Create stub OrderDiscovery implementation in tests/stubs/orderDiscovery.stub.js
+- [x] T026 [P] [US2] Create stub ReceiptGenerator implementation in tests/stubs/receiptGenerator.stub.js
+- [x] T027 [P] [US2] Integration test for swapping OrderDiscovery in tests/integration/orderDiscovery.swap.test.js
+- [x] T028 [P] [US2] Integration test for swapping ReceiptGenerator in tests/integration/receiptGenerator.swap.test.js
 
 ### Implementation for User Story 2
 
-- [ ] T029 [P] [US2] Implement OnlineOrderDiscovery in src/modules/orderDiscovery/online.js using interface
+- [x] T029 [P] [US2] Implement OnlineOrderDiscovery in src/modules/orderDiscovery/online.js using interface
 - [ ] T030 [P] [US2] Implement InstoreOrderDiscovery in src/modules/orderDiscovery/instore.js using interface
 - [ ] T031 [P] [US2] Implement ChromePrintReceiptGenerator in src/modules/receiptGenerator/chromePrint.js using interface
 - [ ] T032 [US2] Create coordinator with dependency injection in src/coordinator.js

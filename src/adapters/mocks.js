@@ -59,7 +59,7 @@ export function createMockChromeTabsAdapter() {
       const id = createProperties.id ?? nextTabId();
       const tab = normalizeTab({ ...createProperties, id });
       tabs.set(id, tab);
-      return deepClone(tab);
+      return tab;
     },
 
     async update(tabId, updateProperties = {}) {

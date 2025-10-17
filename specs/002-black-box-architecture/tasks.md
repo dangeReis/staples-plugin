@@ -95,10 +95,10 @@
 
 - [x] T029 [P] [US2] Implement OnlineOrderDiscovery in src/modules/orderDiscovery/online.js using interface
 - [x] T030 [P] [US2] Implement InstoreOrderDiscovery in src/modules/orderDiscovery/instore.js using interface
-- [ ] T031 [P] [US2] Implement ChromePrintReceiptGenerator in src/modules/receiptGenerator/chromePrint.js using interface
-- [ ] T032 [US2] Create coordinator with dependency injection in src/coordinator.js
-- [ ] T033 [US2] Verify swap tests PASS (modules are 100% replaceable)
-- [ ] T034 [US2] Verify system works with stub implementations (replaceability validation)
+- [x] T031 [P] [US2] Implement ChromePrintReceiptGenerator in src/modules/receiptGenerator/chromePrint.js using interface
+- [x] T032 [US2] Create coordinator with dependency injection in src/coordinator.js
+- [x] T033 [US2] Verify swap tests PASS (modules are 100% replaceable)
+- [x] T034 [US2] Verify system works with stub implementations (replaceability validation)
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently
 

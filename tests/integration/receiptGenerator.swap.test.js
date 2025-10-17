@@ -10,7 +10,7 @@ describe('ReceiptGenerator Swap Integration Test', () => {
 
   // Mock dependencies for the real generator
   const mockChromeApi = {
-    tabs: { create: jest.fn(), remove: jest.fn(), onUpdated: { addListener: jest.fn(), removeListener: jest.fn() } },
+    tabs: { create: jest.fn().mockResolvedValue({ id: 1 }), remove: jest.fn(), onUpdated: { addListener: jest.fn(), removeListener: jest.fn() } },
     debugger: { attach: jest.fn(), detach: jest.fn(), sendCommand: jest.fn(), onEvent: { addListener: jest.fn(), removeListener: jest.fn() } },
     downloads: { download: jest.fn() },
   };
@@ -18,7 +18,8 @@ describe('ReceiptGenerator Swap Integration Test', () => {
   beforeEach(() => {
     // Reset mocks for each test
     jest.clearAllMocks();
-    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: 'pdf-data' });
+    mockChromeApi.tabs.create.mockResolvedValue({ id: 1 }); // Set mock after clearing
+    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: 'SGVsbG8gV29ybGQh' });
     mockChromeApi.downloads.download.mockResolvedValue(1);
 
     realReceiptGenerator = createChromePrintReceiptGenerator(mockChromeApi);

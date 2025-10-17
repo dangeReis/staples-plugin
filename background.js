@@ -117,12 +117,12 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       sendResponse({ status: 'started' });
       return true;
     } else if (request.message === 'capturePDF') {
-      const { url, transactionNumber, transactionDate, printWithImages, retries } = request;
-      console.log(`Received capturePDF request for ${transactionNumber} (printWithImages: ${printWithImages})`);
+      const { url, transactionNumber, transactionDate, customerNumber, printWithImages, retries } = request;
+      console.log(`Received capturePDF request for ${transactionNumber} (customer: ${customerNumber}, printWithImages: ${printWithImages})`);
       console.log(`Starting capturePDFFromUrl immediately for ${transactionNumber}`);
 
       // Start the PDF capture immediately - delay is handled in content script
-      capturePDFFromUrl(url, transactionNumber, transactionDate, printWithImages, retries || 0, sender.tab.id);
+      capturePDFFromUrl(url, transactionNumber, transactionDate, customerNumber, printWithImages, retries || 0, sender.tab.id);
 
       // Send response to keep the message channel open
       sendResponse({ status: 'started', transactionNumber });
@@ -135,10 +135,10 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
   // Track active PDF captures so we can't cancel them mid-process
   const activeCaptureTabIds = new Set();
 
-  async function capturePDFFromUrl(url, transactionNumber, transactionDate, printWithImages = true, retries = 0, senderTabId = null) {
+  async function capturePDFFromUrl(url, transactionNumber, transactionDate, customerNumber, printWithImages = true, retries = 0, senderTabId = null) {
     let tabId = null;
     try {
-      console.log(`Starting PDF capture for ${transactionNumber} from ${url} (printWithImages: ${printWithImages}, retries: ${retries})`);
+      console.log(`Starting PDF capture for ${transactionNumber} from ${url} (customer: ${customerNumber}, printWithImages: ${printWithImages}, retries: ${retries})`);
 
       // Create a new tab in the background
       const tab = await chrome.tabs.create({ url: url, active: false });
@@ -263,10 +263,11 @@ chrome.runtime.onMessage.addListener(function(message, sender) {
       console.log(`Debugger detached from tab ${tabId}`);
 
       // Download the PDF using data URL (blob URLs don't work in service workers)
-      // Add suffix based on print method and image setting
+      // Format: customerNumber-date-orderNumber-print-img.pdf
+      const customerPrefix = customerNumber ? `${customerNumber}-` : '';
       const imageSuffix = printWithImages ? '-img' : '-noimg';
       const methodSuffix = '-print';
-      const filename = `staples/${transactionDate}-${transactionNumber}${methodSuffix}${imageSuffix}.pdf`;
+      const filename = `staples/${customerPrefix}${transactionDate}-${transactionNumber}${methodSuffix}${imageSuffix}.pdf`;
       console.log(`Downloading ${filename}`);
 
       // Create a data URL from the base64 PDF data

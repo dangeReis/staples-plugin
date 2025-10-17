@@ -298,6 +298,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     }
     // Order details pages are now handled automatically by background.js
     // No manual interaction needed
+  } else if (request.message === 'processFromJSON') {
+    // Process orders from JSON files that were already downloaded
+    processOrdersFromJSON();
+    sendResponse({ action: 'processing_json' });
   } else if (request.message === 'toggleAutonomous') {
     const currentMode = localStorage.getItem('staplesAutonomousMode') === 'true';
     const newMode = !currentMode;
@@ -413,6 +417,9 @@ let isProcessing = false;
 let scheduledTimeouts = [];
 let navigationTimeout = null;
 
+// Store customer numbers mapped by order/transaction number
+const customerNumberMap = new Map();
+
 async function processOrders() {
   console.log('processOrders started');
   isProcessing = true;
@@ -450,7 +457,10 @@ async function processOrders() {
     const orderData = extractOrderData(container);
     if (orderData) {
       console.log(`Extracted online order data:`, orderData);
-      sendDownloadRequest(orderData, index);
+      // Add 3-second delay between online orders (index * 3000ms)
+      sendDownloadRequest(orderData, index, onlineOrderContainers.length);
+      statusData.scheduled++;
+      sendStatusUpdate();
     } else {
       console.error(`Could not extract data from online order at index ${index}.`);
       // Debug: Log what we found for each field
@@ -522,16 +532,23 @@ async function processOrders() {
   } else {
     console.log('No more pages to process - this is the last page');
 
-    // Calculate total time needed for all transactions on this final page
-    const lastTransactionDelay = (instoreTransactions.length - 1) * 5000;
-    const totalProcessingTime = lastTransactionDelay + 8000; // Add buffer for PDF capture
+    // Calculate total time needed for all orders on this final page
+    // Consider both in-store transactions (5s delay each) and online orders (3s delay each)
+    const lastInstoreDelay = instoreTransactions.length > 0 ? (instoreTransactions.length - 1) * 5000 : 0;
+    const lastOnlineDelay = onlineOrderContainers.length > 0 ? (onlineOrderContainers.length - 1) * 3000 : 0;
+    const maxDelay = Math.max(lastInstoreDelay, lastOnlineDelay);
+    const totalProcessingTime = maxDelay + 10000; // Add extra buffer for PDF capture/downloads
 
-    console.log(`Final page: waiting ${totalProcessingTime}ms for all ${instoreTransactions.length} transactions to complete`);
+    const totalOrders = instoreTransactions.length + onlineOrderContainers.length;
+    console.log(`Final page: waiting ${totalProcessingTime}ms for all ${totalOrders} orders to complete`);
+    console.log(`  - In-store: ${instoreTransactions.length} (last at ${lastInstoreDelay}ms)`);
+    console.log(`  - Online: ${onlineOrderContainers.length} (last at ${lastOnlineDelay}ms)`);
 
-    // Don't set isProcessing to false immediately - wait for all transactions to be sent
+    // Don't set isProcessing to false immediately - wait for all orders to be sent
     navigationTimeout = setTimeout(() => {
-      console.log('All transactions on final page have been sent');
+      console.log('All orders on final page have been sent');
       isProcessing = false;
+      statusData.isProcessing = false;
       globalTransactionIndex = 0; // Reset for next run
       sessionStorage.removeItem('autoProcessNextPage');
       sessionStorage.removeItem('globalTransactionIndex');
@@ -539,6 +556,7 @@ async function processOrders() {
       // Update icon back to normal
       chrome.runtime.sendMessage({ icon: 'active' });
       sendActivity('success', 'All pages processed - downloads complete');
+      sendStatusUpdate();
     }, totalProcessingTime);
   }
 }
@@ -691,6 +709,16 @@ async function fetchCurrentPageOrderDetails(pageNumber) {
     const data = await response.json();
     if (data.orderDetailsList && data.orderDetailsList.length > 0) {
       console.log(`Fetched ${data.orderDetailsList.length} ${isInStore ? 'in-store' : 'online'} orders from page ${pageNumber}`);
+
+      // Store customer numbers for each order
+      data.orderDetailsList.forEach(order => {
+        const customerNumber = order.customerNumber;
+        const orderNumber = order.orderNumber;
+        if (customerNumber && orderNumber) {
+          customerNumberMap.set(orderNumber, customerNumber);
+          console.log(`Stored customer number ${customerNumber} for order ${orderNumber}`);
+        }
+      });
 
       // Save to a JSON file
       const orderType = isInStore ? 'instore' : 'online';
@@ -877,12 +905,16 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
     // Get print with images setting
     const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
 
+    // Get customer number from map (may be undefined if not found)
+    const customerNumber = customerNumberMap.get(transactionNumber);
+
     // Send message to background script to open the print page and capture PDF
     chrome.runtime.sendMessage({
       message: 'capturePDF',
       url: printUrl,
       transactionNumber: transactionNumber,
       transactionDate: transactionDate,
+      customerNumber: customerNumber,
       printWithImages: printWithImages,
       delay: 0  // No delay in background, we already delayed here
     }, (response) => {
@@ -898,40 +930,64 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
   scheduledTimeouts.push(timeoutId);
 }
 
-function sendDownloadRequest(orderData, index) {
+function sendDownloadRequest(orderData, index, totalOnlinePage) {
   const { orderNumber, orderDate, receiptLink } = orderData;
+
+  // Use 3-second delay between online orders for better rate limiting
+  const delay = index * 3000;
+
+  console.log(`Scheduling online order ${orderNumber} (index ${index}/${totalOnlinePage}) with ${delay}ms delay`);
 
   // Check if user wants to print online orders instead of direct download
   const useOnlineOrderPrint = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
 
-  if (useOnlineOrderPrint) {
-    // Treat online orders like in-store: navigate to print page
-    const printUrl = receiptLink.includes('?')
-      ? `${receiptLink}&print=true&xsmall=false`
-      : `${receiptLink}?print=true&xsmall=false`;
+  // Schedule the download with proper delay
+  const timeoutId = setTimeout(() => {
+    if (!isProcessing) {
+      console.log(`Skipping online order ${orderNumber} - processing stopped`);
+      return;
+    }
 
-    const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+    console.log(`Now processing online order ${orderNumber}`);
 
-    chrome.runtime.sendMessage({
-      message: 'capturePDF',
-      url: printUrl,
-      transactionNumber: orderNumber,
-      transactionDate: orderDate,
-      printWithImages,
-      delay: index * 2000
-    });
-  } else {
-    // Direct PDF download (original behavior)
-    // Add -direct suffix to indicate this is a direct download
-    const filename = `staples/${orderDate}-${orderNumber}-direct.pdf`;
+    // Get customer number from map (may be undefined if not found)
+    const customerNumber = customerNumberMap.get(orderNumber);
 
-    chrome.runtime.sendMessage({
-      message: 'downloadReceipt',
-      url: receiptLink,
-      filename: filename,
-      delay: index * 2000
-    });
-  }
+    if (useOnlineOrderPrint) {
+      // Treat online orders like in-store: navigate to print page
+      const printUrl = receiptLink.includes('?')
+        ? `${receiptLink}&print=true&xsmall=false`
+        : `${receiptLink}?print=true&xsmall=false`;
+
+      const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+
+      chrome.runtime.sendMessage({
+        message: 'capturePDF',
+        url: printUrl,
+        transactionNumber: orderNumber,
+        transactionDate: orderDate,
+        customerNumber: customerNumber,
+        printWithImages,
+        delay: 0  // Delay already handled here
+      });
+    } else {
+      // Direct PDF download (original behavior)
+      // Format: customerNumber-date-orderNumber-direct.pdf
+      const customerPrefix = customerNumber ? `${customerNumber}-` : '';
+      const filename = `staples/${customerPrefix}${orderDate}-${orderNumber}-direct.pdf`;
+
+      chrome.runtime.sendMessage({
+        message: 'downloadReceipt',
+        url: receiptLink,
+        filename: filename,
+        customerNumber: customerNumber,
+        delay: 0  // Delay already handled here
+      });
+    }
+  }, delay);
+
+  // Store timeout ID so we can cancel it later
+  scheduledTimeouts.push(timeoutId);
 }
 
 function retryFailedDownloads() {

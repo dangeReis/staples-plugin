@@ -1,3 +1,5 @@
+import { jest, beforeEach } from '@jest/globals';
+
 // Test setup for Jest
 // Mocks global Chrome API for testing
 

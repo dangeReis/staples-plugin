@@ -40,10 +40,6 @@ export function createStatus({ isProcessing, currentPage, progress, activities }
     throw new Error('Status.isProcessing is required and must be a boolean');
   }
 
-  if (!currentPage || typeof currentPage !== 'string') {
-    throw new Error('Status.currentPage is required and must be a string');
-  }
-
   const pagePattern = /^\d+-\d+$/;
   if (!pagePattern.test(currentPage)) {
     throw new Error('Status.currentPage must match pattern "N-M" (e.g., "1-25")');

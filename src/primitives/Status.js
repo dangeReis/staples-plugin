@@ -4,6 +4,8 @@
  * @module primitives/Status
  */
 
+import { isValidActivity } from './Activity.js';
+
 /**
  * @typedef {Object} StatusProgress
  * @property {number} transactionsFound - Orders found on current page
@@ -20,19 +22,20 @@
  * @property {Array<import('./Activity.js').Activity>} activities - Recent activity log (max 10)
  */
 
+const MAX_ACTIVITIES = 10;
+
 /**
- * Creates a Status object
+ * Creates an immutable Status primitive
  *
  * @param {Object} data - Status data
  * @param {boolean} data.isProcessing - Processing state
  * @param {string} data.currentPage - Current page range
  * @param {StatusProgress} data.progress - Progress counters
  * @param {Array} data.activities - Activity log
- * @returns {Status} Status object
+ * @returns {Readonly<Status>} Status object
  * @throws {Error} If required fields are missing or invalid
  */
 export function createStatus({ isProcessing, currentPage, progress, activities }) {
-  // Validate required fields
   if (typeof isProcessing !== 'boolean') {
     throw new Error('Status.isProcessing is required and must be a boolean');
   }
@@ -41,7 +44,6 @@ export function createStatus({ isProcessing, currentPage, progress, activities }
     throw new Error('Status.currentPage is required and must be a string');
   }
 
-  // Validate page format (N-M pattern)
   const pagePattern = /^\d+-\d+$/;
   if (!pagePattern.test(currentPage)) {
     throw new Error('Status.currentPage must match pattern "N-M" (e.g., "1-25")');
@@ -51,36 +53,56 @@ export function createStatus({ isProcessing, currentPage, progress, activities }
     throw new Error('Status.progress is required and must be an object');
   }
 
-  // Validate progress counters
-  const { transactionsFound, scheduled, completed, failed } = progress;
-  if (typeof transactionsFound !== 'number' || transactionsFound < 0) {
-    throw new Error('Status.progress.transactionsFound must be a non-negative number');
-  }
-  if (typeof scheduled !== 'number' || scheduled < 0) {
-    throw new Error('Status.progress.scheduled must be a non-negative number');
-  }
-  if (typeof completed !== 'number' || completed < 0) {
-    throw new Error('Status.progress.completed must be a non-negative number');
-  }
-  if (typeof failed !== 'number' || failed < 0) {
-    throw new Error('Status.progress.failed must be a non-negative number');
+  const {
+    transactionsFound,
+    scheduled,
+    completed,
+    failed
+  } = progress;
+
+  const counters = {
+    transactionsFound,
+    scheduled,
+    completed,
+    failed
+  };
+
+  for (const [key, value] of Object.entries(counters)) {
+    if (!Number.isInteger(value) || value < 0) {
+      throw new Error(`Status.progress.${key} must be a non-negative integer`);
+    }
   }
 
   if (!Array.isArray(activities)) {
     throw new Error('Status.activities is required and must be an array');
   }
 
-  if (activities.length > 10) {
-    throw new Error('Status.activities array must not exceed 10 items');
+  if (activities.length > MAX_ACTIVITIES) {
+    throw new Error(`Status.activities array must not exceed ${MAX_ACTIVITIES} items`);
   }
 
-  // Create status object (mutable for frequent updates)
-  return {
+  const validatedActivities = activities.map((activity, index) => {
+    if (!isValidActivity(activity)) {
+      throw new Error(`Status.activities[${index}] must be a valid Activity`);
+    }
+    return activity;
+  });
+
+  const immutableProgress = Object.freeze({
+    transactionsFound,
+    scheduled,
+    completed,
+    failed
+  });
+
+  const immutableActivities = Object.freeze([...validatedActivities]);
+
+  return Object.freeze({
     isProcessing,
     currentPage,
-    progress: { ...progress },
-    activities: [...activities]
-  };
+    progress: immutableProgress,
+    activities: immutableActivities
+  });
 }
 
 /**
@@ -90,16 +112,33 @@ export function createStatus({ isProcessing, currentPage, progress, activities }
  * @returns {boolean} True if valid Status
  */
 export function isValidStatus(obj) {
-  return (
-    obj &&
-    typeof obj.isProcessing === 'boolean' &&
-    typeof obj.currentPage === 'string' &&
-    obj.progress &&
-    typeof obj.progress.transactionsFound === 'number' &&
-    typeof obj.progress.scheduled === 'number' &&
-    typeof obj.progress.completed === 'number' &&
-    typeof obj.progress.failed === 'number' &&
-    Array.isArray(obj.activities) &&
-    obj.activities.length <= 10
-  );
+  if (
+    !obj ||
+    typeof obj.isProcessing !== 'boolean' ||
+    typeof obj.currentPage !== 'string' ||
+    !obj.progress ||
+    typeof obj.progress !== 'object' ||
+    !Array.isArray(obj.activities) ||
+    obj.activities.length > MAX_ACTIVITIES
+  ) {
+    return false;
+  }
+
+  const {
+    transactionsFound,
+    scheduled,
+    completed,
+    failed
+  } = obj.progress;
+
+  if (
+    !Number.isInteger(transactionsFound) || transactionsFound < 0 ||
+    !Number.isInteger(scheduled) || scheduled < 0 ||
+    !Number.isInteger(completed) || completed < 0 ||
+    !Number.isInteger(failed) || failed < 0
+  ) {
+    return false;
+  }
+
+  return obj.activities.every(isValidActivity);
 }

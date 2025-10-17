@@ -35,16 +35,16 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T005 [P] Create Order primitive factory in src/primitives/Order.js with validation and Object.freeze
-- [ ] T006 [P] Create Receipt primitive factory in src/primitives/Receipt.js with validation and Object.freeze
-- [ ] T007 [P] Create Status primitive factory in src/primitives/Status.js with validation
-- [ ] T008 [P] Create Activity primitive factory in src/primitives/Activity.js with validation and Object.freeze
-- [ ] T009 [P] Create ChromeDownloadsAdapter in src/adapters/chromeApi.js with promise-based interface
-- [ ] T010 [P] Create ChromeTabsAdapter in src/adapters/chromeApi.js with promise-based interface
-- [ ] T011 [P] Create ChromeDebuggerAdapter in src/adapters/chromeApi.js with promise-based interface
-- [ ] T012 [P] Create ChromeStorageAdapter in src/adapters/chromeApi.js with promise-based interface
-- [ ] T013 [P] Create DOMAdapter in src/adapters/dom.js for page element access
-- [ ] T014 [P] Create Mock adapters for testing (MockChromeDownloads, MockChromeTabs, etc.) in src/adapters/mocks.js
+- [X] T005 [P] Create Order primitive factory in src/primitives/Order.js with validation and Object.freeze
+- [X] T006 [P] Create Receipt primitive factory in src/primitives/Receipt.js with validation and Object.freeze
+- [X] T007 [P] Create Status primitive factory in src/primitives/Status.js with validation
+- [X] T008 [P] Create Activity primitive factory in src/primitives/Activity.js with validation and Object.freeze
+- [X] T009 [P] Create ChromeDownloadsAdapter in src/adapters/chromeApi.js with promise-based interface
+- [X] T010 [P] Create ChromeTabsAdapter in src/adapters/chromeApi.js with promise-based interface
+- [X] T011 [P] Create ChromeDebuggerAdapter in src/adapters/chromeApi.js with promise-based interface
+- [X] T012 [P] Create ChromeStorageAdapter in src/adapters/chromeApi.js with promise-based interface
+- [X] T013 [P] Create DOMAdapter in src/adapters/dom.js for page element access
+- [X] T014 [P] Create Mock adapters for testing (MockChromeDownloads, MockChromeTabs, etc.) in src/adapters/mocks.js
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 

@@ -25,11 +25,18 @@ export function createTimeBasedScheduler(dependencies) {
   const progressSubscribers = new Set();
 
   let scheduledOrders = [];
-  let timingRules = {
+  const defaultTimingRules = {
     delayBetweenOrders: 5000,
     maxConcurrent: 1,
     retryAttempts: 3,
+    initialDelay: 0,
+    perOrderOffsets: null,
+    getOrderDelay: null,
+    getOrderOffset: null,
+    minimumDelay: 0,
   };
+
+  let timingRules = { ...defaultTimingRules };
   let timingMap = new Map();
   let isRunning = false;
   let stopRequested = false;
@@ -58,6 +65,114 @@ export function createTimeBasedScheduler(dependencies) {
     });
   }
 
+  function normalizeTimingRules(rules = {}) {
+    const sanitized = { ...defaultTimingRules };
+
+    const normalizeNumber = (value, { min = null, defaultValue = 0, integer = false } = {}) => {
+      if (typeof value !== 'number' || Number.isNaN(value)) {
+        return defaultValue;
+      }
+
+      const normalized = integer ? Math.trunc(value) : value;
+      if (min !== null && normalized < min) {
+        return defaultValue;
+      }
+
+      return normalized;
+    };
+
+    sanitized.delayBetweenOrders = normalizeNumber(rules.delayBetweenOrders, {
+      min: 0,
+      defaultValue: defaultTimingRules.delayBetweenOrders,
+    });
+
+    sanitized.maxConcurrent = normalizeNumber(rules.maxConcurrent, {
+      min: 1,
+      defaultValue: defaultTimingRules.maxConcurrent,
+      integer: true,
+    }) || defaultTimingRules.maxConcurrent;
+
+    sanitized.retryAttempts = normalizeNumber(rules.retryAttempts, {
+      min: 0,
+      defaultValue: defaultTimingRules.retryAttempts,
+      integer: true,
+    });
+
+    sanitized.initialDelay = normalizeNumber(rules.initialDelay, {
+      min: 0,
+      defaultValue: defaultTimingRules.initialDelay,
+    });
+
+    sanitized.minimumDelay = normalizeNumber(rules.minimumDelay, {
+      min: 0,
+      defaultValue: defaultTimingRules.minimumDelay,
+    });
+
+    const offsetSources = [
+      rules.perOrderOffsets,
+      rules.orderOffsets,
+      rules.timingOffsets,
+      rules.perOrderTimingOffsets,
+    ];
+
+    let offsetsMap = null;
+    for (const source of offsetSources) {
+      if (!source) {
+        continue;
+      }
+
+      if (source instanceof Map) {
+        offsetsMap = source;
+        break;
+      }
+
+      if (typeof source === 'object') {
+        offsetsMap = new Map(Object.entries(source));
+        break;
+      }
+    }
+
+    sanitized.perOrderOffsets = offsetsMap;
+
+    const delayResolvers = [rules.getOrderDelay, rules.calculateDelay];
+    sanitized.getOrderDelay = delayResolvers.find((resolver) => typeof resolver === 'function') || null;
+
+    const offsetResolvers = [rules.getOrderOffset, rules.getTimingOffset, rules.computeOrderOffset];
+    sanitized.getOrderOffset = offsetResolvers.find((resolver) => typeof resolver === 'function') || null;
+
+    return sanitized;
+  }
+
+  function resolveOverride(baseDelay, override, { defaultMode = 'offset' } = {}) {
+    if (override == null) {
+      return null;
+    }
+
+    const coerceNumber = (value) => (typeof value === 'number' && Number.isFinite(value) ? value : null);
+
+    if (typeof override === 'number') {
+      const value = coerceNumber(override);
+      if (value == null) {
+        return null;
+      }
+      return defaultMode === 'absolute' ? value : baseDelay + value;
+    }
+
+    if (typeof override === 'object') {
+      const absolute = coerceNumber(override.absolute ?? override.delay ?? override.value);
+      if (absolute != null) {
+        return absolute;
+      }
+
+      const offset = coerceNumber(override.offset ?? override.delta ?? override.increment);
+      if (offset != null) {
+        return baseDelay + offset;
+      }
+    }
+
+    return null;
+  }
+
   function buildTimingMap(orders, rules) {
     const map = new Map();
     if (!orders.length) {
@@ -67,8 +182,47 @@ export function createTimeBasedScheduler(dependencies) {
     for (let index = 0; index < orders.length; index += 1) {
       const order = orders[index];
       const batch = Math.floor(index / rules.maxConcurrent);
-      const delay = batch * rules.delayBetweenOrders;
-      map.set(order.id, delay);
+      const baseDelay = rules.initialDelay + batch * rules.delayBetweenOrders;
+
+      const context = { order, index, baseDelay, rules };
+
+      let resolvedDelay = null;
+
+      if (rules.getOrderDelay) {
+        resolvedDelay = resolveOverride(baseDelay, rules.getOrderDelay(context), { defaultMode: 'absolute' });
+      }
+
+      if (resolvedDelay == null && rules.getOrderOffset) {
+        resolvedDelay = resolveOverride(baseDelay, rules.getOrderOffset(context), { defaultMode: 'offset' });
+      }
+
+      if (resolvedDelay == null && rules.perOrderOffsets && rules.perOrderOffsets.has(order.id)) {
+        resolvedDelay = resolveOverride(baseDelay, rules.perOrderOffsets.get(order.id), { defaultMode: 'offset' });
+      }
+
+      const timingData = order && typeof order.timing === 'object' ? order.timing : null;
+      if (resolvedDelay == null && timingData) {
+        if (typeof timingData.delay === 'number' || typeof timingData.absolute === 'number') {
+          resolvedDelay = resolveOverride(baseDelay, timingData.delay ?? timingData.absolute, { defaultMode: 'absolute' });
+        }
+
+        if (resolvedDelay == null && (typeof timingData.offset === 'number' || typeof timingData.offsetMs === 'number')) {
+          resolvedDelay = resolveOverride(baseDelay, timingData.offset ?? timingData.offsetMs, { defaultMode: 'offset' });
+        }
+      }
+
+      if (resolvedDelay == null && typeof order.delay === 'number') {
+        resolvedDelay = resolveOverride(baseDelay, order.delay, { defaultMode: 'absolute' });
+      }
+
+      if (resolvedDelay == null && typeof order.offset === 'number') {
+        resolvedDelay = resolveOverride(baseDelay, order.offset, { defaultMode: 'offset' });
+      }
+
+      const finalDelay = resolvedDelay != null ? resolvedDelay : baseDelay;
+      const sanitizedDelay = Math.max(rules.minimumDelay, Math.max(0, Math.round(finalDelay)));
+
+      map.set(order.id, sanitizedDelay);
     }
 
     return map;
@@ -183,13 +337,7 @@ export function createTimeBasedScheduler(dependencies) {
     schedule(orders, rules = {}) {
       validateOrders(orders);
 
-      timingRules = {
-        delayBetweenOrders: typeof rules.delayBetweenOrders === 'number' ? rules.delayBetweenOrders : 5000,
-        maxConcurrent: typeof rules.maxConcurrent === 'number' && rules.maxConcurrent > 0 ? Math.floor(rules.maxConcurrent) : 1,
-        retryAttempts: typeof rules.retryAttempts === 'number' && rules.retryAttempts >= 0
-          ? Math.floor(rules.retryAttempts)
-          : 3,
-      };
+      timingRules = normalizeTimingRules(rules);
 
       scheduledOrders = [...orders];
       progressState.scheduled = scheduledOrders.length;

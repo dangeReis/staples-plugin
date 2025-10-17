@@ -1,43 +1,36 @@
-import { SchedulingError } from './interface.js';
+import { SchedulingError } from '../scheduler/interface.js';
 
-export function createTimeBasedScheduler({ receiptGenerator, statusTracker }) {
-  if (!receiptGenerator || !statusTracker) {
-    throw new Error('Receipt generator and status tracker are required');
-  }
+/**
+ * @typedef {object} TimeBasedSchedulerDependencies
+ * @property {object} receiptGenerator - The receipt generator module.
+ * @property {object} statusTracker - The status tracker module.
+ */
 
-  let orders = [];
-  let rules = {};
-  let progressCallback = () => {};
-
+/**
+ * Creates a time-based scheduler.
+ * @param {TimeBasedSchedulerDependencies} dependencies - The dependencies for the scheduler.
+ * @returns {object} The time-based scheduler instance.
+ */
+export function createTimeBasedScheduler(dependencies) {
+  // TODO: Implement TimeBasedScheduler logic here
   return {
-    schedule(newOrders, newRules) {
-      if (!newOrders || !Array.isArray(newOrders) || newOrders.some(o => !o.id)) {
-        throw new SchedulingError('Invalid orders array', { ordersCount: newOrders ? newOrders.length : 0 });
+    schedule: (orders, rules) => {
+      // Placeholder implementation
+      if (!Array.isArray(orders) || orders.some(order => !order.id)) {
+        throw new SchedulingError('Invalid orders array');
       }
-      orders = newOrders;
-      rules = newRules;
-      const timing = new Map(orders.map((order, i) => [order.id, i * (rules.delayBetweenOrders || 0)]));
-      return {
-        total: orders.length,
-        scheduled: orders,
-        timing,
-      };
+      return { total: orders.length, scheduled: orders, timing: new Map() };
     },
-    async start() {
-      for (const order of orders) {
-        await new Promise(resolve => setTimeout(resolve, rules.delayBetweenOrders || 0));
-        await receiptGenerator.generate(order, {});
-        statusTracker.update({ type: 'progress', data: { completed: 1 } });
-      }
+    start: async () => {
+      // Placeholder implementation
+      return Promise.resolve();
     },
-    stop() {
-      // Mock implementation
+    stop: () => {
+      // Placeholder implementation
     },
-    onProgress(callback) {
-      progressCallback = callback;
-      return () => {
-        progressCallback = () => {};
-      };
-    }
+    onProgress: (callback) => {
+      // Placeholder implementation
+      return () => {};
+    },
   };
 }

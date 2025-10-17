@@ -1,4 +1,4 @@
-## Task T040: Implement ChromeStorageStatusTracker
+## Task T040: Implement ChromeStorageStatusTracker [x]
 
 **Description**: Implement the `ChromeStorageStatusTracker` module in `src/modules/statusTracker/chromeStorage.js`. This module should adhere to the `StatusTracker` interface and utilize dependency injection for its dependencies.
 

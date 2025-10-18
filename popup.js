@@ -25,10 +25,43 @@ const onlineOrderPrint = document.getElementById('onlineOrderPrint');
 const autoExportJson = document.getElementById('autoExportJson');
 const activityLog = document.getElementById('activityLog');
 const clearLog = document.getElementById('clearLog');
+const clearProgressBtn = document.getElementById('clearProgressBtn');
 
 // State
 let isProcessing = false;
 let activityItems = [];
+
+async function sendMessageToContent(tabId, payload) {
+  try {
+    return await chrome.tabs.sendMessage(tabId, payload);
+  } catch (err) {
+    const needsInjection =
+      err &&
+      typeof err.message === 'string' &&
+      err.message.includes('Could not establish connection. Receiving end does not exist.');
+
+    if (!needsInjection) {
+      throw err;
+    }
+
+    console.warn('Content script unreachable, attempting to inject before retrying...', err);
+
+    try {
+      await chrome.scripting.executeScript({
+        target: { tabId },
+        files: ['content.js']
+      });
+    } catch (injectErr) {
+      console.error('Failed to inject content script:', injectErr);
+      throw injectErr;
+    }
+
+    // Allow a brief moment for the script to initialize
+    await new Promise(resolve => setTimeout(resolve, 250));
+
+    return await chrome.tabs.sendMessage(tabId, payload);
+  }
+}
 
 // Initialize popup
 async function init() {
@@ -68,7 +101,7 @@ async function init() {
 
   // Get current status from content script
   try {
-    const response = await chrome.tabs.sendMessage(tab.id, { message: 'getStatus' });
+    const response = await sendMessageToContent(tab.id, { message: 'getStatus' });
     if (response) {
       updateStatus(response);
     }
@@ -109,7 +142,7 @@ function setupEventListeners(tabId) {
   startBtn.addEventListener('click', async () => {
     console.log('Start button clicked');
     try {
-      const response = await chrome.tabs.sendMessage(tabId, { message: 'iconClicked' });
+      const response = await sendMessageToContent(tabId, { message: 'iconClicked' });
       console.log('Start response:', response);
 
       if (response.action === 'started') {
@@ -123,9 +156,13 @@ function setupEventListeners(tabId) {
       }
     } catch (err) {
       console.error('Error starting download:', err);
+      const guidance = err && typeof err.message === 'string' &&
+        err.message.includes('Receiving end does not exist')
+        ? 'Unable to reach the orders tab. Reload the Staples page and try again.'
+        : 'Failed to start download';
       addActivity({
         type: 'error',
-        message: 'Failed to start download',
+        message: guidance,
         time: new Date().toLocaleTimeString()
       });
     }
@@ -135,7 +172,7 @@ function setupEventListeners(tabId) {
   stopBtn.addEventListener('click', async () => {
     console.log('Stop button clicked');
     try {
-      const response = await chrome.tabs.sendMessage(tabId, { message: 'iconClicked' });
+      const response = await sendMessageToContent(tabId, { message: 'iconClicked' });
       console.log('Stop response:', response);
 
       if (response.action === 'stopped') {
@@ -156,7 +193,7 @@ function setupEventListeners(tabId) {
   retryBtn.addEventListener('click', async () => {
     console.log('Retry button clicked');
     try {
-      await chrome.tabs.sendMessage(tabId, { message: 'retryFailed' });
+      await sendMessageToContent(tabId, { message: 'retryFailed' });
       addActivity({
         type: 'info',
         message: 'Retrying failed downloads',
@@ -174,7 +211,7 @@ function setupEventListeners(tabId) {
       fetchOrdersBtn.disabled = true;
       fetchOrdersBtn.innerHTML = '<span class="btn-icon">⏳</span> Fetching...';
 
-      await chrome.tabs.sendMessage(tabId, { message: 'fetchOrderDetails' });
+      await sendMessageToContent(tabId, { message: 'fetchOrderDetails' });
 
       addActivity({
         type: 'info',
@@ -205,7 +242,7 @@ function setupEventListeners(tabId) {
     localStorage.setItem('staplesAutonomousMode', enabled.toString());
 
     try {
-      await chrome.tabs.sendMessage(tabId, {
+      await sendMessageToContent(tabId, {
         message: 'toggleAutonomous',
         enabled
       });
@@ -226,7 +263,7 @@ function setupEventListeners(tabId) {
     localStorage.setItem('staplesPrintWithImages', enabled.toString());
 
     try {
-      await chrome.tabs.sendMessage(tabId, {
+      await sendMessageToContent(tabId, {
         message: 'togglePrintWithImages',
         enabled
       });
@@ -247,7 +284,7 @@ function setupEventListeners(tabId) {
     localStorage.setItem('staplesOnlineOrderPrint', enabled.toString());
 
     try {
-      await chrome.tabs.sendMessage(tabId, {
+      await sendMessageToContent(tabId, {
         message: 'toggleOnlineOrderPrint',
         enabled
       });
@@ -268,7 +305,7 @@ function setupEventListeners(tabId) {
     localStorage.setItem('staplesAutoExportJson', enabled.toString());
 
     try {
-      await chrome.tabs.sendMessage(tabId, {
+      await sendMessageToContent(tabId, {
         message: 'toggleAutoExportJson',
         enabled
       });
@@ -289,6 +326,37 @@ function setupEventListeners(tabId) {
     saveState();
     renderActivityLog();
   });
+
+  // Clear progress
+  if (clearProgressBtn) {
+    clearProgressBtn.addEventListener('click', async () => {
+      if (clearProgressBtn.disabled) {
+        return;
+      }
+
+      try {
+        await sendMessageToContent(tabId, { message: 'resetProgress' });
+
+        // Optimistically reset UI
+        progressFill.style.width = '0%';
+        progressText.textContent = '0%';
+        progressContainer.style.display = 'none';
+        downloadsScheduled.textContent = '0';
+        downloadsComplete.textContent = '0';
+        downloadsFailed.textContent = '0';
+        transactionsFound.textContent = '0';
+        currentPage.textContent = '-';
+
+      } catch (err) {
+        console.error('Error clearing progress:', err);
+        addActivity({
+          type: 'error',
+          message: 'Failed to clear progress',
+          time: new Date().toLocaleTimeString()
+        });
+      }
+    });
+  }
 }
 
 function updateStatus(data) {
@@ -326,11 +394,18 @@ function updateStatus(data) {
     }
   }
 
-  if (data.total && data.completed) {
-    const percent = Math.round((data.completed / data.total) * 100);
-    progressFill.style.width = percent + '%';
-    progressText.textContent = percent + '%';
-    progressContainer.style.display = 'block';
+  if (data.total !== undefined) {
+    if (data.total > 0) {
+      const completed = typeof data.completed === 'number' ? data.completed : 0;
+      const percent = Math.min(100, Math.round((completed / data.total) * 100));
+      progressFill.style.width = percent + '%';
+      progressText.textContent = percent + '%';
+      progressContainer.style.display = 'block';
+    } else {
+      progressFill.style.width = '0%';
+      progressText.textContent = '0%';
+      progressContainer.style.display = 'none';
+    }
   }
 
   updateUI();
@@ -342,11 +417,19 @@ function updateUI() {
     statusBadge.className = 'status-badge processing';
     startBtn.style.display = 'none';
     stopBtn.style.display = 'flex';
+    if (clearProgressBtn) {
+      clearProgressBtn.disabled = true;
+      clearProgressBtn.title = 'Stop the download before clearing progress';
+    }
   } else {
     statusBadge.textContent = 'Ready';
     statusBadge.className = 'status-badge active';
     startBtn.style.display = 'flex';
     stopBtn.style.display = 'none';
+    if (clearProgressBtn) {
+      clearProgressBtn.disabled = false;
+      clearProgressBtn.title = '';
+    }
   }
 }
 

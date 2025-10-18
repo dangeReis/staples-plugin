@@ -155,20 +155,28 @@ paginationObserver.observe(document.body, {
 
 console.log('Pagination observer set up');
 
+// Track whether we've already warned about runtime availability
+let chromeRuntimeWarningIssued = false;
+
 function handleUrlChange(currentUrl) {
   console.log('=== HANDLING URL CHANGE ===');
   console.log('URL:', currentUrl);
   console.log('Is in-store orders:', currentUrl.includes('/ptd/myorders/instore'));
   console.log('Is online orders:', currentUrl.includes('/ptd/myorders') && !currentUrl.includes('/ptd/myorders/instore'));
+  const isOrderPage = currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails');
 
   // Use a small delay to ensure the page context is ready
   setTimeout(() => {
     console.log('Checking chrome.runtime...');
     if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.sendMessage) {
+      if (chromeRuntimeWarningIssued) {
+        console.log('Chrome runtime is now available.');
+        chromeRuntimeWarningIssued = false;
+      }
+
       console.log('Chrome runtime is valid');
 
       // Check if we're on an order page
-      const isOrderPage = currentUrl.includes('/ptd/myorders') || currentUrl.includes('/ptd/orderdetails');
       console.log(`Is order page: ${isOrderPage}`);
 
       if (isOrderPage) {
@@ -189,8 +197,9 @@ function handleUrlChange(currentUrl) {
           console.error('Failed to send inactive icon message:', err);
         });
       }
-    } else {
-      console.error('Chrome runtime not available!');
+    } else if (!chromeRuntimeWarningIssued) {
+      console.warn('Chrome runtime not available; extension may be reloading or disabled on this page.');
+      chromeRuntimeWarningIssued = true;
     }
   }, 500); // Increased delay to 500ms to ensure page is fully loaded
 }
@@ -240,24 +249,50 @@ function initializePage() {
       chrome.runtime.sendMessage({ icon: 'active' }).catch(err => {
         console.log('Could not send icon message (extension may be reloading):', err.message);
       });
+    } else if (!chromeRuntimeWarningIssued) {
+      console.warn('Chrome runtime not available during initialization; icon state may be stale.');
+      chromeRuntimeWarningIssued = true;
     }
   }
 }
 
 // Status tracking for popup
-let statusData = {
-  isProcessing: false,
-  currentPage: '1',
-  transactionsFound: 0,
-  scheduled: 0,
-  completed: 0,
-  failed: 0,
-  total: 0
-};
+function createInitialStatusData() {
+  return {
+    isProcessing: false,
+    currentPage: '-',
+    transactionsFound: 0,
+    scheduled: 0,
+    completed: 0,
+    failed: 0,
+    total: 0
+  };
+}
+
+let statusData = createInitialStatusData();
 
 // Failed downloads tracking
 let failedDownloads = [];
 const MAX_RETRIES = 3;
+const ONLINE_ORDER_DELAY_MS = 1500; // 1.5s spacing between online order downloads
+
+function resetStatusCounters(options = {}) {
+  const { keepProcessingState = false, silent = false } = options;
+  const processingState = keepProcessingState && statusData.isProcessing;
+
+  statusData = {
+    ...createInitialStatusData(),
+    isProcessing: processingState
+  };
+
+  failedDownloads = [];
+
+  if (!silent) {
+    sendActivity('info', 'Progress counters reset');
+  }
+
+  sendStatusUpdate();
+}
 
 function sendStatusUpdate() {
   chrome.runtime.sendMessage({
@@ -320,6 +355,27 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   } else if (request.message === 'fetchOrderDetails') {
     fetchOrderDetails();
     sendResponse({ action: 'fetching' });
+  } else if (request.message === 'resetProgress') {
+    resetStatusCounters();
+    isProcessing = false;
+
+    // Clear any pending timeouts/navigation from previous runs
+    scheduledTimeouts.forEach(timeoutId => clearTimeout(timeoutId));
+    scheduledTimeouts = [];
+
+    if (navigationTimeout) {
+      clearTimeout(navigationTimeout);
+      navigationTimeout = null;
+    }
+
+    sessionStorage.removeItem('autoProcessNextPage');
+    sessionStorage.removeItem('globalTransactionIndex');
+    globalTransactionIndex = 0;
+
+    // Ensure icon reflects idle state
+    chrome.runtime.sendMessage({ icon: 'active' });
+
+    sendResponse({ action: 'reset' });
   } else if (request.message === 'togglePrintWithImages') {
     const currentMode = localStorage.getItem('staplesPrintWithImages') !== 'false';
     const newMode = !currentMode;
@@ -422,6 +478,15 @@ const customerNumberMap = new Map();
 
 async function processOrders() {
   console.log('processOrders started');
+  const isNewRun = !isProcessing;
+  const isInStorePage = window.location.href.includes('/ptd/myorders/instore');
+
+  if (isNewRun) {
+    resetStatusCounters({ silent: true });
+    globalTransactionIndex = 0;
+    customerNumberMap.clear();
+  }
+
   isProcessing = true;
   statusData.isProcessing = true;
 
@@ -443,38 +508,52 @@ async function processOrders() {
     }
   }
 
-  // Fetch and save JSON data for current page (if enabled)
+  // Fetch API data for the current page (also saves JSON if enabled)
   const autoExportJson = localStorage.getItem('staplesAutoExportJson') !== 'false'; // Default true
-  if (autoExportJson) {
-    await fetchCurrentPageOrderDetails(currentPageNum);
-  }
+  const apiOrderDetails = await fetchCurrentPageOrderDetails(currentPageNum, { saveJson: autoExportJson });
+  const onlineOrdersFromApi = !isInStorePage ? normalizeOnlineOrdersFromApi(apiOrderDetails) : [];
 
   // Process online orders
   const onlineOrderContainers = document.querySelectorAll('[id^="ph-order-container"]');
-  console.log(`Found ${onlineOrderContainers.length} online orders on this page`);
-  onlineOrderContainers.forEach((container, index) => {
-    console.log(`Processing online order ${index}:`, container.id);
-    const orderData = extractOrderData(container);
-    if (orderData) {
-      console.log(`Extracted online order data:`, orderData);
-      // Add 3-second delay between online orders (index * 3000ms)
-      sendDownloadRequest(orderData, index, onlineOrderContainers.length);
-      statusData.scheduled++;
-      sendStatusUpdate();
-    } else {
-      console.error(`Could not extract data from online order at index ${index}.`);
-      // Debug: Log what we found for each field
-      const orderNumberElement = container.querySelector('a[aria-label^="Order number"]');
-      const orderDateElement = container.querySelector('div[aria-label^="Order date"]');
-      const receiptLinkElement = container.querySelector('a[aria-label^="View receipt for order number"]');
-      console.error('Debug extraction:', {
-        containerId: container.id,
-        orderNumber: orderNumberElement ? orderNumberElement.textContent : 'NOT FOUND',
-        orderDate: orderDateElement ? orderDateElement.textContent : 'NOT FOUND',
-        receiptLink: receiptLinkElement ? receiptLinkElement.href : 'NOT FOUND',
-        containerHTML: container.innerHTML.substring(0, 500) // First 500 chars
-      });
+  let onlineOrders = [];
+
+  if (onlineOrdersFromApi.length > 0) {
+    console.log(`Using API data for ${onlineOrdersFromApi.length} online orders on this page`);
+    if (onlineOrdersFromApi.length !== onlineOrderContainers.length) {
+      console.log(`API/DOM online order count mismatch (API: ${onlineOrdersFromApi.length}, DOM: ${onlineOrderContainers.length})`);
     }
+    onlineOrders = onlineOrdersFromApi;
+  } else {
+    console.log(`API returned no online orders; falling back to DOM extraction (${onlineOrderContainers.length} containers).`);
+    onlineOrderContainers.forEach((container, index) => {
+      console.log(`Processing online order ${index}:`, container.id);
+      const orderData = extractOrderData(container);
+      if (orderData) {
+        console.log('Extracted online order data:', orderData);
+        onlineOrders.push(orderData);
+      } else {
+        console.error(`Could not extract data from online order at index ${index}.`);
+        // Debug: Log what we found for each field
+        const orderNumberElement = container.querySelector('a[aria-label^="Order number"]');
+        const orderDateElement = container.querySelector('div[aria-label^="Order date"]');
+        const receiptLinkElement = container.querySelector('a[aria-label^="View receipt for order number"]');
+        console.error('Debug extraction:', {
+          containerId: container.id,
+          orderNumber: orderNumberElement ? orderNumberElement.textContent : 'NOT FOUND',
+          orderDate: orderDateElement ? orderDateElement.textContent : 'NOT FOUND',
+          receiptLink: receiptLinkElement ? receiptLinkElement.href : 'NOT FOUND',
+          containerHTML: container.innerHTML.substring(0, 500) // First 500 chars
+        });
+      }
+    });
+  }
+
+  const onlineSourceLabel = onlineOrdersFromApi.length > 0 ? 'API' : 'DOM';
+  console.log(`Scheduling ${onlineOrders.length} online orders from ${onlineSourceLabel} data`);
+  onlineOrders.forEach((orderData, index) => {
+    sendDownloadRequest(orderData, index, onlineOrders.length);
+    statusData.scheduled++;
+    sendStatusUpdate();
   });
 
   // Process in-store transactions on current page
@@ -514,10 +593,11 @@ async function processOrders() {
     // Calculate how long we need to wait for all transactions on this page to be scheduled
     // Each transaction is scheduled with a 5-second delay, so we need to wait for the last one
     // Plus a small buffer to ensure the message is sent
-    const lastTransactionDelay = (instoreTransactions.length - 1) * 5000;
-    const delayBeforeNextPage = lastTransactionDelay + 3000; // Last transaction delay + 3 second buffer
+    const lastInstoreDelay = instoreTransactions.length > 0 ? (instoreTransactions.length - 1) * 5000 : 0;
+    const lastOnlineDelay = onlineOrders.length > 0 ? (onlineOrders.length - 1) * ONLINE_ORDER_DELAY_MS : 0;
+    const delayBeforeNextPage = Math.max(lastInstoreDelay, lastOnlineDelay) + 3000; // Buffer after the longest queue
 
-    console.log(`Waiting ${delayBeforeNextPage}ms before navigating to next page`);
+    console.log(`Waiting ${delayBeforeNextPage}ms before navigating to next page (instore delay ${lastInstoreDelay}ms, online delay ${lastOnlineDelay}ms)`);
 
     navigationTimeout = setTimeout(() => {
       // Check if still processing before navigating
@@ -533,16 +613,16 @@ async function processOrders() {
     console.log('No more pages to process - this is the last page');
 
     // Calculate total time needed for all orders on this final page
-    // Consider both in-store transactions (5s delay each) and online orders (3s delay each)
+    // Consider both in-store transactions (5s delay each) and online orders (configured delay each)
     const lastInstoreDelay = instoreTransactions.length > 0 ? (instoreTransactions.length - 1) * 5000 : 0;
-    const lastOnlineDelay = onlineOrderContainers.length > 0 ? (onlineOrderContainers.length - 1) * 3000 : 0;
+    const lastOnlineDelay = onlineOrders.length > 0 ? (onlineOrders.length - 1) * ONLINE_ORDER_DELAY_MS : 0;
     const maxDelay = Math.max(lastInstoreDelay, lastOnlineDelay);
     const totalProcessingTime = maxDelay + 10000; // Add extra buffer for PDF capture/downloads
 
-    const totalOrders = instoreTransactions.length + onlineOrderContainers.length;
+    const totalOrders = instoreTransactions.length + onlineOrders.length;
     console.log(`Final page: waiting ${totalProcessingTime}ms for all ${totalOrders} orders to complete`);
     console.log(`  - In-store: ${instoreTransactions.length} (last at ${lastInstoreDelay}ms)`);
-    console.log(`  - Online: ${onlineOrderContainers.length} (last at ${lastOnlineDelay}ms)`);
+    console.log(`  - Online: ${onlineOrders.length} (last at ${lastOnlineDelay}ms)`);
 
     // Don't set isProcessing to false immediately - wait for all orders to be sent
     navigationTimeout = setTimeout(() => {
@@ -644,7 +724,8 @@ function formatDateFromString(dateString) {
   return `${year}-${month}-${day}`;
 }
 
-async function fetchCurrentPageOrderDetails(pageNumber) {
+async function fetchCurrentPageOrderDetails(pageNumber, options = {}) {
+  const { saveJson = true } = options;
   console.log(`Fetching order details for page ${pageNumber} from API...`);
 
   // Determine if we're on in-store or online orders page
@@ -720,28 +801,32 @@ async function fetchCurrentPageOrderDetails(pageNumber) {
         }
       });
 
-      // Save to a JSON file
-      const orderType = isInStore ? 'instore' : 'online';
-      const jsonData = JSON.stringify({
-        page: pageNumber,
-        orderType: orderType,
-        orders: data.orderDetailsList,
-        totalResults: data.totalResults,
-        fetchedAt: new Date().toISOString()
-      }, null, 2);
-      const blob = new Blob([jsonData], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
+      if (saveJson) {
+        // Save to a JSON file
+        const orderType = isInStore ? 'instore' : 'online';
+        const jsonData = JSON.stringify({
+          page: pageNumber,
+          orderType: orderType,
+          orders: data.orderDetailsList,
+          totalResults: data.totalResults,
+          fetchedAt: new Date().toISOString()
+        }, null, 2);
+        const blob = new Blob([jsonData], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
 
-      const filename = `staples/orders-${orderType}-page-${pageNumber}.json`;
+        const filename = `staples/orders-${orderType}-page-${pageNumber}.json`;
 
-      // Download the JSON file
-      chrome.runtime.sendMessage({
-        message: 'downloadJSON',
-        url: url,
-        filename: filename
-      });
+        // Download the JSON file
+        chrome.runtime.sendMessage({
+          message: 'downloadJSON',
+          url: url,
+          filename: filename
+        });
 
-      sendActivity('success', `Saved ${orderType} page ${pageNumber} (${data.orderDetailsList.length} orders)`);
+        sendActivity('success', `Saved ${orderType} page ${pageNumber} (${data.orderDetailsList.length} orders)`);
+      } else {
+        console.log('Auto-export disabled; skipping JSON download for this page.');
+      }
 
       return data.orderDetailsList;
     }
@@ -751,6 +836,21 @@ async function fetchCurrentPageOrderDetails(pageNumber) {
     console.error(`Error fetching order details for page ${pageNumber}:`, error);
     return [];
   }
+}
+
+function normalizeOnlineOrdersFromApi(orderDetailsList = []) {
+  return orderDetailsList.map(order => {
+    const key = order.keyForOrderDetails;
+    const receiptLink = key ? `https://www.staples.com/ptd/Transactions?tp_sid=${encodeURIComponent(key)}` : null;
+    const orderDate = order.orderDate ? formatDate(new Date(order.orderDate)) : null;
+
+    return {
+      orderNumber: order.orderNumber || null,
+      orderDate,
+      receiptLink,
+      customerNumber: order.customerNumber || null
+    };
+  }).filter(order => order.orderNumber && order.orderDate && order.receiptLink);
 }
 
 async function fetchOrderDetails() {
@@ -930,13 +1030,18 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
   scheduledTimeouts.push(timeoutId);
 }
 
-function sendDownloadRequest(orderData, index, totalOnlinePage) {
-  const { orderNumber, orderDate, receiptLink } = orderData;
+function sendDownloadRequest(orderData, index, totalOnlineCount) {
+  const { orderNumber, orderDate, receiptLink, customerNumber: directCustomerNumber } = orderData;
 
-  // Use 3-second delay between online orders for better rate limiting
-  const delay = index * 3000;
+  if (!receiptLink) {
+    console.warn(`Skipping online order ${orderNumber || index} - missing receipt link`);
+    return;
+  }
 
-  console.log(`Scheduling online order ${orderNumber} (index ${index}/${totalOnlinePage}) with ${delay}ms delay`);
+  // Apply spacing between online orders to balance speed and rate limits
+  const delay = index * ONLINE_ORDER_DELAY_MS;
+
+  console.log(`Scheduling online order ${orderNumber} (index ${index + 1}/${totalOnlineCount}) with ${delay}ms delay`);
 
   // Check if user wants to print online orders instead of direct download
   const useOnlineOrderPrint = localStorage.getItem('staplesOnlineOrderPrint') === 'true';
@@ -951,7 +1056,7 @@ function sendDownloadRequest(orderData, index, totalOnlinePage) {
     console.log(`Now processing online order ${orderNumber}`);
 
     // Get customer number from map (may be undefined if not found)
-    const customerNumber = customerNumberMap.get(orderNumber);
+    const customerNumber = directCustomerNumber || customerNumberMap.get(orderNumber);
 
     if (useOnlineOrderPrint) {
       // Treat online orders like in-store: navigate to print page
@@ -1017,4 +1122,3 @@ function retryFailedDownloads() {
     }, delay);
   });
 }
-

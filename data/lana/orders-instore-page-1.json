@@ -1,0 +1,1399 @@
+{
+  "page": 1,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20251004.4.23366",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T15:05:10",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhOeVYyQnU3TkVjVnZweE93MEw5VzFmcnh6V3d0WGxDdjQyLzg4THRMY05yZisrZ3J0R3FJQWtpYmk3ME5oQTBmRGdXM1o1c1dpdzJqNlVDN0N4Q0E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 40.98,
+      "orderLines": [
+        {
+          "productSku": "865670",
+          "productName": "Green Mountain Dark Magic Coffee Keurig",
+          "productShortDesc": "Green Mountain Dark Magic Coffee Keurig",
+          "productLongDesc": "Green Mountain Dark Magic Coffee Keurig",
+          "unitPrice": 76.99,
+          "orderQty": 2,
+          "originalOrderedQty": 2,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Green Mountain Dark Magic Coffee Keurig® K-Cup® Pods, Dark Roast, 96/Carton (4061)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7?$thb$",
+          "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670",
+          "model": "4061",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "865670",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 8040,
+      "pointsRedeemed": 2000,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20251004.4.23361",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T14:41:08",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREd6MmtKTGdJWGJhdVpBM2oxN25QOW5XZmVBKysyN2hiYUxabzgxT0JVcm91SFVCMGVGL0hSNGFHQlAvZFpXTks0Wk5qUzdFSVJ0aVlhd2VMQ1RZeTQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 2400,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20251004.4.23360",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T14:40:43",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREczTitTQ1JtKzQxVWY0eERVcmZ1TTRrSGdUVmZWUVJTWjBmWkgxQ1cvMFdwZHIxQUZqQmxJcG9xSFFZRlJYMWJhMzR0ejFnekcreUtCYlRiWTArN0E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 8600,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20251004.4.23359",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T14:40:14",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhja0JVbWtVTVFxK1JzVGxwTDBtUEpiaTRoR2pMT1dkQVNaVyt2T2dKa1k1V3l6T3NCZFc3WUdEaXJDdjh5clNnTmE0Q1JpY3kvKzF3Z0tyUGYxeFU9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20251004.4.23358",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-10-04T14:39:50",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREg3RGZjUGxIY1NGelozQnNBRi9rRnlDbllsNnU2Y1B4QklIZGZqcjdHMmlvV2lWVmRheHdnMjR2dVB4aWNOOG9BN3pLTWpSYk14QysyNWpJdm44dzA9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21091",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:51:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdVay9oSVRJRXhOWlRxOEV2UU1BNlF3cTdFb1hVeUh3UCtwSHhsdHAyQkdNcHNobzhzT3V5R0dLYVpDOHF4a0w1d01SOFZ3dUZsRStzTWp6U0x2Tjg9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21090",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:49:21",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZlUEhPOVVEbXAyYWdFU2Z3cjhCVmlVM1JvZmFmL0JTV0ZtSzlhQklIVmFQZDZ5OXdoWVhQNXExYXhBNkxZWVJOODdJUDNXbWVzNnJIYmd2NnJZclE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21089",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:48:08",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZyZzNnYnpYN2laSlh5a2puQlBPUFRZS0ViL2U5NWExaVd1bUJiTVVvcXdhMXRKZjN1SnNmWkVxWGJDU2xFZWhuTzIwT05TeHBvRUc2UmdRWnVXNkU9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21088",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:47:41",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhFRzVXMGV5bTNpYjJtTVA1eVEzcnRpTXFDbzEybkdwWnhxbEJoT2RsdDcxVEZCKzhONHYrb1M2b1IrL2NPaCtMc1B5c2xFdnI5b2M1Y2FrRkhNZzg9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21087",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:47:13",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdCWkJUNVRhVWdsRzlNZDBBNlpNb1JPTkxFRytIYWhNTGx0OHp3blV5SFozazZBZXA4UGhVYkhibjB5a1FRN2JJMG1wNGNrc21nU3pxRnl2YXVSNFE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21086",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:46:45",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZOMTgrQk5BTWEwVitCSmg4TGthL2dkckJ2QWlCclFhWEtSTXVIUWUrbzUrVzBFSFlVVHg4YkV2bXZ0M0UwbTdGdEJUb21FMVphOEFSYTVvL280U0E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21085",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:46:10",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhsdjUvS1d5QTh2b0xlTU5heWNIWk1Oam4zWUljdUVIekxpbVBESHJnOStvYURKL0NnbnBHYWxja2RLZE9GTkRvMG42N2gxcCtwMFRrTDUyQmZJYjg9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21084",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:45:30",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZRZWoxNDBVdnQ0SlRTVzREYXRtT2dHaStlSVdqQ2VyazNWbjM4R0hKMXA1WkZ1aUlJZW44OUlNRkZqNytOdXNWenFmZUFvM2g4eXlMYzVnS0drTTA9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21083",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:43:58",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREg1eWUvYkR0SUF1OEUrVGtNdHFPdVZtM2ZtTG9yaS81eVBGV29yRVhnRXZoamxGSGNRbHBiT241Q0dHSnMvM284SHV4UTFBUjVsMnZtUjYzblpHK0k9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21082",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:43:00",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVrcS9EYWx0NU9ZQzdweDVmblRyc0U3cWkyZVg2bElCRjV6SlBYSVZnK2Q5VmJ0TmUwYTVCUWxOMjViOVlUMzRPR0luNkI0Y3BaaFp4ek81cTE5aGs9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21081",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:42:20",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhmV0FBVVZWcGNPMy93N2M0RmhlSTBGRk5jRGYrT3k5MStKYlBHMkQ0cHlwYy9LVUhGZ3FIVlZHMEhxaTRMVkN5T1JsS0xOYm9kaWExeWczVVJnWjQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.4.21080",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:41:44",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdQSjFZT3NVV242OXRuUE1uSC8yQ1hHTTBJVG9zbkJ4d2R0N2NXd0hlc2xLM1hSWUVHZml4U0xkZFg0ZmdaMW4wSENkaThDdk5WTjZxYXdyR3lzOTg9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47663",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:16:40",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZwUjZpV3VGM0JUL2hKSUNld08yVFBxSmZ2ZVhzS3lyOVFpK2lpVjVxYm5RYTREZWhKd2lGSUs2Y05oeHd1K1lBa1BUeDBtQm5PNlZxMjA4dUhSKzQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47662",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:16:06",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREh6MlVuWVZUSXY1NFhwa1NMUTdaak1TU1ZIUG1wU3k0YTJvYVVUb0V2NW1SUlNiMDlXYmY3SVl3ZHllSDllcGF0b1Arb2w2MktmSUlGUVB3NkNlT2c9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47661",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:15:12",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdIdEVKMTJOd3dWZHZSb09XbE1CQmZUVS84Z1hDNjVDWkNrbUNicWg3QnR1VmJ0VTh4NERTU3p4UFEyMjRsVUU0WThSQUM3aUhnOUhsU2MxOVBhdDQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47660",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:14:25",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREV3K0MreWN2K1hnMlFERytsL3VQOE9XL3RjNTkwOXBSMm0rSlFGOC9EWm1UNzhZdGVrZlMzbWd2eWMxQTlYR2luYkhOdFlaK0U3Q1dYQVhOTnVzT2s9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47659",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:13:51",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREY2ZTVTSkxKOSsxaDV2em5FWU0wZzZWS2tGSnZkTHhQc2NrQVY1R2p6S3VYNklvcHNiTm9tdENQQjdDbkI0SkZlTk9sck5xWTZZKzJ1L2ZhMUJWc009",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47658",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T12:13:13",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhIRnBzQVFYcHlzcUhnanVUdGZZOXFmUEErLzhYSzRleFFlcnZveklON0srbEdpLzV4Vm54bmxSMGZ0UEE0cDBCWUhEbTFXa1AzSWQ1VWtjZkNibGs9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.542.20250921.3.47657",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-21T11:47:18",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdwRjRiMlAyeUloQmlRYlBSOHh4NGVtWnZkZnlxRW44KzFqWGtjNWhJUGRrZmh2QmZsQzAzelhDZFgyN0RPSlEzUjgrQ3VSVTloWjArMVhLTnYwM1E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.96,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 38.99,
+          "orderQty": 4,
+          "originalOrderedQty": 4,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "3025391875",
+      "orderNumber": "POS.161.20250920.2.17317",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-09-20T14:33:59",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREd1T0t0UVg1d25HbkJqTTJpK2orRGczSExFeVFKOVdiMWROWitEWXFVWlVyeHRkSVE5dGpSR1ZweHZYaTltKzhRalkwaUdUMzI5WUpmenoyZGdDMzA9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "161",
+      "storeAddressLine1": "280 Rte 17, Suite 197",
+      "storeCity": "EAST RUTHERFORD",
+      "storeState": "NJ",
+      "pointsIssued": 2400,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    }
+  ],
+  "totalResults": 156,
+  "fetchedAt": "2025-10-18T13:33:43.664Z"
+}

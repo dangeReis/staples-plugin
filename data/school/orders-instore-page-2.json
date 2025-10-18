@@ -1,0 +1,1597 @@
+{
+  "page": 2,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250504.4.95767",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-05-04T13:51:34",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhkVlkwVEttMFFKenNVUDVyOVZ5Nmh1bmt3QmU4em1QM2lEWThzVStSNS91Ti8rSFRMbWpGcXBpUm1zVnhwWmZFZHQxMVc1eXdpSXQvR1VZMVZ4Wms9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 16,
+          "originalOrderedQty": 16,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 7000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250504.4.95766",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-05-04T13:51:05",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZxc3hiUUI0aXNIQnVTampPZGNydmVVOFN1bHQyd2xTdmRJcFZmMXJOU3JkbGpMb2JLaCtGR2NaVUJ3cHpDMFFINTdrSEJjS3g2OERGR0tueGtkaFE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250504.4.95765",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-05-04T13:50:41",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhVWjJXNGlhZzQ5QVhJSlhnUHltbnNBOUFqWXRWVzZ6WG1DRWQ1TkVtWVpLZVlUVmhiRmZHYlFQQnJKWW9ZTlBYTWtKem53Q2FmeVhOUjBwQjdwU2M9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4373",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T16:27:54",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhyLzdyeVdGQW43QWRXM2tJcUdydHgzYXdoVnBMWW15b004eG1IdW5tKzhqQUZDSUdxM2dQeW56cS9nQVdQZ2g0U0poaFp1Z2hKL0JjdVd4ZVFxQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 83.48,
+      "orderLines": [
+        {
+          "productSku": "2091512",
+          "productName": "KCUP DUNKIN ORIG 4",
+          "productShortDesc": "KCUP DUNKIN ORIG 4",
+          "productLongDesc": "KCUP DUNKIN ORIG 4",
+          "unitPrice": 36.79,
+          "orderQty": 2,
+          "originalOrderedQty": 2,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Dunkin' Original Blend Coffee Keurig® K-Cup® Pods, Medium Roast, 44/Box (006933)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+          "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+          "model": "5000380570",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2091512",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "62171",
+          "productName": "Duracell AA NiMH Battery rechargeable 4",
+          "productShortDesc": "Duracell AA NiMH Battery rechargeable 4",
+          "productLongDesc": "Duracell AA NiMH Battery rechargeable 4",
+          "unitPrice": 13.26,
+          "orderQty": 5,
+          "originalOrderedQty": 5,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+          "productURL": "duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+          "model": "DX1500B4N001",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "62171",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 11680,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4347",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T15:17:53",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZGVktxb1JEUVNIV08vdVdHVWRsV2RXcFh5VGRDd1BvRG96MFFkTmwrM2dzZVFXWmsvOCtxdE5KY1Y4NWlQM3V1ekxVVk56QTZRb3JzMXdEa3dMdz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 9000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4346",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T15:17:30",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdRamh0bHVqZXhWWUdoZW5MdG93OFRmdXRhZ1VxL09TU2crcWxWTkxyRjVzOXo0S0w5U1ovQnI3K3RZOE1NNDZaL04wR0hrSkpKYTZPS0hYV0x0QT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 9000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4345",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T15:17:12",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdJcDdBVlNRenNydCtUeGY3eGJ4eHY0R1NydTFyKyt2cDZQNW1LcERyK0l4YmlxcHAzNWNQTHdVK3FQMzFWWTJKUG5EaktYSnpIenRKeWMwK1padz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 9000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4344",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T15:16:52",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdhY3VXSWE4QmpMeFJVcTVSeUxWdFE5a2xzZFNZY1dMZm5ZOTNOMnNheXZPTjhmNElBOFF4bzN1djZqNDB4LzRBQ1paanhyMTV2STYrMTYxSWNodz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250426.2.4343",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-26T15:16:21",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREgzU1NjRlBDZnZUY2d3dG1sdlJYbEZ0MitxZTg2ZGZuOVoyRW9PTlVNVEFXZEJ5SXJrRVVIS21zQWJNZ3k0VHNlUGtMUXNhbnd2bnhHMldZRndMZz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.567.20250402.2.7648",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-02T15:56:15",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREd4OVAzWnVDSitHSlhVY3p0MUh1R0FIbE56UGprM1V0VHR5MExiUjduNkZQOGgzQTV4RnNHWjBmWHMxWDczLzNPL0RJTkNmb3U1alNleDArZ2h1QT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.98,
+      "orderLines": [
+        {
+          "productSku": "102400",
+          "productName": "CHARM ULTR STRNG 1",
+          "productShortDesc": "CHARM ULTR STRNG 1",
+          "productLongDesc": "CHARM ULTR STRNG 1",
+          "unitPrice": 23.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+          "productURL": "charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+          "model": "11055/15704",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "102400",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "901988",
+          "productName": "9X12 CLEAR CLASP E",
+          "productShortDesc": "9X12 CLEAR CLASP E",
+          "productLongDesc": "9X12 CLEAR CLASP E",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7?$thb$",
+          "productURL": "Staples-ClearClasp-9-x-12-Resealable-Brown-Kraft-Envelopes-10-Pack-901988/product_901988",
+          "model": "SPL901988",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "901988",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "567",
+      "storeAddressLine1": "1300 Rt. 17 North",
+      "storeCity": "RAMSEY",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 4000,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.567.20250402.2.7647",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-04-02T15:53:32",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZycHNzSEIzbGJDVks2R1hoWkdaenpTbzNBNEx6MlNHbkhzY2NudFdmM0Y5bnBzd3lEbUxOSXQvdTdkWXRIV2g1K2xDMDhSRGNwSFJNdTJRRFFkQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.98,
+      "orderLines": [
+        {
+          "productSku": "901988",
+          "productName": "9X12 CLEAR CLASP E",
+          "productShortDesc": "9X12 CLEAR CLASP E",
+          "productLongDesc": "9X12 CLEAR CLASP E",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7?$thb$",
+          "productURL": "Staples-ClearClasp-9-x-12-Resealable-Brown-Kraft-Envelopes-10-Pack-901988/product_901988",
+          "model": "SPL901988",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "901988",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "102400",
+          "productName": "CHARM ULTR STRNG 1",
+          "productShortDesc": "CHARM ULTR STRNG 1",
+          "productLongDesc": "CHARM ULTR STRNG 1",
+          "unitPrice": 23.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+          "productURL": "charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+          "model": "11055/15704",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "102400",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "567",
+      "storeAddressLine1": "1300 Rt. 17 North",
+      "storeCity": "RAMSEY",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 4000,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250313.4.86860",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-13T19:07:30",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZzelNtdmtUbVpmTzJ1S3B4QWIwT2k1N0NVMEJKdDJ5TFlCemRZUW51WTF4cnpjN0grOW1ETnArMXR3RGxtOERmeXAxUWFTTGlTOXI1bmFMYk02SlU9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 8000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250313.4.86859",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-13T19:07:04",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVJRmhWb2JMcVJ5VmQ5Tmo4SFg2U3hDOGk2a2Q3ZnBrMkVTditOOXRXM0RaSVdPeEhTTmljWk1GN2xvUlJYQXN5Kzg0by9wNG0zR1pobFFzZWxGWms9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 8000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250313.4.86857",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-13T18:45:01",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREh1b1Z5SFFCN0twd0RCVmJJb29wMEJ5VlI4UjBYT3Iyd2RYN0x2TjN5Q2I2ejhaS2dObVhuSVJkYWUrK2VuT25xUHlSVGMzbFc0cTJROGR0UktqTXc9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250313.4.86856",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-13T18:44:38",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREh1bnB6MkNCWU4wZkhMRXVmU1RHbE0rejVtbHBqTmtiTDVBR3hlWnhGYThneVhkOEM1SUFSckFTNVRmL29ZM0E2UUhSeldVYmF0MW83T0tVeWxuQ0E9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250306.4.85630",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T20:39:33",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREVBOXprdDVpWm5scGw1L2lSZTkzU0NZdmhabW92N0VQU2ZTMGQzeHJlNXNrRlFpY2p5V2JOSEFLcFhHbVNxWm9xdE5HendEejBsaUYxc2RUMXd4WUU9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250306.4.85629",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-03-06T20:39:08",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZ0WW1yMXFyMW9WWlgwZzNydnliL0F5QU8zQTdOa28rQUdKNzFOd0lrUlBxaU9BVUpQWmRxM1dRaWJUOFc4NXB4aTg1SmFMTjZpaEZidEVaMTQwNDg9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 500,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250222.2.96098",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-22T17:38:44",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZsdHltMlZQVkc4ci9kZlRuZjJDZ3AxZlBWZTBRbDRQR1RXR2hielhQZzBxenBsRVJVU2hjL1hWM0MrcmY3WTdmVm5zeGxrb09rNWp4a3p3REtvZ009",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 54.04,
+      "orderLines": [
+        {
+          "productSku": "24520586",
+          "productName": "TP-LINK AX4400 WI-",
+          "productShortDesc": "TP-LINK AX4400 WI-",
+          "productLongDesc": "TP-LINK AX4400 WI-",
+          "unitPrice": 169.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "TP-LINK Archer AX4400 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX4400)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163287975_sc7?$thb$",
+          "productURL": "tp-link-archer-ax4400-dual-band-mu-mimo-gaming-router-black-archer-ax4400/product_24520586",
+          "model": "ARCHER AX4400",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24520586",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "2837194",
+          "productName": "Smead ETYJ Color Coding Labels 34 x 1 1",
+          "productShortDesc": "Smead ETYJ Color Coding Labels 34 x 1 1",
+          "productLongDesc": "Smead ETYJ Color Coding Labels 34 x 1 1",
+          "unitPrice": 0.69,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Smead ETYJ Color Coding Labels, 3/4\" x 1 1/2\", Light Blue with White Numerals, 500/Roll (68318)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp45960181_sc7?$thb$",
+          "productURL": "smead-etyj-color-coding-labels-3-4-x-1-1-2-light-blue-with-white-numerals-500-roll-68318/product_2837194",
+          "model": "68318",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2837194",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 2150,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250222.2.96088",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-22T17:08:32",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZKY1E1d2pqS2I3NXFKeXdlYlVXblJkazNNd2Z6MnBPellKbnZLTjhrNFRueTE5K2JBYWZSZ1lxMkwveU5saStpMmQ1SGl5dUtBSVdFUmhxeE9IWm89",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20250222.2.96087",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-22T17:08:05",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhvM0dYZnlUWEZCNm9KVXM4Y2txUzhWL01kS0RGOEhCM3VlNmkyeEFUWXN3RlY4NlBVa1BEY0FibXRYc3JkSG9iTk5nK3lMdnJGMnE1a3VkakV4Y0U9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 8000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.567.20250221.2.2295",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-21T14:17:42",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZXU3ExQlV6Yyt3dEtqRWVSbzUrL1pVaGNVZUhwclVQRDcwYkQ4YlBwWmFlU2dqNWlOalJTQjI5QlI4bmFna0JRa1c0U2t0b2NPc3lndXJ2M1prdz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.97,
+      "orderLines": [
+        {
+          "productSku": "102400",
+          "productName": "CHARM ULTR STRNG 1",
+          "productShortDesc": "CHARM ULTR STRNG 1",
+          "productLongDesc": "CHARM ULTR STRNG 1",
+          "unitPrice": 23.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+          "productURL": "charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+          "model": "11055/15704",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "102400",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "102400",
+          "productName": "CHARM ULTR STRNG 1",
+          "productShortDesc": "CHARM ULTR STRNG 1",
+          "productLongDesc": "CHARM ULTR STRNG 1",
+          "unitPrice": 23.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+          "productURL": "charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+          "model": "11055/15704",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "102400",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "2847075",
+          "productName": "BOUNTY SAS DOUBLE",
+          "productShortDesc": "BOUNTY SAS DOUBLE",
+          "productLongDesc": "BOUNTY SAS DOUBLE",
+          "unitPrice": 25.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$thb$",
+          "productURL": "bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075",
+          "model": "57053/61305",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "2847075",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "567",
+      "storeAddressLine1": "1300 Rt. 17 North",
+      "storeCity": "RAMSEY",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 10400,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20250208.4.81337",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T15:58:46",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZCblJRdDNWR2JhQTQrYWQ0M2o4bWRQcXExVWdSeUhreDN4Nmt1dFFHMXJWL0FyWlJqRkVYSkUxY002eHJtUzJ6cTVPbTZFUHJxRE1pWmozTjFIWVE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0.49,
+      "orderLines": [
+        {
+          "productSku": "24520588",
+          "productName": "TP-LINK AX1500 WI-",
+          "productShortDesc": "TP-LINK AX1500 WI-",
+          "productLongDesc": "TP-LINK AX1500 WI-",
+          "unitPrice": 49.46,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163287979_sc7?$thb$",
+          "productURL": "tp-link-archer-ax1500-dual-band-mu-mimo-gaming-router-black-archer-ax1500/product_24520588",
+          "model": "ARCHER AX1500",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24520588",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 9800,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.39.20250208.1.57207",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T13:34:21",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREhsTjRVbjdEMlNHUWhUS3YydllmUm5GQUY4bjdWbG01WGdFTEVuNm8wMFJtWUMxY3RmSDJ4WGlTQlFtK1AwZjhBa3FQcEhseHppT2tiNkJyN2xoQT09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.39.20250208.1.57206",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T13:33:48",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREZRSWtaKzBrYUp0amxNVnFOazJsRVBoSG5FTXI1Y0hDZEU1UUd2V1JGYmluMmd5V1BIMllsYWRFbFJmK3AwV3pHOE9MQUptS1VOVVNvWGtsTXc4Zz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 10,
+          "originalOrderedQty": 10,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 5000,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.39.20250208.1.57205",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2025-02-08T13:33:07",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREczVytZU3VzWnpid2x4b2JkTWZLS3BtRFVpT0hubHArZ0tRaGJtZ3FqRnBaSjZxWEdoTmhxRVFMQnJBb3VYL0VsczNXWWhPWCt5OHlwU0FVbzdzZz09",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "690307",
+          "productName": "OTHER TECHNOLOGY R",
+          "productShortDesc": "OTHER TECHNOLOGY R",
+          "productLongDesc": "OTHER TECHNOLOGY R",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "OTHER TECHNOLOGY R",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "39",
+      "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+      "storeCity": "PARAMUS",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "returnable": false,
+      "cancelable": false
+    }
+  ],
+  "totalResults": 128,
+  "fetchedAt": "2025-10-18T15:38:58.216Z"
+}

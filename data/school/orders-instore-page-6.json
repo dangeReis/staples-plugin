@@ -1,0 +1,414 @@
+{
+  "page": 6,
+  "orderType": "instore",
+  "orders": [
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20231023.4.18072",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2023-10-23T19:46:55",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREdERE5ValdCTm5heXBRUHExR1dITzg0b3I2MUorTjJpei9kMWZRTmNxbE1FVzVKamIvTERmTi9hdXQ0TDVJMmt6djhXZElVMzRvZ3ZyUWRiTHg2bkE9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 1.78,
+      "orderLines": [
+        {
+          "productSku": "122374",
+          "productName": "HAMMERMILL 20/92 1",
+          "productShortDesc": "HAMMERMILL 20/92 1",
+          "productLongDesc": "HAMMERMILL 20/92 1",
+          "unitPrice": 64.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/95CBC599-9581-4384-AB7E87134750EEBE_sc7?$thb$",
+          "productURL": "hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-5000-sheets-carton-105007/product_122374",
+          "model": "105007CT/27061",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "122374",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "483636",
+          "productName": "EXPO CHISEL LO STA",
+          "productShortDesc": "EXPO CHISEL LO STA",
+          "productLongDesc": "EXPO CHISEL LO STA",
+          "unitPrice": 9.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Expo Tank Dry Erase Marker, Chisel Tip, Assorted Colors, Starter Set/Kit (80653)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E1755194-7001-4CE3-93598F83B0079751_sc7?$thb$",
+          "productURL": "expo-starter-set-kit-assorted-colors-80653/product_483636",
+          "model": "80653",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "483636",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "cancelable": false,
+      "returnable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.542.20231023.4.18068",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2023-10-23T19:31:41",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREh5SG1CVG9vVmtkU2EvRXhTYmNVK0J1WHdvdTBReno5WmF6azR5azEzT1M0TWc0d3FXVTE2M3NVVzUycnpyQzJYdnBkbVpuNENvcE92ZlIxSVUwKzQ9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 0,
+      "orderLines": [
+        {
+          "productSku": "725137",
+          "productName": "INK RECYCLING LIMI",
+          "productShortDesc": "INK RECYCLING LIMI",
+          "productLongDesc": "INK RECYCLING LIMI",
+          "unitPrice": 0.01,
+          "orderQty": 20,
+          "originalOrderedQty": 20,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "INK RECYCLING LIMI",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": true,
+          "restrictionDetails": {
+            "type": "OUTOFSTOCK",
+            "viewAlternateTxt": "Our experts suggest",
+            "ctaText": "Similar items",
+            "actionLabel": "expertsSuggest",
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24535465",
+          "productName": "BATTERIES RECYCLIN",
+          "productShortDesc": "BATTERIES RECYCLIN",
+          "productLongDesc": "BATTERIES RECYCLIN",
+          "unitPrice": 0.01,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "BATTERIES RECYCLIN",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+          "productURL": "",
+          "model": "",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "",
+          "bopisEligible": false,
+          "isDeliveryInstock": true
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "542",
+      "storeAddressLine1": "25 W Central Ave",
+      "storeCity": "BERGENFIELD",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "cancelable": false,
+      "returnable": false
+    },
+    {
+      "customerNumber": "5061348487",
+      "orderNumber": "POS.522.20231022.3.18770",
+      "orderType": "Sales",
+      "recordType": "0001",
+      "orderDate": "2023-10-22T15:52:59",
+      "paymentRequired": false,
+      "transactionExists": false,
+      "allowDuplicateOrder": true,
+      "keyForOrderDetails": "U3RNREU2V0lCUnNFNm5Ld0RITVl6d1hwSWY0TzdJTGJGSTdvdjBSNjU4TnMvbVloT1kwdENpczU3MC9ZR3RaNitFWGFHcXdFMC8vbXhQL205Rk9JaW85V0k9",
+      "linelevelBCEnabled": false,
+      "statusCd": "725",
+      "statusDesc": "Purchased at store",
+      "grandTotal": 14.87,
+      "orderLines": [
+        {
+          "productSku": "369657",
+          "productName": "CLOROX DISINFCT WI",
+          "productShortDesc": "CLOROX DISINFCT WI",
+          "productLongDesc": "CLOROX DISINFCT WI",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Disinfecting Wipes Value Pack, Fresh Scent and Crisp Lemon Scent, 35 Wipes/Container, 3/Pack (CLO 30112)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7ABD9D41-95F1-4A93-AE9377A1151A0A4F_sc7?$thb$",
+          "productURL": "clorox-disinfecting-wipes-value-pack-fresh-scent-and-crisp-lemon-scent-35-wipes-canister-3-pack-clo-30112/product_369657",
+          "model": "CLO 30112",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "369657",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "369657",
+          "productName": "CLOROX DISINFCT WI",
+          "productShortDesc": "CLOROX DISINFCT WI",
+          "productLongDesc": "CLOROX DISINFCT WI",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Disinfecting Wipes Value Pack, Fresh Scent and Crisp Lemon Scent, 35 Wipes/Container, 3/Pack (CLO 30112)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7ABD9D41-95F1-4A93-AE9377A1151A0A4F_sc7?$thb$",
+          "productURL": "clorox-disinfecting-wipes-value-pack-fresh-scent-and-crisp-lemon-scent-35-wipes-canister-3-pack-clo-30112/product_369657",
+          "model": "CLO 30112",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "369657",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "369657",
+          "productName": "CLOROX DISINFCT WI",
+          "productShortDesc": "CLOROX DISINFCT WI",
+          "productLongDesc": "CLOROX DISINFCT WI",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Disinfecting Wipes Value Pack, Fresh Scent and Crisp Lemon Scent, 35 Wipes/Container, 3/Pack (CLO 30112)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7ABD9D41-95F1-4A93-AE9377A1151A0A4F_sc7?$thb$",
+          "productURL": "clorox-disinfecting-wipes-value-pack-fresh-scent-and-crisp-lemon-scent-35-wipes-canister-3-pack-clo-30112/product_369657",
+          "model": "CLO 30112",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "369657",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "369657",
+          "productName": "CLOROX DISINFCT WI",
+          "productShortDesc": "CLOROX DISINFCT WI",
+          "productLongDesc": "CLOROX DISINFCT WI",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Disinfecting Wipes Value Pack, Fresh Scent and Crisp Lemon Scent, 35 Wipes/Container, 3/Pack (CLO 30112)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7ABD9D41-95F1-4A93-AE9377A1151A0A4F_sc7?$thb$",
+          "productURL": "clorox-disinfecting-wipes-value-pack-fresh-scent-and-crisp-lemon-scent-35-wipes-canister-3-pack-clo-30112/product_369657",
+          "model": "CLO 30112",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "369657",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "369657",
+          "productName": "CLOROX DISINFCT WI",
+          "productShortDesc": "CLOROX DISINFCT WI",
+          "productLongDesc": "CLOROX DISINFCT WI",
+          "unitPrice": 8.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Disinfecting Wipes Value Pack, Fresh Scent and Crisp Lemon Scent, 35 Wipes/Container, 3/Pack (CLO 30112)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7ABD9D41-95F1-4A93-AE9377A1151A0A4F_sc7?$thb$",
+          "productURL": "clorox-disinfecting-wipes-value-pack-fresh-scent-and-crisp-lemon-scent-35-wipes-canister-3-pack-clo-30112/product_369657",
+          "model": "CLO 30112",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "369657",
+          "bopisEligible": true,
+          "isDeliveryInstock": true
+        },
+        {
+          "productSku": "24421012",
+          "productName": "CLOROX DISINFCT BA",
+          "productShortDesc": "CLOROX DISINFCT BA",
+          "productLongDesc": "CLOROX DISINFCT BA",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Bathroom Disinfecting Cleaner, Original Scent, 30 fl. oz. (08033)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EFE840DE-7F88-4C74-852924F102C21F74_sc7?$thb$",
+          "productURL": "clorox-bathroom-cleaner-30-oz-08033/product_24421012",
+          "model": "08033",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24421012",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24421012",
+          "productName": "CLOROX DISINFCT BA",
+          "productShortDesc": "CLOROX DISINFCT BA",
+          "productLongDesc": "CLOROX DISINFCT BA",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Bathroom Disinfecting Cleaner, Original Scent, 30 fl. oz. (08033)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EFE840DE-7F88-4C74-852924F102C21F74_sc7?$thb$",
+          "productURL": "clorox-bathroom-cleaner-30-oz-08033/product_24421012",
+          "model": "08033",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24421012",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        },
+        {
+          "productSku": "24421012",
+          "productName": "CLOROX DISINFCT BA",
+          "productShortDesc": "CLOROX DISINFCT BA",
+          "productLongDesc": "CLOROX DISINFCT BA",
+          "unitPrice": 5.99,
+          "orderQty": 1,
+          "originalOrderedQty": 1,
+          "statuses": [
+            {
+              "statusCode": "725",
+              "statusDesc": "Purchased at store"
+            }
+          ],
+          "productDesc": "Clorox Bathroom Disinfecting Cleaner, Original Scent, 30 fl. oz. (08033)",
+          "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EFE840DE-7F88-4C74-852924F102C21F74_sc7?$thb$",
+          "productURL": "clorox-bathroom-cleaner-30-oz-08033/product_24421012",
+          "model": "08033",
+          "isOutOfStock": false,
+          "restrictionDetails": {
+            "showAltDeliveryItems": true,
+            "viewDetailsTxt": "View details"
+          },
+          "itemId": "24421012",
+          "bopisEligible": true,
+          "isDeliveryInstock": false
+        }
+      ],
+      "requesterAuthorizedToApprove": false,
+      "userCanApprove": false,
+      "userCanDecline": false,
+      "userCanModify": false,
+      "storeNumber": "522",
+      "storeAddressLine1": "466 Hackensack Ave",
+      "storeCity": "HACKENSACK",
+      "storeState": "NJ",
+      "pointsIssued": 0,
+      "pointsRedeemed": 0,
+      "cancelable": false,
+      "returnable": false
+    }
+  ],
+  "totalResults": 128,
+  "fetchedAt": "2025-10-18T15:47:25.527Z"
+}

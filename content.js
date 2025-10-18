@@ -371,6 +371,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     sessionStorage.removeItem('autoProcessNextPage');
     sessionStorage.removeItem('globalTransactionIndex');
     globalTransactionIndex = 0;
+    orderMetadataByNumber.clear();
 
     // Ensure icon reflects idle state
     chrome.runtime.sendMessage({ icon: 'active' });
@@ -399,22 +400,41 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     statusData.completed++;
     sendStatusUpdate();
     sendActivity('success', `Downloaded ${request.filename}`);
+    checkForProcessingCompletion('download-complete');
   } else if (request.message === 'downloadFailed') {
-    // Notification from background that a download failed
+    const { data = {}, error } = request;
+
+    if (data.mode === 'direct') {
+      const fallbackMeta =
+        orderMetadataByNumber.get(data.transactionNumber) || {
+          orderNumber: data.transactionNumber,
+          orderDate: data.transactionDate,
+          receiptLink: data.url || null,
+          detailsLink: data.detailsLink || null,
+          customerNumber: data.customerNumber || customerNumberMap.get(data.transactionNumber)
+        };
+      triggerPrintFallback(fallbackMeta, `direct-download-failed:${error || 'unknown'}`);
+      return;
+    }
+
+    // Notification from background that a download failed (non-direct)
     const failedItem = {
-      ...request.data,
-      retries: (request.data.retries || 0) + 1,
-      lastError: request.error
+      ...data,
+      retries: (data.retries || 0) + 1,
+      lastError: error
     };
 
     if (failedItem.retries < MAX_RETRIES) {
       failedDownloads.push(failedItem);
       statusData.failed = failedDownloads.length;
       sendStatusUpdate();
-      sendActivity('error', `Failed: ${request.data.transactionNumber} (retry ${failedItem.retries}/${MAX_RETRIES})`);
+      sendActivity('error', `Failed: ${data.transactionNumber} (retry ${failedItem.retries}/${MAX_RETRIES})`);
     } else {
-      sendActivity('error', `Failed permanently: ${request.data.transactionNumber}`);
+      statusData.failed += 1;
+      sendStatusUpdate();
+      sendActivity('error', `Failed permanently: ${data.transactionNumber}`);
     }
+    checkForProcessingCompletion('download-failed');
   }
   return true; // Keep message channel open for async response
 });
@@ -434,12 +454,18 @@ function stopProcessing() {
     navigationTimeout = null;
   }
 
+  if (completionTimeout) {
+    clearTimeout(completionTimeout);
+    completionTimeout = null;
+  }
+
   // Clear sessionStorage flags
   sessionStorage.removeItem('autoProcessNextPage');
   sessionStorage.removeItem('globalTransactionIndex');
 
   // Reset global index
   globalTransactionIndex = 0;
+  orderMetadataByNumber.clear();
 
   // Request cancellation of active PDF captures in background
   chrome.runtime.sendMessage({ message: 'cancelActiveCapturesRequested' }, (response) => {
@@ -472,6 +498,12 @@ let globalTransactionIndex = 0;
 let isProcessing = false;
 let scheduledTimeouts = [];
 let navigationTimeout = null;
+let completionTimeout = null;
+const orderMetadataByNumber = new Map();
+
+function removeScheduledTimeout(timeoutId) {
+  scheduledTimeouts = scheduledTimeouts.filter(id => id !== timeoutId);
+}
 
 // Store customer numbers mapped by order/transaction number
 const customerNumberMap = new Map();
@@ -485,10 +517,21 @@ async function processOrders() {
     resetStatusCounters({ silent: true });
     globalTransactionIndex = 0;
     customerNumberMap.clear();
+    orderMetadataByNumber.clear();
+    scheduledTimeouts = [];
+    if (navigationTimeout) {
+      clearTimeout(navigationTimeout);
+      navigationTimeout = null;
+    }
   }
 
   isProcessing = true;
   statusData.isProcessing = true;
+
+  if (completionTimeout) {
+    clearTimeout(completionTimeout);
+    completionTimeout = null;
+  }
 
   // Update icon to show processing state
   chrome.runtime.sendMessage({ icon: 'processing' });
@@ -561,9 +604,10 @@ async function processOrders() {
   console.log(`Found ${instoreTransactions.length} in-store transactions on this page`);
   console.log(`Starting from global transaction index: ${globalTransactionIndex}`);
 
-  statusData.transactionsFound = instoreTransactions.length;
+  const totalTransactions = instoreTransactions.length + onlineOrders.length;
+  statusData.transactionsFound = totalTransactions;
   sendStatusUpdate();
-  sendActivity('info', `Found ${instoreTransactions.length} transactions on this page`);
+  sendActivity('info', `Found ${totalTransactions} transactions on this page (${onlineOrders.length} online, ${instoreTransactions.length} in-store)`);
 
   instoreTransactions.forEach((container, index) => {
     console.log(`Processing in-store transaction ${index}:`, container.id);
@@ -624,20 +668,22 @@ async function processOrders() {
     console.log(`  - In-store: ${instoreTransactions.length} (last at ${lastInstoreDelay}ms)`);
     console.log(`  - Online: ${onlineOrders.length} (last at ${lastOnlineDelay}ms)`);
 
-    // Don't set isProcessing to false immediately - wait for all orders to be sent
-    navigationTimeout = setTimeout(() => {
-      console.log('All orders on final page have been sent');
-      isProcessing = false;
-      statusData.isProcessing = false;
-      globalTransactionIndex = 0; // Reset for next run
-      sessionStorage.removeItem('autoProcessNextPage');
-      sessionStorage.removeItem('globalTransactionIndex');
+    if (navigationTimeout) {
+      clearTimeout(navigationTimeout);
+      navigationTimeout = null;
+    }
 
-      // Update icon back to normal
-      chrome.runtime.sendMessage({ icon: 'active' });
-      sendActivity('success', 'All pages processed - downloads complete');
-      sendStatusUpdate();
-    }, totalProcessingTime);
+    // Schedule a generous fallback completion in case some download callbacks never fire
+    const fallbackDelay = totalProcessingTime + 60000; // Add an extra minute of buffer
+    if (completionTimeout) {
+      clearTimeout(completionTimeout);
+    }
+    completionTimeout = setTimeout(() => {
+      console.warn(`Final page fallback reached after ${fallbackDelay}ms; forcing completion.`);
+      finalizeProcessing('final-page-timeout');
+    }, fallbackDelay);
+
+    checkForProcessingCompletion('final-page');
   }
 }
 
@@ -647,12 +693,13 @@ function extractOrderData(orderContainer) {
     const orderNumber = extractOrderNumber(orderContainer);
     const orderDate = extractOrderDate(orderContainer);
     const receiptLink = extractReceiptLink(orderContainer);
+    const detailsLink = extractOrderDetailsLink(orderContainer);
 
     if (!orderNumber || !orderDate || !receiptLink) {
       return null; // Return null if any data is missing
     }
 
-    return { orderNumber, orderDate, receiptLink };
+    return { orderNumber, orderDate, receiptLink, detailsLink };
   } catch (error) {
     console.error("Error extracting order data:", error);
     return null;
@@ -676,6 +723,11 @@ function extractOrderDate(orderContainer) {
 function extractReceiptLink(orderContainer) {
   const receiptLinkElement = orderContainer.querySelector('a[aria-label^="View receipt for order number"]');
   return receiptLinkElement ? receiptLinkElement.href : null;
+}
+
+function extractOrderDetailsLink(orderContainer) {
+  const detailsLinkElement = orderContainer.querySelector('a[href*="orderdetails"]');
+  return detailsLinkElement ? detailsLinkElement.href : null;
 }
 
 function parseDate(dateString) {
@@ -842,12 +894,14 @@ function normalizeOnlineOrdersFromApi(orderDetailsList = []) {
   return orderDetailsList.map(order => {
     const key = order.keyForOrderDetails;
     const receiptLink = key ? `https://www.staples.com/ptd/Transactions?tp_sid=${encodeURIComponent(key)}` : null;
+    const detailsLink = key ? `https://www.staples.com/ptd/orderdetails?orderType=online_online&tp_sid=${encodeURIComponent(key)}` : null;
     const orderDate = order.orderDate ? formatDate(new Date(order.orderDate)) : null;
 
     return {
       orderNumber: order.orderNumber || null,
       orderDate,
       receiptLink,
+      detailsLink,
       customerNumber: order.customerNumber || null
     };
   }).filter(order => order.orderNumber && order.orderDate && order.receiptLink);
@@ -994,6 +1048,8 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
 
   // Handle the delay on the content script side to avoid service worker timeouts
   const timeoutId = setTimeout(() => {
+    removeScheduledTimeout(timeoutId);
+
     // Check if still processing before sending
     if (!isProcessing) {
       console.log(`Skipping ${transactionNumber} - processing stopped`);
@@ -1028,10 +1084,11 @@ function openOrderDetailsPage(transactionData, pageIndex, globalIndex) {
 
   // Store timeout ID so we can cancel it later
   scheduledTimeouts.push(timeoutId);
+  checkForProcessingCompletion(`scheduled-inst-${transactionNumber}`);
 }
 
 function sendDownloadRequest(orderData, index, totalOnlineCount) {
-  const { orderNumber, orderDate, receiptLink, customerNumber: directCustomerNumber } = orderData;
+  const { orderNumber, orderDate, receiptLink, detailsLink, customerNumber: directCustomerNumber } = orderData;
 
   if (!receiptLink) {
     console.warn(`Skipping online order ${orderNumber || index} - missing receipt link`);
@@ -1048,6 +1105,8 @@ function sendDownloadRequest(orderData, index, totalOnlineCount) {
 
   // Schedule the download with proper delay
   const timeoutId = setTimeout(() => {
+    removeScheduledTimeout(timeoutId);
+
     if (!isProcessing) {
       console.log(`Skipping online order ${orderNumber} - processing stopped`);
       return;
@@ -1057,24 +1116,17 @@ function sendDownloadRequest(orderData, index, totalOnlineCount) {
 
     // Get customer number from map (may be undefined if not found)
     const customerNumber = directCustomerNumber || customerNumberMap.get(orderNumber);
+    const orderMeta = {
+      orderNumber,
+      orderDate,
+      receiptLink,
+      detailsLink,
+      customerNumber
+    };
+    orderMetadataByNumber.set(orderNumber, orderMeta);
 
     if (useOnlineOrderPrint) {
-      // Treat online orders like in-store: navigate to print page
-      const printUrl = receiptLink.includes('?')
-        ? `${receiptLink}&print=true&xsmall=false`
-        : `${receiptLink}?print=true&xsmall=false`;
-
-      const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
-
-      chrome.runtime.sendMessage({
-        message: 'capturePDF',
-        url: printUrl,
-        transactionNumber: orderNumber,
-        transactionDate: orderDate,
-        customerNumber: customerNumber,
-        printWithImages,
-        delay: 0  // Delay already handled here
-      });
+      dispatchPrintCapture(orderMeta, 'print');
     } else {
       // Direct PDF download (original behavior)
       // Format: customerNumber-date-orderNumber-direct.pdf
@@ -1085,14 +1137,131 @@ function sendDownloadRequest(orderData, index, totalOnlineCount) {
         message: 'downloadReceipt',
         url: receiptLink,
         filename: filename,
-        customerNumber: customerNumber,
-        delay: 0  // Delay already handled here
+        customerNumber,
+        orderNumber,
+        orderDate,
+        mode: 'direct',
+        delay: 0 // Delay already handled here
       });
     }
   }, delay);
 
   // Store timeout ID so we can cancel it later
   scheduledTimeouts.push(timeoutId);
+  checkForProcessingCompletion(`scheduled-online-${orderNumber}`);
+}
+
+function dispatchPrintCapture(orderMeta, mode = 'print') {
+  const { orderNumber, orderDate, receiptLink, detailsLink, customerNumber } = orderMeta;
+  const baseLink = detailsLink || receiptLink;
+  if (!baseLink) {
+    console.warn(`Cannot capture print for ${orderNumber} - missing details link`);
+    return;
+  }
+
+  const printUrl = baseLink.includes('?')
+    ? `${baseLink}&print=true&xsmall=false`
+    : `${baseLink}?print=true&xsmall=false`;
+
+  const printWithImages = localStorage.getItem('staplesPrintWithImages') !== 'false';
+
+  chrome.runtime.sendMessage({
+    message: 'capturePDF',
+    url: printUrl,
+    transactionNumber: orderNumber,
+    transactionDate: orderDate,
+    customerNumber,
+    printWithImages,
+    mode,
+    delay: 0
+  });
+}
+
+function triggerPrintFallback(orderMeta, reason = 'direct-download-failed') {
+  if (!orderMeta) {
+    console.warn(`No metadata available for fallback (${reason})`);
+    return;
+  }
+
+  orderMetadataByNumber.set(orderMeta.orderNumber, orderMeta);
+
+  if (!isProcessing) {
+    console.log(`Skipping fallback for ${orderMeta.orderNumber} - processing stopped`);
+    return;
+  }
+
+  console.log(`Falling back to print capture for ${orderMeta.orderNumber} (${reason})`);
+  sendActivity('info', `Retrying ${orderMeta.orderNumber} via print capture (${reason})`);
+  dispatchPrintCapture(orderMeta, 'print-fallback');
+  checkForProcessingCompletion(`fallback-dispatch-${orderMeta.orderNumber}`);
+}
+
+function checkForProcessingCompletion(context = 'unknown') {
+  if (!isProcessing) {
+    return;
+  }
+
+  const totalScheduled = statusData.scheduled;
+  const expectedTotal = statusData.total || totalScheduled;
+  const completedCount = statusData.completed;
+  const failedCount = statusData.failed;
+  const pendingTimeouts = scheduledTimeouts.length;
+  const pendingRetries = failedDownloads.length;
+
+  if (expectedTotal === 0) {
+    return;
+  }
+
+  if (completedCount + failedCount < expectedTotal) {
+    return;
+  }
+
+  if (totalScheduled < expectedTotal) {
+    return;
+  }
+
+  if (pendingTimeouts > 0) {
+    return;
+  }
+
+  if (pendingRetries > 0) {
+    return;
+  }
+
+  finalizeProcessing(`completion-check:${context}`);
+}
+
+function finalizeProcessing(reason = 'completed') {
+  if (!isProcessing) {
+    return;
+  }
+
+  console.log(`Finalizing processing (${reason})`);
+  isProcessing = false;
+  statusData.isProcessing = false;
+  globalTransactionIndex = 0;
+
+  sessionStorage.removeItem('autoProcessNextPage');
+  sessionStorage.removeItem('globalTransactionIndex');
+  customerNumberMap.clear();
+  orderMetadataByNumber.clear();
+
+  scheduledTimeouts.forEach(timeoutId => clearTimeout(timeoutId));
+  scheduledTimeouts = [];
+
+  if (navigationTimeout) {
+    clearTimeout(navigationTimeout);
+    navigationTimeout = null;
+  }
+
+  if (completionTimeout) {
+    clearTimeout(completionTimeout);
+    completionTimeout = null;
+  }
+
+  chrome.runtime.sendMessage({ icon: 'active' });
+  sendActivity('success', 'All pages processed - downloads complete');
+  sendStatusUpdate();
 }
 
 function retryFailedDownloads() {
@@ -1115,7 +1284,9 @@ function retryFailedDownloads() {
         url: item.url,
         transactionNumber: item.transactionNumber,
         transactionDate: item.transactionDate,
+        customerNumber: item.customerNumber,
         printWithImages,
+        mode: 'print-retry',
         retries: item.retries,
         delay: 0
       });

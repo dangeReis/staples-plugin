@@ -33,329 +33,437 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 });
 
 chrome.runtime.onMessage.addListener(function(message, sender) {
-    if (message.icon === 'active') {
-      // Only set icon if sender has a tab
-      if (sender.tab && sender.tab.id) {
-        chrome.action.setIcon({ path: 'icon_active.png', tabId: sender.tab.id }).catch(err => {
-          console.log('Could not set icon (tab may be closed):', err.message);
-        });
-        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
-        chrome.action.setTitle({ title: 'Download Staples Receipts', tabId: sender.tab.id });
-      }
-    } else if (message.icon === 'inactive') {
-      // Set icon to inactive/default state
-      if (sender.tab && sender.tab.id) {
-        chrome.action.setIcon({ path: 'icon.png', tabId: sender.tab.id }).catch(err => {
-          console.log('Could not set icon (tab may be closed):', err.message);
-        });
-        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
-        chrome.action.setTitle({ title: 'Staples Page Indicator', tabId: sender.tab.id });
-      }
-    } else if (message.icon === 'processing') {
-      // Set icon to stop icon
-      if (sender.tab && sender.tab.id) {
-        chrome.action.setIcon({ path: 'icon_stop.png', tabId: sender.tab.id }).catch(err => {
-          console.log('Could not set icon (tab may be closed):', err.message);
-        });
-        chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
-        chrome.action.setTitle({ title: 'Click to STOP downloading receipts', tabId: sender.tab.id });
-      }
-    }
-  });
-
-  chrome.action.onClicked.addListener(async (tab) => {
-    // Check if we're on a Staples order page
-    if (!tab.url || (!tab.url.includes('/ptd/myorders') && !tab.url.includes('/ptd/orderdetails'))) {
-      console.log('Not on a Staples order page, ignoring click');
-      return;
-    }
-
-    try {
-      await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
-    } catch (err) {
-      console.log('Could not send iconClicked message (content script may not be loaded):', err.message);
-      // Try to inject the content script manually
-      try {
-        await chrome.scripting.executeScript({
-          target: { tabId: tab.id },
-          files: ['content.js']
-        });
-        // Try sending the message again after injection
-        await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
-      } catch (injectErr) {
-        console.error('Could not inject or communicate with content script:', injectErr.message);
-      }
-    }
-  });
-
-  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log('Background received message:', request);
-
-    // Handle icon state message
-    if (request.icon === 'active') {
-      console.log('Setting icon to active for tab:', sender.tab.id);
-      return; // Already handled in another listener
-    }
-
-    if (request.message === 'downloadReceipt') {
-      const { url, filename, delay } = request;
-      console.log(`Scheduling online receipt download: ${filename}, delay: ${delay}ms`);
-      setTimeout(() => {
-        chrome.downloads.download({
-          url: url,
-          filename: filename
-        });
-      }, delay);
-    } else if (request.message === 'downloadJSON') {
-      const { url, filename } = request;
-      console.log(`Downloading JSON file: ${filename}`);
-      chrome.downloads.download({
-        url: url,
-        filename: filename,
-        saveAs: false
+  if (message.icon === 'active') {
+    // Only set icon if sender has a tab
+    if (sender.tab && sender.tab.id) {
+      chrome.action.setIcon({ path: 'icon_active.png', tabId: sender.tab.id }).catch(err => {
+        console.log('Could not set icon (tab may be closed):', err.message);
       });
-      sendResponse({ status: 'started' });
-      return true;
-    } else if (request.message === 'capturePDF') {
-      const { url, transactionNumber, transactionDate, customerNumber, printWithImages, retries } = request;
-      console.log(`Received capturePDF request for ${transactionNumber} (customer: ${customerNumber}, printWithImages: ${printWithImages})`);
-      console.log(`Starting capturePDFFromUrl immediately for ${transactionNumber}`);
-
-      // Start the PDF capture immediately - delay is handled in content script
-      capturePDFFromUrl(url, transactionNumber, transactionDate, customerNumber, printWithImages, retries || 0, sender.tab.id);
-
-      // Send response to keep the message channel open
-      sendResponse({ status: 'started', transactionNumber });
-      return true; // Keep message channel open for async response
-    } else if (request.message) {
-      console.log('Unknown message type:', request.message);
+      chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+      chrome.action.setTitle({ title: 'Download Staples Receipts', tabId: sender.tab.id });
     }
-  });
+  } else if (message.icon === 'inactive') {
+    // Set icon to inactive/default state
+    if (sender.tab && sender.tab.id) {
+      chrome.action.setIcon({ path: 'icon.png', tabId: sender.tab.id }).catch(err => {
+        console.log('Could not set icon (tab may be closed):', err.message);
+      });
+      chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+      chrome.action.setTitle({ title: 'Staples Page Indicator', tabId: sender.tab.id });
+    }
+  } else if (message.icon === 'processing') {
+    // Set icon to stop icon
+    if (sender.tab && sender.tab.id) {
+      chrome.action.setIcon({ path: 'icon_stop.png', tabId: sender.tab.id }).catch(err => {
+        console.log('Could not set icon (tab may be closed):', err.message);
+      });
+      chrome.action.setBadgeText({ text: '', tabId: sender.tab.id }); // Clear badge
+      chrome.action.setTitle({ title: 'Click to STOP downloading receipts', tabId: sender.tab.id });
+    }
+  }
+});
 
-  // Track active PDF captures so we can't cancel them mid-process
-  const activeCaptureTabIds = new Set();
+chrome.action.onClicked.addListener(async (tab) => {
+  // Check if we're on a Staples order page
+  if (!tab.url || (!tab.url.includes('/ptd/myorders') && !tab.url.includes('/ptd/orderdetails'))) {
+    console.log('Not on a Staples order page, ignoring click');
+    return;
+  }
 
-  async function capturePDFFromUrl(url, transactionNumber, transactionDate, customerNumber, printWithImages = true, retries = 0, senderTabId = null) {
-    let tabId = null;
+  try {
+    await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
+  } catch (err) {
+    console.log('Could not send iconClicked message (content script may not be loaded):', err.message);
+    // Try to inject the content script manually
     try {
-      console.log(`Starting PDF capture for ${transactionNumber} from ${url} (customer: ${customerNumber}, printWithImages: ${printWithImages}, retries: ${retries})`);
+      await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        files: ['content.js']
+      });
+      // Try sending the message again after injection
+      await chrome.tabs.sendMessage(tab.id, { message: 'iconClicked' });
+    } catch (injectErr) {
+      console.error('Could not inject or communicate with content script:', injectErr.message);
+    }
+  }
+});
 
-      // Create a new tab in the background
-      const tab = await chrome.tabs.create({ url: url, active: false });
-      tabId = tab.id;
-      activeCaptureTabIds.add(tabId); // Mark as active capture
-      console.log(`Created tab ${tabId} for ${transactionNumber}`);
+// Track download tasks started from downloadReceipt messages
+const pendingDownloadRequests = new Map();
 
-      // Wait for the page to fully load with timeout
-      await new Promise((resolve, reject) => {
-        const timeout = setTimeout(() => {
-          reject(new Error('Page load timeout'));
-        }, 30000); // 30 second timeout
+chrome.downloads.onChanged.addListener(async (delta) => {
+  const info = pendingDownloadRequests.get(delta.id);
+  if (!info) {
+    return;
+  }
 
-        chrome.tabs.onUpdated.addListener(function listener(updatedTabId, info) {
-          if (updatedTabId === tabId && info.status === 'complete') {
-            chrome.tabs.onUpdated.removeListener(listener);
-            clearTimeout(timeout);
-            console.log(`Tab ${tabId} loaded completely`);
-            // Give it extra time to render images and other content
-            setTimeout(resolve, 5000); // Increased from 3s to 5s
+  const { tabId, filename, orderNumber, orderDate, customerNumber, url, mode } = info;
+
+  if (delta.state && delta.state.current === 'complete') {
+    console.log(`Download completed (${delta.id}): ${filename}`);
+    pendingDownloadRequests.delete(delta.id);
+
+    if (tabId) {
+      try {
+        await chrome.tabs.sendMessage(tabId, {
+          message: 'downloadComplete',
+          filename,
+          mode
+        });
+      } catch (err) {
+        console.log('Could not notify content script of download completion:', err.message);
+      }
+    }
+  } else if (delta.state && delta.state.current === 'interrupted') {
+    const errorDetail = delta.error ? delta.error.current || delta.error : 'Interrupted';
+    console.warn(`Download interrupted (${delta.id}): ${filename} – ${errorDetail}`);
+    pendingDownloadRequests.delete(delta.id);
+
+    if (tabId) {
+      try {
+        await chrome.tabs.sendMessage(tabId, {
+          message: 'downloadFailed',
+          error: errorDetail,
+          data: {
+            url,
+            transactionNumber: orderNumber,
+            transactionDate: orderDate,
+            customerNumber,
+            mode
           }
         });
-      });
-
-      // Enable/disable "Print with images" toggle based on setting
-      console.log(`${printWithImages ? 'Enabling' : 'Disabling'} 'Print with images' for tab ${tabId}`);
-      try {
-        const result = await chrome.scripting.executeScript({
-          target: { tabId: tabId },
-          func: (shouldEnable) => {
-            // Try multiple selectors and wait for the element
-            const selectors = [
-              'button[role="switch"][aria-checked="false"]',
-              'button[role="switch"]',
-              '.sc-98zsgj-1',
-              'button.klsXa-d'
-            ];
-
-            let toggleButton = null;
-            let selectorUsed = null;
-
-            for (const selector of selectors) {
-              toggleButton = document.querySelector(selector);
-              if (toggleButton) {
-                selectorUsed = selector;
-                break;
-              }
-            }
-
-            if (toggleButton) {
-              const isChecked = toggleButton.getAttribute('aria-checked') === 'true';
-              console.log(`Found toggle with selector: ${selectorUsed}, aria-checked: ${isChecked}`);
-
-              // Click if current state doesn't match desired state
-              if (isChecked !== shouldEnable) {
-                console.log(`Clicking toggle to ${shouldEnable ? 'enable' : 'disable'} images`);
-                toggleButton.click();
-
-                // Verify it was clicked
-                setTimeout(() => {
-                  const newState = toggleButton.getAttribute('aria-checked');
-                  console.log(`Toggle state after click: ${newState}`);
-                }, 100);
-
-                return { success: true, clicked: true, selector: selectorUsed };
-              } else {
-                console.log(`Toggle already in desired state (${shouldEnable ? 'enabled' : 'disabled'})`);
-                return { success: true, clicked: false, alreadyCorrect: true };
-              }
-            } else {
-              console.log('Toggle button not found with any selector');
-              // Log what's actually on the page
-              const printSection = document.querySelector('section[aria-labelledby="print-options-heading"]');
-              return {
-                success: false,
-                error: 'Toggle not found',
-                sectionFound: !!printSection,
-                html: printSection ? printSection.innerHTML.substring(0, 500) : 'Section not found'
-              };
-            }
-          },
-          args: [printWithImages]
-        });
-
-        console.log(`Toggle script result for tab ${tabId}:`, result[0].result);
-      } catch (error) {
-        console.error(`Error executing toggle script:`, error);
-      }
-
-      // Wait for toggle action to take effect and images to load
-      console.log(`Waiting for images to load for tab ${tabId}`);
-      await new Promise(resolve => setTimeout(resolve, 3000));
-
-      console.log(`Attaching debugger to tab ${tabId}`);
-      // Attach debugger to the tab
-      await chrome.debugger.attach({ tabId }, '1.3');
-      console.log(`Debugger attached to tab ${tabId}`);
-
-      // Use the Page.printToPDF command
-      console.log(`Generating PDF for tab ${tabId}`);
-      const pdfData = await chrome.debugger.sendCommand(
-        { tabId },
-        'Page.printToPDF',
-        {
-          printBackground: true,
-          preferCSSPageSize: false, // Use our custom page size
-          displayHeaderFooter: false,
-          marginTop: 0,
-          marginBottom: 0,
-          marginLeft: 0,
-          marginRight: 0,
-          paperWidth: 8.5,  // Letter size in inches
-          paperHeight: 11,
-          scale: 1.0,
-          transferMode: 'ReturnAsBase64'  // Explicitly request base64
-        }
-      );
-      console.log(`PDF generated for tab ${tabId}, size: ${pdfData.data.length} bytes`);
-
-      // Detach debugger
-      await chrome.debugger.detach({ tabId });
-      console.log(`Debugger detached from tab ${tabId}`);
-
-      // Download the PDF using data URL (blob URLs don't work in service workers)
-      // Format: customerNumber-date-orderNumber-print-img.pdf
-      const customerPrefix = customerNumber ? `${customerNumber}-` : '';
-      const imageSuffix = printWithImages ? '-img' : '-noimg';
-      const methodSuffix = '-print';
-      const filename = `staples/${customerPrefix}${transactionDate}-${transactionNumber}${methodSuffix}${imageSuffix}.pdf`;
-      console.log(`Downloading ${filename}`);
-
-      // Create a data URL from the base64 PDF data
-      const dataUrl = `data:application/pdf;base64,${pdfData.data}`;
-
-      await chrome.downloads.download({
-        url: dataUrl,
-        filename: filename,
-        saveAs: false
-      });
-
-      // Close the tab
-      await chrome.tabs.remove(tabId);
-      activeCaptureTabIds.delete(tabId); // Remove from active captures
-      console.log(`Successfully captured PDF: ${filename}`);
-
-      // Notify content script of success
-      if (senderTabId) {
-        try {
-          await chrome.tabs.sendMessage(senderTabId, {
-            message: 'downloadComplete',
-            filename: filename
-          });
-        } catch (err) {
-          console.log('Could not notify content script of success:', err.message);
-        }
-      }
-
-    } catch (error) {
-      console.error(`Error capturing PDF for ${transactionNumber}:`, error);
-      console.error('Error details:', error.message, error.stack);
-
-      // Notify content script of failure
-      if (senderTabId) {
-        try {
-          await chrome.tabs.sendMessage(senderTabId, {
-            message: 'downloadFailed',
-            error: error.message,
-            data: {
-              url,
-              transactionNumber,
-              transactionDate,
-              printWithImages,
-              retries
-            }
-          });
-        } catch (err) {
-          console.log('Could not notify content script of failure:', err.message);
-        }
-      }
-
-      // Try to detach debugger if still attached
-      if (tabId) {
-        try {
-          await chrome.debugger.detach({ tabId });
-          console.log(`Debugger detached after error for tab ${tabId}`);
-        } catch (e) {
-          console.log(`Could not detach debugger for tab ${tabId}:`, e.message);
-        }
-
-        // Try to close the tab
-        try {
-          await chrome.tabs.remove(tabId);
-          activeCaptureTabIds.delete(tabId); // Remove from active captures
-          console.log(`Tab ${tabId} closed after error`);
-        } catch (e) {
-          console.log(`Could not close tab ${tabId}:`, e.message);
-        }
+      } catch (err) {
+        console.log('Could not notify content script of interrupted download:', err.message);
       }
     }
   }
+});
 
-  // Add message handler to cancel active captures
-  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.message === 'cancelActiveCapturesRequested') {
-      console.log(`Cancelling ${activeCaptureTabIds.size} active PDF captures...`);
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  console.log('Background received message:', request);
 
-      // Close all tabs with active captures
-      activeCaptureTabIds.forEach(async (tabId) => {
-        try {
-          await chrome.tabs.remove(tabId);
-          console.log(`Closed active capture tab ${tabId}`);
-        } catch (err) {
-          console.log(`Could not close tab ${tabId}:`, err.message);
+  // Handle icon state message
+  if (request.icon === 'active') {
+    console.log('Setting icon to active for tab:', sender.tab.id);
+    return; // Already handled in another listener
+  }
+
+  if (request.message === 'downloadReceipt') {
+    const { url, filename, delay, orderNumber, orderDate, customerNumber, mode = 'direct' } = request;
+    const tabId = sender.tab && sender.tab.id ? sender.tab.id : null;
+    console.log(`Scheduling online receipt download: ${filename}, delay: ${delay}ms, mode: ${mode}`);
+    setTimeout(async () => {
+      try {
+        const downloadId = await chrome.downloads.download({
+          url,
+          filename,
+          saveAs: false
+        });
+        pendingDownloadRequests.set(downloadId, {
+          tabId,
+          filename,
+          orderNumber,
+          orderDate,
+          customerNumber,
+          url,
+          mode
+        });
+        console.log(`Download started (${downloadId}) for ${filename}`);
+      } catch (error) {
+        console.error(`Failed to start download for ${filename}:`, error);
+        if (tabId) {
+          try {
+            await chrome.tabs.sendMessage(tabId, {
+              message: 'downloadFailed',
+              error: error.message,
+              data: {
+                url,
+                transactionNumber: orderNumber,
+                transactionDate: orderDate,
+                customerNumber,
+                mode
+              }
+            });
+          } catch (err) {
+            console.log('Could not notify content script of download failure:', err.message);
+          }
+        }
+      }
+    }, delay);
+  } else if (request.message === 'downloadJSON') {
+    const { url, filename } = request;
+    console.log(`Downloading JSON file: ${filename}`);
+    chrome.downloads.download({
+      url,
+      filename,
+      saveAs: false
+    });
+    sendResponse({ status: 'started' });
+    return true;
+  } else if (request.message === 'capturePDF') {
+    const {
+      url,
+      transactionNumber,
+      transactionDate,
+      customerNumber,
+      printWithImages,
+      retries,
+      mode = 'print'
+    } = request;
+    console.log(`Received capturePDF request for ${transactionNumber} (customer: ${customerNumber}, printWithImages: ${printWithImages}, mode: ${mode})`);
+    console.log(`Starting capturePDFFromUrl immediately for ${transactionNumber}`);
+
+    // Start the PDF capture immediately - delay is handled in content script
+    capturePDFFromUrl(
+      url,
+      transactionNumber,
+      transactionDate,
+      customerNumber,
+      printWithImages,
+      retries || 0,
+      sender.tab.id,
+      mode
+    );
+
+    // Send response to keep the message channel open
+    sendResponse({ status: 'started', transactionNumber });
+    return true; // Keep message channel open for async response
+  } else if (request.message) {
+    console.log('Unknown message type:', request.message);
+  }
+});
+
+// Track active PDF captures so we can't cancel them mid-process
+const activeCaptureTabIds = new Set();
+
+async function capturePDFFromUrl(
+  url,
+  transactionNumber,
+  transactionDate,
+  customerNumber,
+  printWithImages = true,
+  retries = 0,
+  senderTabId = null,
+  mode = 'print'
+) {
+  let tabId = null;
+  try {
+    console.log(`Starting PDF capture for ${transactionNumber} from ${url} (customer: ${customerNumber}, printWithImages: ${printWithImages}, retries: ${retries}, mode: ${mode})`);
+
+    // Create a new tab in the background
+    const tab = await chrome.tabs.create({ url: url, active: false });
+    tabId = tab.id;
+    activeCaptureTabIds.add(tabId); // Mark as active capture
+    console.log(`Created tab ${tabId} for ${transactionNumber}`);
+
+    // Wait for the page to fully load with timeout
+    await new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        reject(new Error('Page load timeout'));
+      }, 30000); // 30 second timeout
+
+      chrome.tabs.onUpdated.addListener(function listener(updatedTabId, info) {
+        if (updatedTabId === tabId && info.status === 'complete') {
+          chrome.tabs.onUpdated.removeListener(listener);
+          clearTimeout(timeout);
+          console.log(`Tab ${tabId} loaded completely`);
+          // Give it extra time to render images and other content
+          setTimeout(resolve, 5000); // Increased from 3s to 5s
         }
       });
+    });
 
-      activeCaptureTabIds.clear();
-      sendResponse({ cancelled: activeCaptureTabIds.size });
+    // Enable/disable "Print with images" toggle based on setting
+    console.log(`${printWithImages ? 'Enabling' : 'Disabling'} 'Print with images' for tab ${tabId}`);
+    try {
+      const result = await chrome.scripting.executeScript({
+        target: { tabId: tabId },
+        func: (shouldEnable) => {
+          // Try multiple selectors and wait for the element
+          const selectors = [
+            'button[role="switch"][aria-checked="false"]',
+            'button[role="switch"]',
+            '.sc-98zsgj-1',
+            'button.klsXa-d'
+          ];
+
+          let toggleButton = null;
+          let selectorUsed = null;
+
+          for (const selector of selectors) {
+            toggleButton = document.querySelector(selector);
+            if (toggleButton) {
+              selectorUsed = selector;
+              break;
+            }
+          }
+
+          if (toggleButton) {
+            const isChecked = toggleButton.getAttribute('aria-checked') === 'true';
+            console.log(`Found toggle with selector: ${selectorUsed}, aria-checked: ${isChecked}`);
+
+            // Click if current state doesn't match desired state
+            if (isChecked !== shouldEnable) {
+              console.log(`Clicking toggle to ${shouldEnable ? 'enable' : 'disable'} images`);
+              toggleButton.click();
+
+              // Verify it was clicked
+              setTimeout(() => {
+                const newState = toggleButton.getAttribute('aria-checked');
+                console.log(`Toggle state after click: ${newState}`);
+              }, 100);
+
+              return { success: true, clicked: true, selector: selectorUsed };
+            } else {
+              console.log(`Toggle already in desired state (${shouldEnable ? 'enabled' : 'disabled'})`);
+              return { success: true, clicked: false, alreadyCorrect: true };
+            }
+          } else {
+            console.log('Toggle button not found with any selector');
+            // Log what's actually on the page
+            const printSection = document.querySelector('section[aria-labelledby="print-options-heading"]');
+            return {
+              success: false,
+              error: 'Toggle not found',
+              sectionFound: !!printSection,
+              html: printSection ? printSection.innerHTML.substring(0, 500) : 'Section not found'
+            };
+          }
+        },
+        args: [printWithImages]
+      });
+
+      console.log(`Toggle script result for tab ${tabId}:`, result[0].result);
+    } catch (error) {
+      console.error(`Error executing toggle script:`, error);
     }
-  });
+
+    // Wait for toggle action to take effect and images to load
+    console.log(`Waiting for images to load for tab ${tabId}`);
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    console.log(`Attaching debugger to tab ${tabId}`);
+    // Attach debugger to the tab
+    await chrome.debugger.attach({ tabId }, '1.3');
+    console.log(`Debugger attached to tab ${tabId}`);
+
+    // Use the Page.printToPDF command
+    console.log(`Generating PDF for tab ${tabId}`);
+    const pdfData = await chrome.debugger.sendCommand(
+      { tabId },
+      'Page.printToPDF',
+      {
+        printBackground: true,
+        landscape: false,
+        displayHeaderFooter: false,
+        preferCSSPageSize: true
+      }
+    );
+
+    console.log(`PDF generated for ${transactionNumber}, ${pdfData.data.length} bytes`);
+
+    // Detach debugger
+    await chrome.debugger.detach({ tabId });
+    console.log(`Debugger detached from tab ${tabId}`);
+
+    // Download the PDF using data URL (blob URLs don't work in service workers)
+    // Format: customerNumber-date-orderNumber-print-img.pdf
+    const customerPrefix = customerNumber ? `${customerNumber}-` : '';
+    const imageSuffix = printWithImages ? '-img' : '-noimg';
+    const methodSuffix = '-print';
+    const filename = `staples/${customerPrefix}${transactionDate}-${transactionNumber}${methodSuffix}${imageSuffix}.pdf`;
+    console.log(`Downloading ${filename}`);
+
+    // Create a data URL from the base64 PDF data
+    const dataUrl = `data:application/pdf;base64,${pdfData.data}`;
+
+    await chrome.downloads.download({
+      url: dataUrl,
+      filename: filename,
+      saveAs: false
+    });
+
+    // Close the tab
+    await chrome.tabs.remove(tabId);
+    activeCaptureTabIds.delete(tabId); // Remove from active captures
+    console.log(`Successfully captured PDF: ${filename}`);
+
+    // Notify content script of success
+    if (senderTabId) {
+      try {
+        await chrome.tabs.sendMessage(senderTabId, {
+          message: 'downloadComplete',
+          filename,
+          mode
+        });
+      } catch (err) {
+        console.log('Could not notify content script of success:', err.message);
+      }
+    }
+
+  } catch (error) {
+    console.error(`Error capturing PDF for ${transactionNumber}:`, error);
+    console.error('Error details:', error.message, error.stack);
+
+    // Notify content script of failure
+    if (senderTabId) {
+      try {
+        await chrome.tabs.sendMessage(senderTabId, {
+          message: 'downloadFailed',
+          error: error.message,
+          data: {
+            url,
+            transactionNumber,
+            transactionDate,
+            customerNumber,
+            printWithImages,
+            retries,
+            mode
+          }
+        });
+      } catch (err) {
+        console.log('Could not notify content script of failure:', err.message);
+      }
+    }
+
+    // Try to detach debugger if still attached
+    if (tabId) {
+      try {
+        await chrome.debugger.detach({ tabId });
+        console.log(`Debugger detached after error for tab ${tabId}`);
+      } catch (e) {
+        console.log(`Could not detach debugger for tab ${tabId}:`, e.message);
+      }
+
+      // Try to close the tab
+      try {
+        await chrome.tabs.remove(tabId);
+        activeCaptureTabIds.delete(tabId); // Remove from active captures
+        console.log(`Tab ${tabId} closed after error`);
+      } catch (e) {
+        console.log(`Could not close tab ${tabId}:`, e.message);
+      }
+    }
+  }
+}
+
+// Add message handler to cancel active captures
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.message === 'cancelActiveCapturesRequested') {
+    console.log(`Cancelling ${activeCaptureTabIds.size} active PDF captures...`);
+
+    // Close all tabs with active captures
+    activeCaptureTabIds.forEach(async (tabId) => {
+      try {
+        await chrome.tabs.remove(tabId);
+        console.log(`Closed active capture tab ${tabId}`);
+      } catch (err) {
+        console.log(`Could not close tab ${tabId}:`, err.message);
+      }
+    });
+
+    const cancelled = activeCaptureTabIds.size;
+    activeCaptureTabIds.clear();
+    sendResponse({ cancelled });
+  }
+});

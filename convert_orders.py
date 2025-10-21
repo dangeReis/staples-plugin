@@ -382,8 +382,6 @@ def main():
         for row in all_rows:
             row_copy = dict(row)
             row_copy['Profile'] = profile_name
-            dt_value = parse_order_datetime_value(row_copy.get('Order Date'))
-            row_copy['Order DateTime'] = dt_value if dt_value else row_copy.get('Order Date', '')
             profile_rows_for_combined.append(row_copy)
 
         combined_rows.extend(profile_rows_for_combined)

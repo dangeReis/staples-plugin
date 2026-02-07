@@ -68,7 +68,7 @@ def parse_order_lines(order: Dict[str, Any]) -> List[Dict[str, Any]]:
             'Unit Price': line.get('unitPrice', 0),
             'Quantity': line.get('orderQty', 0),
             'Original Quantity': line.get('originalOrderedQty', 0),
-            'Line Total': line.get('total', 0),
+            'Line Total': line.get('total') if line.get('total') is not None else line.get('unitPrice', 0) * line.get('orderQty', 0),
             'Line Status': line.get('statuses', [{}])[0].get('statusDesc', '') if line.get('statuses') else '',
             'Product URL': line.get('productURL', ''),
             'Out of Stock': line.get('isOutOfStock', False),
@@ -208,6 +208,89 @@ def write_xlsx(rows: List[Dict[str, Any]], output_file: Path):
 
     wb.save(output_file)
     print(f"✓ Wrote {len(rows)} rows to {output_file}")
+
+
+def write_itemized_xlsx(rows: List[Dict[str, Any]], output_file: Path):
+    """Write rows to an XLSX file with one row per item."""
+    if not XLSX_AVAILABLE:
+        print("Skipping itemized XLSX generation (openpyxl not installed)")
+        return
+
+    if not rows:
+        print("No data to write to itemized XLSX")
+        return
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Itemized Orders"
+
+    header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
+    header_font = Font(color="FFFFFF", bold=True)
+    header_alignment = Alignment(horizontal="center", vertical="center")
+
+    fieldnames = list(rows[0].keys())
+    if 'Item Total' not in fieldnames:
+        fieldnames.insert(fieldnames.index('Line Total') + 1, 'Item Total')
+
+    for col_idx, field in enumerate(fieldnames, 1):
+        cell = ws.cell(row=1, column=col_idx, value=field)
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = header_alignment
+
+    new_row_idx = 2
+    for row in rows:
+        quantity = int(row.get('Quantity', 0))
+        line_total = float(row.get('Line Total', 0))
+
+        if quantity > 0:
+            item_total = line_total / quantity
+        else:
+            item_total = 0
+
+        if quantity > 1:
+            for i in range(quantity):
+                new_row = row.copy()
+                new_row['Quantity'] = 1
+                new_row['Item Total'] = item_total
+                for col_idx, field in enumerate(fieldnames, 1):
+                    value = new_row.get(field, '')
+                    if field == 'Item Total':
+                        value = item_total
+                    
+                    cell = ws.cell(row=new_row_idx, column=col_idx, value=value)
+                    if isinstance(value, (int, float)):
+                        cell.alignment = Alignment(horizontal="right")
+
+                new_row_idx += 1
+        else:
+            new_row = row.copy()
+            new_row['Item Total'] = item_total
+            for col_idx, field in enumerate(fieldnames, 1):
+                value = new_row.get(field, '')
+                if field == 'Item Total':
+                    value = item_total
+
+                cell = ws.cell(row=new_row_idx, column=col_idx, value=value)
+                if isinstance(value, (int, float)):
+                    cell.alignment = Alignment(horizontal="right")
+            new_row_idx += 1
+
+    for column in ws.columns:
+        max_length = 0
+        column_letter = column[0].column_letter
+        for cell in column:
+            try:
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = (max_length + 2)
+        ws.column_dimensions[column_letter].width = adjusted_width
+
+    ws.freeze_panes = 'A2'
+    wb.save(output_file)
+    print(f"✓ Wrote {new_row_idx - 2} itemized rows to {output_file}")
 
 
 def write_combined_sheet(all_rows: List[Dict[str, Any]], output_path: Path):
@@ -397,6 +480,9 @@ def main():
         if XLSX_AVAILABLE:
             xlsx_file = output_dir / f'orders_{suffix}.xlsx'
             write_xlsx(all_rows, xlsx_file)
+
+            itemized_xlsx_file = output_dir / f'orders_{suffix}_itemized.xlsx'
+            write_itemized_xlsx(all_rows, itemized_xlsx_file)
 
     if XLSX_AVAILABLE and combined_rows:
         combined_dir = output_base if output_base else (args.profile and (base_dir / 'data' / args.profile) or base_dir / 'data')

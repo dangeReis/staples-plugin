@@ -355,6 +355,9 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   } else if (request.message === 'fetchOrderDetails') {
     fetchOrderDetails();
     sendResponse({ action: 'fetching' });
+  } else if (request.message === 'fetchOrderDetailsWithExtras') {
+    fetchOrderDetailsWithExtras();
+    sendResponse({ action: 'fetching_with_extras' });
   } else if (request.message === 'resetProgress') {
     resetStatusCounters();
     isProcessing = false;
@@ -886,6 +889,231 @@ async function fetchCurrentPageOrderDetails(pageNumber, options = {}) {
     return [];
   } catch (error) {
     console.error(`Error fetching order details for page ${pageNumber}:`, error);
+    return [];
+  }
+}
+
+// Fetch extra order detail data from the Staples JSON API for an individual order.
+// Direct JSON endpoint — no HTML parsing needed.
+// Online:   /sdc/ptd/api/orderDetails/ptd/orderdetails?orderType=online_online&tp_sid={key}&pgIntlO=Y
+// In-store: /sdc/ptd/api/orderDetails/ptd/orderdetails?enterpriseCode=RetailUS&orderType=in-store_instore&tp_sid={key}&pgIntlO=Y
+async function fetchOrderDetailFromApi(keyForOrderDetails, orderType = 'online_online') {
+  if (!keyForOrderDetails) return null;
+
+  const isInStoreType = orderType === 'in-store_instore';
+  const enterpriseParam = isInStoreType ? 'enterpriseCode=RetailUS&' : '';
+  const url = `https://www.staples.com/sdc/ptd/api/orderDetails/ptd/orderdetails?${enterpriseParam}orderType=${orderType}&tp_sid=${encodeURIComponent(keyForOrderDetails)}&pgIntlO=Y`;
+  console.log(`Fetching order detail JSON (${orderType}): order key ${keyForOrderDetails.substring(0, 20)}...`);
+
+  try {
+    const resp = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'accept': 'application/json, text/plain, */*'
+      },
+      credentials: 'include'
+    });
+
+    if (!resp.ok) {
+      console.error(`Failed to fetch order detail JSON: ${resp.status}`);
+      return null;
+    }
+
+    const data = await resp.json();
+
+    // Response structure: { siteVariables, ptdMMx, intl, ptdMMXOrderDetails, ptdOrderDetails }
+    // ptdOrderDetails.orderDetails contains:
+    //   .orderDetails  — billing address, totals, payments, etc.
+    //   .shipToNShipmentsMap — shipment details with line items and tracking
+    //   .addressGroupMap — shipping addresses
+    const ptdOrderDetails = data.ptdOrderDetails?.orderDetails;
+
+    if (!ptdOrderDetails) {
+      console.warn('ptdOrderDetails not in expected location. Response keys:', Object.keys(data));
+      return null;
+    }
+
+    return ptdOrderDetails;
+  } catch (error) {
+    console.error(`Error fetching order detail JSON:`, error);
+    return null;
+  }
+}
+
+// Fetch all orders (list API) plus per-order detail data from each order's detail page.
+// Produces a combined JSON with the order list enriched by extra detail fields.
+async function fetchOrderDetailsWithExtras() {
+  console.log('Fetching ALL orders with extra detail data...');
+
+  const isInStore = window.location.href.includes('/ptd/myorders/instore');
+  const orderType = isInStore ? 'instore' : 'online';
+  console.log(`Order type: ${orderType}`);
+
+  sendActivity('info', `Starting full export with order details (${orderType})...`);
+
+  try {
+    // Step 1: Get all orders from the list API (same as fetchOrderDetails)
+    const paginationElement = document.querySelector('div[aria-label*="Viewing"][aria-label*="of"]');
+    let totalPages = 1;
+
+    if (paginationElement) {
+      const paginationText = paginationElement.getAttribute('aria-label');
+      const match = paginationText.match(/Viewing (\d+)-(\d+) of (\d+)/);
+      if (match) {
+        const totalOrders = parseInt(match[3]);
+        totalPages = Math.ceil(totalOrders / 25);
+      }
+    }
+
+    console.log(`Fetching ${totalPages} page(s) of ${orderType} orders from list API...`);
+    const allOrders = [];
+
+    for (let page = 1; page <= totalPages; page++) {
+      console.log(`Fetching list page ${page}/${totalPages}...`);
+      sendActivity('info', `Fetching order list page ${page}/${totalPages}...`);
+
+      const requestBody = isInStore ? {
+        request: {
+          criteria: { sortBy: '', pageNumber: page, pageSize: 25 },
+          isRetailUS: true, approvalOrdersOnly: false,
+          includeDeclinedOrders: false, standAloneMode: false,
+          testOrdersOnly: false, origin: '',
+          viewAllOrders: false, isOrderManagementDisabled: false, is3PP: false
+        }
+      } : {
+        request: {
+          criteria: {
+            sortBy: 'orderdate', sortOrder: 'asc',
+            pageNumber: page, esdOrdersOnly: false,
+            autoRestockOrdersOnly: false, filterForOrdersWithBreakroomItems: false,
+            pageSize: 25
+          },
+          isRetailUS: false, approvalOrdersOnly: false,
+          includeDeclinedOrders: false, standAloneMode: false,
+          testOrdersOnly: false, origin: '',
+          viewAllOrders: false, isOrderManagementDisabled: false, is3PP: false
+        }
+      };
+
+      const response = await fetch('https://www.staples.com/sdc/ptd/api/mmxPTD/mmxSearchOrder', {
+        method: 'POST',
+        headers: {
+          'accept': 'application/json, text/plain, */*',
+          'content-type': 'application/json;charset=UTF-8'
+        },
+        body: JSON.stringify(requestBody)
+      });
+
+      if (!response.ok) {
+        console.error(`Failed to fetch list page ${page}: ${response.status}`);
+        continue;
+      }
+
+      const data = await response.json();
+      if (data.orderDetailsList && data.orderDetailsList.length > 0) {
+        allOrders.push(...data.orderDetailsList);
+        console.log(`Got ${data.orderDetailsList.length} orders from list page ${page}`);
+      }
+    }
+
+    console.log(`Total orders from list API: ${allOrders.length}`);
+    sendActivity('info', `Got ${allOrders.length} orders. Now fetching detail pages...`);
+
+    // Step 2: For each order, fetch its detail page and merge extra data
+    const DETAIL_FETCH_DELAY_MS = 500; // small delay between fetches to avoid rate limiting
+    const enrichedOrders = [];
+
+    for (let i = 0; i < allOrders.length; i++) {
+      const order = allOrders[i];
+      const key = order.keyForOrderDetails;
+      const orderNum = order.orderNumber;
+
+      console.log(`Fetching detail for order ${i + 1}/${allOrders.length}: ${orderNum}`);
+      sendActivity('info', `Fetching detail ${i + 1}/${allOrders.length}: #${orderNum}`);
+
+      let extraDetail = null;
+      if (key) {
+        // Determine orderType param for URL — in-store uses different format
+        const detailOrderType = isInStore ? 'in-store_instore' : 'online_online';
+        extraDetail = await fetchOrderDetailFromApi(key, detailOrderType);
+
+        // Small delay to be polite to the server
+        if (i < allOrders.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, DETAIL_FETCH_DELAY_MS));
+        }
+      }
+
+      // Merge: start with the list API data, add extra detail fields
+      const enriched = { ...order };
+      if (extraDetail && extraDetail.orderDetails) {
+        const detail = extraDetail.orderDetails;
+        enriched._detail = {
+          billToAddress: detail.billToAddress || null,
+          payments: detail.payments || [],
+          merchandiseTotal: detail.merchandiseTotal,
+          discountsTotal: detail.discountsTotal,
+          couponsTotal: detail.couponsTotal,
+          pointsRedeemedValue: detail.pointsRedeemedValue,
+          shippingAndHandlingFeeTotal: detail.shippingAndHandlingFeeTotal,
+          shippingAndDeliveryFeeTotal: detail.shippingAndDeliveryFeeTotal,
+          baseShippingCharge: detail.baseShippingCharge,
+          expeditedCharge: detail.expeditedCharge,
+          handlingCharge: detail.handlingCharge,
+          taxesTotal: detail.taxesTotal,
+          grandTotal: detail.grandTotal,
+          ecoFeeCharge: detail.ecoFeeCharge,
+          furnitureServicesFee: detail.furnitureServicesFee,
+          minimumOrderFee: detail.minimumOrderFee,
+          largeOrderDiscount: detail.largeOrderDiscount,
+          otherDiscounts: detail.otherDiscounts,
+          channel: detail.channel,
+          method: detail.method,
+          isFutureOrder: detail.isFutureOrder,
+          isReturnable: detail.isReturnable,
+          isCancellable: detail.isCancellable,
+        };
+
+        // Include shipping addresses from addressGroupMap
+        if (extraDetail.addressGroupMap) {
+          enriched._detail.shippingAddresses = extraDetail.addressGroupMap;
+        }
+
+        // Include shipment details (tracking, delivery dates, line item details)
+        if (extraDetail.shipToNShipmentsMap) {
+          enriched._detail.shipments = extraDetail.shipToNShipmentsMap;
+        }
+      }
+
+      enrichedOrders.push(enriched);
+    }
+
+    console.log(`Enriched ${enrichedOrders.length} orders with detail data`);
+
+    // Step 3: Save combined JSON
+    const jsonData = JSON.stringify({
+      orderType: orderType,
+      orders: enrichedOrders,
+      totalResults: enrichedOrders.length,
+      includesDetailData: true,
+      fetchedAt: new Date().toISOString()
+    }, null, 2);
+
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const filename = `staples/orders-all-${orderType}-with-details-${new Date().toISOString().split('T')[0]}.json`;
+
+    chrome.runtime.sendMessage({
+      message: 'downloadJSON',
+      url: url,
+      filename: filename
+    });
+
+    sendActivity('success', `Saved ${enrichedOrders.length} ${orderType} orders with full details`);
+
+    return enrichedOrders;
+  } catch (error) {
+    console.error('Error in fetchOrderDetailsWithExtras:', error);
+    sendActivity('error', `Failed to fetch order details: ${error.message}`);
     return [];
   }
 }

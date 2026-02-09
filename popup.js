@@ -16,6 +16,7 @@ const progressText = document.getElementById('progressText');
 const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
 const fetchOrdersBtn = document.getElementById('fetchOrdersBtn');
+const fetchOrdersWithDetailsBtn = document.getElementById('fetchOrdersWithDetailsBtn');
 const retryBtn = document.getElementById('retryBtn');
 const retrySection = document.getElementById('retrySection');
 const retryCount = document.getElementById('retryCount');
@@ -231,6 +232,38 @@ function setupEventListeners(tabId) {
       addActivity({
         type: 'error',
         message: 'Failed to fetch order details',
+        time: new Date().toLocaleTimeString()
+      });
+    }
+  });
+
+  // Fetch orders with extra detail data button
+  fetchOrdersWithDetailsBtn.addEventListener('click', async () => {
+    console.log('Fetch orders with details button clicked');
+    try {
+      fetchOrdersWithDetailsBtn.disabled = true;
+      fetchOrdersWithDetailsBtn.innerHTML = '<span class="btn-icon">⏳</span> Fetching with details...';
+
+      await sendMessageToContent(tabId, { message: 'fetchOrderDetailsWithExtras' });
+
+      addActivity({
+        type: 'info',
+        message: 'Fetching all orders with extra detail data...',
+        time: new Date().toLocaleTimeString()
+      });
+
+      // Re-enable button after a longer delay (this fetches each order page)
+      setTimeout(() => {
+        fetchOrdersWithDetailsBtn.disabled = false;
+        fetchOrdersWithDetailsBtn.innerHTML = '<span class="btn-icon">📋</span> Export Orders + Details (JSON)';
+      }, 30000);
+    } catch (err) {
+      console.error('Error fetching orders with details:', err);
+      fetchOrdersWithDetailsBtn.disabled = false;
+      fetchOrdersWithDetailsBtn.innerHTML = '<span class="btn-icon">📋</span> Export Orders + Details (JSON)';
+      addActivity({
+        type: 'error',
+        message: 'Failed to fetch orders with details',
         time: new Date().toLocaleTimeString()
       });
     }

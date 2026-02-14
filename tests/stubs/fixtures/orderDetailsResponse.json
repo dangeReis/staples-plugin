@@ -1,0 +1,143 @@
+{
+  "ptdOrderDetails": {
+    "orderDetails": {
+      "orderDetails": {
+        "orderNumber": "POS.542.20250629.4.5137",
+        "masterAccountNumber": "3301279182",
+        "orderDate": "2025-06-29T12:41:34",
+        "orderUrlKey": "U3RNREdzdUtUK0J5NEcvNlBReEltTXhlMEtSbktWRCtOYnk5T0pVM21TL3hpYmV5VUk1b0MvQmI5VGRKUURFZkNEZmRkT1pXZlozdEMzb3ZUVlNBN0lqZz09",
+        "enterpriseCode": "RetailUS",
+        "merchandiseTotal": 73.98,
+        "discountsTotal": 14,
+        "couponsTotal": 14,
+        "shippingAndHandlingFeeTotal": 0,
+        "taxesTotal": 0,
+        "grandTotal": 59.98,
+        "isReturnable": false,
+        "transactionBarCode": "T1131QT11711CKK4AYYTR",
+        "storeNumber": "542",
+        "storeAddress": {
+          "addressLine1": "25 W Central Ave",
+          "city": "BERGENFIELD",
+          "state": "NJ",
+          "zipCode": "07621"
+        },
+        "shipments": [
+          {
+            "shipmentId": "1CNC",
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "skuNumber": "24608319",
+                  "title": "DUNKIN ORIGINAL BL",
+                  "skuDescription": "DUNKIN ORIGINAL BL",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7",
+                  "unitPrice": 36.99,
+                  "qtyOrdered": 1,
+                  "qtyShipped": 1,
+                  "lineTotal": 29.99,
+                  "status": 725,
+                  "statusDescription": "Purchased at store",
+                  "taxTotal": 0,
+                  "couponTotal": 7,
+                  "couponDetails": [
+                    {
+                      "chargeName": "Instant Savings #46423",
+                      "chargeAmount": 7
+                    }
+                  ]
+                },
+                {
+                  "skuNumber": "24608319",
+                  "title": "DUNKIN ORIGINAL BL",
+                  "skuDescription": "DUNKIN ORIGINAL BL",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7",
+                  "unitPrice": 36.99,
+                  "qtyOrdered": 1,
+                  "qtyShipped": 1,
+                  "lineTotal": 29.99,
+                  "status": 725,
+                  "statusDescription": "Purchased at store",
+                  "taxTotal": 0,
+                  "couponTotal": 7,
+                  "couponDetails": [
+                    {
+                      "chargeName": "Instant Savings #46423",
+                      "chargeAmount": 7
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "returnOrders": [
+          {
+            "returnOrderNumber": "POS.522.20250629.1.18628",
+            "masterOrderNumber": "POS.542.20250629.4.5137",
+            "returnedDate": "2025-06-29T16:08:16",
+            "orderUrlKey": "U3RNREZFR3FYZ0dkUE9mcHpINkVTdWlaM2NyNExiVFNYa2JHZmJEWGFQQVNRWDRMSHR1NS8xNzRLQUVqN1BXd3EwdEJuVVpxMk5PUVBtYSswV0ZsVEpuU1U9",
+            "returnShipments": [
+              {
+                "returnDispositionType": "CSR_CONTACT",
+                "trackingInfo": {
+                  "statusCode": 1400,
+                  "statusDescription": "Return Complete"
+                },
+                "merchandiseTotal": 73.98,
+                "couponTotal": 14,
+                "shippingFees": 0,
+                "taxTotal": 0,
+                "grandTotal": 59.98,
+                "containerIdVsShipmentLinesMap": {
+                  "dummyKey": [
+                    {
+                      "skuNumber": "24608319",
+                      "title": "DUNKIN ORIGINAL BLEND 64CT",
+                      "skuDescription": "DUNKIN ORIGINAL BLEND 64CT",
+                      "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7",
+                      "unitPrice": 36.99,
+                      "qtyOrdered": 0,
+                      "qtyShipped": 1,
+                      "lineTotal": 29.99,
+                      "status": 1400,
+                      "statusDescription": "Return Complete",
+                      "taxTotal": 0,
+                      "couponTotal": 7,
+                      "couponDetails": [
+                        {
+                          "chargeName": "Instant Savings #",
+                          "chargeAmount": 7
+                        }
+                      ]
+                    },
+                    {
+                      "skuNumber": "24608319",
+                      "title": "DUNKIN ORIGINAL BLEND 64CT",
+                      "skuDescription": "DUNKIN ORIGINAL BLEND 64CT",
+                      "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7",
+                      "unitPrice": 36.99,
+                      "qtyOrdered": 0,
+                      "qtyShipped": 1,
+                      "lineTotal": 29.99,
+                      "status": 1400,
+                      "statusDescription": "Return Complete",
+                      "taxTotal": 0,
+                      "couponTotal": 7,
+                      "couponDetails": [
+                        {
+                          "chargeName": "Instant Savings #",
+                          "chargeAmount": 7
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

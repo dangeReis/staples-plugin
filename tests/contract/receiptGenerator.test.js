@@ -18,6 +18,17 @@ describe('ReceiptGenerator Interface Contract', () => {
   };
 
   beforeEach(() => {
+    jest.clearAllMocks();
+
+    // Happy-path defaults — prevents unhandled rejections when tests
+    // don't await the promise (e.g. Test 2 only checks toBeInstanceOf).
+    mockChromeApi.tabs.create.mockResolvedValue({ id: 1, url: '', active: false, status: 'complete' });
+    mockChromeApi.tabs.remove.mockResolvedValue(undefined);
+    mockChromeApi.debugger.attach.mockResolvedValue(undefined);
+    mockChromeApi.debugger.detach.mockResolvedValue(undefined);
+    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: btoa('fake-pdf-content') });
+    mockChromeApi.downloads.download.mockResolvedValue(1);
+
     receiptGenerator = createChromePrintReceiptGenerator(mockChromeApi);
   });
 
@@ -37,8 +48,8 @@ describe('ReceiptGenerator Interface Contract', () => {
   test('generate should resolve with a Receipt object', async () => {
     const order = createOrder({ id: '456', date: '2025-10-18', type: 'online', detailsUrl: 'https://www.staples.com/ptd/myorders/details/456' });
     
-    // Mock underlying APIs to return a successful result
-    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: 'pdf-data' });
+    // Mock underlying APIs to return a successful result (must be valid base64 for atob())
+    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: btoa('pdf-binary-content') });
     mockChromeApi.downloads.download.mockResolvedValue(1);
 
     const receipt = await receiptGenerator.generate(order, { includeImages: false, method: 'print' });
@@ -71,7 +82,7 @@ describe('ReceiptGenerator Interface Contract', () => {
   // Test 6: Ensure the returned Receipt object has a valid shape
   test('generate should return a receipt with a valid shape', async () => {
     const order = createOrder({ id: '101', date: '2025-10-20', type: 'online', detailsUrl: 'https://www.staples.com/ptd/myorders/details/101' });
-    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: 'pdf-data-shape-test' });
+    mockChromeApi.debugger.sendCommand.mockResolvedValue({ data: btoa('pdf-binary-shape-test') });
     mockChromeApi.downloads.download.mockResolvedValue(2);
 
     const receipt = await receiptGenerator.generate(order, { includeImages: true, method: 'print' });

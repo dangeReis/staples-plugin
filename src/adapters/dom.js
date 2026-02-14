@@ -110,6 +110,14 @@ export function createDOMAdapter({ document: documentOverride } = {}) {
       target.dispatchEvent(event);
     },
 
+    getAttribute(element, attributeName) {
+      const target = ensureElement(element, 'getAttribute');
+      if (typeof attributeName !== 'string' || attributeName.length === 0) {
+        throw new Error('DOMAdapter.getAttribute requires an attributeName string');
+      }
+      return target.getAttribute(attributeName);
+    },
+
     click(element) {
       const target = ensureElement(element, 'click');
       target.click();

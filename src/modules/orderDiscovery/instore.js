@@ -31,6 +31,8 @@ export function createInstoreOrderDiscovery({ dom }) {
           const date = dom.getAttribute(element, 'data-instore-order-date');
           const detailsUrl = dom.getAttribute(element, 'data-instore-order-details-url');
           const customerNumber = dom.getAttribute(element, 'data-customer-number'); // Optional
+          const orderUrlKey = dom.getAttribute(element, 'data-order-url-key'); // tp_sid for API enrichment
+          const orderType = dom.getAttribute(element, 'data-order-type') || 'in-store_instore';
 
           if (!id || !date || !detailsUrl) {
             throw new Error('Missing essential in-store order data from DOM element');
@@ -42,6 +44,8 @@ export function createInstoreOrderDiscovery({ dom }) {
             type: 'instore',
             detailsUrl,
             customerNumber,
+            orderUrlKey,
+            orderType,
           }));
         } catch (error) {
           console.warn(`Failed to parse in-store order from DOM element: ${error.message}`);

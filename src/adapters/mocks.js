@@ -205,6 +205,7 @@ export function createMockDOMAdapter(initialElements = {}) {
       const element = { tagName, attributes: { ...attributes }, textContent: textContent ?? '', value: '' };
       return element;
     },
+    getAttribute: (element, attrName) => element?.attributes?.[attrName] ?? null,
     getText: (element) => element?.textContent ?? '',
     setText: (element, value) => {
       if (element) {
@@ -235,6 +236,44 @@ export function createMockDOMAdapter(initialElements = {}) {
   };
 
   return Object.freeze(api);
+}
+
+export function createMockFetchAdapter(responseMap = {}) {
+  const calls = [];
+
+  /**
+   * responseMap keys are URL substrings — first match wins.
+   * Each value is { status, ok, data } or a function(url, options) => { status, ok, data }.
+   *
+   * If no match, returns { status: 404, ok: false, data: { error: 'Not Found' } }.
+   */
+  function findResponse(url, options) {
+    for (const [pattern, handler] of Object.entries(responseMap)) {
+      if (url.includes(pattern)) {
+        return typeof handler === 'function' ? handler(url, options) : handler;
+      }
+    }
+    return { status: 404, ok: false, data: { error: 'Not Found' } };
+  }
+
+  async function get(url, options = {}) {
+    calls.push({ method: 'GET', url, options });
+    return findResponse(url, options);
+  }
+
+  async function post(url, body, options = {}) {
+    calls.push({ method: 'POST', url, body, options });
+    return findResponse(url, options);
+  }
+
+  return Object.freeze({
+    get,
+    post,
+    /** Inspect recorded calls in tests */
+    getCalls() { return [...calls]; },
+    /** Reset call log */
+    resetCalls() { calls.length = 0; },
+  });
 }
 
 export const MockChromeDownloadsAdapter = createMockChromeDownloadsAdapter();

@@ -1,6 +1,14 @@
 // tests/content.test.js
 // Unit tests for content.js functions
 
+import { jest, describe, test, expect, beforeEach } from '@jest/globals';
+import { readFileSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 /**
  * Chrome Extension Testing Setup
  *
@@ -314,5 +322,173 @@ describe('Staples Extension - Integration Tests', () => {
 
     expect(sessionStorage.getItem('autoProcessNextPage')).toBeNull();
     expect(sessionStorage.getItem('globalTransactionIndex')).toBeNull();
+  });
+});
+
+/**
+ * Regression test for the combined JSON merge in content.js.
+ *
+ * Bug fixed in commit c480cb2:
+ *   - returnOrders from inner orderDetails were silently dropped
+ *   - line-item shipments (detail.shipments) were silently dropped
+ *
+ * This test replicates the merge logic (content.js ~lines 1046-1095) and runs
+ * it against the real fixture data to verify that returnOrders and
+ * orderShipments are preserved in the enriched output.
+ */
+
+// Replicate the merge logic from content.js fetchOrderDetailsWithExtras()
+// lines 1046-1095. This is a faithful copy — if content.js changes, this
+// function must be updated to match.
+function mergeOrderWithDetail(order, extraDetail) {
+  const enriched = { ...order };
+  if (extraDetail && extraDetail.orderDetails) {
+    const detail = extraDetail.orderDetails;
+    enriched._detail = {
+      billToAddress: detail.billToAddress || null,
+      payments: detail.payments || [],
+      merchandiseTotal: detail.merchandiseTotal,
+      discountsTotal: detail.discountsTotal,
+      couponsTotal: detail.couponsTotal,
+      pointsRedeemedValue: detail.pointsRedeemedValue,
+      shippingAndHandlingFeeTotal: detail.shippingAndHandlingFeeTotal,
+      shippingAndDeliveryFeeTotal: detail.shippingAndDeliveryFeeTotal,
+      baseShippingCharge: detail.baseShippingCharge,
+      expeditedCharge: detail.expeditedCharge,
+      handlingCharge: detail.handlingCharge,
+      taxesTotal: detail.taxesTotal,
+      grandTotal: detail.grandTotal,
+      ecoFeeCharge: detail.ecoFeeCharge,
+      furnitureServicesFee: detail.furnitureServicesFee,
+      minimumOrderFee: detail.minimumOrderFee,
+      largeOrderDiscount: detail.largeOrderDiscount,
+      otherDiscounts: detail.otherDiscounts,
+      channel: detail.channel,
+      method: detail.method,
+      isFutureOrder: detail.isFutureOrder,
+      isReturnable: detail.isReturnable,
+      isCancellable: detail.isCancellable,
+    };
+
+    // Include line-item shipments from inner orderDetails (has SKUs, prices, quantities)
+    if (detail.shipments && detail.shipments.length > 0) {
+      enriched._detail.orderShipments = detail.shipments;
+    }
+
+    // Include return orders from inner orderDetails
+    if (detail.returnOrders && detail.returnOrders.length > 0) {
+      enriched._detail.returnOrders = detail.returnOrders;
+    }
+
+    // Include shipping addresses from addressGroupMap
+    if (extraDetail.addressGroupMap) {
+      enriched._detail.shippingAddresses = extraDetail.addressGroupMap;
+    }
+
+    // Include shipment-level details (tracking, delivery dates) from outer map
+    if (extraDetail.shipToNShipmentsMap) {
+      enriched._detail.shipments = extraDetail.shipToNShipmentsMap;
+    }
+  }
+  return enriched;
+}
+
+describe('Staples Extension - Combined JSON Merge (Regression)', () => {
+  // Load the real fixture once for all tests
+  const fixture = JSON.parse(
+    readFileSync(resolve(__dirname, 'stubs/fixtures/orderDetailsResponse.json'), 'utf8')
+  );
+  const extraDetail = fixture.ptdOrderDetails.orderDetails; // middle level
+  const baseOrder = { orderNumber: 'POS.542.20250629.4.5137', orderDate: '2025-06-29' };
+
+  test('returnOrders are preserved in enriched output (regression: c480cb2)', () => {
+    const result = mergeOrderWithDetail(baseOrder, extraDetail);
+    expect(result._detail).toBeDefined();
+    expect(result._detail.returnOrders).toBeDefined();
+    expect(result._detail.returnOrders.length).toBeGreaterThan(0);
+    expect(result._detail.returnOrders[0].returnOrderNumber).toBe('POS.522.20250629.1.18628');
+  });
+
+  test('orderShipments (line-item shipments) are preserved in enriched output (regression: c480cb2)', () => {
+    const result = mergeOrderWithDetail(baseOrder, extraDetail);
+    expect(result._detail).toBeDefined();
+    expect(result._detail.orderShipments).toBeDefined();
+    expect(result._detail.orderShipments.length).toBeGreaterThan(0);
+  });
+
+  test('outer shipToNShipmentsMap does not clobber inner orderShipments', () => {
+    const result = mergeOrderWithDetail(baseOrder, extraDetail);
+
+    // Both should coexist: orderShipments = inner detail.shipments (SKUs/prices)
+    // shipments = outer shipToNShipmentsMap (tracking/delivery)
+    if (extraDetail.shipToNShipmentsMap) {
+      expect(result._detail.shipments).toBeDefined();
+    }
+    // They should be different objects if both exist
+    if (result._detail.shipments && result._detail.orderShipments) {
+      expect(result._detail.shipments).not.toBe(result._detail.orderShipments);
+    }
+  });
+
+  test('handles missing returnOrders gracefully (no key added)', () => {
+    const noReturns = {
+      orderDetails: {
+        ...extraDetail.orderDetails,
+        returnOrders: undefined
+      }
+    };
+    const result = mergeOrderWithDetail(baseOrder, noReturns);
+    expect(result._detail).toBeDefined();
+    expect(result._detail.returnOrders).toBeUndefined();
+  });
+
+  test('handles empty returnOrders array (no key added)', () => {
+    const emptyReturns = {
+      orderDetails: {
+        ...extraDetail.orderDetails,
+        returnOrders: []
+      }
+    };
+    const result = mergeOrderWithDetail(baseOrder, emptyReturns);
+    expect(result._detail).toBeDefined();
+    expect(result._detail.returnOrders).toBeUndefined();
+  });
+
+  test('return order financial details are preserved', () => {
+    const result = mergeOrderWithDetail(baseOrder, extraDetail);
+    const returnOrder = result._detail.returnOrders[0];
+    // Verify financial fields from fixture survive the merge
+    expect(returnOrder).toHaveProperty('returnOrderNumber');
+    expect(returnOrder).toHaveProperty('returnShipments');
+  });
+
+  test('original order fields are retained after merge', () => {
+    const result = mergeOrderWithDetail(baseOrder, extraDetail);
+    expect(result.orderNumber).toBe('POS.542.20250629.4.5137');
+    expect(result.orderDate).toBe('2025-06-29');
+  });
+});
+
+describe('Staples Extension - Source Guard (content.js merge block)', () => {
+  const contentSrc = readFileSync(resolve(__dirname, '..', 'content.js'), 'utf8');
+
+  test('content.js assigns enriched._detail.returnOrders from detail.returnOrders', () => {
+    expect(contentSrc).toMatch(/enriched\._detail\.returnOrders\s*=\s*detail\.returnOrders/);
+  });
+
+  test('content.js assigns enriched._detail.orderShipments from detail.shipments', () => {
+    expect(contentSrc).toMatch(/enriched\._detail\.orderShipments\s*=\s*detail\.shipments/);
+  });
+
+  test('content.js guards returnOrders with length > 0 check', () => {
+    expect(contentSrc).toMatch(/detail\.returnOrders\s*&&\s*detail\.returnOrders\.length\s*>\s*0/);
+  });
+
+  test('content.js guards shipments with length > 0 check', () => {
+    expect(contentSrc).toMatch(/detail\.shipments\s*&&\s*detail\.shipments\.length\s*>\s*0/);
+  });
+
+  test('content.js assigns outer shipToNShipmentsMap to enriched._detail.shipments', () => {
+    expect(contentSrc).toMatch(/enriched\._detail\.shipments\s*=\s*extraDetail\.shipToNShipmentsMap/);
   });
 });

@@ -9,7 +9,8 @@ export default {
   testMatch: [
     '<rootDir>/tests/contract/**/*.test.js',
     '<rootDir>/tests/integration/**/*.test.js',
-    '<rootDir>/tests/unit/**/*.test.js'
+    '<rootDir>/tests/unit/**/*.test.js',
+    '<rootDir>/tests/*.test.js'
   ],
 
   // Named display for reporters

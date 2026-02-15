@@ -1073,12 +1073,22 @@ async function fetchOrderDetailsWithExtras() {
           isCancellable: detail.isCancellable,
         };
 
+        // Include line-item shipments from inner orderDetails (has SKUs, prices, quantities)
+        if (detail.shipments && detail.shipments.length > 0) {
+          enriched._detail.orderShipments = detail.shipments;
+        }
+
+        // Include return orders from inner orderDetails
+        if (detail.returnOrders && detail.returnOrders.length > 0) {
+          enriched._detail.returnOrders = detail.returnOrders;
+        }
+
         // Include shipping addresses from addressGroupMap
         if (extraDetail.addressGroupMap) {
           enriched._detail.shippingAddresses = extraDetail.addressGroupMap;
         }
 
-        // Include shipment details (tracking, delivery dates, line item details)
+        // Include shipment-level details (tracking, delivery dates) from outer map
         if (extraDetail.shipToNShipmentsMap) {
           enriched._detail.shipments = extraDetail.shipToNShipmentsMap;
         }

@@ -47,3 +47,6 @@ out/
 # Python cache
 __pycache__/
 *.pyc
+.staples_cache/
+staples_auth_state.json
+staples_orders_extract.json

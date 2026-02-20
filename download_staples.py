@@ -1,207 +1,160 @@
 import json
 import os
 import time
+from datetime import datetime
 from pathlib import Path
 from curl_cffi import requests
 from playwright.sync_api import sync_playwright
 
 # --- Configuration ---
-STATE_FILE = "staples_auth_state.json"
-CACHE_DIR = Path(".staples_cache")
-OUTPUT_FILE = "staples_orders_extract.json"
-DELAY_BETWEEN_REQUESTS = 1.0  # Seconds to wait between API calls to avoid rate limits
+USER_NAME = "russ"  # Change this for other accounts
+DATA_DIR = Path(USER_NAME)
+STATE_FILE = DATA_DIR / "staples_auth_state.json"
+CACHE_DIR = DATA_DIR / "cache"
+DATE_STR = datetime.now().strftime("%Y_%m_%d")
 
-def get_auth_cookies():
-    """
-    Checks if we have valid saved cookies. If not, opens a headful Playwright browser,
-    lets the user log in manually, captures the state, and returns the cookies.
-    """
-    has_state = os.path.exists(STATE_FILE)
-    
+INSTORE_OUTPUT = DATA_DIR / f"staples_instore_orders_with_detail_{DATE_STR}.json"
+ONLINE_OUTPUT = DATA_DIR / f"staples_online_orders_with_detail_{DATE_STR}.json"
+DELAY_BETWEEN_REQUESTS = 1.0
+
+def manual_login_and_save():
+    """Opens a browser for manual login and captures state."""
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
-        
-        # Load existing state if we have it
         context_args = {
             "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "viewport": {"width": 1280, "height": 800}
         }
-        if has_state:
-            context_args["storage_state"] = STATE_FILE
-            
+        if STATE_FILE.exists():
+            context_args["storage_state"] = str(STATE_FILE)
         context = browser.new_context(**context_args)
         page = context.new_page()
 
-        print("Checking session validity...")
+        print("\n" + "="*50)
+        print(f"STAPLES DOWNLOADER - USER: {USER_NAME}")
+        print("1. Log in if needed.")
+        print("2. Ensure you are on the Orders page.")
+        print("3. PRESS ENTER in this terminal to start.")
+        print("="*50 + "\n")
+
         page.goto("https://www.staples.com/ptd/myorders/instore")
+        input(">>> PRESS ENTER TO START EXTRACTION <<<")
         
-        # If we get redirected to login, wait for user to authenticate
-        if "login" in page.url.lower():
-            print("\n" + "="*50)
-            print("Session expired or missing.")
-            print("Please log in manually in the opened browser window...")
-            print("The script will resume automatically once you reach the Order History page.")
-            print("Take your time to solve CAPTCHAs or 2FA if required.")
-            print("="*50 + "\n")
-
-            # Wait indefinitely for the URL to change to the orders page
-            page.wait_for_url("**/ptd/myorders**", timeout=0)
-            print("Login detected! Capturing session...")
-            
-            # Save the new state
-            context.storage_state(path=STATE_FILE)
-            print(f"Session saved securely to {STATE_FILE}.")
-
-        # Extract cookies from the Playwright context to use with curl_cffi
+        print("Capturing session state...")
+        context.storage_state(path=str(STATE_FILE))
         playwright_cookies = context.cookies()
-        
-        # Convert to dictionary format for curl_cffi requests
         cookie_dict = {c['name']: c['value'] for c in playwright_cookies}
-        
         browser.close()
         return cookie_dict
 
-def fetch_order_page(session, page_number):
-    """Fetch a page of in-store orders using curl_cffi."""
+def fetch_order_page(session, page_number, order_type="in-store"):
     url = "https://www.staples.com/sdc/ptd/api/mmxPTD/mmxSearchOrder"
-    
     headers = {
         "accept": "application/json, text/plain, */*",
         "content-type": "application/json;charset=UTF-8",
         "origin": "https://www.staples.com",
-        "referer": "https://www.staples.com/ptd/myorders/instore"
+        "referer": f"https://www.staples.com/ptd/myorders/{'instore' if order_type == 'in-store' else ''}"
     }
     
-    payload = {
-        "request": {
-            "criteria": {
-                "sortBy": "",
-                "pageNumber": page_number,
-                "pageSize": 25
-            },
-            "isRetailUS": True,
-            "approvalOrdersOnly": False,
-            "includeDeclinedOrders": False,
-            "standAloneMode": False,
-            "testOrdersOnly": False,
-            "origin": "",
-            "viewAllOrders": False,
-            "isOrderManagementDisabled": False,
-            "is3PP": False
+    if order_type == "in-store":
+        payload = {
+            "request": {
+                "criteria": {"sortBy": "", "pageNumber": page_number, "pageSize": 25},
+                "isRetailUS": True, "approvalOrdersOnly": False, "includeDeclinedOrders": False,
+                "standAloneMode": False, "testOrdersOnly": False, "origin": "",
+                "viewAllOrders": False, "isOrderManagementDisabled": False, "is3PP": False
+            }
         }
-    }
+    else:  # online
+        payload = {
+            "request": {
+                "criteria": {
+                    "sortBy": "orderdate", "sortOrder": "asc", "pageNumber": page_number,
+                    "esdOrdersOnly": False, "autoRestockOrdersOnly": False,
+                    "filterForOrdersWithBreakroomItems": False, "pageSize": 25
+                },
+                "isRetailUS": False, "approvalOrdersOnly": False, "includeDeclinedOrders": False,
+                "standAloneMode": False, "testOrdersOnly": False, "origin": "",
+                "viewAllOrders": False, "isOrderManagementDisabled": False, "is3PP": False
+            }
+        }
 
     response = session.post(url, headers=headers, json=payload)
     if response.status_code != 200:
-        print(f"Failed to fetch page {page_number}. Status: {response.status_code}")
+        print(f"Failed to fetch {order_type} page {page_number}. Status: {response.status_code}")
         return None
-        
     return response.json()
 
 def fetch_pos_details(session, tp_sid_key):
-    """Fetch rich details for a POS order using curl_cffi."""
     url = f"https://www.staples.com/sdc/ptd/api/orderDetails/ptd/orderdetails?enterpriseCode=RetailUS&orderType=in-store_instore&tp_sid={tp_sid_key}&pgIntlO=Y"
-    
-    headers = {
-        "accept": "application/json, text/plain, */*",
-        "referer": "https://www.staples.com/ptd/myorders/instore"
-    }
-    
+    headers = {"accept": "application/json, text/plain, */*", "referer": "https://www.staples.com/ptd/myorders/instore"}
     response = session.get(url, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Failed to fetch details. Status: {response.status_code}")
-        return None
+    return response.json() if response.status_code == 200 else None
 
 def main():
+    DATA_DIR.mkdir(exist_ok=True)
     CACHE_DIR.mkdir(exist_ok=True)
-    all_orders = []
+    
+    cookies = manual_login_and_save()
 
-    # 1. Get authenticated cookies using Playwright for the login flow
-    cookies = get_auth_cookies()
-
-    # 2. Create a curl_cffi session with Chrome impersonation
     print("\nInitializing curl_cffi session...")
     session = requests.Session(impersonate="chrome120")
-    session.cookies.update(cookies)
+    for k, v in cookies.items():
+        session.cookies.set(k, v, domain=".staples.com")
 
-    # 3. Fetch the first page to determine total pages
-    print("Fetching initial order history data...")
-    list_data = fetch_order_page(session, 1)
-    
-    if not list_data or "orderDetailsList" not in list_data:
-        print("CRITICAL: Failed to fetch orders even with valid session. Staples API might have changed or session is invalid.")
-        return
-
-    total_results = list_data.get("totalResults", 0)
-    total_pages = (total_results + 24) // 25
-    print(f"Found {total_results} total orders ({total_pages} pages).")
-
-    current_page = 1
-
-    # 4. Iterate through all pages
-    while current_page <= total_pages:
-        try:
-            if current_page > 1:
-                list_data = fetch_order_page(session, current_page)
+    for order_type in ["in-store", "online"]:
+        print(f"\n--- Fetching {order_type.upper()} orders ---")
+        current_page = 1
+        total_pages = 1
+        type_orders = []
+        output_file = INSTORE_OUTPUT if order_type == "in-store" else ONLINE_OUTPUT
+        
+        while current_page <= total_pages:
+            list_data = fetch_order_page(session, current_page, order_type=order_type)
+            if not list_data or "orderDetailsList" not in list_data:
+                print(f"No {order_type} orders found or API error.")
+                break
+                
+            if current_page == 1:
+                total_results = list_data.get("totalResults", 0)
+                total_pages = (total_results + 24) // 25
+                print(f"Found {total_results} {order_type} orders.")
 
             orders = list_data.get("orderDetailsList", [])
-            if not orders:
-                break
-
             for order in orders:
-                order_number = order.get("orderNumber", "")
-                cache_file = CACHE_DIR / f"{order_number}.json"
+                num = order.get("orderNumber", "")
+                cache_file = CACHE_DIR / f"{num}.json"
                 
-                # Check cache first to avoid redundant API calls
                 if cache_file.exists():
                     with open(cache_file, 'r') as f:
-                        all_orders.append(json.load(f))
+                        type_orders.append(json.load(f))
                     continue
 
-                # Not cached, prepare to enrich and save
-                enriched_order = dict(order)
+                enriched = dict(order)
+                enriched['_order_type'] = order_type
                 
-                # If it's an In-Store (POS) order, fetch the deep details
-                if order_number.startswith("POS."):
+                if num.startswith("POS."):
                     key = order.get("keyForOrderDetails")
                     if key:
-                        print(f"Fetching deep details for POS order: {order_number}...")
-                        time.sleep(DELAY_BETWEEN_REQUESTS) # Respectful rate limiting
-                        
-                        detail_data = fetch_pos_details(session, key)
-                        if detail_data:
+                        print(f"Fetching details for {num}...")
+                        time.sleep(DELAY_BETWEEN_REQUESTS)
+                        details = fetch_pos_details(session, key)
+                        if details:
                             try:
-                                # Extract inner orderDetails object securely
-                                inner_details = detail_data['ptdOrderDetails']['orderDetails']['orderDetails']
-                                enriched_order['_pos_detail'] = inner_details
-                            except KeyError:
-                                # Fallback if Staples changes their JSON schema slightly
-                                enriched_order['_pos_detail'] = detail_data
+                                enriched['_pos_detail'] = details['ptdOrderDetails']['orderDetails']['orderDetails']
+                            except:
+                                enriched['_pos_detail'] = details
                 
-                # Save the enriched order to the local cache folder
                 with open(cache_file, 'w') as f:
-                    json.dump(enriched_order, f, indent=2)
-                
-                all_orders.append(enriched_order)
+                    json.dump(enriched, f, indent=2)
+                type_orders.append(enriched)
 
-            print(f"Processed page {current_page}/{total_pages}...")
             current_page += 1
             time.sleep(DELAY_BETWEEN_REQUESTS)
 
-        except Exception as e:
-            print(f"Error on page {current_page}: {e}")
-            break
-
-    # 5. Final aggregation
-    print(f"\nSuccessfully extracted {len(all_orders)} total orders.")
-    
-    # Save to a final bulk JSON file
-    with open(OUTPUT_FILE, 'w') as f:
-        json.dump(all_orders, f, indent=2)
-        
-    print(f"Saved final merged extract to '{OUTPUT_FILE}'")
+        with open(output_file, 'w') as f:
+            json.dump(type_orders, f, indent=2)
+        print(f"Saved {len(type_orders)} {order_type} orders to {output_file}")
 
 if __name__ == "__main__":
     main()

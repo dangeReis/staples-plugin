@@ -1,4 +1,4 @@
-import { OrderDiscoveryInterface, OrderDiscoveryError } from '../../src/modules/orderDiscovery/interface';
+import { OrderDiscoveryError } from '../../src/modules/orderDiscovery/interface';
 import { createOnlineOrderDiscovery } from '../../src/modules/orderDiscovery/online';
 
 describe('OrderDiscovery Interface Contract', () => {

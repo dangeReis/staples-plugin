@@ -1,10 +1,8 @@
 
 import { jest, describe, test, expect, beforeEach } from '@jest/globals';
-import { DownloadSchedulerInterface, SchedulingError } from '../../src/modules/scheduler/interface';
+import { SchedulingError } from '../../src/modules/scheduler/interface';
 import { createTimeBasedScheduler } from '../../src/modules/scheduler/timeBasedScheduler';
 import { createOrder } from '../../src/primitives/Order';
-import { createChromePrintReceiptGenerator } from '../../src/modules/receiptGenerator/chromePrint';
-import { createChromeStorageStatusTracker } from '../../src/modules/statusTracker/chromeStorage';
 
 global.Blob = class Blob extends global.Blob {};
 

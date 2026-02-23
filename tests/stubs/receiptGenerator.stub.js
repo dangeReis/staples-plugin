@@ -1,4 +1,4 @@
-import { ReceiptGeneratorInterface, ReceiptGenerationError } from '../../src/modules/receiptGenerator/interface.js';
+import { ReceiptGenerationError } from '../../src/modules/receiptGenerator/interface.js';
 import { createReceipt } from '../../src/primitives/Receipt.js';
 
 export function createStubReceiptGenerator() {

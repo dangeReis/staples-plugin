@@ -1,4 +1,4 @@
-import { jest, describe, test, expect, beforeEach } from '@jest/globals';
+import { describe, test, expect, beforeEach } from '@jest/globals';
 import { createOnlineOrderDiscovery } from '../../src/modules/orderDiscovery/online.js';
 import { createStubOrderDiscovery } from '../stubs/orderDiscovery.stub.js';
 

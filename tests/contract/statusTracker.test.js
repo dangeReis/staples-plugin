@@ -1,6 +1,6 @@
 
 import { jest, describe, test, expect, beforeEach } from '@jest/globals';
-import { StatusTrackerInterface, StatusTrackingError } from '../../src/modules/statusTracker/interface';
+import { StatusTrackingError } from '../../src/modules/statusTracker/interface';
 import { createChromeStorageStatusTracker } from '../../src/modules/statusTracker/chromeStorage';
 import { createActivity } from '../../src/primitives/Activity';
 

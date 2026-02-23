@@ -334,9 +334,9 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     // Order details pages are now handled automatically by background.js
     // No manual interaction needed
   } else if (request.message === 'processFromJSON') {
-    // Process orders from JSON files that were already downloaded
-    processOrdersFromJSON();
-    sendResponse({ action: 'processing_json' });
+    // TODO: processOrdersFromJSON not yet implemented
+    console.warn('processFromJSON requested but handler is not yet implemented');
+    sendResponse({ action: 'not_implemented' });
   } else if (request.message === 'toggleAutonomous') {
     const currentMode = localStorage.getItem('staplesAutonomousMode') === 'true';
     const newMode = !currentMode;

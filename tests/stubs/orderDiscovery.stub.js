@@ -1,4 +1,4 @@
-import { OrderDiscoveryInterface, OrderDiscoveryError } from '../../src/modules/orderDiscovery/interface.js';
+import { OrderDiscoveryError } from '../../src/modules/orderDiscovery/interface.js';
 import { createOrder } from '../../src/primitives/Order.js';
 
 export function createStubOrderDiscovery() {

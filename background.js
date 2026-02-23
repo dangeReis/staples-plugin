@@ -1,9 +1,6 @@
 // background.js
 // This script handles the downloading of receipts and opening order details pages.
 
-// Store transaction data for later use when printing
-const transactionDataMap = new Map();
-
 // Create context menu on install for autonomous mode toggle
 chrome.runtime.onInstalled.addListener(() => {
   console.log('Extension installed/updated, setting up context menu');

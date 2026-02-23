@@ -1,6 +1,6 @@
 
 import { jest, describe, test, expect, beforeEach } from '@jest/globals';
-import { ReceiptGeneratorInterface, ReceiptGenerationError } from '../../src/modules/receiptGenerator/interface';
+import { ReceiptGenerationError } from '../../src/modules/receiptGenerator/interface';
 import { createChromePrintReceiptGenerator } from '../../src/modules/receiptGenerator/chromePrint';
 import { createOrder } from '../../src/primitives/Order';
 

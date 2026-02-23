@@ -1,0 +1,68 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9933445395",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-10-26T09:25:57",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREZ6NzNmM291eEMxT0JtWERqZ0xZV3F3MTJSN1d6MyttS0JNeHVEbDZqMTVMY1R0cExWNUxVYzB2bXBPU1FwYng3SA==",
+  "salesTranID": "25597545129",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "900",
+  "statusDesc": "Did not pick up",
+  "merchandiseTotal": 0,
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "256175818862",
+      "lineType": "ISP",
+      "productSku": "24418183",
+      "productName": "Staples Standard Staples, 1/4\" Leg Length, 5000 /Box (TR58090)",
+      "productDepartment": "7",
+      "productClass": "787",
+      "productSubClass": "78",
+      "vendorModel": "ST58090",
+      "productUOM": "EACH",
+      "unitPrice": 1.99,
+      "orderQty": 0,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "900",
+          "statusDesc": "Did not pick up",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "9000.300",
+      "productDesc": "Staples Standard Staples, 1/4\" Leg Length, 5000 /Box (TR58090)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E323E9F2-9C4E-4AB8-8ADA45A3AB5D52F9_sc7?$thb$",
+      "productURL": "staples-standard-staples-1-4-leg-length-5000-box-tr58090/product_24418183",
+      "model": "ST58090-US",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24418183",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "online"
+}

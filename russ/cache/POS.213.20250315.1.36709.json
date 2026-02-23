@@ -1,0 +1,240 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.213.20250315.1.36709",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-15T18:24:41",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhpcEUwYnlLNlVJZXdRVWlZNXYxaG1JQm9menRRbWwyOTBrOUduTmw5dHEvTGgycHg2TDRBM0prZmZZT01wdWpXeEpJRlRHUy9hTzU2ck1lc0pHQWs9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.49,
+  "orderLines": [
+    {
+      "productSku": "24413845",
+      "productName": "3D DISPLAY BOARD 3",
+      "productShortDesc": "3D DISPLAY BOARD 3",
+      "productLongDesc": "3D DISPLAY BOARD 3",
+      "unitPrice": 1.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "3D DISPLAY BOARD 3",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "213",
+  "storeAddressLine1": "653 W Edgar Rd",
+  "storeCity": "LINDEN",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:48.239366708",
+      "resourceName": "OrderDetails",
+      "transactionId": "fc1d7c60279a44dbb3340441d3dcfa7a",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.213.20250315.1.36709",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.213.20250315.1.36709",
+    "orderDate": "2025-03-15T18:24:41",
+    "keyForOrderDetails": "U3RNREgyM2w3bXMxc2lhN2xIWXFYRkg4cXRhNzUvckFUbktjQnd6bkFyQ21nTU9va055T0pod3lpeGNwZ3Y5S0w3c052WjFRZWxzWThJaWlnd0JqeG5DNDg9",
+    "orderUrlKey": "U3RNREgyM2w3bXMxc2lhN2xIWXFYRkg4cXRhNzUvckFUbktjQnd6bkFyQ21nTU9va055T0pod3lpeGNwZ3Y5S0w3c052WjFRZWxzWThJaWlnd0JqeG5DNDg9",
+    "customerNumberKey": "U3RNREg4cnlTdndlby9zY3JsUFppSEVFUVFFcHJFbTZ4YkhVdE0vZEpTYm85TnJkNXNvN2RhUGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 1.46,
+    "discountsTotal": 1,
+    "couponsTotal": 0,
+    "pointsRedeemedValue": 1,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.03,
+    "grandTotal": 0.49,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "653 W Edgar Rd",
+        "city": "LINDEN",
+        "state": "NJ",
+        "zipCode": "07036"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "3D DISPLAY BOARD 3",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24413845?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "3D DISPLAY BOARD 3",
+              "skuNumber": "24413845",
+              "unitPrice": 1.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.46,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0305
+                }
+              ],
+              "couponTotal": 1,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                }
+              ],
+              "regularCouponsTotal": 1,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24413845"
+    ],
+    "storeNumber": "213",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "653 W Edgar Rd",
+      "city": "LINDEN",
+      "state": "NJ",
+      "zipCode": "07036"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131D9113144CW4AYRQQ"
+  }
+}

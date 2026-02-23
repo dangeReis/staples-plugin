@@ -1,0 +1,148 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9920259060",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-03-23T15:57:25",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREhTWURjZ2F6UlVCSm5OaGxESGZmM3lNQTZyQTdFRTRXL0ZBRWRGOXU3dURDa0FKdGg1WTA5ZVpCekE5ZFpnKzlMcA==",
+  "salesTranID": "22938237726",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 159.94,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "221270185815",
+      "lineType": "STA",
+      "productSku": "24428785",
+      "productName": "Brother TN8502PK Black Toner High Yield Cartridge, Print Up to 8,000 Pages, 2/Pack",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN8502PK",
+      "productUOM": "EACH",
+      "unitPrice": 207.99,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 139.64,
+      "invoicedTotal": 139.64,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-850 Black Toner High Yield Cartridge, 2/Pack (TN8502PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6E776F84-6BDB-4747-96F9C185502D5DF4_sc7?$thb$",
+      "productURL": "brother-tn8502pk-black-toner-high-yield-cartridge-print-up-to-8-000-pages-2-pack/product_24428785",
+      "model": "TN8502PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428785",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "221270185816",
+      "lineType": "STA",
+      "productSku": "24579067",
+      "productName": "TRU RED\u2122 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 600 Sheets/Ream, 6 Reams/Carton (TR62091)",
+      "productDepartment": "5",
+      "productClass": "960",
+      "productSubClass": "96",
+      "vendorModel": "TR62091",
+      "productUOM": "EACH",
+      "unitPrice": 41.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "TRU RED\u2122 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 600 Sheets/Ream, 6 Reams/Carton (TR62091)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/ED883DDD-E8FA-405F-A77EA5A51F01D447_sc7?$thb$",
+      "productURL": "tru-red-8-5-x-11-copy-paper-20-lbs-92-brightness-600-sheets-ream-6-reams-carton-tr62091/product_24579067",
+      "model": "TR62091",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24579067",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "221270185814",
+      "lineType": "STA",
+      "productSku": "24339497",
+      "productName": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages   (TN223BK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN223BK",
+      "productUOM": "EACH",
+      "unitPrice": 60.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 20.3,
+      "invoicedTotal": 20.3,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7?$thb$",
+      "productURL": "brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497",
+      "model": "TN223BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24339497",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 15150,
+  "pointsRedeemed": 34600,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

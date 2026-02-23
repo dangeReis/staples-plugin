@@ -1,0 +1,341 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250705.4.6110",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-07-05T18:23:05",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdwUjBhS2QvRy9qNWpnUXZaaUdGY0N5UHQvazkyUkJHMFpaVEliSlY5Z1EvUTF3bUZTZjR5c3RBS2Y1MDJhUE84ZENZY0I5dHJCQ1I4aTVtNUJOUT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.02,
+  "orderLines": [
+    {
+      "productSku": "2440104",
+      "productName": "CloroxPro Tilex Disinfecting Instant Mo",
+      "productShortDesc": "CloroxPro Tilex Disinfecting Instant Mo",
+      "productLongDesc": "CloroxPro Tilex Disinfecting Instant Mo",
+      "unitPrice": 101.89,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F04E6348-3499-4747-87495A0760D61DFE_sc7?$thb$",
+      "productURL": "tilex-cloroxpro-disinfecting-instant-mold-mildew-remover-unscented-32-oz-9-carton-35600ct/product_2440104",
+      "model": "35600CT",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2440104",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:06.865429474",
+      "resourceName": "OrderDetails",
+      "transactionId": "56444b2c4827451792f9dbb57946401a",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250705.4.6110",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250705.4.6110",
+    "orderDate": "2025-07-05T18:23:05",
+    "keyForOrderDetails": "U3RNREd3d1F2R3BFOG5GdlgxQ1RmQ1NRQ2lNVUZ4dW1YbWo2cWE2UUF2MXR0UzBCdjZadnRTY1ZKRnJrMzk2T0UrM3JpSnYzcks4TXpzdjB4MEozMlhyQT09",
+    "orderUrlKey": "U3RNREd3d1F2R3BFOG5GdlgxQ1RmQ1NRQ2lNVUZ4dW1YbWo2cWE2UUF2MXR0UzBCdjZadnRTY1ZKRnJrMzk2T0UrM3JpSnYzcks4TXpzdjB4MEozMlhyQT09",
+    "customerNumberKey": "U3RNREZRMlhGaFVmaUdJU1c5TDhjNGNGL2FleTZSc3RGVkV5ekY2aGxaN1VkUFlRRzNTS29FY2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 101.89,
+    "discountsTotal": 101.87,
+    "couponsTotal": 40.87,
+    "pointsRedeemedValue": 61,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.02,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "2440104",
+              "compareItemID": "2440104",
+              "url": "/tilex-cloroxpro-disinfecting-instant-mold-mildew-remover-unscented-32-oz-9-carton-35600ct/product_2440104",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/F04E6348-3499-4747-87495A0760D61DFE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/F04E6348-3499-4747-87495A0760D61DFE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BFDC5D94-901B-4211-A9A0BFCD11CE7927_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/967CE54F-0AB5-429D-B71E769380045A24_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8C0CD8EB-F222-407B-A2133B277F9F75B6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/62B4DC07-A4A1-4748-AB2331235C36607F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0A5BF887-5F0D-4581-8F2AA363234E6EC0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9031AA4E-4194-4603-846B1BCFB66910FB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BDDC978D-81A2-488A-9D461A06A26081B3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/38A87C6F-A2CF-46F3-922F286023E2210D_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~F04E6348-3499-4747-87495A0760D61DFE_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~BFDC5D94-901B-4211-A9A0BFCD11CE7927_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~967CE54F-0AB5-429D-B71E769380045A24_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~8C0CD8EB-F222-407B-A2133B277F9F75B6_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~62B4DC07-A4A1-4748-AB2331235C36607F_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~0A5BF887-5F0D-4581-8F2AA363234E6EC0_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~9031AA4E-4194-4603-846B1BCFB66910FB_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~BDDC978D-81A2-488A-9D461A06A26081B3_sc7",
+                "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)~#|#~38A87C6F-A2CF-46F3-922F286023E2210D_sc7"
+              ],
+              "title": "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray, 32 fl. oz., 9/Carton (35600)",
+              "model": "35600CT",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2440104"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "35600CT"
+                }
+              ],
+              "manufacturerName": "Tilex",
+              "brandName": "Tilex",
+              "baseCatName": "Cleaning Chemicals & Wipes",
+              "baseCatId": "CL142820",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10274",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "category": {
+                  "id": "CG3668",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL142820",
+                  "name": "Cleaning Chemicals"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142820",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "9/Carton",
+              "rating": 4.8,
+              "ratingCount": 5,
+              "ratingUrl": "/tilex-cloroxpro-disinfecting-instant-mold-mildew-remover-unscented-32-oz-9-carton-35600ct/product_2440104?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 20
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 4,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$104.49",
+              "priceValue": 104.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.36/Fl Oz",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Target tough mold and mildew stains with CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover. Using the power of Clorox Bleach, this disinfectant spray kills 99.9% of germs (1), including the COVID-19 virus (2) and cleaner eliminates tough mold and mildew stains without scrubbing on hard nonporous surfaces. Safe for use on kitchen and bathroom surfaces, this Clorox spray cleans and whitens tile and grout, so you can use it on counters, sinks, tubs, showers and backsplashes. It even prevents the regrowth of mold and mildew for up to 4 weeks and is ideal for use in offices, day care centers, schools, hotels, restaurants and other commercial facilities. (1) Staphylococcus aureus, Salmonella enterica, Trichophyton interdigitale (Athlete\u2019s Foot Fungus) and SARS-CoV-2. (2) Kills Sars-CoV-2 on hard, nonporous surfaces. (3) Follow disinfection directions."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "KILLS 99.9% OF GERMS (1): CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray kills 99.9% of bacteria and COVID-19 virus (2) and removes mold, mildew and bacteria as it cleans (3); Package may vary",
+                  "MOLD and MILDEW STAIN REMOVER: This CloroxPro disinfectant cleaner eliminates tough mold and mildew stains without scrubbing on hard nonporous surfaces",
+                  "TILE AND GROUT CLEANER: Cleans and whitens tile and grout, making it the perfect multi surface cleaner for kitchen and bathroom surfaces like counters, sinks and tubs",
+                  "PREVENTS REGROWTH FOR UP TO 4 WEEKS: This Clorox mold and mildew spray uses the power of Clorox Bleach to target the regrowth of mold and mildew for up to 4 weeks",
+                  "GREAT FOR COMMERCIAL USE: From CloroxPro, ideal for use in offices, day care centers, schools, busy healthcare environments and other commercial facilities"
+                ],
+                "headliner": [
+                  "CloroxPro Tilex Disinfecting Instant Mold and Mildew Remover Spray kills 99.9% of germs (1) and cleans and whitens tile and grout."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b> DIRECTIONS FOR USE: It is a violation of Federal law to use this product in a manner inconsistent with its labeling. AVOID PROLONGED BREATHING OF VAPOR. Use in well-ventilated areas. Open windows and turn on fans before use. If the vapors bother you, leave the room while this product is working. TO REMOVE MILDEW STAINS: Turn sprayer nozzle to SPRAY position. Spray, wait until stains disappear and rinse. Heavy mildew buildup may require longer contact time or two cleanings.<br><br><b>Ingredients:</b> ACTIVE INGREDIENT: Sodium Hypochlorite: 2.4%; OTHER INGREDIENTS: 97.6%; TOTAL: 100.0%; (Yields 2.28% available chlorine)<br><br><b>Caution Statement:</b> PRECAUTIONARY STATEMENTS: HAZARDS TO HUMANS AND DOMESTIC ANIMALS. WARNING: Causes substantial but temporary eye injury. Do not get in eyes or on clothing. Wear safety glasses. Avoid contact with skin. Harmful if inhaled. Avoid breathing spray mist. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Remove and wash contaminated clothing before reuse. For sensitive skin or prolonged use, wear rubber gloves."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/BFDC5D94-901B-4211-A9A0BFCD11CE7927_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "CloroxPro Tilex Disinfecting Instant Mo",
+              "skuNumber": "2440104",
+              "unitPrice": 101.89,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.02,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 101.87,
+              "couponDetails": [
+                {
+                  "chargeCategory": "100% Price Guarantee $96.4",
+                  "chargeName": "100% Price Guarantee $96.4",
+                  "chargeDesc": "100% Price Guarantee $96.4",
+                  "chargeAmount": 5.49,
+                  "chargePerUnit": 5.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 20.38,
+                  "chargePerUnit": 20.38
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 61,
+                  "chargePerUnit": 61
+                }
+              ],
+              "regularCouponsTotal": 101.87,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 101.89,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "2440104"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11711E314C114Y"
+  }
+}

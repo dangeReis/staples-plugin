@@ -1,0 +1,70 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9927215807",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-12-30T16:50:42",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREg0QjRmMVE5anRkbkxJQlhvUGwxZ0tjU2YweFFabVEzZldIdW5MWkhjUmZEQXdHQmlCTXdrRVlmL1BJNEhROFpPdg==",
+  "salesTranID": "25465687300",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "1400",
+  "statusDesc": "Return Complete",
+  "merchandiseTotal": 0,
+  "grandTotal": 52.25,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "235742306521",
+      "lineType": "PMP",
+      "productSku": "2400385",
+      "productName": "Staples Plus Membership",
+      "productDepartment": "9",
+      "productClass": "680",
+      "productSubClass": "49",
+      "vendorModel": "CLUBMEM.COM",
+      "productUOM": "EACH",
+      "unitPrice": 49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 1,
+      "total": 52.25,
+      "invoicedTotal": 52.25,
+      "statuses": [
+        {
+          "statusCode": "1400",
+          "statusDesc": "Return Complete",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "2100.200",
+      "productDesc": "Staples Plus Membership",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp49441579_sc7?$thb$",
+      "productURL": "Business-Rewards-Plus-Membership/product_2400385",
+      "model": "CLUBMEM.COM",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2400385",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 0,
+  "pointsRedeemed": 0,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

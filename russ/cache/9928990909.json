@@ -1,0 +1,70 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9928990909",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-03-17T12:42:08",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREh0VlYwaUxjdk5FQUZMc0J4b1dQQnFxNERSU1MzZjQ0bFhBSG91MERzbGpIVk1DaXB4aHBTUnBhTVFKbUQ1VFFZZg==",
+  "salesTranID": "25500166696",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 52.96,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "241131251198",
+      "lineType": "STA",
+      "productSku": "2646682",
+      "productName": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)",
+      "productDepartment": "5",
+      "productClass": "509",
+      "productSubClass": "50",
+      "vendorModel": "400845",
+      "productUOM": "EACH",
+      "unitPrice": 74.99,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "returnedQty": 0,
+      "total": 52.96,
+      "invoicedTotal": 52.96,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 4,
+          "statusQty": 4
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/DBCD5204-968F-4BD8-8694993879BC461B_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-88-carton-400845/product_2646682",
+      "model": "400845",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2646682",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 2104,
+  "pointsRedeemed": 12800,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

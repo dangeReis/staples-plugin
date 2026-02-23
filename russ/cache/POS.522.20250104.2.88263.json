@@ -1,0 +1,1032 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250104.2.88263",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-01-04T16:55:07",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZ1VjMwTG43c2dxKy9pZytKR1ZUY3phR3lQaGR5U3B1OTFYKzVBQ1hFenZxTkhubk96YnVad281eWExek9aUlI2ZVNmdVdWL1dwL1hSck9hQXFvajQ9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 50.96,
+  "orderLines": [
+    {
+      "productSku": "1666504",
+      "productName": "KCUP CAFE BUSTELO",
+      "productShortDesc": "KCUP CAFE BUSTELO",
+      "productLongDesc": "KCUP CAFE BUSTELO",
+      "unitPrice": 17.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+      "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+      "model": "5000330301",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24651049"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "1666504",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "1666504",
+      "productName": "KCUP CAFE BUSTELO",
+      "productShortDesc": "KCUP CAFE BUSTELO",
+      "productLongDesc": "KCUP CAFE BUSTELO",
+      "unitPrice": 17.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+      "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+      "model": "5000330301",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24651049"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "1666504",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "1666504",
+      "productName": "KCUP CAFE BUSTELO",
+      "productShortDesc": "KCUP CAFE BUSTELO",
+      "productLongDesc": "KCUP CAFE BUSTELO",
+      "unitPrice": 17.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+      "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+      "model": "5000330301",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24651049"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "1666504",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "1666504",
+      "productName": "KCUP CAFE BUSTELO",
+      "productShortDesc": "KCUP CAFE BUSTELO",
+      "productLongDesc": "KCUP CAFE BUSTELO",
+      "unitPrice": 17.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+      "productURL": "cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+      "model": "5000330301",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24651049"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "1666504",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:10.443740641",
+      "resourceName": "OrderDetails",
+      "transactionId": "f406f979d66f4c54b82b4864129fe912",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250104.2.88263",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250104.2.88263",
+    "orderDate": "2025-01-04T16:55:07",
+    "keyForOrderDetails": "U3RNREZyeTd1L0xoZ1hqcDg4SnVoeFFaVFhiWnZzSWVGYngzU2lUUXcrc1Zta3JKUTlXUkVQMXVyWnFqdFpJSnZMT0hLM2YxWWNwMWhNUmI4UysrVlpOVzg9",
+    "orderUrlKey": "U3RNREZyeTd1L0xoZ1hqcDg4SnVoeFFaVFhiWnZzSWVGYngzU2lUUXcrc1Zta3JKUTlXUkVQMXVyWnFqdFpJSnZMT0hLM2YxWWNwMWhNUmI4UysrVlpOVzg9",
+    "customerNumberKey": "U3RNREY1bGdTanBjUUcyWFJWWFRWMGhDbjdxQ1dwaC90WHM3RDJvRnphWkZqL2JiWDB1T3FhcUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 71.96,
+    "discountsTotal": 21,
+    "couponsTotal": 10,
+    "pointsRedeemedValue": 11,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 50.96,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "1666504",
+              "compareItemID": "1666504",
+              "url": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/52DF877F-1DD2-401D-8785AE2040C7B880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0B055FE6-6070-41EE-95D4044A59113646_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~C496C115-CF97-4583-817BE9F90EFC01BE_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~5FC3AEAF-4269-461F-9791052EA6AB5387_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~52DF877F-1DD2-401D-8785AE2040C7B880_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~0B055FE6-6070-41EE-95D4044A59113646_sc7"
+              ],
+              "title": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+              "model": "5000330301",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1666504"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000330301"
+                }
+              ],
+              "manufacturerName": "Cafe Bustelo",
+              "brandName": "Cafe Bustelo",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24651049"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Box",
+              "rating": 4.72,
+              "ratingCount": 548,
+              "ratingUrl": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 22,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 46,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 462,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.83/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Take a small break from your workday with these 100% Colombian coffee pods. The medium-roast beans offer rich, smooth flavor and an inviting aroma, while the premeasured pods take the guesswork out of making the perfect cup of coffee. These Keurig K-Cup Cafe Bustelo coffee pods work with Keurig brewing machines for fast, easy preparation."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium roast coffee with 100% Colombian flavor",
+                  "24 K-Cups per box",
+                  "The product is kosher",
+                  "24 K-Cup\u00ae pods per box",
+                  "Compatible with all Keurig\u00ae K-Cup\u00ae Brewers including the Keurig\u00ae 2.0 system",
+                  "100% Colombian coffee"
+                ],
+                "headliner": [
+                  "Relax with a delicious hot beverage when you prepare these Keurig K-Cup Cafe Bustelo 100% Colombian coffee pods."
+                ],
+                "expandedDescr": [
+                  "<p><strong>Serve Yourself a Cup of Convenience</strong><br />Keeping the coffee pot full can be labor-intensive and messy. But with Keurig\u00ae K-Cup\u00ae pods, it's neat and simple. One K-Cup\u00ae pod makes one cup of coffee, and there are no loose grounds or filters to deal with. </p><p><strong>Brewing Options</strong><br />With each pod, you can make a single 6, 8, 10 or 12 ounce cup of coffee, depending on the Keurig\u00ae K-Cup\u00ae brewing system used. Choose the correct setting on the brewer to get the right strength brew for your particular coffee mug. Your hot coffee will be perfectly brewed in moments.</p><p><strong>Instantly Brew Single-Serve Beverages with Keurig\u00ae K-Cup\u00ae Pods</strong><br />Brewing beverages individually with Keurig\u00ae K-Cup\u00ae pods means you and your employees can spend less time reheating and replacing water in coffee pots and traditional coffee brewers. Your single-serve Keurig\u00ae brewing system heats up quickly, so you'll have a hot beverage ready without a lengthy wait time. Stock Keurig K-Cup\u00ae pods in your office kitchen or break room so employees can prepare individual cups of coffee at work instead of heading out to the local coffee shop when the urge for coffee hits.</p>"
+                ]
+              },
+              "skusetID": "SS115832195",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "KCUP CAFE BUSTELO",
+              "skuNumber": "1666504",
+              "unitPrice": 17.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 12.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.25,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 2.5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.75,
+                  "chargePerUnit": 2.75
+                }
+              ],
+              "regularCouponsTotal": 5.25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 17.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "1666504",
+              "compareItemID": "1666504",
+              "url": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/52DF877F-1DD2-401D-8785AE2040C7B880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0B055FE6-6070-41EE-95D4044A59113646_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~C496C115-CF97-4583-817BE9F90EFC01BE_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~5FC3AEAF-4269-461F-9791052EA6AB5387_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~52DF877F-1DD2-401D-8785AE2040C7B880_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~0B055FE6-6070-41EE-95D4044A59113646_sc7"
+              ],
+              "title": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+              "model": "5000330301",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1666504"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000330301"
+                }
+              ],
+              "manufacturerName": "Cafe Bustelo",
+              "brandName": "Cafe Bustelo",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24651049"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Box",
+              "rating": 4.72,
+              "ratingCount": 548,
+              "ratingUrl": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 22,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 46,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 462,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.83/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Take a small break from your workday with these 100% Colombian coffee pods. The medium-roast beans offer rich, smooth flavor and an inviting aroma, while the premeasured pods take the guesswork out of making the perfect cup of coffee. These Keurig K-Cup Cafe Bustelo coffee pods work with Keurig brewing machines for fast, easy preparation."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium roast coffee with 100% Colombian flavor",
+                  "24 K-Cups per box",
+                  "The product is kosher",
+                  "24 K-Cup\u00ae pods per box",
+                  "Compatible with all Keurig\u00ae K-Cup\u00ae Brewers including the Keurig\u00ae 2.0 system",
+                  "100% Colombian coffee"
+                ],
+                "headliner": [
+                  "Relax with a delicious hot beverage when you prepare these Keurig K-Cup Cafe Bustelo 100% Colombian coffee pods."
+                ],
+                "expandedDescr": [
+                  "<p><strong>Serve Yourself a Cup of Convenience</strong><br />Keeping the coffee pot full can be labor-intensive and messy. But with Keurig\u00ae K-Cup\u00ae pods, it's neat and simple. One K-Cup\u00ae pod makes one cup of coffee, and there are no loose grounds or filters to deal with. </p><p><strong>Brewing Options</strong><br />With each pod, you can make a single 6, 8, 10 or 12 ounce cup of coffee, depending on the Keurig\u00ae K-Cup\u00ae brewing system used. Choose the correct setting on the brewer to get the right strength brew for your particular coffee mug. Your hot coffee will be perfectly brewed in moments.</p><p><strong>Instantly Brew Single-Serve Beverages with Keurig\u00ae K-Cup\u00ae Pods</strong><br />Brewing beverages individually with Keurig\u00ae K-Cup\u00ae pods means you and your employees can spend less time reheating and replacing water in coffee pots and traditional coffee brewers. Your single-serve Keurig\u00ae brewing system heats up quickly, so you'll have a hot beverage ready without a lengthy wait time. Stock Keurig K-Cup\u00ae pods in your office kitchen or break room so employees can prepare individual cups of coffee at work instead of heading out to the local coffee shop when the urge for coffee hits.</p>"
+                ]
+              },
+              "skusetID": "SS115832195",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "KCUP CAFE BUSTELO",
+              "skuNumber": "1666504",
+              "unitPrice": 17.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 12.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.25,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 2.5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.75,
+                  "chargePerUnit": 2.75
+                }
+              ],
+              "regularCouponsTotal": 5.25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 17.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "1666504",
+              "compareItemID": "1666504",
+              "url": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/52DF877F-1DD2-401D-8785AE2040C7B880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0B055FE6-6070-41EE-95D4044A59113646_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~C496C115-CF97-4583-817BE9F90EFC01BE_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~5FC3AEAF-4269-461F-9791052EA6AB5387_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~52DF877F-1DD2-401D-8785AE2040C7B880_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~0B055FE6-6070-41EE-95D4044A59113646_sc7"
+              ],
+              "title": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+              "model": "5000330301",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1666504"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000330301"
+                }
+              ],
+              "manufacturerName": "Cafe Bustelo",
+              "brandName": "Cafe Bustelo",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24651049"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Box",
+              "rating": 4.72,
+              "ratingCount": 548,
+              "ratingUrl": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 22,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 46,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 462,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.83/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Take a small break from your workday with these 100% Colombian coffee pods. The medium-roast beans offer rich, smooth flavor and an inviting aroma, while the premeasured pods take the guesswork out of making the perfect cup of coffee. These Keurig K-Cup Cafe Bustelo coffee pods work with Keurig brewing machines for fast, easy preparation."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium roast coffee with 100% Colombian flavor",
+                  "24 K-Cups per box",
+                  "The product is kosher",
+                  "24 K-Cup\u00ae pods per box",
+                  "Compatible with all Keurig\u00ae K-Cup\u00ae Brewers including the Keurig\u00ae 2.0 system",
+                  "100% Colombian coffee"
+                ],
+                "headliner": [
+                  "Relax with a delicious hot beverage when you prepare these Keurig K-Cup Cafe Bustelo 100% Colombian coffee pods."
+                ],
+                "expandedDescr": [
+                  "<p><strong>Serve Yourself a Cup of Convenience</strong><br />Keeping the coffee pot full can be labor-intensive and messy. But with Keurig\u00ae K-Cup\u00ae pods, it's neat and simple. One K-Cup\u00ae pod makes one cup of coffee, and there are no loose grounds or filters to deal with. </p><p><strong>Brewing Options</strong><br />With each pod, you can make a single 6, 8, 10 or 12 ounce cup of coffee, depending on the Keurig\u00ae K-Cup\u00ae brewing system used. Choose the correct setting on the brewer to get the right strength brew for your particular coffee mug. Your hot coffee will be perfectly brewed in moments.</p><p><strong>Instantly Brew Single-Serve Beverages with Keurig\u00ae K-Cup\u00ae Pods</strong><br />Brewing beverages individually with Keurig\u00ae K-Cup\u00ae pods means you and your employees can spend less time reheating and replacing water in coffee pots and traditional coffee brewers. Your single-serve Keurig\u00ae brewing system heats up quickly, so you'll have a hot beverage ready without a lengthy wait time. Stock Keurig K-Cup\u00ae pods in your office kitchen or break room so employees can prepare individual cups of coffee at work instead of heading out to the local coffee shop when the urge for coffee hits.</p>"
+                ]
+              },
+              "skusetID": "SS115832195",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "KCUP CAFE BUSTELO",
+              "skuNumber": "1666504",
+              "unitPrice": 17.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 12.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.25,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 2.5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.75,
+                  "chargePerUnit": 2.75
+                }
+              ],
+              "regularCouponsTotal": 5.25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 17.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "1666504",
+              "compareItemID": "1666504",
+              "url": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/C496C115-CF97-4583-817BE9F90EFC01BE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/52DF877F-1DD2-401D-8785AE2040C7B880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0B055FE6-6070-41EE-95D4044A59113646_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~C496C115-CF97-4583-817BE9F90EFC01BE_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~5FC3AEAF-4269-461F-9791052EA6AB5387_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~52DF877F-1DD2-401D-8785AE2040C7B880_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~82E2E2CA-A4C8-484E-99824C5E88BB9379_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~D3C3C1BE-6C75-493B-B8738B4EE561D4C2_sc7",
+                "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)~#|#~0B055FE6-6070-41EE-95D4044A59113646_sc7"
+              ],
+              "title": "Cafe Bustelo 100% Colombian Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 24/Box (6107)",
+              "model": "5000330301",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1666504"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000330301"
+                }
+              ],
+              "manufacturerName": "Cafe Bustelo",
+              "brandName": "Cafe Bustelo",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24651049"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Box",
+              "rating": 4.72,
+              "ratingCount": 548,
+              "ratingUrl": "/cafe-bustelo-100-colombian-coffee-keurig-k-cup-pods-medium-roast-24-box-6107/product_1666504?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 22,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 46,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 462,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.83/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Take a small break from your workday with these 100% Colombian coffee pods. The medium-roast beans offer rich, smooth flavor and an inviting aroma, while the premeasured pods take the guesswork out of making the perfect cup of coffee. These Keurig K-Cup Cafe Bustelo coffee pods work with Keurig brewing machines for fast, easy preparation."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium roast coffee with 100% Colombian flavor",
+                  "24 K-Cups per box",
+                  "The product is kosher",
+                  "24 K-Cup\u00ae pods per box",
+                  "Compatible with all Keurig\u00ae K-Cup\u00ae Brewers including the Keurig\u00ae 2.0 system",
+                  "100% Colombian coffee"
+                ],
+                "headliner": [
+                  "Relax with a delicious hot beverage when you prepare these Keurig K-Cup Cafe Bustelo 100% Colombian coffee pods."
+                ],
+                "expandedDescr": [
+                  "<p><strong>Serve Yourself a Cup of Convenience</strong><br />Keeping the coffee pot full can be labor-intensive and messy. But with Keurig\u00ae K-Cup\u00ae pods, it's neat and simple. One K-Cup\u00ae pod makes one cup of coffee, and there are no loose grounds or filters to deal with. </p><p><strong>Brewing Options</strong><br />With each pod, you can make a single 6, 8, 10 or 12 ounce cup of coffee, depending on the Keurig\u00ae K-Cup\u00ae brewing system used. Choose the correct setting on the brewer to get the right strength brew for your particular coffee mug. Your hot coffee will be perfectly brewed in moments.</p><p><strong>Instantly Brew Single-Serve Beverages with Keurig\u00ae K-Cup\u00ae Pods</strong><br />Brewing beverages individually with Keurig\u00ae K-Cup\u00ae pods means you and your employees can spend less time reheating and replacing water in coffee pots and traditional coffee brewers. Your single-serve Keurig\u00ae brewing system heats up quickly, so you'll have a hot beverage ready without a lengthy wait time. Stock Keurig K-Cup\u00ae pods in your office kitchen or break room so employees can prepare individual cups of coffee at work instead of heading out to the local coffee shop when the urge for coffee hits.</p>"
+                ]
+              },
+              "skusetID": "SS115832195",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5FC3AEAF-4269-461F-9791052EA6AB5387_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "KCUP CAFE BUSTELO",
+              "skuNumber": "1666504",
+              "unitPrice": 17.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 12.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.25,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 2.5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.75,
+                  "chargePerUnit": 2.75
+                }
+              ],
+              "regularCouponsTotal": 5.25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 17.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "1666504"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4114191JP4AYP4W"
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250413.4.92338",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-13T13:27:18",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVoRHZtVzBFbXdwcHR2b2hLM2VHN1RXVGExK2taSkRVMndBNzdDcWhkWjhCd2pEU2EzRkRuV21jQ1VHQnVjeG9HSDA4QVREVHNpWHZ3Z09HaFpleWc9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 52.88,
+  "orderLines": [
+    {
+      "productSku": "596837",
+      "productName": "PRISMACOLOR 24CT P",
+      "productShortDesc": "PRISMACOLOR 24CT P",
+      "productLongDesc": "PRISMACOLOR 24CT P",
+      "unitPrice": 17.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PRISMACOLOR 24CT P",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24420229",
+      "productName": "PIGMENT LINER 0.5M",
+      "productShortDesc": "PIGMENT LINER 0.5M",
+      "productLongDesc": "PIGMENT LINER 0.5M",
+      "unitPrice": 11.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PIGMENT LINER 0.5M",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "2056103",
+      "productName": "PRISMA 8CT MAGNA I",
+      "productShortDesc": "PRISMA 8CT MAGNA I",
+      "productLongDesc": "PRISMA 8CT MAGNA I",
+      "unitPrice": 10.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PRISMA 8CT MAGNA I",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "2548675",
+      "productName": "RB WAVE STANDARD D",
+      "productShortDesc": "RB WAVE STANDARD D",
+      "productLongDesc": "RB WAVE STANDARD D",
+      "unitPrice": 11.36,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/0E85F6E9-95E2-482C-8226077CCD332D89_sc7?$thb$",
+      "productURL": "rocketbook-wave-1-subject-smart-notebook-8-5-x-9-5-dotted-40-sheets-blue-wav-s-k-a/product_2548675",
+      "model": "WAV-S-K-A",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2548675",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24608319",
+      "productName": "DUNKIN ORIGINAL BL",
+      "productShortDesc": "DUNKIN ORIGINAL BL",
+      "productLongDesc": "DUNKIN ORIGINAL BL",
+      "unitPrice": 35.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "DUNKIN ORIGINAL BL",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:31.392682696",
+      "resourceName": "OrderDetails",
+      "transactionId": "6a8e8464b32f4e80bb10a8b1dd14cc45",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250413.4.92338",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250413.4.92338",
+    "orderDate": "2025-04-13T13:27:18",
+    "keyForOrderDetails": "U3RNREhYbGF2bHhXODBuNzAvaktkeE5NQW1Ua3pEWmk3emY0TXlOWUVVQXVvcHNYZi9IMlBtZG9WN0hyR3Z5UnhBKzhmU1NlUzdwTmU4NkdZNDRWL29pR0E9",
+    "orderUrlKey": "U3RNREhYbGF2bHhXODBuNzAvaktkeE5NQW1Ua3pEWmk3emY0TXlOWUVVQXVvcHNYZi9IMlBtZG9WN0hyR3Z5UnhBKzhmU1NlUzdwTmU4NkdZNDRWL29pR0E9",
+    "customerNumberKey": "U3RNREZ5dXM2T1dmQ2U5dkhyRVpMdDhsdklrTGJUSE91VFMyOVNwQk1ad3RzUk0zTWgvaGRObEE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 86.23,
+    "discountsTotal": 35.29,
+    "couponsTotal": 24.29,
+    "pointsRedeemedValue": 11,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 1.94,
+    "grandTotal": 52.88,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "PIGMENT LINER 0.5M",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24420229?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "PIGMENT LINER 0.5M",
+              "skuNumber": "24420229",
+              "unitPrice": 11.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 6.13,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.4061
+                }
+              ],
+              "couponTotal": 5.33,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeDesc": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeAmount": 4.01,
+                  "chargePerUnit": 4.01
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.32,
+                  "chargePerUnit": 1.32
+                }
+              ],
+              "regularCouponsTotal": 5.33,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "DUNKIN ORIGINAL BL",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24608319?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "DUNKIN ORIGINAL BL",
+              "skuNumber": "24608319",
+              "unitPrice": 35.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 21.69,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 13.8,
+              "couponDetails": [
+                {
+                  "chargeNo": "216644",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #25025",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 5.5,
+                  "chargePerUnit": 5.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 3.62,
+                  "chargePerUnit": 3.62
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 4.68,
+                  "chargePerUnit": 4.68
+                }
+              ],
+              "regularCouponsTotal": 13.8,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 35.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "2548675",
+              "compareItemID": "2548675",
+              "url": "/rocketbook-wave-1-subject-smart-notebook-8-5-x-9-5-dotted-40-sheets-blue-wav-s-k-a/product_2548675",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/0E85F6E9-95E2-482C-8226077CCD332D89_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/0E85F6E9-95E2-482C-8226077CCD332D89_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp128565550_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp128565551_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp128565552_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp128565553_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)~#|#~0E85F6E9-95E2-482C-8226077CCD332D89_sc7",
+                "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)~#|#~sp128565550_sc7",
+                "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)~#|#~sp128565551_sc7",
+                "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)~#|#~sp128565552_sc7",
+                "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)~#|#~sp128565553_sc7"
+              ],
+              "title": "Rocketbook Wave 1-Subject Smart Notebook, 8.5\" x 9.5\", Dotted, 40 Sheets, Blue (WAV-S-K-A)",
+              "model": "WAV-S-K-A",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2548675"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "WAV-S-K-A"
+                }
+              ],
+              "manufacturerName": "Rocketbook",
+              "brandName": "Rocketbook",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.33,
+              "ratingCount": 12,
+              "ratingUrl": "/rocketbook-wave-1-subject-smart-notebook-8-5-x-9-5-dotted-40-sheets-blue-wav-s-k-a/product_2548675?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 9,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$35.19",
+              "priceValue": 35.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Rocketbook Wave smart reusable notebook provides the freedom and versatility of a traditional pen and paper notebook, while instantly blasting your notes and ideas into the cloud using your smartphone. Although it feels like a traditional notebook, when you use Pilot FriXion pens with the Wave notebook, you can erase your notes using your microwave oven and reuse your notebook. We designed this microwave-to-reuse notebook with real paper to give you a natural writing experience and a quick way to erase all your pages at once. It\u2019s also kind of fun to tell people that we microwave our notebooks! Blast your handwritten notes to popular cloud services like Google Drive, Dropbox, Evernote, box, OneNote, Slack, iCloud, iMessage, email and more using the free Rocketbook application for iOS and Android. The app's OCR functions can also automatically name your files and transcribe your notes to text!"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "No more wasting paper - this environmentally-friendly 80 page dotted grid notebook can be re-used by simply microwaving it",
+                  "Blast your handwritten notes to popular cloud services like Google drive, Dropbox, Evernote, box, OneNote, Slack, iCloud, iMessage, email and more using the free Rocketbook application for iOS and Android",
+                  "Use any Pilot Frixion pen, marker, or highlighter to bond the ink to our specialized pages",
+                  "Sophisticated AI technology allows you to use Rocketbook\u2019s smart titles, smart search, and email transcription for easier naming and searching of your notes",
+                  "Includes 1 Rocketbook Wave Standard Size (8.5\" x 9.5\") Notebook and 1 Pilot Frixion Pen"
+                ],
+                "headliner": [
+                  "Store notes electronically with this Rocketbook Wave cloud-connected reusable notebook."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp128565550_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "RB WAVE STANDARD D",
+              "skuNumber": "2548675",
+              "unitPrice": 11.36,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 8.21,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.5439
+                }
+              ],
+              "couponTotal": 3.15,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 1.38,
+                  "chargePerUnit": 1.38
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.77,
+                  "chargePerUnit": 1.77
+                }
+              ],
+              "regularCouponsTotal": 3.15,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.36,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "PRISMACOLOR 24CT P",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_596837?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "PRISMACOLOR 24CT P",
+              "skuNumber": "596837",
+              "unitPrice": 17.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 9.34,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.6188
+                }
+              ],
+              "couponTotal": 8.12,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeDesc": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeAmount": 6.1,
+                  "chargePerUnit": 6.1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.02,
+                  "chargePerUnit": 2.02
+                }
+              ],
+              "regularCouponsTotal": 8.12,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 17.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "PRISMA 8CT MAGNA I",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_2056103?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "PRISMA 8CT MAGNA I",
+              "skuNumber": "2056103",
+              "unitPrice": 10.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 5.57,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.369
+                }
+              ],
+              "couponTotal": 4.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 promo card towards a future purchase when you spend $50 or more.",
+                  "chargeDesc": "$10 promo card towards a future purchase when you spend $50 or more.",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.01
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeDesc": "35% off your Crayola\u00ae, Prismacolor\u00ae and Staedtler\u00ae art supplies purchase.",
+                  "chargeAmount": 3.67,
+                  "chargePerUnit": 3.67
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.21,
+                  "chargePerUnit": 1.21
+                }
+              ],
+              "regularCouponsTotal": 4.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 10.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 5
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "2056103",
+      "2548675",
+      "596837",
+      "24420229",
+      "24608319"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11719AKH4AYTWW"
+  }
+}

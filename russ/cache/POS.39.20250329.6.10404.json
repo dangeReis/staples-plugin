@@ -1,0 +1,2863 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.39.20250329.6.10404",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-29T15:20:05",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhBTzRrUm9ZMUNMT2FFSXFCemFLNjdDZGwrNitKVXRQbVB5MW5HcHAyNVAzYUJML2FkTi84RlhweC9VeHlJMzFHc3BST1cxa0RKZ2pKWHhEZjlaQT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.74,
+  "orderLines": [
+    {
+      "productSku": "24584664",
+      "productName": "STPLS TECH C-C BRA",
+      "productShortDesc": "STPLS TECH C-C BRA",
+      "productLongDesc": "STPLS TECH C-C BRA",
+      "unitPrice": 15.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+      "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+      "model": "ST62336",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24584664",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24387496",
+      "productName": "SISTEMA SALAD",
+      "productShortDesc": "SISTEMA SALAD",
+      "productLongDesc": "SISTEMA SALAD",
+      "unitPrice": 11.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+      "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+      "model": "21356ZS",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24387496",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24387496",
+      "productName": "SISTEMA SALAD",
+      "productShortDesc": "SISTEMA SALAD",
+      "productLongDesc": "SISTEMA SALAD",
+      "unitPrice": 11.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+      "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+      "model": "21356ZS",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24387496",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "485999",
+      "productName": "FELLOWES FOOTREST",
+      "productShortDesc": "FELLOWES FOOTREST",
+      "productLongDesc": "FELLOWES FOOTREST",
+      "unitPrice": 28.44,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Fellowes Standard Footrest, Graphite (48121)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+      "productURL": "fellowes-standard-footrests-graphite-48121/product_485999",
+      "model": "48121",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "485999",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24580025",
+      "productName": "APPLE AIRPODS PRO",
+      "productShortDesc": "APPLE AIRPODS PRO",
+      "productLongDesc": "APPLE AIRPODS PRO",
+      "unitPrice": 249,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+      "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+      "model": "MTJV3LL/A",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24580025",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24584663",
+      "productName": "STPLS TECH USBC-C",
+      "productShortDesc": "STPLS TECH USBC-C",
+      "productLongDesc": "STPLS TECH USBC-C",
+      "unitPrice": 12.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+      "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+      "model": "ST62335",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24584663",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24584663",
+      "productName": "STPLS TECH USBC-C",
+      "productShortDesc": "STPLS TECH USBC-C",
+      "productLongDesc": "STPLS TECH USBC-C",
+      "unitPrice": 12.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+      "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+      "model": "ST62335",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24584663",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "39",
+  "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+  "storeCity": "PARAMUS",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:41.753931175",
+      "resourceName": "OrderDetails",
+      "transactionId": "fc8c0cf3886a4322b814a0a3914f207b",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.39.20250329.6.10404",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.39.20250329.6.10404",
+    "orderDate": "2025-03-29T15:20:05",
+    "keyForOrderDetails": "U3RNREd6bHhjaTVpV3R5OW81djNhQXdGdU12YUovRXRDUzB1SHk2cnNySGVQR2lKZEJiL3RNWlJnUEZtVkhYZUpoTlJQQzFwdWtIenc2WmNhYVpwcmptZz09",
+    "orderUrlKey": "U3RNREd6bHhjaTVpV3R5OW81djNhQXdGdU12YUovRXRDUzB1SHk2cnNySGVQR2lKZEJiL3RNWlJnUEZtVkhYZUpoTlJQQzFwdWtIenc2WmNhYVpwcmptZz09",
+    "customerNumberKey": "U3RNREdNcnZiRm8xQmtYdjV1bEQwYmZ4U0JvM0xGbUozSFAzSjV1YkVxdHc2YklTWjZoRkJ6Nnc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 342.39,
+    "discountsTotal": 341.7,
+    "couponsTotal": 64.7,
+    "pointsRedeemedValue": 277,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.05,
+    "grandTotal": 0.74,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "501 Route 17 SOUTH, STE 1",
+        "city": "PARAMUS",
+        "state": "NJ",
+        "zipCode": "07652"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5884",
+              "itemId": "24387496",
+              "compareItemID": "24387496",
+              "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+              ],
+              "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+              "model": "21356ZS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24387496"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "21356ZS"
+                }
+              ],
+              "manufacturerName": "Newell",
+              "brandName": "Newell",
+              "baseCatName": "",
+              "baseCatId": "CL165124",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10932",
+                  "name": "Totes & Handbags"
+                },
+                "category": {
+                  "id": "CG3891",
+                  "name": "Bags & Backpacks"
+                },
+                "supercategory": {
+                  "id": "SC5884",
+                  "name": "Bags, Backpacks & Luggage"
+                },
+                "class": {
+                  "id": "CL165124",
+                  "name": "Lunch Bags & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165124",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 28,
+              "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 21,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$11.49",
+              "priceValue": 11.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                  "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                  "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                  "Fun, colorful containers are designed and made in New Zealand",
+                  "Colors received may vary"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SISTEMA SALAD",
+              "skuNumber": "24387496",
+              "unitPrice": 11.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.03,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.002
+                }
+              ],
+              "couponTotal": 11.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 11.46,
+                  "chargePerUnit": 11.46
+                }
+              ],
+              "regularCouponsTotal": 11.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24584664",
+              "compareItemID": "24584664",
+              "url": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/460DBEAA-4B30-49C3-94612455AC641915_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D4125AF6-1352-4E4A-BA2527D8872461E7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F509398D-040F-4E82-8C2F380C7EEFDC84_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~CBF828D0-BAC8-434C-A2518FC76458E729_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~460DBEAA-4B30-49C3-94612455AC641915_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~D4125AF6-1352-4E4A-BA2527D8872461E7_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7"
+              ],
+              "title": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+              "model": "ST62336",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24584664"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST62336"
+                }
+              ],
+              "manufacturerName": "Staples TECH",
+              "brandName": "Staples TECH",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 99,
+              "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 89,
+                  "reviewPercent": 90
+                }
+              ],
+              "price": "$15.29",
+              "priceValue": 15.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Power your smartphones and tablets with this extra-long durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 9.8ft (3m) cable length gives plenty of extra reach when needed and is perfect for comfortably using devices while they charge."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "9.8ft (3m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                  "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                  "Compatible with Apple, Samsung, Google and LG products",
+                  "White Generation 2.0 cable",
+                  "Supports fast charging up to 60W",
+                  "1-year limited warranty"
+                ],
+                "headliner": [
+                  "Charge and sync smartphones or tablets with this durable 9.8 ft (3m) Staples\u00ae USB-C to USB-C Braided Cable."
+                ],
+                "expandedDescr": [
+                  "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                ]
+              },
+              "skusetID": "SS276185025",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STPLS TECH C-C BRA",
+              "skuNumber": "24584664",
+              "unitPrice": 15.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.04,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0027
+                }
+              ],
+              "couponTotal": 15.95,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 15.95,
+                  "chargePerUnit": 15.95
+                }
+              ],
+              "regularCouponsTotal": 15.95,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 15.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5884",
+              "itemId": "24387496",
+              "compareItemID": "24387496",
+              "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+              ],
+              "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+              "model": "21356ZS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24387496"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "21356ZS"
+                }
+              ],
+              "manufacturerName": "Newell",
+              "brandName": "Newell",
+              "baseCatName": "",
+              "baseCatId": "CL165124",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10932",
+                  "name": "Totes & Handbags"
+                },
+                "category": {
+                  "id": "CG3891",
+                  "name": "Bags & Backpacks"
+                },
+                "supercategory": {
+                  "id": "SC5884",
+                  "name": "Bags, Backpacks & Luggage"
+                },
+                "class": {
+                  "id": "CL165124",
+                  "name": "Lunch Bags & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165124",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 28,
+              "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 21,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$11.49",
+              "priceValue": 11.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                  "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                  "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                  "Fun, colorful containers are designed and made in New Zealand",
+                  "Colors received may vary"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SISTEMA SALAD",
+              "skuNumber": "24387496",
+              "unitPrice": 11.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.02,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0013
+                }
+              ],
+              "couponTotal": 11.47,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 11.47,
+                  "chargePerUnit": 11.47
+                }
+              ],
+              "regularCouponsTotal": 11.47,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24584663",
+              "compareItemID": "24584663",
+              "url": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/E0C003A7-8152-426C-96E72A24B676884A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EB7336C3-1073-4A10-AAA04E5495FDD115_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~8DAA7F48-04B8-4070-8970DF7C247A5392_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~E0C003A7-8152-426C-96E72A24B676884A_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7"
+              ],
+              "title": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+              "model": "ST62335",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24584663"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST62335"
+                }
+              ],
+              "manufacturerName": "Staples TECH",
+              "brandName": "Staples TECH",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 99,
+              "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 89,
+                  "reviewPercent": 90
+                }
+              ],
+              "price": "$11.99",
+              "priceValue": 11.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Power your smartphones and tablets with this durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design of this charging cable provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 6.5ft (2m) cable length gives extra reach when needed and is perfect for comfortably using devices while they charge."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "6.5ft (2m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                  "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                  "Compatible with Apple, Samsung, Google and LG products",
+                  "White Generation 2.0 cable",
+                  "Supports fast charging up to 60W",
+                  "1-year limited warranty"
+                ],
+                "headliner": [
+                  "Charge and sync smartphones or tablets with this long and durable Staples\u00ae USB-C to USB-C 6.5ft (2m) Braided Cable."
+                ],
+                "expandedDescr": [
+                  "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                ]
+              },
+              "skusetID": "SS276185025",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STPLS TECH USBC-C",
+              "skuNumber": "24584663",
+              "unitPrice": 12.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.04,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0027
+                }
+              ],
+              "couponTotal": 12.95,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.95,
+                  "chargePerUnit": 12.95
+                }
+              ],
+              "regularCouponsTotal": 12.95,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 12.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5829",
+              "itemId": "24580025",
+              "compareItemID": "24580025",
+              "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+              ],
+              "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+              "model": "MTJV3LL/A",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24580025"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MTJV3LL/A"
+                }
+              ],
+              "manufacturerName": "Apple",
+              "brandName": "Apple",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "savings": [
+                {
+                  "valueText": "$50.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.59,
+              "ratingCount": 86,
+              "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 6,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 73,
+                  "reviewPercent": 85
+                }
+              ],
+              "price": "$199.00",
+              "priceValue": 199,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                  "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                  "Active Noise Cancellation reduces unwanted background noise",
+                  "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                  "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                  "Multiple ear tips (XS, S, M, L)",
+                  "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                  "Sweat and water resistant for AirPods Pro and charging case",
+                  "Quick access to Siri by saying \u201cHey Siri\u201d",
+                  "Easy setup, in-ear detection, and automatic switching between devices",
+                  "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                  "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                  "White",
+                  "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 20.08,
+              "quantityLimitQvd": 5,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$249.00",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "APPLE AIRPODS PRO",
+              "skuNumber": "24580025",
+              "unitPrice": 249,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.47,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0311
+                }
+              ],
+              "couponTotal": 248.53,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "25% off headphones, earbuds and speakers.",
+                  "chargeDesc": "25% off headphones, earbuds and speakers.",
+                  "chargeAmount": 62.25,
+                  "chargePerUnit": 62.25
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 186.28,
+                  "chargePerUnit": 186.28
+                }
+              ],
+              "regularCouponsTotal": 248.53,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 249,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24584663",
+              "compareItemID": "24584663",
+              "url": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/E0C003A7-8152-426C-96E72A24B676884A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EB7336C3-1073-4A10-AAA04E5495FDD115_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~8DAA7F48-04B8-4070-8970DF7C247A5392_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~E0C003A7-8152-426C-96E72A24B676884A_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7"
+              ],
+              "title": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+              "model": "ST62335",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24584663"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST62335"
+                }
+              ],
+              "manufacturerName": "Staples TECH",
+              "brandName": "Staples TECH",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 99,
+              "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 89,
+                  "reviewPercent": 90
+                }
+              ],
+              "price": "$11.99",
+              "priceValue": 11.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Power your smartphones and tablets with this durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design of this charging cable provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 6.5ft (2m) cable length gives extra reach when needed and is perfect for comfortably using devices while they charge."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "6.5ft (2m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                  "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                  "Compatible with Apple, Samsung, Google and LG products",
+                  "White Generation 2.0 cable",
+                  "Supports fast charging up to 60W",
+                  "1-year limited warranty"
+                ],
+                "headliner": [
+                  "Charge and sync smartphones or tablets with this long and durable Staples\u00ae USB-C to USB-C 6.5ft (2m) Braided Cable."
+                ],
+                "expandedDescr": [
+                  "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                ]
+              },
+              "skusetID": "SS276185025",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STPLS TECH USBC-C",
+              "skuNumber": "24584663",
+              "unitPrice": 12.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.03,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.002
+                }
+              ],
+              "couponTotal": 12.96,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.96,
+                  "chargePerUnit": 12.96
+                }
+              ],
+              "regularCouponsTotal": 12.96,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 12.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC2",
+              "itemId": "485999",
+              "compareItemID": "485999",
+              "url": "/fellowes-standard-footrests-graphite-48121/product_485999",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2873398A-A796-4C93-98732E7577E3F881_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8BC85B70-6580-4C97-A148C739ADB63728_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36F288CF-D1FD-438B-868BBE74261BA4FD_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~7A714F9F-6D45-4C42-803E613FADB811AB_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~7D81D589-EA6D-4CB3-9454502A6014FD82_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~2873398A-A796-4C93-98732E7577E3F881_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~8BC85B70-6580-4C97-A148C739ADB63728_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~36F288CF-D1FD-438B-868BBE74261BA4FD_sc7"
+              ],
+              "title": "Fellowes Standard Footrest, Graphite (48121)",
+              "model": "48121",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "485999"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "48121"
+                }
+              ],
+              "manufacturerName": "Fellowes",
+              "brandName": "Fellowes",
+              "baseCatName": "Chairs & Seating",
+              "baseCatId": "CL161892",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10539",
+                  "name": "Stools & Ottomans"
+                },
+                "category": {
+                  "id": "CG32",
+                  "name": "Chairs & Seating"
+                },
+                "supercategory": {
+                  "id": "SC2",
+                  "name": "Furniture"
+                },
+                "class": {
+                  "id": "CL161892",
+                  "name": "Foot Rests"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161892",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.04,
+              "ratingCount": 435,
+              "ratingUrl": "/fellowes-standard-footrests-graphite-48121/product_485999?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 34,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 28,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 44,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 109,
+                  "reviewPercent": 25
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 220,
+                  "reviewPercent": 51
+                }
+              ],
+              "price": "$32.99",
+              "priceValue": 32.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy comfort throughout the day with this adjustable footrest that customizes to each person's specific preferences. This footrest helps encourage proper circulation with its tilt and lock design for optimal foot placement. The textured bumps of this footrest help promote stress relief through concentrating on specific pressure points. This Fellowes footrest helps individuals feel less tightness and strain in their feet. Fellowes Standard Footrest offers dual-position height adjustment with a Free-Floating platform that encourages lower leg movement to help reduce fatigue. A textured surface massages the soles of your feet for stress reduction. Product contains 89% post-consumer recycled materials."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Footrest helps improve circulation while seating at the workstation",
+                  "The adjustable height makes this the perfect way for you to maximize your comfort",
+                  "Textured surface massages soles of feet",
+                  "Dimensions: 3.75\"H x 17.63\"W x 13.13\"D",
+                  "5-year manufacturer limited warranty",
+                  "Product contains 89% post-consumer recycled materials"
+                ],
+                "headliner": [
+                  "Enhance seated comfort with this discreet and ergonomically designed Fellowes Standard footrest."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "chairHighlights": [
+                {
+                  "iconName": "shield-check",
+                  "specValue": "5 Year",
+                  "specName": "WARRANTY",
+                  "specificationName": "Warranty Information"
+                },
+                {
+                  "iconName": "material",
+                  "specValue": "Plastic/Poly",
+                  "specName": "MATERIAL",
+                  "specificationName": "Furnishing Material"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FELLOWES FOOTREST",
+              "skuNumber": "485999",
+              "unitPrice": 28.44,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.06,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.004
+                }
+              ],
+              "couponTotal": 28.38,
+              "couponDetails": [
+                {
+                  "chargeNo": "213053",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #26351",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 2.45,
+                  "chargePerUnit": 2.45
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 25.93,
+                  "chargePerUnit": 25.93
+                }
+              ],
+              "regularCouponsTotal": 28.38,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 28.44,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 7
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.522.20250329.2.1636",
+        "masterOrderNumber": "POS.39.20250329.6.10404",
+        "returnedDate": "2025-03-29T18:04:17",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 290.97,
+            "couponTotal": 290.39,
+            "regularCouponsTotal": 290.39,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0385,
+            "grandTotal": 0.6185,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1682",
+                  "itemId": "24584663",
+                  "compareItemID": "24584663",
+                  "url": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/E0C003A7-8152-426C-96E72A24B676884A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EB7336C3-1073-4A10-AAA04E5495FDD115_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~8DAA7F48-04B8-4070-8970DF7C247A5392_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~E0C003A7-8152-426C-96E72A24B676884A_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7"
+                  ],
+                  "title": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+                  "model": "ST62335",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24584663"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "ST62335"
+                    }
+                  ],
+                  "manufacturerName": "Staples TECH",
+                  "brandName": "Staples TECH",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.76,
+                  "ratingCount": 99,
+                  "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 89,
+                      "reviewPercent": 90
+                    }
+                  ],
+                  "price": "$11.99",
+                  "priceValue": 11.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Power your smartphones and tablets with this durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design of this charging cable provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 6.5ft (2m) cable length gives extra reach when needed and is perfect for comfortably using devices while they charge."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "6.5ft (2m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                      "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                      "Compatible with Apple, Samsung, Google and LG products",
+                      "White Generation 2.0 cable",
+                      "Supports fast charging up to 60W",
+                      "1-year limited warranty"
+                    ],
+                    "headliner": [
+                      "Charge and sync smartphones or tablets with this long and durable Staples\u00ae USB-C to USB-C 6.5ft (2m) Braided Cable."
+                    ],
+                    "expandedDescr": [
+                      "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                    ]
+                  },
+                  "skusetID": "SS276185025",
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$std$",
+                  "isRPDC": true,
+                  "isSBG": true,
+                  "STSEligible": true,
+                  "skuDescription": "STPLS TECH USBC-C BRAIDED 2M",
+                  "skuNumber": "24584663",
+                  "unitPrice": 12.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.032,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.002,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.002
+                    }
+                  ],
+                  "couponTotal": 12.96,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 12.96
+                    }
+                  ],
+                  "regularCouponsTotal": 12.96,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 12.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1682",
+                  "itemId": "24584664",
+                  "compareItemID": "24584664",
+                  "url": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/460DBEAA-4B30-49C3-94612455AC641915_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D4125AF6-1352-4E4A-BA2527D8872461E7_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F509398D-040F-4E82-8C2F380C7EEFDC84_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~CBF828D0-BAC8-434C-A2518FC76458E729_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~460DBEAA-4B30-49C3-94612455AC641915_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~D4125AF6-1352-4E4A-BA2527D8872461E7_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7"
+                  ],
+                  "title": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+                  "model": "ST62336",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24584664"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "ST62336"
+                    }
+                  ],
+                  "manufacturerName": "Staples TECH",
+                  "brandName": "Staples TECH",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.76,
+                  "ratingCount": 99,
+                  "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 89,
+                      "reviewPercent": 90
+                    }
+                  ],
+                  "price": "$15.29",
+                  "priceValue": 15.29,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Power your smartphones and tablets with this extra-long durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 9.8ft (3m) cable length gives plenty of extra reach when needed and is perfect for comfortably using devices while they charge."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "9.8ft (3m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                      "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                      "Compatible with Apple, Samsung, Google and LG products",
+                      "White Generation 2.0 cable",
+                      "Supports fast charging up to 60W",
+                      "1-year limited warranty"
+                    ],
+                    "headliner": [
+                      "Charge and sync smartphones or tablets with this durable 9.8 ft (3m) Staples\u00ae USB-C to USB-C Braided Cable."
+                    ],
+                    "expandedDescr": [
+                      "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                    ]
+                  },
+                  "skusetID": "SS276185025",
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$std$",
+                  "isRPDC": true,
+                  "isSBG": true,
+                  "STSEligible": true,
+                  "skuDescription": "STPLS TECH C-C BRAIDED 3M",
+                  "skuNumber": "24584664",
+                  "unitPrice": 15.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.0427,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0027,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0027
+                    }
+                  ],
+                  "couponTotal": 15.95,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 15.95
+                    }
+                  ],
+                  "regularCouponsTotal": 15.95,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 15.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1682",
+                  "itemId": "24584663",
+                  "compareItemID": "24584663",
+                  "url": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/EB7336C3-1073-4A10-AAA04E5495FDD115_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/E0C003A7-8152-426C-96E72A24B676884A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EB7336C3-1073-4A10-AAA04E5495FDD115_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~8DAA7F48-04B8-4070-8970DF7C247A5392_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~3DA2D14A-BB97-4AFE-A02E1E1BE4F28372_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~E0C003A7-8152-426C-96E72A24B676884A_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~EA2E0E0F-6FC3-488E-A14554728BA11D9D_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~C369230D-ACC5-42D4-AE0CC6146B0EFDF5_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)~#|#~6DF6451F-2989-4B54-9141EAF9FD9DDB59_sc7"
+                  ],
+                  "title": "Staples TECH USB-C to USB-C Charging Cable, 6.5 ft., White (ST62335)",
+                  "model": "ST62335",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24584663"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "ST62335"
+                    }
+                  ],
+                  "manufacturerName": "Staples TECH",
+                  "brandName": "Staples TECH",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.76,
+                  "ratingCount": 99,
+                  "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-6-5-ft-white-st62335/product_24584663?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 89,
+                      "reviewPercent": 90
+                    }
+                  ],
+                  "price": "$11.99",
+                  "priceValue": 11.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Power your smartphones and tablets with this durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design of this charging cable provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 6.5ft (2m) cable length gives extra reach when needed and is perfect for comfortably using devices while they charge."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "6.5ft (2m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                      "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                      "Compatible with Apple, Samsung, Google and LG products",
+                      "White Generation 2.0 cable",
+                      "Supports fast charging up to 60W",
+                      "1-year limited warranty"
+                    ],
+                    "headliner": [
+                      "Charge and sync smartphones or tablets with this long and durable Staples\u00ae USB-C to USB-C 6.5ft (2m) Braided Cable."
+                    ],
+                    "expandedDescr": [
+                      "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                    ]
+                  },
+                  "skusetID": "SS276185025",
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8DAA7F48-04B8-4070-8970DF7C247A5392_sc7?$std$",
+                  "isRPDC": true,
+                  "isSBG": true,
+                  "STSEligible": true,
+                  "skuDescription": "STPLS TECH USBC-C BRAIDED 2M",
+                  "skuNumber": "24584663",
+                  "unitPrice": 12.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.0427,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0027,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0027
+                    }
+                  ],
+                  "couponTotal": 12.95,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 12.95
+                    }
+                  ],
+                  "regularCouponsTotal": 12.95,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 12.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC5829",
+                  "itemId": "24580025",
+                  "compareItemID": "24580025",
+                  "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+                  ],
+                  "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+                  "model": "MTJV3LL/A",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24580025"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "MTJV3LL/A"
+                    }
+                  ],
+                  "manufacturerName": "Apple",
+                  "brandName": "Apple",
+                  "baseCatName": "Headphones",
+                  "baseCatId": "CL210844",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10113",
+                      "name": "Headphones"
+                    },
+                    "category": {
+                      "id": "CG3625",
+                      "name": "Headphones"
+                    },
+                    "supercategory": {
+                      "id": "SC5829",
+                      "name": "Audio"
+                    },
+                    "class": {
+                      "id": "CL210844",
+                      "name": "Headphones"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL210844",
+                  "bopisEligible": false,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": null,
+                  "actionLabel": "",
+                  "isQtyChangeAvailable": false,
+                  "savings": [
+                    {
+                      "valueText": "$50.00",
+                      "description": "Member Savings",
+                      "type": "MEMBER_SAVINGS"
+                    }
+                  ],
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.59,
+                  "ratingCount": 86,
+                  "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 6,
+                      "reviewPercent": 7
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 73,
+                      "reviewPercent": 85
+                    }
+                  ],
+                  "price": "$199.00",
+                  "priceValue": 199,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                      "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                      "Active Noise Cancellation reduces unwanted background noise",
+                      "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                      "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                      "Multiple ear tips (XS, S, M, L)",
+                      "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                      "Sweat and water resistant for AirPods Pro and charging case",
+                      "Quick access to Siri by saying \u201cHey Siri\u201d",
+                      "Easy setup, in-ear detection, and automatic switching between devices",
+                      "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                      "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                      "White",
+                      "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 20.08,
+                  "quantityLimitQvd": 5,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+                  "isRPDC": true,
+                  "originalPrice": "$249.00",
+                  "originalPriceLabel": "Regular price",
+                  "skuDescription": "APPLE AIRPODS PRO GEN 2 USBC",
+                  "skuNumber": "24580025",
+                  "unitPrice": 249,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.5011,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0311,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0311
+                    }
+                  ],
+                  "couponTotal": 248.53,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "25% off headphones, earbuds and speakers.",
+                      "chargeAmount": 62.25
+                    },
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 186.28
+                    }
+                  ],
+                  "regularCouponsTotal": 248.53,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 249,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 4
+          }
+        ],
+        "orderUrlKey": "U3RNREZ1N0IwNDQ4SGN1UmdoYytWR0Y3My9MdC9vNlN2NnowYUw0TExoUVh0UXVvMFRENURhTEhERFdEYmRXQ1F4MU54Tys5dXNrYkZVOGREZk9nUVU5dz09"
+      },
+      {
+        "returnOrderNumber": "POS.522.20250330.1.8545",
+        "masterOrderNumber": "POS.39.20250329.6.10404",
+        "returnedDate": "2025-03-30T17:57:48",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 51.42,
+            "couponTotal": 51.31,
+            "regularCouponsTotal": 51.31,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0073,
+            "grandTotal": 0.1173,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC5884",
+                  "itemId": "24387496",
+                  "compareItemID": "24387496",
+                  "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+                  ],
+                  "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+                  "model": "21356ZS",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24387496"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "21356ZS"
+                    }
+                  ],
+                  "manufacturerName": "Newell",
+                  "brandName": "Newell",
+                  "baseCatName": "",
+                  "baseCatId": "CL165124",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10932",
+                      "name": "Totes & Handbags"
+                    },
+                    "category": {
+                      "id": "CG3891",
+                      "name": "Bags & Backpacks"
+                    },
+                    "supercategory": {
+                      "id": "SC5884",
+                      "name": "Bags, Backpacks & Luggage"
+                    },
+                    "class": {
+                      "id": "CL165124",
+                      "name": "Lunch Bags & Boxes"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL165124",
+                  "bopisEligible": true,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.64,
+                  "ratingCount": 28,
+                  "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 5,
+                      "reviewPercent": 18
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 21,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$11.49",
+                  "priceValue": 11.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                      "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                      "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                      "Fun, colorful containers are designed and made in New Zealand",
+                      "Colors received may vary"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "SISTEMA SALAD",
+                  "skuNumber": "24387496",
+                  "unitPrice": 11.49,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.032,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.002,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.002
+                    }
+                  ],
+                  "couponTotal": 11.46,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 11.46
+                    }
+                  ],
+                  "regularCouponsTotal": 11.46,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 11.49,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC2",
+                  "itemId": "485999",
+                  "compareItemID": "485999",
+                  "url": "/fellowes-standard-footrests-graphite-48121/product_485999",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/2873398A-A796-4C93-98732E7577E3F881_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/8BC85B70-6580-4C97-A148C739ADB63728_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/36F288CF-D1FD-438B-868BBE74261BA4FD_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~7A714F9F-6D45-4C42-803E613FADB811AB_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~7D81D589-EA6D-4CB3-9454502A6014FD82_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~2873398A-A796-4C93-98732E7577E3F881_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~8BC85B70-6580-4C97-A148C739ADB63728_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~36F288CF-D1FD-438B-868BBE74261BA4FD_sc7"
+                  ],
+                  "title": "Fellowes Standard Footrest, Graphite (48121)",
+                  "model": "48121",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "485999"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "48121"
+                    }
+                  ],
+                  "manufacturerName": "Fellowes",
+                  "brandName": "Fellowes",
+                  "baseCatName": "Chairs & Seating",
+                  "baseCatId": "CL161892",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10539",
+                      "name": "Stools & Ottomans"
+                    },
+                    "category": {
+                      "id": "CG32",
+                      "name": "Chairs & Seating"
+                    },
+                    "supercategory": {
+                      "id": "SC2",
+                      "name": "Furniture"
+                    },
+                    "class": {
+                      "id": "CL161892",
+                      "name": "Foot Rests"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL161892",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.04,
+                  "ratingCount": 435,
+                  "ratingUrl": "/fellowes-standard-footrests-graphite-48121/product_485999?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 34,
+                      "reviewPercent": 8
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 28,
+                      "reviewPercent": 6
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 44,
+                      "reviewPercent": 10
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 109,
+                      "reviewPercent": 25
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 220,
+                      "reviewPercent": 51
+                    }
+                  ],
+                  "price": "$32.99",
+                  "priceValue": 32.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Enjoy comfort throughout the day with this adjustable footrest that customizes to each person's specific preferences. This footrest helps encourage proper circulation with its tilt and lock design for optimal foot placement. The textured bumps of this footrest help promote stress relief through concentrating on specific pressure points. This Fellowes footrest helps individuals feel less tightness and strain in their feet. Fellowes Standard Footrest offers dual-position height adjustment with a Free-Floating platform that encourages lower leg movement to help reduce fatigue. A textured surface massages the soles of your feet for stress reduction. Product contains 89% post-consumer recycled materials."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Footrest helps improve circulation while seating at the workstation",
+                      "The adjustable height makes this the perfect way for you to maximize your comfort",
+                      "Textured surface massages soles of feet",
+                      "Dimensions: 3.75\"H x 17.63\"W x 13.13\"D",
+                      "5-year manufacturer limited warranty",
+                      "Product contains 89% post-consumer recycled materials"
+                    ],
+                    "headliner": [
+                      "Enhance seated comfort with this discreet and ergonomically designed Fellowes Standard footrest."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "chairHighlights": [
+                    {
+                      "iconName": "shield-check",
+                      "specValue": "5 Year",
+                      "specName": "WARRANTY",
+                      "specificationName": "Warranty Information"
+                    },
+                    {
+                      "iconName": "material",
+                      "specValue": "Plastic/Poly",
+                      "specName": "MATERIAL",
+                      "specificationName": "Furnishing Material"
+                    }
+                  ],
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "FELLOWES FOOTREST",
+                  "skuNumber": "485999",
+                  "unitPrice": 28.44,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.064,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.004,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.004
+                    }
+                  ],
+                  "couponTotal": 28.38,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 25.93
+                    },
+                    {
+                      "chargeNo": "213053",
+                      "chargeName": "Instant Savings #",
+                      "chargeAmount": 2.45
+                    }
+                  ],
+                  "regularCouponsTotal": 28.38,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 28.44,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC5884",
+                  "itemId": "24387496",
+                  "compareItemID": "24387496",
+                  "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+                  ],
+                  "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+                  "model": "21356ZS",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24387496"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "21356ZS"
+                    }
+                  ],
+                  "manufacturerName": "Newell",
+                  "brandName": "Newell",
+                  "baseCatName": "",
+                  "baseCatId": "CL165124",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10932",
+                      "name": "Totes & Handbags"
+                    },
+                    "category": {
+                      "id": "CG3891",
+                      "name": "Bags & Backpacks"
+                    },
+                    "supercategory": {
+                      "id": "SC5884",
+                      "name": "Bags, Backpacks & Luggage"
+                    },
+                    "class": {
+                      "id": "CL165124",
+                      "name": "Lunch Bags & Boxes"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL165124",
+                  "bopisEligible": true,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.64,
+                  "ratingCount": 28,
+                  "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 5,
+                      "reviewPercent": 18
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 21,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$11.49",
+                  "priceValue": 11.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                      "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                      "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                      "Fun, colorful containers are designed and made in New Zealand",
+                      "Colors received may vary"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "SISTEMA SALAD",
+                  "skuNumber": "24387496",
+                  "unitPrice": 11.49,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.0213,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0013,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0013
+                    }
+                  ],
+                  "couponTotal": 11.47,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 11.47
+                    }
+                  ],
+                  "regularCouponsTotal": 11.47,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 11.49,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 3
+          }
+        ],
+        "orderUrlKey": "U3RNREV5QlVKdHhEZXRqUTZ6WTBVMjRGQ0sxSTYyZkZ5TDRGSklYdWNUOXIwd1Jya0ovcVJFdnJsMWNiYzZTUmhzMnZPSVQ3b3N4eE5HL1ZmeUJuZUR0dz09"
+      }
+    ],
+    "productsOnOrder": [
+      "485999",
+      "24580025",
+      "24387496",
+      "24584664",
+      "24584663"
+    ],
+    "storeNumber": "39",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "501 Route 17 SOUTH, STE 1",
+      "city": "PARAMUS",
+      "state": "NJ",
+      "zipCode": "07652"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-03-29T18:04:17",
+            "quantity": 4
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-03-30T17:57:48",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T11313I11A11KF74AYTD9"
+  }
+}

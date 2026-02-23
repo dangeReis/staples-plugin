@@ -1,0 +1,334 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20240928.4.62636",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-09-28T15:07:26",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZ4eHZiQTNqS1phbndUTUVWdFFXeERzUWFqVERYaDFkSkZqMkNJdWVKbG9ERFYwdzFKUkxDUnE5T2VPSm9yNWFlVFdYTU0zN3VsNklFL1J1QWhmc0U9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.98,
+  "orderLines": [
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.89,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:41.813819213",
+      "resourceName": "OrderDetails",
+      "transactionId": "1c9879e989b8457fbb3f4597c6921ca2",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240928.4.62636",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20240928.4.62636",
+    "orderDate": "2024-09-28T15:07:26",
+    "keyForOrderDetails": "U3RNREhxTWxxTTZLS0ZiTmNNT3N1UVdpSDB0SEVrZkdXU1RKVVMyZ2hpTnFwQzBEVHFNN2ZzMnRidE8yeStiTU96ZTNFLzEzNjRLajA2Y1FnS2ZJR1h6aGs9",
+    "orderUrlKey": "U3RNREhxTWxxTTZLS0ZiTmNNT3N1UVdpSDB0SEVrZkdXU1RKVVMyZ2hpTnFwQzBEVHFNN2ZzMnRidE8yeStiTU96ZTNFLzEzNjRLajA2Y1FnS2ZJR1h6aGs9",
+    "customerNumberKey": "U3RNREhWbTVXVmQ5TTRsczU1MGcrS3R2b0hnRDVWYkxjdjJaYzBsL2tDNEV4Q3FLbDhYY1QvNWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 59.78,
+    "discountsTotal": 58.8,
+    "couponsTotal": 32.8,
+    "pointsRedeemedValue": 26,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.98,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Apr 21 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.89,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 0.98,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 58.8,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 26,
+                  "chargePerUnit": 13
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $18.49",
+                  "chargeName": "100% Price Guarantee $18.49",
+                  "chargeDesc": "100% Price Guarantee $18.49",
+                  "chargeAmount": 22.8,
+                  "chargePerUnit": 11.4
+                }
+              ],
+              "regularCouponsTotal": 58.8,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 59.78,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "901974"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716JM44AYENM"
+  }
+}

@@ -1,0 +1,1359 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250402.4.90466",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-02T19:43:40",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZOOExKRHRiTzcrdlBlQVlhQ3drVHdWRTdzclYwTXJNNktCTDFRZitTOTRDcDJ4R29WQ091c3FIWnlaK3Z2cHNTV2VzS1ZWZzNsWGYxNmhQcURVNk09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 7.45,
+  "orderLines": [
+    {
+      "productSku": "24580025",
+      "productName": "APPLE AIRPODS PRO",
+      "productShortDesc": "APPLE AIRPODS PRO",
+      "productLongDesc": "APPLE AIRPODS PRO",
+      "unitPrice": 209,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+      "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+      "model": "MTJV3LL/A",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24580025",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24573908",
+      "productName": "65W GAN SLIM PD3.0",
+      "productShortDesc": "65W GAN SLIM PD3.0",
+      "productLongDesc": "65W GAN SLIM PD3.0",
+      "unitPrice": 49.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$thb$",
+      "productURL": "j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908",
+      "model": "JUP2465",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24573908",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24580025",
+      "productName": "APPLE AIRPODS PRO",
+      "productShortDesc": "APPLE AIRPODS PRO",
+      "productLongDesc": "APPLE AIRPODS PRO",
+      "unitPrice": 209,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+      "productURL": "apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+      "model": "MTJV3LL/A",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24580025",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:39.178735844",
+      "resourceName": "OrderDetails",
+      "transactionId": "76f97e208ef3486bb0390f86195893a4",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250402.4.90466",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250402.4.90466",
+    "orderDate": "2025-04-02T19:43:40",
+    "keyForOrderDetails": "U3RNREVQR0U5d2dKTXVRKzF4U0tGRlY0ZlhFT1JjU3dMcDdEdERMdk5kQVZRQncvREJMR29veTIvQXZybmRQd0hoMWNaNGN4RDFHWGI1WVdEM25NQUVBMzg9",
+    "orderUrlKey": "U3RNREVQR0U5d2dKTXVRKzF4U0tGRlY0ZlhFT1JjU3dMcDdEdERMdk5kQVZRQncvREJMR29veTIvQXZybmRQd0hoMWNaNGN4RDFHWGI1WVdEM25NQUVBMzg9",
+    "customerNumberKey": "U3RNREVaRjlEd0traUpUMXE2QkVFUmpwWS9CQ1gva2ZVY3hGNnM0U3NrQU80YnBzcDlsUnB1RHc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 467.99,
+    "discountsTotal": 461,
+    "couponsTotal": 40,
+    "pointsRedeemedValue": 421,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.46,
+    "grandTotal": 7.45,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5829",
+              "itemId": "24580025",
+              "compareItemID": "24580025",
+              "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+              ],
+              "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+              "model": "MTJV3LL/A",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24580025"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MTJV3LL/A"
+                }
+              ],
+              "manufacturerName": "Apple",
+              "brandName": "Apple",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "savings": [
+                {
+                  "valueText": "$50.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.59,
+              "ratingCount": 86,
+              "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 6,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 73,
+                  "reviewPercent": 85
+                }
+              ],
+              "price": "$199.00",
+              "priceValue": 199,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                  "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                  "Active Noise Cancellation reduces unwanted background noise",
+                  "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                  "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                  "Multiple ear tips (XS, S, M, L)",
+                  "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                  "Sweat and water resistant for AirPods Pro and charging case",
+                  "Quick access to Siri by saying \u201cHey Siri\u201d",
+                  "Easy setup, in-ear detection, and automatic switching between devices",
+                  "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                  "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                  "White",
+                  "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 20.08,
+              "quantityLimitQvd": 5,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$249.00",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "APPLE AIRPODS PRO",
+              "skuNumber": "24580025",
+              "unitPrice": 209,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 3.09,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.2047
+                }
+              ],
+              "couponTotal": 205.91,
+              "couponDetails": [
+                {
+                  "chargeNo": "216518",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #19288",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 20,
+                  "chargePerUnit": 20
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 185.91,
+                  "chargePerUnit": 185.91
+                }
+              ],
+              "regularCouponsTotal": 205.91,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 209,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC3",
+              "itemId": "24573908",
+              "compareItemID": "24573908",
+              "url": "/j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0B176210-8971-41AB-85FA4D3C05B68AC8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F200DAF7-3DDC-4EF5-BCFF26AC84012DFC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B7CF7C0F-031C-49FE-9EEAA0DDE8463902_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~4B11FB72-4992-447F-BA6D6D11326DB90D_sc7",
+                "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~0B176210-8971-41AB-85FA4D3C05B68AC8_sc7",
+                "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~F200DAF7-3DDC-4EF5-BCFF26AC84012DFC_sc7",
+                "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~B7CF7C0F-031C-49FE-9EEAA0DDE8463902_sc7"
+              ],
+              "title": "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)",
+              "model": "JUP2465",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24573908"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "JUP2465"
+                }
+              ],
+              "manufacturerName": "j5create",
+              "brandName": "j5create",
+              "baseCatName": "Computer Accessories & Peripherals",
+              "baseCatId": "CL165024",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10151",
+                  "name": "Laptop Accessories"
+                },
+                "category": {
+                  "id": "CG3403",
+                  "name": "Computer Accessories & Peripherals"
+                },
+                "supercategory": {
+                  "id": "SC3",
+                  "name": "Computers & Accessories"
+                },
+                "class": {
+                  "id": "CL165024",
+                  "name": "Laptop Chargers & Adapters"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165024",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 3.75,
+              "ratingCount": 4,
+              "ratingUrl": "/j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 25
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 25
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 2,
+                  "reviewPercent": 50
+                }
+              ],
+              "price": "$49.99",
+              "priceValue": 49.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The j5create 65W GaN PD USB Type-C slim two-port charger can simultaneously charge two USB Type-C devices. The charger uses GaN technology which enables it to deliver a significant amount of power in a small package. Both USB Type-C ports support Power Delivery 3.0/2.0 technology. When using just one of the ports, the first port supports up to 65W, enabling laptops, tablets, and mobile devices to charge at the fastest rates possible, while the second port supports up to 20W. When both ports are being used, the power output distributes 45W and 20W, still amounting to a total of 65W. With the slim design, the charger is easily portable by just sliding it into your pocket or reducing the gap between the wall and the table or cupboard. Surge, overcharging, overcurrent, and overheating protection are all included."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Ultracompact and portable two-port GaN charger can simultaneously charge two USB Type-C devices at the same time",
+                  "Quickly charges MacBook, Chromebook, iPad, iPhone, and many other devices",
+                  "Designed to provide 65W of power",
+                  "Input voltage: 100-240VAC at 50-60Hz, 1.5A (maximum)",
+                  "USB Type-C output: 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A (output 1, 65W max), 5V/3A, 9V/2.22A, 12V/1.67A (output 2, 20W max)",
+                  "Equipped with 2 x USB Type-C ports",
+                  "Charges efficiently, is compact, and utilizes advanced GaN technology",
+                  "When using both ports simultaneously, the USB Type-C ports provide up to 45W And 20W of fast charging",
+                  "Surge, overcharging, overcurrent, and overheating protection ensure safe charging",
+                  "USB Type-C port supports PD 3.0/PPS/QC 2.0/QC 3.0/FCP/AFC/AP 2.4/BC 1.2",
+                  "Features foldable charging plugs, meaning you can take this charger anywhere without sacrificing quality or power",
+                  "Built-in intelligent IC to automatically identify devices",
+                  "Comes in white",
+                  "2-year manufacturer limited warranty",
+                  "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/0B176210-8971-41AB-85FA4D3C05B68AC8_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "65W GAN SLIM PD3.0",
+              "skuNumber": "24573908",
+              "unitPrice": 49.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.81,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0537
+                }
+              ],
+              "couponTotal": 49.18,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 49.18,
+                  "chargePerUnit": 49.18
+                }
+              ],
+              "regularCouponsTotal": 49.18,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 49.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5829",
+              "itemId": "24580025",
+              "compareItemID": "24580025",
+              "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+              ],
+              "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+              "model": "MTJV3LL/A",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24580025"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MTJV3LL/A"
+                }
+              ],
+              "manufacturerName": "Apple",
+              "brandName": "Apple",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "savings": [
+                {
+                  "valueText": "$50.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.59,
+              "ratingCount": 86,
+              "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 6,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 73,
+                  "reviewPercent": 85
+                }
+              ],
+              "price": "$199.00",
+              "priceValue": 199,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                  "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                  "Active Noise Cancellation reduces unwanted background noise",
+                  "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                  "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                  "Multiple ear tips (XS, S, M, L)",
+                  "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                  "Sweat and water resistant for AirPods Pro and charging case",
+                  "Quick access to Siri by saying \u201cHey Siri\u201d",
+                  "Easy setup, in-ear detection, and automatic switching between devices",
+                  "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                  "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                  "White",
+                  "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 20.08,
+              "quantityLimitQvd": 5,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$249.00",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "APPLE AIRPODS PRO",
+              "skuNumber": "24580025",
+              "unitPrice": 209,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 3.09,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.2047
+                }
+              ],
+              "couponTotal": 205.91,
+              "couponDetails": [
+                {
+                  "chargeNo": "216518",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #19288",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 20,
+                  "chargePerUnit": 20
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 185.91,
+                  "chargePerUnit": 185.91
+                }
+              ],
+              "regularCouponsTotal": 205.91,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 209,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.39.20250402.3.89969",
+        "masterOrderNumber": "POS.542.20250402.4.90466",
+        "returnedDate": "2025-04-02T20:34:28",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 418,
+            "couponTotal": 411.82,
+            "regularCouponsTotal": 411.82,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.4094,
+            "grandTotal": 6.5894,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC5829",
+                  "itemId": "24580025",
+                  "compareItemID": "24580025",
+                  "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+                  ],
+                  "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+                  "model": "MTJV3LL/A",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24580025"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "MTJV3LL/A"
+                    }
+                  ],
+                  "manufacturerName": "Apple",
+                  "brandName": "Apple",
+                  "baseCatName": "Headphones",
+                  "baseCatId": "CL210844",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10113",
+                      "name": "Headphones"
+                    },
+                    "category": {
+                      "id": "CG3625",
+                      "name": "Headphones"
+                    },
+                    "supercategory": {
+                      "id": "SC5829",
+                      "name": "Audio"
+                    },
+                    "class": {
+                      "id": "CL210844",
+                      "name": "Headphones"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL210844",
+                  "bopisEligible": false,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": null,
+                  "actionLabel": "",
+                  "isQtyChangeAvailable": false,
+                  "savings": [
+                    {
+                      "valueText": "$50.00",
+                      "description": "Member Savings",
+                      "type": "MEMBER_SAVINGS"
+                    }
+                  ],
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.59,
+                  "ratingCount": 86,
+                  "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 6,
+                      "reviewPercent": 7
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 73,
+                      "reviewPercent": 85
+                    }
+                  ],
+                  "price": "$199.00",
+                  "priceValue": 199,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                      "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                      "Active Noise Cancellation reduces unwanted background noise",
+                      "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                      "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                      "Multiple ear tips (XS, S, M, L)",
+                      "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                      "Sweat and water resistant for AirPods Pro and charging case",
+                      "Quick access to Siri by saying \u201cHey Siri\u201d",
+                      "Easy setup, in-ear detection, and automatic switching between devices",
+                      "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                      "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                      "White",
+                      "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 20.08,
+                  "quantityLimitQvd": 5,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+                  "isRPDC": true,
+                  "originalPrice": "$249.00",
+                  "originalPriceLabel": "Regular price",
+                  "skuDescription": "APPLE AIRPODS PRO GEN 2 USBC",
+                  "skuNumber": "24580025",
+                  "unitPrice": 209,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 3.2947,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.2047,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.2047
+                    }
+                  ],
+                  "couponTotal": 205.91,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 185.91
+                    },
+                    {
+                      "chargeNo": "216518",
+                      "chargeName": "Instant Savings #",
+                      "chargeAmount": 20
+                    }
+                  ],
+                  "regularCouponsTotal": 205.91,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 209,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC5829",
+                  "itemId": "24580025",
+                  "compareItemID": "24580025",
+                  "url": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/30132E12-ACA9-479D-86DD032231DD8CA1_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/61128A8F-E205-47FD-AC6A59349FE55A5C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~30132E12-ACA9-479D-86DD032231DD8CA1_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~61128A8F-E205-47FD-AC6A59349FE55A5C_sc7",
+                    "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)~#|#~48008205-AE14-43FF-BE7B9E8E68B1DF0F_sc7"
+                  ],
+                  "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case USB\u2011C, White (MTJV3LL/A)",
+                  "model": "MTJV3LL/A",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24580025"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "MTJV3LL/A"
+                    }
+                  ],
+                  "manufacturerName": "Apple",
+                  "brandName": "Apple",
+                  "baseCatName": "Headphones",
+                  "baseCatId": "CL210844",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10113",
+                      "name": "Headphones"
+                    },
+                    "category": {
+                      "id": "CG3625",
+                      "name": "Headphones"
+                    },
+                    "supercategory": {
+                      "id": "SC5829",
+                      "name": "Audio"
+                    },
+                    "class": {
+                      "id": "CL210844",
+                      "name": "Headphones"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL210844",
+                  "bopisEligible": false,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": null,
+                  "actionLabel": "",
+                  "isQtyChangeAvailable": false,
+                  "savings": [
+                    {
+                      "valueText": "$50.00",
+                      "description": "Member Savings",
+                      "type": "MEMBER_SAVINGS"
+                    }
+                  ],
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.59,
+                  "ratingCount": 86,
+                  "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 6,
+                      "reviewPercent": 7
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 73,
+                      "reviewPercent": 85
+                    }
+                  ],
+                  "price": "$199.00",
+                  "priceValue": 199,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C) deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you. Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you\u2019re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker, and lanyard loop. The upgraded H2 chip powers smarter noise cancellation and three-dimensional sound. Adaptive EQ tunes music to your ears in real time to deliver crisp, clean high notes and deep, rich bass in stunning clarity. AirPods Pro when paired with Apple Vision Pro deliver Lossless Audio with ultra-low latency, for an unprecedented sound experience. Communicating at industry-shattering speed and unlocking a revolutionary new format rendering pure, uncompressed sound in real time. Active Noise Cancellation removes twice as much unwanted noise, so nothing interrupts your listening during a commute and when you need to focus. Transparency mode reduces and adjusts down the intensity of loud noises at 48,000 times per second, so you can comfortably hear the world around you. And Adaptive Audio\u00b9\u2076 dynamically blends Transparency mode with Active Noise Cancellation to deliver the best listening experience for you in any environment."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "1 Pair of Apple AirPods Pro (2nd Generation) with MagSafe Charging Case (USB\u2011C)",
+                      "Up to 6 hours of listening time and Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation on",
+                      "Active Noise Cancellation reduces unwanted background noise",
+                      "Adaptive Transparency lets outside sounds in while reducing loud environmental noise",
+                      "Personalized Spatial Audio with dynamic head tracking places sound all around you",
+                      "Multiple ear tips (XS, S, M, L)",
+                      "Touch control lets you swipe to adjust volume, press to direct media playback, answer or end calls, and press and hold to switch between listening modes",
+                      "Sweat and water resistant for AirPods Pro and charging case",
+                      "Quick access to Siri by saying \u201cHey Siri\u201d",
+                      "Easy setup, in-ear detection, and automatic switching between devices",
+                      "Audio Sharing between two sets of AirPods on your iPhone, iPad, iPod touch, or Apple TV",
+                      "Find My with proximity view for AirPods Pro and Precision Finding for charging case",
+                      "White",
+                      "<a href=\"http://sds.staples.com/msds/24543635.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 20.08,
+                  "quantityLimitQvd": 5,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F3AFBCEE-DCD1-43E7-878BB74CBDE8BA8C_sc7?$std$",
+                  "isRPDC": true,
+                  "originalPrice": "$249.00",
+                  "originalPriceLabel": "Regular price",
+                  "skuDescription": "APPLE AIRPODS PRO GEN 2 USBC",
+                  "skuNumber": "24580025",
+                  "unitPrice": 209,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 3.2947,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.2047,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.2047
+                    }
+                  ],
+                  "couponTotal": 205.91,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 185.91
+                    },
+                    {
+                      "chargeNo": "216518",
+                      "chargeName": "Instant Savings #",
+                      "chargeAmount": 20
+                    }
+                  ],
+                  "regularCouponsTotal": 205.91,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 209,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 2
+          }
+        ],
+        "orderUrlKey": "U3RNREhJTi82dTBZaEgrdkhkb2ZoenIzdDZwazVWTGIzRVovcWVhNGRaL1Fhd2RrOUptSzNZMDBYS3hnUVh3SkN2OU5ZN3hLYzRUVW50QlZYWVVoYytjZz09"
+      },
+      {
+        "returnOrderNumber": "POS.542.20250413.4.92325",
+        "masterOrderNumber": "POS.542.20250402.4.90466",
+        "returnedDate": "2025-04-13T12:25:47",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 49.99,
+            "couponTotal": 49.18,
+            "regularCouponsTotal": 49.18,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0537,
+            "grandTotal": 0.8637,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC3",
+                  "itemId": "24573908",
+                  "compareItemID": "24573908",
+                  "url": "/j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/4B11FB72-4992-447F-BA6D6D11326DB90D_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/0B176210-8971-41AB-85FA4D3C05B68AC8_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F200DAF7-3DDC-4EF5-BCFF26AC84012DFC_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/B7CF7C0F-031C-49FE-9EEAA0DDE8463902_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~4B11FB72-4992-447F-BA6D6D11326DB90D_sc7",
+                    "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~0B176210-8971-41AB-85FA4D3C05B68AC8_sc7",
+                    "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~F200DAF7-3DDC-4EF5-BCFF26AC84012DFC_sc7",
+                    "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)~#|#~B7CF7C0F-031C-49FE-9EEAA0DDE8463902_sc7"
+                  ],
+                  "title": "j5create 65W USB-C 2-Port GaN PD Charger, White (JUP2465)",
+                  "model": "JUP2465",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24573908"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "JUP2465"
+                    }
+                  ],
+                  "manufacturerName": "j5create",
+                  "brandName": "j5create",
+                  "baseCatName": "Computer Accessories & Peripherals",
+                  "baseCatId": "CL165024",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10151",
+                      "name": "Laptop Accessories"
+                    },
+                    "category": {
+                      "id": "CG3403",
+                      "name": "Computer Accessories & Peripherals"
+                    },
+                    "supercategory": {
+                      "id": "SC3",
+                      "name": "Computers & Accessories"
+                    },
+                    "class": {
+                      "id": "CL165024",
+                      "name": "Laptop Chargers & Adapters"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL165024",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 3.75,
+                  "ratingCount": 4,
+                  "ratingUrl": "/j5create-65w-usb-c-2-port-gan-pd-charger-white-jup2465/product_24573908?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 25
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 25
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 2,
+                      "reviewPercent": 50
+                    }
+                  ],
+                  "price": "$49.99",
+                  "priceValue": 49.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "The j5create 65W GaN PD USB Type-C slim two-port charger can simultaneously charge two USB Type-C devices. The charger uses GaN technology which enables it to deliver a significant amount of power in a small package. Both USB Type-C ports support Power Delivery 3.0/2.0 technology. When using just one of the ports, the first port supports up to 65W, enabling laptops, tablets, and mobile devices to charge at the fastest rates possible, while the second port supports up to 20W. When both ports are being used, the power output distributes 45W and 20W, still amounting to a total of 65W. With the slim design, the charger is easily portable by just sliding it into your pocket or reducing the gap between the wall and the table or cupboard. Surge, overcharging, overcurrent, and overheating protection are all included."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Ultracompact and portable two-port GaN charger can simultaneously charge two USB Type-C devices at the same time",
+                      "Quickly charges MacBook, Chromebook, iPad, iPhone, and many other devices",
+                      "Designed to provide 65W of power",
+                      "Input voltage: 100-240VAC at 50-60Hz, 1.5A (maximum)",
+                      "USB Type-C output: 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A (output 1, 65W max), 5V/3A, 9V/2.22A, 12V/1.67A (output 2, 20W max)",
+                      "Equipped with 2 x USB Type-C ports",
+                      "Charges efficiently, is compact, and utilizes advanced GaN technology",
+                      "When using both ports simultaneously, the USB Type-C ports provide up to 45W And 20W of fast charging",
+                      "Surge, overcharging, overcurrent, and overheating protection ensure safe charging",
+                      "USB Type-C port supports PD 3.0/PPS/QC 2.0/QC 3.0/FCP/AFC/AP 2.4/BC 1.2",
+                      "Features foldable charging plugs, meaning you can take this charger anywhere without sacrificing quality or power",
+                      "Built-in intelligent IC to automatically identify devices",
+                      "Comes in white",
+                      "2-year manufacturer limited warranty",
+                      "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/0B176210-8971-41AB-85FA4D3C05B68AC8_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "65W GAN SLIM PD3.0 USBC 2 PORT",
+                  "skuNumber": "24573908",
+                  "unitPrice": 49.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.8637,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0537,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0537
+                    }
+                  ],
+                  "couponTotal": 49.18,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 49.18
+                    }
+                  ],
+                  "regularCouponsTotal": 49.18,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 49.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREg0Z2Vlek5HNGt0MFZKcGV0QVBHUXVjMFB1b3NkdDlZei9UWW1KUy9mTEQyS1ViVkpoeU93bUVSUlV5ZngwREdHYjdBanUxMVYyY2RNaVEzREVLN0k9"
+      }
+    ],
+    "productsOnOrder": [
+      "24580025",
+      "24573908"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-04-02T20:34:28",
+            "quantity": 2
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-04-13T12:25:47",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT117196RH4AYTHJ"
+  }
+}

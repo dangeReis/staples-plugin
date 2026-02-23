@@ -1,0 +1,2261 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250329.2.1645",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-29T18:36:42",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVqRWlRazAvSWh0YVNIc0V1TWpQK0hoN3d6clpVZEt4cFRjL3BhVXQ2T3k2b1c2bHl2VlU0ODErWkhYNHM3MUo5Q0tGRVdoOTdoTGpuRU1pWHBXQT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 44.2,
+  "orderLines": [
+    {
+      "productSku": "24572587",
+      "productName": "J5 USBC 100W SYNC",
+      "productShortDesc": "J5 USBC 100W SYNC",
+      "productLongDesc": "J5 USBC 100W SYNC",
+      "unitPrice": 14.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+      "productURL": "j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+      "model": "JUCX25L18",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24572587",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24572587",
+      "productName": "J5 USBC 100W SYNC",
+      "productShortDesc": "J5 USBC 100W SYNC",
+      "productLongDesc": "J5 USBC 100W SYNC",
+      "unitPrice": 14.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+      "productURL": "j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+      "model": "JUCX25L18",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24572587",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "265574",
+      "productName": "AIRHEADS XTREMES B",
+      "productShortDesc": "AIRHEADS XTREMES B",
+      "productLongDesc": "AIRHEADS XTREMES B",
+      "unitPrice": 3.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B7BCD501-992A-4F59-9B8E5D1D67B163CB_sc7?$thb$",
+      "productURL": "airheads-xtremes-bites-chewy-gummy-rainbow-berry-6-oz-ahxbites12/product_265574",
+      "model": "AHXBITES12",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "265574",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "482898",
+      "productName": "GLAD DS TRASH BAGS",
+      "productShortDesc": "GLAD DS TRASH BAGS",
+      "productLongDesc": "GLAD DS TRASH BAGS",
+      "unitPrice": 21.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+      "productURL": "cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+      "model": "CLO 78526",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "482898",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24580006",
+      "productName": "BOSE QC ULTRA EARB",
+      "productShortDesc": "BOSE QC ULTRA EARB",
+      "productLongDesc": "BOSE QC ULTRA EARB",
+      "unitPrice": 267.65,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$thb$",
+      "productURL": "bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006",
+      "model": "882826-0010",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24580006",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24590914",
+      "productName": "POKEMON CARDS",
+      "productShortDesc": "POKEMON CARDS",
+      "productLongDesc": "POKEMON CARDS",
+      "unitPrice": 5.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "POKEMON CARDS",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:40.472109203",
+      "resourceName": "OrderDetails",
+      "transactionId": "7f176813cee6434fbd2fa6106c9c443b",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250329.2.1645",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250329.2.1645",
+    "orderDate": "2025-03-29T18:36:42",
+    "keyForOrderDetails": "U3RNREdHdTFKMUp0ZzUrUUhZdXJncFdNenB4VTRxbnMwekJXbmU2Tk1ZNVNUTDIzOEJLR0doV3R4WEp0bU1CMWdYaWYyYjZ0ODR3Slk1K2lVZ3Z5WkpBdz09",
+    "orderUrlKey": "U3RNREdHdTFKMUp0ZzUrUUhZdXJncFdNenB4VTRxbnMwekJXbmU2Tk1ZNVNUTDIzOEJLR0doV3R4WEp0bU1CMWdYaWYyYjZ0ODR3Slk1K2lVZ3Z5WkpBdz09",
+    "customerNumberKey": "U3RNREZDM01wa1d4Z1UzT0cvdVJ4YzN1c01ycEZzRHNtN25aazM4N216eGZ2M1JpSnRxN2lMUkE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 329.1,
+    "discountsTotal": 287.65,
+    "couponsTotal": 20.65,
+    "pointsRedeemedValue": 267,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.75,
+    "grandTotal": 44.2,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "265574",
+              "compareItemID": "265574",
+              "url": "/airheads-xtremes-bites-chewy-gummy-rainbow-berry-6-oz-ahxbites12/product_265574",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B7BCD501-992A-4F59-9B8E5D1D67B163CB_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B7BCD501-992A-4F59-9B8E5D1D67B163CB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/529364E8-E9E6-4E52-BF4D29F11B10C22B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C36EABFD-E67D-4AAC-84227CB42F56C74C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/02E728CD-33E7-4D01-B428B07FF94515D9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4DCC5414-A934-4026-A34A329771CC4DDF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7B3FFF65-4C28-4DB3-A37B647722FE200D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A907AA29-7328-4DC1-A33017017A565129_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~B7BCD501-992A-4F59-9B8E5D1D67B163CB_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~529364E8-E9E6-4E52-BF4D29F11B10C22B_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~C36EABFD-E67D-4AAC-84227CB42F56C74C_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~02E728CD-33E7-4D01-B428B07FF94515D9_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~4DCC5414-A934-4026-A34A329771CC4DDF_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~7B3FFF65-4C28-4DB3-A37B647722FE200D_sc7",
+                "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)~#|#~A907AA29-7328-4DC1-A33017017A565129_sc7"
+              ],
+              "title": "Airheads Xtremes Rainbow Berry  Bites, 6 oz (AHXBITES12)",
+              "model": "AHXBITES12",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "265574"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "AHXBITES12"
+                }
+              ],
+              "manufacturerName": "Airheads",
+              "brandName": "Airheads",
+              "baseCatName": "Candy, Gum & Mints",
+              "baseCatId": "CL354485",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4695",
+                  "name": "Candy, Gum & Mints"
+                },
+                "category": {
+                  "id": "CG1253",
+                  "name": "Candy, Gum & Mints"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL354485",
+                  "name": "Gummy & Chewy Candy"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354485",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.19,
+              "ratingCount": 42,
+              "ratingUrl": "/airheads-xtremes-bites-chewy-gummy-rainbow-berry-6-oz-ahxbites12/product_265574?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 3,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 32,
+                  "reviewPercent": 76
+                }
+              ],
+              "price": "$3.49",
+              "priceValue": 3.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Make a snack mix in the office lobby vibrant by adding this five-color, striped candy. The Rainbow Berry flavor offers a fruity essence, and the chewy pieces are ideal for fans of soft candy. This Airheads Xtremes Bites candy is bite-sized, allowing staff to snack discreetly during seminars."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Soft, chewy texture for a delicious snack",
+                  "Product is peanut/tree nut free",
+                  "6 oz. package",
+                  "Flavor: rainbow berry"
+                ],
+                "headliner": [
+                  "Fulfill cravings for sweet and sour tastes with this Airheads Xtremes Bites candy."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/529364E8-E9E6-4E52-BF4D29F11B10C22B_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "AIRHEADS XTREMES B",
+              "skuNumber": "265574",
+              "unitPrice": 3.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.46,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0305
+                }
+              ],
+              "couponTotal": 3.03,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 3.03,
+                  "chargePerUnit": 3.03
+                }
+              ],
+              "regularCouponsTotal": 3.03,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC3",
+              "itemId": "24572587",
+              "compareItemID": "24572587",
+              "url": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2044698B-B7A9-489A-A698C3C349330579_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/66776A80-5016-4D4D-821D13A71CC890FF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/74DF563D-7213-450C-A1355201A29F23D9_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~93D568F3-9C8A-4950-B36EFB13093336B8_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~73A23B85-918C-450E-A2F5325798EA6780_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~2044698B-B7A9-489A-A698C3C349330579_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~66776A80-5016-4D4D-821D13A71CC890FF_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~74DF563D-7213-450C-A1355201A29F23D9_sc7"
+              ],
+              "title": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+              "model": "JUCX25L18",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24572587"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "JUCX25L18"
+                }
+              ],
+              "manufacturerName": "j5create",
+              "brandName": "j5create",
+              "baseCatName": "Computer Accessories & Peripherals",
+              "baseCatId": "CL140452",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1426",
+                  "name": "Cables & Cable Accessories"
+                },
+                "category": {
+                  "id": "CG3403",
+                  "name": "Computer Accessories & Peripherals"
+                },
+                "supercategory": {
+                  "id": "SC3",
+                  "name": "Computers & Accessories"
+                },
+                "class": {
+                  "id": "CL140452",
+                  "name": "Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140452",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.63,
+              "ratingCount": 8,
+              "ratingUrl": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$14.99",
+              "priceValue": 14.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The j5create USB Type-C 100W synchronization and charging cable is a high-speed cable that is great for charging USB Type-C devices. The cable features a reversible USB Type-C connector on each side. The power cable supports Power Delivery and data transfer between smartphones, tablets, and laptops. It supports speeds up to 480Mbps and an output of 5A. With a double-braided polyester cover, the exterior is abrasion-resistant, reducing fraying and increasing the life span."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-speed cable great for charging USB Type-C devices",
+                  "Cable length is 5.9'",
+                  "Contains two USB Type-C male connectors",
+                  "USB Type-C connector is protected by a metal casing and dual-layer molding to prevent damage from bending and twisting; cable jacket is made of PVC with plastic enclosure",
+                  "Delivers transfer speeds up to 480Mbps",
+                  "Supports up to 20V/5A 100W charging for all USB Type-C devices, including phones, tablets, and laptops",
+                  "Supports Power Delivery and Qualcomm quick charge",
+                  "Built-in E-marker chip ensures safe and stable 100W fast charging",
+                  "This cable is not intended for displays",
+                  "Shield-braid and metalized mylar shielding protects the cable from external electromagnetic interference",
+                  "Comes in black with orange accents",
+                  "1-year manufacturer limited warranty",
+                  "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "J5 USBC 100W SYNC",
+              "skuNumber": "24572587",
+              "unitPrice": 14.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 2.01,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.1332
+                }
+              ],
+              "couponTotal": 12.98,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.98,
+                  "chargePerUnit": 12.98
+                }
+              ],
+              "regularCouponsTotal": 12.98,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 14.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1683",
+              "itemId": "482898",
+              "compareItemID": "482898",
+              "url": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EF671402-80CD-4293-860B193A8D2779A5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C245B1BF-731C-4665-A97F5636842E00E4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~F1F654A8-6A7A-4291-8399F324B381406E_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~EF671402-80CD-4293-860B193A8D2779A5_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~C245B1BF-731C-4665-A97F5636842E00E4_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7"
+              ],
+              "title": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+              "model": "CLO 78526",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "482898"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "CLO 78526"
+                }
+              ],
+              "manufacturerName": "Glad",
+              "brandName": "Glad",
+              "baseCatName": "Waste & Recycling",
+              "baseCatId": "CL141923",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8181",
+                  "name": "Waste & Recycling"
+                },
+                "category": {
+                  "id": "CG2827",
+                  "name": "Waste & Recycling"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141923",
+                  "name": "Trash Bags"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141923",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$1.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "100/Box",
+              "rating": 4.7,
+              "ratingCount": 1604,
+              "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 33,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 16,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 38,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 219,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1298,
+                  "reviewPercent": 81
+                }
+              ],
+              "price": "$18.39",
+              "priceValue": 18.39,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.18/bag",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$17.47",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 1877,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Glad ForceFlex Tall Drawstring Trash Bags are designed with stretchable strength to handle the heaviest loads without tearing. The ForceFlex technology delivers extra toughness as it flexes and expands around sharp edges and heavy loads without ripping. Featuring two layers of extra leak protection and RipGuard technology, these trash bags guard against punctures and tears, and trap liquids in the bag so you can put your most demanding trash up for the challenge. Let the stretchable strength of Glad handle the toughest messes your business encounters and then some. The Grips The Can Drawstring ensures that the bag stays in place, until you are ready to take it out. Ideal for offices, daycares, schools, hotels, restaurants and more. CloroxPro, where clean means everything."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GLAD DRAWSTRING TRASH BAGS: Tackle your demanding business needs with versatile, unscented Glad ForceFlex Tall Drawstring Trash Bags, designed with stretchable strength; packaging may vary",
+                  "RIPGUARD PROTECTION: Designed with double side seams and a reinforced bottom to trap liquids and prevent leaks, these trash bags are strong enough to handle the heaviest load",
+                  "FORCEFLEX TECHNOLOGY: The patented dual layer protection is designed to give extra flex as it expands around sharp edges and heavy loads while resisting punctures, rips and tears",
+                  "2 LAYERS EXTRA LEAK PROTECTION: These stretchable garbage bags are equipped with two layers so you never have to think twice about messy trash leaks",
+                  "GREAT FOR COMMERCIAL USE: Ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities; CloroxPro, where clean means everything",
+                  "GRIPS-THE-CAN DRAWSTRING: The durable 3-ply drawstring design grips the can so the garbage bag stays in place, and makes it easy to close and easy to carry out the trash, with no fear of leaks or tears",
+                  "GREAT FOR COMMERCIAL USE: These Tall Kitchen Trash Bags from Glad\u00ae are ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities"
+                ],
+                "headliner": [
+                  "Glad ForceFlex Tall Drawstring Trash bags are designed with stretchable strength to handle the heaviest loads without leaks, rips or tears."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b>  Lift the trash bag from the container by pulling the drawstrings on either side of the bag. Knot the drawstrings for added security. Carry the bag by the drawstring and toss into garbage.<br><br><b>Ingredients:</b>  Not applicable.<br><br><b>Caution Statement:</b>  Plastic bags can be dangerous. To avoid danger of suffocation, keep all plastic bags away from babies and children. DO NOT USE FOR FOOD STORAGE."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 5.16,
+              "trashBagHighlights": [
+                {
+                  "attribute": "Capacity",
+                  "specValue": "13 Gallons",
+                  "specName": "Capacity",
+                  "iconName": "capacity",
+                  "specificationName": [
+                    "Max Trash Bag Capacity (Gallons)"
+                  ]
+                },
+                {
+                  "attribute": "Material",
+                  "specValue": "Low Density",
+                  "specName": "Material",
+                  "iconName": "material",
+                  "specificationName": [
+                    "Density"
+                  ]
+                },
+                {
+                  "attribute": "Strength",
+                  "specValue": "Standard .72mil",
+                  "specName": "Strength",
+                  "iconName": "weight-alt",
+                  "specificationName": [
+                    "Trash Bag Strength",
+                    "Trash Bag Thickness (mil or mic)"
+                  ]
+                },
+                {
+                  "attribute": "Pack Qty",
+                  "specValue": "100",
+                  "specName": "Pack Qty",
+                  "iconName": "pack-quantity",
+                  "specificationName": [
+                    "Pack Qty"
+                  ]
+                },
+                {
+                  "attribute": "Size",
+                  "specValue": "8.5\" x 8.5\"",
+                  "specName": "Size",
+                  "iconName": "size",
+                  "specificationName": [
+                    "Width in Inches",
+                    "Height in Inches"
+                  ]
+                },
+                {
+                  "attribute": "Closure",
+                  "specValue": "Drawstring",
+                  "specName": "Closure",
+                  "iconName": "closure",
+                  "specificationName": [
+                    "Trash Bag Closure"
+                  ]
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$19.39",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "GLAD DS TRASH BAGS",
+              "skuNumber": "482898",
+              "unitPrice": 21.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 2.68,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.1776
+                }
+              ],
+              "couponTotal": 19.31,
+              "couponDetails": [
+                {
+                  "chargeNo": "214092",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #37593",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 2,
+                  "chargePerUnit": 2
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 17.31,
+                  "chargePerUnit": 17.31
+                }
+              ],
+              "regularCouponsTotal": 19.31,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 21.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC3",
+              "itemId": "24572587",
+              "compareItemID": "24572587",
+              "url": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2044698B-B7A9-489A-A698C3C349330579_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/66776A80-5016-4D4D-821D13A71CC890FF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/74DF563D-7213-450C-A1355201A29F23D9_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~93D568F3-9C8A-4950-B36EFB13093336B8_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~73A23B85-918C-450E-A2F5325798EA6780_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~2044698B-B7A9-489A-A698C3C349330579_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~66776A80-5016-4D4D-821D13A71CC890FF_sc7",
+                "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~74DF563D-7213-450C-A1355201A29F23D9_sc7"
+              ],
+              "title": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+              "model": "JUCX25L18",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24572587"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "JUCX25L18"
+                }
+              ],
+              "manufacturerName": "j5create",
+              "brandName": "j5create",
+              "baseCatName": "Computer Accessories & Peripherals",
+              "baseCatId": "CL140452",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1426",
+                  "name": "Cables & Cable Accessories"
+                },
+                "category": {
+                  "id": "CG3403",
+                  "name": "Computer Accessories & Peripherals"
+                },
+                "supercategory": {
+                  "id": "SC3",
+                  "name": "Computers & Accessories"
+                },
+                "class": {
+                  "id": "CL140452",
+                  "name": "Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140452",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.63,
+              "ratingCount": 8,
+              "ratingUrl": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$14.99",
+              "priceValue": 14.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The j5create USB Type-C 100W synchronization and charging cable is a high-speed cable that is great for charging USB Type-C devices. The cable features a reversible USB Type-C connector on each side. The power cable supports Power Delivery and data transfer between smartphones, tablets, and laptops. It supports speeds up to 480Mbps and an output of 5A. With a double-braided polyester cover, the exterior is abrasion-resistant, reducing fraying and increasing the life span."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-speed cable great for charging USB Type-C devices",
+                  "Cable length is 5.9'",
+                  "Contains two USB Type-C male connectors",
+                  "USB Type-C connector is protected by a metal casing and dual-layer molding to prevent damage from bending and twisting; cable jacket is made of PVC with plastic enclosure",
+                  "Delivers transfer speeds up to 480Mbps",
+                  "Supports up to 20V/5A 100W charging for all USB Type-C devices, including phones, tablets, and laptops",
+                  "Supports Power Delivery and Qualcomm quick charge",
+                  "Built-in E-marker chip ensures safe and stable 100W fast charging",
+                  "This cable is not intended for displays",
+                  "Shield-braid and metalized mylar shielding protects the cable from external electromagnetic interference",
+                  "Comes in black with orange accents",
+                  "1-year manufacturer limited warranty",
+                  "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "J5 USBC 100W SYNC",
+              "skuNumber": "24572587",
+              "unitPrice": 14.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 2.02,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.1338
+                }
+              ],
+              "couponTotal": 12.97,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.97,
+                  "chargePerUnit": 12.97
+                }
+              ],
+              "regularCouponsTotal": 12.97,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 14.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "POKEMON CARDS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24590914?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "POKEMON CARDS",
+              "skuNumber": "24590914",
+              "unitPrice": 5.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.81,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0537
+                }
+              ],
+              "couponTotal": 5.18,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 5.18,
+                  "chargePerUnit": 5.18
+                }
+              ],
+              "regularCouponsTotal": 5.18,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5829",
+              "itemId": "24580006",
+              "compareItemID": "24580006",
+              "url": "/bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/10E1285D-D93E-4387-8B4B1149AB817141_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1B73708B-2A0C-4328-8095F7F805DFE3D5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5DC0EEEF-BC63-4E1D-989439CE0DDCD7D6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9F676B64-E6A6-48BE-92B6A3B224130B2B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F7CD504-7AAA-42DC-B604C2203B22F034_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/34B74807-3AF8-47CA-85DE694BE30D97BC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3F35383-FD80-4135-910B8D7748A9A11E_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~243046E9-6CD1-4842-963C0EE5BA000E52_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~10E1285D-D93E-4387-8B4B1149AB817141_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~1B73708B-2A0C-4328-8095F7F805DFE3D5_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~5DC0EEEF-BC63-4E1D-989439CE0DDCD7D6_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~9F676B64-E6A6-48BE-92B6A3B224130B2B_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~7F7CD504-7AAA-42DC-B604C2203B22F034_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~34B74807-3AF8-47CA-85DE694BE30D97BC_sc7",
+                "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~F3F35383-FD80-4135-910B8D7748A9A11E_sc7"
+              ],
+              "title": "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)",
+              "model": "882826-0010",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24580006"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "882826-0010"
+                }
+              ],
+              "manufacturerName": "Bose",
+              "brandName": "Bose",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.35,
+              "ratingCount": 3586,
+              "ratingUrl": "/bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 180,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 168,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 313,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 490,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 2435,
+                  "reviewPercent": 68
+                }
+              ],
+              "price": "$299.00",
+              "priceValue": 299,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Feel your music more. With the Bose QuietComfort Ultra True Wireless Noise Cancelling Headphones, you get breakthrough spatial audio for more natural-sounding music, no matter the source."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Quiet and Aware Modes",
+                  "Dynamic Mic Mixing for Clear Calls",
+                  "Bluetooth 5.3 Connectivity, Up to 30'",
+                  "Supports SimpleSync and Bose Music App",
+                  "Immersive, Spatial Audio Mode",
+                  "Passive and Active Noise Cancellation",
+                  "IPX4-Rated Water and Sweat Resistance",
+                  "<a href=\"http://sds.staples.com/msds/24580006.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ],
+                "headliner": [
+                  "Bose QuietComfort Ultra True Wireless Noise Cancelling In-Ear Earbuds"
+                ],
+                "expandedDescr": [
+                  "Feel your music more. With the Bose QuietComfort Ultra True Wireless Noise Cancelling Headphones, you get breakthrough spatial audio for more natural-sounding music, no matter the source. These wireless earbuds use immersive sound to bring the music from inside your head \u2013 right in front of you. And for the noises you don\u2019t want to hear, the QC Ultra Earbuds offer world-class noise cancelation. The CustomTune technology analyzes your ear\u2019s shape and adapts the sound and noise cancelling to it. The innovation doesn\u2019t just stop at the premium sound, the design of these in-ear headphones is a one-of-a-kind experience too. You get nine combinations of eartip and stability band sizes to choose from. And up to six hours of play time (up to 4 hours with Immersive Audio)* keeps your favorite music playing as long as you want. The included case holds up to three additional charges. Connect to your devices with advanced Bluetooth 5.3 and keep track of what you have paired in the Bose Music app. It also walks you through setup, lets you customize a shortcut, and access Adjustable EQ settings."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BOSE QC ULTRA EARB",
+              "skuNumber": "24580006",
+              "unitPrice": 267.65,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 33.47,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.2174
+                }
+              ],
+              "couponTotal": 234.18,
+              "couponDetails": [
+                {
+                  "chargeNo": "215677",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #66440",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 18.65,
+                  "chargePerUnit": 18.65
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 215.53,
+                  "chargePerUnit": 215.53
+                }
+              ],
+              "regularCouponsTotal": 234.18,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 267.65,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.542.20250402.4.90457",
+        "masterOrderNumber": "POS.522.20250329.2.1645",
+        "returnedDate": "2025-04-02T19:21:35",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 289.64,
+            "couponTotal": 253.49,
+            "regularCouponsTotal": 253.49,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 2.395,
+            "grandTotal": 38.545,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC5829",
+                  "itemId": "24580006",
+                  "compareItemID": "24580006",
+                  "url": "/bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/243046E9-6CD1-4842-963C0EE5BA000E52_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/10E1285D-D93E-4387-8B4B1149AB817141_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/1B73708B-2A0C-4328-8095F7F805DFE3D5_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/5DC0EEEF-BC63-4E1D-989439CE0DDCD7D6_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/9F676B64-E6A6-48BE-92B6A3B224130B2B_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7F7CD504-7AAA-42DC-B604C2203B22F034_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/34B74807-3AF8-47CA-85DE694BE30D97BC_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3F35383-FD80-4135-910B8D7748A9A11E_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~243046E9-6CD1-4842-963C0EE5BA000E52_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~10E1285D-D93E-4387-8B4B1149AB817141_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~1B73708B-2A0C-4328-8095F7F805DFE3D5_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~5DC0EEEF-BC63-4E1D-989439CE0DDCD7D6_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~9F676B64-E6A6-48BE-92B6A3B224130B2B_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~7F7CD504-7AAA-42DC-B604C2203B22F034_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~34B74807-3AF8-47CA-85DE694BE30D97BC_sc7",
+                    "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)~#|#~F3F35383-FD80-4135-910B8D7748A9A11E_sc7"
+                  ],
+                  "title": "Bose QuietComfort Wireless Noise Canceling Earbuds, Black (882826-0010)",
+                  "model": "882826-0010",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24580006"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "882826-0010"
+                    }
+                  ],
+                  "manufacturerName": "Bose",
+                  "brandName": "Bose",
+                  "baseCatName": "Headphones",
+                  "baseCatId": "CL210844",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10113",
+                      "name": "Headphones"
+                    },
+                    "category": {
+                      "id": "CG3625",
+                      "name": "Headphones"
+                    },
+                    "supercategory": {
+                      "id": "SC5829",
+                      "name": "Audio"
+                    },
+                    "class": {
+                      "id": "CL210844",
+                      "name": "Headphones"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL210844",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.35,
+                  "ratingCount": 3586,
+                  "ratingUrl": "/bose-quietcomfort-wireless-noise-canceling-earbuds-black-882826-0010/product_24580006?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 180,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 168,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 313,
+                      "reviewPercent": 9
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 490,
+                      "reviewPercent": 14
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 2435,
+                      "reviewPercent": 68
+                    }
+                  ],
+                  "price": "$299.00",
+                  "priceValue": 299,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "BOPIS",
+                    "text": "Pick up in 30 minutes"
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Feel your music more. With the Bose QuietComfort Ultra True Wireless Noise Cancelling Headphones, you get breakthrough spatial audio for more natural-sounding music, no matter the source."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Quiet and Aware Modes",
+                      "Dynamic Mic Mixing for Clear Calls",
+                      "Bluetooth 5.3 Connectivity, Up to 30'",
+                      "Supports SimpleSync and Bose Music App",
+                      "Immersive, Spatial Audio Mode",
+                      "Passive and Active Noise Cancellation",
+                      "IPX4-Rated Water and Sweat Resistance",
+                      "<a href=\"http://sds.staples.com/msds/24580006.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                    ],
+                    "headliner": [
+                      "Bose QuietComfort Ultra True Wireless Noise Cancelling In-Ear Earbuds"
+                    ],
+                    "expandedDescr": [
+                      "Feel your music more. With the Bose QuietComfort Ultra True Wireless Noise Cancelling Headphones, you get breakthrough spatial audio for more natural-sounding music, no matter the source. These wireless earbuds use immersive sound to bring the music from inside your head \u2013 right in front of you. And for the noises you don\u2019t want to hear, the QC Ultra Earbuds offer world-class noise cancelation. The CustomTune technology analyzes your ear\u2019s shape and adapts the sound and noise cancelling to it. The innovation doesn\u2019t just stop at the premium sound, the design of these in-ear headphones is a one-of-a-kind experience too. You get nine combinations of eartip and stability band sizes to choose from. And up to six hours of play time (up to 4 hours with Immersive Audio)* keeps your favorite music playing as long as you want. The included case holds up to three additional charges. Connect to your devices with advanced Bluetooth 5.3 and keep track of what you have paired in the Bose Music app. It also walks you through setup, lets you customize a shortcut, and access Adjustable EQ settings."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/D05F612A-F7E5-484A-A3CDE1E063C2AAEA_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "BOSE QC ULTRA EARBUDS BLACK",
+                  "skuNumber": "24580006",
+                  "unitPrice": 267.65,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 35.6874,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 2.2174,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 2.2174
+                    }
+                  ],
+                  "couponTotal": 234.18,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 215.53
+                    },
+                    {
+                      "chargeNo": "215677",
+                      "chargeName": "Instant Savings #",
+                      "chargeAmount": 18.65
+                    }
+                  ],
+                  "regularCouponsTotal": 234.18,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 267.65,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1683",
+                  "itemId": "482898",
+                  "compareItemID": "482898",
+                  "url": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/EF671402-80CD-4293-860B193A8D2779A5_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C245B1BF-731C-4665-A97F5636842E00E4_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~F1F654A8-6A7A-4291-8399F324B381406E_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~EF671402-80CD-4293-860B193A8D2779A5_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~C245B1BF-731C-4665-A97F5636842E00E4_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7",
+                    "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7"
+                  ],
+                  "title": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+                  "model": "CLO 78526",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "482898"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "CLO 78526"
+                    }
+                  ],
+                  "manufacturerName": "Glad",
+                  "brandName": "Glad",
+                  "baseCatName": "Waste & Recycling",
+                  "baseCatId": "CL141923",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8181",
+                      "name": "Waste & Recycling"
+                    },
+                    "category": {
+                      "id": "CG2827",
+                      "name": "Waste & Recycling"
+                    },
+                    "supercategory": {
+                      "id": "SC1683",
+                      "name": "Cleaning Supplies"
+                    },
+                    "class": {
+                      "id": "CL141923",
+                      "name": "Trash Bags"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL141923",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "savings": [
+                    {
+                      "valueText": "$1.00",
+                      "description": "Member Savings",
+                      "type": "MEMBER_SAVINGS"
+                    }
+                  ],
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "100/Box",
+                  "rating": 4.7,
+                  "ratingCount": 1604,
+                  "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 33,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 16,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 38,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 219,
+                      "reviewPercent": 14
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 1298,
+                      "reviewPercent": 81
+                    }
+                  ],
+                  "price": "$18.39",
+                  "priceValue": 18.39,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "$0.18/bag",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": true,
+                  "autoRestockPrice": "$17.47",
+                  "itemAvailability": {
+                    "inventoryMode": "STANDARD",
+                    "availableQuantity": 1877,
+                    "minLeadTime": 2,
+                    "maxLeadTime": 2,
+                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                  },
+                  "savingsPercentageOverSTAPrice": 5,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Glad ForceFlex Tall Drawstring Trash Bags are designed with stretchable strength to handle the heaviest loads without tearing. The ForceFlex technology delivers extra toughness as it flexes and expands around sharp edges and heavy loads without ripping. Featuring two layers of extra leak protection and RipGuard technology, these trash bags guard against punctures and tears, and trap liquids in the bag so you can put your most demanding trash up for the challenge. Let the stretchable strength of Glad handle the toughest messes your business encounters and then some. The Grips The Can Drawstring ensures that the bag stays in place, until you are ready to take it out. Ideal for offices, daycares, schools, hotels, restaurants and more. CloroxPro, where clean means everything."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "GLAD DRAWSTRING TRASH BAGS: Tackle your demanding business needs with versatile, unscented Glad ForceFlex Tall Drawstring Trash Bags, designed with stretchable strength; packaging may vary",
+                      "RIPGUARD PROTECTION: Designed with double side seams and a reinforced bottom to trap liquids and prevent leaks, these trash bags are strong enough to handle the heaviest load",
+                      "FORCEFLEX TECHNOLOGY: The patented dual layer protection is designed to give extra flex as it expands around sharp edges and heavy loads while resisting punctures, rips and tears",
+                      "2 LAYERS EXTRA LEAK PROTECTION: These stretchable garbage bags are equipped with two layers so you never have to think twice about messy trash leaks",
+                      "GREAT FOR COMMERCIAL USE: Ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities; CloroxPro, where clean means everything",
+                      "GRIPS-THE-CAN DRAWSTRING: The durable 3-ply drawstring design grips the can so the garbage bag stays in place, and makes it easy to close and easy to carry out the trash, with no fear of leaks or tears",
+                      "GREAT FOR COMMERCIAL USE: These Tall Kitchen Trash Bags from Glad\u00ae are ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities"
+                    ],
+                    "headliner": [
+                      "Glad ForceFlex Tall Drawstring Trash bags are designed with stretchable strength to handle the heaviest loads without leaks, rips or tears."
+                    ],
+                    "expandedDescr": [
+                      "<b>Usage Directions:</b>  Lift the trash bag from the container by pulling the drawstrings on either side of the bag. Knot the drawstrings for added security. Carry the bag by the drawstring and toss into garbage.<br><br><b>Ingredients:</b>  Not applicable.<br><br><b>Caution Statement:</b>  Plastic bags can be dangerous. To avoid danger of suffocation, keep all plastic bags away from babies and children. DO NOT USE FOR FOOD STORAGE."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 5.16,
+                  "trashBagHighlights": [
+                    {
+                      "attribute": "Capacity",
+                      "specValue": "13 Gallons",
+                      "specName": "Capacity",
+                      "iconName": "capacity",
+                      "specificationName": [
+                        "Max Trash Bag Capacity (Gallons)"
+                      ]
+                    },
+                    {
+                      "attribute": "Material",
+                      "specValue": "Low Density",
+                      "specName": "Material",
+                      "iconName": "material",
+                      "specificationName": [
+                        "Density"
+                      ]
+                    },
+                    {
+                      "attribute": "Strength",
+                      "specValue": "Standard .72mil",
+                      "specName": "Strength",
+                      "iconName": "weight-alt",
+                      "specificationName": [
+                        "Trash Bag Strength",
+                        "Trash Bag Thickness (mil or mic)"
+                      ]
+                    },
+                    {
+                      "attribute": "Pack Qty",
+                      "specValue": "100",
+                      "specName": "Pack Qty",
+                      "iconName": "pack-quantity",
+                      "specificationName": [
+                        "Pack Qty"
+                      ]
+                    },
+                    {
+                      "attribute": "Size",
+                      "specValue": "8.5\" x 8.5\"",
+                      "specName": "Size",
+                      "iconName": "size",
+                      "specificationName": [
+                        "Width in Inches",
+                        "Height in Inches"
+                      ]
+                    },
+                    {
+                      "attribute": "Closure",
+                      "specValue": "Drawstring",
+                      "specName": "Closure",
+                      "iconName": "closure",
+                      "specificationName": [
+                        "Trash Bag Closure"
+                      ]
+                    }
+                  ],
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$std$",
+                  "isRPDC": true,
+                  "originalPrice": "$19.39",
+                  "originalPriceLabel": "Regular price",
+                  "skuDescription": "GLAD DS TRASH BAGS 13GAL 100CT",
+                  "skuNumber": "482898",
+                  "unitPrice": 21.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 2.8576,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.1776,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.1776
+                    }
+                  ],
+                  "couponTotal": 19.31,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 17.31
+                    },
+                    {
+                      "chargeNo": "214092",
+                      "chargeName": "Instant Savings #",
+                      "chargeAmount": 2
+                    }
+                  ],
+                  "regularCouponsTotal": 19.31,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 21.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 2
+          }
+        ],
+        "orderUrlKey": "U3RNREUzenU3YmkrRGVJeEFKbU9TSkMwZFQ5UGpLcEMrQ3JuUDVVN2dGQTRVRGNOcU9WUkFOSWVZVW5Pd2JHVTFjK3RWWjFzTUhaMmNBbFBid2JRbjdRYWM9"
+      },
+      {
+        "returnOrderNumber": "POS.542.20250406.2.41370",
+        "masterOrderNumber": "POS.522.20250329.2.1645",
+        "returnedDate": "2025-04-06T12:29:57",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 29.98,
+            "couponTotal": 25.95,
+            "regularCouponsTotal": 25.95,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.267,
+            "grandTotal": 4.297,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC3",
+                  "itemId": "24572587",
+                  "compareItemID": "24572587",
+                  "url": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/2044698B-B7A9-489A-A698C3C349330579_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/66776A80-5016-4D4D-821D13A71CC890FF_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/74DF563D-7213-450C-A1355201A29F23D9_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~93D568F3-9C8A-4950-B36EFB13093336B8_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~73A23B85-918C-450E-A2F5325798EA6780_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~2044698B-B7A9-489A-A698C3C349330579_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~66776A80-5016-4D4D-821D13A71CC890FF_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~74DF563D-7213-450C-A1355201A29F23D9_sc7"
+                  ],
+                  "title": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+                  "model": "JUCX25L18",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24572587"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "JUCX25L18"
+                    }
+                  ],
+                  "manufacturerName": "j5create",
+                  "brandName": "j5create",
+                  "baseCatName": "Computer Accessories & Peripherals",
+                  "baseCatId": "CL140452",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP1426",
+                      "name": "Cables & Cable Accessories"
+                    },
+                    "category": {
+                      "id": "CG3403",
+                      "name": "Computer Accessories & Peripherals"
+                    },
+                    "supercategory": {
+                      "id": "SC3",
+                      "name": "Computers & Accessories"
+                    },
+                    "class": {
+                      "id": "CL140452",
+                      "name": "Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL140452",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.63,
+                  "ratingCount": 8,
+                  "ratingUrl": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 13
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 1,
+                      "reviewPercent": 13
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$14.99",
+                  "priceValue": 14.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "The j5create USB Type-C 100W synchronization and charging cable is a high-speed cable that is great for charging USB Type-C devices. The cable features a reversible USB Type-C connector on each side. The power cable supports Power Delivery and data transfer between smartphones, tablets, and laptops. It supports speeds up to 480Mbps and an output of 5A. With a double-braided polyester cover, the exterior is abrasion-resistant, reducing fraying and increasing the life span."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "High-speed cable great for charging USB Type-C devices",
+                      "Cable length is 5.9'",
+                      "Contains two USB Type-C male connectors",
+                      "USB Type-C connector is protected by a metal casing and dual-layer molding to prevent damage from bending and twisting; cable jacket is made of PVC with plastic enclosure",
+                      "Delivers transfer speeds up to 480Mbps",
+                      "Supports up to 20V/5A 100W charging for all USB Type-C devices, including phones, tablets, and laptops",
+                      "Supports Power Delivery and Qualcomm quick charge",
+                      "Built-in E-marker chip ensures safe and stable 100W fast charging",
+                      "This cable is not intended for displays",
+                      "Shield-braid and metalized mylar shielding protects the cable from external electromagnetic interference",
+                      "Comes in black with orange accents",
+                      "1-year manufacturer limited warranty",
+                      "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "J5 USBC 100W SYNC & CHRG CBLE",
+                  "skuNumber": "24572587",
+                  "unitPrice": 14.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 2.1432,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.1332,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.1332
+                    }
+                  ],
+                  "couponTotal": 12.98,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 12.98
+                    }
+                  ],
+                  "regularCouponsTotal": 12.98,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 14.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC3",
+                  "itemId": "24572587",
+                  "compareItemID": "24572587",
+                  "url": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/93D568F3-9C8A-4950-B36EFB13093336B8_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/2044698B-B7A9-489A-A698C3C349330579_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/66776A80-5016-4D4D-821D13A71CC890FF_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/74DF563D-7213-450C-A1355201A29F23D9_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~93D568F3-9C8A-4950-B36EFB13093336B8_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~73A23B85-918C-450E-A2F5325798EA6780_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~51B5498C-D47F-4F9E-A12F2D9BA7799848_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~576471FC-9A4B-42EA-B4D0771C7731B2C1_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~2044698B-B7A9-489A-A698C3C349330579_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~17026AE1-3B29-4909-BBE9B863A9DDFD3A_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~66776A80-5016-4D4D-821D13A71CC890FF_sc7",
+                    "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)~#|#~74DF563D-7213-450C-A1355201A29F23D9_sc7"
+                  ],
+                  "title": "j5create 5.9' USB C to USB C Power Cable, Male to Male, Black (JUCX25L18)",
+                  "model": "JUCX25L18",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24572587"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "JUCX25L18"
+                    }
+                  ],
+                  "manufacturerName": "j5create",
+                  "brandName": "j5create",
+                  "baseCatName": "Computer Accessories & Peripherals",
+                  "baseCatId": "CL140452",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP1426",
+                      "name": "Cables & Cable Accessories"
+                    },
+                    "category": {
+                      "id": "CG3403",
+                      "name": "Computer Accessories & Peripherals"
+                    },
+                    "supercategory": {
+                      "id": "SC3",
+                      "name": "Computers & Accessories"
+                    },
+                    "class": {
+                      "id": "CL140452",
+                      "name": "Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL140452",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.63,
+                  "ratingCount": 8,
+                  "ratingUrl": "/j5create-5-9-usb-type-c-to-usb-type-c-power-cable-male-to-male-black-jucx25l18/product_24572587?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 13
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 1,
+                      "reviewPercent": 13
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$14.99",
+                  "priceValue": 14.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "The j5create USB Type-C 100W synchronization and charging cable is a high-speed cable that is great for charging USB Type-C devices. The cable features a reversible USB Type-C connector on each side. The power cable supports Power Delivery and data transfer between smartphones, tablets, and laptops. It supports speeds up to 480Mbps and an output of 5A. With a double-braided polyester cover, the exterior is abrasion-resistant, reducing fraying and increasing the life span."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "High-speed cable great for charging USB Type-C devices",
+                      "Cable length is 5.9'",
+                      "Contains two USB Type-C male connectors",
+                      "USB Type-C connector is protected by a metal casing and dual-layer molding to prevent damage from bending and twisting; cable jacket is made of PVC with plastic enclosure",
+                      "Delivers transfer speeds up to 480Mbps",
+                      "Supports up to 20V/5A 100W charging for all USB Type-C devices, including phones, tablets, and laptops",
+                      "Supports Power Delivery and Qualcomm quick charge",
+                      "Built-in E-marker chip ensures safe and stable 100W fast charging",
+                      "This cable is not intended for displays",
+                      "Shield-braid and metalized mylar shielding protects the cable from external electromagnetic interference",
+                      "Comes in black with orange accents",
+                      "1-year manufacturer limited warranty",
+                      "&#9888; <strong>WARNING:</strong> Cancer and Reproductive Harm - www.P65Warnings.ca.gov"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/73A23B85-918C-450E-A2F5325798EA6780_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "J5 USBC 100W SYNC & CHRG CBLE",
+                  "skuNumber": "24572587",
+                  "unitPrice": 14.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 2.1538,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.1338,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.1338
+                    }
+                  ],
+                  "couponTotal": 12.97,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 12.97
+                    }
+                  ],
+                  "regularCouponsTotal": 12.97,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 14.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 2
+          }
+        ],
+        "orderUrlKey": "U3RNREcvWnN5VjVjSkNJSTZudHZnSlR6WGZJR2J1ZWJiS1cxOHIwTzdMUENqdHlzdWpaNmlwVHR3bTJjb0pwUTVLYUdyRGdlWHpDVE1lb294U3Z5eVE1YWs9"
+      }
+    ],
+    "productsOnOrder": [
+      "24580006",
+      "482898",
+      "265574",
+      "24572587",
+      "24590914"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-04-02T19:21:35",
+            "quantity": 2
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-04-06T12:29:57",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4114114GC4AYTDE"
+  }
+}

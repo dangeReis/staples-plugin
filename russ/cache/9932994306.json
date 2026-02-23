@@ -1,0 +1,70 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9932994306",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-10-05T10:51:31",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREVWOEt1RitHWEt3UFFtQmJtbXdWNjFiQldTMXllNW9mNUVaYWE0Ukg1MWxBTUY0aUdhTm1oekVrcEVUQUVmUVBjUA==",
+  "salesTranID": "25588533620",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "650",
+  "statusDesc": "Partially Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 267.62,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "254639389715",
+      "lineType": "STA",
+      "productSku": "24612532",
+      "productName": "Samsonite Proxis 32\" Hardside Suitcase, 8-Wheeled Spinner, Black (141848-1041)",
+      "productDepartment": "7",
+      "productClass": "545",
+      "productSubClass": "71",
+      "vendorModel": "141848-1041",
+      "productUOM": "EACH",
+      "unitPrice": 649.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 267.62,
+      "invoicedTotal": 267.62,
+      "statuses": [
+        {
+          "statusCode": "500",
+          "statusDesc": "Shipped",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Samsonite Proxis 32\" Hardside Suitcase, 8-Wheeled Spinner, Black (141848-1041)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/63F05862-BB9B-4729-80E58C3E098C40FD_sc7?$thb$",
+      "productURL": "samsonite-hardside-suitcase-8-wheeled-spinner-black-141848-1041/product_24612532",
+      "model": "141848-1041",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24612532",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 50250,
+  "pointsRedeemed": 28000,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

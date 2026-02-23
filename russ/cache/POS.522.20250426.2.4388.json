@@ -1,0 +1,334 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250426.2.4388",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-26T16:55:00",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhzNnRvZnp1S3RTZCtzOTYvKzVNMjFabzNpeExlRS93THpRQkdCR2RTV3UyaE11RW1aM2MyZmI2ZzdVNTNNekgyM2V4RFM1NkV3THZONnVHVmFUdz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.43,
+  "orderLines": [
+    {
+      "productSku": "304155",
+      "productName": "HEAVY DUTY 20X20X2",
+      "productShortDesc": "HEAVY DUTY 20X20X2",
+      "productLongDesc": "HEAVY DUTY 20X20X2",
+      "unitPrice": 11,
+      "orderQty": 8,
+      "originalOrderedQty": 8,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "24\" x 20\" x 20\" Heavy Duty Shipping Boxes (ST55958)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0444168_sc7?$thb$",
+      "productURL": "staples-20-x-20-x-24-44-ect-heavy-duty-box-each/product_304155",
+      "model": "ST55958",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "304155",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:30.181835324",
+      "resourceName": "OrderDetails",
+      "transactionId": "1445f24ee8c34a9ebf6716261e5bc1a4",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250426.2.4388",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250426.2.4388",
+    "orderDate": "2025-04-26T16:55:00",
+    "keyForOrderDetails": "U3RNREdDamFwSXdyeWF4TTMvZWlOVTZjUEJNaEE5WXR4elh1OUVUTUliRnhYTU5zaWtONnJUL0ZSUXRHTmRaYVgxSnhBQVBESTFBSmd4SGRpUXVWL0JLUT09",
+    "orderUrlKey": "U3RNREdDamFwSXdyeWF4TTMvZWlOVTZjUEJNaEE5WXR4elh1OUVUTUliRnhYTU5zaWtONnJUL0ZSUXRHTmRaYVgxSnhBQVBESTFBSmd4SGRpUXVWL0JLUT09",
+    "customerNumberKey": "U3RNREZUdWxZUTVYbFFSY214b3d2UmNOQVM3Q2htV3VraVVCeUkyT2hNa0tGZXVFSzJNcG1mSVE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 88,
+    "discountsTotal": 87.6,
+    "couponsTotal": 71.6,
+    "pointsRedeemedValue": 16,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.03,
+    "grandTotal": 0.43,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "304155",
+              "compareItemID": "304155",
+              "url": "/staples-20-x-20-x-24-44-ect-heavy-duty-box-each/product_304155",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0444168_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0444168_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "24\" x 20\" x 20\" Heavy Duty Shipping Boxes (ST55958)~#|#~s0444168_sc7"
+              ],
+              "title": "24\" x 20\" x 20\" Heavy Duty Shipping Boxes (ST55958)",
+              "model": "ST55958",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "304155"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55958"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.48,
+              "ratingCount": 175,
+              "ratingUrl": "/staples-20-x-20-x-24-44-ect-heavy-duty-box-each/product_304155?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 12,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 7,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 6,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 10,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 140,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$11.00",
+              "priceValue": 11,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Shipping boxes help ensure items are protected during shipping"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Comes flat, easy to store",
+                  "Contains 100% recycled content",
+                  "Overall dimensions: 20\"L x 20\"W x 24\"H"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "HEAVY DUTY 20X20X2",
+              "skuNumber": "304155",
+              "unitPrice": 11,
+              "qtyOrdered": 8,
+              "qtyShipped": 8,
+              "isReshipped": false,
+              "lineTotal": 0.4,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0264
+                }
+              ],
+              "couponTotal": 87.6,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your in-store purchase.",
+                  "chargeDesc": "$10 off your in-store purchase.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 1.25
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 16,
+                  "chargePerUnit": 2
+                },
+                {
+                  "chargeNo": "216339",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 44,
+                  "chargePerUnit": 5.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeDesc": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeAmount": 17.6,
+                  "chargePerUnit": 2.2
+                }
+              ],
+              "regularCouponsTotal": 87.6,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 88,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 8
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "304155"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411411AHQ4AYWFY"
+  }
+}

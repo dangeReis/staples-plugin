@@ -1,0 +1,1009 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20241222.2.86250",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-12-22T11:50:32",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREc3WW1sSkJpVUM5b3lMMmxkZHdMU1kxeDhsOVc2Qm9TeEoyYmZmamVQUVV3MytrTmQ0U0xZeGF1MDFvQWMwUzlsaWlqZDdhTjBXY0hmYWJHb29PeHM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 49.91,
+  "orderLines": [
+    {
+      "productSku": "2711216",
+      "productName": "DURACELL 2450 3 VO",
+      "productShortDesc": "DURACELL 2450 3 VO",
+      "productLongDesc": "DURACELL 2450 3 VO",
+      "unitPrice": 4.99,
+      "orderQty": 3,
+      "originalOrderedQty": 3,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell 2450 Lithium Battery (DL2450BPK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$thb$",
+      "productURL": "duracell-2450-lithium-coin-cell-battery/product_2711216",
+      "model": "DL2450BPK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2711216",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "220061",
+      "productName": "BATTERY ELECTRNC D",
+      "productShortDesc": "BATTERY ELECTRNC D",
+      "productLongDesc": "BATTERY ELECTRNC D",
+      "unitPrice": 11.19,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/DF1FF06D-F2F1-4537-A0F49FDBB04AB3ED_sc7?$thb$",
+      "productURL": "duracell-2032-lithium-battery-3v-4-pack-durdl2032b4pk/product_220061",
+      "model": "DL2032B4PK05",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "220061",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "62171",
+      "productName": "Duracell AA NiMH Battery rechargeable 4",
+      "productShortDesc": "Duracell AA NiMH Battery rechargeable 4",
+      "productLongDesc": "Duracell AA NiMH Battery rechargeable 4",
+      "unitPrice": 13.39,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+      "productURL": "duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+      "model": "DX1500B4N001",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "62171",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "62170",
+      "productName": "Duracell AAA NiMH Battery 4Pack DX2400B",
+      "productShortDesc": "Duracell AAA NiMH Battery 4Pack DX2400B",
+      "productLongDesc": "Duracell AAA NiMH Battery 4Pack DX2400B",
+      "unitPrice": 13.39,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/73F6B0B3-00AD-45D2-B46F94C098829229_sc7?$thb$",
+      "productURL": "duracell-aaa-nimh-battery-4-pack-dx2400b4n001/product_62170",
+      "model": "DX2400B4N001",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "62170",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:17.772158891",
+      "resourceName": "OrderDetails",
+      "transactionId": "aab68c9543db40eca72e753201435ea7",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20241222.2.86250",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20241222.2.86250",
+    "orderDate": "2024-12-22T11:50:32",
+    "keyForOrderDetails": "U3RNREZzaG84RWRFOHB6TmczaStWTWpZRHd3a2pnb20vVllPQVdlSE9DRjhxRjY0T3Q2a2h1NzFoaHA3MTNPUjlhaldIbTl5TjJhc3RnWmVEc3JTN2RHUmM9",
+    "orderUrlKey": "U3RNREZzaG84RWRFOHB6TmczaStWTWpZRHd3a2pnb20vVllPQVdlSE9DRjhxRjY0T3Q2a2h1NzFoaHA3MTNPUjlhaldIbTl5TjJhc3RnWmVEc3JTN2RHUmM9",
+    "customerNumberKey": "U3RNREh4bk1SY25VdllTVjBETk1Ld2VOV0plbFowMEJ4RG9pN0JrWUg2Q1NoQWJrbHh3N0k1a0E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 86.51,
+    "discountsTotal": 39.7,
+    "couponsTotal": 39.7,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 3.1,
+    "grandTotal": 49.91,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC350075",
+              "itemId": "220061",
+              "compareItemID": "220061",
+              "url": "/duracell-2032-lithium-battery-3v-4-pack-durdl2032b4pk/product_220061",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/DF1FF06D-F2F1-4537-A0F49FDBB04AB3ED_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/DF1FF06D-F2F1-4537-A0F49FDBB04AB3ED_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BFA30C26-76C4-4FE3-82D628F278C6B489_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2E31DBA8-6E64-4E0D-8AF719FDD5AB3AEC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2EA72B2C-4B43-4994-8A4D694E55B8EE3F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D8189919-D685-4C58-9A6745F2FC500887_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/583C4D57-747A-46D5-A975268821874F4F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/AC721004-5BD3-48A5-9CFA8755BDA0C70C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CBD24BF0-B40D-4374-9F8D899DBEEECD76_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~DF1FF06D-F2F1-4537-A0F49FDBB04AB3ED_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~BFA30C26-76C4-4FE3-82D628F278C6B489_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~2E31DBA8-6E64-4E0D-8AF719FDD5AB3AEC_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~2EA72B2C-4B43-4994-8A4D694E55B8EE3F_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~D8189919-D685-4C58-9A6745F2FC500887_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~583C4D57-747A-46D5-A975268821874F4F_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~AC721004-5BD3-48A5-9CFA8755BDA0C70C_sc7",
+                "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)~#|#~CBD24BF0-B40D-4374-9F8D899DBEEECD76_sc7"
+              ],
+              "title": "Duracell 2032 3V Lithium Coin Battery, 4/Pack (DL2032B4PK05)",
+              "model": "DL2032B4PK05",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "220061"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DL2032B4PK05"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.81,
+              "ratingCount": 2686,
+              "ratingUrl": "/duracell-2032-lithium-battery-3v-4-pack-durdl2032b4pk/product_220061?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 32,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 16,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 56,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 235,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 2347,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$11.19",
+              "priceValue": 11.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$2.80/Battery",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 295,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "These batteries are guaranteed for 10 years in storage, so you can rest assured they will be ready when you need them. Duracell has a tradition of investing in the extensive development of features that can help keep children safe, especially for its Lithium Coin batteries. With its latest innovation the CR2032 3 Volt cells are bitter on both sides! The non-toxic bitter coating on the cell that is designed to help discourage swallowing, is now applied on both sides of the cell. Duracell Lithium Coin CR2032 3 Volt batteries also come in a child-secure packaging which is nearly impossible to open without scissors. From storm prep to holiday needs, Duracell is the # 1 trusted battery brand."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "BITTER TASTE ON BOTH SIDES: Duracell Lithium Coin CR2032 3 Volt batteries have a non-toxic, bitter coating applied on both sides, to help discourage swallowing",
+                  "CHILD-SECURE PACKAGING: Duracell Lithium Coin CR2032 3 Volt battery packaging is nearly impossible to open without scissors",
+                  "LONG-LASTING BATTERIES DESIGNED FOR DEPENDABILITY: Duracell Lithium Coin CR2032 3 Volt batteries deliver the long-lasting power and performance you can count on for devices throughout the home or on-the-go, such as key fobs, remote controls, flameless candles, wireless cameras, thermometers, glucose monitors, toys, more",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell guarantees each Lithium Coin CR2032 3 Volt battery to last 10 years in storage, so you can be confident your batteries will be ready when you need them",
+                  "# 1 TRUSTED BATTERY BRAND: From storm prep to holiday needs, Duracell is the # 1 trusted battery brand",
+                  "QUALITY ASSURANCE: With Duracell batteries, quality is assured as every Duracell product is guaranteed against defects in material and workmanship",
+                  "AVAILABLE SIZES: Duracell Lithium Coin 20mm batteries are available in CR2016, CR2025, and CR2032 sizes",
+                  "<a href=\"http://sds.staples.com/msds/220061.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ],
+                "headliner": [
+                  "Duracell Lithium Coin CR2032 3 Volt batteries provide reliable, long-lasting power for your electronic, security, medical, and other compatible devices"
+                ]
+              },
+              "skusetID": "SS202796021",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/BFA30C26-76C4-4FE3-82D628F278C6B489_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BATTERY ELECTRNC D",
+              "skuNumber": "220061",
+              "unitPrice": 11.19,
+              "qtyOrdered": 4,
+              "qtyShipped": 4,
+              "isReshipped": false,
+              "lineTotal": 18.75,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.242
+                }
+              ],
+              "couponTotal": 26.01,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 7.76,
+                  "chargePerUnit": 1.94
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 4.01,
+                  "chargePerUnit": 1.0025
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $7.63",
+                  "chargeName": "100% Price Guarantee $7.63",
+                  "chargeDesc": "100% Price Guarantee $7.63",
+                  "chargeAmount": 14.24,
+                  "chargePerUnit": 3.56
+                }
+              ],
+              "regularCouponsTotal": 26.01,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 44.76,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC350075",
+              "itemId": "2711216",
+              "compareItemID": "2711216",
+              "url": "/duracell-2450-lithium-coin-cell-battery/product_2711216",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A459BB31-8E35-43A4-8AADFB3CF93D2965_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/90EE7A3F-1EF2-4579-9881A49ECB322463_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D759C52D-5DB3-4946-908BA5D005825CA6_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~3179A547-7095-4FE2-BA71657CAD100551_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~A459BB31-8E35-43A4-8AADFB3CF93D2965_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~90EE7A3F-1EF2-4579-9881A49ECB322463_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~D759C52D-5DB3-4946-908BA5D005825CA6_sc7"
+              ],
+              "title": "Duracell 2450 Lithium Battery (DL2450BPK)",
+              "model": "DL2450BPK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2711216"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DL2450BPK"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.51,
+              "ratingCount": 83,
+              "ratingUrl": "/duracell-2450-lithium-coin-cell-battery/product_2711216?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 5,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 3,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 9,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 64,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 118,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "They have up to a 10-year guarantee in storage so you can be confident these lithium coin batteries will be ready when you need them. To help ensure the safety of your children, they come in a child-resistant package. Duracell Lithium Coin batteries are great for devices like glucometers, calculators and car remotes. And you can be assured that they\u2019re batteries you can trust because Duracell is the #1 trusted battery brand."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "LITHIUM COIN BATTERY: Duracell's 2450 3V Lithium Coin batteries provide reliable, long lasting power for your medical devices, security devices, electronics and more.",
+                  "LONG LASTING POWER: Duracell Lithium Coin batteries are engineered for long lasting performance.",
+                  "CHILD-RESISTANT PACKAGING: To help ensure the safety of your children, Duracell Lithium Coin batteries come in a child-resistant package.",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell Lithium Coin batteries are guaranteed for 10 years in storage.",
+                  "#1 TRUSTED BATTERY BRAND: This Duracell 2450 3 Volt Lithium Coin battery is equivalent to DL2450 and CR2450.",
+                  "Size (mm): 24.5 X 5",
+                  "mAh: 620",
+                  "IEC: CR2450",
+                  "<a href=\"http://sds.staples.com/msds/2711216.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Duracell Lithium Coin batteries provide reliable, long-lasting power for your specialty devices."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "DURACELL 2450 3 VO",
+              "skuNumber": "2711216",
+              "unitPrice": 4.99,
+              "qtyOrdered": 3,
+              "qtyShipped": 3,
+              "isReshipped": false,
+              "lineTotal": 9.81,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.6498
+                }
+              ],
+              "couponTotal": 5.16,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 2.1,
+                  "chargePerUnit": 0.7
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 2.6,
+                  "chargePerUnit": 0.8666666667
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $4.83",
+                  "chargeName": "100% Price Guarantee $4.83",
+                  "chargeDesc": "100% Price Guarantee $4.83",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.1533333333
+                }
+              ],
+              "regularCouponsTotal": 5.16,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 14.97,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC350075",
+              "itemId": "62170",
+              "compareItemID": "62170",
+              "url": "/duracell-aaa-nimh-battery-4-pack-dx2400b4n001/product_62170",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/73F6B0B3-00AD-45D2-B46F94C098829229_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/73F6B0B3-00AD-45D2-B46F94C098829229_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ECFC5501-9B86-416A-ABA0AB6091311654_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/77406819-2AFC-476C-B51030F3CA0D5D16_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/63330913-16C0-4B67-BA456AFB62786A07_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6C704A58-A418-4D42-887BF282F7248900_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C1B3A83F-EA13-441F-A8E66EF4A115CE24_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~73F6B0B3-00AD-45D2-B46F94C098829229_sc7",
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~ECFC5501-9B86-416A-ABA0AB6091311654_sc7",
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~77406819-2AFC-476C-B51030F3CA0D5D16_sc7",
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~63330913-16C0-4B67-BA456AFB62786A07_sc7",
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~6C704A58-A418-4D42-887BF282F7248900_sc7",
+                "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)~#|#~C1B3A83F-EA13-441F-A8E66EF4A115CE24_sc7"
+              ],
+              "title": "Duracell AAA NiMH Battery, 4/Pack (DX2400B4N001)",
+              "model": "DX2400B4N001",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "62170"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DX2400B4N001"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.22,
+              "ratingCount": 727,
+              "ratingUrl": "/duracell-aaa-nimh-battery-4-pack-dx2400b4n001/product_62170?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 71,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 19,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 42,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 140,
+                  "reviewPercent": 19
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 455,
+                  "reviewPercent": 63
+                }
+              ],
+              "price": "$18.99",
+              "priceValue": 18.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$4.75/Battery",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 533,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "With its Ion Core technology you get amazing power in every battery. Plus, they come pre-charged and ready to use. They are guaranteed to last for 10 years* in storage and they will hold a charge for up to 1 year when not in use. These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times. *or up to 400 recharges, whichever comes first."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "DURACELL AAA RECHARGEABLE BATTERIES: The Duracell Rechargeable AAA battery is designed for use in video game controllers, wireless electronics, baby monitors, and more.",
+                  "RECHARGEABLE BATTERIES: These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times, helping save you money.",
+                  "LONG LASTING CHARGE: Designed and developed with Ion Core technology. You can get hundreds of cycles out of each Duracell Rechargeable battery.",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell Rechargeable batteries are guaranteed to perform for up to 10 years in storage* in storage and will hold a charge for up to 1 year when not in use.",
+                  "#1 TRUSTED BATTERY BRAND: Duracell Rechargeable batteries are available in Double A (AA) and Triple A (AAA) sizes."
+                ],
+                "headliner": [
+                  "Duracell Rechargeable Pre-Charged NiMH batteries let you charge hundreds of times, helping you save money."
+                ]
+              },
+              "skusetID": "SS298632093",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/ECFC5501-9B86-416A-ABA0AB6091311654_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "Duracell AAA NiMH Battery 4Pack DX2400B",
+              "skuNumber": "62170",
+              "unitPrice": 13.39,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 9.12,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.6042
+                }
+              ],
+              "couponTotal": 4.27,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 2.32,
+                  "chargePerUnit": 2.32
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.95,
+                  "chargePerUnit": 1.95
+                }
+              ],
+              "regularCouponsTotal": 4.27,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 13.39,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC350075",
+              "itemId": "62171",
+              "compareItemID": "62171",
+              "url": "/duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/70497F82-EAC4-4A05-817324FEC5AE46EB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9D4BCD4B-862B-40AC-AB455D18CDDF9482_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EA33A502-3A00-4F3E-BF4D6BD791693D0C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/76BD84C3-C450-4715-8371C388C8C99250_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1FFE4092-BCE0-45AC-9597A19FAF08D171_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~701D0441-5356-490A-B9BF8BAC156D6E0F_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~70497F82-EAC4-4A05-817324FEC5AE46EB_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~9D4BCD4B-862B-40AC-AB455D18CDDF9482_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~EA33A502-3A00-4F3E-BF4D6BD791693D0C_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~76BD84C3-C450-4715-8371C388C8C99250_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~1FFE4092-BCE0-45AC-9597A19FAF08D171_sc7"
+              ],
+              "title": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+              "model": "DX1500B4N001",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "62171"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DX1500B4N001"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.22,
+              "ratingCount": 727,
+              "ratingUrl": "/duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 71,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 19,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 42,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 140,
+                  "reviewPercent": 19
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 455,
+                  "reviewPercent": 63
+                }
+              ],
+              "price": "$19.29",
+              "priceValue": 19.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$4.82/Battery",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 106,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "With its Ion Core technology you get amazing power in every battery. Plus, they come pre-charged and ready to use. They are guaranteed to last for 10 years* in storage and they will hold a charge for up to 1 year when not in use. These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times. *or up to 400 recharges, whichever comes first."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "DURACELL AA RECHARGEABLE BATTERIES: The Duracell Rechargeable AA battery is designed for use in video game controllers, wireless electronics, baby monitors, and more.",
+                  "RECHARGEABLE BATTERIES: These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times, helping save you money.",
+                  "LONG LASTING CHARGE: Designed and developed with Ion Core technology. You can get hundreds of cycles out of each Duracell Rechargeable battery.",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell Rechargeable batteries are guaranteed to perform for up to 10 years in storage* in storage and will hold a charge for up to 1 year when not in use.",
+                  "#1 TRUSTED BATTERY BRAND: Duracell Rechargeable batteries are available in Double A (AA) and Triple A (AAA) sizes.",
+                  "<a href=\"http://sds.staples.com/msds/62171.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Duracell Rechargeable Pre-Charged NiMH batteries let you charge hundreds of times, helping you save money."
+                ]
+              },
+              "skusetID": "SS298632093",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/70497F82-EAC4-4A05-817324FEC5AE46EB_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "Duracell AA NiMH Battery rechargeable 4",
+              "skuNumber": "62171",
+              "unitPrice": 13.39,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 9.13,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.6049
+                }
+              ],
+              "couponTotal": 4.26,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 2.32,
+                  "chargePerUnit": 2.32
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.94,
+                  "chargePerUnit": 1.94
+                }
+              ],
+              "regularCouponsTotal": 4.26,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 13.39,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 9
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "220061",
+      "2711216",
+      "62170",
+      "62171"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411417WKD4AYHY6"
+  }
+}

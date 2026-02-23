@@ -1,0 +1,506 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250727.1.21701",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-07-27T18:06:07",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZEWHBHSlFRblBwYytvM21tQXptK3RrOHIyRDZPdklZTGk1L0FXQnBzY3FmNVlBeWZEZWlILzRFa0ZUUnhqVElJaVBqTldnaDhqTW9mVkp0ZFNiNkE9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.31,
+  "orderLines": [
+    {
+      "productSku": "421175",
+      "productName": "STPLS COMP POLY WR",
+      "productShortDesc": "STPLS COMP POLY WR",
+      "productLongDesc": "STPLS COMP POLY WR",
+      "unitPrice": 1.29,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples\u00ae Poly Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 80 Sheets, Color chosen at random (ST54890)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B7231C82-82D0-4E59-8E0875F3170130FF_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-wide-ruled-80-sheets-assorted-colors-st54890/product_421175",
+      "model": "ST54890C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "421175",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24646699",
+      "productName": "PNY 16GB ATTACHE 3",
+      "productShortDesc": "PNY 16GB ATTACHE 3",
+      "productLongDesc": "PNY 16GB ATTACHE 3",
+      "unitPrice": 4.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+      "productURL": "pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+      "model": "P-FD16GATT3-BG",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24646699",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:33:52.980949105",
+      "resourceName": "OrderDetails",
+      "transactionId": "17ea87c73dec421c8a3782f2c957852c",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250727.1.21701",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250727.1.21701",
+    "orderDate": "2025-07-27T18:06:07",
+    "keyForOrderDetails": "U3RNREc3Qm5ORVo2WXYxOXUyWTZUUDc1RmplNGdPTXM1bW02WElObENNNzJKWmY1R24xRFR1RW5TZDh4T1VJQlNtSEhFZGhNdVB0Nzh5cmJRcFFiMUxNa1U9",
+    "orderUrlKey": "U3RNREc3Qm5ORVo2WXYxOXUyWTZUUDc1RmplNGdPTXM1bW02WElObENNNzJKWmY1R24xRFR1RW5TZDh4T1VJQlNtSEhFZGhNdVB0Nzh5cmJRcFFiMUxNa1U9",
+    "customerNumberKey": "U3RNREVBWjFZb0JIQkdwd2JtLzM3R2IrV28rdnRDb0UzY29ZUVpRY2p0VDQ2aWFSK0pwcTZHeUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 6.28,
+    "discountsTotal": 5.99,
+    "couponsTotal": 4.99,
+    "pointsRedeemedValue": 1,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.02,
+    "grandTotal": 0.31,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5486",
+              "itemId": "24646699",
+              "compareItemID": "24646699",
+              "url": "/pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/25C0EA72-EB1C-49F8-A03539E6CB94A987_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B6DAA951-7956-4FAD-82EAE05F794628C5_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~AB6190DF-457B-432B-A3DA3C9421F50B79_sc7",
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~25C0EA72-EB1C-49F8-A03539E6CB94A987_sc7",
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~B6DAA951-7956-4FAD-82EAE05F794628C5_sc7"
+              ],
+              "title": "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+              "model": "P-FD16GATT3-BG",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24646699"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "P-FD16GATT3-BG"
+                }
+              ],
+              "manufacturerName": "PNY",
+              "brandName": "PNY",
+              "baseCatName": "",
+              "baseCatId": "CL142211",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10524",
+                  "name": "Memory Cards & Flash Drives"
+                },
+                "category": {
+                  "id": "CG1039",
+                  "name": "Hard Drives & Data Storage"
+                },
+                "supercategory": {
+                  "id": "SC5486",
+                  "name": "Hard Drives & Data Storage"
+                },
+                "class": {
+                  "id": "CL142211",
+                  "name": "USB Flash Drives"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142211",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.71,
+              "ratingCount": 38,
+              "ratingUrl": "/pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 31,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$6.49",
+              "priceValue": 6.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The PNY Attach\u00e9 3 USB 2.0 16GB Flash Drive is the essential solution for storing and sharing digital content for work and school. Durable and light-weight, it delivers the perfect combination of storage and convenience. The sliding collar, and cap-less design protects your important content when not in use, and the included key loop easily attaches to key chains, so important files are never out of reach. The Attach\u00e9 3 USB 2.0 Flash Drive is compatible with USB 2.0 equipped PC and Mac laptop and desktop computers, and compatible with USB 3.0 host devices at standard USB 2.0 speeds.\u200b"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "The durable, light-weight design of the Attach\u00e9 3 USB 2.0 16GB Flash Drive is the essential mobile storage solution",
+                  "The sliding collar, and cap-less design protects your important content when not in use",
+                  "The key loop allows for the USB flash drive to easily attach to key chains, so important files are never out of reach",
+                  "Compatible with most PC and Mac laptop and desktop computers with USB 2.0 ports",
+                  "Compatible with USB 3.0 host devices at USB 2.0 speeds"
+                ],
+                "headliner": [
+                  "The PNY Attach\u00e9 3 USB 2.0 Flash Drive is the essential solution for storing and sharing digital content for work and school."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "skuDescription": "PNY 16GB ATTACHE 3",
+              "skuNumber": "24646699",
+              "unitPrice": 4.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 4.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Free PNY 16GB Attache 3 flash drive with any purchase.",
+                  "chargeDesc": "Free PNY 16GB Attache 3 flash drive with any purchase.",
+                  "chargeAmount": 4.99,
+                  "chargePerUnit": 4.99
+                }
+              ],
+              "regularCouponsTotal": 4.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "421175",
+              "compareItemID": "421175",
+              "url": "/staples-composition-notebook-7-5-x-9-75-wide-ruled-80-sheets-assorted-colors-st54890/product_421175",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B7231C82-82D0-4E59-8E0875F3170130FF_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B7231C82-82D0-4E59-8E0875F3170130FF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/619215D0-2127-4DDD-AA432A4FBC44D1A7_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples\u00ae Poly Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 80 Sheets, Color chosen at random (ST54890)~#|#~B7231C82-82D0-4E59-8E0875F3170130FF_sc7",
+                "Staples\u00ae Poly Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 80 Sheets, Color chosen at random (ST54890)~#|#~619215D0-2127-4DDD-AA432A4FBC44D1A7_sc7"
+              ],
+              "title": "Staples\u00ae Poly Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 80 Sheets, Color chosen at random (ST54890)",
+              "model": "ST54890C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "421175"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST54890C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.65,
+              "ratingCount": 312,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-wide-ruled-80-sheets-assorted-colors-st54890/product_421175?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 5,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 60,
+                  "reviewPercent": 19
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 232,
+                  "reviewPercent": 74
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 20994,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Keep lecture notes, meeting minutes and other information in this wide-ruled assorted-color poly composition notebook. Each page features wide-ruled spacing, making it ideal for individuals with large handwriting, while the poly cover protects pages from getting damaged. This Staples 7.5 x 9.75-inch assorted-color poly composition notebook has 80 sheets of paper for ample use."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "80 sheets of wide-ruled paper provide plenty of space for notes",
+                  "Poly cover available in assorted colors including red, green, blue, purple, teal and pink",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen for customer at random"
+                ],
+                "headliner": [
+                  "Create lists and journal your thoughts with this Staples 7.5 x 9.75-inch assorted-color poly composition notebook."
+                ]
+              },
+              "skusetID": "SS174735693",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/619215D0-2127-4DDD-AA432A4FBC44D1A7_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP POLY WR",
+              "skuNumber": "421175",
+              "unitPrice": 1.29,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.29,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0192
+                }
+              ],
+              "couponTotal": 1,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                }
+              ],
+              "regularCouponsTotal": 1,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.29,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24646699",
+      "421175"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411313A4M4C11XK"
+  }
+}

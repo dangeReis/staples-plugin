@@ -1,0 +1,2327 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.567.20240518.3.64224",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-05-18T20:56:53",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREU1SFRFcTNGSzE0ak93OUFpNDQ4cHVoY3Jxd0lLMzNtV3VIbGNIeHd3VTRMcGRlNFFReVZjOEdVQklqbjdwMkh2Qjd0U0N3UUVwekxWdTFNc1kyeU09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 58.94,
+  "orderLines": [
+    {
+      "productSku": "24439529",
+      "productName": "WHITE TRIFOLD FOAM",
+      "productShortDesc": "WHITE TRIFOLD FOAM",
+      "productLongDesc": "WHITE TRIFOLD FOAM",
+      "unitPrice": 13.96,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "WHITE TRIFOLD FOAM",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "927192",
+      "productName": "SONY MDRZX110/BLAC",
+      "productShortDesc": "SONY MDRZX110/BLAC",
+      "productLongDesc": "SONY MDRZX110/BLAC",
+      "unitPrice": 9.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Sony Headphones, Black (MDRZX110/BLK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp42719098_sc7?$thb$",
+      "productURL": "Sony-MDR-ZX110-Stereo-Headphones-Black/product_927192",
+      "model": "MDRZX110/BLK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "927192",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$",
+      "productURL": "staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+      "model": "ST59152",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24428037",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24428037",
+      "productName": "STAPLES 3/16 BUBBL",
+      "productShortDesc": "STAPLES 3/16 BUBBL",
+      "productLongDesc": "STAPLES 3/16 BUBBL",
+      "unitPrice": 8.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ]
+    },
+    {
+      "productSku": "24593284",
+      "productName": "GREENMADE 27G BLK/",
+      "productShortDesc": "GREENMADE 27G BLK/",
+      "productLongDesc": "GREENMADE 27G BLK/",
+      "unitPrice": 8.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ]
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "567",
+  "storeAddressLine1": "1300 Rt. 17 North",
+  "storeCity": "RAMSEY",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:36:14.874294190",
+      "resourceName": "OrderDetails",
+      "transactionId": "d39c46a27a50432f995c4fb15243b1fb",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.567.20240518.3.64224",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.567.20240518.3.64224",
+    "orderDate": "2024-05-18T20:56:53",
+    "keyForOrderDetails": "U3RNREdTcjJQNE9FdEVmTmJaM2h0ZHcwRDhPRUNTZUdCYXNYbklvaUhxeG51Ryt0SXBWdkZkVEFWTCtVTnRia1NiTU1NVndLd0N3U0VKUS9qdWpiYXQyR0U9",
+    "orderUrlKey": "U3RNREdTcjJQNE9FdEVmTmJaM2h0ZHcwRDhPRUNTZUdCYXNYbklvaUhxeG51Ryt0SXBWdkZkVEFWTCtVTnRia1NiTU1NVndLd0N3U0VKUS9qdWpiYXQyR0U9",
+    "customerNumberKey": "U3RNREhLdm1ZUVhNdStZaHVrSm9lUjhPbkVDdjZuQ2NYTzVPUFMyclp1ekxPQ08xTmJnU3JGc3c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 109.35,
+    "discountsTotal": 54.07,
+    "couponsTotal": 54.07,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 3.66,
+    "grandTotal": 58.94,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "1300 Rt. 17 North",
+        "city": "RAMSEY",
+        "state": "NJ",
+        "zipCode": "07446"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.56,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3021
+                }
+              ],
+              "couponTotal": 3.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.83
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5829",
+              "itemId": "927192",
+              "compareItemID": "927192",
+              "url": "/Sony-MDR-ZX110-Stereo-Headphones-Black/product_927192",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp42719098_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp42719098_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp42719099_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Sony Headphones, Black (MDRZX110/BLK)~#|#~sp42719098_sc7",
+                "Sony Headphones, Black (MDRZX110/BLK)~#|#~sp42719099_sc7"
+              ],
+              "title": "Sony Headphones, Black (MDRZX110/BLK)",
+              "model": "MDRZX110/BLK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "927192"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MDRZX110/BLK"
+                }
+              ],
+              "manufacturerName": "Sony",
+              "brandName": "Sony",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.4,
+              "ratingCount": 613,
+              "ratingUrl": "/Sony-MDR-ZX110-Stereo-Headphones-Black/product_927192?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 20,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 12,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 45,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 161,
+                  "reviewPercent": 26
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 375,
+                  "reviewPercent": 61
+                }
+              ],
+              "price": "$21.49",
+              "priceValue": 21.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Get clear, crisp treble notes and resounding deep bass tones with these earphones. Neodymium magnets and 30-millimeter drivers provide rich sound, and the cushioned ear cups keep you comfortable. These black Sony headphones have a tangle-resistant 3.9-foot cord to give you freedom of movement while listening."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Black over-ear headphones for rich sound reproduction",
+                  "Wired over-ear form factor offers high-fidelity sound",
+                  "Standard 3.5mm earphone plug works with almost every 3.5mm audio jack device",
+                  "Finely tuned 30mm neodymium drivers combined with a closed-back acoustic system design",
+                  "90-day manufacturer limited warranty"
+                ],
+                "headliner": [
+                  "Enjoy impressive sound quality and long-term listening comfort with these cushioned Sony stereo over-ear headphones."
+                ],
+                "expandedDescr": [
+                  "<br /><br /><strong>Realistic Sound</strong><br />30mm diameter dynamic dome driver units in each cushioned ear cup of the Sony MDR-ZX110 Stereo Headphones produce sound with full bass, lively midrange, and clear highs. PET diaphragms in the closed-back on-ear design deliver an extended low frequency response of 12 to 22,000 Hz for realistic audio. <br /><br /><strong>Convenient Comfort</strong><br />Large cushioned ear cups make long listening sessions comfortable, while a unique swivel design enables the Sony MDR-ZX110 Stereo Headphones to fold for compact storage. The Flat-Y cable connecting the headphones to your device resists tangling. <br /><br /><strong>Travel Friendly</strong><br />These headphones don't need batteries or recharging to function, making them worry-free travel accessories. The 2.5mm audio jack on Sony MDR-ZX110 Stereo Headphones is compatible with mobile devices, computers, and USB devices alike. <br /><br /><strong>Package Contents</strong><br />Sony MDR-ZX110 Stereo Headphones in Black, and a limited 90-day warranty."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp42719099_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SONY MDRZX110/BLAC",
+              "skuNumber": "927192",
+              "unitPrice": 9.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 8.46,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.5605
+                }
+              ],
+              "couponTotal": 1.53,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.53,
+                  "chargePerUnit": 1.53
+                }
+              ],
+              "regularCouponsTotal": 1.53,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 9.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.56,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3021
+                }
+              ],
+              "couponTotal": 3.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.83
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.56,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3021
+                }
+              ],
+              "couponTotal": 3.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.83
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 8.49,
+              "couponDetails": [
+                {
+                  "chargeNo": "205842",
+                  "chargeCategory": "BXGP",
+                  "chargeName": "Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 8.49,
+                  "chargePerUnit": 8.49
+                }
+              ],
+              "regularCouponsTotal": 8.49,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 8.49,
+              "couponDetails": [
+                {
+                  "chargeNo": "205842",
+                  "chargeCategory": "BXGP",
+                  "chargeName": "Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 8.49,
+                  "chargePerUnit": 8.49
+                }
+              ],
+              "regularCouponsTotal": 8.49,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.56,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3021
+                }
+              ],
+              "couponTotal": 3.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.83
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.57,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3028
+                }
+              ],
+              "couponTotal": 3.92,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.82,
+                  "chargePerUnit": 0.82
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.92,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.57,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3028
+                }
+              ],
+              "couponTotal": 3.92,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.82,
+                  "chargePerUnit": 0.82
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $5.39",
+                  "chargeName": "100% Price Guarantee $5.39",
+                  "chargeDesc": "100% Price Guarantee $5.39",
+                  "chargeAmount": 3.1,
+                  "chargePerUnit": 3.1
+                }
+              ],
+              "regularCouponsTotal": 3.92,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24593284",
+              "compareItemID": "24593284",
+              "url": "/greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/0D10B184-9931-444B-AF72DFF59A711F66_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/0D10B184-9931-444B-AF72DFF59A711F66_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8D699136-3914-4533-858C22D5DDF29DB2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F443DFD4-8F91-4965-AC154C0F8FD9179F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/730CE98C-7B9A-4FA0-A16582BCF53EAB54_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~0D10B184-9931-444B-AF72DFF59A711F66_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~8D699136-3914-4533-858C22D5DDF29DB2_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~F443DFD4-8F91-4965-AC154C0F8FD9179F_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~730CE98C-7B9A-4FA0-A16582BCF53EAB54_sc7"
+              ],
+              "title": "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)",
+              "model": "669871",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24593284"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "669871"
+                }
+              ],
+              "manufacturerName": "Greenmade",
+              "brandName": "Greenmade",
+              "baseCatName": "Storage & Organization",
+              "baseCatId": "CL215127",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8128",
+                  "name": "Storage & Organization"
+                },
+                "category": {
+                  "id": "CG3633",
+                  "name": "Storage & Organization"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL215127",
+                  "name": "Storage Containers & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL215127",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.79,
+              "ratingCount": 397,
+              "ratingUrl": "/greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 5,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 33,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 349,
+                  "reviewPercent": 88
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Introducing the Greenmade 27 Gal. Black/Yellow Storage Bin, the ultimate solution for all your storage needs. Whether you\u2019re organizing your garage, attic, or outdoor shed, this heavy-duty storage bin is designed to keep your items safe and secure."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Extra Heavy-Duty Construction",
+                  "Stackable",
+                  "Padlock Holes for Locking",
+                  "Sturdy handles for easy transport",
+                  "Storage bin with snap fit lid to secure valuables"
+                ]
+              },
+              "skusetID": "SS272849092",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8D699136-3914-4533-858C22D5DDF29DB2_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "GREENMADE 27G BLK/",
+              "skuNumber": "24593284",
+              "unitPrice": 8.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 7.61,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.5042
+                }
+              ],
+              "couponTotal": 1.38,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.38,
+                  "chargePerUnit": 1.38
+                }
+              ],
+              "regularCouponsTotal": 1.38,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24428037",
+              "compareItemID": "24428037",
+              "url": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1202358_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)~#|#~s1202358_sc7"
+              ],
+              "title": "Staples 3/16\" Bubble Roll, 12\" x 30', Clear (ST59152)",
+              "model": "ST59152",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24428037"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST59152"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL350310",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350126",
+                  "name": "Cushioning & Void Fill"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL350310",
+                  "name": "Bubble Rolls"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350310",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.69,
+              "ratingCount": 446,
+              "ratingUrl": "/staples-3-16-bubble-roll-12-x-30-clear-st59152/product_24428037?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 47,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 366,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.49",
+              "priceValue": 9.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Bubble is an air cushioning material that is lightweight, clean and flexible. It is a cost-effective and reliable protective packaging option that minimizes damage when packing, shipping or storing goods."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3/16\" size bubble is ideal for wrapping and protecting fragile items",
+                  "Cushioning qualities protect items from shock, vibration and abrasion",
+                  "Perforated every 12\" for easy tear off",
+                  "Clear"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STAPLES 3/16 BUBBL",
+              "skuNumber": "24428037",
+              "unitPrice": 8.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 8.49,
+              "couponDetails": [
+                {
+                  "chargeNo": "205842",
+                  "chargeCategory": "BXGP",
+                  "chargeName": "Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 8.49,
+                  "chargePerUnit": 8.49
+                }
+              ],
+              "regularCouponsTotal": 8.49,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "WHITE TRIFOLD FOAM",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24439529?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "WHITE TRIFOLD FOAM",
+              "skuNumber": "24439529",
+              "unitPrice": 13.96,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 11.83,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.7837
+                }
+              ],
+              "couponTotal": 2.13,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 2.13,
+                  "chargePerUnit": 2.13
+                }
+              ],
+              "regularCouponsTotal": 2.13,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 13.96,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 12
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24439529",
+      "927192",
+      "24428037",
+      "24593284"
+    ],
+    "storeNumber": "567",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "1300 Rt. 17 North",
+      "city": "RAMSEY",
+      "state": "NJ",
+      "zipCode": "07446"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RR11616M174AY7KI"
+  }
+}

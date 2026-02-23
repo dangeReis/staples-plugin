@@ -1,0 +1,107 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9935124665",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2026-01-10T20:54:21",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREhNamRjdnhsZG5SVDAxNU5PYVZEb05ISnVTekZEWmFLcDVxNjRiV1lHS3JEWGcvNlVkMmM0OU8rZzRQMGovMGF6Yw==",
+  "salesTranID": "25630094300",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "950",
+  "statusDesc": "Partially Did not pick up",
+  "merchandiseTotal": 0,
+  "grandTotal": 90.97,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "261656472382",
+      "lineType": "ESD",
+      "productSku": "24666173",
+      "productName": "TurboTax Home & Business 2025 Federal + E-file + State for 1 User, Windows/Mac, Download (INT940800V147)",
+      "productDepartment": "3",
+      "productClass": "385",
+      "productSubClass": "37",
+      "vendorModel": "INT940800V147",
+      "productUOM": "EACH",
+      "unitPrice": 129.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 90.97,
+      "invoicedTotal": 90.97,
+      "statuses": [
+        {
+          "statusCode": "500",
+          "statusDesc": "Ready for download",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "TurboTax Home & Business Desktop Edition 2025, Federal & State Tax Return for 1 User, Windows 11 & Mac 14, Download",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EB067031-DF17-4D91-8010E352177C27E3_sc7?$thb$",
+      "productURL": "turbotax-home-business-2025-federal-e-file-state-for-1-user-windows-mac-download-int940800v147/product_24666173",
+      "model": "INT940800V147",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24666173",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "261656472389",
+      "lineType": "ISP",
+      "productSku": "474649",
+      "productName": "Staples Neon Lights Collection Page Flags, 0.5\" Wide, Assorted Colors, 125/Pack (11147-CC)",
+      "productDepartment": "5",
+      "productClass": "952",
+      "productSubClass": "95",
+      "vendorModel": "ST62680/52231",
+      "productUOM": "EACH",
+      "unitPrice": 1.89,
+      "orderQty": 0,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "900",
+          "statusDesc": "Did not pick up",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "9000.300",
+      "productDesc": "Staples Neon Lights Collection Page Flags, 0.5\" Wide, Assorted Colors, 125/Pack (11147-CC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AFD61DE3-3066-4DEE-933A811D71B20DC6_sc7?$thb$",
+      "productURL": "staples-stickies-page-markers-0-5-wide-assorted-colors-125-pack-11147-cc/product_474649",
+      "model": "ST62680/52231",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "474649",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

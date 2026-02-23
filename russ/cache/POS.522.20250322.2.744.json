@@ -1,0 +1,2338 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250322.2.744",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-22T16:36:24",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZlRGV6MEx3MFlkaXJxQUhkQVl3b09vdFVVeitUTE1uMStpdXU4QkRGejlMRVFxRDdmK1dnY0IyRXVSZFRJVENpNDIydGRkOW9XSkxoM2VkRS8=",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 1,
+  "orderLines": [
+    {
+      "productSku": "24561375",
+      "productName": "CASCADE PLAT PLUS",
+      "productShortDesc": "CASCADE PLAT PLUS",
+      "productLongDesc": "CASCADE PLAT PLUS",
+      "unitPrice": 21.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+      "productURL": "cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+      "model": "57893/6156",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24561375",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24561375",
+      "productName": "CASCADE PLAT PLUS",
+      "productShortDesc": "CASCADE PLAT PLUS",
+      "productLongDesc": "CASCADE PLAT PLUS",
+      "unitPrice": 21.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+      "productURL": "cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+      "model": "57893/6156",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24561375",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24461600",
+      "productName": "JLAB STUDIO ONEAR",
+      "productShortDesc": "JLAB STUDIO ONEAR",
+      "productLongDesc": "JLAB STUDIO ONEAR",
+      "unitPrice": 19.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$thb$",
+      "productURL": "jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600",
+      "model": "HASTUDIORBLK4",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24461600",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24592536",
+      "productName": "360 5FT C-C CABLE",
+      "productShortDesc": "360 5FT C-C CABLE",
+      "productLongDesc": "360 5FT C-C CABLE",
+      "unitPrice": 29.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$thb$",
+      "productURL": "360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536",
+      "model": "3E0793-GRG8NA",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24592536",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24584664",
+      "productName": "STPLS TECH C-C BRA",
+      "productShortDesc": "STPLS TECH C-C BRA",
+      "productLongDesc": "STPLS TECH C-C BRA",
+      "unitPrice": 15.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+      "productURL": "staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+      "model": "ST62336",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24584664",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24592535",
+      "productName": "360 5FT C-C CABLE",
+      "productShortDesc": "360 5FT C-C CABLE",
+      "productLongDesc": "360 5FT C-C CABLE",
+      "unitPrice": 29.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$thb$",
+      "productURL": "360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535",
+      "model": "3E0793-PDW8NA",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24592535",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:44.297079520",
+      "resourceName": "OrderDetails",
+      "transactionId": "80b4dafa56394c6b921dab3850bd6cdd",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250322.2.744",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250322.2.744",
+    "orderDate": "2025-03-22T16:36:24",
+    "keyForOrderDetails": "U3RNREVISnRVRTVRbVk1TXNWOW1xZGNpWDdCWDErR3NIOUF1ZkRDZzBkdVcvZndEUFVUZ1hUTGVCVGluSEZXUXk0MjVxWHFkRVQrZXhCM25nZjBlTS8=",
+    "orderUrlKey": "U3RNREVISnRVRTVRbVk1TXNWOW1xZGNpWDdCWDErR3NIOUF1ZkRDZzBkdVcvZndEUFVUZ1hUTGVCVGluSEZXUXk0MjVxWHFkRVQrZXhCM25nZjBlTS8=",
+    "customerNumberKey": "U3RNREZoQzJ4SHo0b0toMjJFdkp6ckcxdE5DMVlUNkVkZmxkeThwNlhqUTR4M2JjV0QyVEcyUFE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 139.94,
+    "discountsTotal": 139,
+    "couponsTotal": 0,
+    "pointsRedeemedValue": 139,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.06,
+    "grandTotal": 1,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1682",
+              "itemId": "24584664",
+              "compareItemID": "24584664",
+              "url": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/460DBEAA-4B30-49C3-94612455AC641915_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D4125AF6-1352-4E4A-BA2527D8872461E7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F509398D-040F-4E82-8C2F380C7EEFDC84_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~CBF828D0-BAC8-434C-A2518FC76458E729_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~460DBEAA-4B30-49C3-94612455AC641915_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~D4125AF6-1352-4E4A-BA2527D8872461E7_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7",
+                "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7"
+              ],
+              "title": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+              "model": "ST62336",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24584664"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST62336"
+                }
+              ],
+              "manufacturerName": "Staples TECH",
+              "brandName": "Staples TECH",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 99,
+              "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 4,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 89,
+                  "reviewPercent": 90
+                }
+              ],
+              "price": "$15.29",
+              "priceValue": 15.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Power your smartphones and tablets with this extra-long durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 9.8ft (3m) cable length gives plenty of extra reach when needed and is perfect for comfortably using devices while they charge."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "9.8ft (3m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                  "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                  "Compatible with Apple, Samsung, Google and LG products",
+                  "White Generation 2.0 cable",
+                  "Supports fast charging up to 60W",
+                  "1-year limited warranty"
+                ],
+                "headliner": [
+                  "Charge and sync smartphones or tablets with this durable 9.8 ft (3m) Staples\u00ae USB-C to USB-C Braided Cable."
+                ],
+                "expandedDescr": [
+                  "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                ]
+              },
+              "skusetID": "SS276185025",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STPLS TECH C-C BRA",
+              "skuNumber": "24584664",
+              "unitPrice": 15.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0066
+                }
+              ],
+              "couponTotal": 15.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 15.89,
+                  "chargePerUnit": 15.89
+                }
+              ],
+              "regularCouponsTotal": 15.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 15.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24592535",
+              "compareItemID": "24592535",
+              "url": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)~#|#~446CC6B6-EE7F-4114-A355234529EDD975_sc7"
+              ],
+              "title": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)",
+              "model": "3E0793-PDW8NA",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24592535"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3E0793-PDW8NA"
+                }
+              ],
+              "manufacturerName": "360 Electrical",
+              "brandName": "360 Electrical",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "$32.49",
+              "priceValue": 32.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Mar 03 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bending where others break, this 360 Electrical Fluid USB Type-C to USB Type-C cable is 20 times stronger and tested to withstand over 60000 full 180-degree rotational bend cycles with a 7 oz. weight attached. The materials and construction are carefully designed to allow the cord to flow freely, avoiding kinks and reducing visual clutter. Each band of the cord weave consists of three pre-coiled bundles, which not only prevents fibers from getting caught and fraying but also imparts an incredibly clean, premium feel."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "This braided charging cable delivers an astounding 240W of charging power, which is enough for charging even the most powerful laptops",
+                  "Connections: USB Type-C (male) to USB Type-C (male)",
+                  "Comes in Powder color",
+                  "Fusion Weave: braided construction makes the cable durable and kink-free",
+                  "Flex Safe: intelligently designed strain relief bends where others break",
+                  "Tested to withstand over 60000 full 180-degree bend cycles",
+                  "Lifetime manufacturer limited warranty"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "360 5FT C-C CABLE",
+              "skuNumber": "24592535",
+              "unitPrice": 29.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.21,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0139
+                }
+              ],
+              "couponTotal": 29.78,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 29.78,
+                  "chargePerUnit": 29.78
+                }
+              ],
+              "regularCouponsTotal": 29.78,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1683",
+              "itemId": "24561375",
+              "compareItemID": "24561375",
+              "url": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4A469054-F094-47DE-86F1F8B36C82FA62_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C8E87CAE-E69F-4930-874C7996C8438C6A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/551AC00C-22B0-4976-B2028AE21CE1E481_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F17B82F6-243D-4B96-9094E46B71E0793C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~4A469054-F094-47DE-86F1F8B36C82FA62_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C8E87CAE-E69F-4930-874C7996C8438C6A_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~551AC00C-22B0-4976-B2028AE21CE1E481_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F17B82F6-243D-4B96-9094E46B71E0793C_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7"
+              ],
+              "title": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+              "model": "57893/6156",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24561375"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "57893/6156"
+                }
+              ],
+              "manufacturerName": "Cascade",
+              "brandName": "Cascade",
+              "baseCatName": "",
+              "baseCatId": "CL354475",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10973",
+                  "name": "Dishwashing"
+                },
+                "category": {
+                  "id": "CG3925",
+                  "name": "Dishwashing"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL354475",
+                  "name": "Dishwasher Detergent"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354475",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "47/Pack",
+              "rating": 4.67,
+              "ratingCount": 1701,
+              "ratingUrl": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 61,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 21,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 30,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1402,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$27.69",
+              "priceValue": 27.69,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.59/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$26.31",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 69,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The Cascade Platinum Plus ActionPacs dishwasher detergent pod gives your dishes a breakthrough, cabinet-ready clean. Loaded with twice the grease fighting power, and twice the food scrubbing power, the pod has soaking, scrubbing, and rinsing built right in. You can skip the prerinse, skip the soak, skip the scrub, and dare to dish differently. Just scrape your dishes and load them into your dishwasher with the Platinum Plus ActionPacs pod to get a sparkling clean, saving you time, effort, and energy versus handwashing. Get virtually spot-free gleaming glassware, dazzling dishes, and pristine pots and pans with the Cascade Platinum Plus dishwashing ActionPacs dishwasher detergent pod."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Get virtually spot-free, sparkling clean dishes from even the toughest messes with this dishwasher detergent pod",
+                  "Pack capacity: 28.4 oz.",
+                  "Features a fresh scent",
+                  "Loaded with twice the grease fighting power, and twice the food scrubbing power to power through dried-on food",
+                  "40% larger liquid top for even more cleaning power that still fits in your dishwasher detergent dispenser",
+                  "Formulated to help prevent hard water filming to keep your machine looking fresh and clean"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "CASCADE PLAT PLUS",
+              "skuNumber": "24561375",
+              "unitPrice": 21.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.15,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0099
+                }
+              ],
+              "couponTotal": 21.84,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 21.84,
+                  "chargePerUnit": 21.84
+                }
+              ],
+              "regularCouponsTotal": 21.84,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 21.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5829",
+              "itemId": "24461600",
+              "compareItemID": "24461600",
+              "url": "/jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124440992_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124441135_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124441017_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124441003_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp124440997_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441151_sc7",
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124440992_sc7",
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441135_sc7",
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441017_sc7",
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441003_sc7",
+                "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124440997_sc7"
+              ],
+              "title": "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)",
+              "model": "HASTUDIORBLK4",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24461600"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "HASTUDIORBLK4"
+                }
+              ],
+              "manufacturerName": "JLab",
+              "brandName": "JLab",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.29,
+              "ratingCount": 187,
+              "ratingUrl": "/jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 5,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 12,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 41,
+                  "reviewPercent": 22
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 116,
+                  "reviewPercent": 62
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Studio comfort, with studio sound. Plug in and GO anywhere with the Studio Headphones, the braided nylon cord is durable to use all day, everyday. C3 Sound delivers crystal, clear, clarity audio so your music sounds perfect every time you plug in. Fold the earcups in for compact size to fit in any bag. These are the perfect go-to headphone."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "The Studio Headphones are outfitted to pack a punch with 40mm neodymium drivers and JLab's exceptional C3 Technology (Crystal Clear Clarity). Immerse yourself in vibrant highs, mids and pumping bass while drowning out the world around you during an all-day jam sesh.",
+                  "The Studio Headphones sit softly on your ears with the ultra-plush Faux Leather and Cloud Foam cushions. Comfort your noggin all day with this cool, sleek, headphone, guaranteed to provide the studio feel.",
+                  "Wherever, whenever: Hook up the tangle free, braided-nylon cord equipped with an in-line mic for taking calls, firing up your tunes, pausing them and controlling the tracks on your mix. The 90 degree jack rocks with all devices and cases.",
+                  "Built for everyone who loves to rock 'n' roll, the smooth-sliding metal adjustments and feather-light build are ready to hit the road. The plush circular ear cups rotate 80 degrees and fold up in the palm of your hand so you can bring them wherever life takes you.",
+                  "Stainless steel headband with plush Memory Foam cushion",
+                  "In-line universal mic with track control",
+                  "Endless comfort with Cloud Foam cushions",
+                  "Compact, folding design",
+                  "40mm drivers",
+                  "Frequency: 20Hz-20kHz",
+                  "Braided nylon cord with 90 degree jack",
+                  "JLab Lifetime Warranty",
+                  "Black"
+                ],
+                "headliner": [
+                  "On-ear wired headphones for all-day comfort with C3 Sound"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp124440992_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "JLAB STUDIO ONEAR",
+              "skuNumber": "24461600",
+              "unitPrice": 19.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.14,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0093
+                }
+              ],
+              "couponTotal": 19.85,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 19.85,
+                  "chargePerUnit": 19.85
+                }
+              ],
+              "regularCouponsTotal": 19.85,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 19.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1683",
+              "itemId": "24561375",
+              "compareItemID": "24561375",
+              "url": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4A469054-F094-47DE-86F1F8B36C82FA62_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C8E87CAE-E69F-4930-874C7996C8438C6A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/551AC00C-22B0-4976-B2028AE21CE1E481_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F17B82F6-243D-4B96-9094E46B71E0793C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~4A469054-F094-47DE-86F1F8B36C82FA62_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C8E87CAE-E69F-4930-874C7996C8438C6A_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~551AC00C-22B0-4976-B2028AE21CE1E481_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F17B82F6-243D-4B96-9094E46B71E0793C_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7",
+                "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7"
+              ],
+              "title": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+              "model": "57893/6156",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24561375"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "57893/6156"
+                }
+              ],
+              "manufacturerName": "Cascade",
+              "brandName": "Cascade",
+              "baseCatName": "",
+              "baseCatId": "CL354475",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10973",
+                  "name": "Dishwashing"
+                },
+                "category": {
+                  "id": "CG3925",
+                  "name": "Dishwashing"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL354475",
+                  "name": "Dishwasher Detergent"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354475",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "47/Pack",
+              "rating": 4.67,
+              "ratingCount": 1701,
+              "ratingUrl": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 61,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 21,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 30,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1402,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$27.69",
+              "priceValue": 27.69,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.59/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$26.31",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 69,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The Cascade Platinum Plus ActionPacs dishwasher detergent pod gives your dishes a breakthrough, cabinet-ready clean. Loaded with twice the grease fighting power, and twice the food scrubbing power, the pod has soaking, scrubbing, and rinsing built right in. You can skip the prerinse, skip the soak, skip the scrub, and dare to dish differently. Just scrape your dishes and load them into your dishwasher with the Platinum Plus ActionPacs pod to get a sparkling clean, saving you time, effort, and energy versus handwashing. Get virtually spot-free gleaming glassware, dazzling dishes, and pristine pots and pans with the Cascade Platinum Plus dishwashing ActionPacs dishwasher detergent pod."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Get virtually spot-free, sparkling clean dishes from even the toughest messes with this dishwasher detergent pod",
+                  "Pack capacity: 28.4 oz.",
+                  "Features a fresh scent",
+                  "Loaded with twice the grease fighting power, and twice the food scrubbing power to power through dried-on food",
+                  "40% larger liquid top for even more cleaning power that still fits in your dishwasher detergent dispenser",
+                  "Formulated to help prevent hard water filming to keep your machine looking fresh and clean"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "CASCADE PLAT PLUS",
+              "skuNumber": "24561375",
+              "unitPrice": 21.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.14,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0093
+                }
+              ],
+              "couponTotal": 21.85,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 21.85,
+                  "chargePerUnit": 21.85
+                }
+              ],
+              "regularCouponsTotal": 21.85,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 21.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24592536",
+              "compareItemID": "24592536",
+              "url": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)~#|#~3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7"
+              ],
+              "title": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)",
+              "model": "3E0793-GRG8NA",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24592536"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3E0793-GRG8NA"
+                }
+              ],
+              "manufacturerName": "360 Electrical",
+              "brandName": "360 Electrical",
+              "baseCatName": "",
+              "baseCatId": "CL162051",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL162051",
+                  "name": "Chargers & Charging Cables"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL162051",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "$32.49",
+              "priceValue": 32.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Mar 03 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bending where others break, this 360 Electrical Fluid USB Type-C to USB Type-C cable is 20 times stronger and tested to withstand over 60000 full 180-degree rotational bend cycles with a 7 oz. weight attached. The materials and construction are carefully designed to allow the cord to flow freely, avoiding kinks and reducing visual clutter. Each band of the cord weave consists of three pre-coiled bundles, which not only prevents fibers from getting caught and fraying but also imparts an incredibly clean, premium feel."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "This braided charging cable delivers an astounding 240W of charging power, which is enough for charging even the most powerful laptops",
+                  "Connections: USB Type-C (male) to USB Type-C (male)",
+                  "Comes in Granite color",
+                  "Fusion Weave: braided construction makes the cable durable and kink-free",
+                  "Flex Safe: intelligently designed strain relief bends where others break",
+                  "Tested to withstand over 60000 full 180-degree bend cycles",
+                  "Lifetime manufacturer limited warranty"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "360 5FT C-C CABLE",
+              "skuNumber": "24592536",
+              "unitPrice": 29.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.2,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0133
+                }
+              ],
+              "couponTotal": 29.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 29.79,
+                  "chargePerUnit": 29.79
+                }
+              ],
+              "regularCouponsTotal": 29.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.542.20250402.4.90455",
+        "masterOrderNumber": "POS.522.20250322.2.744",
+        "returnedDate": "2025-04-02T19:16:48",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 139.94,
+            "couponTotal": 139,
+            "regularCouponsTotal": 139,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0623,
+            "grandTotal": 1.0023,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1682",
+                  "itemId": "24592535",
+                  "compareItemID": "24592535",
+                  "url": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/446CC6B6-EE7F-4114-A355234529EDD975_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)~#|#~446CC6B6-EE7F-4114-A355234529EDD975_sc7"
+                  ],
+                  "title": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Powder (3E0793-PDW8NA)",
+                  "model": "3E0793-PDW8NA",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24592535"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "3E0793-PDW8NA"
+                    }
+                  ],
+                  "manufacturerName": "360 Electrical",
+                  "brandName": "360 Electrical",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 0,
+                  "ratingCount": 0,
+                  "ratingUrl": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-powder-3e0793-pdw8na/product_24592535?scrollToReviews=Y",
+                  "reviewDetails": [],
+                  "price": "$32.49",
+                  "priceValue": 32.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Mar 03 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Bending where others break, this 360 Electrical Fluid USB Type-C to USB Type-C cable is 20 times stronger and tested to withstand over 60000 full 180-degree rotational bend cycles with a 7 oz. weight attached. The materials and construction are carefully designed to allow the cord to flow freely, avoiding kinks and reducing visual clutter. Each band of the cord weave consists of three pre-coiled bundles, which not only prevents fibers from getting caught and fraying but also imparts an incredibly clean, premium feel."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "This braided charging cable delivers an astounding 240W of charging power, which is enough for charging even the most powerful laptops",
+                      "Connections: USB Type-C (male) to USB Type-C (male)",
+                      "Comes in Powder color",
+                      "Fusion Weave: braided construction makes the cable durable and kink-free",
+                      "Flex Safe: intelligently designed strain relief bends where others break",
+                      "Tested to withstand over 60000 full 180-degree bend cycles",
+                      "Lifetime manufacturer limited warranty"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "360 5FT C-C CABLE WHT",
+                  "skuNumber": "24592535",
+                  "unitPrice": 29.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.2239,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0139,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0139
+                    }
+                  ],
+                  "couponTotal": 29.78,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 29.78
+                    }
+                  ],
+                  "regularCouponsTotal": 29.78,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 29.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1682",
+                  "itemId": "24592536",
+                  "compareItemID": "24592536",
+                  "url": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)~#|#~3FF21B60-7891-4D02-B4DC5148DCF0DA3E_sc7"
+                  ],
+                  "title": "360 Electrical Fluid USB-C to USB-C Charging Cable, 5 ft., Granite (3E0793-GRG8NA)",
+                  "model": "3E0793-GRG8NA",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24592536"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "3E0793-GRG8NA"
+                    }
+                  ],
+                  "manufacturerName": "360 Electrical",
+                  "brandName": "360 Electrical",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 0,
+                  "ratingCount": 0,
+                  "ratingUrl": "/360-electrical-fluid-usb-c-to-usb-c-charging-cable-5-ft-granite-3e0793-grg8na/product_24592536?scrollToReviews=Y",
+                  "reviewDetails": [],
+                  "price": "$32.49",
+                  "priceValue": 32.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Mar 03 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Bending where others break, this 360 Electrical Fluid USB Type-C to USB Type-C cable is 20 times stronger and tested to withstand over 60000 full 180-degree rotational bend cycles with a 7 oz. weight attached. The materials and construction are carefully designed to allow the cord to flow freely, avoiding kinks and reducing visual clutter. Each band of the cord weave consists of three pre-coiled bundles, which not only prevents fibers from getting caught and fraying but also imparts an incredibly clean, premium feel."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "This braided charging cable delivers an astounding 240W of charging power, which is enough for charging even the most powerful laptops",
+                      "Connections: USB Type-C (male) to USB Type-C (male)",
+                      "Comes in Granite color",
+                      "Fusion Weave: braided construction makes the cable durable and kink-free",
+                      "Flex Safe: intelligently designed strain relief bends where others break",
+                      "Tested to withstand over 60000 full 180-degree bend cycles",
+                      "Lifetime manufacturer limited warranty"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "360 5FT C-C CABLE GREY",
+                  "skuNumber": "24592536",
+                  "unitPrice": 29.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.2133,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0133,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0133
+                    }
+                  ],
+                  "couponTotal": 29.79,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 29.79
+                    }
+                  ],
+                  "regularCouponsTotal": 29.79,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 29.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1682",
+                  "itemId": "24584664",
+                  "compareItemID": "24584664",
+                  "url": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/F509398D-040F-4E82-8C2F380C7EEFDC84_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/460DBEAA-4B30-49C3-94612455AC641915_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D4125AF6-1352-4E4A-BA2527D8872461E7_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F509398D-040F-4E82-8C2F380C7EEFDC84_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~CBF828D0-BAC8-434C-A2518FC76458E729_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~460DBEAA-4B30-49C3-94612455AC641915_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~7D98A2AA-6044-4B84-A2BEBBDF127C02F6_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~54DD7A04-14F6-49DF-BEB17A9C3E916A15_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~D4125AF6-1352-4E4A-BA2527D8872461E7_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~F8068DE1-FB80-46AA-ABBD3C0B0E2D5FAA_sc7",
+                    "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)~#|#~1F8D31F3-43A9-438F-BC6323818C58B2AF_sc7"
+                  ],
+                  "title": "Staples TECH USB-C to USB-C Charging Cable, 9.8 ft., White (ST62336)",
+                  "model": "ST62336",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24584664"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "ST62336"
+                    }
+                  ],
+                  "manufacturerName": "Staples TECH",
+                  "brandName": "Staples TECH",
+                  "baseCatName": "",
+                  "baseCatId": "CL162051",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8304",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "category": {
+                      "id": "CG6",
+                      "name": "Cell Phones & Accessories"
+                    },
+                    "supercategory": {
+                      "id": "SC1682",
+                      "name": "Phones, Cameras & Electronics"
+                    },
+                    "class": {
+                      "id": "CL162051",
+                      "name": "Chargers & Charging Cables"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL162051",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.76,
+                  "ratingCount": 99,
+                  "ratingUrl": "/staples-tech-usb-c-to-usb-c-charging-cable-9-8-ft-white-st62336/product_24584664?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 4,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 89,
+                      "reviewPercent": 90
+                    }
+                  ],
+                  "price": "$15.29",
+                  "priceValue": 15.29,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Power your smartphones and tablets with this extra-long durable Staples\u00ae USB-C to USB-C Braided Cable. The unique braided design provides extra durability, prevents tangles and has been tested to withstand up to five-thousand bends. A 9.8ft (3m) cable length gives plenty of extra reach when needed and is perfect for comfortably using devices while they charge."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "9.8ft (3m) USB-C to USB-C charging cable that transfers data at speeds of up to 480Mbps",
+                      "Braided cable for durability and tangle-prevention tested to withstand up to 5K bends",
+                      "Compatible with Apple, Samsung, Google and LG products",
+                      "White Generation 2.0 cable",
+                      "Supports fast charging up to 60W",
+                      "1-year limited warranty"
+                    ],
+                    "headliner": [
+                      "Charge and sync smartphones or tablets with this durable 9.8 ft (3m) Staples\u00ae USB-C to USB-C Braided Cable."
+                    ],
+                    "expandedDescr": [
+                      "<a href=\"https://www.staples.com/sbd/cre/help-center/returns-policy\" target=\"_blank\">More information for Staples return policy here</a><br />"
+                    ]
+                  },
+                  "skusetID": "SS276185025",
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/CBF828D0-BAC8-434C-A2518FC76458E729_sc7?$std$",
+                  "isRPDC": true,
+                  "isSBG": true,
+                  "STSEligible": true,
+                  "skuDescription": "STPLS TECH C-C BRAIDED 3M",
+                  "skuNumber": "24584664",
+                  "unitPrice": 15.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1066,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0066,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0066
+                    }
+                  ],
+                  "couponTotal": 15.89,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 15.89
+                    }
+                  ],
+                  "regularCouponsTotal": 15.89,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 15.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC5829",
+                  "itemId": "24461600",
+                  "compareItemID": "24461600",
+                  "url": "/jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124441151_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124440992_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124441135_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124441017_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124441003_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp124440997_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441151_sc7",
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124440992_sc7",
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441135_sc7",
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441017_sc7",
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124441003_sc7",
+                    "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)~#|#~sp124440997_sc7"
+                  ],
+                  "title": "JLab Studio On-Ear Headphones, Black (HASTUDIORBLK4)",
+                  "model": "HASTUDIORBLK4",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24461600"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "HASTUDIORBLK4"
+                    }
+                  ],
+                  "manufacturerName": "JLab",
+                  "brandName": "JLab",
+                  "baseCatName": "Headphones",
+                  "baseCatId": "CL210844",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10113",
+                      "name": "Headphones"
+                    },
+                    "category": {
+                      "id": "CG3625",
+                      "name": "Headphones"
+                    },
+                    "supercategory": {
+                      "id": "SC5829",
+                      "name": "Audio"
+                    },
+                    "class": {
+                      "id": "CL210844",
+                      "name": "Headphones"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL210844",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.29,
+                  "ratingCount": 187,
+                  "ratingUrl": "/jlab-studio-on-ear-headphones-black-hastudiorblk4/product_24461600?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 13,
+                      "reviewPercent": 7
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 5,
+                      "reviewPercent": 3
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 12,
+                      "reviewPercent": 6
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 41,
+                      "reviewPercent": 22
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 116,
+                      "reviewPercent": 62
+                    }
+                  ],
+                  "price": "$19.99",
+                  "priceValue": 19.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "BOPIS",
+                    "text": "Pick up in 30 minutes"
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Studio comfort, with studio sound. Plug in and GO anywhere with the Studio Headphones, the braided nylon cord is durable to use all day, everyday. C3 Sound delivers crystal, clear, clarity audio so your music sounds perfect every time you plug in. Fold the earcups in for compact size to fit in any bag. These are the perfect go-to headphone."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "The Studio Headphones are outfitted to pack a punch with 40mm neodymium drivers and JLab's exceptional C3 Technology (Crystal Clear Clarity). Immerse yourself in vibrant highs, mids and pumping bass while drowning out the world around you during an all-day jam sesh.",
+                      "The Studio Headphones sit softly on your ears with the ultra-plush Faux Leather and Cloud Foam cushions. Comfort your noggin all day with this cool, sleek, headphone, guaranteed to provide the studio feel.",
+                      "Wherever, whenever: Hook up the tangle free, braided-nylon cord equipped with an in-line mic for taking calls, firing up your tunes, pausing them and controlling the tracks on your mix. The 90 degree jack rocks with all devices and cases.",
+                      "Built for everyone who loves to rock 'n' roll, the smooth-sliding metal adjustments and feather-light build are ready to hit the road. The plush circular ear cups rotate 80 degrees and fold up in the palm of your hand so you can bring them wherever life takes you.",
+                      "Stainless steel headband with plush Memory Foam cushion",
+                      "In-line universal mic with track control",
+                      "Endless comfort with Cloud Foam cushions",
+                      "Compact, folding design",
+                      "40mm drivers",
+                      "Frequency: 20Hz-20kHz",
+                      "Braided nylon cord with 90 degree jack",
+                      "JLab Lifetime Warranty",
+                      "Black"
+                    ],
+                    "headliner": [
+                      "On-ear wired headphones for all-day comfort with C3 Sound"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp124440992_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "JLAB STUDIO ONEAR WIRED HP BLK",
+                  "skuNumber": "24461600",
+                  "unitPrice": 19.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1493,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0093,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0093
+                    }
+                  ],
+                  "couponTotal": 19.85,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 19.85
+                    }
+                  ],
+                  "regularCouponsTotal": 19.85,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 19.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1683",
+                  "itemId": "24561375",
+                  "compareItemID": "24561375",
+                  "url": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/4A469054-F094-47DE-86F1F8B36C82FA62_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C8E87CAE-E69F-4930-874C7996C8438C6A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/551AC00C-22B0-4976-B2028AE21CE1E481_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F17B82F6-243D-4B96-9094E46B71E0793C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~4A469054-F094-47DE-86F1F8B36C82FA62_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C8E87CAE-E69F-4930-874C7996C8438C6A_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~551AC00C-22B0-4976-B2028AE21CE1E481_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F17B82F6-243D-4B96-9094E46B71E0793C_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7"
+                  ],
+                  "title": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+                  "model": "57893/6156",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24561375"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "57893/6156"
+                    }
+                  ],
+                  "manufacturerName": "Cascade",
+                  "brandName": "Cascade",
+                  "baseCatName": "",
+                  "baseCatId": "CL354475",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10973",
+                      "name": "Dishwashing"
+                    },
+                    "category": {
+                      "id": "CG3925",
+                      "name": "Dishwashing"
+                    },
+                    "supercategory": {
+                      "id": "SC1683",
+                      "name": "Cleaning Supplies"
+                    },
+                    "class": {
+                      "id": "CL354475",
+                      "name": "Dishwasher Detergent"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL354475",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "47/Pack",
+                  "rating": 4.67,
+                  "ratingCount": 1701,
+                  "ratingUrl": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 61,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 21,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 30,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 187,
+                      "reviewPercent": 11
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 1402,
+                      "reviewPercent": 82
+                    }
+                  ],
+                  "price": "$27.69",
+                  "priceValue": 27.69,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "$0.59/Pod",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": true,
+                  "autoRestockPrice": "$26.31",
+                  "itemAvailability": {
+                    "inventoryMode": "STANDARD",
+                    "availableQuantity": 69,
+                    "minLeadTime": 2,
+                    "maxLeadTime": 2,
+                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                  },
+                  "savingsPercentageOverSTAPrice": 5,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "The Cascade Platinum Plus ActionPacs dishwasher detergent pod gives your dishes a breakthrough, cabinet-ready clean. Loaded with twice the grease fighting power, and twice the food scrubbing power, the pod has soaking, scrubbing, and rinsing built right in. You can skip the prerinse, skip the soak, skip the scrub, and dare to dish differently. Just scrape your dishes and load them into your dishwasher with the Platinum Plus ActionPacs pod to get a sparkling clean, saving you time, effort, and energy versus handwashing. Get virtually spot-free gleaming glassware, dazzling dishes, and pristine pots and pans with the Cascade Platinum Plus dishwashing ActionPacs dishwasher detergent pod."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Get virtually spot-free, sparkling clean dishes from even the toughest messes with this dishwasher detergent pod",
+                      "Pack capacity: 28.4 oz.",
+                      "Features a fresh scent",
+                      "Loaded with twice the grease fighting power, and twice the food scrubbing power to power through dried-on food",
+                      "40% larger liquid top for even more cleaning power that still fits in your dishwasher detergent dispenser",
+                      "Formulated to help prevent hard water filming to keep your machine looking fresh and clean"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$std$",
+                  "isRPDC": true,
+                  "madeInAmerica": true,
+                  "STSEligible": true,
+                  "skuDescription": "CASCADE PLAT PLUS PACS FRSH 47",
+                  "skuNumber": "24561375",
+                  "unitPrice": 21.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1599,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0099,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0099
+                    }
+                  ],
+                  "couponTotal": 21.84,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 21.84
+                    }
+                  ],
+                  "regularCouponsTotal": 21.84,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 21.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1683",
+                  "itemId": "24561375",
+                  "compareItemID": "24561375",
+                  "url": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/4A469054-F094-47DE-86F1F8B36C82FA62_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C8E87CAE-E69F-4930-874C7996C8438C6A_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/551AC00C-22B0-4976-B2028AE21CE1E481_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F17B82F6-243D-4B96-9094E46B71E0793C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~9AA40A4E-B748-45DE-B8ACC864F39FEF8E_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C970DA5E-41BE-4CFC-AA4FA41EC8C275E8_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~4A469054-F094-47DE-86F1F8B36C82FA62_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~C8E87CAE-E69F-4930-874C7996C8438C6A_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~551AC00C-22B0-4976-B2028AE21CE1E481_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~F17B82F6-243D-4B96-9094E46B71E0793C_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~480D8E3B-A8DA-4CC6-B72B45BA5EC21E82_sc7",
+                    "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)~#|#~24E7E8CE-10C8-46BD-98E27F57CBE5D44A_sc7"
+                  ],
+                  "title": "Cascade Platinum Plus ActionPacs Dishwashing Detergent Pods, Fresh Scent, 47 Pods/Box (57893/6156)",
+                  "model": "57893/6156",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24561375"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "57893/6156"
+                    }
+                  ],
+                  "manufacturerName": "Cascade",
+                  "brandName": "Cascade",
+                  "baseCatName": "",
+                  "baseCatId": "CL354475",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10973",
+                      "name": "Dishwashing"
+                    },
+                    "category": {
+                      "id": "CG3925",
+                      "name": "Dishwashing"
+                    },
+                    "supercategory": {
+                      "id": "SC1683",
+                      "name": "Cleaning Supplies"
+                    },
+                    "class": {
+                      "id": "CL354475",
+                      "name": "Dishwasher Detergent"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL354475",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "47/Pack",
+                  "rating": 4.67,
+                  "ratingCount": 1701,
+                  "ratingUrl": "/cascade-platinum-plus-actionpacs-dishwashing-detergent-pod-fresh-scent-52-pods-box-06156/product_24561375?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 61,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 21,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 30,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 187,
+                      "reviewPercent": 11
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 1402,
+                      "reviewPercent": 82
+                    }
+                  ],
+                  "price": "$27.69",
+                  "priceValue": 27.69,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "$0.59/Pod",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": true,
+                  "autoRestockPrice": "$26.31",
+                  "itemAvailability": {
+                    "inventoryMode": "STANDARD",
+                    "availableQuantity": 69,
+                    "minLeadTime": 2,
+                    "maxLeadTime": 2,
+                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                  },
+                  "savingsPercentageOverSTAPrice": 5,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Feb 24 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "The Cascade Platinum Plus ActionPacs dishwasher detergent pod gives your dishes a breakthrough, cabinet-ready clean. Loaded with twice the grease fighting power, and twice the food scrubbing power, the pod has soaking, scrubbing, and rinsing built right in. You can skip the prerinse, skip the soak, skip the scrub, and dare to dish differently. Just scrape your dishes and load them into your dishwasher with the Platinum Plus ActionPacs pod to get a sparkling clean, saving you time, effort, and energy versus handwashing. Get virtually spot-free gleaming glassware, dazzling dishes, and pristine pots and pans with the Cascade Platinum Plus dishwashing ActionPacs dishwasher detergent pod."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Get virtually spot-free, sparkling clean dishes from even the toughest messes with this dishwasher detergent pod",
+                      "Pack capacity: 28.4 oz.",
+                      "Features a fresh scent",
+                      "Loaded with twice the grease fighting power, and twice the food scrubbing power to power through dried-on food",
+                      "40% larger liquid top for even more cleaning power that still fits in your dishwasher detergent dispenser",
+                      "Formulated to help prevent hard water filming to keep your machine looking fresh and clean"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F41B8AF7-83C8-4A9D-88E67EA5BC36F0A4_sc7?$std$",
+                  "isRPDC": true,
+                  "madeInAmerica": true,
+                  "STSEligible": true,
+                  "skuDescription": "CASCADE PLAT PLUS PACS FRSH 47",
+                  "skuNumber": "24561375",
+                  "unitPrice": 21.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1493,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0093,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0093
+                    }
+                  ],
+                  "couponTotal": 21.85,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 21.85
+                    }
+                  ],
+                  "regularCouponsTotal": 21.85,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 21.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 6
+          }
+        ],
+        "orderUrlKey": "U3RNREVmaUZ4dlJobkg3R2dNYjcxbnJObUF0ZXhkRWhNWkVibXdiU0ZCSUQ2ckNYRjE0OElXdmdtUmNObWxPZDJTbGxkNVBhWWNUa2VpeUsxeHNNd29sa1U9"
+      }
+    ],
+    "productsOnOrder": [
+      "24592535",
+      "24461600",
+      "24592536",
+      "24584664",
+      "24561375"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-04-02T19:16:48",
+            "quantity": 6
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q41141134L4AYT39"
+  }
+}

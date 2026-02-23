@@ -1,0 +1,109 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9931462817",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-07-23T14:56:20",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREZiRnlqUWM3M3MwSEFuMC9HdGk0MXdYQnhzczgzRTdaM3U4dXZTVjgxU25pWWE5Um83OUh3UW1vK2x2d3dxdFNRYg==",
+  "salesTranID": "25553452312",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 0.97,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "249832620797",
+      "lineType": "STA",
+      "productSku": "1635472",
+      "productName": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 48/Box (81911/15171)",
+      "productDepartment": "5",
+      "productClass": "509",
+      "productSubClass": "50",
+      "vendorModel": "5000356566",
+      "productUOM": "EACH",
+      "unitPrice": 38.99,
+      "orderQty": 3,
+      "originalOrderedQty": 3,
+      "returnedQty": 0,
+      "total": 0.97,
+      "invoicedTotal": 0.97,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 3,
+          "statusQty": 3
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 48/Box (81911/15171)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C37E10C4-CD88-4A80-AE6B3BA9250EBDCF_sc7?$thb$",
+      "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-48-box-81911-15171/product_1635472",
+      "model": "5000378894/6566",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "1635472",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "249832620807",
+      "lineType": "STA",
+      "productSku": "24590699",
+      "productName": "Astrobrights Colored Paper, 24 lbs., 8.5\" x 11\", Assorted Galactic Blues, 100 Sheets/Ream (91529)",
+      "productDepartment": "5",
+      "productClass": "961",
+      "productSubClass": "96",
+      "vendorModel": "91529",
+      "productUOM": "EACH",
+      "unitPrice": 6.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Astrobrights Colored Paper, 24 lbs., 8.5\" x 11\", Assorted Galactic Blues, 100 Sheets/Ream (91529)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/15AF22C6-5C82-473A-8697719FD1135BFF_sc7?$thb$",
+      "productURL": "astrobrights-galactic-blues-colored-paper-24-lbs-8-5-x-11-assorted-colors-100-sheets-pack-91529/product_24590699",
+      "model": "91529",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24590699",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 0,
+  "pointsRedeemed": 10000,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

@@ -1,0 +1,109 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9921814640",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-05-18T22:28:19",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREh1VW4xZEhmamU1RFd2anFCa2xZQmRPSHE3NjBPL0ZUOEhseFBMekRSUFQ2bHg5T2h4bXpMekdWNmlJTWVZVG5jbQ==",
+  "salesTranID": "23621194996",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 377.56,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "223173554617",
+      "lineType": "STA",
+      "productSku": "24401678",
+      "productName": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN4313PK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN4313PK",
+      "productUOM": "EACH",
+      "unitPrice": 229.49,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 331.68,
+      "invoicedTotal": 331.68,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "223173554616",
+      "lineType": "STA",
+      "productSku": "24339497",
+      "productName": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages   (TN223BK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN223BK",
+      "productUOM": "EACH",
+      "unitPrice": 63.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 45.88,
+      "invoicedTotal": 45.88,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7?$thb$",
+      "productURL": "brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497",
+      "model": "TN223BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24339497",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 36376,
+  "pointsRedeemed": 0,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

@@ -1,0 +1,749 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250913.4.19708",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-09-13T18:23:53",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdvcS9LQlZQWHhzNlNLYUZxMEpHdTI0N3RwM0xLckwrWFVLSUNWa2tjeEVnQlRrdDZTUklNckgvU3B6Sm94YjFiZk92WHQ3OHYyaG1tVC9YNU5zTU09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.31,
+  "orderLines": [
+    {
+      "productSku": "24386293",
+      "productName": "2 PCKT HD PLYPORT",
+      "productShortDesc": "2 PCKT HD PLYPORT",
+      "productLongDesc": "2 PCKT HD PLYPORT",
+      "unitPrice": 5.39,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples Matte 2-Pocket Plastic Portfolio Folder with Fasteners, Orange (ST55474-CC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08F49329-5860-4A7C-B87613571D617AEE_sc7?$thb$",
+      "productURL": "staples-2-pocket-plastic-portfolio-folder-with-fasteners-orange-st55474-cc/product_24386293",
+      "model": "ST55474-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24386293",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24392195",
+      "productName": "8IN TITANIUM LITE",
+      "productShortDesc": "8IN TITANIUM LITE",
+      "productLongDesc": "8IN TITANIUM LITE",
+      "unitPrice": 5.31,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/27F9D3D7-B60C-4314-BA980BA912167642_sc7?$thb$",
+      "productURL": "westcott-8-titanium-multi-purpose-heavy-duty-scissor-blunt-tip-navy-17509/product_24392195",
+      "model": "17509",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24392195",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 35.19,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:33:35.353919129",
+      "resourceName": "OrderDetails",
+      "transactionId": "1a84f121a82243d68f2e35e8241a95fa",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250913.4.19708",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250913.4.19708",
+    "orderDate": "2025-09-13T18:23:53",
+    "keyForOrderDetails": "U3RNREVSNVAyM3k5MXdxQ29YUjVtdXNqbGxlVG5Seks4VWoveVFCK3RrMEtTcWlhb2c0dUR5WFpmb3lLVkhZNlZ6ZGgwZ3JLUUJZVHNCeFEzKzd1ZmhOT2s9",
+    "orderUrlKey": "U3RNREVSNVAyM3k5MXdxQ29YUjVtdXNqbGxlVG5Seks4VWoveVFCK3RrMEtTcWlhb2c0dUR5WFpmb3lLVkhZNlZ6ZGgwZ3JLUUJZVHNCeFEzKzd1ZmhOT2s9",
+    "customerNumberKey": "U3RNREU0NGJ0NTR5NGIwaGJ5bU14c0drb1RLUXZNSm5oLzZZbDNJSTZWUzBKV2xwRHU5WTZENUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 51.2,
+    "discountsTotal": 50.9,
+    "couponsTotal": 29.9,
+    "pointsRedeemedValue": 21,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.01,
+    "grandTotal": 0.31,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Apr 21 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 35.19,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.18,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 35.01,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 5.9,
+                  "chargePerUnit": 5.9
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.41,
+                  "chargePerUnit": 12.41
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $18.49",
+                  "chargeName": "100% Price Guarantee $18.49",
+                  "chargeDesc": "100% Price Guarantee $18.49",
+                  "chargeAmount": 16.7,
+                  "chargePerUnit": 16.7
+                }
+              ],
+              "regularCouponsTotal": 35.01,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 35.19,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24386293",
+              "compareItemID": "24386293",
+              "url": "/staples-2-pocket-plastic-portfolio-folder-with-fasteners-orange-st55474-cc/product_24386293",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08F49329-5860-4A7C-B87613571D617AEE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08F49329-5860-4A7C-B87613571D617AEE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3B1BB7C5-DBFF-499B-9A5AC47AC1EBEAB4_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples Matte 2-Pocket Plastic Portfolio Folder with Fasteners, Orange (ST55474-CC)~#|#~08F49329-5860-4A7C-B87613571D617AEE_sc7",
+                "Staples Matte 2-Pocket Plastic Portfolio Folder with Fasteners, Orange (ST55474-CC)~#|#~3B1BB7C5-DBFF-499B-9A5AC47AC1EBEAB4_sc7"
+              ],
+              "title": "Staples Matte 2-Pocket Plastic Portfolio Folder with Fasteners, Orange (ST55474-CC)",
+              "model": "ST55474-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24386293"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55474-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.7,
+              "ratingCount": 582,
+              "ratingUrl": "/staples-2-pocket-plastic-portfolio-folder-with-fasteners-orange-st55474-cc/product_24386293?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 12,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 15,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 71,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 476,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$2.79",
+              "priceValue": 2.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.65",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 673,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Keep organized and get ready for back to school with the Staples orange 2-pocket poly portfolio. Made from durable poly material, this folder helps you organize letter-sized documents and has a convenient fastener to keep everything in place. Available in a variety of colors to match your style!"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Internal pockets are three-hole punched to help keep documents secure with included fastener",
+                  "Poly portfolio with fastener in orange",
+                  "Sold individually",
+                  "Dimensions: 9.64\" x 11.69\"",
+                  "Accommodates letter-sized documents",
+                  "Capacity of portfolio: 20 paper sheets"
+                ]
+              },
+              "skusetID": "SS150296433",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/3B1BB7C5-DBFF-499B-9A5AC47AC1EBEAB4_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "2 PCKT HD PLYPORT",
+              "skuNumber": "24386293",
+              "unitPrice": 5.39,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.02,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.37,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 3.2,
+                  "chargePerUnit": 3.2
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.7,
+                  "chargePerUnit": 0.7
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.47,
+                  "chargePerUnit": 1.47
+                }
+              ],
+              "regularCouponsTotal": 5.37,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.39,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24392195",
+              "compareItemID": "24392195",
+              "url": "/westcott-8-titanium-multi-purpose-heavy-duty-scissor-blunt-tip-navy-17509/product_24392195",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/27F9D3D7-B60C-4314-BA980BA912167642_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/27F9D3D7-B60C-4314-BA980BA912167642_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B1D95180-32FD-486C-AE2276CF09AD787A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0D5A70A0-4D49-4718-8FF844AD62806B56_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/DC979D3F-2958-4F1A-811D9CC63913483F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/18419A72-95FC-4685-A742269DBD92834B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D164419B-84DF-4783-9F4AE7E73C923E13_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~27F9D3D7-B60C-4314-BA980BA912167642_sc7",
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~B1D95180-32FD-486C-AE2276CF09AD787A_sc7",
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~0D5A70A0-4D49-4718-8FF844AD62806B56_sc7",
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~DC979D3F-2958-4F1A-811D9CC63913483F_sc7",
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~18419A72-95FC-4685-A742269DBD92834B_sc7",
+                "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)~#|#~D164419B-84DF-4783-9F4AE7E73C923E13_sc7"
+              ],
+              "title": "Westcott 8\" Titanium Multi-Purpose/Heavy Duty Scissor, Blunt Tip, Navy (17509)",
+              "model": "17509",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24392195"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "17509"
+                }
+              ],
+              "manufacturerName": "Westcott",
+              "brandName": "Westcott",
+              "baseCatName": "Scissors, Hole Punches & Paper Cutters",
+              "baseCatId": "CL10504",
+              "hierarchy": {
+                "department": {
+                  "id": "DP353717",
+                  "name": "Scissors, Hole Punches & Paper Cutters"
+                },
+                "category": {
+                  "id": "CG350751",
+                  "name": "Scissors, Hole Punches & Paper Cutters"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL10504",
+                  "name": "Scissors"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL10504",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.57,
+              "ratingCount": 21,
+              "ratingUrl": "/westcott-8-titanium-multi-purpose-heavy-duty-scissor-blunt-tip-navy-17509/product_24392195?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 2,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 18,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$22.19",
+              "priceValue": 22.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The high-performance patented Titanium Bonded blades provide three times the strength of classic stainless steel blades, and they stay sharp and effective even after long use. The redesigned ergonomic handle provides maximum comfort during use. This will be the last scissors you will ever need."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Straight scissors are perfect for heavy use, cutting of plastic packages, thick fabric and boxes",
+                  "Overall length: 8\"",
+                  "High-performance patented Titanium Bonded blades provide three times the strength of classic stainless steel blades, and they stay sharp and effective even after long use",
+                  "Redesigned ergonomic handle provides maximum comfort during use, suitable for right- or left-hand use",
+                  "Blunt tip makes these scissors safe to use",
+                  "Comes in navy",
+                  "Corrosion-resistant for longer blade life",
+                  "Lifetime manufacturer limited warranty"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/B1D95180-32FD-486C-AE2276CF09AD787A_sc7?$std$",
+              "isRPDC": true,
+              "skuDescription": "8IN TITANIUM LITE",
+              "skuNumber": "24392195",
+              "unitPrice": 5.31,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.01
+                }
+              ],
+              "couponTotal": 10.52,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 3.4,
+                  "chargePerUnit": 1.7
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 7.12,
+                  "chargePerUnit": 3.56
+                }
+              ],
+              "regularCouponsTotal": 10.52,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 10.62,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "901974",
+      "24392195",
+      "24386293"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT117136714C14Q6"
+  }
+}

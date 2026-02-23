@@ -1,0 +1,107 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9919649593",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-03-03T16:55:16",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREVNNStoSXhZckplclRrMFhqcENORUlhRnRPdTMxc3ZEZUJDNjVPQndVY3NqWUpvN1FtMVVDc3hVOXlpZUk0dngyUQ==",
+  "salesTranID": "22699210789",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "200",
+  "statusDesc": "Cancelled",
+  "merchandiseTotal": 0,
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "220504586684",
+      "lineType": "STA",
+      "productSku": "2847075",
+      "productName": "Bounty Select-A-Size Paper Towels, 2-ply, 90 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+      "productDepartment": "5",
+      "productClass": "510",
+      "productSubClass": "51",
+      "vendorModel": "66541/06130",
+      "productUOM": "EACH",
+      "unitPrice": 33.89,
+      "orderQty": 0,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "200",
+          "statusDesc": "Cancelled",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "9000.400",
+      "productDesc": "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$thb$",
+      "productURL": "bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075",
+      "model": "57053/61305",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2847075",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "220504586685",
+      "lineType": "STA",
+      "productSku": "616321",
+      "productName": "CloroxPro Clorox Disinfecting Wipes, Lemon Fresh, 75 Wipes/Container (15948)",
+      "productDepartment": "5",
+      "productClass": "829",
+      "productSubClass": "52",
+      "vendorModel": "15948",
+      "productUOM": "EACH",
+      "unitPrice": 5.79,
+      "orderQty": 0,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "200",
+          "statusDesc": "Cancelled",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "9000.400",
+      "productDesc": "CloroxPro Disinfecting Wipes, Lemon Fresh, 75 Wipes/Container (15948)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/61F4DDFF-D60D-4A3C-A2DECB02EA02BC88_sc7?$thb$",
+      "productURL": "cloroxpro-clorox-disinfecting-wipes-lemon-fresh-75-count-15948/product_616321",
+      "model": "15948",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "616321",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "online"
+}

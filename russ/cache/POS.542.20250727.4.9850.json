@@ -1,0 +1,1055 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250727.4.9850",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-07-27T13:10:16",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVZVHBPVHIrOXFqa3k3Vms1YTBWL2d3MXFmVkV3dGpNNi9RTlFvUThyYmlEbHJYZjhud1QyOHVudkl2a0c2UDlrWGZ3aVVNK1R0OVJHS2Q0RGpHdz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "430579",
+      "productName": "CV 2POCKET PAPER F",
+      "productShortDesc": "CV 2POCKET PAPER F",
+      "productLongDesc": "CV 2POCKET PAPER F",
+      "unitPrice": 0.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+      "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+      "model": "13017-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "430579",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "430579",
+      "productName": "CV 2POCKET PAPER F",
+      "productShortDesc": "CV 2POCKET PAPER F",
+      "productLongDesc": "CV 2POCKET PAPER F",
+      "unitPrice": 0.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+      "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+      "model": "13017-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "430579",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24646699",
+      "productName": "PNY 16GB ATTACHE 3",
+      "productShortDesc": "PNY 16GB ATTACHE 3",
+      "productLongDesc": "PNY 16GB ATTACHE 3",
+      "unitPrice": 4.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+      "productURL": "pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+      "model": "P-FD16GATT3-BG",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24646699",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "430579",
+      "productName": "CV 2POCKET PAPER F",
+      "productShortDesc": "CV 2POCKET PAPER F",
+      "productLongDesc": "CV 2POCKET PAPER F",
+      "unitPrice": 0.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+      "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+      "model": "13017-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "430579",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "430579",
+      "productName": "CV 2POCKET PAPER F",
+      "productShortDesc": "CV 2POCKET PAPER F",
+      "productLongDesc": "CV 2POCKET PAPER F",
+      "unitPrice": 0.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+      "productURL": "Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+      "model": "13017-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "430579",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:33:54.244970855",
+      "resourceName": "OrderDetails",
+      "transactionId": "274d8b9fc7e84cbb8979f9e57498bd8a",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250727.4.9850",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250727.4.9850",
+    "orderDate": "2025-07-27T13:10:16",
+    "keyForOrderDetails": "U3RNREhucGk4eUpwMUY4anpiUG90dWczRG9GRmNSRzg2ZGFoZFVnUW10bzhpZVZ5V0ViK201YmV0emZRNnR5Ni94MGg2SGZZSkFVNkxVd2h3VUM1ejRSZz09",
+    "orderUrlKey": "U3RNREhucGk4eUpwMUY4anpiUG90dWczRG9GRmNSRzg2ZGFoZFVnUW10bzhpZVZ5V0ViK201YmV0emZRNnR5Ni94MGg2SGZZSkFVNkxVd2h3VUM1ejRSZz09",
+    "customerNumberKey": "U3RNREVYUS9uM2F6K3N5aFNpa0FYMTlhV29iY2NRS1RtTk1UeTVkSXF0czFRQitJUHlBcXJUSWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 8.15,
+    "discountsTotal": 8.15,
+    "couponsTotal": 7.15,
+    "pointsRedeemedValue": 1,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "430579",
+              "compareItemID": "430579",
+              "url": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s1126497_sc7",
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s0026175_sc7"
+              ],
+              "title": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+              "model": "13017-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "430579"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "13017-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.66,
+              "ratingCount": 820,
+              "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 15,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 10,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 32,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 125,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 638,
+                  "reviewPercent": 78
+                }
+              ],
+              "price": "$0.79",
+              "priceValue": 0.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each folder is equipped with twin pockets to hold loose papers and reports&#x0D;"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Available in assorted colors",
+                  "Made of durable Duo-Tex; Premium paper stock to keep from tearing&#x0D;",
+                  "Twin pockets hold loose papers and reports&#x0D;"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "CV 2POCKET PAPER F",
+              "skuNumber": "430579",
+              "unitPrice": 0.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "217661",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.54,
+                  "chargePerUnit": 0.54
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.25,
+                  "chargePerUnit": 0.25
+                }
+              ],
+              "regularCouponsTotal": 0.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "430579",
+              "compareItemID": "430579",
+              "url": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s1126497_sc7",
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s0026175_sc7"
+              ],
+              "title": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+              "model": "13017-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "430579"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "13017-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.66,
+              "ratingCount": 820,
+              "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 15,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 10,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 32,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 125,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 638,
+                  "reviewPercent": 78
+                }
+              ],
+              "price": "$0.79",
+              "priceValue": 0.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each folder is equipped with twin pockets to hold loose papers and reports&#x0D;"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Available in assorted colors",
+                  "Made of durable Duo-Tex; Premium paper stock to keep from tearing&#x0D;",
+                  "Twin pockets hold loose papers and reports&#x0D;"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "CV 2POCKET PAPER F",
+              "skuNumber": "430579",
+              "unitPrice": 0.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "217661",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.54,
+                  "chargePerUnit": 0.54
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.25,
+                  "chargePerUnit": 0.25
+                }
+              ],
+              "regularCouponsTotal": 0.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "430579",
+              "compareItemID": "430579",
+              "url": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s1126497_sc7",
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s0026175_sc7"
+              ],
+              "title": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+              "model": "13017-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "430579"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "13017-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.66,
+              "ratingCount": 820,
+              "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 15,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 10,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 32,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 125,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 638,
+                  "reviewPercent": 78
+                }
+              ],
+              "price": "$0.79",
+              "priceValue": 0.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each folder is equipped with twin pockets to hold loose papers and reports&#x0D;"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Available in assorted colors",
+                  "Made of durable Duo-Tex; Premium paper stock to keep from tearing&#x0D;",
+                  "Twin pockets hold loose papers and reports&#x0D;"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "CV 2POCKET PAPER F",
+              "skuNumber": "430579",
+              "unitPrice": 0.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "217661",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.54,
+                  "chargePerUnit": 0.54
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.25,
+                  "chargePerUnit": 0.25
+                }
+              ],
+              "regularCouponsTotal": 0.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5486",
+              "itemId": "24646699",
+              "compareItemID": "24646699",
+              "url": "/pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/AB6190DF-457B-432B-A3DA3C9421F50B79_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/25C0EA72-EB1C-49F8-A03539E6CB94A987_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B6DAA951-7956-4FAD-82EAE05F794628C5_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~AB6190DF-457B-432B-A3DA3C9421F50B79_sc7",
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~25C0EA72-EB1C-49F8-A03539E6CB94A987_sc7",
+                "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)~#|#~B6DAA951-7956-4FAD-82EAE05F794628C5_sc7"
+              ],
+              "title": "PNY Attach\u00e9 3 16GB USB 2.0 Type A Flash Drive, Black (P-FD16GATT3-BG)",
+              "model": "P-FD16GATT3-BG",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24646699"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "P-FD16GATT3-BG"
+                }
+              ],
+              "manufacturerName": "PNY",
+              "brandName": "PNY",
+              "baseCatName": "",
+              "baseCatId": "CL142211",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10524",
+                  "name": "Memory Cards & Flash Drives"
+                },
+                "category": {
+                  "id": "CG1039",
+                  "name": "Hard Drives & Data Storage"
+                },
+                "supercategory": {
+                  "id": "SC5486",
+                  "name": "Hard Drives & Data Storage"
+                },
+                "class": {
+                  "id": "CL142211",
+                  "name": "USB Flash Drives"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142211",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.71,
+              "ratingCount": 38,
+              "ratingUrl": "/pny-16gb-attach-3-usb-2-0-flash-drive-p-fd16gatt3-bg/product_24646699?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 31,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$6.49",
+              "priceValue": 6.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The PNY Attach\u00e9 3 USB 2.0 16GB Flash Drive is the essential solution for storing and sharing digital content for work and school. Durable and light-weight, it delivers the perfect combination of storage and convenience. The sliding collar, and cap-less design protects your important content when not in use, and the included key loop easily attaches to key chains, so important files are never out of reach. The Attach\u00e9 3 USB 2.0 Flash Drive is compatible with USB 2.0 equipped PC and Mac laptop and desktop computers, and compatible with USB 3.0 host devices at standard USB 2.0 speeds.\u200b"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "The durable, light-weight design of the Attach\u00e9 3 USB 2.0 16GB Flash Drive is the essential mobile storage solution",
+                  "The sliding collar, and cap-less design protects your important content when not in use",
+                  "The key loop allows for the USB flash drive to easily attach to key chains, so important files are never out of reach",
+                  "Compatible with most PC and Mac laptop and desktop computers with USB 2.0 ports",
+                  "Compatible with USB 3.0 host devices at USB 2.0 speeds"
+                ],
+                "headliner": [
+                  "The PNY Attach\u00e9 3 USB 2.0 Flash Drive is the essential solution for storing and sharing digital content for work and school."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "skuDescription": "PNY 16GB ATTACHE 3",
+              "skuNumber": "24646699",
+              "unitPrice": 4.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 4.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Free PNY 16GB Attache 3 flash drive with any purchase.",
+                  "chargeDesc": "Free PNY 16GB Attache 3 flash drive with any purchase.",
+                  "chargeAmount": 4.99,
+                  "chargePerUnit": 4.99
+                }
+              ],
+              "regularCouponsTotal": 4.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "430579",
+              "compareItemID": "430579",
+              "url": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1126497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s1126497_sc7",
+                "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)~#|#~s0026175_sc7"
+              ],
+              "title": "Staples 2-Pocket Paper Portfolio Folder, Assorted Colors (13017)",
+              "model": "13017-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "430579"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "13017-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.66,
+              "ratingCount": 820,
+              "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 15,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 10,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 32,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 125,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 638,
+                  "reviewPercent": 78
+                }
+              ],
+              "price": "$0.79",
+              "priceValue": 0.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each folder is equipped with twin pockets to hold loose papers and reports&#x0D;"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Available in assorted colors",
+                  "Made of durable Duo-Tex; Premium paper stock to keep from tearing&#x0D;",
+                  "Twin pockets hold loose papers and reports&#x0D;"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s0026175_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "CV 2POCKET PAPER F",
+              "skuNumber": "430579",
+              "unitPrice": 0.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "217661",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.54,
+                  "chargePerUnit": 0.54
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.25,
+                  "chargePerUnit": 0.25
+                }
+              ],
+              "regularCouponsTotal": 0.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 5
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "430579",
+      "24646699"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11711JJT4C11X3"
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250824.2.50187",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-08-24T16:18:07",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhzMU5RKzF0VS9vRmg4WGFUK3NOUmcxME1USHlQcVRoZEJXbFpoNUlmN3AvZlhnN0lCN2I0azl3MjArMkFqZk5qUEVFNVR4VWFpZDVBaVFvc0NnQzg9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 1.03,
+  "orderLines": [
+    {
+      "productSku": "2855093",
+      "productName": "FIVESTAR SPORTS PO",
+      "productShortDesc": "FIVESTAR SPORTS PO",
+      "productLongDesc": "FIVESTAR SPORTS PO",
+      "unitPrice": 2.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BC0E1955-CF25-4D77-B813572531C1435A_sc7?$thb$",
+      "productURL": "five-star-sports-3-hole-punched-4-pocket-folder-assorted-colors-33176/product_2855093",
+      "model": "33176KBF",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2855093",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24474492",
+      "productName": "FIVESTAR BINDER XL",
+      "productShortDesc": "FIVESTAR BINDER XL",
+      "productLongDesc": "FIVESTAR BINDER XL",
+      "unitPrice": 8.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+      "productURL": "five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+      "model": "50782",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24474492",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24474492",
+      "productName": "FIVESTAR BINDER XL",
+      "productShortDesc": "FIVESTAR BINDER XL",
+      "productLongDesc": "FIVESTAR BINDER XL",
+      "unitPrice": 8.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+      "productURL": "five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+      "model": "50782",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24474492",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:33:44.268185078",
+      "resourceName": "OrderDetails",
+      "transactionId": "daf5907c7cf043768b09d94b2b2006be",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250824.2.50187",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250824.2.50187",
+    "orderDate": "2025-08-24T16:18:07",
+    "keyForOrderDetails": "U3RNREhuaHBheXd6UlBMUWZGWWRIN1JZaXE3RWx6YWxGdU5RZ1EzSlhHK0VIclZYY2hqeUh2UnB1eWhaL0tLYkthYU9Zc29BeXRoWlBmMkN1bU5WMDNld1E9",
+    "orderUrlKey": "U3RNREhuaHBheXd6UlBMUWZGWWRIN1JZaXE3RWx6YWxGdU5RZ1EzSlhHK0VIclZYY2hqeUh2UnB1eWhaL0tLYkthYU9Zc29BeXRoWlBmMkN1bU5WMDNld1E9",
+    "customerNumberKey": "U3RNREYyUjhidDJYTm40SkY2UzJWQml3eVdvMUEyMnFRNEdXeVVzREx1TEhJSnpzS3BEWTJiZGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 20.97,
+    "discountsTotal": 20,
+    "couponsTotal": 20,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.06,
+    "grandTotal": 1.03,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "2855093",
+              "compareItemID": "2855093",
+              "url": "/five-star-sports-3-hole-punched-4-pocket-folder-assorted-colors-33176/product_2855093",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/BC0E1955-CF25-4D77-B813572531C1435A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/BC0E1955-CF25-4D77-B813572531C1435A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6AB2DEE0-AEC6-4F83-B683AF76D502D1BC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/FB3EB83D-8519-4222-8CE85853DF1153C7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4030A870-1E12-4921-A4E79561931917AC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/E282D8EE-8EE0-4C90-9B664F21697F3FDE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/629E28F7-441A-443A-82CCCFC971750EB2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8554DDCB-A9AA-4546-837E260C9D46E2D3_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~BC0E1955-CF25-4D77-B813572531C1435A_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~6AB2DEE0-AEC6-4F83-B683AF76D502D1BC_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~FB3EB83D-8519-4222-8CE85853DF1153C7_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~4030A870-1E12-4921-A4E79561931917AC_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~E282D8EE-8EE0-4C90-9B664F21697F3FDE_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~629E28F7-441A-443A-82CCCFC971750EB2_sc7",
+                "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)~#|#~8554DDCB-A9AA-4546-837E260C9D46E2D3_sc7"
+              ],
+              "title": "Five Star Sports 3-Hole Punched 4-Pocket Folder, Assorted Colors (33176)",
+              "model": "33176KBF",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2855093"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "33176KBF"
+                }
+              ],
+              "manufacturerName": "Five Star",
+              "brandName": "Five Star",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.5,
+              "ratingCount": 2,
+              "ratingUrl": "/five-star-sports-3-hole-punched-4-pocket-folder-assorted-colors-33176/product_2855093?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 50
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "reviewPercent": 50
+                }
+              ],
+              "price": "$2.99",
+              "priceValue": 2.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Show support for your favorite sport with this bold Five Star Sports 4-Pocket Paper Folder. With a water-resistant surface and plenty of space for papers, this folder is perfect for your classroom needs."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Vertical and horizontal pockets store 8 1/2\" x 11\" loose sheets and handouts",
+                  "The durable, water-resistant laminated paper surface helps protect papers against accidental spills",
+                  "Three-hole punched to store in your favorite binder",
+                  "Paper size: 8.5\" x 11\"",
+                  "Dimensions: 12.5\"H x 9.5\"W x 0.13\"D",
+                  "Available in Baseball, Basketball, Football and Soccer. Design chosen for you.",
+                  "*Guarantee is valid for one year from purchase or delivery date, whichever is longer. Does not cover misuse. Go to fivestarbuiltstrong.com for details."
+                ],
+                "headliner": [
+                  "LASTS ALL YEAR. GUARANTEED!*"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/6AB2DEE0-AEC6-4F83-B683AF76D502D1BC_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FIVESTAR SPORTS PO",
+              "skuNumber": "2855093",
+              "unitPrice": 2.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.13,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0086
+                }
+              ],
+              "couponTotal": 2.86,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 2.86,
+                  "chargePerUnit": 2.86
+                }
+              ],
+              "regularCouponsTotal": 2.86,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 2.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24474492",
+              "compareItemID": "24474492",
+              "url": "/five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1199289_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359074_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359075_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359076_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359077_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359078_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359079_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~s1204779_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~s1199289_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359074_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359075_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359076_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359077_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359078_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359079_sc7"
+              ],
+              "title": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+              "model": "50782",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24474492"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "50782"
+                }
+              ],
+              "manufacturerName": "Five Star",
+              "brandName": "Five Star",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL141253",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10715",
+                  "name": "Pencil Accessories"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL141253",
+                  "name": "Pencil Cases & Pouches"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141253",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 5,
+              "ratingCount": 2,
+              "ratingUrl": "/five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 2,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$8.99",
+              "priceValue": 8.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "This Five Star pouch keeps your supplies organized and fits right into your favorite binder. Extra-large capacity provides plenty of storage space and helps you stay organized. The pouch measures 8.75\" x 11\" and has two binder loops, so you can store it in your favorite three-ring binder."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Pouch is perfect for writing instruments, sticky notes, calculator, charging cord, and other supplies you need throughout the day",
+                  "Made of mesh and comes in assorted colors: black, gray, green, yellow, red, blue, pink",
+                  "Dimensions: 8.75\"H x 11\"W x 0.13\"D",
+                  "Features zipper closure for safe storage and quick access",
+                  "Interior pocket is perfect for storing smaller supplies",
+                  "Extra-large capacity allows holding more",
+                  "With two binder loops, pouch easily fits the three-ring binder"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1199289_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FIVESTAR BINDER XL",
+              "skuNumber": "24474492",
+              "unitPrice": 8.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.42,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0278
+                }
+              ],
+              "couponTotal": 8.57,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 8.57,
+                  "chargePerUnit": 8.57
+                }
+              ],
+              "regularCouponsTotal": 8.57,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24474492",
+              "compareItemID": "24474492",
+              "url": "/five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1204779_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1199289_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359074_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359075_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359076_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359077_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359078_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp117359079_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~s1204779_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~s1199289_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359074_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359075_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359076_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359077_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359078_sc7",
+                "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)~#|#~sp117359079_sc7"
+              ],
+              "title": "Five Star Zipper Mesh Pouch, Black/Gray/Green/Yellow/Red/Blue/Pink (50782)",
+              "model": "50782",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24474492"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "50782"
+                }
+              ],
+              "manufacturerName": "Five Star",
+              "brandName": "Five Star",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL141253",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10715",
+                  "name": "Pencil Accessories"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL141253",
+                  "name": "Pencil Cases & Pouches"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141253",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 5,
+              "ratingCount": 2,
+              "ratingUrl": "/five-star-zipper-mesh-pouch-black-gray-green-yellow-red-blue-pink-50782/product_24474492?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 2,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$8.99",
+              "priceValue": 8.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "This Five Star pouch keeps your supplies organized and fits right into your favorite binder. Extra-large capacity provides plenty of storage space and helps you stay organized. The pouch measures 8.75\" x 11\" and has two binder loops, so you can store it in your favorite three-ring binder."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Pouch is perfect for writing instruments, sticky notes, calculator, charging cord, and other supplies you need throughout the day",
+                  "Made of mesh and comes in assorted colors: black, gray, green, yellow, red, blue, pink",
+                  "Dimensions: 8.75\"H x 11\"W x 0.13\"D",
+                  "Features zipper closure for safe storage and quick access",
+                  "Interior pocket is perfect for storing smaller supplies",
+                  "Extra-large capacity allows holding more",
+                  "With two binder loops, pouch easily fits the three-ring binder"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1199289_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FIVESTAR BINDER XL",
+              "skuNumber": "24474492",
+              "unitPrice": 8.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.42,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0278
+                }
+              ],
+              "couponTotal": 8.57,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 8.57,
+                  "chargePerUnit": 8.57
+                }
+              ],
+              "regularCouponsTotal": 8.57,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24474492",
+      "2855093"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414TAC4C1416"
+  }
+}

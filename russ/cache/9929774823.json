@@ -1,0 +1,70 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9929774823",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-04-27T00:51:58",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREczOXg1S29MMnhuNWRmUmxnMTJtWC80TU9qV0YwUkhMcnlhY1dNTUVFWnU4S2plYUp0TkNLOWcyYkhzZ1lnNHpFTA==",
+  "salesTranID": "25517909040",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 50.3,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "243923749892",
+      "lineType": "STA",
+      "productSku": "62171",
+      "productName": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+      "productDepartment": "5",
+      "productClass": "533",
+      "productSubClass": "53",
+      "vendorModel": "DX1500B4N001",
+      "productUOM": "EACH",
+      "unitPrice": 13.26,
+      "orderQty": 5,
+      "originalOrderedQty": 5,
+      "returnedQty": 0,
+      "total": 53.63,
+      "invoicedTotal": 53.63,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 5,
+          "statusQty": 5
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+      "productURL": "duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+      "model": "DX1500B4N001",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "62171",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 2550,
+  "pointsRedeemed": 200,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

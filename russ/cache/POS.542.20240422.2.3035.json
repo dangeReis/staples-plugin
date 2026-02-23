@@ -1,0 +1,566 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20240422.2.3035",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-04-22T19:57:12",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhZc1U3WUFVYXJMdmdpZjM1d3EzU2M3S25WS2NnV2VXVDI2dXNlRjFUbiswNjFaOW8vSTRhR1ZiT243M25zT1U2elBtY3RheW9oVUNMM2kzOGt5QT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 53.3,
+  "orderLines": [
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.09,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24339498",
+      "productName": "BROTHER TN227 HI-Y",
+      "productShortDesc": "BROTHER TN227 HI-Y",
+      "productLongDesc": "BROTHER TN227 HI-Y",
+      "unitPrice": 78.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$thb$",
+      "productURL": "brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498",
+      "model": "TN227BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24339498",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:36:18.592889405",
+      "resourceName": "OrderDetails",
+      "transactionId": "a4a7b1710199465a913879f1807df4c6",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240422.2.3035",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20240422.2.3035",
+    "orderDate": "2024-04-22T19:57:12",
+    "keyForOrderDetails": "U3RNREVJdXlxL3RzZnFlRFprK2R1ZTAvM0lscisyNDBQWmRWYlgybnl4MkR0dWdwSFpDb3IvMm5uaENMQjZwazZBNWkzNG1yL0podFZKcmRGSkw5WFVwUT09",
+    "orderUrlKey": "U3RNREVJdXlxL3RzZnFlRFprK2R1ZTAvM0lscisyNDBQWmRWYlgybnl4MkR0dWdwSFpDb3IvMm5uaENMQjZwazZBNWkzNG1yL0podFZKcmRGSkw5WFVwUT09",
+    "customerNumberKey": "U3RNREhPZ1RVL3BlK0gxZ3ZVY0tjUkt3anJ6SjlCc2VLa2dTMXNGQTFoRW1ralk1c2dLVUk2Ymc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 108.08,
+    "discountsTotal": 57.68,
+    "couponsTotal": 29.68,
+    "pointsRedeemedValue": 28,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.9,
+    "grandTotal": 53.3,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC43",
+              "itemId": "24339498",
+              "compareItemID": "24339498",
+              "url": "/brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3437C2C3-4220-4716-BD9270FD06316D9B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D57B84D8-406D-4831-AAA73FDE6A2CD19E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CB9E6C17-7B30-410E-915FC9DE5AFB1E9B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1D841545-4F82-4016-969508161F20DBDB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2B33879F-FA83-4FB8-8D67EC9CFFD2BAC3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4CD1248C-FC18-4FCC-88B2FC30F233088F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163289823_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~B51E193C-FACF-4E79-A4250A5474CEED72_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~3437C2C3-4220-4716-BD9270FD06316D9B_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~D57B84D8-406D-4831-AAA73FDE6A2CD19E_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~CB9E6C17-7B30-410E-915FC9DE5AFB1E9B_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~1D841545-4F82-4016-969508161F20DBDB_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~2B33879F-FA83-4FB8-8D67EC9CFFD2BAC3_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~4CD1248C-FC18-4FCC-88B2FC30F233088F_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~sp163289823_sc7"
+              ],
+              "title": "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)",
+              "model": "TN227BK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24339498"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN227BK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.23,
+              "ratingCount": 1812,
+              "ratingUrl": "/brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 213,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 51,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 102,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1259,
+                  "reviewPercent": 69
+                }
+              ],
+              "price": "$96.29",
+              "priceValue": 96.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.03/Cost Per Page",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 145,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Brother Genuine TN-227BK High Yield Black Toner Cartridges deliver consistent, crisp, professional print quality with an up to 3,000- page yield.* Brother Genuine toner is intelligently engineered to work seamlessly with your Brother printer to produce superior quality results that withstand the test of time. Use only Brother Genuine toner cartridges for reliable results. Brother offers an environmentally responsible way for customers to dispose of Brother Genuine cartridges at end of life."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW and MFC-L3770CDW",
+                  "High Yield Black Toner Cartridge",
+                  "Intelligently engineered as part of a complete printing system to work seamlessly with your Brother printer",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                  "Brother Genuine Toner Cartridge"
+                ],
+                "headliner": [
+                  "Brother TN227BK toner delivers superior laser print quality."
+                ],
+                "expandedDescr": [
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "BROTHER TN227 HI-Y",
+              "skuNumber": "24339498",
+              "unitPrice": 78.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 43.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.8978
+                }
+              ],
+              "couponTotal": 35.25,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10.96,
+                  "chargePerUnit": 10.96
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 24.29,
+                  "chargePerUnit": 24.29
+                }
+              ],
+              "regularCouponsTotal": 35.25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 78.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Apr 21 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.09,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 6.66,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 22.43,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 4.04,
+                  "chargePerUnit": 4.04
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 3.71,
+                  "chargePerUnit": 3.71
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $24.41",
+                  "chargeName": "100% Price Guarantee $24.41",
+                  "chargeDesc": "100% Price Guarantee $24.41",
+                  "chargeAmount": 4.68,
+                  "chargePerUnit": 4.68
+                }
+              ],
+              "regularCouponsTotal": 22.43,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.09,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24339498",
+      "901974"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT114117HP4AY6KK"
+  }
+}

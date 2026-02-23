@@ -1,0 +1,114 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9919445829",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-02-28T01:18:05",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREhVRVc1aXlQd0tjdEZnUzVmNU5zbUJCVlFxZFBsamZYalVHRmRnd21vWjUzd3FMQ1dmb011SE52SG1rOVhScXdOVw==",
+  "salesTranID": "22643511438",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "650",
+  "statusDesc": "Partially Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 632.15,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "220539488696",
+      "lineType": "STA",
+      "productSku": "24401678",
+      "productName": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, Up to 1,800 Pages, 3/Pack (TN4313PK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "productUOM": "EACH",
+      "unitPrice": 0,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0,
+      "invoicedTotal": 0,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "220326603613",
+      "lineType": "STA",
+      "productSku": "24401678",
+      "productName": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, Up to 1,800 Pages, 3/Pack (TN4313PK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN4313PK",
+      "productUOM": "EACH",
+      "unitPrice": 218.49,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "returnedQty": 0,
+      "total": 632.15,
+      "invoicedTotal": 632.15,
+      "statuses": [
+        {
+          "statusCode": "300",
+          "statusDesc": "Processing",
+          "totalQty": 4,
+          "statusQty": 4
+        },
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 4,
+          "statusQty": 4
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 59792,
+  "pointsRedeemed": 3000,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

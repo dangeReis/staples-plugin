@@ -1,0 +1,70 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9920470685",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-03-31T14:24:10",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREhUY0orb0pjSm9yRzk3cVJoYnc2bGZsU0JDQUhMRHh1TkJ1cVhpR0lZaERlSDRjQUYzUDNCeVRRalBFdTN2UktmbQ==",
+  "salesTranID": "23032117742",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 25.73,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "221525590264",
+      "lineType": "STA",
+      "productSku": "24401670",
+      "productName": "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, Up to 1,400 Pages, 4/Pack (TN2234PK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN2234PK",
+      "productUOM": "EACH",
+      "unitPrice": 259.49,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 25.73,
+      "invoicedTotal": 25.73,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08219005-A1F2-4F3C-B2333B623F9EAFBE_sc7?$thb$",
+      "productURL": "brother-tn-223-black-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-4-pack-tn2234pk/product_24401670",
+      "model": "TN2234PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401670",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 2424,
+  "pointsRedeemed": 66400,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

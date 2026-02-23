@@ -1,0 +1,608 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.522.20250320.2.396",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-20T17:59:03",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZPbTNkK0lMdVR1ZkFUeEhDVFB6MFo0VlhkbHh0azRKa1BkQTlxd3gwVzZ0THYyNXZUYVE3N0pmRlNBVEttWnNIV1FPSW5qRTZPcmVGQTBXMVI=",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 1.06,
+  "orderLines": [
+    {
+      "productSku": "24552240",
+      "productName": "CASC AP FR SC 105C",
+      "productShortDesc": "CASC AP FR SC 105C",
+      "productLongDesc": "CASC AP FR SC 105C",
+      "unitPrice": 27.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$thb$",
+      "productURL": "cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240",
+      "model": "3700028028",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24561371"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "24552240",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:45.603159696",
+      "resourceName": "OrderDetails",
+      "transactionId": "4b9b15cb161941f599a7ee086123f98d",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250320.2.396",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.522.20250320.2.396",
+    "orderDate": "2025-03-20T17:59:03",
+    "keyForOrderDetails": "U3RNREZMcXc4NTZEL2NrNHBFN004SURwWnFNWDkrM1M5MmVXUXhNMDh6OUdVR1hDeHhqSFJBN1NrZmorL2dpakZCcXdZVDJoNWRlcFJRVDhpRnBFMXg=",
+    "orderUrlKey": "U3RNREZMcXc4NTZEL2NrNHBFN004SURwWnFNWDkrM1M5MmVXUXhNMDh6OUdVR1hDeHhqSFJBN1NrZmorL2dpakZCcXdZVDJoNWRlcFJRVDhpRnBFMXg=",
+    "customerNumberKey": "U3RNREhmL2lRQU9lOWQremRkbXFhcFpCSmdzUWhvdzVJeXZ2RWhFc29xQm10eFpBa3JzQjhrOFE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 27.99,
+    "discountsTotal": 27,
+    "couponsTotal": 5,
+    "pointsRedeemedValue": 22,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.07,
+    "grandTotal": 1.06,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "24552240",
+              "compareItemID": "24552240",
+              "url": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)~#|#~A483C049-5542-40FA-AA6221B6DA259F19_sc7"
+              ],
+              "title": "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)",
+              "model": "3700028028",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24552240"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3700028028"
+                }
+              ],
+              "manufacturerName": "Cascade",
+              "brandName": "Cascade",
+              "baseCatName": "",
+              "baseCatId": "CL354475",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10973",
+                  "name": "Dishwashing"
+                },
+                "category": {
+                  "id": "CG3925",
+                  "name": "Dishwashing"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL354475",
+                  "name": "Dishwasher Detergent"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24561371"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL354475",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.59,
+              "ratingCount": 11133,
+              "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 420,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 134,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 361,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1800,
+                  "reviewPercent": 16
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8418,
+                  "reviewPercent": 76
+                }
+              ],
+              "price": "$28.69",
+              "priceValue": 28.69,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Cascade Original ActionPacs dishwasher detergent cleans away tough, 24-hour stuck-on messes in a single wash with one easy-to-use pod. It's a legit unit-dose pod with a fresh scent. It's formulated with the grease-fighting power of Dawn dish soap to leave your dishes virtually spotless."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Dishwasher detergent pod removes 24-hour stuck-on food and greasy residues",
+                  "Overall pack capacity: 57 oz.",
+                  "Features a fresh scent",
+                  "Formulated with the grease-fighting power of Dawn dish soap to tackle greasy messes",
+                  "Convenient and premeasured phosphate-free ActionPacs with no finicky wrapping",
+                  "Use with Cascade Power Dry rinse aid and Cascade dishwasher cleaner for best clean"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "CASC AP FR SC 105C",
+              "skuNumber": "24552240",
+              "unitPrice": 27.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0656
+                }
+              ],
+              "couponTotal": 27,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 22,
+                  "chargePerUnit": 22
+                }
+              ],
+              "regularCouponsTotal": 27,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 27.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.542.20250413.4.92323",
+        "masterOrderNumber": "POS.522.20250320.2.396",
+        "returnedDate": "2025-04-13T12:24:21",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 27.99,
+            "couponTotal": 27,
+            "regularCouponsTotal": 27,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0656,
+            "grandTotal": 1.0556,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1683",
+                  "itemId": "24552240",
+                  "compareItemID": "24552240",
+                  "url": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/A483C049-5542-40FA-AA6221B6DA259F19_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)~#|#~A483C049-5542-40FA-AA6221B6DA259F19_sc7"
+                  ],
+                  "title": "Cascade Original ActionPacs Dishwashing Detergent, Fresh Scent, 105 Pods/Box (3700028028)",
+                  "model": "3700028028",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24552240"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "3700028028"
+                    }
+                  ],
+                  "manufacturerName": "Cascade",
+                  "brandName": "Cascade",
+                  "baseCatName": "",
+                  "baseCatId": "CL354475",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10973",
+                      "name": "Dishwashing"
+                    },
+                    "category": {
+                      "id": "CG3925",
+                      "name": "Dishwashing"
+                    },
+                    "supercategory": {
+                      "id": "SC1683",
+                      "name": "Cleaning Supplies"
+                    },
+                    "class": {
+                      "id": "CL354475",
+                      "name": "Dishwasher Detergent"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "This item has been discontinued.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details",
+                    "type": "DISCONTINUED",
+                    "displayName": "Discontinued",
+                    "viewAlternateTxt": "Our experts suggest",
+                    "ctaText": "",
+                    "actionLabel": "expertsSuggest",
+                    "altProducts": [
+                      "24561371"
+                    ],
+                    "limitedQtyTxt": "Limited quantities"
+                  },
+                  "catalogId": "CL354475",
+                  "bopisEligible": true,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.59,
+                  "ratingCount": 11133,
+                  "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 420,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 134,
+                      "reviewPercent": 1
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 361,
+                      "reviewPercent": 3
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 1800,
+                      "reviewPercent": 16
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 8418,
+                      "reviewPercent": 76
+                    }
+                  ],
+                  "price": "$28.69",
+                  "priceValue": 28.69,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "The Cascade Original ActionPacs dishwasher detergent cleans away tough, 24-hour stuck-on messes in a single wash with one easy-to-use pod. It's a legit unit-dose pod with a fresh scent. It's formulated with the grease-fighting power of Dawn dish soap to leave your dishes virtually spotless."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Dishwasher detergent pod removes 24-hour stuck-on food and greasy residues",
+                      "Overall pack capacity: 57 oz.",
+                      "Features a fresh scent",
+                      "Formulated with the grease-fighting power of Dawn dish soap to tackle greasy messes",
+                      "Convenient and premeasured phosphate-free ActionPacs with no finicky wrapping",
+                      "Use with Cascade Power Dry rinse aid and Cascade dishwasher cleaner for best clean"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "madeInAmerica": true,
+                  "STSEligible": true,
+                  "skuDescription": "CASC AP FR SC 105CT",
+                  "skuNumber": "24552240",
+                  "unitPrice": 27.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 1.0556,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0656,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0656
+                    }
+                  ],
+                  "couponTotal": 27,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 22
+                    },
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "$5 off your purchase of $25 or more.",
+                      "chargeAmount": 5
+                    }
+                  ],
+                  "regularCouponsTotal": 27,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 27.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREZyM1drY0c5V25RNFBBalBEdWVQTjRRQktUZm4wWDM0Q1YxQWZvTWVYWVd2T1RYSkZMendZU3M5QWJpMjk4ekFaYm1kVXdZUGhianFsNVg3MmU3aU09"
+      },
+      {
+        "returnOrderNumber": "POS.451.20250413.1.67909",
+        "masterOrderNumber": "POS.522.20250320.2.396",
+        "returnedDate": "2025-04-13T12:24:31",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 4.46,
+            "couponTotal": 0,
+            "regularCouponsTotal": 0,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.3568,
+            "grandTotal": 4.8168,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "skuDescription": "STANDARD STAPLES 2",
+                  "skuNumber": "112276",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+                  "unitPrice": 4.46,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 4.8168,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.3568,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.3568
+                    }
+                  ],
+                  "couponTotal": 0,
+                  "regularCouponsTotal": 0,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 4.46,
+                  "isSpecialItem": false,
+                  "title": "STANDARD STAPLES 2",
+                  "url": ""
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREVIUVpmazJlL0JuUEdUU1JHRlBQaE1NcGI1eWsrb1BmdUIwT0k0bVdGTW9NNFRUTDdRb1lnaHZ4Um5lek15RFl2S2dFN2VOUT09"
+      }
+    ],
+    "productsOnOrder": [
+      "24552240"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-04-13T12:24:21",
+            "quantity": 1
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-04-13T12:24:31",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4114111KA4AYRYA"
+  }
+}

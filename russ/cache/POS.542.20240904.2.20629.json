@@ -1,0 +1,973 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20240904.2.20629",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-09-04T21:01:18",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREc5VWhQUHV4RzNSaE1OL05mWjNNUHF2TDYwcDZvdTNRc0dyc3VlWGhFZnkzTGNNQVlDNkxBaWZaU2JvRHNtSlg5SUlvMENuOHZDVG10VmdtSFF5RG89",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 61.28,
+  "orderLines": [
+    {
+      "productSku": "421222",
+      "productName": "PPM ERASERMATE BP",
+      "productShortDesc": "PPM ERASERMATE BP",
+      "productLongDesc": "PPM ERASERMATE BP",
+      "unitPrice": 5.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$thb$",
+      "productURL": "paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222",
+      "model": "316-35",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "421222",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "421222",
+      "productName": "PPM ERASERMATE BP",
+      "productShortDesc": "PPM ERASERMATE BP",
+      "productLongDesc": "PPM ERASERMATE BP",
+      "unitPrice": 5.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$thb$",
+      "productURL": "paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222",
+      "model": "316-35",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "421222",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24418178",
+      "productName": "TR PLSTC STPLR 10S",
+      "productShortDesc": "TR PLSTC STPLR 10S",
+      "productLongDesc": "TR PLSTC STPLR 10S",
+      "unitPrice": 5.59,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "TRU RED\u2122 Mini Desktop Stapler, 10-Sheet Capacity, Black (TR58084)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1180309_sc7?$thb$",
+      "productURL": "tru-red-mini-stapler-10-sheet-capacity-black-tr58084/product_24418178",
+      "model": "TR58084",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24418178",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.89,
+      "orderQty": 3,
+      "originalOrderedQty": 3,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:45.461198453",
+      "resourceName": "OrderDetails",
+      "transactionId": "3aec37f04de54dc58d4354ef6a40c5f5",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240904.2.20629",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20240904.2.20629",
+    "orderDate": "2024-09-04T21:01:18",
+    "keyForOrderDetails": "U3RNREVURWlHZG1heHBka1B3VVpSdGwxTHJKSEZBVFcvNGRqbC9YY0NERUlqMDlTejVYSW92UHNWSCt1aEIrZEhiMkVrQWdKUkdlR3N6R2RvQVlRNjNPZDg9",
+    "orderUrlKey": "U3RNREVURWlHZG1heHBka1B3VVpSdGwxTHJKSEZBVFcvNGRqbC9YY0NERUlqMDlTejVYSW92UHNWSCt1aEIrZEhiMkVrQWdKUkdlR3N6R2RvQVlRNjNPZDg9",
+    "customerNumberKey": "U3RNREZka01zczVENjh0Qmo1VTJBd0ZBU0RKS3NZM0doVm9nUnl3b2U3U1VkbzdPV3BvWjhiQ2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 112.43,
+    "discountsTotal": 52,
+    "couponsTotal": 52,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.85,
+    "grandTotal": 61.28,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "24418178",
+              "compareItemID": "24418178",
+              "url": "/tru-red-mini-stapler-10-sheet-capacity-black-tr58084/product_24418178",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1180309_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1180309_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1180312_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1180311_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "TRU RED\u2122 Mini Desktop Stapler, 10-Sheet Capacity, Black (TR58084)~#|#~s1180309_sc7",
+                "TRU RED\u2122 Mini Desktop Stapler, 10-Sheet Capacity, Black (TR58084)~#|#~s1180312_sc7",
+                "TRU RED\u2122 Mini Desktop Stapler, 10-Sheet Capacity, Black (TR58084)~#|#~s1180311_sc7"
+              ],
+              "title": "TRU RED\u2122 Mini Desktop Stapler, 10-Sheet Capacity, Black (TR58084)",
+              "model": "TR58084",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24418178"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TR58084"
+                }
+              ],
+              "manufacturerName": "TRU RED",
+              "brandName": "TRU RED",
+              "baseCatName": "Staplers & Staples",
+              "baseCatId": "CL10700",
+              "hierarchy": {
+                "department": {
+                  "id": "DP353716",
+                  "name": "Staplers & Staples"
+                },
+                "category": {
+                  "id": "CG350747",
+                  "name": "Staplers & Staples"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL10700",
+                  "name": "Staplers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL10700",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.16,
+              "ratingCount": 31,
+              "ratingUrl": "/tru-red-mini-stapler-10-sheet-capacity-black-tr58084/product_24418178?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 6,
+                  "reviewPercent": 19
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 24,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$5.79",
+              "priceValue": 5.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Organize and bind multipage documents with this mini stapler. The optimized design lies flat on your desk when opened and enables easy tacking, while the rubberized bottom provides a nonslip grip and stays put on your table. This TRU RED mini stapler has a convenient staple level indicator so you easily know when it's time to replenish the tray."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Mini stapler delivers simple stapling performance that is perfect for occasional use",
+                  "Stapler has quarter-strip capacity and holds 1/4\" staples",
+                  "This stapler can staple up to 10 sheets at a time",
+                  "Comes in black and made of plastic",
+                  "Top loading of staples increases ease of use",
+                  "Low-staple indicator on side of magazine makes it easy to identify when staples run out"
+                ],
+                "headliner": [
+                  "Outfit your work desk with this 10-sheet capacity TRU RED mini stapler."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1180312_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "TR PLSTC STPLR 10S",
+              "skuNumber": "24418178",
+              "unitPrice": 5.59,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 4.27,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.2828
+                }
+              ],
+              "couponTotal": 6.91,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 6.2,
+                  "chargePerUnit": 3.1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.71,
+                  "chargePerUnit": 0.355
+                }
+              ],
+              "regularCouponsTotal": 6.91,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.18,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Apr 21 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.89,
+              "qtyOrdered": 3,
+              "qtyShipped": 3,
+              "isReshipped": false,
+              "lineTotal": 47.60000001,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 42.06999999,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 7.87,
+                  "chargePerUnit": 2.623333333
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $18.49",
+                  "chargeName": "100% Price Guarantee $18.49",
+                  "chargeDesc": "100% Price Guarantee $18.49",
+                  "chargeAmount": 34.2,
+                  "chargePerUnit": 11.4
+                }
+              ],
+              "regularCouponsTotal": 42.06999999,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 89.67,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "421222",
+              "compareItemID": "421222",
+              "url": "/paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415496_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415498_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415499_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415500_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415495_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415496_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415497_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415498_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415499_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415500_sc7"
+              ],
+              "title": "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)",
+              "model": "316-35",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "421222"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "316-35"
+                }
+              ],
+              "manufacturerName": "Paper Mate",
+              "brandName": "Paper Mate",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110001",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110001",
+                  "name": "Pens"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110001",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "5/Pack",
+              "rating": 3.81,
+              "ratingCount": 464,
+              "ratingUrl": "/paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 71,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 36,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 43,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 73,
+                  "reviewPercent": 16
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 241,
+                  "reviewPercent": 52
+                }
+              ],
+              "price": "$8.29",
+              "priceValue": 8.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.66/Pen",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$7.88",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 4352,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each Paper Mate Erasermate Pen in this pack of five features pressurized ink for writing from all angles. These black erasable pens have medium points for bold writing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Erasable ink allows for quick corrections",
+                  "Pressurized ink cartridge allows you to write from any angle",
+                  "1.0mm medium point is perfect everyday use",
+                  "Convenient eraser and clip built into the cap",
+                  "Includes 5 Black ballpoint pens",
+                  "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "The Paper Mate Erasermate Pen glides over paper with the smoothness of a ballpoint pen yet erases like a pencil."
+                ],
+                "expandedDescr": [
+                  "Enjoy the smooth, rich marks of a pen and the erasability of a pencil with Paper Mate EraserMate Erasable Pens. These erasable pens have rich ink that is formulated to wipe away cleanly and is pressurized to fluidly write at any angle. Each Paper Mate erasable pen has a precise yet bold 1.0mm medium point. There's even an eraser on the cap of each erasable pen for quick erasing when you need it most, and a convenient clip to secure your erasable pen anywhere you need."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp163415496_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "PPM ERASERMATE BP",
+              "skuNumber": "421222",
+              "unitPrice": 5.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.28,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.2836
+                }
+              ],
+              "couponTotal": 1.51,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.71,
+                  "chargePerUnit": 0.71
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $4.99",
+                  "chargeName": "100% Price Guarantee $4.99",
+                  "chargeDesc": "100% Price Guarantee $4.99",
+                  "chargeAmount": 0.8,
+                  "chargePerUnit": 0.8
+                }
+              ],
+              "regularCouponsTotal": 1.51,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "421222",
+              "compareItemID": "421222",
+              "url": "/paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415495_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415496_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415497_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415498_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415499_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163415500_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415495_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415496_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415497_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415498_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415499_sc7",
+                "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)~#|#~sp163415500_sc7"
+              ],
+              "title": "Paper Mate Eraser Mate Erasable Ballpoint Pen, Medium Point, Black Ink, 5/Pack (3163558PP)",
+              "model": "316-35",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "421222"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "316-35"
+                }
+              ],
+              "manufacturerName": "Paper Mate",
+              "brandName": "Paper Mate",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110001",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110001",
+                  "name": "Pens"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110001",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "5/Pack",
+              "rating": 3.81,
+              "ratingCount": 464,
+              "ratingUrl": "/paper-mate-eraser-mate-erasable-ballpoint-pen-medium-point-black-ink-5-pack-3163558pp/product_421222?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 71,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 36,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 43,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 73,
+                  "reviewPercent": 16
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 241,
+                  "reviewPercent": 52
+                }
+              ],
+              "price": "$8.29",
+              "priceValue": 8.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.66/Pen",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$7.88",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 4352,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Each Paper Mate Erasermate Pen in this pack of five features pressurized ink for writing from all angles. These black erasable pens have medium points for bold writing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Erasable ink allows for quick corrections",
+                  "Pressurized ink cartridge allows you to write from any angle",
+                  "1.0mm medium point is perfect everyday use",
+                  "Convenient eraser and clip built into the cap",
+                  "Includes 5 Black ballpoint pens",
+                  "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "The Paper Mate Erasermate Pen glides over paper with the smoothness of a ballpoint pen yet erases like a pencil."
+                ],
+                "expandedDescr": [
+                  "Enjoy the smooth, rich marks of a pen and the erasability of a pencil with Paper Mate EraserMate Erasable Pens. These erasable pens have rich ink that is formulated to wipe away cleanly and is pressurized to fluidly write at any angle. Each Paper Mate erasable pen has a precise yet bold 1.0mm medium point. There's even an eraser on the cap of each erasable pen for quick erasing when you need it most, and a convenient clip to secure your erasable pen anywhere you need."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp163415496_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "PPM ERASERMATE BP",
+              "skuNumber": "421222",
+              "unitPrice": 5.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.28,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.2836
+                }
+              ],
+              "couponTotal": 1.51,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.71,
+                  "chargePerUnit": 0.71
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $4.99",
+                  "chargeName": "100% Price Guarantee $4.99",
+                  "chargeDesc": "100% Price Guarantee $4.99",
+                  "chargeAmount": 0.8,
+                  "chargePerUnit": 0.8
+                }
+              ],
+              "regularCouponsTotal": 1.51,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 7
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "901974",
+      "421222",
+      "24418178"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT114137IG4AYDQ7"
+  }
+}

@@ -1,0 +1,1517 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20250327.4.89424",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-27T21:01:26",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZwekhWT2VXcGdFSk5JNUVlWjhJWGx3TDZXazd3OFR4VXFkMDBKeTVSWGNMZUk2SXc1MkNpUzVWUWtWcDZMbHdOR3VpNW93STQwVzdpQnRpYkJ5YVk9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.28,
+  "orderLines": [
+    {
+      "productSku": "2841782",
+      "productName": "WOVEN STRAP LG ESP",
+      "productShortDesc": "WOVEN STRAP LG ESP",
+      "productLongDesc": "WOVEN STRAP LG ESP",
+      "unitPrice": 16.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$thb$",
+      "productURL": "kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782",
+      "model": "25091-CHOCO-ST",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2841782",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "319320",
+      "productName": "SOUR PATCH KIDS 3.",
+      "productShortDesc": "SOUR PATCH KIDS 3.",
+      "productLongDesc": "SOUR PATCH KIDS 3.",
+      "unitPrice": 2.29,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$thb$",
+      "productURL": "cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320",
+      "model": "SPK12",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "319320",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "485949",
+      "productName": "SCOTCH INT/EXT MNT",
+      "productShortDesc": "SCOTCH INT/EXT MNT",
+      "productLongDesc": "SCOTCH INT/EXT MNT",
+      "unitPrice": 29.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+      "productURL": "scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+      "model": "4011-LONG",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "485949",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "485949",
+      "productName": "SCOTCH INT/EXT MNT",
+      "productShortDesc": "SCOTCH INT/EXT MNT",
+      "productLongDesc": "SCOTCH INT/EXT MNT",
+      "unitPrice": 29.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+      "productURL": "scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+      "model": "4011-LONG",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "485949",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:43.012572505",
+      "resourceName": "OrderDetails",
+      "transactionId": "9da42bfcb75b4bab960baa812b07054f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250327.4.89424",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20250327.4.89424",
+    "orderDate": "2025-03-27T21:01:26",
+    "keyForOrderDetails": "U3RNREdXakZIY1dLaStZTGJldVFFajJYK0ZjVUtHRHBUMkh5dzAvTWkyWGxEZ0tPV2F1bmNCR3gzTkY2UDlOdEJaL0poRFh0UUNtR3A4dHNRQTA4NEpWcUE9",
+    "orderUrlKey": "U3RNREdXakZIY1dLaStZTGJldVFFajJYK0ZjVUtHRHBUMkh5dzAvTWkyWGxEZ0tPV2F1bmNCR3gzTkY2UDlOdEJaL0poRFh0UUNtR3A4dHNRQTA4NEpWcUE9",
+    "customerNumberKey": "U3RNREVqZUR0dU9sZElpeEo1ODdnR2lHR0c1ZUR5Y2dRSmFLTTJmNTZGcUlJVVJRTEtXM2lSY2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 79.26,
+    "discountsTotal": 79,
+    "couponsTotal": 0,
+    "pointsRedeemedValue": 79,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.02,
+    "grandTotal": 0.28,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "485949",
+              "compareItemID": "485949",
+              "url": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D12A4013-B712-4053-93C14BE314BD7000_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D12A4013-B712-4053-93C14BE314BD7000_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7"
+              ],
+              "title": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+              "model": "4011-LONG",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "485949"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "4011-LONG"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Tape, Fasteners & Adhesives",
+              "baseCatId": "CL350610",
+              "hierarchy": {
+                "department": {
+                  "id": "DP100",
+                  "name": "Tape"
+                },
+                "category": {
+                  "id": "CG3745",
+                  "name": "Tape, Fasteners & Adhesives"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL350610",
+                  "name": "Mounting Tape"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350610",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.42,
+              "ratingCount": 38,
+              "ratingUrl": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 3,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 2,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 30,
+                  "reviewPercent": 79
+                }
+              ],
+              "price": "$31.49",
+              "priceValue": 31.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Equipped with our powerful permanent adhesive, this double-sided tape defies gravity, holding an item up to 24 pounds. It's weather resistant for a long lasting bond, indoors and outdoors. So whether you\u2019re mounting artwork in your new apartment, or adding wall organization to the garage, Scotch Extreme Double-Sided Mounting Tape does the job quickly, easily and without the hassle of tools."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Maximum Strength - Our strongest tape delivers a superior, conformable bond on contact",
+                  "Intended for indoor and outdoor use",
+                  "Holds up to 24 lb. with 3M industrial strength adhesive To hold 1 lb. use 2\" To hold 24 lb. use 48\"",
+                  "Designed For: Painted Drywall, Painted/Finished Wood, Metal, Acrylic, Smooth Stone, and Painted Concrete",
+                  "Application temperature 50\u00b0F to 100\u00b0F",
+                  "Easy-to-apply design with no mess or tools",
+                  "Use instead of nails or screws",
+                  "Ensure your surface is smooth, clean and dry for the best bond",
+                  "Great for do-it-yourself projects",
+                  "Made in the USA with Globally Sourced Materials",
+                  "Size: 1 in x 400 in Roll",
+                  "Color: Black"
+                ],
+                "headliner": [
+                  "For your toughest jobs, go for our strongest hold\u2013Scotch Extreme Double-Sided Mounting Tape with its 3M industrial strength adhesive."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "SCOTCH INT/EXT MNT",
+              "skuNumber": "485949",
+              "unitPrice": 29.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0066
+                }
+              ],
+              "couponTotal": 29.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 29.89,
+                  "chargePerUnit": 29.89
+                }
+              ],
+              "regularCouponsTotal": 29.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "319320",
+              "compareItemID": "319320",
+              "url": "/cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)~#|#~m000113077_sc7"
+              ],
+              "title": "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)",
+              "model": "SPK12",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "319320"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "SPK12"
+                }
+              ],
+              "manufacturerName": "Sour Patch Kids",
+              "brandName": "Sour Patch Kids",
+              "baseCatName": "Candy, Gum & Mints",
+              "baseCatId": "CL354485",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4695",
+                  "name": "Candy, Gum & Mints"
+                },
+                "category": {
+                  "id": "CG1253",
+                  "name": "Candy, Gum & Mints"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL354485",
+                  "name": "Gummy & Chewy Candy"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354485",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Box",
+              "rating": 4.81,
+              "ratingCount": 84,
+              "ratingUrl": "/cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 7,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 74,
+                  "reviewPercent": 88
+                }
+              ],
+              "price": "$2.29",
+              "priceValue": 2.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Cadbury Adams 3.5 oz Sour patch kid's theater box comes with lemon orange, lime and cherry flavor candies. Theater box has candies that are fat/nut free and is ideal for fun parties."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Lemon, Orange, Lime, and Cherry",
+                  "3.5 oz. Theater Box",
+                  "12 Theater Boxes per order",
+                  "Made in the USA",
+                  "Fat Free",
+                  "Nut Free"
+                ],
+                "headliner": [
+                  "Soft gummy candy with a coating of sour sugar and packed in a 3.5 oz. theater box."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SOUR PATCH KIDS 3.",
+              "skuNumber": "319320",
+              "unitPrice": 2.29,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 2.29,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.29,
+                  "chargePerUnit": 2.29
+                }
+              ],
+              "regularCouponsTotal": 2.29,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 2.29,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "485949",
+              "compareItemID": "485949",
+              "url": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D12A4013-B712-4053-93C14BE314BD7000_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D12A4013-B712-4053-93C14BE314BD7000_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7",
+                "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7"
+              ],
+              "title": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+              "model": "4011-LONG",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "485949"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "4011-LONG"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Tape, Fasteners & Adhesives",
+              "baseCatId": "CL350610",
+              "hierarchy": {
+                "department": {
+                  "id": "DP100",
+                  "name": "Tape"
+                },
+                "category": {
+                  "id": "CG3745",
+                  "name": "Tape, Fasteners & Adhesives"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL350610",
+                  "name": "Mounting Tape"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350610",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Roll",
+              "rating": 4.42,
+              "ratingCount": 38,
+              "ratingUrl": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 3,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 2,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 30,
+                  "reviewPercent": 79
+                }
+              ],
+              "price": "$31.49",
+              "priceValue": 31.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Equipped with our powerful permanent adhesive, this double-sided tape defies gravity, holding an item up to 24 pounds. It's weather resistant for a long lasting bond, indoors and outdoors. So whether you\u2019re mounting artwork in your new apartment, or adding wall organization to the garage, Scotch Extreme Double-Sided Mounting Tape does the job quickly, easily and without the hassle of tools."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Maximum Strength - Our strongest tape delivers a superior, conformable bond on contact",
+                  "Intended for indoor and outdoor use",
+                  "Holds up to 24 lb. with 3M industrial strength adhesive To hold 1 lb. use 2\" To hold 24 lb. use 48\"",
+                  "Designed For: Painted Drywall, Painted/Finished Wood, Metal, Acrylic, Smooth Stone, and Painted Concrete",
+                  "Application temperature 50\u00b0F to 100\u00b0F",
+                  "Easy-to-apply design with no mess or tools",
+                  "Use instead of nails or screws",
+                  "Ensure your surface is smooth, clean and dry for the best bond",
+                  "Great for do-it-yourself projects",
+                  "Made in the USA with Globally Sourced Materials",
+                  "Size: 1 in x 400 in Roll",
+                  "Color: Black"
+                ],
+                "headliner": [
+                  "For your toughest jobs, go for our strongest hold\u2013Scotch Extreme Double-Sided Mounting Tape with its 3M industrial strength adhesive."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "SCOTCH INT/EXT MNT",
+              "skuNumber": "485949",
+              "unitPrice": 29.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0066
+                }
+              ],
+              "couponTotal": 29.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 29.89,
+                  "chargePerUnit": 29.89
+                }
+              ],
+              "regularCouponsTotal": 29.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "2841782",
+              "compareItemID": "2841782",
+              "url": "/kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp106730873_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp106730874_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730872_sc7",
+                "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730873_sc7",
+                "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730874_sc7"
+              ],
+              "title": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+              "model": "25091-CHOCO-ST",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2841782"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "25091-CHOCO-ST"
+                }
+              ],
+              "manufacturerName": "Kennedy International",
+              "brandName": "Kennedy International",
+              "baseCatName": "Storage & Organization",
+              "baseCatId": "CL354710",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8128",
+                  "name": "Storage & Organization"
+                },
+                "category": {
+                  "id": "CG3633",
+                  "name": "Storage & Organization"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL354710",
+                  "name": "Storage Bins"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354710",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.6,
+              "ratingCount": 5,
+              "ratingUrl": "/kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 2,
+                  "reviewPercent": 40
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 3,
+                  "reviewPercent": 60
+                }
+              ],
+              "price": "$16.99",
+              "priceValue": 16.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Mar 03 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Keep your workstation or bookshelf organized with this woven strap storage bin. The large dimensions expand workstation storage space and accommodate plenty of accessories and personal items, and the durable polyester straps support heavy items without tearing. Integrated handles make carrying this Simplify large woven strap storage bin easy, and a fashionable yet professional appearance fits in with both home and office decor."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "This storage bin organizer is a great accessory for all your home needs",
+                  "Comes in chocolate color and made of sturdy plastic",
+                  "Open storage bin allows for easy access to items",
+                  "Dimensions: 10\"H x 15\"W x 13\"D",
+                  "Features durable wipe-clean woven plastic fabric strapping",
+                  "Comes with two looping carrying handles for easy carrying",
+                  "Includes epoxy-coated steel frame to help retain shape",
+                  "Features lightweight design"
+                ],
+                "headliner": [
+                  "Store clothes, books, and large office supplies with this Simplify large woven strap storage bin."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp106730873_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "WOVEN STRAP LG ESP",
+              "skuNumber": "2841782",
+              "unitPrice": 16.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.06,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.004
+                }
+              ],
+              "couponTotal": 16.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 16.93,
+                  "chargePerUnit": 16.93
+                }
+              ],
+              "regularCouponsTotal": 16.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 16.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.39.20250329.2.39673",
+        "masterOrderNumber": "POS.542.20250327.4.89424",
+        "returnedDate": "2025-03-29T14:08:12",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 76.97,
+            "couponTotal": 76.71,
+            "regularCouponsTotal": 76.71,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.0172,
+            "grandTotal": 0.2772,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1",
+                  "itemId": "485949",
+                  "compareItemID": "485949",
+                  "url": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D12A4013-B712-4053-93C14BE314BD7000_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D12A4013-B712-4053-93C14BE314BD7000_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7"
+                  ],
+                  "title": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+                  "model": "4011-LONG",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "485949"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "4011-LONG"
+                    }
+                  ],
+                  "manufacturerName": "Scotch",
+                  "brandName": "Scotch",
+                  "baseCatName": "Tape, Fasteners & Adhesives",
+                  "baseCatId": "CL350610",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP100",
+                      "name": "Tape"
+                    },
+                    "category": {
+                      "id": "CG3745",
+                      "name": "Tape, Fasteners & Adhesives"
+                    },
+                    "supercategory": {
+                      "id": "SC1",
+                      "name": "Office Supplies"
+                    },
+                    "class": {
+                      "id": "CL350610",
+                      "name": "Mounting Tape"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL350610",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "Roll",
+                  "rating": 4.42,
+                  "ratingCount": 38,
+                  "ratingUrl": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 3,
+                      "reviewPercent": 8
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 2,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 3
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 2,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 30,
+                      "reviewPercent": 79
+                    }
+                  ],
+                  "price": "$31.49",
+                  "priceValue": 31.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "BOPIS",
+                    "text": "Pick up in 30 minutes"
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Equipped with our powerful permanent adhesive, this double-sided tape defies gravity, holding an item up to 24 pounds. It's weather resistant for a long lasting bond, indoors and outdoors. So whether you\u2019re mounting artwork in your new apartment, or adding wall organization to the garage, Scotch Extreme Double-Sided Mounting Tape does the job quickly, easily and without the hassle of tools."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Maximum Strength - Our strongest tape delivers a superior, conformable bond on contact",
+                      "Intended for indoor and outdoor use",
+                      "Holds up to 24 lb. with 3M industrial strength adhesive To hold 1 lb. use 2\" To hold 24 lb. use 48\"",
+                      "Designed For: Painted Drywall, Painted/Finished Wood, Metal, Acrylic, Smooth Stone, and Painted Concrete",
+                      "Application temperature 50\u00b0F to 100\u00b0F",
+                      "Easy-to-apply design with no mess or tools",
+                      "Use instead of nails or screws",
+                      "Ensure your surface is smooth, clean and dry for the best bond",
+                      "Great for do-it-yourself projects",
+                      "Made in the USA with Globally Sourced Materials",
+                      "Size: 1 in x 400 in Roll",
+                      "Color: Black"
+                    ],
+                    "headliner": [
+                      "For your toughest jobs, go for our strongest hold\u2013Scotch Extreme Double-Sided Mounting Tape with its 3M industrial strength adhesive."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$std$",
+                  "isRPDC": true,
+                  "madeInAmerica": true,
+                  "STSEligible": true,
+                  "skuDescription": "SCOTCH INT/EXT MNTNG TP 1X450",
+                  "skuNumber": "485949",
+                  "unitPrice": 29.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1066,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0066,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0066
+                    }
+                  ],
+                  "couponTotal": 29.89,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 29.89
+                    }
+                  ],
+                  "regularCouponsTotal": 29.89,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 29.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1",
+                  "itemId": "485949",
+                  "compareItemID": "485949",
+                  "url": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D12A4013-B712-4053-93C14BE314BD7000_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D53D9654-FE90-4FFB-9A56C535BE1B26F9_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~FFC8E6EA-F031-4E6C-B5327D9F8C50BB96_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~64F1CA8F-5300-467B-8A8B08BB5ECCF0FA_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~D12A4013-B712-4053-93C14BE314BD7000_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~7F9326A3-064D-4D5C-AE6C2DD4286BB237_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~F3F233B9-AF8F-4231-BF23642DC83E6B36_sc7",
+                    "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)~#|#~6EA69765-1381-4BDF-BBD4AAF37FDFBC06_sc7"
+                  ],
+                  "title": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+                  "model": "4011-LONG",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "485949"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "4011-LONG"
+                    }
+                  ],
+                  "manufacturerName": "Scotch",
+                  "brandName": "Scotch",
+                  "baseCatName": "Tape, Fasteners & Adhesives",
+                  "baseCatId": "CL350610",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP100",
+                      "name": "Tape"
+                    },
+                    "category": {
+                      "id": "CG3745",
+                      "name": "Tape, Fasteners & Adhesives"
+                    },
+                    "supercategory": {
+                      "id": "SC1",
+                      "name": "Office Supplies"
+                    },
+                    "class": {
+                      "id": "CL350610",
+                      "name": "Mounting Tape"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL350610",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "Roll",
+                  "rating": 4.42,
+                  "ratingCount": 38,
+                  "ratingUrl": "/scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 3,
+                      "reviewPercent": 8
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 2,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 3
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 2,
+                      "reviewPercent": 5
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 30,
+                      "reviewPercent": 79
+                    }
+                  ],
+                  "price": "$31.49",
+                  "priceValue": 31.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "BOPIS",
+                    "text": "Pick up in 30 minutes"
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Equipped with our powerful permanent adhesive, this double-sided tape defies gravity, holding an item up to 24 pounds. It's weather resistant for a long lasting bond, indoors and outdoors. So whether you\u2019re mounting artwork in your new apartment, or adding wall organization to the garage, Scotch Extreme Double-Sided Mounting Tape does the job quickly, easily and without the hassle of tools."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Maximum Strength - Our strongest tape delivers a superior, conformable bond on contact",
+                      "Intended for indoor and outdoor use",
+                      "Holds up to 24 lb. with 3M industrial strength adhesive To hold 1 lb. use 2\" To hold 24 lb. use 48\"",
+                      "Designed For: Painted Drywall, Painted/Finished Wood, Metal, Acrylic, Smooth Stone, and Painted Concrete",
+                      "Application temperature 50\u00b0F to 100\u00b0F",
+                      "Easy-to-apply design with no mess or tools",
+                      "Use instead of nails or screws",
+                      "Ensure your surface is smooth, clean and dry for the best bond",
+                      "Great for do-it-yourself projects",
+                      "Made in the USA with Globally Sourced Materials",
+                      "Size: 1 in x 400 in Roll",
+                      "Color: Black"
+                    ],
+                    "headliner": [
+                      "For your toughest jobs, go for our strongest hold\u2013Scotch Extreme Double-Sided Mounting Tape with its 3M industrial strength adhesive."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/A67D55E9-17BF-414C-A22D3ACD29CD41F9_sc7?$std$",
+                  "isRPDC": true,
+                  "madeInAmerica": true,
+                  "STSEligible": true,
+                  "skuDescription": "SCOTCH INT/EXT MNTNG TP 1X450",
+                  "skuNumber": "485949",
+                  "unitPrice": 29.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.1066,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.0066,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.0066
+                    }
+                  ],
+                  "couponTotal": 29.89,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 29.89
+                    }
+                  ],
+                  "regularCouponsTotal": 29.89,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 29.99,
+                  "isSpecialItem": false
+                },
+                {
+                  "scId": "SC1",
+                  "itemId": "2841782",
+                  "compareItemID": "2841782",
+                  "url": "/kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp106730873_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp106730874_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730872_sc7",
+                    "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730873_sc7",
+                    "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)~#|#~sp106730874_sc7"
+                  ],
+                  "title": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+                  "model": "25091-CHOCO-ST",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "2841782"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "25091-CHOCO-ST"
+                    }
+                  ],
+                  "manufacturerName": "Kennedy International",
+                  "brandName": "Kennedy International",
+                  "baseCatName": "Storage & Organization",
+                  "baseCatId": "CL354710",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP8128",
+                      "name": "Storage & Organization"
+                    },
+                    "category": {
+                      "id": "CG3633",
+                      "name": "Storage & Organization"
+                    },
+                    "supercategory": {
+                      "id": "SC1",
+                      "name": "Office Supplies"
+                    },
+                    "class": {
+                      "id": "CL354710",
+                      "name": "Storage Bins"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL354710",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.6,
+                  "ratingCount": 5,
+                  "ratingUrl": "/kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 2,
+                      "reviewPercent": 40
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "reviewPercent": 60
+                    }
+                  ],
+                  "price": "$16.99",
+                  "priceValue": 16.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Tue, ",
+                    "date": "Tue Mar 03 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Keep your workstation or bookshelf organized with this woven strap storage bin. The large dimensions expand workstation storage space and accommodate plenty of accessories and personal items, and the durable polyester straps support heavy items without tearing. Integrated handles make carrying this Simplify large woven strap storage bin easy, and a fashionable yet professional appearance fits in with both home and office decor."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "This storage bin organizer is a great accessory for all your home needs",
+                      "Comes in chocolate color and made of sturdy plastic",
+                      "Open storage bin allows for easy access to items",
+                      "Dimensions: 10\"H x 15\"W x 13\"D",
+                      "Features durable wipe-clean woven plastic fabric strapping",
+                      "Comes with two looping carrying handles for easy carrying",
+                      "Includes epoxy-coated steel frame to help retain shape",
+                      "Features lightweight design"
+                    ],
+                    "headliner": [
+                      "Store clothes, books, and large office supplies with this Simplify large woven strap storage bin."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp106730873_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "WOVEN STRAP LG ESPRESSO",
+                  "skuNumber": "2841782",
+                  "unitPrice": 16.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 0.064,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.004,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.004
+                    }
+                  ],
+                  "couponTotal": 16.93,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 16.93
+                    }
+                  ],
+                  "regularCouponsTotal": 16.93,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 16.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 3
+          }
+        ],
+        "orderUrlKey": "U3RNREZMVXNpMzBVTThacDZvbzFiNlc4RjF6ZnZRRUgyOGFKVGYveGxNU25JeUJmTWw0UFFiTVlRMWZPUlVnQXNOTzlSVzB1UWliT0V4WVZsTWFjTC82QT09"
+      }
+    ],
+    "productsOnOrder": [
+      "319320",
+      "2841782",
+      "485949"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-03-29T14:08:12",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT117194CF4AYTAH"
+  }
+}

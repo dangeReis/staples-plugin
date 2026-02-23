@@ -1,0 +1,109 @@
+{
+  "customerNumber": "2148476399",
+  "orderNumber": "9928958397",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-03-15T12:32:05",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREUyUlZOK2E4cFNwTnZvQ0drUkJlY2xya3dJekd5WUs3eVhmT0luUXIvWTlCZzFlalVsN0NESGZPNXRXQlN2ZDdtaA==",
+  "salesTranID": "25499557663",
+  "ordererUserID": "20020782353",
+  "linelevelBCEnabled": false,
+  "statusCd": "1000",
+  "statusDesc": "Picked up",
+  "merchandiseTotal": 0,
+  "grandTotal": 0.96,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "240994479318",
+      "lineType": "ISP",
+      "productSku": "1635472",
+      "productName": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 48/Box (81911/15171)",
+      "productDepartment": "5",
+      "productClass": "509",
+      "productSubClass": "50",
+      "vendorModel": "5000356566",
+      "productUOM": "EACH",
+      "unitPrice": 32.89,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 0.48,
+      "invoicedTotal": 0.48,
+      "statuses": [
+        {
+          "statusCode": "1000",
+          "statusDesc": "Picked up",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700.200",
+      "productDesc": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 48/Box (81911/15171)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C37E10C4-CD88-4A80-AE6B3BA9250EBDCF_sc7?$thb$",
+      "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-48-box-81911-15171/product_1635472",
+      "model": "5000378894/6566",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "1635472",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "240994479319",
+      "lineType": "ISP",
+      "productSku": "2091512",
+      "productName": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+      "productDepartment": "5",
+      "productClass": "509",
+      "productSubClass": "50",
+      "vendorModel": "5000380570",
+      "productUOM": "EACH",
+      "unitPrice": 34.99,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 0.48,
+      "invoicedTotal": 0.48,
+      "statuses": [
+        {
+          "statusCode": "1000",
+          "statusDesc": "Picked up",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700.200",
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "model": "5000380570",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2091512",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 0,
+  "pointsRedeemed": 14400,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online"
+}

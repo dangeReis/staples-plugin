@@ -1,0 +1,388 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20241020.4.65133",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-20T12:57:09",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREUvbnRzMXZ6SHJibXduNXlaQzFvQzJiVlJzVzQxZEl2OGdwMm1ha0pEUjFMNWl6ZnZtQTBXeHZzcXpVSElZV1BaNnpoWVJuaTFUTEFzUjh2M1hWa3c9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 339.99,
+  "orderLines": [
+    {
+      "productSku": "24592836",
+      "productName": "HP COLOR LJPRO MFP",
+      "productShortDesc": "HP COLOR LJPRO MFP",
+      "productLongDesc": "HP COLOR LJPRO MFP",
+      "unitPrice": 529.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1B33099E-D457-4151-8B3B7ADD758CECFD_sc7?$thb$",
+      "productURL": "hp-color-laserjet-pro-mfp-3301fdw-wireless-all-in-one-color-laser-printer-adf-duplex-best-for-office-499q5f/product_24592836",
+      "model": "499Q5F#BGJ",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24592836",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:31.612049556",
+      "resourceName": "OrderDetails",
+      "transactionId": "3cc1086dea7f40a6bc97259c5833d9ad",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241020.4.65133",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20241020.4.65133",
+    "orderDate": "2024-10-20T12:57:09",
+    "keyForOrderDetails": "U3RNREZzdkJIOHA2S1hZTll2Q1hoVkQ1OUcrQ3VmMGdFV3RuMWp5dDNWaUxLVTdLRy9WdlJqcDh1YzdvTHR3dzcwb2hSeFNaVUprM0hnSjUvSzZKM0lkUUk9",
+    "orderUrlKey": "U3RNREZzdkJIOHA2S1hZTll2Q1hoVkQ1OUcrQ3VmMGdFV3RuMWp5dDNWaUxLVTdLRy9WdlJqcDh1YzdvTHR3dzcwb2hSeFNaVUprM0hnSjUvSzZKM0lkUUk9",
+    "customerNumberKey": "U3RNREZGWmY5Q0Z0RmpNK0hmaU8xYWVzR0pjaUFQenIxWC9aZlc0LzBZeUVUa3dSamc4TWJOZnc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 529.99,
+    "discountsTotal": 190,
+    "couponsTotal": 190,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 339.99,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5435",
+              "itemId": "24592836",
+              "compareItemID": "24592836",
+              "url": "/hp-color-laserjet-pro-mfp-3301fdw-wireless-all-in-one-color-laser-printer-adf-duplex-best-for-office-499q5f/product_24592836",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/1B33099E-D457-4151-8B3B7ADD758CECFD_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/1B33099E-D457-4151-8B3B7ADD758CECFD_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9AAA8531-5AAE-4669-9ACE812A4872D45B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/907E0D53-C5FB-4401-8213E12BA1648154_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/92273D7E-2FDB-4D6A-BC8054D8EFBBA7D5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1AEC81B2-ECA2-4396-8685A4D9AC39B613_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/38A63AF4-D11F-4C6C-B314F33FE8390196_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D477A515-C346-4CF3-9D9927819E363D43_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1DE5B675-C974-440A-803CE6FAAD0B0389_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0D60ED22-F7F6-43F1-8EA5D29D2D552B8D_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~1B33099E-D457-4151-8B3B7ADD758CECFD_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~9AAA8531-5AAE-4669-9ACE812A4872D45B_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~907E0D53-C5FB-4401-8213E12BA1648154_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~92273D7E-2FDB-4D6A-BC8054D8EFBBA7D5_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~1AEC81B2-ECA2-4396-8685A4D9AC39B613_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~38A63AF4-D11F-4C6C-B314F33FE8390196_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~D477A515-C346-4CF3-9D9927819E363D43_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~1DE5B675-C974-440A-803CE6FAAD0B0389_sc7",
+                "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)~#|#~0D60ED22-F7F6-43F1-8EA5D29D2D552B8D_sc7"
+              ],
+              "title": "HP LaserJet Pro MFP 3301fdw Wireless Color All-In-One Printer, Scan, Copy, Fax, Best for Office, AI Enabled (499Q5F)",
+              "model": "499Q5F#BGJ",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24592836"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "499Q5F#BGJ"
+                }
+              ],
+              "manufacturerName": "HP",
+              "brandName": "HP",
+              "baseCatName": "",
+              "baseCatId": "CL167883",
+              "hierarchy": {
+                "department": {
+                  "id": "DP5243",
+                  "name": "Printers"
+                },
+                "category": {
+                  "id": "CG44",
+                  "name": "Printers & 3D Printers"
+                },
+                "supercategory": {
+                  "id": "SC5435",
+                  "name": "Printers & Scanners"
+                },
+                "class": {
+                  "id": "CL167883",
+                  "name": "Printers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL167883",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$90.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.22,
+              "ratingCount": 593,
+              "ratingUrl": "/hp-color-laserjet-pro-mfp-3301fdw-wireless-all-in-one-color-laser-printer-adf-duplex-best-for-office-499q5f/product_24592836?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 66,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 16,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 38,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 76,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 397,
+                  "reviewPercent": 67
+                }
+              ],
+              "price": "$549.99",
+              "priceValue": 549.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The HP Color LaserJet Pro MFP 3301fdw delivers vibrant laser-quality color and powerful all-in-one print, scan, copy and fax productivity. Fast and effortless with self-healing wireless and advanced features for small teams."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "PERFECT FOR OFFICE \u2013 Print, scan and copy professional-quality color documents and reports. Auto 2-sided printing/scanning and auto document feeder for fast scan/copy, plus fax. Perfect for up to 7 people.",
+                  "SCAN TO EMAIL WITH HP AI \u2013 Save time when scanning documents to email. HP AI automatically generates smart subject lines, file names, and actionable summaries to streamline your workflow.",
+                  "ORIGINAL HP TONER CARTRIDGES \u2013 This HP printer uses Original HP 218A standard and 218X high yield LaserJet toner cartridges.",
+                  "STAYS CONNECTED \u2013 Reliable Wi-Fi automatically reconnects to stay online and ready to print.",
+                  "FAST COLOR \u2013 Up to 26 color pages per minute, with sharp details and incredible color.",
+                  "PROTECTS YOUR DATA \u2013 Includes HP Wolf Pro Security with customizable settings so your printer and information are always secure.",
+                  "EASY TO SET UP \u2013 Get started fast with easy setup that guides you, step by step. Simply download the HP app, connect to a network, and share your printer across all your devices.",
+                  "SUSTAINABLE DESIGN \u2013 Decrease your carbon footprint with a printer and toner cartridges built to reduce plastic use and energy consumption. The 3301fdw is Energy Star\u00ae and EPEAT\u00ae certified. Recycle your toner cartridges at a Staples store near you.",
+                  "HP APP \u2013 Print, scan, copy, or fax right from your smartphone with the easiest-to-use print app.",
+                  "WHAT'S IN THE BOX - 499Q5F HP Color LaserJet Pro 3301fdw All-in-One Printer, Four Original HP 218A Toner Cartridges (black, cyan, magenta, yellow), user guide, flyers, power cord."
+                ],
+                "headliner": [
+                  "Get strong multifunction performance, fast color speeds, AI features, and wireless connectivity for an effortless and secure printing experience with the Color LaserJet Pro MFP 3301fdw."
+                ],
+                "expandedDescr": [
+                  "This printer is intended to work only with cartridges with original HP chips or circuitry and will block cartridges using non-HP chips or circuitry. Periodic firmware updates will maintain the effectiveness of these measures. More at www.hp.com/learn/ds."
+                ]
+              },
+              "skusetID": "SS238250996",
+              "totalSavingsPercentage": 14.06,
+              "printerHighlights": [
+                {
+                  "iconName": "cartridge",
+                  "specName": "Cartridge type",
+                  "specificationName": "Printer Type",
+                  "specValue": "Toner"
+                },
+                {
+                  "iconName": "paper-alt",
+                  "specName": "Max Paper Size",
+                  "specificationName": "Printer Max Paper Size",
+                  "specValue": "8.5\" x 14\" Legal"
+                },
+                {
+                  "iconName": "ink-drops",
+                  "specName": "Output Type",
+                  "specificationName": "Output Type",
+                  "specValue": "Color"
+                },
+                {
+                  "iconName": "print",
+                  "specName": "Functionality",
+                  "specificationName": "Printer Function",
+                  "specValue": "All-In-One"
+                }
+              ],
+              "isRPDC": true,
+              "originalPrice": "$639.99",
+              "originalPriceLabel": "Regular price",
+              "STSEligible": true,
+              "skuDescription": "HP COLOR LJPRO MFP",
+              "skuNumber": "24592836",
+              "unitPrice": 529.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 339.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 190,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 100,
+                  "chargePerUnit": 100
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Save $30 on select printers when you trade-in.",
+                  "chargeDesc": "Save $30 on select printers when you trade-in.",
+                  "chargeAmount": 30,
+                  "chargePerUnit": 30
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $489.99",
+                  "chargeName": "100% Price Guarantee $489.99",
+                  "chargeDesc": "100% Price Guarantee $489.99",
+                  "chargeAmount": 40,
+                  "chargePerUnit": 40
+                }
+              ],
+              "regularCouponsTotal": 190,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 529.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24592836"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716NE64AYFJ1"
+  }
+}

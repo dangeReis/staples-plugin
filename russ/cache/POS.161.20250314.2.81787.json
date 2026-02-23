@@ -1,0 +1,722 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.161.20250314.2.81787",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-14T21:05:10",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREUxS0xRRjhaVkk3RXFEZEc0engrck16SjlGUWxObmNXYnVjbGdpTjc0aFVNVkZ6LzNZUzFDQU90aU53MmNvWEI3YW8rSnBPb3BHR1Rtakg1K24xVUE9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.02,
+  "orderLines": [
+    {
+      "productSku": "742295",
+      "productName": "24X16X10 LARGE REC",
+      "productShortDesc": "24X16X10 LARGE REC",
+      "productLongDesc": "24X16X10 LARGE REC",
+      "unitPrice": 5.5,
+      "orderQty": 5,
+      "originalOrderedQty": 5,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "24\" x 10\" x 16\" Shipping Boxes (ST55963)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$thb$",
+      "productURL": "staples-24-x-16-x-10-32-ect-box-each/product_742295",
+      "model": "ST55963",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "742295",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "1989257",
+      "productName": "12X9X9 RECTANGLE B",
+      "productShortDesc": "12X9X9 RECTANGLE B",
+      "productLongDesc": "12X9X9 RECTANGLE B",
+      "unitPrice": 3,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "12\" x 9\" x 9\" Shipping Boxes (ST55968)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0193773_sc7?$thb$",
+      "productURL": "staples-12-x-9-x-9-32-ect-box-each/product_1989257",
+      "model": "ST55968",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "1989257",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "742293",
+      "productName": "16X12X10 RECTANGLE",
+      "productShortDesc": "16X12X10 RECTANGLE",
+      "productLongDesc": "16X12X10 RECTANGLE",
+      "unitPrice": 3.5,
+      "orderQty": 6,
+      "originalOrderedQty": 6,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$thb$",
+      "productURL": "16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293",
+      "model": "ST55961",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "742293",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "161",
+  "storeAddressLine1": "280 Rte 17, Suite 197",
+  "storeCity": "EAST RUTHERFORD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:34:49.503531882",
+      "resourceName": "OrderDetails",
+      "transactionId": "07d79eda210d4538ad06d072d82904ff",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.161.20250314.2.81787",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.161.20250314.2.81787",
+    "orderDate": "2025-03-14T21:05:10",
+    "keyForOrderDetails": "U3RNREd2OEVFZmJ6ek5XNTlDQ0htWkZBYzc5YXNXb1NidVQyUTJTVmNKd3o3cWJSSEIwbHh6eGc1LzAzbHQ0U3NnNEppZDdtbTlzWmNIRlN4K01NY1Bwa3c9",
+    "orderUrlKey": "U3RNREd2OEVFZmJ6ek5XNTlDQ0htWkZBYzc5YXNXb1NidVQyUTJTVmNKd3o3cWJSSEIwbHh6eGc1LzAzbHQ0U3NnNEppZDdtbTlzWmNIRlN4K01NY1Bwa3c9",
+    "customerNumberKey": "U3RNREZURWVtcDhqZDd4WEo1V0pPR0JlYktHV0FCcUI0cytWc3Qwb3d5bG1sMVZHeXhXUTNIOFE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 51.5,
+    "discountsTotal": 51.48,
+    "couponsTotal": 33.48,
+    "pointsRedeemedValue": 18,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.02,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "280 Rte 17, Suite 197",
+        "city": "EAST RUTHERFORD",
+        "state": "NJ",
+        "zipCode": "07073"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "742295",
+              "compareItemID": "742295",
+              "url": "/staples-24-x-16-x-10-32-ect-box-each/product_742295",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "24\" x 10\" x 16\" Shipping Boxes (ST55963)~#|#~s0153701_sc7"
+              ],
+              "title": "24\" x 10\" x 16\" Shipping Boxes (ST55963)",
+              "model": "ST55963",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "742295"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55963"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 412,
+              "ratingUrl": "/staples-24-x-16-x-10-32-ect-box-each/product_742295?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 20,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 42,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 331,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$5.50",
+              "priceValue": 5.5,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Shipping boxes help ensure items are protected during shipping"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Comes flat, easy to store",
+                  "Contains 100% recycled content",
+                  "Overall dimensions: 24\"L x 16\"W x 10\"H"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "24X16X10 LARGE REC",
+              "skuNumber": "742295",
+              "unitPrice": 5.5,
+              "qtyOrdered": 5,
+              "qtyShipped": 5,
+              "isReshipped": false,
+              "lineTotal": 0.02,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0015
+                }
+              ],
+              "couponTotal": 27.48,
+              "couponDetails": [
+                {
+                  "chargeNo": "212945",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 13.75,
+                  "chargePerUnit": 2.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "30% off select shipping supplies",
+                  "chargeDesc": "30% off select shipping supplies",
+                  "chargeAmount": 4.12,
+                  "chargePerUnit": 0.824
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 9.61,
+                  "chargePerUnit": 1.922
+                }
+              ],
+              "regularCouponsTotal": 27.48,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 27.5,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "1989257",
+              "compareItemID": "1989257",
+              "url": "/staples-12-x-9-x-9-32-ect-box-each/product_1989257",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0193773_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0193773_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1126138_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "12\" x 9\" x 9\" Shipping Boxes (ST55968)~#|#~s0193773_sc7",
+                "12\" x 9\" x 9\" Shipping Boxes (ST55968)~#|#~s1126138_sc7"
+              ],
+              "title": "12\" x 9\" x 9\" Shipping Boxes (ST55968)",
+              "model": "ST55968",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1989257"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55968"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.78,
+              "ratingCount": 341,
+              "ratingUrl": "/staples-12-x-9-x-9-32-ect-box-each/product_1989257?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 9,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 27,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 297,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$3.00",
+              "priceValue": 3,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Shipping boxes help ensure items are protected during shipping"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Comes flat, easy to store",
+                  "Contains 100% recycled content",
+                  "Overall dimensions: 12\"L x 9\"W x 9\"H"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1126138_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "12X9X9 RECTANGLE B",
+              "skuNumber": "1989257",
+              "unitPrice": 3,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 3,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.04,
+                  "chargePerUnit": 1.04
+                },
+                {
+                  "chargeNo": "212945",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1.5,
+                  "chargePerUnit": 1.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "30% off select shipping supplies",
+                  "chargeDesc": "30% off select shipping supplies",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.46
+                }
+              ],
+              "regularCouponsTotal": 3,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "742293",
+              "compareItemID": "742293",
+              "url": "/16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)~#|#~s0193680_sc7"
+              ],
+              "title": "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)",
+              "model": "ST55961",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "742293"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55961"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 318,
+              "ratingUrl": "/16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 5,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 8,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 35,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 268,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$3.50",
+              "priceValue": 3.5,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Medium rectangle box"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Corrugated Boxes are manufactured from 200#/ECT 32 kraft corrugated",
+                  "Dimensions: 16\"x12\"x10\"",
+                  "Capacity (Cu. Ft.): 1.11",
+                  "Meets most mailing and shipping carrier specifications"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "16X12X10 RECTANGLE",
+              "skuNumber": "742293",
+              "unitPrice": 3.5,
+              "qtyOrdered": 6,
+              "qtyShipped": 6,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 21,
+              "couponDetails": [
+                {
+                  "chargeNo": "212945",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 10.5,
+                  "chargePerUnit": 1.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "30% off select shipping supplies",
+                  "chargeDesc": "30% off select shipping supplies",
+                  "chargeAmount": 3.15,
+                  "chargePerUnit": 0.525
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 7.35,
+                  "chargePerUnit": 1.225
+                }
+              ],
+              "regularCouponsTotal": 21,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 21,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 12
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "742295",
+      "742293",
+      "1989257"
+    ],
+    "storeNumber": "161",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "280 Rte 17, Suite 197",
+      "city": "EAST RUTHERFORD",
+      "state": "NJ",
+      "zipCode": "07073"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131A911417LYM4AYRPJ"
+  }
+}

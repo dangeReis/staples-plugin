@@ -1,0 +1,385 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20241020.4.65132",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-20T12:52:51",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhoYjRaSkd4TGJRN1dpWURCMlg0Y1dUcU55Ymg5T2YvRENIOVRMeU5rWHA3WnpnMG5MeTlPQ2pseHFmc1dVUHcvemQyckVIWWVxc0NPZndSTEowWmM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 6.39,
+  "orderLines": [
+    {
+      "productSku": "122408",
+      "productName": "HAMMERMILL 20/92 1",
+      "productShortDesc": "HAMMERMILL 20/92 1",
+      "productLongDesc": "HAMMERMILL 20/92 1",
+      "unitPrice": 8.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$thb$",
+      "productURL": "hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408",
+      "model": "105007/27062",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "122408",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:32.871128852",
+      "resourceName": "OrderDetails",
+      "transactionId": "79b311c1ff6f47bbb8b829245df0545e",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241020.4.65132",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20241020.4.65132",
+    "orderDate": "2024-10-20T12:52:51",
+    "keyForOrderDetails": "U3RNREh4RGRkWituWVRWN042UWhVdExZbnNHTGJYOE9OYkhmNkh2TE5RdWR2Ykl5ZHZDdmJjLzRsZDF1K1RSY1oyeWxWbDBya2dqMDZXYXJ4NW9aWEZsa0k9",
+    "orderUrlKey": "U3RNREh4RGRkWituWVRWN042UWhVdExZbnNHTGJYOE9OYkhmNkh2TE5RdWR2Ykl5ZHZDdmJjLzRsZDF1K1RSY1oyeWxWbDBya2dqMDZXYXJ4NW9aWEZsa0k9",
+    "customerNumberKey": "U3RNREVmRFVleGU5aEtNTkhaRDQyaTQxOFJ6RkNUWlhPNmlvdWt0TnhLSlg4dkJhc2tCZnRzMWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 8.99,
+    "discountsTotal": 3,
+    "couponsTotal": 3,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.4,
+    "grandTotal": 6.39,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1676",
+              "itemId": "122408",
+              "compareItemID": "122408",
+              "url": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072086_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072087_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072089_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072090_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167071732_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072234_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072236_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072084_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072086_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072087_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072089_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072090_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167071732_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072234_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072236_sc7"
+              ],
+              "title": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)",
+              "model": "105007/27062",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "122408"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "105007/27062"
+                }
+              ],
+              "manufacturerName": "Hammermill",
+              "brandName": "Hammermill",
+              "baseCatName": "",
+              "baseCatId": "CL140691",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10823",
+                  "name": "Copy Paper"
+                },
+                "category": {
+                  "id": "CG3853",
+                  "name": "Copy Paper"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL140691",
+                  "name": "Copy & Printer Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140691",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "500/Ream",
+              "rating": 4.63,
+              "ratingCount": 40193,
+              "ratingUrl": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 840,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 466,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1400,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 7212,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 30275,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$14.09",
+              "priceValue": 14.09,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$13.39",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 173396,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Tue, ",
+                "date": "Tue Feb 24 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bring a vibrant look to your printouts with this Hammermill Copy Plus copy paper. ColorLok technology delivers bold monochrome and bright color to each page, and the acid-free construction resists yellowing with age for archive-ready documents. This Hammermill Copy Plus copy paper comes with a 99.99 percent jam-free guarantee and is designed for use in all home and office printers, giving you a dependable and versatile option for office paperwork."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Reliable multipurpose paper is perfect for everyday use",
+                  "Paper weight: 20 lbs.; 50.8 lb. Text",
+                  "Sheet dimensions: 8.5\" x 11\" (US letter)",
+                  "Brightness rating: 92",
+                  "Smooth finish",
+                  "500 sheets per ream",
+                  "Acid Free",
+                  "Color: White",
+                  "FSC Certified"
+                ],
+                "headliner": [
+                  "Print professional-quality graphs, charts and diagrams with this Hammermill Copy Plus 8.5 x 11-inch copy paper."
+                ]
+              },
+              "skusetID": "SS101841976",
+              "totalSavingsPercentage": 0,
+              "paperFlavorDetails": [
+                {
+                  "attribute": "brightness",
+                  "specValue": "92",
+                  "specName": "Brightness",
+                  "iconName": "brightness-alt",
+                  "firstSpecificationName": "Brightness"
+                },
+                {
+                  "attribute": "weight",
+                  "specValue": "20",
+                  "specName": "Weight",
+                  "iconName": "weight-alt",
+                  "firstSpecificationName": "Paper Weight (lbs.)"
+                },
+                {
+                  "attribute": "paper",
+                  "specValue": "8.5\" x 11\"",
+                  "specName": "Paper size",
+                  "iconName": "paper-alt",
+                  "firstSpecificationName": "Width in Inches",
+                  "secondSpecificationName": "Length in Inches"
+                },
+                {
+                  "attribute": "sheets",
+                  "specValue": "500",
+                  "specName": "Sheets",
+                  "iconName": "sheets-alt",
+                  "firstSpecificationName": "Total Number of Sheets"
+                },
+                {
+                  "attribute": "reams",
+                  "specValue": "1",
+                  "specName": "Ream",
+                  "iconName": "reams-alt",
+                  "firstSpecificationName": "Number of Reams"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp167072086_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "HAMMERMILL 20/92 1",
+              "skuNumber": "122408",
+              "unitPrice": 8.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 5.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3968
+                }
+              ],
+              "couponTotal": 3,
+              "couponDetails": [
+                {
+                  "chargeNo": "212372",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #30170",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5.99 for Hammermill\u00ae Copy Plus\u00ae copy paper, 500 sheets.",
+                  "chargeDesc": "$5.99 for Hammermill\u00ae Copy Plus\u00ae copy paper, 500 sheets.",
+                  "chargeAmount": 2,
+                  "chargePerUnit": 2
+                }
+              ],
+              "regularCouponsTotal": 3,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "122408"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716NE44AYFJ7"
+  }
+}

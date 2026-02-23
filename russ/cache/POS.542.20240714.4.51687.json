@@ -1,0 +1,231 @@
+{
+  "customerNumber": "3439231444",
+  "orderNumber": "POS.542.20240714.4.51687",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-07-14T14:55:00",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREcwdkl1MHJxY1FUWmxSVWJ5bVQvWDhvMzR2QlB5dWtuSUxIWXlSODRaNjQ4UFJHZDUveVByZktZcUdSZkdVWnhvUW5wNk14c0hPdkdGRzZYcXp5U3c9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "24585052",
+      "productName": "STPLS PROGEL SINGL",
+      "productShortDesc": "STPLS PROGEL SINGL",
+      "productLongDesc": "STPLS PROGEL SINGL",
+      "unitPrice": 1.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "STPLS PROGEL SINGL",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-20T10:35:58.821661741",
+      "resourceName": "OrderDetails",
+      "transactionId": "3cf820c583304cb9958d8fea0d2db062",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240714.4.51687",
+    "masterAccountNumber": "3439231444",
+    "salesOrderHeaderKey": "POS.542.20240714.4.51687",
+    "orderDate": "2024-07-14T14:55:00",
+    "keyForOrderDetails": "U3RNREh6NFlrREg4N3YzUlIvK1l5ZGF0aUdYem9sNCtpbVpGVGlLVlp1YlF1dUFKT3RVNjJ6ZkNqZjl6L0dCaWZTejYwOTlwUGdUY1l1Y0NYellzVUx5ajg9",
+    "orderUrlKey": "U3RNREh6NFlrREg4N3YzUlIvK1l5ZGF0aUdYem9sNCtpbVpGVGlLVlp1YlF1dUFKT3RVNjJ6ZkNqZjl6L0dCaWZTejYwOTlwUGdUY1l1Y0NYellzVUx5ajg9",
+    "customerNumberKey": "U3RNREhuVy9KVWs4RGk0bHFrTXdkYlV3N25GRCs0MlM3YkNLczdRa0crVytxVWJYaG8wbmVxcVE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 1.79,
+    "discountsTotal": 1.79,
+    "couponsTotal": 1.79,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "STPLS PROGEL SINGL",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24585052?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "STPLS PROGEL SINGL",
+              "skuNumber": "24585052",
+              "unitPrice": 1.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 1.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Free Staples\u00ae ProGel retractable gel pen.",
+                  "chargeDesc": "Free Staples\u00ae ProGel retractable gel pen.",
+                  "chargeAmount": 1.79,
+                  "chargePerUnit": 1.79
+                }
+              ],
+              "regularCouponsTotal": 1.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24585052"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11714XGY4AYAQF"
+  }
+}

@@ -1,6 +1,7 @@
 import json
 import sys
 import time
+from urllib.parse import quote
 from datetime import datetime
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -9,7 +10,94 @@ USER_NAME = sys.argv[1] if len(sys.argv) > 1 else "russ"
 DATA_DIR = Path(USER_NAME)
 STATE_FILE = DATA_DIR / "staples_auth_state.json"
 CACHE_DIR = DATA_DIR / "cache"
+PDF_DIR = DATA_DIR / "pdfs"
 DELAY_BETWEEN_REQUESTS = 1.0
+
+
+def download_pdf(page, order_num, order_date_raw, order_type, key_for_details):
+    # Determine date string
+    date_str = "unknown-date"
+    if order_date_raw and "T" in order_date_raw:
+        date_str = order_date_raw[:10]
+    elif order_num.startswith("POS."):
+        parts = order_num.split(".")
+        if len(parts) > 2:
+            d = parts[2]
+            if len(d) == 8:
+                date_str = f"{d[:4]}-{d[4:6]}-{d[6:8]}"
+            elif order_date_raw:
+                date_str = order_date_raw[:10]
+    elif order_date_raw:
+        date_str = order_date_raw[:10]
+
+    # Filename format based on extension logic
+    if order_type == "in-store":
+        pdf_filename = f"{date_str}-{order_num}-print-img.pdf"
+    else:
+        pdf_filename = f"{date_str}-{order_num}.pdf"
+
+    pdf_path = PDF_DIR / pdf_filename
+    if pdf_path.exists():
+        return
+
+    # URL construction
+    if order_type == "in-store":
+        url = f"https://www.staples.com/ptd/orderdetails?enterpriseCode=RetailUS&orderType=in-store_instore&tp_sid={key_for_details}&print=true&xsmall=false"
+    else:
+        url = f"https://www.staples.com/ptd/orderdetails?orderNo={order_num}&print=true&xsmall=false"
+        if key_for_details:
+            url += f"&tp_sid={key_for_details}"
+
+    print(f"  -> Downloading PDF: {pdf_filename}...")
+    pdf_page = page.context.new_page()
+    try:
+        # Wait for "load" to ensure the skeleton is at least loaded
+        pdf_page.goto(url, wait_until="load", timeout=30000)
+    except Exception:
+        pass  # Timeout is common on Staples, but DOM often loads enough
+
+    try:
+        # Give it explicit time for React data fetch
+        print(f"     Waiting for data to render...")
+        pdf_page.wait_for_timeout(5000)
+
+        # Turn on images like the extension does
+        if order_type == "in-store":
+            try:
+                selectors = [
+                    'button[role="switch"][aria-checked="false"]',
+                    'button[role="switch"]',
+                    ".sc-98zsgj-1",
+                    "button.klsXa-d",
+                ]
+                for selector in selectors:
+                    toggle = pdf_page.locator(selector).first
+                    if (
+                        toggle
+                        and toggle.is_visible()
+                        and toggle.get_attribute("aria-checked") == "false"
+                    ):
+                        print("     Clicking 'Show Images' toggle...")
+                        toggle.click()
+                        pdf_page.wait_for_timeout(2000)
+                        break
+            except Exception:
+                pass
+
+        # Wait a bit more for images/barcodes to load
+        pdf_page.wait_for_timeout(3000)
+
+        pdf_page.pdf(
+            path=str(pdf_path),
+            print_background=True,
+            display_header_footer=False,
+            prefer_css_page_size=True,
+            format="Letter",
+        )
+    except Exception as e:
+        print(f"     Failed to generate PDF: {e}")
+    finally:
+        pdf_page.close()
 
 
 def fetch_order_page(context, page_number, order_type="in-store"):
@@ -91,6 +179,7 @@ def fetch_pos_details(context, tp_sid_key):
 def main():
     DATA_DIR.mkdir(exist_ok=True)
     CACHE_DIR.mkdir(exist_ok=True)
+    PDF_DIR.mkdir(exist_ok=True)
 
     date_str = datetime.now().strftime("%Y_%m_%d")
     instore_output = DATA_DIR / f"staples_instore_orders_with_detail_{date_str}.json"
@@ -161,7 +250,12 @@ def main():
                     orders = list_data.get("orderDetailsList", [])
                     for order in orders:
                         num = order.get("orderNumber", "")
+                        order_date_raw = order.get("orderDate", "")
+                        key = order.get("keyForOrderDetails")
                         cache_file = CACHE_DIR / f"{num}.json"
+
+                        # Download PDF
+                        download_pdf(page, num, order_date_raw, order_type, key)
 
                         if cache_file.exists():
                             with open(cache_file, "r") as f:

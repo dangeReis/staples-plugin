@@ -176,6 +176,32 @@ def fetch_pos_details(context, tp_sid_key):
         return None
 
 
+def fetch_online_details(context, order_num, tp_sid_key):
+    if tp_sid_key:
+        tp_sid_key = quote(tp_sid_key)
+
+    url = f"https://www.staples.com/sdc/ptd/api/orderDetails/ptd/orderdetails?orderNo={order_num}&orderType=online_online"
+    if tp_sid_key:
+        url += f"&tp_sid={tp_sid_key}"
+    url += "&pgIntlO=Y"
+
+    headers = {
+        "accept": "application/json, text/plain, */*",
+        "referer": "https://www.staples.com/ptd/myorders",
+    }
+
+    response = context.request.get(url, headers=headers)
+    if not response.ok:
+        return None
+
+    try:
+        return response.json()
+    except Exception as e:
+        print(f"Error parsing online details for {order_num}: {e}")
+
+    return None
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
     CACHE_DIR.mkdir(exist_ok=True)
@@ -282,6 +308,19 @@ def main():
                                         ]["orderDetails"]["orderDetails"]
                                     except (KeyError, TypeError):
                                         enriched["_pos_detail"] = details
+                        else:
+                            # Online order details
+                            key = order.get("keyForOrderDetails")
+                            print(f"Fetching online details for {num}...")
+                            time.sleep(DELAY_BETWEEN_REQUESTS)
+                            details = fetch_online_details(context, num, key)
+                            if details:
+                                try:
+                                    enriched["_online_detail"] = details[
+                                        "orderDetails"
+                                    ]["orderDetails"]
+                                except (KeyError, TypeError):
+                                    enriched["_online_detail"] = details
 
                         with open(cache_file, "w") as f:
                             json.dump(enriched, f, indent=2)

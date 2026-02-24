@@ -222,18 +222,19 @@ def main():
         context = browser.new_context(**context_args)
         page = context.new_page()
 
-        print("Navigating to Staples to verify login state...")
-        page.goto("https://www.staples.com/ptd/myorders/instore")
+        print("Navigating to Staples homepage to verify login state...")
+        page.goto("https://www.staples.com/")
         page.wait_for_load_state("load")
 
-        # Detect if login is needed: no saved state, URL redirect, or sign-in prompt on page
+        # Detect if login is needed: no saved state or sign-in prompt on page
         needs_login = not STATE_FILE.exists()
         if not needs_login:
-            needs_login = (
-                "login" in page.url.lower()
-                or "signin" in page.url.lower()
-                or page.locator("text=Sign In").first.is_visible()
-            )
+            try:
+                # Give it a second to render the header
+                page.wait_for_timeout(2000)
+                needs_login = page.locator("text=Sign In").first.is_visible()
+            except Exception:
+                needs_login = False
 
         if needs_login:
             print("\n" + "=" * 50)

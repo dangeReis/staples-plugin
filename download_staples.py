@@ -228,37 +228,40 @@ def main():
         context = browser.new_context(**context_args)
         page = context.new_page()
 
-        print("Navigating to Staples homepage to verify login state...")
+        print("Navigating to Staples homepage to establish basic cookies...")
         page.goto("https://www.staples.com/")
         page.wait_for_load_state("load")
 
-        # Detect if login is needed: no saved state or sign-in prompt on page
+        print("Navigating to Orders page to verify PTD session tokens...")
+        page.goto("https://www.staples.com/ptd/myorders/instore")
+        page.wait_for_load_state("load")
+
         needs_login = not STATE_FILE.exists()
         if not needs_login:
             try:
-                # Give it a second to render the header
                 page.wait_for_timeout(2000)
-                needs_login = page.locator("text=Sign In").first.is_visible()
+                if (
+                    "login" in page.url.lower()
+                    or "signin" in page.url.lower()
+                    or page.locator("text=Sign In").first.is_visible()
+                ):
+                    needs_login = True
             except Exception:
-                needs_login = False
+                pass
 
         if needs_login:
             print("\n" + "=" * 50)
             print(f"STAPLES DOWNLOADER - USER: {USER_NAME}")
             print("Please log in to your Staples account.")
             print("1. Log in with your credentials.")
-            print("2. PRESS ENTER in this terminal to continue.")
+            print(
+                "2. Ensure you are on the Orders page (Staples may ask for your password twice!)."
+            )
+            print("3. PRESS ENTER in this terminal to continue.")
             print("=" * 50 + "\n")
-            input(">>> PRESS ENTER after logging in <<<")
+            input(">>> PRESS ENTER ONLY AFTER VIEWING THE ORDERS PAGE <<<")
         else:
             print(f"\nSession valid for {USER_NAME}. Proceeding...")
-
-        print("Navigating to Orders page to initialize PTD session tokens...")
-        page.goto("https://www.staples.com/ptd/myorders/instore")
-        page.wait_for_load_state("load")
-
-        # Give it a tiny bit of time to settle cookies
-        page.wait_for_timeout(2000)
 
         print("Capturing session state...")
         context.storage_state(path=str(STATE_FILE))

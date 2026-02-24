@@ -158,6 +158,12 @@ def fetch_order_page(context, page_number, order_type="in-store"):
         return response.json()
     except Exception:
         print(f"Invalid JSON response for {order_type} page {page_number}")
+        print(f"Response snippet: {response.text()[:200]}")
+        return None
+    try:
+        return response.json()
+    except Exception:
+        print(f"Invalid JSON response for {order_type} page {page_number}")
         return None
 
 
@@ -241,12 +247,18 @@ def main():
             print(f"STAPLES DOWNLOADER - USER: {USER_NAME}")
             print("Please log in to your Staples account.")
             print("1. Log in with your credentials.")
-            print("2. Ensure you are on the Orders page.")
-            print("3. PRESS ENTER in this terminal to continue.")
+            print("2. PRESS ENTER in this terminal to continue.")
             print("=" * 50 + "\n")
             input(">>> PRESS ENTER after logging in <<<")
         else:
             print(f"\nSession valid for {USER_NAME}. Proceeding...")
+
+        print("Navigating to Orders page to initialize PTD session tokens...")
+        page.goto("https://www.staples.com/ptd/myorders/instore")
+        page.wait_for_load_state("load")
+
+        # Give it a tiny bit of time to settle cookies
+        page.wait_for_timeout(2000)
 
         print("Capturing session state...")
         context.storage_state(path=str(STATE_FILE))

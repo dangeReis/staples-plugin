@@ -1,0 +1,535 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250517.2.43912",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-05-17T18:21:25",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREh1WGl4MWI3bG4wRHllRGdaR1BKM0RucDNrT0xBT1FxVU9QeGFmWDNqaEprRk5aR1kzY0ZWZnhweGF5ZmhlRExkNUI2WEpjUXY1OVN5RUdqZEtZSjQ9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 23.44,
+  "orderLines": [
+    {
+      "productSku": "1669041",
+      "productName": "SPLS KRAFT PAD MAI",
+      "productShortDesc": "SPLS KRAFT PAD MAI",
+      "productLongDesc": "SPLS KRAFT PAD MAI",
+      "unitPrice": 1.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "6.75 x 9 Self-Sealing Bubble Mailer (56563)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7A461A7B-926E-45D8-951BDD5644B341BE_sc7?$thb$",
+      "productURL": "6-w-x-9-l-padded-mailer-56563/product_1669041",
+      "model": "ST56563",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "1669041",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "897518",
+      "productName": "SCOTCH SHIPPING TA",
+      "productShortDesc": "SCOTCH SHIPPING TA",
+      "productLongDesc": "SCOTCH SHIPPING TA",
+      "unitPrice": 31.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3B55473E-33D5-4700-BBD7338A669BB17B_sc7?$thb$",
+      "productURL": "Scotch-1-7-8-x-43-7-yds-Heavy-Duty-Shipping-Tape-Clear-1-Roll-3850-40-6/product_897518",
+      "model": "3850-40-6",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "897518",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:33:27.335787466",
+      "resourceName": "OrderDetails",
+      "transactionId": "6dab23b63d1a4f35a2c03a7eeb6a0836",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250517.2.43912",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250517.2.43912",
+    "orderDate": "2025-05-17T18:21:25",
+    "keyForOrderDetails": "U3RNREdrMjJHdGluNnZpbXlZcnNGdU5XM0phODlieTAvQkV4aUY5cnZIbW1KWG0xQ3hhVFhWRUZ1NGZkVUdkVzBQQ05BcFVSN2RxQ3N0L21TSHVsclNVcVE9",
+    "orderUrlKey": "U3RNREdrMjJHdGluNnZpbXlZcnNGdU5XM0phODlieTAvQkV4aUY5cnZIbW1KWG0xQ3hhVFhWRUZ1NGZkVUdkVzBQQ05BcFVSN2RxQ3N0L21TSHVsclNVcVE9",
+    "customerNumberKey": "U3RNREdHQXZhM3dxUW1vT1BRaFNxMUV1OGdUTW0zVDBvbWh2K3NVdTFhcnBOeTcza05pTFhQZUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 33.48,
+    "discountsTotal": 11.5,
+    "couponsTotal": 11.5,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 1.46,
+    "grandTotal": 23.44,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "1669041",
+              "compareItemID": "1669041",
+              "url": "/6-w-x-9-l-padded-mailer-56563/product_1669041",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/7A461A7B-926E-45D8-951BDD5644B341BE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/7A461A7B-926E-45D8-951BDD5644B341BE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1210283_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/10769D6B-7498-486E-AD55B9C9D3295507_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1210302_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1210303_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "6.75 x 9 Self-Sealing Bubble Mailer (56563)~#|#~7A461A7B-926E-45D8-951BDD5644B341BE_sc7",
+                "6.75 x 9 Self-Sealing Bubble Mailer (56563)~#|#~s1210283_sc7",
+                "6.75 x 9 Self-Sealing Bubble Mailer (56563)~#|#~10769D6B-7498-486E-AD55B9C9D3295507_sc7",
+                "6.75 x 9 Self-Sealing Bubble Mailer (56563)~#|#~s1210302_sc7",
+                "6.75 x 9 Self-Sealing Bubble Mailer (56563)~#|#~s1210303_sc7"
+              ],
+              "title": "6.75 x 9 Self-Sealing Bubble Mailer (56563)",
+              "model": "ST56563",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1669041"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST56563"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Mailing Supplies",
+              "baseCatId": "CL142648",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1781",
+                  "name": "Mailers"
+                },
+                "category": {
+                  "id": "CG16",
+                  "name": "Mailing Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL142648",
+                  "name": "Mailers"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142648",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.73,
+              "ratingCount": 186,
+              "ratingUrl": "/6-w-x-9-l-padded-mailer-56563/product_1669041?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 3,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 9,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 15,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 157,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$1.99",
+              "priceValue": 1.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Kraft bubble mailer"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Usable inside dimensions: 6\"W x 9\"L",
+                  "Overal outside dimensions: 6.75\"W x 9\"L",
+                  "Kraft bubble mailer",
+                  "1/EA"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1210283_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "SPLS KRAFT PAD MAI",
+              "skuNumber": "1669041",
+              "unitPrice": 1.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 1.36,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0901
+                }
+              ],
+              "couponTotal": 0.63,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off when you spend $30 or more on moving supplies.",
+                  "chargeDesc": "$10 off when you spend $30 or more on moving supplies.",
+                  "chargeAmount": 0.63,
+                  "chargePerUnit": 0.63
+                }
+              ],
+              "regularCouponsTotal": 0.63,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "897518",
+              "compareItemID": "897518",
+              "url": "/Scotch-1-7-8-x-43-7-yds-Heavy-Duty-Shipping-Tape-Clear-1-Roll-3850-40-6/product_897518",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/3B55473E-33D5-4700-BBD7338A669BB17B_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/3B55473E-33D5-4700-BBD7338A669BB17B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/68E03234-F577-4FEC-A16B57B5426E88D0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/E1769402-B1E3-4695-87858E4DC80B68E0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A92981AA-CCCF-4282-BC51C969281A6B8F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/FBA337C3-532C-4155-9D4CEA7836283EBA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3F07821A-5104-4F8D-8B1EC7F5C1015177_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/AA685A22-B11F-4949-9FAF584E838E9179_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7B05E62B-4216-4FCF-9FD38F9398B6A4B1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/01982400-3139-4E9A-97D8B98E64E03D7F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~3B55473E-33D5-4700-BBD7338A669BB17B_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~68E03234-F577-4FEC-A16B57B5426E88D0_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~E1769402-B1E3-4695-87858E4DC80B68E0_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~A92981AA-CCCF-4282-BC51C969281A6B8F_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~FBA337C3-532C-4155-9D4CEA7836283EBA_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~3F07821A-5104-4F8D-8B1EC7F5C1015177_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~AA685A22-B11F-4949-9FAF584E838E9179_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~7B05E62B-4216-4FCF-9FD38F9398B6A4B1_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)~#|#~01982400-3139-4E9A-97D8B98E64E03D7F_sc7"
+              ],
+              "title": "Scotch Heavy Duty Packing Tape, 1.88\" x 43.7 yds., Clear, 6/Pack (3850-40-6)",
+              "model": "3850-40-6",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "897518"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3850-40-6"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL140631",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350281",
+                  "name": "Packing Tape & Dispensers"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL140631",
+                  "name": "Packing Tape"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140631",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "6/Pack",
+              "rating": 4.34,
+              "ratingCount": 125,
+              "ratingUrl": "/Scotch-1-7-8-x-43-7-yds-Heavy-Duty-Shipping-Tape-Clear-1-Roll-3850-40-6/product_897518?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 8,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 8,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 94,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$37.69",
+              "priceValue": 37.69,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Now even the heaviest packages can withstand rough handling. Our Scotch Heavy Duty Shipping Packaging Tape holds strong on all box types, including 100% recycled boxes. It's even guaranteed to stay sealed.* The strong, tough, solvent-free adhesive locks in your heavy duty contents and locks out everything else. This premium quality tape provides excellent holding power for heavy-duty packaging, shipping and moving. You don\u2019t need layers of tape to get the job done\u2014just one strip at a time\u2014so you save time. Your heavy packages can bear the weight and stay sealed through it all with Scotch Heavy Duty packaging tape."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GUARANTEED TO STAY SEALED*: Boxes sealed with Scotch Heavy Duty Packaging Tape are guaranteed to stay sealed. (If your box does not stay sealed, 3M will refund the purchase price of this tape. Proof of purchase required.",
+                  "BEST-SELLING: Scotch Brand is America's #1 selling Packaging Tape Brand, based on NPD 2022 full year packaging tape category sales",
+                  "MOST TRUSTED BRAND: Scotch Brand is the Most Trusted, Most Recommended and Most Preferred brand of Packaging Tape in the USA, based on a 2022 Scotch Brand Health Study of Packaging Tape Purchasers",
+                  "SUPER STRONG HOLDING POWER: Provides excellent holding power for heavy-duty packaging and shipping. Strong, durable solvent-free adhesive seals and protects",
+                  "MADE TO SHIP: Designed with industrial strength adhesive that can withstand rough handling",
+                  "CLEAR: Clear to the core, clear on boxes",
+                  "DURABLE THICKNESS: Typical thickness 3 mil",
+                  "RESISTS SPLITTING: Resists slivering, splitting and tearing",
+                  "ONE STRIP AND IT SHIPS: You don\u2019t need layers of tape to get the job done - just one strip each seam top and bottom - so you save time",
+                  "SCOTCH BRAND'S #1 BEST-SELLING TAPE TYPE: Heavy Duty is our #1 selling Scotch Brand Packaging Tape based on 2022 global consumer sales of Scotch Brand consumer packaging tapes"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/68E03234-F577-4FEC-A16B57B5426E88D0_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SCOTCH SHIPPING TA",
+              "skuNumber": "897518",
+              "unitPrice": 31.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 20.62,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.3661
+                }
+              ],
+              "couponTotal": 10.87,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off when you spend $30 or more on moving supplies.",
+                  "chargeDesc": "$10 off when you spend $30 or more on moving supplies.",
+                  "chargeAmount": 9.37,
+                  "chargePerUnit": 9.37
+                },
+                {
+                  "chargeNo": "217288",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #56236",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1.5,
+                  "chargePerUnit": 1.5
+                }
+              ],
+              "regularCouponsTotal": 10.87,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 31.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "897518",
+      "1669041"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414HXX4AYX9Q"
+  }
+}

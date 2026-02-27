@@ -1,0 +1,219 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20240714.2.13080",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-07-14T14:10:57",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREU2TURneWdGMlE4RGdCS0FtS3FuL1lvU1ZjQ3BsdzROdDYzNXJmMzVsdWVEejdKZ3BBbzNKb1lNTkROeHF0T3R2bEtIRVdBQjIrL2VyRzljRHcrbFE9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "24535465",
+      "productName": "BATTERIES RECYCLIN",
+      "productShortDesc": "BATTERIES RECYCLIN",
+      "productLongDesc": "BATTERIES RECYCLIN",
+      "unitPrice": 0.01,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "BATTERIES RECYCLIN",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:02:41.837030804",
+      "resourceName": "OrderDetails",
+      "transactionId": "e3e7ea9061384959b5d3920678c8985f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240714.2.13080",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20240714.2.13080",
+    "orderDate": "2024-07-14T14:10:57",
+    "keyForOrderDetails": "U3RNREgxRC9yTTZaTEhOME5POTdsSkpMb0xVRzdFZWY0dW5HRzVVUmtNNHR4dlJDUDhDaU9sVVlpcTREU2xiUDJoNldQTDNIeXh2bk5objZHQk8wV2o0R3c9",
+    "orderUrlKey": "U3RNREgxRC9yTTZaTEhOME5POTdsSkpMb0xVRzdFZWY0dW5HRzVVUmtNNHR4dlJDUDhDaU9sVVlpcTREU2xiUDJoNldQTDNIeXh2bk5objZHQk8wV2o0R3c9",
+    "customerNumberKey": "U3RNREViTWZ2MGJtY2xtNkxOYko3SzQ0WGJxNENLYW8xdkdLd2w4emtSemVBc0NXR1FBcHViSHc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.01,
+    "discountsTotal": 0.01,
+    "couponsTotal": 0.01,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "BATTERIES RECYCLIN",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24535465?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "BATTERIES RECYCLIN",
+              "skuNumber": "24535465",
+              "unitPrice": 0.01,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.01,
+              "couponDetails": [
+                {
+                  "chargeNo": "207613",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #74377",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.01,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.01,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24535465"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11411PE44AYAQK"
+  }
+}

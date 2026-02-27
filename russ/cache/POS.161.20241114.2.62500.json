@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZjRHRramJ3cTZpdzM3TXM0cG9ROW5JY1RFank0VFEzejlKenUwRjdyS2dsZ1FYOGZUYTcvWVc2TUxJcWxpTVEyR0FCMTgvSHdvcHNJNTU2RjhscFU9",
+  "keyForOrderDetails": "U3RNREh5cnhJWlVhZC9zQ0ttMjlvVWliYU11WHNtSFFDcFBVakxKOHFLaUFENjRNRjRlMHgyRjl3RU95MnhUZUkwSHVjY2JqUldTUnRFekgzWkxTejBwcjQ9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -49,22 +49,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:35:25.242944668",
+      "timeStamp": "2026-02-23T21:55:42.194928584",
       "resourceName": "OrderDetails",
-      "transactionId": "42e553f7869641278f2dd604e0e4efd7",
+      "transactionId": "52a1af1ded25430c921ea316c12c4dfd",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.161.20241114.2.62500",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.161.20241114.2.62500",
     "orderDate": "2024-11-14T19:16:30",
-    "keyForOrderDetails": "U3RNREZQdzFCTThmSldPOFMxYU80d0ZaNEJScDVKaU9zUE1lR2Z2WkVHZUR0ZStoaUd3cXp1M2hhcENaWFRqK1JNVFZ0UGF3NTZ5Wjcwb1RvRW5ja2duYms9",
-    "orderUrlKey": "U3RNREZQdzFCTThmSldPOFMxYU80d0ZaNEJScDVKaU9zUE1lR2Z2WkVHZUR0ZStoaUd3cXp1M2hhcENaWFRqK1JNVFZ0UGF3NTZ5Wjcwb1RvRW5ja2duYms9",
-    "customerNumberKey": "U3RNREhhcER2QkVFRnloUmt2bzBiUGlEVWdhZ1lTNisvb21vaXFwVHZ2U3pqOE4rWkdpemo5Vnc9PQ==",
+    "keyForOrderDetails": "U3RNREhTWHVmZG1MUzB1VHJVdGtQa29HZllLcE15NmI2L2RmWmdYT0pLT1MyOGNhaUFSYUVndVZCTkU4SUhwUFROdTZrTk9hM0lNN2wvQk8rc2RaM05xelk9",
+    "orderUrlKey": "U3RNREhTWHVmZG1MUzB1VHJVdGtQa29HZllLcE15NmI2L2RmWmdYT0pLT1MyOGNhaUFSYUVndVZCTkU4SUhwUFROdTZrTk9hM0lNN2wvQk8rc2RaM05xelk9",
+    "customerNumberKey": "U3RNREg5NXdrSklzaSs2SjBuUCs4Vi84Zy90Z01tT0JTMEtLMkNKWTRSY1dyYTFMRW5qYXlreVE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -190,7 +191,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.23,
-              "ratingCount": 1812,
+              "ratingCount": 1817,
               "ratingUrl": "/brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -215,8 +216,8 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 1259,
-                  "reviewPercent": 69
+                  "reviewCount": 1264,
+                  "reviewPercent": 70
                 }
               ],
               "price": "$73.49",
@@ -227,17 +228,17 @@
               "autoRestockEligible": true,
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 84,
+                "availableQuantity": 77,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Free delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

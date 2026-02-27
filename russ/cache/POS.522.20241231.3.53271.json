@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREVnUUY0K0d5bEZyUVZlaWg4cmVvdFhTbWtkMXpWRlc3ckhpRktDajU2c3hlVkZ3NkFhMFhjMGo4bXBiNkxDQU1GUkYzN3dxcmhIdVNwRmFUcnBTRTg9",
+  "keyForOrderDetails": "U3RNREdwUU1QUnI3aFhTUytWNjlFcGI2ZVFkMFZEWWsrR0pPcjJuamUyTDB2bk8vSktWMnNPaGhVWURHWC9JQVNKVDQ3YW1DQkVobU1yQkJTd01ZQnY2WEU9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -54,22 +54,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:35:14.102034281",
+      "timeStamp": "2026-02-23T21:55:30.303411045",
       "resourceName": "OrderDetails",
-      "transactionId": "1a6c73c12f6e4dce8a10d243a4726c49",
+      "transactionId": "1f7d2fa6cb354f4f981c237d3813d745",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20241231.3.53271",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20241231.3.53271",
     "orderDate": "2024-12-31T14:05:53",
-    "keyForOrderDetails": "U3RNREdFZkVTS3UyQnNCNFdueUZhMkNyMW9LYmhQZlZRenVrTkFuRXorYnhtQkYzWURaWHQ5aVJkeDUwY0ZYZGVZdkhIWkxrMDQ4b2t5QVBPdVp4OUdrbDg9",
-    "orderUrlKey": "U3RNREdFZkVTS3UyQnNCNFdueUZhMkNyMW9LYmhQZlZRenVrTkFuRXorYnhtQkYzWURaWHQ5aVJkeDUwY0ZYZGVZdkhIWkxrMDQ4b2t5QVBPdVp4OUdrbDg9",
-    "customerNumberKey": "U3RNREZXU1Z6c1lqclVjWGROaFF6a1BMODMzTU9YVzcwTnlsUWtvK0tWbTd0VHB5cXZwWXhnN1E9PQ==",
+    "keyForOrderDetails": "U3RNREhwYmJvUVR0RlFRMWZ2SGVLRmM0d1MyOUJLcDY4MXFJZnBhaVBaZXZHcmthTHNMSnFIN2NBSUJzZEJ6MEsyN2ZXQTZkR1g5V1F6QTFTbUhLS3ZlZ2s9",
+    "orderUrlKey": "U3RNREhwYmJvUVR0RlFRMWZ2SGVLRmM0d1MyOUJLcDY4MXFJZnBhaVBaZXZHcmthTHNMSnFIN2NBSUJzZEJ6MEsyN2ZXQTZkR1g5V1F6QTFTbUhLS3ZlZ2s9",
+    "customerNumberKey": "U3RNREZCU2Rka05DUkFQT1k3UWJMY1dSNTM1NjM0bGlnMGFHSXhJOGx5YzRjSFhGVXB3NlJtK1E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -192,7 +193,7 @@
               "unitsNum": "",
               "units": "176/Carton",
               "rating": 4.74,
-              "ratingCount": 11437,
+              "ratingCount": 11460,
               "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-176-case-006933/product_24564427?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -207,17 +208,17 @@
                 },
                 {
                   "rating": 3,
-                  "reviewCount": 316,
+                  "reviewCount": 317,
                   "reviewPercent": 3
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 842,
+                  "reviewCount": 843,
                   "reviewPercent": 7
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 9886,
+                  "reviewCount": 9907,
                   "reviewPercent": 86
                 }
               ],

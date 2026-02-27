@@ -1,0 +1,233 @@
+{
+  "customerNumber": "3301279182",
+  "orderNumber": "POS.542.20250413.4.92334",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-13T12:44:42",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVqdFR4QjR2dnFBUXJGSy9oWU1US2dnTllnNThQVndCMUlzSmozcTFocGt5KzRnSmNWcWV2MW41S0RYeXpyRkRkMmcvZ2QyL202R3ZoOVBhb2tWWEU9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "725137",
+      "productName": "INK RECYCLING LIMI",
+      "productShortDesc": "INK RECYCLING LIMI",
+      "productLongDesc": "INK RECYCLING LIMI",
+      "unitPrice": 0.01,
+      "orderQty": 20,
+      "originalOrderedQty": 20,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "INK RECYCLING LIMI",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T22:45:58.405529085",
+      "resourceName": "OrderDetails",
+      "transactionId": "f93cca9b28e640a5a8b3ec0442301f1f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250413.4.92334",
+    "masterAccountNumber": "3301279182",
+    "salesOrderHeaderKey": "POS.542.20250413.4.92334",
+    "orderDate": "2025-04-13T12:44:42",
+    "keyForOrderDetails": "U3RNREVTbjFHeU1XMW4xSkxCdGs5TUIxVkgxNzBGaU4vZlorY3kyd3FJK29MaUpjd3FsaFFKd1ZGVmhFM2pPOEhONHoycXVxMzhqWTVoK09wdmQ1VUt5VUU9",
+    "orderUrlKey": "U3RNREVTbjFHeU1XMW4xSkxCdGs5TUIxVkgxNzBGaU4vZlorY3kyd3FJK29MaUpjd3FsaFFKd1ZGVmhFM2pPOEhONHoycXVxMzhqWTVoK09wdmQ1VUt5VUU9",
+    "customerNumberKey": "U3RNREU3Mk1oTHExemc5U3NQZHhDTzFhbFhsSXM2YTRodWtVTEl2MnZhZ0lubmJUcU1COWRkYXc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.2,
+    "discountsTotal": 0.2,
+    "couponsTotal": 0.2,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "INK RECYCLING LIMI",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_725137?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "INK RECYCLING LIMI",
+              "skuNumber": "725137",
+              "unitPrice": 0.01,
+              "qtyOrdered": 20,
+              "qtyShipped": 20,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.2,
+              "couponDetails": [
+                {
+                  "chargeNo": "214609",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #27943",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.2,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.2,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.2,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 20
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "725137"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11719AKD4AYTW3"
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.567.20250402.2.7647",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-02T15:53:32",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdzMForTlkyTzV3RUhLV1cybGd6LzZsWklXKzVuenJBb3dLblh5VVdGRy9zSy9CaTdwSGFKSzE3eXlWdGpKUkZqL1JVcTgwbjJiR1gzZzZaamx4dz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.98,
+  "orderLines": [
+    {
+      "productSku": "901988",
+      "productName": "9X12 CLEAR CLASP E",
+      "productShortDesc": "9X12 CLEAR CLASP E",
+      "productLongDesc": "9X12 CLEAR CLASP E",
+      "unitPrice": 5.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7?$thb$",
+      "productURL": "Staples-ClearClasp-9-x-12-Resealable-Brown-Kraft-Envelopes-10-Pack-901988/product_901988",
+      "model": "SPL901988",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901988",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "102400",
+      "productName": "CHARM ULTR STRNG 1",
+      "productShortDesc": "CHARM ULTR STRNG 1",
+      "productLongDesc": "CHARM ULTR STRNG 1",
+      "unitPrice": 23.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+      "productURL": "charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+      "model": "11055/15704",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "This item has been discontinued.",
+        "type": "DISCONTINUED",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details",
+        "displayName": "Discontinued",
+        "altProducts": [
+          "24634205"
+        ],
+        "limitedQtyTxt": ""
+      },
+      "itemId": "102400",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "567",
+  "storeAddressLine1": "1300 Rt. 17 North",
+  "storeCity": "RAMSEY",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:43:44.233728122",
+      "resourceName": "OrderDetails",
+      "transactionId": "684e19d88a84475c9009ba3b04807df3",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.567.20250402.2.7647",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.567.20250402.2.7647",
+    "orderDate": "2025-04-02T15:53:32",
+    "keyForOrderDetails": "U3RNREg5S1hvZHNOM1ZNOER4K05XaDNsdks0Rm9hZzJsUnJ5cUJJV0k4djlsQ25hUHlRdFE0TkdDUDRUR084Q2tiQkFXenhjUC9lQlI2SWkrOExjOGoxUT09",
+    "orderUrlKey": "U3RNREg5S1hvZHNOM1ZNOER4K05XaDNsdks0Rm9hZzJsUnJ5cUJJV0k4djlsQ25hUHlRdFE0TkdDUDRUR084Q2tiQkFXenhjUC9lQlI2SWkrOExjOGoxUT09",
+    "customerNumberKey": "U3RNREd5Y1R0L1lhakYzY0dQRGs1RTJVMDh1aEJHYmhRMzVGMmxJSml1K2ViVmx1TlVOK3lNT2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 29.98,
+    "discountsTotal": 29,
+    "couponsTotal": 9,
+    "pointsRedeemedValue": 20,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.98,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "1300 Rt. 17 North",
+        "city": "RAMSEY",
+        "state": "NJ",
+        "zipCode": "07446"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "102400",
+              "compareItemID": "24634205",
+              "url": "/charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/24C3AF60-B015-4730-9420571EEA50BA87_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5CA72111-1CFA-457E-B5E3575DF47A97B2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6C5FE543-4A82-4C77-BD141532084418A6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/73EEF31D-2212-4CA4-B79499DCFA1D8489_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/34EF9A65-F5F9-4320-8AFB060BE7EA9F2D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6D31E6F5-F67F-4511-81D0EA93F5935CF6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ACB93937-AE45-4CC1-AB8A9281728AA16E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7AFBB7A2-C6DB-4CF7-9822E54FED46DCEB_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~24C3AF60-B015-4730-9420571EEA50BA87_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~5CA72111-1CFA-457E-B5E3575DF47A97B2_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~6C5FE543-4A82-4C77-BD141532084418A6_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~73EEF31D-2212-4CA4-B79499DCFA1D8489_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~34EF9A65-F5F9-4320-8AFB060BE7EA9F2D_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~6D31E6F5-F67F-4511-81D0EA93F5935CF6_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~ACB93937-AE45-4CC1-AB8A9281728AA16E_sc7",
+                "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)~#|#~7AFBB7A2-C6DB-4CF7-9822E54FED46DCEB_sc7"
+              ],
+              "title": "Charmin Ultra Strong Mega Toilet Paper, 2-ply, White, 220 Sheets/Roll, 18 Rolls/Case (11055/15704)",
+              "model": "11055/15704",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "102400"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "11055/15704"
+                }
+              ],
+              "manufacturerName": "Charmin",
+              "brandName": "Charmin",
+              "baseCatName": "Janitorial Paper & Dispensers",
+              "baseCatId": "CL141829",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1865",
+                  "name": "Paper Products"
+                },
+                "category": {
+                  "id": "CG3930",
+                  "name": "Janitorial Paper & Dispensers"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141829",
+                  "name": "Toilet Paper & Bath Tissue"
+                }
+              },
+              "restrictionDetails": {
+                "description": "This item has been discontinued.",
+                "type": "DISCONTINUED",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details",
+                "displayName": "Discontinued",
+                "altProducts": [
+                  "24634205"
+                ],
+                "limitedQtyTxt": ""
+              },
+              "catalogId": "CL141829",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "18/Pack",
+              "rating": 4.49,
+              "ratingCount": 11888,
+              "ratingUrl": "/charmin-ultra-strong-toilet-paper-18-mega-rolls-242-sheets-roll-01560-52084/product_102400?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 486,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 331,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 659,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1763,
+                  "reviewPercent": 15
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8649,
+                  "reviewPercent": 73
+                }
+              ],
+              "price": "$72.89",
+              "priceValue": 72.89,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.84/100 sheets",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Get sparkly clean with Charmin Ultra Strong. It\u2019s 4X stronger when wet* and has a diamond weave texture. It\u2019s woven like a washcloth and holds up when you wipe. It even cleans better so you can use less* and go longer without changing the roll**. We also made it MEGA in size, so you get mega value. That\u2019s right, our Charmin Ultra Strong Mega Roll is way bigger, equals 4 regular rolls, and it\u2019s more bang for your behind so you\u2019ll be running back to the store less and less (based on number of sheets in Charmin Regular Roll bath tissue). Our Charmin Ultra Strong toilet paper is also 2-ply and designed to be clog-safe and septic-safe so you can flush confidentially and keep clean. We all go, why not Enjoy The Go with America\u2019s favorite toilet paper***. *vs. leading USA 1-ply bargain brand ** vs. Charmin Regular Roll ***Charmin Brand based on sales. Source: Nielsen 2021 dollar sales."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Standard 2-ply toilet paper",
+                  "Pack contains 18 Mega Rolls (220 Sheets Per Roll) of Charmin Ultra Strong Toilet Paper",
+                  "Fits standard toilet paper roll holders",
+                  "1 Mega Roll = 4 Regular Rolls* (*based on number of sheets in Charmin Regular Roll bath tissue)",
+                  "18 Mega Rolls = 72 Regular Rolls",
+                  "4X stronger when wet* to keep your hands and hiney clean (*vs leading USA 1-ply bargain brand)",
+                  "Cleans Better with fewer sheets and less effort* (*vs. leading USA 1-ply bargain brand)",
+                  "Clog-safe and septic-safe; Roto-Rooter approved",
+                  "Cleans better so you can use less* (*vs. the leading USA 1-ply bargain brand)",
+                  "Charmin Ultra Strong has washcloth like texture",
+                  "Made with a diamond weave texture",
+                  "Comes in white"
+                ],
+                "headliner": [
+                  "We all go to the bathroom, those who go with Charmin Ultra Strong toilet paper really Enjoy the Go!"
+                ]
+              },
+              "skusetID": "SS228810169",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5CA72111-1CFA-457E-B5E3575DF47A97B2_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "skuDescription": "CHARM ULTR STRNG 1",
+              "skuNumber": "102400",
+              "unitPrice": 23.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.76,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 23.23,
+              "couponDetails": [
+                {
+                  "chargeNo": "213472",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #52133",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 4,
+                  "chargePerUnit": 4
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 3.84,
+                  "chargePerUnit": 3.84
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 15.39,
+                  "chargePerUnit": 15.39
+                }
+              ],
+              "regularCouponsTotal": 23.23,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 23.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "901988",
+              "compareItemID": "901988",
+              "url": "/Staples-ClearClasp-9-x-12-Resealable-Brown-Kraft-Envelopes-10-Pack-901988/product_901988",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/050633DB-B838-45A9-9092A360BC03DB8A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/534A9272-E650-4D37-A6B936F281D29D1A_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)~#|#~C3F6F090-2C52-4632-9CE10101A4B89CE5_sc7",
+                "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)~#|#~050633DB-B838-45A9-9092A360BC03DB8A_sc7",
+                "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)~#|#~534A9272-E650-4D37-A6B936F281D29D1A_sc7"
+              ],
+              "title": "Staples #10 1/2 Kraft Catalog Envelope, 9\" x 12\", Kraft, 10/Pack (SPL901988)",
+              "model": "SPL901988",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901988"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "SPL901988"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Envelopes",
+              "baseCatId": "CL142681",
+              "hierarchy": {
+                "department": {
+                  "id": "DP2188",
+                  "name": "Business Envelopes"
+                },
+                "category": {
+                  "id": "CG23",
+                  "name": "Envelopes"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL142681",
+                  "name": "Envelopes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142681",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "10/Pack",
+              "rating": 4.59,
+              "ratingCount": 907,
+              "ratingUrl": "/Staples-ClearClasp-9-x-12-Resealable-Brown-Kraft-Envelopes-10-Pack-901988/product_901988?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 20,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 18,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 58,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 120,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 691,
+                  "reviewPercent": 76
+                }
+              ],
+              "price": "$8.99",
+              "priceValue": 8.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The envelope measuring 9\" x 12\" is constructed from 28-lb brown kraft and has a resealable ClearClasp closure designed for frequent usage. The envelope also features a gummed flap closure for permanent sealing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "9\" x 12\"",
+                  "Two ways to seal: resealable ClearClasp&trade;closure for repeated use and gummed flap for permanent closure",
+                  "28 lb. brown kraft",
+                  "10 per pack",
+                  "100% satisfaction guaranteed"
+                ],
+                "headliner": [
+                  "The Staples 9\" x 12\" envelope featuring a resealable ClearClasp closure for repeated usage is made of 28-lb brown kraft and has a gummed flap for secure closure."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/050633DB-B838-45A9-9092A360BC03DB8A_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "9X12 CLEAR CLASP E",
+              "skuNumber": "901988",
+              "unitPrice": 5.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.22,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.77,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 1.16,
+                  "chargePerUnit": 1.16
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 4.61,
+                  "chargePerUnit": 4.61
+                }
+              ],
+              "regularCouponsTotal": 5.77,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "901988",
+      "102400"
+    ],
+    "storeNumber": "567",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "1300 Rt. 17 North",
+      "city": "RAMSEY",
+      "state": "NJ",
+      "zipCode": "07446"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RR11411GD64AYTH3"
+  }
+}

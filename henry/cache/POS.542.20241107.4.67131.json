@@ -1,0 +1,477 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.542.20241107.4.67131",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-11-07T12:37:40",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhyTE9BUFd5MjlNdHdNczZ3dlBGUi9tN3NRWHdTL3o0UC8wNGJHaXl2RkR2QkdLcjJXRDBLakxIYWFmc205bERWMlJXN1RDT2FCbUNOcU0wREd1aVk9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.62,
+  "orderLines": [
+    {
+      "productSku": "24297346",
+      "productName": "HI-CHEW ORIG MIX 3",
+      "productShortDesc": "HI-CHEW ORIG MIX 3",
+      "productLongDesc": "HI-CHEW ORIG MIX 3",
+      "unitPrice": 3.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "HI-CHEW ORIG MIX 3",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24339497",
+      "productName": "Brother TN223 Black Standard Yield Tone",
+      "productShortDesc": "Brother TN223 Black Standard Yield Tone",
+      "productLongDesc": "Brother TN223 Black Standard Yield Tone",
+      "unitPrice": 65.09,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7?$thb$",
+      "productURL": "brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497",
+      "model": "TN223BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24339497",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:51:44.132111741",
+      "resourceName": "OrderDetails",
+      "transactionId": "e60289d0e3764baa8eb1a4cf4cb5cc10",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241107.4.67131",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.542.20241107.4.67131",
+    "orderDate": "2024-11-07T12:37:40",
+    "keyForOrderDetails": "U3RNREcrMUttMDZ6KzVyMXB5YWFXQ0dFNDJwRVloNitoME5CWlZHdHZDY1NzL0Y5SGZjOTF1N0RiaEJpaHlaMExrU1ZxY3I0Kzg2Z01vQjI5UUFqd0pXSUE9",
+    "orderUrlKey": "U3RNREcrMUttMDZ6KzVyMXB5YWFXQ0dFNDJwRVloNitoME5CWlZHdHZDY1NzL0Y5SGZjOTF1N0RiaEJpaHlaMExrU1ZxY3I0Kzg2Z01vQjI5UUFqd0pXSUE9",
+    "customerNumberKey": "U3RNREUwZjFJM1N5SFkvN0YvZzJKUklXM0lwVzRuUC9ZbG9lQzI5Wk4xazAwaEhyQ0NBeFlzUUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 68.58,
+    "discountsTotal": 68,
+    "couponsTotal": 25,
+    "pointsRedeemedValue": 43,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.04,
+    "grandTotal": 0.62,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "HI-CHEW ORIG MIX 3",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24297346?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "HI-CHEW ORIG MIX 3",
+              "skuNumber": "24297346",
+              "unitPrice": 3.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.03,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.002
+                }
+              ],
+              "couponTotal": 3.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.66,
+                  "chargePerUnit": 0.66
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.8,
+                  "chargePerUnit": 2.8
+                }
+              ],
+              "regularCouponsTotal": 3.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC43",
+              "itemId": "24339497",
+              "compareItemID": "24339497",
+              "url": "/brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A89B77B8-A13D-4CD6-9DECB8082D3433A2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5EF070EF-71C0-4304-B44F834B26F15881_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0EB16E2E-1182-43FC-A9E3F1D4AE15A6FB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/52B92D23-C7BF-4818-83928F796BFF42EF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C753FDB4-D0E8-4597-A683F39D67C75A43_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F1FD4EAA-9BDF-470B-AAFB3B27C1830CE8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp149495846_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~1BF7EC10-648E-4676-94CB5682C7A7FC62_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~A89B77B8-A13D-4CD6-9DECB8082D3433A2_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~5EF070EF-71C0-4304-B44F834B26F15881_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~0EB16E2E-1182-43FC-A9E3F1D4AE15A6FB_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~52B92D23-C7BF-4818-83928F796BFF42EF_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~C753FDB4-D0E8-4597-A683F39D67C75A43_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~F1FD4EAA-9BDF-470B-AAFB3B27C1830CE8_sc7",
+                "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)~#|#~sp149495846_sc7"
+              ],
+              "title": "Brother TN-223 Black Standard Yield Toner Cartridge, Print Up to 1,400 Pages (TN223BK)",
+              "model": "TN223BK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24339497"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN223BK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.23,
+              "ratingCount": 1817,
+              "ratingUrl": "/brother-tn-223-black-standard-yield-toner-cartridge-print-up-to-1-400-pages-tn223bk/product_24339497?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 213,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 51,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 102,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1264,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$73.49",
+              "priceValue": 73.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 77,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Brother Genuine TN-223BK Standard Yield Black Toner Cartridges deliver professional prints with up to 1,400-page yield.* Intelligently engineered to work with Brother printers for superior results."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW and MFC-L3770CDW.",
+                  "Standard Yield Black Toner Cartridge",
+                  "Page Yield of up to 1,400 pages*",
+                  "Intelligently engineered as part of a complete printing system to work seamlessly with your Brother printer",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges"
+                ],
+                "headliner": [
+                  "Experience consistent, high-quality printing results with this Brother TN223 black toner cartridge."
+                ],
+                "expandedDescr": [
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Brother TN223 Black Standard Yield Tone",
+              "skuNumber": "24339497",
+              "unitPrice": 65.09,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.55,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0364
+                }
+              ],
+              "couponTotal": 64.54,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 9.34,
+                  "chargePerUnit": 9.34
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 40.2,
+                  "chargePerUnit": 40.2
+                }
+              ],
+              "regularCouponsTotal": 64.54,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 65.09,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24339497",
+      "24297346"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716RCY4AYGA4"
+  }
+}

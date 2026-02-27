@@ -1,0 +1,2057 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.522.20250419.2.3553",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-04-19T17:56:44",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhpKzRKRXVHYkNJWlFpNGZFREw4eWVmUUZhbzFzSk5uM3ZYem5hSVJWWTBwc2VWREJRQ3I0TWZlUXJOUzNRYlFWOU9nUlVDdGZkQ3dodDE5bjFGUT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 134.33,
+  "orderLines": [
+    {
+      "productSku": "24600082",
+      "productName": "BOX LOCK 6 PACK 2",
+      "productShortDesc": "BOX LOCK 6 PACK 2",
+      "productLongDesc": "BOX LOCK 6 PACK 2",
+      "unitPrice": 37.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$thb$",
+      "productURL": "scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082",
+      "model": "3950S-6-2BR6GC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24600082",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "742293",
+      "productName": "16X12X10 RECTANGLE",
+      "productShortDesc": "16X12X10 RECTANGLE",
+      "productLongDesc": "16X12X10 RECTANGLE",
+      "unitPrice": 3.5,
+      "orderQty": 10,
+      "originalOrderedQty": 10,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$thb$",
+      "productURL": "16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293",
+      "model": "ST55961",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "742293",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "742295",
+      "productName": "24X16X10 LARGE REC",
+      "productShortDesc": "24X16X10 LARGE REC",
+      "productLongDesc": "24X16X10 LARGE REC",
+      "unitPrice": 5.5,
+      "orderQty": 10,
+      "originalOrderedQty": 10,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "24\" x 10\" x 16\" Shipping Boxes (ST55963)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$thb$",
+      "productURL": "staples-24-x-16-x-10-32-ect-box-each/product_742295",
+      "model": "ST55963",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "742295",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24608319",
+      "productName": "DUNKIN ORIGINAL BL",
+      "productShortDesc": "DUNKIN ORIGINAL BL",
+      "productLongDesc": "DUNKIN ORIGINAL BL",
+      "unitPrice": 35.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "DUNKIN ORIGINAL BL",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24387496",
+      "productName": "SISTEMA SALAD",
+      "productShortDesc": "SISTEMA SALAD",
+      "productLongDesc": "SISTEMA SALAD",
+      "unitPrice": 11.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+      "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+      "model": "21356ZS",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24387496",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24387496",
+      "productName": "SISTEMA SALAD",
+      "productShortDesc": "SISTEMA SALAD",
+      "productLongDesc": "SISTEMA SALAD",
+      "unitPrice": 11.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$",
+      "productURL": "newell-sistema-salad-container-clear-21356zs/product_24387496",
+      "model": "21356ZS",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24387496",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "485999",
+      "productName": "FELLOWES FOOTREST",
+      "productShortDesc": "FELLOWES FOOTREST",
+      "productLongDesc": "FELLOWES FOOTREST",
+      "unitPrice": 29.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Fellowes Standard Footrest, Graphite (48121)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+      "productURL": "fellowes-standard-footrests-graphite-48121/product_485999",
+      "model": "48121",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "485999",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:40:21.642766402",
+      "resourceName": "OrderDetails",
+      "transactionId": "e9d403d49b2c49f18fadd18b5592718f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250419.2.3553",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.522.20250419.2.3553",
+    "orderDate": "2025-04-19T17:56:44",
+    "keyForOrderDetails": "U3RNREdEelBMUXlBNTF1S1VYczVyZ1dwcTBUUDBnc3YrUlladk1PTWx5OEtIbDVYOU5vblduMWtjbU9UVVc3NEFobUh0MUxPejdrcDRCUDZhVCttR3I0UT09",
+    "orderUrlKey": "U3RNREdEelBMUXlBNTF1S1VYczVyZ1dwcTBUUDBnc3YrUlladk1PTWx5OEtIbDVYOU5vblduMWtjbU9UVVc3NEFobUh0MUxPejdrcDRCUDZhVCttR3I0UT09",
+    "customerNumberKey": "U3RNREhhblFkSmsvamMrNTdtUUJzbk1mK1FzOW56Qmd6ZWJLc3pqOVU1alNvMEN1MWtpYWZXcWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 216.45,
+    "discountsTotal": 88.71,
+    "couponsTotal": 88.71,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 6.59,
+    "grandTotal": 134.33,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "742295",
+              "compareItemID": "742295",
+              "url": "/staples-24-x-16-x-10-32-ect-box-each/product_742295",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0153701_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "24\" x 10\" x 16\" Shipping Boxes (ST55963)~#|#~s0153701_sc7"
+              ],
+              "title": "24\" x 10\" x 16\" Shipping Boxes (ST55963)",
+              "model": "ST55963",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "742295"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55963"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 413,
+              "ratingUrl": "/staples-24-x-16-x-10-32-ect-box-each/product_742295?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 20,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 42,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 332,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$5.50",
+              "priceValue": 5.5,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Shipping boxes help ensure items are protected during shipping"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Comes flat, easy to store",
+                  "Contains 100% recycled content",
+                  "Overall dimensions: 24\"L x 16\"W x 10\"H"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "24X16X10 LARGE REC",
+              "skuNumber": "742295",
+              "unitPrice": 5.5,
+              "qtyOrdered": 10,
+              "qtyShipped": 10,
+              "isReshipped": false,
+              "lineTotal": 16.5,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.093
+                }
+              ],
+              "couponTotal": 38.5,
+              "couponDetails": [
+                {
+                  "chargeNo": "215436",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 27.5,
+                  "chargePerUnit": 2.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeDesc": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeAmount": 11,
+                  "chargePerUnit": 1.1
+                }
+              ],
+              "regularCouponsTotal": 38.5,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 55,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "DUNKIN ORIGINAL BL",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24608319?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "DUNKIN ORIGINAL BL",
+              "skuNumber": "24608319",
+              "unitPrice": 35.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 28.19,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 7.3,
+              "couponDetails": [
+                {
+                  "chargeNo": "216077",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #25025",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 5.5,
+                  "chargePerUnit": 5.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 1.8,
+                  "chargePerUnit": 1.8
+                }
+              ],
+              "regularCouponsTotal": 7.3,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 35.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "742293",
+              "compareItemID": "742293",
+              "url": "/16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0193680_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)~#|#~s0193680_sc7"
+              ],
+              "title": "16 \" x 12 \" x 10 \" Shipping Box, 200# Mullen Rated, Brown (10023)",
+              "model": "ST55961",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "742293"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55961"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL213835",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350125",
+                  "name": "Corrugated Boxes & Pads"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL213835",
+                  "name": "Shipping Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213835",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.77,
+              "ratingCount": 318,
+              "ratingUrl": "/16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 8,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 35,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 269,
+                  "reviewPercent": 85
+                }
+              ],
+              "price": "$3.50",
+              "priceValue": 3.5,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Medium rectangle box"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Corrugated Boxes are manufactured from 200#/ECT 32 kraft corrugated",
+                  "Dimensions: 16\"x12\"x10\"",
+                  "Capacity (Cu. Ft.): 1.11",
+                  "Meets most mailing and shipping carrier specifications"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "16X12X10 RECTANGLE",
+              "skuNumber": "742293",
+              "unitPrice": 3.5,
+              "qtyOrdered": 10,
+              "qtyShipped": 10,
+              "isReshipped": false,
+              "lineTotal": 10.48,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.694
+                }
+              ],
+              "couponTotal": 24.52,
+              "couponDetails": [
+                {
+                  "chargeNo": "215436",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 17.5,
+                  "chargePerUnit": 1.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeDesc": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeAmount": 7.01,
+                  "chargePerUnit": 0.701
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 promo card towards a future purchase when you spend $50 or more.",
+                  "chargeDesc": "$10 promo card towards a future purchase when you spend $50 or more.",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.001
+                }
+              ],
+              "regularCouponsTotal": 24.52,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 35,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC2",
+              "itemId": "485999",
+              "compareItemID": "485999",
+              "url": "/fellowes-standard-footrests-graphite-48121/product_485999",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2873398A-A796-4C93-98732E7577E3F881_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8BC85B70-6580-4C97-A148C739ADB63728_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36F288CF-D1FD-438B-868BBE74261BA4FD_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~7A714F9F-6D45-4C42-803E613FADB811AB_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~7D81D589-EA6D-4CB3-9454502A6014FD82_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~2873398A-A796-4C93-98732E7577E3F881_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~8BC85B70-6580-4C97-A148C739ADB63728_sc7",
+                "Fellowes Standard Footrest, Graphite (48121)~#|#~36F288CF-D1FD-438B-868BBE74261BA4FD_sc7"
+              ],
+              "title": "Fellowes Standard Footrest, Graphite (48121)",
+              "model": "48121",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "485999"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "48121"
+                }
+              ],
+              "manufacturerName": "Fellowes",
+              "brandName": "Fellowes",
+              "baseCatName": "Chairs & Seating",
+              "baseCatId": "CL161892",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10539",
+                  "name": "Stools & Ottomans"
+                },
+                "category": {
+                  "id": "CG32",
+                  "name": "Chairs & Seating"
+                },
+                "supercategory": {
+                  "id": "SC2",
+                  "name": "Furniture"
+                },
+                "class": {
+                  "id": "CL161892",
+                  "name": "Foot Rests"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161892",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.04,
+              "ratingCount": 435,
+              "ratingUrl": "/fellowes-standard-footrests-graphite-48121/product_485999?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 34,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 28,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 44,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 109,
+                  "reviewPercent": 25
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 220,
+                  "reviewPercent": 51
+                }
+              ],
+              "price": "$32.99",
+              "priceValue": 32.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy comfort throughout the day with this adjustable footrest that customizes to each person's specific preferences. This footrest helps encourage proper circulation with its tilt and lock design for optimal foot placement. The textured bumps of this footrest help promote stress relief through concentrating on specific pressure points. This Fellowes footrest helps individuals feel less tightness and strain in their feet. Fellowes Standard Footrest offers dual-position height adjustment with a Free-Floating platform that encourages lower leg movement to help reduce fatigue. A textured surface massages the soles of your feet for stress reduction. Product contains 89% post-consumer recycled materials."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Footrest helps improve circulation while seating at the workstation",
+                  "The adjustable height makes this the perfect way for you to maximize your comfort",
+                  "Textured surface massages soles of feet",
+                  "Dimensions: 3.75\"H x 17.63\"W x 13.13\"D",
+                  "5-year manufacturer limited warranty",
+                  "Product contains 89% post-consumer recycled materials"
+                ],
+                "headliner": [
+                  "Enhance seated comfort with this discreet and ergonomically designed Fellowes Standard footrest."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "chairHighlights": [
+                {
+                  "iconName": "shield-check",
+                  "specValue": "5 Year",
+                  "specName": "WARRANTY",
+                  "specificationName": "Warranty Information"
+                },
+                {
+                  "iconName": "material",
+                  "specValue": "Plastic/Poly",
+                  "specName": "MATERIAL",
+                  "specificationName": "Furnishing Material"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FELLOWES FOOTREST",
+              "skuNumber": "485999",
+              "unitPrice": 29.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 28.18,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.8669
+                }
+              ],
+              "couponTotal": 1.81,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 1.81,
+                  "chargePerUnit": 1.81
+                }
+              ],
+              "regularCouponsTotal": 1.81,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5585",
+              "itemId": "24600082",
+              "compareItemID": "24600082",
+              "url": "/scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/03250233-84DA-4A06-810E49A57C2F2D97_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A248CB93-CAF6-46EE-8195C3A8A1A16255_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/97E767C0-15B5-4A9B-9A42FD2ED0164622_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F66EB7C-4A04-4305-93F28D35EBD7E60E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3CAE57E0-0705-452B-AC35227D195E7A58_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F843C782-DC67-44CE-AA09D5FC17977111_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/253EB0D8-3F5A-4423-8FF04E68FE6818D8_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~0668F931-F054-4721-843DD759F817FE10_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~03250233-84DA-4A06-810E49A57C2F2D97_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~A248CB93-CAF6-46EE-8195C3A8A1A16255_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~97E767C0-15B5-4A9B-9A42FD2ED0164622_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~7F66EB7C-4A04-4305-93F28D35EBD7E60E_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~3CAE57E0-0705-452B-AC35227D195E7A58_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~F843C782-DC67-44CE-AA09D5FC17977111_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~253EB0D8-3F5A-4423-8FF04E68FE6818D8_sc7"
+              ],
+              "title": "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)",
+              "model": "3950S-6-2BR6GC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24600082"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3950S-6-2BR6GC"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL140631",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350281",
+                  "name": "Packing Tape & Dispensers"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL140631",
+                  "name": "Packing Tape"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140631",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "8/Pack",
+              "rating": 5,
+              "ratingCount": 8,
+              "ratingUrl": "/scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$45.09",
+              "priceValue": 45.09,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Scotch Box Lock Packaging Tape sticks instantly to any box! It has the power of extreme grip to ensure boxes stay securely sealed, even during rough handling. Its new advanced adhesive creates a secure seal over box edges, and its thickness and durability reduces splitting and tearing and makes it easier to find the start of the roll. This tape can be used to seal any type of box, including harder-to-stick to 100% recycled boxes."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Sticks instantly to any box!",
+                  "Has the power of extreme grip, giving you confidence your box will stay sealed through rough handling",
+                  "Designed for better box adhesion",
+                  "Guaranteed to Stay Sealed* (If your box does not stay sealed, 3M will refund the purchase price of this tape. Proof of purchase required",
+                  "New advanced adhesive creates a secure seal over box edges & seams",
+                  "Easy to find the start of the roll",
+                  "Can be used on any box, including harder-to-stick-to 100% recycled boxes",
+                  "No slivering, splitting or tearing",
+                  "Crystal clear and clear-to-core",
+                  "Premium sticking power",
+                  "Smooth unwind & quiet release",
+                  "You don't need layers of tape for a secure seal - One strip and it ships!",
+                  "Includes refillable dispenser that delivers a clean cut, and fall-back tabs helps ensure the tape doesn\u2019t fall back on the roll",
+                  "Strong, durable, solvent-free hot melt adhesive seals and protects"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "BOX LOCK 6 PACK 2",
+              "skuNumber": "24600082",
+              "unitPrice": 37.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 22.8,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.5105
+                }
+              ],
+              "couponTotal": 15.19,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeDesc": "40% off select shipping supplies with a minimum purchase of $10",
+                  "chargeAmount": 15.19,
+                  "chargePerUnit": 15.19
+                }
+              ],
+              "regularCouponsTotal": 15.19,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 37.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5884",
+              "itemId": "24387496",
+              "compareItemID": "24387496",
+              "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+              ],
+              "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+              "model": "21356ZS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24387496"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "21356ZS"
+                }
+              ],
+              "manufacturerName": "Newell",
+              "brandName": "Newell",
+              "baseCatName": "",
+              "baseCatId": "CL165124",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10932",
+                  "name": "Totes & Handbags"
+                },
+                "category": {
+                  "id": "CG3891",
+                  "name": "Bags & Backpacks"
+                },
+                "supercategory": {
+                  "id": "SC5884",
+                  "name": "Bags, Backpacks & Luggage"
+                },
+                "class": {
+                  "id": "CL165124",
+                  "name": "Lunch Bags & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165124",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 28,
+              "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 21,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$11.49",
+              "priceValue": 11.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                  "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                  "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                  "Fun, colorful containers are designed and made in New Zealand",
+                  "Colors received may vary"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SISTEMA SALAD",
+              "skuNumber": "24387496",
+              "unitPrice": 11.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 10.79,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.7148
+                }
+              ],
+              "couponTotal": 0.7,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 0.7,
+                  "chargePerUnit": 0.7
+                }
+              ],
+              "regularCouponsTotal": 0.7,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5884",
+              "itemId": "24387496",
+              "compareItemID": "24387496",
+              "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+              ],
+              "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+              "model": "21356ZS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24387496"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "21356ZS"
+                }
+              ],
+              "manufacturerName": "Newell",
+              "brandName": "Newell",
+              "baseCatName": "",
+              "baseCatId": "CL165124",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10932",
+                  "name": "Totes & Handbags"
+                },
+                "category": {
+                  "id": "CG3891",
+                  "name": "Bags & Backpacks"
+                },
+                "supercategory": {
+                  "id": "SC5884",
+                  "name": "Bags, Backpacks & Luggage"
+                },
+                "class": {
+                  "id": "CL165124",
+                  "name": "Lunch Bags & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165124",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.64,
+              "ratingCount": 28,
+              "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 5,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 21,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$11.49",
+              "priceValue": 11.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                  "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                  "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                  "Fun, colorful containers are designed and made in New Zealand",
+                  "Colors received may vary"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SISTEMA SALAD",
+              "skuNumber": "24387496",
+              "unitPrice": 11.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 10.8,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.7155
+                }
+              ],
+              "couponTotal": 0.69,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 0.69,
+                  "chargePerUnit": 0.69
+                }
+              ],
+              "regularCouponsTotal": 0.69,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 11.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 25
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.522.20250426.2.4349",
+        "masterOrderNumber": "POS.522.20250419.2.3553",
+        "returnedDate": "2025-04-26T15:21:06",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 11.49,
+            "couponTotal": 0.7,
+            "regularCouponsTotal": 0.7,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.7148,
+            "grandTotal": 11.5048,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC5884",
+                  "itemId": "24387496",
+                  "compareItemID": "24387496",
+                  "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+                  ],
+                  "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+                  "model": "21356ZS",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24387496"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "21356ZS"
+                    }
+                  ],
+                  "manufacturerName": "Newell",
+                  "brandName": "Newell",
+                  "baseCatName": "",
+                  "baseCatId": "CL165124",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10932",
+                      "name": "Totes & Handbags"
+                    },
+                    "category": {
+                      "id": "CG3891",
+                      "name": "Bags & Backpacks"
+                    },
+                    "supercategory": {
+                      "id": "SC5884",
+                      "name": "Bags, Backpacks & Luggage"
+                    },
+                    "class": {
+                      "id": "CL165124",
+                      "name": "Lunch Bags & Boxes"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL165124",
+                  "bopisEligible": true,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.64,
+                  "ratingCount": 28,
+                  "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 5,
+                      "reviewPercent": 18
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 21,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$11.49",
+                  "priceValue": 11.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                      "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                      "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                      "Fun, colorful containers are designed and made in New Zealand",
+                      "Colors received may vary"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "SISTEMA SALAD",
+                  "skuNumber": "24387496",
+                  "unitPrice": 11.49,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 11.5048,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.7148,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.7148
+                    }
+                  ],
+                  "couponTotal": 0.7,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "$5 off your purchase of $25 or more.",
+                      "chargeAmount": 0.7
+                    }
+                  ],
+                  "regularCouponsTotal": 0.7,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 11.49,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREh5NitxSHNvSTFMRmRoOFpSdUZ5OXIzdnNvUDVIaHVhTnJDQ2xtbjhGVmtsekdSVmg1bHM4QUJYQVBqaGdxc1NCR2dIRlBQRzdhVU9lREFWWFYvdz09"
+      },
+      {
+        "returnOrderNumber": "POS.522.20250426.2.4377",
+        "masterOrderNumber": "POS.522.20250419.2.3553",
+        "returnedDate": "2025-04-26T16:37:01",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 11.49,
+            "couponTotal": 0.69,
+            "regularCouponsTotal": 0.69,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.7155,
+            "grandTotal": 11.5155,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC5884",
+                  "itemId": "24387496",
+                  "compareItemID": "24387496",
+                  "url": "/newell-sistema-salad-container-clear-21356zs/product_24387496",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/08E81538-CF95-4F8D-A8B6E31386B0C070_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)~#|#~08E81538-CF95-4F8D-A8B6E31386B0C070_sc7"
+                  ],
+                  "title": "Newell Sistema To Go Salad Container, Clear, 37 oz. (21356ZS)",
+                  "model": "21356ZS",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "24387496"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "21356ZS"
+                    }
+                  ],
+                  "manufacturerName": "Newell",
+                  "brandName": "Newell",
+                  "baseCatName": "",
+                  "baseCatId": "CL165124",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10932",
+                      "name": "Totes & Handbags"
+                    },
+                    "category": {
+                      "id": "CG3891",
+                      "name": "Bags & Backpacks"
+                    },
+                    "supercategory": {
+                      "id": "SC5884",
+                      "name": "Bags, Backpacks & Luggage"
+                    },
+                    "class": {
+                      "id": "CL165124",
+                      "name": "Lunch Bags & Boxes"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "description": "Out of stock for delivery to your shipping location.",
+                    "showAltDeliveryItems": true,
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL165124",
+                  "bopisEligible": true,
+                  "inStoreOnly": true,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Pick up",
+                  "secondaryCTAText": "Pick up in store",
+                  "actionLabel": "pickUpToday",
+                  "isQtyChangeAvailable": false,
+                  "isDeliveryInstock": false,
+                  "badgeDetails": {
+                    "productBadge": "In-store only",
+                    "badgeType": "product"
+                  },
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.64,
+                  "ratingCount": 28,
+                  "ratingUrl": "/newell-sistema-salad-container-clear-21356zs/product_24387496?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 1,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 5,
+                      "reviewPercent": 18
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 21,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$11.49",
+                  "priceValue": 11.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {},
+                  "description": {
+                    "paragraph": [
+                      "The Sistema Salad To Go set features a divided insert tray and a dressing container in the center with a lid, so you can keep ingredients separate until you're ready to eat. The generously sized base is perfect for mixing up your salads, while the convenient knife and fork clip into the lid, so you don't have to carry separate cutlery. It's top-rack dishwasher safe, microwave safe without the lid, and freezer safe."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Divided insert tray plus a lidded dressing container to keep ingredients separate",
+                      "Features the distinctive Sistema easy-locking clips and flexible seal; great for meal prep",
+                      "Top-rack dishwasher safe, microwave safe without the lid, and freezer safe; phthalate- and BPA-free",
+                      "Fun, colorful containers are designed and made in New Zealand",
+                      "Colors received may vary"
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "SISTEMA SALAD",
+                  "skuNumber": "24387496",
+                  "unitPrice": 11.49,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 11.5155,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.7155,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.7155
+                    }
+                  ],
+                  "couponTotal": 0.69,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "$5 off your purchase of $25 or more.",
+                      "chargeAmount": 0.69
+                    }
+                  ],
+                  "regularCouponsTotal": 0.69,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 11.49,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREVxeWczSEVhckE3YXBMc2N6QU02TERvbUlEaExscGhHL21ZbjFWT1RJUllSTStGVnE5OU5PTzZ3dUhBbmhadFkybHZXVzNXVmltcUlHVlFIRkl4dz09"
+      },
+      {
+        "returnOrderNumber": "POS.542.20250427.4.94525",
+        "masterOrderNumber": "POS.522.20250419.2.3553",
+        "returnedDate": "2025-04-27T16:36:08",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 29.99,
+            "couponTotal": 1.81,
+            "regularCouponsTotal": 1.81,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 1.8669,
+            "grandTotal": 30.0469,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC2",
+                  "itemId": "485999",
+                  "compareItemID": "485999",
+                  "url": "/fellowes-standard-footrests-graphite-48121/product_485999",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/7A714F9F-6D45-4C42-803E613FADB811AB_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/2873398A-A796-4C93-98732E7577E3F881_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/8BC85B70-6580-4C97-A148C739ADB63728_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/36F288CF-D1FD-438B-868BBE74261BA4FD_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~7A714F9F-6D45-4C42-803E613FADB811AB_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~7D81D589-EA6D-4CB3-9454502A6014FD82_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~3E9A1A16-C3C8-4482-BFBD875370EFD6E6_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~48FCBD7C-9AB0-4904-BCFFC0181B2E6C6E_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~2873398A-A796-4C93-98732E7577E3F881_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~8BC85B70-6580-4C97-A148C739ADB63728_sc7",
+                    "Fellowes Standard Footrest, Graphite (48121)~#|#~36F288CF-D1FD-438B-868BBE74261BA4FD_sc7"
+                  ],
+                  "title": "Fellowes Standard Footrest, Graphite (48121)",
+                  "model": "48121",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "485999"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "48121"
+                    }
+                  ],
+                  "manufacturerName": "Fellowes",
+                  "brandName": "Fellowes",
+                  "baseCatName": "Chairs & Seating",
+                  "baseCatId": "CL161892",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10539",
+                      "name": "Stools & Ottomans"
+                    },
+                    "category": {
+                      "id": "CG32",
+                      "name": "Chairs & Seating"
+                    },
+                    "supercategory": {
+                      "id": "SC2",
+                      "name": "Furniture"
+                    },
+                    "class": {
+                      "id": "CL161892",
+                      "name": "Foot Rests"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL161892",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.04,
+                  "ratingCount": 435,
+                  "ratingUrl": "/fellowes-standard-footrests-graphite-48121/product_485999?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 34,
+                      "reviewPercent": 8
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 28,
+                      "reviewPercent": 6
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 44,
+                      "reviewPercent": 10
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 109,
+                      "reviewPercent": 25
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 220,
+                      "reviewPercent": 51
+                    }
+                  ],
+                  "price": "$32.99",
+                  "priceValue": 32.99,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": false,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Enjoy comfort throughout the day with this adjustable footrest that customizes to each person's specific preferences. This footrest helps encourage proper circulation with its tilt and lock design for optimal foot placement. The textured bumps of this footrest help promote stress relief through concentrating on specific pressure points. This Fellowes footrest helps individuals feel less tightness and strain in their feet. Fellowes Standard Footrest offers dual-position height adjustment with a Free-Floating platform that encourages lower leg movement to help reduce fatigue. A textured surface massages the soles of your feet for stress reduction. Product contains 89% post-consumer recycled materials."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Footrest helps improve circulation while seating at the workstation",
+                      "The adjustable height makes this the perfect way for you to maximize your comfort",
+                      "Textured surface massages soles of feet",
+                      "Dimensions: 3.75\"H x 17.63\"W x 13.13\"D",
+                      "5-year manufacturer limited warranty",
+                      "Product contains 89% post-consumer recycled materials"
+                    ],
+                    "headliner": [
+                      "Enhance seated comfort with this discreet and ergonomically designed Fellowes Standard footrest."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "chairHighlights": [
+                    {
+                      "iconName": "shield-check",
+                      "specValue": "5 Year",
+                      "specName": "WARRANTY",
+                      "specificationName": "Warranty Information"
+                    },
+                    {
+                      "iconName": "material",
+                      "specValue": "Plastic/Poly",
+                      "specName": "MATERIAL",
+                      "specificationName": "Furnishing Material"
+                    }
+                  ],
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/7D81D589-EA6D-4CB3-9454502A6014FD82_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "FELLOWES FOOTREST",
+                  "skuNumber": "485999",
+                  "unitPrice": 29.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 30.0469,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 1.8669,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 1.8669
+                    }
+                  ],
+                  "couponTotal": 1.81,
+                  "couponDetails": [
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "$5 off your purchase of $25 or more.",
+                      "chargeAmount": 1.81
+                    }
+                  ],
+                  "regularCouponsTotal": 1.81,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 29.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREdUYitGYU5XYXFaeVcydDBudnUzVnlqUHlXTlJTMkc2eXkzVmlINkFucThwOHgxclEyVDlXTWFHRXF6eTJ6UEU0NFVqdkozQ2lTRHY3Z0NFQTQ5aFE9"
+      }
+    ],
+    "productsOnOrder": [
+      "485999",
+      "24387496",
+      "742295",
+      "742293",
+      "24600082",
+      "24608319"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-04-26T15:21:06",
+            "quantity": 1
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-04-26T16:37:01",
+            "quantity": 1
+          },
+          {
+            "type": "Return initiated",
+            "date": "2025-04-27T16:36:08",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4114119AM4AYW6G"
+  }
+}

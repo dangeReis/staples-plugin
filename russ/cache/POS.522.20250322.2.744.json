@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZlRGV6MEx3MFlkaXJxQUhkQVl3b09vdFVVeitUTE1uMStpdXU4QkRGejlMRVFxRDdmK1dnY0IyRXVSZFRJVENpNDIydGRkOW9XSkxoM2VkRS8=",
+  "keyForOrderDetails": "U3RNREhIYktSbGVkd0lNdmxGbTdabkNrV2FCYmVzK3ZCSUl6Qm4zRkVnWmRsQTg0VlJzeFc4NU1ISkM4WXE5Z3pPdmIwTndPaDFNYnU4YVZ6cHZDOWQ=",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -176,22 +176,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:44.297079520",
+      "timeStamp": "2026-02-23T21:54:59.742935280",
       "resourceName": "OrderDetails",
-      "transactionId": "80b4dafa56394c6b921dab3850bd6cdd",
+      "transactionId": "e1112da6b6884522a6a73c2abb78bd02",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20250322.2.744",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20250322.2.744",
     "orderDate": "2025-03-22T16:36:24",
-    "keyForOrderDetails": "U3RNREVISnRVRTVRbVk1TXNWOW1xZGNpWDdCWDErR3NIOUF1ZkRDZzBkdVcvZndEUFVUZ1hUTGVCVGluSEZXUXk0MjVxWHFkRVQrZXhCM25nZjBlTS8=",
-    "orderUrlKey": "U3RNREVISnRVRTVRbVk1TXNWOW1xZGNpWDdCWDErR3NIOUF1ZkRDZzBkdVcvZndEUFVUZ1hUTGVCVGluSEZXUXk0MjVxWHFkRVQrZXhCM25nZjBlTS8=",
-    "customerNumberKey": "U3RNREZoQzJ4SHo0b0toMjJFdkp6ckcxdE5DMVlUNkVkZmxkeThwNlhqUTR4M2JjV0QyVEcyUFE9PQ==",
+    "keyForOrderDetails": "U3RNREhLdDFJZmF6d0JXZnRDSUZUMUV0V3ZlL3cwRFNNUjlUYjZPWWpnT2hFT0V6QUppc2lodEtxVkN5K0tFeldNMmdOajE4YXUya0ZRWm5RYkxzdDg=",
+    "orderUrlKey": "U3RNREhLdDFJZmF6d0JXZnRDSUZUMUV0V3ZlL3cwRFNNUjlUYjZPWWpnT2hFT0V6QUppc2lodEtxVkN5K0tFeldNMmdOajE4YXUya0ZRWm5RYkxzdDg=",
+    "customerNumberKey": "U3RNREdJVm9zeTZHbHJsblB0NVM3SXlnYS90UWVxRlphcjFlRndDTFMrTjdRTHgxSWR4eWMyVFE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -357,8 +358,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -502,8 +503,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Mar 03 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Mar 05 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -683,18 +684,18 @@
               "autoRestockPrice": "$26.31",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 69,
+                "availableQuantity": 68,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1061,18 +1062,18 @@
               "autoRestockPrice": "$26.31",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 69,
+                "availableQuantity": 68,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1210,8 +1211,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Mar 03 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Mar 05 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1378,8 +1379,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Mar 03 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Mar 05 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1510,8 +1511,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Mar 03 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Mar 05 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1682,8 +1683,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -2042,18 +2043,18 @@
                   "autoRestockPrice": "$26.31",
                   "itemAvailability": {
                     "inventoryMode": "STANDARD",
-                    "availableQuantity": 69,
+                    "availableQuantity": 68,
                     "minLeadTime": 2,
                     "maxLeadTime": 2,
-                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                    "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
                   },
                   "savingsPercentageOverSTAPrice": 5,
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -2226,18 +2227,18 @@
                   "autoRestockPrice": "$26.31",
                   "itemAvailability": {
                     "inventoryMode": "STANDARD",
-                    "availableQuantity": 69,
+                    "availableQuantity": 68,
                     "minLeadTime": 2,
                     "maxLeadTime": 2,
-                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                    "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
                   },
                   "savingsPercentageOverSTAPrice": 5,
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -2296,7 +2297,7 @@
             "itemsCount": 6
           }
         ],
-        "orderUrlKey": "U3RNREVmaUZ4dlJobkg3R2dNYjcxbnJObUF0ZXhkRWhNWkVibXdiU0ZCSUQ2ckNYRjE0OElXdmdtUmNObWxPZDJTbGxkNVBhWWNUa2VpeUsxeHNNd29sa1U9"
+        "orderUrlKey": "U3RNREYxVUJ2VEVuSVNWNlg2T3c0LzhoaGd2STRrbWJXcWszYWFQZk9oL3BmVCsxMXQyV3NOdWNjN3h6ZStrNTh5L2hzb0xMeENxYWxCbDAvdGVPcHZUS3M9"
       }
     ],
     "productsOnOrder": [

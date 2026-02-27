@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZEWHBHSlFRblBwYytvM21tQXptK3RrOHIyRDZPdklZTGk1L0FXQnBzY3FmNVlBeWZEZWlILzRFa0ZUUnhqVElJaVBqTldnaDhqTW9mVkp0ZFNiNkE9",
+  "keyForOrderDetails": "U3RNREVoUFpTc0ZmMFI5YmFMSS82SUNkYzEreVdaTU41K2dBRUNVaWh5RW1RR1BmMFQvcWRneVRMYXNiVldsa0FDdTFsS0pLOUhJY29RKzJzaEVQRzVWeEE9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -74,22 +74,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:52.980949105",
+      "timeStamp": "2026-02-23T21:54:07.489685045",
       "resourceName": "OrderDetails",
-      "transactionId": "17ea87c73dec421c8a3782f2c957852c",
+      "transactionId": "0ae013c6fd864c4cb007ad063c1e6cc2",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20250727.1.21701",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20250727.1.21701",
     "orderDate": "2025-07-27T18:06:07",
-    "keyForOrderDetails": "U3RNREc3Qm5ORVo2WXYxOXUyWTZUUDc1RmplNGdPTXM1bW02WElObENNNzJKWmY1R24xRFR1RW5TZDh4T1VJQlNtSEhFZGhNdVB0Nzh5cmJRcFFiMUxNa1U9",
-    "orderUrlKey": "U3RNREc3Qm5ORVo2WXYxOXUyWTZUUDc1RmplNGdPTXM1bW02WElObENNNzJKWmY1R24xRFR1RW5TZDh4T1VJQlNtSEhFZGhNdVB0Nzh5cmJRcFFiMUxNa1U9",
-    "customerNumberKey": "U3RNREVBWjFZb0JIQkdwd2JtLzM3R2IrV28rdnRDb0UzY29ZUVpRY2p0VDQ2aWFSK0pwcTZHeUE9PQ==",
+    "keyForOrderDetails": "U3RNREcwUGZ0MlN2S2RlcjQ4bXpVeFN3bkhxR2k1cHU2cDI1b2d1QW1EQ2t4OTVpSk1nbVlCQUFJL1FIaGRQTkU3RnptcWM0L2xQNG5idEpTeXRmTTY5b2M9",
+    "orderUrlKey": "U3RNREcwUGZ0MlN2S2RlcjQ4bXpVeFN3bkhxR2k1cHU2cDI1b2d1QW1EQ2t4OTVpSk1nbVlCQUFJL1FIaGRQTkU3RnptcWM0L2xQNG5idEpTeXRmTTY5b2M9",
+    "customerNumberKey": "U3RNREdLRFNydWVjTnBGblJVM2hpT25DK1Jid1RiQ25CMXk2eE9uTEx4MjhyWSsySWxEc2tieVE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -243,8 +244,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -360,7 +361,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.65,
-              "ratingCount": 312,
+              "ratingCount": 313,
               "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-wide-ruled-80-sheets-assorted-colors-st54890/product_421175?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -385,7 +386,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 232,
+                  "reviewCount": 233,
                   "reviewPercent": 74
                 }
               ],
@@ -400,18 +401,18 @@
               "autoRestockPrice": "$2.37",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 20994,
+                "availableQuantity": 21016,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

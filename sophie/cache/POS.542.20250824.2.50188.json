@@ -1,0 +1,1233 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20250824.2.50188",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-08-24T16:20:56",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREU4UnpzSzlmTGVRV1FuK0kwLzE3KzdwRzVVUVk3S3MwSThBdTZwSWtPL090ZmU2NnBDOW9DeDVvNE4yd201NnFTRTV4WkFjeEY1a3Rrd1RsRTFxM009",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.23,
+  "orderLines": [
+    {
+      "productSku": "491831",
+      "productName": "8-TAB INSERT POLY",
+      "productShortDesc": "8-TAB INSERT POLY",
+      "productLongDesc": "8-TAB INSERT POLY",
+      "unitPrice": 4.96,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "8-TAB INSERT POLY",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24626384",
+      "productName": "FIVESTAR POLY COMP",
+      "productShortDesc": "FIVESTAR POLY COMP",
+      "productLongDesc": "FIVESTAR POLY COMP",
+      "unitPrice": 4.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "FIVESTAR POLY COMP",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "126465",
+      "productName": "STPLS FLLR RNFRCD",
+      "productShortDesc": "STPLS FLLR RNFRCD",
+      "productLongDesc": "STPLS FLLR RNFRCD",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/74D98B2B-44AB-4AD8-A741B3BE249AED7C_sc7?$thb$",
+      "productURL": "staples-wide-ruled-filler-paper-8-x-10-5-white-100-sheets-pack-tr23904/product_126465",
+      "model": "ST23904G",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "126465",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24424014",
+      "productName": "TR PREM 3SUBNB 8X1",
+      "productShortDesc": "TR PREM 3SUBNB 8X1",
+      "productLongDesc": "TR PREM 3SUBNB 8X1",
+      "unitPrice": 5.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/AE489B63-83F6-45B4-A4A9ABACBF97EBB2_sc7?$thb$",
+      "productURL": "staples-3-subject-notebook-8-x-10-5-wide-ruled-assorted-colors/product_24424014",
+      "model": "TR58308",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24424014",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "912462",
+      "productName": "STPLS COMP ASST CO",
+      "productShortDesc": "STPLS COMP ASST CO",
+      "productLongDesc": "STPLS COMP ASST CO",
+      "unitPrice": 1.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/2389EEF2-D7FF-400F-A0BF61C49C0D31C7_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-wide-ruled-100-sheets-assorted-colors-st55077/product_912462",
+      "model": "ST55077C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "912462",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "2097860",
+      "productName": "FIVE STAR ADV STAY",
+      "productShortDesc": "FIVE STAR ADV STAY",
+      "productLongDesc": "FIVE STAR ADV STAY",
+      "unitPrice": 3.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1E802BBB-D4AE-48C9-9A14AEE47F66AF10_sc7?$thb$",
+      "productURL": "five-star-2-pocket-fastener-folder-assorted-colors-34030/product_2097860",
+      "model": "34030",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2097860",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T23:43:15.588746788",
+      "resourceName": "OrderDetails",
+      "transactionId": "e680d088c9464f529d9487f10361a675",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250824.2.50188",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20250824.2.50188",
+    "orderDate": "2025-08-24T16:20:56",
+    "keyForOrderDetails": "U3RNREZKeXBEaUlQTnZpVlZOUnd3UHVNTnhCeG9sWFFUQ1NFejFXMEMxY2l1UGI5NWluNEkzaEVwZ2EvYnd6OGhadEFZWDFseGw0VnIzN3IzRnQxMzB3N289",
+    "orderUrlKey": "U3RNREZKeXBEaUlQTnZpVlZOUnd3UHVNTnhCeG9sWFFUQ1NFejFXMEMxY2l1UGI5NWluNEkzaEVwZ2EvYnd6OGhadEFZWDFseGw0VnIzN3IzRnQxMzB3N289",
+    "customerNumberKey": "U3RNREZrbUVteEFoc1lOTGp2L1ArQzBDbXBKeXZmakJyWHFCLy83dnh1d1VrTElwOU9aTmdhekE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 25.71,
+    "discountsTotal": 25.49,
+    "couponsTotal": 21.49,
+    "pointsRedeemedValue": 4,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.01,
+    "grandTotal": 0.23,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "2097860",
+              "compareItemID": "2097860",
+              "url": "/five-star-2-pocket-fastener-folder-assorted-colors-34030/product_2097860",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/1E802BBB-D4AE-48C9-9A14AEE47F66AF10_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/1E802BBB-D4AE-48C9-9A14AEE47F66AF10_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57C54751-7D8B-49CE-81FA3FAB00D8F583_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2890F7F5-D732-4395-AE54EBA47BD86D48_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp171348941_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D7723C22-AD56-4F8C-9287036315A14B65_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/937578A3-2FD8-48CB-A07072E51ECCF3D4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BFD1C27C-A929-4641-973CE9D72C93A2C8_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~1E802BBB-D4AE-48C9-9A14AEE47F66AF10_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~57C54751-7D8B-49CE-81FA3FAB00D8F583_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~2890F7F5-D732-4395-AE54EBA47BD86D48_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~sp171348941_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~D7723C22-AD56-4F8C-9287036315A14B65_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~937578A3-2FD8-48CB-A07072E51ECCF3D4_sc7",
+                "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)~#|#~BFD1C27C-A929-4641-973CE9D72C93A2C8_sc7"
+              ],
+              "title": "Five Star 2-Pocket Fastener Folder, Assorted Colors (34030)",
+              "model": "34030",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2097860"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "34030"
+                }
+              ],
+              "manufacturerName": "Five Star",
+              "brandName": "Five Star",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.71,
+              "ratingCount": 28,
+              "ratingUrl": "/five-star-2-pocket-fastener-folder-assorted-colors-34030/product_2097860?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 2,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 24,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$4.29",
+              "priceValue": 4.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Organize important papers, handouts and more with this durable Five Star Folder. Two horizontal pockets with stay-put corner tabs help keep papers secure, while the 3 prongs hold loose hole punched sheets."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Pockets and stay-put tabs hold 8 1/2\" x 11\" papers. Prongs help provide secure paper storage.",
+                  "Stay organized by writing the subject name on the writable label.",
+                  "Durable plastic is water resistant and protects documents from accidental spills",
+                  "Available in Black, White, Pacific Blue, Fire Red, Tidewater Blue, Amethyst Purple, Harvest Yellow, Forest Green. Color chosen for you.",
+                  "*Guarantee is valid for one year from purchase or delivery date, whichever is longer. Does not cover misuse. Go to fivestarbuiltstrong.com for details."
+                ],
+                "headliner": [
+                  "LASTS ALL YEAR. GUARANTEED!*"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/57C54751-7D8B-49CE-81FA3FAB00D8F583_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "FIVE STAR ADV STAY",
+              "skuNumber": "2097860",
+              "unitPrice": 3.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.03,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.002
+                }
+              ],
+              "couponTotal": 3.76,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 3.14,
+                  "chargePerUnit": 3.14
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.62,
+                  "chargePerUnit": 0.62
+                }
+              ],
+              "regularCouponsTotal": 3.76,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "FIVESTAR POLY COMP",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24626384?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "FIVESTAR POLY COMP",
+              "skuNumber": "24626384",
+              "unitPrice": 4.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.04,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0027
+                }
+              ],
+              "couponTotal": 4.95,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 4.12,
+                  "chargePerUnit": 4.12
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.83
+                }
+              ],
+              "regularCouponsTotal": 4.95,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "912462",
+              "compareItemID": "912462",
+              "url": "/staples-composition-notebook-7-5-x-9-75-wide-ruled-100-sheets-assorted-colors-st55077/product_912462",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/2389EEF2-D7FF-400F-A0BF61C49C0D31C7_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/2389EEF2-D7FF-400F-A0BF61C49C0D31C7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5E602289-D614-4D46-A0B9846D1467E299_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7799D053-9560-4BBA-9917D63BDCD3738B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/56CC9E5B-0B02-4D93-BCDE3336F17647F2_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)~#|#~2389EEF2-D7FF-400F-A0BF61C49C0D31C7_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)~#|#~5E602289-D614-4D46-A0B9846D1467E299_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)~#|#~7799D053-9560-4BBA-9917D63BDCD3738B_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)~#|#~56CC9E5B-0B02-4D93-BCDE3336F17647F2_sc7"
+              ],
+              "title": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", Wide Ruled, 100 Sheets, Color chosen at random (ST55077C)",
+              "model": "ST55077C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "912462"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55077C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.75,
+              "ratingCount": 2180,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-wide-ruled-100-sheets-assorted-colors-st55077/product_912462?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 32,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 17,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 66,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 245,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1820,
+                  "reviewPercent": 83
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 17951,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Practice writing and penmanship with this 100-sheet composition book. The wide-ruled pages allow you to write big legible letters, while the standard size makes it easy to keep your notes organized. This Staples 7.5 x 9.75-inch composition book available in assorted colors has a sturdy cover that withstands daily handling, and the high-quality acid-free pages resist yellowing for long-lasting use."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "100 sheets of wide-ruled paper for comfortable notetaking",
+                  "Cardboard cover available in assorted colors including black/blue, black/red, black/green and black/purple; color chosen at random",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen for customer at random"
+                ],
+                "headliner": [
+                  "Take notes and complete work assignments with this Staples 7.5 x 9.75-inch composition book available in assorted colors."
+                ]
+              },
+              "skusetID": "SS127536611",
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5E602289-D614-4D46-A0B9846D1467E299_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP ASST CO",
+              "skuNumber": "912462",
+              "unitPrice": 1.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 1.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "217662",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1.49,
+                  "chargePerUnit": 1.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 0.41,
+                  "chargePerUnit": 0.41
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.09,
+                  "chargePerUnit": 0.09
+                }
+              ],
+              "regularCouponsTotal": 1.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "126465",
+              "compareItemID": "126465",
+              "url": "/staples-wide-ruled-filler-paper-8-x-10-5-white-100-sheets-pack-tr23904/product_126465",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/74D98B2B-44AB-4AD8-A741B3BE249AED7C_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/74D98B2B-44AB-4AD8-A741B3BE249AED7C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3FDBC066-8894-40A2-95F7B8A5FCD373AF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BEB5FAF0-B2BD-4283-9AF5D69AE7F04A43_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C47A854E-8B4A-4D27-BB75A4DFB414007F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/54BDF44A-97D1-4215-9114AE8C11A9441D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/92E7D5EA-56E0-440F-A7A45A3A8AE1EA14_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~74D98B2B-44AB-4AD8-A741B3BE249AED7C_sc7",
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~3FDBC066-8894-40A2-95F7B8A5FCD373AF_sc7",
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~BEB5FAF0-B2BD-4283-9AF5D69AE7F04A43_sc7",
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~C47A854E-8B4A-4D27-BB75A4DFB414007F_sc7",
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~54BDF44A-97D1-4215-9114AE8C11A9441D_sc7",
+                "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)~#|#~92E7D5EA-56E0-440F-A7A45A3A8AE1EA14_sc7"
+              ],
+              "title": "Staples Wide Ruled Filler Paper, 8\" x 10.5\", White, 100 Sheets/Pack (ST23904G)",
+              "model": "ST23904G",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "126465"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST23904G"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "",
+              "baseCatId": "CL161811",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4962",
+                  "name": "Paper & Stationery"
+                },
+                "category": {
+                  "id": "CG1305",
+                  "name": "Paper & Stationery"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL161811",
+                  "name": "Loose Leaf & Graph Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161811",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "100/Pack",
+              "rating": 4.72,
+              "ratingCount": 134,
+              "ratingUrl": "/staples-wide-ruled-filler-paper-8-x-10-5-white-100-sheets-pack-tr23904/product_126465?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 6,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 19,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 107,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$8.79",
+              "priceValue": 8.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.09/Sheet",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$8.35",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 3349,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write with large clear letters using this wide ruled filler paper. The standard paper weight is ideal for everyday use in business meetings, planning sessions or for lectures. This Staples Business Essentials 8 x 10.5-inch reinforced wide ruled filler paper comes with 100 sheets per pack to fill your binders and has reinforced punched holes to keep pages from tearing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wide ruled filler paper is a perfect choice for all your note-taking needs",
+                  "Sheet size: 8\" x 10.5\"",
+                  "Paper weight: 20 lbs.",
+                  "100 sheets per pack",
+                  "White paper",
+                  "Features 27 lines per page"
+                ],
+                "headliner": [
+                  "Take notes or sketch easily with this Staples Business Essentials 8 x 10.5-inch reinforced wide ruled filler paper."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/3FDBC066-8894-40A2-95F7B8A5FCD373AF_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "STPLS FLLR RNFRCD",
+              "skuNumber": "126465",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.04,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0027
+                }
+              ],
+              "couponTotal": 3.95,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 3.29,
+                  "chargePerUnit": 3.29
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.66,
+                  "chargePerUnit": 0.66
+                }
+              ],
+              "regularCouponsTotal": 3.95,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "8-TAB INSERT POLY",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_491831?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Fri, ",
+                "date": "Fri Feb 27 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "8-TAB INSERT POLY",
+              "skuNumber": "491831",
+              "unitPrice": 4.96,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.05,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0033
+                }
+              ],
+              "couponTotal": 4.91,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 4.09,
+                  "chargePerUnit": 4.09
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.82,
+                  "chargePerUnit": 0.82
+                }
+              ],
+              "regularCouponsTotal": 4.91,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.96,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "24424014",
+              "compareItemID": "24424014",
+              "url": "/staples-3-subject-notebook-8-x-10-5-wide-ruled-assorted-colors/product_24424014",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/AE489B63-83F6-45B4-A4A9ABACBF97EBB2_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/AE489B63-83F6-45B4-A4A9ABACBF97EBB2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9184CAA4-4E36-4C35-B132E9828180C52B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3D796051-DA39-4368-8CF3B3C0CA68C42F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/274E1F0B-2B9F-497D-BCC28E98C54132E2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2F025DED-B30D-4E94-BFF2428C7D81545D_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors~#|#~AE489B63-83F6-45B4-A4A9ABACBF97EBB2_sc7",
+                "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors~#|#~9184CAA4-4E36-4C35-B132E9828180C52B_sc7",
+                "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors~#|#~3D796051-DA39-4368-8CF3B3C0CA68C42F_sc7",
+                "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors~#|#~274E1F0B-2B9F-497D-BCC28E98C54132E2_sc7",
+                "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors~#|#~2F025DED-B30D-4E94-BFF2428C7D81545D_sc7"
+              ],
+              "title": "Staples 3-Subject Notebook, 8\" x 10.5\", Wide Ruled, Assorted Colors",
+              "model": "TR58308",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24424014"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TR58308"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 5,
+              "ratingCount": 1,
+              "ratingUrl": "/staples-3-subject-notebook-8-x-10-5-wide-ruled-assorted-colors/product_24424014?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$8.49",
+              "priceValue": 8.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Stay organized across multiple classes or projects with this 3-subject wide-ruled notebook. It\u2019s built for busy schedules and colorful organization."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3 subject notebook",
+                  "Wide ruled for comfortable writing",
+                  "Sturdy cover and binding",
+                  "Great for school, work, or journaling",
+                  "Available in assorted colors"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "New",
+                  "cssClass": "newProductLogo",
+                  "altText": "NEW"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/9184CAA4-4E36-4C35-B132E9828180C52B_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "TR PREM 3SUBNB 8X1",
+              "skuNumber": "24424014",
+              "unitPrice": 5.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.06,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.004
+                }
+              ],
+              "couponTotal": 5.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 4.95,
+                  "chargePerUnit": 4.95
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.98,
+                  "chargePerUnit": 0.98
+                }
+              ],
+              "regularCouponsTotal": 5.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "912462",
+      "24626384",
+      "126465",
+      "2097860",
+      "491831",
+      "24424014"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414TAD4C141N"
+  }
+}

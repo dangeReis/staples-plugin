@@ -1,0 +1,612 @@
+{
+  "customerNumber": "3301279182",
+  "orderNumber": "POS.542.20250313.2.39691",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-13T20:03:48",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREY1dDVjbTRORkg1UUVvaW9jS3JlNGZybGhqVDlmcktoY0xsQklGSlZHUSt0cllPVFlNbEhzbFBCWWVPVEZ5VGhJVEdONDU4N1FzQ3RHVWowbUtJY1k9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 27.18,
+  "orderLines": [
+    {
+      "productSku": "24564427",
+      "productName": "Dunkin Original Blend Coffee Keurig KCu",
+      "productShortDesc": "Dunkin Original Blend Coffee Keurig KCu",
+      "productLongDesc": "Dunkin Original Blend Coffee Keurig KCu",
+      "unitPrice": 129.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 176/Case (006933)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/5E09FF7A-DFA9-4C8B-A43B0C17B2B72C09_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-176-case-006933/product_24564427",
+      "model": "006933CT",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24564427",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "616319",
+      "productName": "CLOROX DSNFCT WIPE",
+      "productShortDesc": "CLOROX DSNFCT WIPE",
+      "productLongDesc": "CLOROX DSNFCT WIPE",
+      "unitPrice": 6.5,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$thb$",
+      "productURL": "clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319",
+      "model": "15949",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "616319",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T22:47:17.921093873",
+      "resourceName": "OrderDetails",
+      "transactionId": "65c50708172749fb8510b73918008ed0",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250313.2.39691",
+    "masterAccountNumber": "3301279182",
+    "salesOrderHeaderKey": "POS.542.20250313.2.39691",
+    "orderDate": "2025-03-13T20:03:48",
+    "keyForOrderDetails": "U3RNREhFbXE1Q25kdFE2Z2t3blo5THlEMk9uckhWVExyWWkveVVHTFVNQTdRREduclRsci9ZNUh1Yk5xUW9YQ1Q0bitrSFBmZG9hSTNRRC94cE9oTjJ3blk9",
+    "orderUrlKey": "U3RNREhFbXE1Q25kdFE2Z2t3blo5THlEMk9uckhWVExyWWkveVVHTFVNQTdRREduclRsci9ZNUh1Yk5xUW9YQ1Q0bitrSFBmZG9hSTNRRC94cE9oTjJ3blk9",
+    "customerNumberKey": "U3RNREZvMVl1eExFbjZaY2dZaHdDUVVyT0s4cjBNVDRlNkZNL0t5UXViMVB1Q3piUTREZ0JRNEE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 136.49,
+    "discountsTotal": 111,
+    "couponsTotal": 73,
+    "pointsRedeemedValue": 38,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 1.69,
+    "grandTotal": 27.18,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "616319",
+              "compareItemID": "616319",
+              "url": "/clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B1FD91E3-9A5A-4578-B8DF2F8FA0AEB5A7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B380D37C-2813-4A53-95953648864B1DF3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/870D7722-CAC1-4DFF-A1A1791F92D31CC8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F0EF1EA4-EFCB-43F6-AAF8E9EAA0680A33_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C37F0590-F50A-421F-A36ED2E1288FBA3A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4C84585D-D7BC-4629-80ED97093556CC26_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/94CD0868-CF46-40D2-962CD9CAD61A6480_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~7F54A6DB-25FA-42A7-862078217A546E56_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~B1FD91E3-9A5A-4578-B8DF2F8FA0AEB5A7_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~B380D37C-2813-4A53-95953648864B1DF3_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~870D7722-CAC1-4DFF-A1A1791F92D31CC8_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~F0EF1EA4-EFCB-43F6-AAF8E9EAA0680A33_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~C37F0590-F50A-421F-A36ED2E1288FBA3A_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~4C84585D-D7BC-4629-80ED97093556CC26_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~94CD0868-CF46-40D2-962CD9CAD61A6480_sc7"
+              ],
+              "title": "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)",
+              "model": "15949",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "616319"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "15949"
+                }
+              ],
+              "manufacturerName": "CloroxPro",
+              "brandName": "CloroxPro",
+              "baseCatName": "Cleaning Chemicals & Wipes",
+              "baseCatId": "CL220881",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10274",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "category": {
+                  "id": "CG3668",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL220881",
+                  "name": "Disinfectant Wipes"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL220881",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$1.51",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "75/Pack",
+              "rating": 4.8,
+              "ratingCount": 1834,
+              "ratingUrl": "/clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 28,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 12,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 30,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 165,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1599,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.07/Wipe",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$4.74",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 2660,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Clorox Disinfecting Wipes clean and disinfect in one easy step*. These sanitizing wipes are EPA-registered to kill 99.9% of germs including cold and flu viruses* in 15 seconds. They also remove common allergens like pet dander, pollen particles and grass. One antibacterial wipe can kill 99.9% of bacteria** in just 10 seconds. In addition, these wipes meet EPA criteria for use against SARS-CoV-2, the virus that causes COVID-19, on hard nonporous surfaces. The premoistened, textured wipes are suitable for a variety of surfaces including acrylic, glass and vinyl. Use on germ hot spots such as doorknobs, handrails and faucets. Ideal for offices, daycares, schools, hotels, restaurants and more. *When used according to disinfection directions. **Bacteria: Campylobacter jejuni, Escherichia coli O157:H7 (E. coli), Klebsiella pneumoniae (Kleb), Methicillin-resistant Staphylococcus aureus (MRSA), Salmonella enterica (Salmonella), Staphylococcus aureus (Staph), Streptococcus pyogenes (Strep)."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "DISINFECTING WIPES: EPA registered to kill 99.9% of viruses and bacteria**; Meets EPA criteria for use against SARS-CoV-2, the virus that causes COVID-19, on non-porous surfaces",
+                  "VERSITILE CLEANING WIPE: Create clean public spaces with these wet wipes that breakdown grease, soap scum and grime so you can tackle messes on a variety of surfaces, bleach-free",
+                  "ALL PURPOSE WIPE: Quickly sanitizes bacteria** and kills most viruses in as little as 15 seconds; removes common allergens and deodorizes, preventing the odor causing bacteria for up to 24 hours",
+                  "MULTI-SURFACE DISINFECTANT AND SANITIZER: Germs occur on more than breakroom and restroom surfaces; safely wipe down desks, remotes, doorknobs or clean up spills",
+                  "GREAT FOR COMMERCIAL USE: Ideal for use in offices, day care centers, schools, hotels, restaurants and other commercial facilities; CloroxPro, where clean means everything",
+                  "<a href=\"http://sds.staples.com/msds/616319.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Clean and disinfect all in one swipe* with CloroxPro Disinfecting Wipes that kill 99.9% of germs including cold and flu viruses* in 15 seconds."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b> DIRECTIONS FOR USE: It is a violation of Federal law to use this product in a manner inconsistent with its labeling. Not for cleaning or sanitizing skin. Do not use as a diaper wipe or for personal cleansing. These wipes will not harm most surfaces, including acrylic, fiberglass and vinyl. Not recommended for use on unpainted wood. For surfaces that may come in contact with food, a potable water rinse is required. Do not use on glasses, dishes or utensils. Do not use to disinfect appliances, refrigerator interiors and microwave oven interiors.<br><br><b>Ingredients:</b> Active ingredients: n-Alkyl (C14 60%, C16 30%, C12 5%, C18 5%) Dimethyl Benzyl Ammonium Chloride 0.184%*, n-Alkyl (C12 68%, C14 32%) Dimethyl Ethylbenzyl Ammonium Chloride 0.184%*, other ingredients 99.632%. *Does not include weight of dry wipe.<br><br><b>Caution Statement:</b> CAUTION: Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Wear gloves for prolonged or frequent use. FIRST AID: IF IN EYES: Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for further treatment advice."
+                ]
+              },
+              "skusetID": "SS287522553",
+              "totalSavingsPercentage": 23.23,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$6.50",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "CLOROX DSNFCT WIPE",
+              "skuNumber": "616319",
+              "unitPrice": 6.5,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 1.58,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.11
+                }
+              ],
+              "couponTotal": 4.92,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.93,
+                  "chargePerUnit": 0.93
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.31,
+                  "chargePerUnit": 0.31
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 0.32,
+                  "chargePerUnit": 0.32
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.36,
+                  "chargePerUnit": 2.36
+                }
+              ],
+              "regularCouponsTotal": 4.92,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 6.5,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "24564427",
+              "compareItemID": "24564427",
+              "url": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-176-case-006933/product_24564427",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/5E09FF7A-DFA9-4C8B-A43B0C17B2B72C09_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/5E09FF7A-DFA9-4C8B-A43B0C17B2B72C09_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/FB9481AE-E814-4841-A6DDEFA09E1FE868_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 176/Case (006933)~#|#~5E09FF7A-DFA9-4C8B-A43B0C17B2B72C09_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 176/Case (006933)~#|#~FB9481AE-E814-4841-A6DDEFA09E1FE868_sc7"
+              ],
+              "title": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 176/Case (006933)",
+              "model": "006933CT",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24564427"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "006933CT"
+                }
+              ],
+              "manufacturerName": "Dunkin'",
+              "brandName": "Dunkin'",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "176/Carton",
+              "rating": 4.74,
+              "ratingCount": 11460,
+              "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-176-case-006933/product_24564427?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 295,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 98,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 317,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 843,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 9907,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$144.19",
+              "priceValue": 144.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.82/Pod",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Enjoy the smooth, classic taste of these Dunkin' original blend coffee pods. Each one is fully caffeinated to deliver a surge of energy, while the original blend provides a rich, silky experience. There are 176 of these Keurig K-Cup Dunkin' coffee pods in each pack, so you can share them with friends, family and coworkers."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium-roast coffee with Original Blend flavor",
+                  "176 k-cups",
+                  "The product is kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Restock coffee supplies in break rooms, waiting rooms or your home with this 176-count Keurig K-Cup Dunkin' original blend coffee pods."
+                ]
+              },
+              "skusetID": "SS114501307",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/FB9481AE-E814-4841-A6DDEFA09E1FE868_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Dunkin Original Blend Coffee Keurig KCu",
+              "skuNumber": "24564427",
+              "unitPrice": 129.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 23.91,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 1.58
+                }
+              ],
+              "couponTotal": 106.08,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 14.07,
+                  "chargePerUnit": 14.07
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 4.69,
+                  "chargePerUnit": 4.69
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 20.72,
+                  "chargePerUnit": 20.72
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 26.28,
+                  "chargePerUnit": 26.28
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 off your purchase of $25 or more.",
+                  "chargeDesc": "$5 off your purchase of $25 or more.",
+                  "chargeAmount": 4.68,
+                  "chargePerUnit": 4.68
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 35.64,
+                  "chargePerUnit": 35.64
+                }
+              ],
+              "regularCouponsTotal": 106.08,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 129.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "616319",
+      "24564427"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414ANK4AYRNX"
+  }
+}

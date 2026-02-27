@@ -1,0 +1,1590 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20240714.2.13098",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-07-14T15:55:17",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVVUDQ4VklDZUdGNllPOXMraW1FVTFPYlV3djNtSStMZTBPeExmVmgySnJuWmJTZ3d3WFZ4VUhnMEU2cG1PTTNSbWFReTByNUQwM2V1Yms5T3N0TjQ9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.77,
+  "orderLines": [
+    {
+      "productSku": "486110",
+      "productName": "5-TAB INSERT POLY",
+      "productShortDesc": "5-TAB INSERT POLY",
+      "productLongDesc": "5-TAB INSERT POLY",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "5-TAB INSERT POLY",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "486110",
+      "productName": "5-TAB INSERT POLY",
+      "productShortDesc": "5-TAB INSERT POLY",
+      "productLongDesc": "5-TAB INSERT POLY",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "5-TAB INSERT POLY",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "505711",
+      "productName": "TICONDEROGA YELLOW",
+      "productShortDesc": "TICONDEROGA YELLOW",
+      "productLongDesc": "TICONDEROGA YELLOW",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+      "productURL": "ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+      "model": "X13924X",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "505711",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "505711",
+      "productName": "TICONDEROGA YELLOW",
+      "productShortDesc": "TICONDEROGA YELLOW",
+      "productLongDesc": "TICONDEROGA YELLOW",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+      "productURL": "ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+      "model": "X13924X",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "505711",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "505711",
+      "productName": "TICONDEROGA YELLOW",
+      "productShortDesc": "TICONDEROGA YELLOW",
+      "productLongDesc": "TICONDEROGA YELLOW",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+      "productURL": "ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+      "model": "X13924X",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "505711",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "395705",
+      "productName": "POSTIT 3X3 CANARY",
+      "productShortDesc": "POSTIT 3X3 CANARY",
+      "productLongDesc": "POSTIT 3X3 CANARY",
+      "unitPrice": 3.29,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F0D1217C-03DC-4C45-92294ABD226662EE_sc7?$thb$",
+      "productURL": "post-it-notes-3-x-3-canary-collection-50-sheet-pad-4-pads-pack-5400/product_395705",
+      "model": "5400",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "395705",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "033172",
+      "productName": "EXPO LOW ODOR FINE",
+      "productShortDesc": "EXPO LOW ODOR FINE",
+      "productLongDesc": "EXPO LOW ODOR FINE",
+      "unitPrice": 4.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "EXPO LOW ODOR FINE",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24589050",
+      "productName": "SHARPIE HL POCKET",
+      "productShortDesc": "SHARPIE HL POCKET",
+      "productLongDesc": "SHARPIE HL POCKET",
+      "unitPrice": 2.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/1BC9FDE2-D88B-4923-B7B83C78D80AA41A_sc7?$thb$",
+      "productURL": "sharpie-stick-pocket-highlighter-chisel-tip-yellow-4-pack-1770695/product_24589050",
+      "model": "1770695",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24589050",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:02:01.004280490",
+      "resourceName": "OrderDetails",
+      "transactionId": "9bc73d770ec243d7aaaabf1caeaf83b2",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240714.2.13098",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20240714.2.13098",
+    "orderDate": "2024-07-14T15:55:17",
+    "keyForOrderDetails": "U3RNREhDL2Q2eC9ZeVcwSlZlK1ZhWUhMM2VIYUtacjAwcWZTYWsxVWZqY01rSzh4dmcwZ1UzcUJoTzNvcE1Ed0M2NzBhNjllQ0dsWFg2eElNU0VlUEpxRHc9",
+    "orderUrlKey": "U3RNREhDL2Q2eC9ZeVcwSlZlK1ZhWUhMM2VIYUtacjAwcWZTYWsxVWZqY01rSzh4dmcwZ1UzcUJoTzNvcE1Ed0M2NzBhNjllQ0dsWFg2eElNU0VlUEpxRHc9",
+    "customerNumberKey": "U3RNREUxTUIxUHV2MmhuZGs1SlRMeHUwcWxIR3d1cmt4QlFiM1FLOXZwak9hKzVESUFHT0pkNlE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 30.72,
+    "discountsTotal": 30,
+    "couponsTotal": 10,
+    "pointsRedeemedValue": 20,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.05,
+    "grandTotal": 0.77,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "505711",
+              "compareItemID": "505711",
+              "url": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/052DB59F-FA7E-4411-890DEC20751DC751_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/43591D45-A913-42BE-A376D8C7E5074049_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9AAC918A-7C75-461E-8600003043656DA7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~052DB59F-FA7E-4411-890DEC20751DC751_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~43591D45-A913-42BE-A376D8C7E5074049_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~9AAC918A-7C75-461E-8600003043656DA7_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7"
+              ],
+              "title": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+              "model": "X13924X",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "505711"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "X13924X"
+                }
+              ],
+              "manufacturerName": "Ticonderoga",
+              "brandName": "Ticonderoga",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110200",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110200",
+                  "name": "Pencils"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110200",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Pack",
+              "rating": 4.76,
+              "ratingCount": 670,
+              "ratingUrl": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 18,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 53,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 579,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$6.99",
+              "priceValue": 6.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.29/Pencil",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$6.64",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 658,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write easy-to-read notes with these Dixon Ticonderoga wood-case #2 soft, yellow-barrel pencils. These pencils are sold in a pack of 24, which is ideal for busy offices and classrooms, and the solid graphite core delivers a smooth performance and easy-to-read text. These Dixon Ticonderoga wood-case pencils have a latex-free eraser to make it easy to correct mistakes on paper."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-quality wooden pencils",
+                  "This pencil has No. 2 lead that resists breakage for smooth writing",
+                  "This smooth-writing quality pencil features the classic yellow hexagonal shape",
+                  "Features a soft lead for smooth, polished writing",
+                  "Pencils come in pack of 24 and can replace pens during many common work-related tasks or projects",
+                  "Top-quality, latex-free eraser provides easy, clean corrections"
+                ],
+                "headliner": [
+                  "Sketch and jot down notes with accuracy with this 24-pack of Dixon Ticonderoga wood-case #2 soft yellow-barrel pencils."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TICONDEROGA YELLOW",
+              "skuNumber": "505711",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.09,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.006
+                }
+              ],
+              "couponTotal": 3.9,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.3,
+                  "chargePerUnit": 1.3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.6,
+                  "chargePerUnit": 2.6
+                }
+              ],
+              "regularCouponsTotal": 3.9,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "505711",
+              "compareItemID": "505711",
+              "url": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/052DB59F-FA7E-4411-890DEC20751DC751_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/43591D45-A913-42BE-A376D8C7E5074049_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9AAC918A-7C75-461E-8600003043656DA7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~052DB59F-FA7E-4411-890DEC20751DC751_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~43591D45-A913-42BE-A376D8C7E5074049_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~9AAC918A-7C75-461E-8600003043656DA7_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7"
+              ],
+              "title": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+              "model": "X13924X",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "505711"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "X13924X"
+                }
+              ],
+              "manufacturerName": "Ticonderoga",
+              "brandName": "Ticonderoga",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110200",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110200",
+                  "name": "Pencils"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110200",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Pack",
+              "rating": 4.76,
+              "ratingCount": 670,
+              "ratingUrl": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 18,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 53,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 579,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$6.99",
+              "priceValue": 6.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.29/Pencil",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$6.64",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 658,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write easy-to-read notes with these Dixon Ticonderoga wood-case #2 soft, yellow-barrel pencils. These pencils are sold in a pack of 24, which is ideal for busy offices and classrooms, and the solid graphite core delivers a smooth performance and easy-to-read text. These Dixon Ticonderoga wood-case pencils have a latex-free eraser to make it easy to correct mistakes on paper."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-quality wooden pencils",
+                  "This pencil has No. 2 lead that resists breakage for smooth writing",
+                  "This smooth-writing quality pencil features the classic yellow hexagonal shape",
+                  "Features a soft lead for smooth, polished writing",
+                  "Pencils come in pack of 24 and can replace pens during many common work-related tasks or projects",
+                  "Top-quality, latex-free eraser provides easy, clean corrections"
+                ],
+                "headliner": [
+                  "Sketch and jot down notes with accuracy with this 24-pack of Dixon Ticonderoga wood-case #2 soft yellow-barrel pencils."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TICONDEROGA YELLOW",
+              "skuNumber": "505711",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0066
+                }
+              ],
+              "couponTotal": 3.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.29,
+                  "chargePerUnit": 1.29
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.6,
+                  "chargePerUnit": 2.6
+                }
+              ],
+              "regularCouponsTotal": 3.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "505711",
+              "compareItemID": "505711",
+              "url": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/052DB59F-FA7E-4411-890DEC20751DC751_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/43591D45-A913-42BE-A376D8C7E5074049_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9AAC918A-7C75-461E-8600003043656DA7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~052DB59F-FA7E-4411-890DEC20751DC751_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~43591D45-A913-42BE-A376D8C7E5074049_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~9AAC918A-7C75-461E-8600003043656DA7_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7"
+              ],
+              "title": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+              "model": "X13924X",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "505711"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "X13924X"
+                }
+              ],
+              "manufacturerName": "Ticonderoga",
+              "brandName": "Ticonderoga",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110200",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110200",
+                  "name": "Pencils"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110200",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Pack",
+              "rating": 4.76,
+              "ratingCount": 670,
+              "ratingUrl": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 18,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 53,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 579,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$6.99",
+              "priceValue": 6.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.29/Pencil",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$6.64",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 658,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write easy-to-read notes with these Dixon Ticonderoga wood-case #2 soft, yellow-barrel pencils. These pencils are sold in a pack of 24, which is ideal for busy offices and classrooms, and the solid graphite core delivers a smooth performance and easy-to-read text. These Dixon Ticonderoga wood-case pencils have a latex-free eraser to make it easy to correct mistakes on paper."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-quality wooden pencils",
+                  "This pencil has No. 2 lead that resists breakage for smooth writing",
+                  "This smooth-writing quality pencil features the classic yellow hexagonal shape",
+                  "Features a soft lead for smooth, polished writing",
+                  "Pencils come in pack of 24 and can replace pens during many common work-related tasks or projects",
+                  "Top-quality, latex-free eraser provides easy, clean corrections"
+                ],
+                "headliner": [
+                  "Sketch and jot down notes with accuracy with this 24-pack of Dixon Ticonderoga wood-case #2 soft yellow-barrel pencils."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TICONDEROGA YELLOW",
+              "skuNumber": "505711",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.09,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.006
+                }
+              ],
+              "couponTotal": 3.9,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.3,
+                  "chargePerUnit": 1.3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.6,
+                  "chargePerUnit": 2.6
+                }
+              ],
+              "regularCouponsTotal": 3.9,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "EXPO LOW ODOR FINE",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_033172?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "EXPO LOW ODOR FINE",
+              "skuNumber": "033172",
+              "unitPrice": 4.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.12,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.008
+                }
+              ],
+              "couponTotal": 4.87,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.62,
+                  "chargePerUnit": 1.62
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 3.25,
+                  "chargePerUnit": 3.25
+                }
+              ],
+              "regularCouponsTotal": 4.87,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "395705",
+              "compareItemID": "395705",
+              "url": "/post-it-notes-3-x-3-canary-collection-50-sheet-pad-4-pads-pack-5400/product_395705",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/F0D1217C-03DC-4C45-92294ABD226662EE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/F0D1217C-03DC-4C45-92294ABD226662EE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/206EC59B-43B2-497B-9BAC88EDFC46A0D8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A8FAF18F-6637-47BB-A6F1117CB581FF1F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8E18D355-23DA-46A6-BC5F530A2531A58E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7DA0DAB7-6369-4B4A-B524918B98338F1C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/932B562F-5DDB-43F6-AA21A117200550CB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/27D7A6B9-4567-48B2-9E7280B3B83F5CCD_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C3E08ED1-9D0F-4118-A29F892AF7ED5587_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36C9F60A-ED8D-4F1F-9961BE7ACCAF428E_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~F0D1217C-03DC-4C45-92294ABD226662EE_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~206EC59B-43B2-497B-9BAC88EDFC46A0D8_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~A8FAF18F-6637-47BB-A6F1117CB581FF1F_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~8E18D355-23DA-46A6-BC5F530A2531A58E_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~7DA0DAB7-6369-4B4A-B524918B98338F1C_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~932B562F-5DDB-43F6-AA21A117200550CB_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~27D7A6B9-4567-48B2-9E7280B3B83F5CCD_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~C3E08ED1-9D0F-4118-A29F892AF7ED5587_sc7",
+                "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)~#|#~36C9F60A-ED8D-4F1F-9961BE7ACCAF428E_sc7"
+              ],
+              "title": "Post-it Notes, 3\" x 3\", Canary Collection, 50 Sheet/Pad, 4 Pads/Pack (5400)",
+              "model": "5400",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "395705"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5400"
+                }
+              ],
+              "manufacturerName": "Post-it",
+              "brandName": "Post-it",
+              "baseCatName": "Post-it\u00ae & Sticky Notes",
+              "baseCatId": "CL165755",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4736",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                },
+                "category": {
+                  "id": "CG3861",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165755",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165755",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "savings": [
+                {
+                  "valueText": "$0.80",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.72,
+              "ratingCount": 241,
+              "ratingUrl": "/post-it-notes-3-x-3-canary-collection-50-sheet-pad-4-pads-pack-5400/product_395705?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 4,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 3,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 10,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 22,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 202,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$6.99",
+              "priceValue": 6.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.75/Pad",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Post-it Notes stick securely and remove cleanly, featuring a unique adhesive designed for use on paper. The 3 in. x 3 in. size is great to call out important information or leave notes in calendars or planners. America\u2019s #1 favorite sticky note. Canary Yellow color helps your note break through the clutter. Jot down an inspirational message each day to keep positivity going strong throughout your work day. Post-it Notes are recyclable and the paper in Post-it Notes is sourced from certified, renewable and responsibly managed forests. 4 Pads per pack, 50 sheets per pad."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "3 in. x 3 in., Canary Yellow",
+                  "Post-it Notes stick securely and remove cleanly",
+                  "Unique adhesive designed for use on paper or in planners",
+                  "America\u2019s #1 favorite sticky note",
+                  "Leave reminders or call out important information",
+                  "4 Pads per pack, 50 sheets per pad",
+                  "Post-it Notes are recyclable",
+                  "The paper in Post-it Notes is sourced from certified, renewable and responsibly managed forests"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 10.27,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/206EC59B-43B2-497B-9BAC88EDFC46A0D8_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$7.79",
+              "originalPriceLabel": "Regular price",
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "POSTIT 3X3 CANARY",
+              "skuNumber": "395705",
+              "unitPrice": 3.29,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.08,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0053
+                }
+              ],
+              "couponTotal": 3.21,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.07,
+                  "chargePerUnit": 1.07
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.14,
+                  "chargePerUnit": 2.14
+                }
+              ],
+              "regularCouponsTotal": 3.21,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.29,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "5-TAB INSERT POLY",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_486110?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Fri, ",
+                "date": "Fri Feb 27 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "5-TAB INSERT POLY",
+              "skuNumber": "486110",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.1,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0066
+                }
+              ],
+              "couponTotal": 3.89,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.3,
+                  "chargePerUnit": 1.3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.59,
+                  "chargePerUnit": 2.59
+                }
+              ],
+              "regularCouponsTotal": 3.89,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24589050",
+              "compareItemID": "24589050",
+              "url": "/sharpie-stick-pocket-highlighter-chisel-tip-yellow-4-pack-1770695/product_24589050",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/1BC9FDE2-D88B-4923-B7B83C78D80AA41A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/1BC9FDE2-D88B-4923-B7B83C78D80AA41A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/09A3396B-2CE5-4D6E-9CC2A8CCCD5813E1_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C95344AD-471B-4B62-8A605823257AF920_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9A79493D-4123-4389-912BA327116B18D8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7B3DE54F-A624-42DD-821003DC5BC15F30_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)~#|#~1BC9FDE2-D88B-4923-B7B83C78D80AA41A_sc7",
+                "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)~#|#~09A3396B-2CE5-4D6E-9CC2A8CCCD5813E1_sc7",
+                "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)~#|#~C95344AD-471B-4B62-8A605823257AF920_sc7",
+                "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)~#|#~9A79493D-4123-4389-912BA327116B18D8_sc7",
+                "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)~#|#~7B3DE54F-A624-42DD-821003DC5BC15F30_sc7"
+              ],
+              "title": "Sharpie Stick Highlighter, Chisel Tip, Yellow, 4/Pack (1770695)",
+              "model": "1770695",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24589050"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "1770695"
+                }
+              ],
+              "manufacturerName": "Sharpie",
+              "brandName": "Sharpie",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL158890",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL158890",
+                  "name": "Highlighters"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL158890",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.81,
+              "ratingCount": 245,
+              "ratingUrl": "/sharpie-stick-pocket-highlighter-chisel-tip-yellow-4-pack-1770695/product_24589050?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 6,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 27,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 210,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.25/Highlighter",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "No highlighter shines as bright. Perfect for when info is high priority and precision is a must, the Sharpie pocket highlighter makes everything highly visible. This versatile highlighter is designed to fit effortlessly in your pocket or clip to your shirt, so it's easy to take with you anywhere. With brilliant, transparent quick-drying ink and an easy gliding chisel tip that highlights and underlines both wide and narrow lines of text, this Sharpie highlighter makes your most important thoughts and notes jump off the page. It's no wonder why Sharpie is a must-have highlighter for travel itineraries, camping checklists, escape plans, and the rest of life's major high points."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Easy to control, light on your hands, and easy to store, this super slim stick highlighter is perfect for all-day study sessions",
+                  "Chisel tip highlights and underlines both wide and narrow lines of text",
+                  "Vivid, high-contrast yellow ink adds colorful emphasis",
+                  "User-friendly, quick-drying, and odorless AP certified formula",
+                  "Pocket clip-on cap keeps the highlighter within easy reach",
+                  "Four highlighters per pack",
+                  "Smear Guard ink technology resists smearing of many pen and marker inks (let the ink dry before highlighting)",
+                  "Meets or exceeds the ACMI and AP standards"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/09A3396B-2CE5-4D6E-9CC2A8CCCD5813E1_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "SHARPIE HL POCKET",
+              "skuNumber": "24589050",
+              "unitPrice": 2.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.05,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0033
+                }
+              ],
+              "couponTotal": 2.44,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.82,
+                  "chargePerUnit": 0.82
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.62,
+                  "chargePerUnit": 1.62
+                }
+              ],
+              "regularCouponsTotal": 2.44,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 2.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "5-TAB INSERT POLY",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_486110?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Fri, ",
+                "date": "Fri Feb 27 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "5-TAB INSERT POLY",
+              "skuNumber": "486110",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.09,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.006
+                }
+              ],
+              "couponTotal": 3.9,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.3,
+                  "chargePerUnit": 1.3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.6,
+                  "chargePerUnit": 2.6
+                }
+              ],
+              "regularCouponsTotal": 3.9,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 8
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "505711",
+      "033172",
+      "486110",
+      "24589050",
+      "395705"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11411PEQ4AYAQQ"
+  }
+}

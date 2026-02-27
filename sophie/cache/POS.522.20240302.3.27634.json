@@ -1,0 +1,530 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.522.20240302.3.27634",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-03-02T17:35:18",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREh3SUwraEVSaFRBaTY3NDRndnozdFVTdVZFeCt1cUt2dFhRcG5MMmZxdDdoOUtsa1VSS25GTHJFajdDdm1vNzFOUnc5YVRXdWt2SnB6RUl4VzJkUk09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 388.09,
+  "orderLines": [
+    {
+      "productSku": "24401678",
+      "productName": "BROTHER TN4313PK",
+      "productShortDesc": "BROTHER TN4313PK",
+      "productLongDesc": "BROTHER TN4313PK",
+      "unitPrice": 218.49,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24405972",
+      "productName": "Coastwide Professional JSeries 1Ply Sma",
+      "productShortDesc": "Coastwide Professional JSeries 1Ply Sma",
+      "productLongDesc": "Coastwide Professional JSeries 1Ply Sma",
+      "unitPrice": 43.75,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Coastwide Professional JSeries 1Ply Sma",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:06:36.586684140",
+      "resourceName": "OrderDetails",
+      "transactionId": "ffcb4ae77d884960b20605176b73eb2b",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20240302.3.27634",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.522.20240302.3.27634",
+    "orderDate": "2024-03-02T17:35:18",
+    "keyForOrderDetails": "U3RNREUwdElQWk1IbkJqLy9EY3VLV1ZYOVoyRDNxQjhLQ0p6dUFlU1k2b1NBSW80RGdmakl5UFhhNDdDVDIwMFV6d1JuWkRtUDArZzNrYTlVL2syUGVHL1k9",
+    "orderUrlKey": "U3RNREUwdElQWk1IbkJqLy9EY3VLV1ZYOVoyRDNxQjhLQ0p6dUFlU1k2b1NBSW80RGdmakl5UFhhNDdDVDIwMFV6d1JuWkRtUDArZzNrYTlVL2syUGVHL1k9",
+    "customerNumberKey": "U3RNREZTTzNIYm1zaUJFYmRNYmwyc3ViTUhJK3d1YXZtZnNqOFlPQkg3TWJlOEt1MkVWN1lQM1E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 524.48,
+    "discountsTotal": 160.5,
+    "couponsTotal": 160.5,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 24.11,
+    "grandTotal": 388.09,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "Coastwide Professional JSeries 1Ply Sma",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24405972?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "Coastwide Professional JSeries 1Ply Sma",
+              "skuNumber": "24405972",
+              "unitPrice": 43.75,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 52.93,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 3.5066
+                }
+              ],
+              "couponTotal": 34.57,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 3.34,
+                  "chargePerUnit": 1.67
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 5.01,
+                  "chargePerUnit": 2.505
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 4.17,
+                  "chargePerUnit": 2.085
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeDesc": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeAmount": 10.5,
+                  "chargePerUnit": 5.25
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 STATEMENT",
+                  "chargeDesc": "$5 STATEMENT",
+                  "chargeAmount": 0.73,
+                  "chargePerUnit": 0.365
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$40 STATEMENT",
+                  "chargeDesc": "$40 STATEMENT",
+                  "chargeAmount": 5.82,
+                  "chargePerUnit": 2.91
+                }
+              ],
+              "regularCouponsTotal": 34.57,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 87.5,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC43",
+              "itemId": "24401678",
+              "compareItemID": "24401678",
+              "url": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1EA662B7-94A2-450A-833DB3A1917FCA65_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9BABCE00-8136-49AC-A676E6C6EC02247B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/91015CE0-B582-46D5-99D4C75DC67ABD44_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B503710F-014F-44A4-AA70795FAFFB9C13_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~1EA662B7-94A2-450A-833DB3A1917FCA65_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~9BABCE00-8136-49AC-A676E6C6EC02247B_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91015CE0-B582-46D5-99D4C75DC67ABD44_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7"
+              ],
+              "title": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+              "model": "TN4313PK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24401678"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN4313PK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "3/Pack",
+              "rating": 4.43,
+              "ratingCount": 861,
+              "ratingUrl": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 72,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 22,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 33,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 74,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 660,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$265.49",
+              "priceValue": 265.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.15/Cost Per Page",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 332,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Delivering professional, vivid prints with 1800-page yield*, Brother TN-431 3PK genuine standard-yield color toner cartridges are intelligently engineered to work seamlessly with Brother printers for consistent results. Pack includes one each of cyan toner, yellow toner, and magenta toner."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L8260CDW, HL-L8360CDW, HL-L8360CDWMT, HL-L8360CDWT, MFC-L8610CDW, MFC-L8900CDW",
+                  "Brother Genuine TN4313PK Standard-Yield 3 Pack Color Ink Cartridges \u2013 includes 1 Cyan, 1 Magenta and 1 Yellow Cartridge.",
+                  "Page Yield of up to 1,800 pages* per cartridge.",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ],
+                "headliner": [
+                  "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BROTHER TN4313PK",
+              "skuNumber": "24401678",
+              "unitPrice": 218.49,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 311.05,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 20.607
+                }
+              ],
+              "couponTotal": 125.93,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 25,
+                  "chargePerUnit": 12.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 16.66,
+                  "chargePerUnit": 8.33
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 24.99,
+                  "chargePerUnit": 12.495
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 20.83,
+                  "chargePerUnit": 10.415
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 STATEMENT",
+                  "chargeDesc": "$5 STATEMENT",
+                  "chargeAmount": 4.27,
+                  "chargePerUnit": 2.135
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$40 STATEMENT",
+                  "chargeDesc": "$40 STATEMENT",
+                  "chargeAmount": 34.18,
+                  "chargePerUnit": 17.09
+                }
+              ],
+              "regularCouponsTotal": 125.93,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 436.98,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24401678",
+      "24405972"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411613JTT4AY3LR"
+  }
+}

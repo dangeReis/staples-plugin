@@ -1,0 +1,219 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.567.20240810.3.77526",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-08-10T17:00:56",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREc5WXh2aUU4SzNubkJXQWJrRm9pYlZieUs4cTNoRy9GQXRuLzFiYzkvYXZMb1d5MHcwUHUzaFNFZjRibndzK2U0V2dpMkFIT1NaMSs1U25ZM29RZmM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "24535464",
+      "productName": "PHONE & TABLET CAS",
+      "productShortDesc": "PHONE & TABLET CAS",
+      "productLongDesc": "PHONE & TABLET CAS",
+      "unitPrice": 0.01,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PHONE & TABLET CAS",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "567",
+  "storeAddressLine1": "1300 Rt. 17 North",
+  "storeCity": "RAMSEY",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:50:25.276225102",
+      "resourceName": "OrderDetails",
+      "transactionId": "ae2ce204706b4c7d8bfc61a0c45a66a4",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.567.20240810.3.77526",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.567.20240810.3.77526",
+    "orderDate": "2024-08-10T17:00:56",
+    "keyForOrderDetails": "U3RNREdxUUZGNG1SN01VRlpDa29HSmVNWXFKcTlPSTVSRlZvSWFpeWhwZ0JtblIvZFZSUlRDZCtHSlNjMHUxWnVqZnFRT0hQTEFWdjdoTTBiejJMdis3a1E9",
+    "orderUrlKey": "U3RNREdxUUZGNG1SN01VRlpDa29HSmVNWXFKcTlPSTVSRlZvSWFpeWhwZ0JtblIvZFZSUlRDZCtHSlNjMHUxWnVqZnFRT0hQTEFWdjdoTTBiejJMdis3a1E9",
+    "customerNumberKey": "U3RNREdma3grc3ZrMmkwM0QzakJCU2xQdjJzenVLczJCZkJ0VEVoRXErTFN1aFpua0tXUWFyWXc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.01,
+    "discountsTotal": 0.01,
+    "couponsTotal": 0.01,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "1300 Rt. 17 North",
+        "city": "RAMSEY",
+        "state": "NJ",
+        "zipCode": "07446"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "PHONE & TABLET CAS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24535464?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "PHONE & TABLET CAS",
+              "skuNumber": "24535464",
+              "unitPrice": 0.01,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.01,
+              "couponDetails": [
+                {
+                  "chargeNo": "204802",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #33027",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.01,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.01,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24535464"
+    ],
+    "storeNumber": "567",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "1300 Rt. 17 North",
+      "city": "RAMSEY",
+      "state": "NJ",
+      "zipCode": "07446"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RR11617FMQ4AYCRA"
+  }
+}

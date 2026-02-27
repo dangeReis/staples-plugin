@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREUvbnRzMXZ6SHJibXduNXlaQzFvQzJiVlJzVzQxZEl2OGdwMm1ha0pEUjFMNWl6ZnZtQTBXeHZzcXpVSElZV1BaNnpoWVJuaTFUTEFzUjh2M1hWa3c9",
+  "keyForOrderDetails": "U3RNREdVamtjaTZYNVJhWURrZklUam51bEo0U2tjV0dIeDlDVEFQVHBCL3VieUt1NHVjKzRPdGhRYTEwVTkwOU5ETEFHbW1yaEV3WEt5YjMvRjRiQXhpNTg9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -49,22 +49,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:35:31.612049556",
+      "timeStamp": "2026-02-23T21:55:48.532595587",
       "resourceName": "OrderDetails",
-      "transactionId": "3cc1086dea7f40a6bc97259c5833d9ad",
+      "transactionId": "e5140e5ec48b4fd0b180206443cf2897",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20241020.4.65133",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20241020.4.65133",
     "orderDate": "2024-10-20T12:57:09",
-    "keyForOrderDetails": "U3RNREZzdkJIOHA2S1hZTll2Q1hoVkQ1OUcrQ3VmMGdFV3RuMWp5dDNWaUxLVTdLRy9WdlJqcDh1YzdvTHR3dzcwb2hSeFNaVUprM0hnSjUvSzZKM0lkUUk9",
-    "orderUrlKey": "U3RNREZzdkJIOHA2S1hZTll2Q1hoVkQ1OUcrQ3VmMGdFV3RuMWp5dDNWaUxLVTdLRy9WdlJqcDh1YzdvTHR3dzcwb2hSeFNaVUprM0hnSjUvSzZKM0lkUUk9",
-    "customerNumberKey": "U3RNREZGWmY5Q0Z0RmpNK0hmaU8xYWVzR0pjaUFQenIxWC9aZlc0LzBZeUVUa3dSamc4TWJOZnc9PQ==",
+    "keyForOrderDetails": "U3RNREVtRlZ1YWtadGlRZGc0N3hhTG1OdnRpN2Y3M0w4Nkg1Qkk2dklLRWVXeGppcmpTSDM0ZzdFRTUwM3VWUGZlck9YSmdibEUrZ0ZVemFCdDZPMlVqa2M9",
+    "orderUrlKey": "U3RNREVtRlZ1YWtadGlRZGc0N3hhTG1OdnRpN2Y3M0w4Nkg1Qkk2dklLRWVXeGppcmpTSDM0ZzdFRTUwM3VWUGZlck9YSmdibEUrZ0ZVemFCdDZPMlVqa2M9",
+    "customerNumberKey": "U3RNREdxOWR4cFVvYjNwRmJ2S2NlYytBSEV1RkdDQmF4VGcvcjZjYmlhc3N5N3dzR3QzZEZBNmc9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -187,24 +188,17 @@
               "ctaText": "Add",
               "actionLabel": "addToCart",
               "isQtyChangeAvailable": true,
-              "savings": [
-                {
-                  "valueText": "$90.00",
-                  "description": "Member Savings",
-                  "type": "MEMBER_SAVINGS"
-                }
-              ],
               "isDeliveryInstock": true,
               "actionUrl": "",
               "unitsNum": "",
               "units": "",
-              "rating": 4.22,
-              "ratingCount": 593,
+              "rating": 4.21,
+              "ratingCount": 600,
               "ratingUrl": "/hp-color-laserjet-pro-mfp-3301fdw-wireless-all-in-one-color-laser-printer-adf-duplex-best-for-office-499q5f/product_24592836?scrollToReviews=Y",
               "reviewDetails": [
                 {
                   "rating": 1,
-                  "reviewCount": 66,
+                  "reviewCount": 68,
                   "reviewPercent": 11
                 },
                 {
@@ -214,8 +208,8 @@
                 },
                 {
                   "rating": 3,
-                  "reviewCount": 38,
-                  "reviewPercent": 6
+                  "reviewCount": 40,
+                  "reviewPercent": 7
                 },
                 {
                   "rating": 4,
@@ -224,12 +218,12 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 397,
+                  "reviewCount": 400,
                   "reviewPercent": 67
                 }
               ],
-              "price": "$549.99",
-              "priceValue": 549.99,
+              "price": "$639.99",
+              "priceValue": 639.99,
               "isPriceNotAvailable": false,
               "pricePerUnit": "",
               "isOutOfStock": false,
@@ -239,8 +233,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -269,7 +263,7 @@
                 ]
               },
               "skusetID": "SS238250996",
-              "totalSavingsPercentage": 14.06,
+              "totalSavingsPercentage": 0,
               "printerHighlights": [
                 {
                   "iconName": "cartridge",
@@ -297,8 +291,6 @@
                 }
               ],
               "isRPDC": true,
-              "originalPrice": "$639.99",
-              "originalPriceLabel": "Regular price",
               "STSEligible": true,
               "skuDescription": "HP COLOR LJPRO MFP",
               "skuNumber": "24592836",

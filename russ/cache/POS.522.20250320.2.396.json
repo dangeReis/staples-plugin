@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZPbTNkK0lMdVR1ZkFUeEhDVFB6MFo0VlhkbHh0azRKa1BkQTlxd3gwVzZ0THYyNXZUYVE3N0pmRlNBVEttWnNIV1FPSW5qRTZPcmVGQTBXMVI=",
+  "keyForOrderDetails": "U3RNREhhS1dSQnhjMlo2eThxL3JxSmF6V3E5emVwYTk1VmJoS1FubFhFSFlTSGVncUhRdGJ1RXlyQTh0SXNSR0I3STNEV2FkV1I4NmFrWGpyNW1qOXA=",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -60,22 +60,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:45.603159696",
+      "timeStamp": "2026-02-23T21:55:01.093912920",
       "resourceName": "OrderDetails",
-      "transactionId": "4b9b15cb161941f599a7ee086123f98d",
+      "transactionId": "edd9ffaa0b754a5c82762cf470393634",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20250320.2.396",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20250320.2.396",
     "orderDate": "2025-03-20T17:59:03",
-    "keyForOrderDetails": "U3RNREZMcXc4NTZEL2NrNHBFN004SURwWnFNWDkrM1M5MmVXUXhNMDh6OUdVR1hDeHhqSFJBN1NrZmorL2dpakZCcXdZVDJoNWRlcFJRVDhpRnBFMXg=",
-    "orderUrlKey": "U3RNREZMcXc4NTZEL2NrNHBFN004SURwWnFNWDkrM1M5MmVXUXhNMDh6OUdVR1hDeHhqSFJBN1NrZmorL2dpakZCcXdZVDJoNWRlcFJRVDhpRnBFMXg=",
-    "customerNumberKey": "U3RNREhmL2lRQU9lOWQremRkbXFhcFpCSmdzUWhvdzVJeXZ2RWhFc29xQm10eFpBa3JzQjhrOFE9PQ==",
+    "keyForOrderDetails": "U3RNREZGWkkxY1ZKd2dzNUVBODJlWXdWdHBrVW42UUhHaEhlZCtHWWsvL3NCcnNJMkJjY29VQVhIalpXcVEzcmNVSmkvL0tpWTd2ZHlhcjNrM2RmOEQ=",
+    "orderUrlKey": "U3RNREZGWkkxY1ZKd2dzNUVBODJlWXdWdHBrVW42UUhHaEhlZCtHWWsvL3NCcnNJMkJjY29VQVhIalpXcVEzcmNVSmkvL0tpWTd2ZHlhcjNrM2RmOEQ=",
+    "customerNumberKey": "U3RNREcxY3dYT3c4TnBCaUhUZGoxQ1QzT2pKSGdvWDdSdjg0SUVzcUp3N1Z6VXN5dmVKVTZPM1E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -203,7 +204,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.59,
-              "ratingCount": 11133,
+              "ratingCount": 11134,
               "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -228,7 +229,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 8418,
+                  "reviewCount": 8419,
                   "reviewPercent": 76
                 }
               ],
@@ -413,7 +414,7 @@
                   "unitsNum": "",
                   "units": "",
                   "rating": 4.59,
-                  "ratingCount": 11133,
+                  "ratingCount": 11134,
                   "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
                   "reviewDetails": [
                     {
@@ -438,7 +439,7 @@
                     },
                     {
                       "rating": 5,
-                      "reviewCount": 8418,
+                      "reviewCount": 8419,
                       "reviewPercent": 76
                     }
                   ],
@@ -511,7 +512,7 @@
             "itemsCount": 1
           }
         ],
-        "orderUrlKey": "U3RNREZyM1drY0c5V25RNFBBalBEdWVQTjRRQktUZm4wWDM0Q1YxQWZvTWVYWVd2T1RYSkZMendZU3M5QWJpMjk4ekFaYm1kVXdZUGhianFsNVg3MmU3aU09"
+        "orderUrlKey": "U3RNREcrWU5SN3o3OG54VE9NSUpkMmgxWVlGUWNxZURzMThXdEU5eHBpdXJ6RFJaaE5DckxaMVdFOFkxSGZuUS9RTjdjaURQZ1ZWdjhNRG1NTm9nakM3Nnc9"
       },
       {
         "returnOrderNumber": "POS.451.20250413.1.67909",
@@ -565,7 +566,7 @@
             "itemsCount": 1
           }
         ],
-        "orderUrlKey": "U3RNREVIUVpmazJlL0JuUEdUU1JHRlBQaE1NcGI1eWsrb1BmdUIwT0k0bVdGTW9NNFRUTDdRb1lnaHZ4Um5lek15RFl2S2dFN2VOUT09"
+        "orderUrlKey": "U3RNREdZZW9xVHF2T1VvMGNLUHBud21DeXBGbnAvWVlxeHhMbE4ydW9mL0JZbHRFMW5Nc3BpYmFLUmxPbW5OdndXcUp2bnFSSXR3UT09"
       }
     ],
     "productsOnOrder": [

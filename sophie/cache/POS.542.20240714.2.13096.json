@@ -1,0 +1,346 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20240714.2.13096",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-07-14T15:45:17",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREgxMVp6aGFSTDFBUnBzNVFWcndIZ29aSWNTOGNqVlJ3YmZ0Vkh6bURGcGxGNWFlN0JlTGVXR0ZjenFvYkowNG9zNHo1V05uV2RpOGpRUkV3ZUhvbWM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 1.03,
+  "orderLines": [
+    {
+      "productSku": "24581798",
+      "productName": "RIP STOP RPO BLACK",
+      "productShortDesc": "RIP STOP RPO BLACK",
+      "productLongDesc": "RIP STOP RPO BLACK",
+      "unitPrice": 60,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/09FABF08-E04E-4F91-90FD9C83C1750393_sc7?$thb$",
+      "productURL": "3brand-russell-wilson-pro-nike-laptop-backpack-medium-black-green-9at047-023/product_24581798",
+      "model": "9AT047-023",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24581798",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:02:14.501020471",
+      "resourceName": "OrderDetails",
+      "transactionId": "4654c60aec43452eb68689a35074c222",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240714.2.13096",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20240714.2.13096",
+    "orderDate": "2024-07-14T15:45:17",
+    "keyForOrderDetails": "U3RNREhXQ20vZGRHbExUQ0NPUlN0dnc3QWptSDEra1JHdGlNbzRlaUYydy92UzNyV2NubU1IVjhPaFFkQUlWYUYyLzVrWm14S1QvZklzcEZxeDhYdUhOVFU9",
+    "orderUrlKey": "U3RNREhXQ20vZGRHbExUQ0NPUlN0dnc3QWptSDEra1JHdGlNbzRlaUYydy92UzNyV2NubU1IVjhPaFFkQUlWYUYyLzVrWm14S1QvZklzcEZxeDhYdUhOVFU9",
+    "customerNumberKey": "U3RNREg3N1hIL01qejBVRFhXOGVRMUhZaDlqZnBXbkFZM0NKQlUzNExwZCs2VlZmZXRPQjdGN0E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 60,
+    "discountsTotal": 59.03,
+    "couponsTotal": 30.03,
+    "pointsRedeemedValue": 29,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.06,
+    "grandTotal": 1.03,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5884",
+              "itemId": "24581798",
+              "compareItemID": "24581798",
+              "url": "/3brand-russell-wilson-pro-nike-laptop-backpack-medium-black-green-9at047-023/product_24581798",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/09FABF08-E04E-4F91-90FD9C83C1750393_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/09FABF08-E04E-4F91-90FD9C83C1750393_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36398FC9-4680-4AD8-A2FA8A8F73277AC6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A8566F75-45A9-4084-9426AB44DAFE0A09_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CBEF6933-FA2B-4FCB-85FCD06B5C0203F8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CC2DE395-B218-416F-9DA1F29D4B744FC6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/969ABEDA-0E67-482B-A9B6D1E035FCB17A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C5F5375F-7514-4508-A54D18F16AA9825C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/48B70C09-66EF-48B6-B10368371C0D244F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~09FABF08-E04E-4F91-90FD9C83C1750393_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~36398FC9-4680-4AD8-A2FA8A8F73277AC6_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~A8566F75-45A9-4084-9426AB44DAFE0A09_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~CBEF6933-FA2B-4FCB-85FCD06B5C0203F8_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~CC2DE395-B218-416F-9DA1F29D4B744FC6_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~969ABEDA-0E67-482B-A9B6D1E035FCB17A_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~C5F5375F-7514-4508-A54D18F16AA9825C_sc7",
+                "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)~#|#~48B70C09-66EF-48B6-B10368371C0D244F_sc7"
+              ],
+              "title": "3Brand Russell Wilson Pro Nike Laptop Backpack, Medium, Black/Green (9AT047-023)",
+              "model": "9AT047-023",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24581798"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "9AT047-023"
+                }
+              ],
+              "manufacturerName": "3Brand",
+              "brandName": "3Brand",
+              "baseCatName": "",
+              "baseCatId": "CL142745",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10931",
+                  "name": "Backpacks & Laptop Bags"
+                },
+                "category": {
+                  "id": "CG3891",
+                  "name": "Bags & Backpacks"
+                },
+                "supercategory": {
+                  "id": "SC5884",
+                  "name": "Bags, Backpacks & Luggage"
+                },
+                "class": {
+                  "id": "CL142745",
+                  "name": "Backpacks"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142745",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 5,
+              "ratingCount": 6,
+              "ratingUrl": "/3brand-russell-wilson-pro-nike-laptop-backpack-medium-black-green-9at047-023/product_24581798?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$49.99",
+              "priceValue": 49.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "Carry your stuff like a pro in this Nike backpack from 3Brand by Russell Wilson. The backpack is made of durable poly and features tonal detailing. The main compartment has a two-way zippered closure and is spacious enough for your haul. A zippered padded laptop compartment on the back helps keep your computer or tablet safe, while the daisy chain detailing on the zip pocket for your valuables on the front can be used to attach your keys or anything else you have on a carabiner. The front zippered pocket secures smaller items you want quick and easy access to, the bottle pocket on the side can be used to hold your favorite beverage, and the adjustable straps provide comfy wear."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Laptop backpack makes travel with electronics simple; made of durable polyester fabric and comes in black with a Nike logo in green",
+                  "Medium-size backpack offers a spacious two-way zippered main compartment, a front zip pocket, and a zippered laptop sleeve on the back that fits devices up to 17\"",
+                  "Dimensions: 19\"H x 13\"W x 7\"D",
+                  "Features a zippered pocket for your valuables on the front and a bottle pocket on the side",
+                  "Includes a daisy chain on the front",
+                  "Padded back and adjustable straps (36\"-18\")",
+                  "Top grab handle is great for hand carry or locker storage",
+                  "Spot cleaning is recommended",
+                  "&#9888; <strong>WARNING:</strong> California Proposition 65 Warning. This product can expose you to chemicals including lead, which are known to the State of California to cause cancer and birth defects or other reproductive harm. For more information go to www.P65Warnings.ca.gov<br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/36398FC9-4680-4AD8-A2FA8A8F73277AC6_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "RIP STOP RPO BLACK",
+              "skuNumber": "24581798",
+              "unitPrice": 60,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.97,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0643
+                }
+              ],
+              "couponTotal": 59.03,
+              "couponDetails": [
+                {
+                  "chargeCategory": "100% Price Guarantee $39.97",
+                  "chargeName": "100% Price Guarantee $39.97",
+                  "chargeDesc": "100% Price Guarantee $39.97",
+                  "chargeAmount": 20.03,
+                  "chargePerUnit": 20.03
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 29,
+                  "chargePerUnit": 29
+                }
+              ],
+              "regularCouponsTotal": 59.03,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 60,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24581798"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11411PEN4AYAQG"
+  }
+}

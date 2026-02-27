@@ -1,0 +1,555 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250810.4.12275",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-08-10T12:20:41",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZyUzNFLytRQnRPUmYvbnllRmRJRlFkc0ZwRFUzZ2EwQzNLZHozWE1BeVJRZStJYkxuaTRRRHRLUG5mMXRjSi9HNmZkR2ljUUs0TXBDSUluUkpPWW89",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 60.95,
+  "orderLines": [
+    {
+      "productSku": "2091512",
+      "productName": "KCUP DUNKIN ORIG 4",
+      "productShortDesc": "KCUP DUNKIN ORIG 4",
+      "productLongDesc": "KCUP DUNKIN ORIG 4",
+      "unitPrice": 38.89,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "model": "5000380570",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2091512",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24645505",
+      "productName": "POST-IT SS 3X3 APP",
+      "productShortDesc": "POST-IT SS 3X3 APP",
+      "productLongDesc": "POST-IT SS 3X3 APP",
+      "unitPrice": 4,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/2589312F-4253-4824-B21B0E4379FC0F4A_sc7?$thb$",
+      "productURL": "post-it-super-sticky-notes-3-x-3-assorted-bright-colors-70-sheets-pad-8-pads-pack-654-8ssap/product_24645505",
+      "model": "654-8SSAP",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24645505",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T17:20:28.385899708",
+      "resourceName": "OrderDetails",
+      "transactionId": "26997fbe8e2145d3bc50876e7362a881",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250810.4.12275",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250810.4.12275",
+    "orderDate": "2025-08-10T12:20:41",
+    "keyForOrderDetails": "U3RNREdpUDl0MjgyY1p1aWFMalhacTlxVUMyb05ZYTFTU0xEdDZvcE9zUjIwdCtSZmRJWURpVW1iSGQrTGRRc0R2Zk9kU0NOR0RXcUlENnIrdFkvd2RDVzA9",
+    "orderUrlKey": "U3RNREdpUDl0MjgyY1p1aWFMalhacTlxVUMyb05ZYTFTU0xEdDZvcE9zUjIwdCtSZmRJWURpVW1iSGQrTGRRc0R2Zk9kU0NOR0RXcUlENnIrdFkvd2RDVzA9",
+    "customerNumberKey": "U3RNREVnVUJjdmV0NTR0UFo1RlgwZWdLcCtXNGRRZUhnV2FFeTd6bExxbllMMExaTktEOER1MHc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 159.56,
+    "discountsTotal": 98.61,
+    "couponsTotal": 86.61,
+    "pointsRedeemedValue": 12,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 60.95,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "2091512",
+              "compareItemID": "2091512",
+              "url": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647834_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647831_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647836_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~s1222878_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647833_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647834_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647831_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647836_sc7"
+              ],
+              "title": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+              "model": "5000380570",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2091512"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000380570"
+                }
+              ],
+              "manufacturerName": "Dunkin'",
+              "brandName": "Dunkin'",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$19.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "44/Box",
+              "rating": 4.74,
+              "ratingCount": 11433,
+              "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 295,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 98,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 317,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 843,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 9880,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.45/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$18.99",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 10770,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy the smooth, classic taste of these Dunkin' original blend coffee pods. Each one is fully caffeinated to deliver a surge of energy, while the original blend provides a rich, silky experience. There are 44 of these Keurig K-Cup Dunkin' coffee pods in each pack, so you can share them with friends, family and coworkers."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium-roast coffee with Original Blend flavor",
+                  "44 K-Cups per box",
+                  "The product is kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Restock coffee supplies in break rooms, waiting rooms or your home with this 44-count Keurig K-Cup Dunkin' original blend coffee pods."
+                ]
+              },
+              "skusetID": "SS114501307",
+              "totalSavingsPercentage": 48.73,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$38.99",
+              "originalPriceLabel": "Regular price",
+              "STSEligible": true,
+              "skuDescription": "KCUP DUNKIN ORIG 4",
+              "skuNumber": "2091512",
+              "unitPrice": 38.89,
+              "qtyOrdered": 4,
+              "qtyShipped": 4,
+              "isReshipped": false,
+              "lineTotal": 60.95,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 94.61,
+              "couponDetails": [
+                {
+                  "chargeCategory": "100% Price Guarantee $21.99",
+                  "chargeName": "100% Price Guarantee $21.99",
+                  "chargeDesc": "100% Price Guarantee $21.99",
+                  "chargeAmount": 67.6,
+                  "chargePerUnit": 16.9
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 3.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 promo card towards a future purchase when you spend $60 or more.",
+                  "chargeDesc": "$20 promo card towards a future purchase when you spend $60 or more.",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.0025
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 3
+                }
+              ],
+              "regularCouponsTotal": 94.61,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 155.56,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "24645505",
+              "compareItemID": "24645505",
+              "url": "/post-it-super-sticky-notes-3-x-3-assorted-bright-colors-70-sheets-pad-8-pads-pack-654-8ssap/product_24645505",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/2589312F-4253-4824-B21B0E4379FC0F4A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/2589312F-4253-4824-B21B0E4379FC0F4A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/59E213BD-D801-4D63-8932332DCB835965_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BF27C91F-11C8-4D18-ACBB45AB1DF716AB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9D9F8426-9B58-465E-A7FBA165ABD6C533_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B30241ED-F758-4301-8462F40E1B7AD927_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0917E44E-424B-40AD-828ABD7822F2408F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3BF89FFD-94E5-48C6-84A1C7A5263B8AE9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EE1AAD13-E5DA-4849-894CB90BA91BE337_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2F1E8B49-985F-4D36-815185EF276DD5DB_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~2589312F-4253-4824-B21B0E4379FC0F4A_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~59E213BD-D801-4D63-8932332DCB835965_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~BF27C91F-11C8-4D18-ACBB45AB1DF716AB_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~9D9F8426-9B58-465E-A7FBA165ABD6C533_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~B30241ED-F758-4301-8462F40E1B7AD927_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~0917E44E-424B-40AD-828ABD7822F2408F_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~3BF89FFD-94E5-48C6-84A1C7A5263B8AE9_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~EE1AAD13-E5DA-4849-894CB90BA91BE337_sc7",
+                "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)~#|#~2F1E8B49-985F-4D36-815185EF276DD5DB_sc7"
+              ],
+              "title": "Post-it Super Sticky Notes, 3\" x 3\", Assorted Bright Colors, 70 Sheets/Pad, 8 Pads/Pack (654-8SSAP)",
+              "model": "654-8SSAP",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24645505"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "654-8SSAP"
+                }
+              ],
+              "manufacturerName": "Post-it",
+              "brandName": "Post-it",
+              "baseCatName": "Post-it\u00ae & Sticky Notes",
+              "baseCatId": "CL165755",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4736",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                },
+                "category": {
+                  "id": "CG3861",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165755",
+                  "name": "Post-it\u00ae & Sticky Notes"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165755",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "8/Pack",
+              "rating": 4.97,
+              "ratingCount": 141,
+              "ratingUrl": "/post-it-super-sticky-notes-3-x-3-assorted-bright-colors-70-sheets-pad-8-pads-pack-654-8ssap/product_24645505?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 2,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 138,
+                  "reviewPercent": 98
+                }
+              ],
+              "price": "$8.19",
+              "priceValue": 8.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$1.02/Pad",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "These sticky notes feature 2X the sticking power. They also stick and re-stick - allowing you to move your notes with you throughout your day. They\u2019re ideal for walls, doors, windows and other vertical surfaces, and like all Post-it Notes, they stick securely yet remove cleanly without damage. Keep your ideas across your notebooks, classroom books, calendars or other documents. No tape or tacks are needed with adhesive notes, saving you money and time on office products or school supplies. A great memo pad, these are ideal for using for notes or reminders to yourself or others. Post-it Super Sticky Notes are the perfect solution for shopping lists, reminders, notes on computer screens, time tracking, to-do lists, marking cables, color-coding documents, reminding kids to do chores, storyboarding, scratch paper and agile processing. Each notes sheet is approximately 3 in. x 3 in., with 70 sheets per pad and 8 sticky note pads per pack. These colorful sticky notes include assorted bright colors including blue, purple, red, orange, yellow, and green. All Post-it Notes are sourced from certified, renewable and responsibly managed forests, and all Post-it Notes are recyclable, so you can recycle them when they are no longer needed."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GET ORGANIZED: Each pack includes 8 pads of 3 in. x 3 in. notes, with 70 sheets per pad, great for stocking up your office, work area, or classroom",
+                  "EXPERIENCE THE POWER OF 2X STICKINESS: Post-it Super Sticky Notes offer twice the sticking power of basic sticky notes, ensuring they stay put and won't fall off",
+                  "STICK AND RESTICK ANYWHERE: These notes adhere firmly to walls, windows, doors, and other vertical surfaces, allowing you to move your reminders with ease",
+                  "VERSATILE AND ESSENTIAL: Post-it Super Sticky Notes are the perfect solution for shopping lists, reminders, to-do lists, color-coding, labeling, family chore reminders, brainstorming, storyboarding, and quick notes",
+                  "VARIOUS SIZES AND SHAPES: Available in different sizes, with or without lines, to cater to your specific needs",
+                  "EYE-CATCHING COLORS: Vibrant and colorful reminders are more likely to grab attention and be noticed",
+                  "ASSORTED BRIGHT COLORS: This pack includes blue paradise, Iris Infusion, Candy Apple Red, Vital Orange, Sunnyside, and Limeade colors",
+                  "TRUST THE ORIGINAL CREATOR: Made in the USA with globally sourced materials, the one and only Post-it Note was invented over 40 years ago by the Post-it Brand",
+                  "EXPLORE OUR COLLECTIONS: With 11 color collections, the Post-it Brand offers a wide range of options to suit every style and preference, whether at home, in school, or at the office",
+                  "SUSTAINABILITY: Post-it Super Sticky Notes can be recycled",
+                  "ENHANCE YOUR NOTE-TAKING EXPERIENCE: Download the free Post-it App on your smartphone or tablet to enjoy the simplicity and convenience of Post-it Notes anytime and anywhere"
+                ],
+                "headliner": [
+                  "Whether jotting down your daily to-do's, brainstorming big ideas, studying or setting reminders, colors and ideas are always brighter together."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/59E213BD-D801-4D63-8932332DCB835965_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "skuDescription": "POST-IT SS 3X3 APP",
+              "skuNumber": "24645505",
+              "unitPrice": 4,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 4,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 4,
+                  "chargePerUnit": 4
+                }
+              ],
+              "regularCouponsTotal": 4,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 5
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "2091512",
+      "24645505"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11711N764C13HG"
+  }
+}

@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZOOExKRHRiTzcrdlBlQVlhQ3drVHdWRTdzclYwTXJNNktCTDFRZitTOTRDcDJ4R29WQ091c3FIWnlaK3Z2cHNTV2VzS1ZWZzNsWGYxNmhQcURVNk09",
+  "keyForOrderDetails": "U3RNREVlRGx4dnd3RWYwbVgzZ2VTWG9WVzBSd0hGUExOdWR1bStqQU1vZzJFMUYybHVPUW15U1FpSkJsK05LTjhDTTZteVgxcjhiSnE0VlBjRTh0V3dud2s9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -99,22 +99,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:39.178735844",
+      "timeStamp": "2026-02-23T21:54:54.446341987",
       "resourceName": "OrderDetails",
-      "transactionId": "76f97e208ef3486bb0390f86195893a4",
+      "transactionId": "89f42f8ef5ae49b29eddd55194098080",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20250402.4.90466",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20250402.4.90466",
     "orderDate": "2025-04-02T19:43:40",
-    "keyForOrderDetails": "U3RNREVQR0U5d2dKTXVRKzF4U0tGRlY0ZlhFT1JjU3dMcDdEdERMdk5kQVZRQncvREJMR29veTIvQXZybmRQd0hoMWNaNGN4RDFHWGI1WVdEM25NQUVBMzg9",
-    "orderUrlKey": "U3RNREVQR0U5d2dKTXVRKzF4U0tGRlY0ZlhFT1JjU3dMcDdEdERMdk5kQVZRQncvREJMR29veTIvQXZybmRQd0hoMWNaNGN4RDFHWGI1WVdEM25NQUVBMzg9",
-    "customerNumberKey": "U3RNREVaRjlEd0traUpUMXE2QkVFUmpwWS9CQ1gva2ZVY3hGNnM0U3NrQU80YnBzcDlsUnB1RHc9PQ==",
+    "keyForOrderDetails": "U3RNREZnZGRONVRyWWtQMlZlSzVKZVI0dy9KZkxuWXB1MnA3V09XdWoyUnVEUTdJbU85VnJVSTFJOStRYktjNHE1aEI1NkhtSlJqL1JLUHRRM1dEeEJ4WWc9",
+    "orderUrlKey": "U3RNREZnZGRONVRyWWtQMlZlSzVKZVI0dy9KZkxuWXB1MnA3V09XdWoyUnVEUTdJbU85VnJVSTFJOStRYktjNHE1aEI1NkhtSlJqL1JLUHRRM1dEeEJ4WWc9",
+    "customerNumberKey": "U3RNREhsSUNIdmpoZXJseEZpR3NnRHlRZm9yS1c3UkZBYUsyQktlL1NvTUhDTVlCWmE2WUpaT1E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -242,8 +243,8 @@
               "actionUrl": "",
               "unitsNum": "",
               "units": "",
-              "rating": 4.59,
-              "ratingCount": 86,
+              "rating": 4.6,
+              "ratingCount": 87,
               "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -268,7 +269,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 73,
+                  "reviewCount": 74,
                   "reviewPercent": 85
                 }
               ],
@@ -462,8 +463,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -611,8 +612,8 @@
               "actionUrl": "",
               "unitsNum": "",
               "units": "",
-              "rating": 4.59,
-              "ratingCount": 86,
+              "rating": 4.6,
+              "ratingCount": 87,
               "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -637,7 +638,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 73,
+                  "reviewCount": 74,
                   "reviewPercent": 85
                 }
               ],
@@ -830,8 +831,8 @@
                   "actionUrl": "",
                   "unitsNum": "",
                   "units": "",
-                  "rating": 4.59,
-                  "ratingCount": 86,
+                  "rating": 4.6,
+                  "ratingCount": 87,
                   "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
                   "reviewDetails": [
                     {
@@ -856,7 +857,7 @@
                     },
                     {
                       "rating": 5,
-                      "reviewCount": 73,
+                      "reviewCount": 74,
                       "reviewPercent": 85
                     }
                   ],
@@ -1010,8 +1011,8 @@
                   "actionUrl": "",
                   "unitsNum": "",
                   "units": "",
-                  "rating": 4.59,
-                  "ratingCount": 86,
+                  "rating": 4.6,
+                  "ratingCount": 87,
                   "ratingUrl": "/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c-white-mtjv3am-a/product_24580025?scrollToReviews=Y",
                   "reviewDetails": [
                     {
@@ -1036,7 +1037,7 @@
                     },
                     {
                       "rating": 5,
-                      "reviewCount": 73,
+                      "reviewCount": 74,
                       "reviewPercent": 85
                     }
                   ],
@@ -1116,7 +1117,7 @@
             "itemsCount": 2
           }
         ],
-        "orderUrlKey": "U3RNREhJTi82dTBZaEgrdkhkb2ZoenIzdDZwazVWTGIzRVovcWVhNGRaL1Fhd2RrOUptSzNZMDBYS3hnUVh3SkN2OU5ZN3hLYzRUVW50QlZYWVVoYytjZz09"
+        "orderUrlKey": "U3RNREh5dUVFd016UFZrdHJqSFFwM2xSbjFFOGtyd2hoWHVhQi9NaDJQYlhrOWIxeVF3dHNlODFHc3R3M3M4dmlhRmV6cElzZ0kvQ2pwWU85YitHWnpyZz09"
       },
       {
         "returnOrderNumber": "POS.542.20250413.4.92325",
@@ -1247,8 +1248,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1315,7 +1316,7 @@
             "itemsCount": 1
           }
         ],
-        "orderUrlKey": "U3RNREg0Z2Vlek5HNGt0MFZKcGV0QVBHUXVjMFB1b3NkdDlZei9UWW1KUy9mTEQyS1ViVkpoeU93bUVSUlV5ZngwREdHYjdBanUxMVYyY2RNaVEzREVLN0k9"
+        "orderUrlKey": "U3RNREY4S3lUdXl6aWdEcnV4ZHVCYWFQTXZnSndiS1FpMlc0cEc1MTNHTEg1R3lvUldsdXRnUUIvVytXQTNYWmZUYitiMGhWalQyQ2htdWYwUXpyNzZKVWs9"
       }
     ],
     "productsOnOrder": [

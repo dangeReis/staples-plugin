@@ -1,0 +1,539 @@
+{
+  "customerNumber": "7773900985",
+  "orderNumber": "POS.542.20251228.2.60928",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-12-28T12:23:33.284",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREc2YzBMNEwzRXNHb2hnTWNNU2pCYzRUQW9vcE15L2pKVkl2Z01GekhDTzV3WXpnU2lYcURWeVFuenUyRkFtZmdXWGhnWkdOMDFYTDFPbTlUNGxOQW89",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 49,
+  "orderLines": [
+    {
+      "productSku": "2091512",
+      "productName": "KCUP DUNKIN ORIG 4",
+      "productShortDesc": "KCUP DUNKIN ORIG 4",
+      "productLongDesc": "KCUP DUNKIN ORIG 4",
+      "unitPrice": 38.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "model": "5000380570",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2091512",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24655793",
+      "productName": "simplehuman Tension Arm Paper Towel Hol",
+      "productShortDesc": "simplehuman Tension Arm Paper Towel Hol",
+      "productLongDesc": "simplehuman Tension Arm Paper Towel Hol",
+      "unitPrice": 40,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/EEF3FEB9-87E5-484E-8330C2DC3D3B517D_sc7?$thb$",
+      "productURL": "simplehuman-tension-arm-paper-towel-holder-brushed-stainless-steel-kt1203/product_24655793",
+      "model": "KT1203",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24655793",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W. Central St.",
+  "storeCity": "Bergenfield",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T09:49:06.775582052",
+      "resourceName": "OrderDetails",
+      "transactionId": "531ea516facc41ae9c78abe7f3379c93",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20251228.2.60928",
+    "masterAccountNumber": "7773900985",
+    "salesOrderHeaderKey": "POS.542.20251228.2.60928",
+    "orderDate": "2025-12-28T12:23:33.284",
+    "keyForOrderDetails": "U3RNREdLblk0c1pjWnZiNU5QREpTNWh2VW85UE5rSlo5YlNwaC9ocjl3bGptSitDQWxrNWoxTjRDeDczaC9yYWRDQ2dsZk5kSUpnaE9pTnYreUhKRkVRTms9",
+    "orderUrlKey": "U3RNREdLblk0c1pjWnZiNU5QREpTNWh2VW85UE5rSlo5YlNwaC9ocjl3bGptSitDQWxrNWoxTjRDeDczaC9yYWRDQ2dsZk5kSUpnaE9pTnYreUhKRkVRTms9",
+    "customerNumberKey": "U3RNREg4eEtuWS9EMzdUd2NONHUvMllML0N4VXFaditzbSs2OHdwZGlqUjAxTGZTaUJtSXJMbGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 78.99,
+    "discountsTotal": 32,
+    "couponsTotal": 32,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.01,
+    "grandTotal": 49,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W. Central St.",
+        "city": "Bergenfield",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "2091512",
+              "compareItemID": "2091512",
+              "url": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647834_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647831_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647836_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~s1222878_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647833_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647834_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647831_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647836_sc7"
+              ],
+              "title": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+              "model": "5000380570",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2091512"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000380570"
+                }
+              ],
+              "manufacturerName": "Dunkin'",
+              "brandName": "Dunkin'",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$19.00",
+                  "description": "Instant Savings",
+                  "type": "INSTANT_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "44/Box",
+              "rating": 4.74,
+              "ratingCount": 11437,
+              "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 295,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 99,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 317,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 843,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 9883,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.45/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$18.99",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 10673,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy the smooth, classic taste of these Dunkin' original blend coffee pods. Each one is fully caffeinated to deliver a surge of energy, while the original blend provides a rich, silky experience. There are 44 of these Keurig K-Cup Dunkin' coffee pods in each pack, so you can share them with friends, family and coworkers."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium-roast coffee with Original Blend flavor",
+                  "44 K-Cups per box",
+                  "The product is kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Restock coffee supplies in break rooms, waiting rooms or your home with this 44-count Keurig K-Cup Dunkin' original blend coffee pods."
+                ]
+              },
+              "skusetID": "SS114501307",
+              "totalSavingsPercentage": 48.73,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$38.99",
+              "originalPriceLabel": "Regular price",
+              "STSEligible": true,
+              "skuDescription": "KCUP DUNKIN ORIG 4",
+              "skuNumber": "2091512",
+              "unitPrice": 38.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 16.67,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 22.32,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 5.32,
+                  "chargePerUnit": 5.32
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 7,
+                  "chargePerUnit": 7
+                }
+              ],
+              "regularCouponsTotal": 22.32,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 38.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1683",
+              "itemId": "24655793",
+              "compareItemID": "24655793",
+              "url": "/simplehuman-tension-arm-paper-towel-holder-brushed-stainless-steel-kt1203/product_24655793",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/EEF3FEB9-87E5-484E-8330C2DC3D3B517D_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/EEF3FEB9-87E5-484E-8330C2DC3D3B517D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/067DE334-9BAD-4CC8-B979F6EA649435B5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D2231B73-9E4C-422D-8759B05D28E6A4F9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CD36B47A-D144-4083-8DD9074200CFDB8A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EF553322-9846-4914-9088A83326A2F517_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)~#|#~EEF3FEB9-87E5-484E-8330C2DC3D3B517D_sc7",
+                "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)~#|#~067DE334-9BAD-4CC8-B979F6EA649435B5_sc7",
+                "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)~#|#~D2231B73-9E4C-422D-8759B05D28E6A4F9_sc7",
+                "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)~#|#~CD36B47A-D144-4083-8DD9074200CFDB8A_sc7",
+                "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)~#|#~EF553322-9846-4914-9088A83326A2F517_sc7"
+              ],
+              "title": "simplehuman Tension Arm Paper Towel Holder, Brushed Stainless Steel (KT1203)",
+              "model": "KT1203",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24655793"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "KT1203"
+                }
+              ],
+              "manufacturerName": "simplehuman",
+              "brandName": "simplehuman",
+              "baseCatName": "Janitorial Paper & Dispensers",
+              "baseCatId": "CL350640",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350265",
+                  "name": "Dispensers & Restroom Equipment"
+                },
+                "category": {
+                  "id": "CG3930",
+                  "name": "Janitorial Paper & Dispensers"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL350640",
+                  "name": "Paper Towel Dispensers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL350640",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.54,
+              "ratingCount": 233,
+              "ratingUrl": "/simplehuman-tension-arm-paper-towel-holder-brushed-stainless-steel-kt1203/product_24655793?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 4,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 12,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 20,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 184,
+                  "reviewPercent": 79
+                }
+              ],
+              "price": "$40.00",
+              "priceValue": 40,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Mar 05 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Make life easier with the SIMPLEHUMAN Tension Arm Paper Towel Holder that lets you smoothly tear one or multiple sheets at a time with one hand. The weighted base keeps it steady, while the finger loop makes it easy to pick up and move. Built for everyday convenience, it\u2019s designed to work best with SIMPLEHUMAN's high-performance jumbo paper towels\u2014so you get fewer roll changes and a longer-lasting roll every time."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "one at a time: Precision-tuned tension arm allows you to cleanly tear one sheet or multiple sheets with one hand.",
+                  "steady as you use: Weighted base keeps the towel holder steady and secure in place during use.",
+                  "grab and go: Finger loop makes it easy to pick up the paper towel holder and move wherever you need it."
+                ],
+                "headliner": [
+                  "SIMPLEHUMAN Tension Arm Paper Towel Holder offers effortless one-handed tearing and a stable, weighted base for smooth, mess-free use every time."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/067DE334-9BAD-4CC8-B979F6EA649435B5_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "simplehuman Tension Arm Paper Towel Hol",
+              "skuNumber": "24655793",
+              "unitPrice": 40,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 30.32,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.01
+                }
+              ],
+              "couponTotal": 9.68,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 9.68,
+                  "chargePerUnit": 9.68
+                }
+              ],
+              "regularCouponsTotal": 9.68,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 40,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24655793",
+      "2091512"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W. Central St.",
+      "city": "Bergenfield",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11416H6F4C1ATW"
+  }
+}

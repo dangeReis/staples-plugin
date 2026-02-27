@@ -1,0 +1,1717 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "9921378832",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2024-05-02T09:53:35",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREg3dXVzRjdRVHBFdWJBVHBOclZLbzdzbFh3N2hiS01kZ3l3THYvdUd2NCtsaElRRVB6MURXNUUxUy9rNUFoNndrdw==",
+  "salesTranID": "23420021990",
+  "ordererUserID": "1445647760",
+  "linelevelBCEnabled": false,
+  "statusCd": "700",
+  "statusDesc": "Delivered",
+  "merchandiseTotal": 0,
+  "grandTotal": 1.81,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "222631969629",
+      "lineType": "STA",
+      "productSku": "147220",
+      "productName": "Brother TN-221 Black Standard Yield Toner Cartridge   (TN221BK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN221BK",
+      "productUOM": "EACH",
+      "unitPrice": 79.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "returnedQty": 0,
+      "total": 0.27,
+      "invoicedTotal": 0.27,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7?$thb$",
+      "productURL": "brother-tn-221-black-standard-yield-toner-cartridge-print-up-to-2-500-pages-tn221bk/product_147220",
+      "model": "TN221BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "147220",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "salesTranLineItemId": "222631969633",
+      "lineType": "STA",
+      "productSku": "24401678",
+      "productName": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN4313PK)",
+      "productDepartment": "2",
+      "productClass": "270",
+      "productSubClass": "27",
+      "vendorModel": "TN4313PK",
+      "productUOM": "EACH",
+      "unitPrice": 229.49,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 1.54,
+      "invoicedTotal": 1.54,
+      "statuses": [
+        {
+          "statusCode": "700",
+          "statusDesc": "Delivered",
+          "totalQty": 2,
+          "statusQty": 2
+        }
+      ],
+      "isReturnable": true,
+      "isCancelable": false,
+      "lineStatusCode": "3700",
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 121,
+  "pointsRedeemed": 73200,
+  "returnable": true,
+  "cancelable": false,
+  "_order_type": "online",
+  "_online_detail": {
+    "siteVariables": {
+      "tenant": {
+        "legacy": 10001,
+        "fullName": "StaplesDotCom",
+        "shortName": "sdc"
+      },
+      "channelId": "WEB",
+      "siteId": "US",
+      "catalogId": "10051",
+      "langId": -1,
+      "langCd": "en",
+      "locale": "en_US",
+      "hyphenatedLocale": "en-US",
+      "storeId": "10001",
+      "currency": "USD",
+      "isCOM": true,
+      "isCA": false,
+      "isSBA": false,
+      "assetStoreId": 5051,
+      "env": "azureprod",
+      "isProd": true,
+      "isLoggedIn": true,
+      "ctx": {
+        "flowType": "STANDARD",
+        "routeId": "staples",
+        "routeType": "staples",
+        "user_name": "lana@x-deals.com",
+        "sub": "20001801078"
+      },
+      "isCanary": false
+    },
+    "ptdMMx": {
+      "JWT": {
+        "sub": "20001801078",
+        "rwdId": "3025391875",
+        "user_name": "lana@x-deals.com",
+        "client_id": "ele-app-identity-usr",
+        "cacheId": "7d2065f6-0a06-4895-a183-ded3f26a5844",
+        "aud": "STAPLES",
+        "routeId": "staples",
+        "scope": [
+          "PCI",
+          "USER_UPDATE",
+          "USER_READ",
+          "TIERA",
+          "OPEN"
+        ],
+        "legacyId": "1445647760",
+        "exp": 1771901982,
+        "routeType": "staples",
+        "jti": "958e3aa9-fb1d-4ae8-9d70-439bf03d3710",
+        "tenant": "StaplesDotCom",
+        "flowType": "STANDARD"
+      },
+      "userInfo": {},
+      "isHiddenUser": false,
+      "isHiTouch": false,
+      "cdiDetails": {
+        "rewardsId": "3025391875",
+        "directCustomerNumber": "3025391875",
+        "email": "LANA@X-DEALS.COM"
+      },
+      "ptdConfig": {
+        "isReturnLabelEnabled": false,
+        "logLevel": "INFO",
+        "print": {
+          "android": {
+            "targetOrigin": {}
+          }
+        },
+        "reAuth": {
+          "storageExpirationTimeInMins": 15
+        }
+      },
+      "isPrintPage": false,
+      "printPageLinkEnabled": true,
+      "APP_INFO": {
+        "version": "3.11.0",
+        "env": "production",
+        "region": "pe",
+        "isCanary": false
+      },
+      "deviceBreakpoint": "lg",
+      "authentication": {
+        "isAuthenticated": true,
+        "dcn": "3025391875"
+      }
+    },
+    "intl": {
+      "defaultLocale": "en-US",
+      "locale": "en-US",
+      "messages": {
+        "ptd.common.page.printpage": "Print",
+        "ptd.common.tile.returnEligiblity.expiresOn": "Return eligibility expires on ",
+        "ptd.common.tile.returnEligiblity.expired": "Return eligibility expired ",
+        "ptd.common.tile.returnEligiblity.eligible": "Item may be returned at any time",
+        "ptd.common.tile.returnEligiblity.notEligible": "Item not eligible to be returned",
+        "ptd.common.tile.returnEligiblity.freeItem": "Free samples can't be returned",
+        "ptd.common.tile.returnEligiblity.policy": "Return policy",
+        "ptd.common.errorPage.title": "Whoops!",
+        "ptd.common.errorPage.description": "An error occurred.",
+        "ptd.common.errorPage.button.retry": "Retry",
+        "ptd.common.errorPage.button.oh": "Go to Order History",
+        "ptd.common.errorPage.button.od": "Go to Order Details",
+        "ptd.common.breadcrumb.home": "Home",
+        "ptd.common.breadcrumb.oh": "Purchase history",
+        "ptd.common.breadcrumb.od": "Order details",
+        "ptd.common.line.budget.center": "Budget center",
+        "ptd.common.autorestock.text": "AutoRestock",
+        "ptd.od.page.title": "Order details",
+        "ptd.od.page.ordernumber": "Order #{ordernumber}",
+        "ptd.od.page.trasactionnumber": "Transaction # {ordernumber}",
+        "ptd.od.page.orderplaced": "Order placed: {date}",
+        "ptd.od.page.transactionplaced": "Transaction placed: {date}",
+        "ptd.od.ordersummary.title": "Order summary",
+        "ptd.od.pdfreceipt.link": "Receipt (pdf)",
+        "ptd.od.summary.merchandisetotal": "Merchandise total",
+        "ptd.od.summary.handling": "Handling",
+        "ptd.od.summary.handling.fee": "Handling fee",
+        "ptd.od.summary.furnitureservices": "Furniture services",
+        "ptd.od.summary.orderfee": "Minimum order fee",
+        "ptd.od.summary.ordersize.discount": "Order size discount",
+        "ptd.od.summary.exclusive.savings": "Exclusive Savings",
+        "ptd.od.summary.coupons": " Coupons & Rewards",
+        "ptd.od.summary.pending": "Pending",
+        "ptd.od.summary.tax": "Tax",
+        "ptd.od.summary.shipping": "Shipping",
+        "ptd.od.summary.shipping.and.delivery": "Shipping & Delivery",
+        "ptd.od.summary.estimated.shipping": "Est. Shipping",
+        "ptd.od.summary.free": "Free",
+        "ptd.od.summary.ordertotal": "Order total",
+        "ptd.od.summary.staplesplus.message": "As a Staples Plus member, you saved {savings} on this order!",
+        "ptd.od.summary.savings.message": "You're saving {savings} on this order!",
+        "ptd.od.summary.paymentmethod.title": "Payment method",
+        "ptd.od.summary.address.billAddress": "Billing address",
+        "ptd.od.summary.address.shipAddress": "Shipping address",
+        "ptd.od.summary.accountinginfo.title": "Accounting information",
+        "ptd.od.summary.budgetcenter.title": "Budget center",
+        "ptd.od.summary.ponumber.title": "PO number",
+        "ptd.od.summary.pornumber.title": "POR number",
+        "ptd.od.summary.guest.message": "To view billing and shipping details, please sign into an existing Staples account.",
+        "ptd.od.summary.signin.button": "Sign in",
+        "ptd.od.shipment.custom.message": "*Delivery dates vary and are based upon the item being customized.",
+        "ptd.od.shipmentstatus.delayed.message": "Sorry, due to a carrier delay your box will now arrive on {currentDeliveryDate} (original delivery date was {originalEstimatedDeliveryDate}).",
+        "ptd.od.shipmentstatus.held.message": "Held at carrier. To be collected by customer",
+        "ptd.od.shipment.status.unavailable": "Unavailable",
+        "ptd.od.shipment.status.enrolled": "Enrolled",
+        "ptd.od.shipment.status.deliveredon": "Delivered on: ",
+        "ptd.od.shipment.status.expectedon": "Expected on: ",
+        "ptd.od.shipment.status.deliveryby": "Delivery by ",
+        "ptd.od.shipment.status.processing": "Processing",
+        "ptd.od.shipment.status.store.expectedon": "Expected in store on: ",
+        "ptd.od.shipment.status.store.readyforpickupon": "Ready for pick up on: ",
+        "ptd.od.shipment.status.store.didnotpickup": "Did not pick up",
+        "ptd.od.shipment.status.store.pickedupon": "Picked up on: ",
+        "ptd.od.shipment.status.retails.purchasedon": "Purchased on: ",
+        "ptd.od.shipment.status.ready.download": "Ready for download",
+        "ptd.od.shipment.status.available": "Available",
+        "ptd.od.shipment.status.sent.email": "Sent by Email",
+        "ptd.od.shipment.type.cancelled": "Cancelled",
+        "ptd.od.shipment.type.deliveredto": "Delivered to: ",
+        "ptd.od.shipment.type.deliverto": "Deliver to: ",
+        "ptd.od.shipment.type.instore.delayed": "In store pick up (Delayed): ",
+        "ptd.od.shipment.type.instore": "In store pick up: ",
+        "ptd.od.shipment.type.store.purchased": "Items purchased at store",
+        "ptd.od.shipment.type.digital": "Digital goods & services",
+        "ptd.od.shipment.type.membership": "Membership program",
+        "ptd.od.return.type.store": "Item returned to store",
+        "ptd.od.return.type.customer": "Items for return",
+        "ptd.od.return.status.processing": "Processing",
+        "ptd.od.return.status.refund.issued": "Refunded",
+        "ptd.od.return.label.ordernumber": "Return order #: ",
+        "ptd.od.shipment.items.count": "{count, plural, =0 {0 item} =1 {1 item} other{# items}}",
+        "ptd.od.shipment.carrier.name": "Carrier: ",
+        "ptd.od.shipment.carrier.signedBy": "Signed by: ",
+        "ptd.od.shipment.carrier.location": "Location: ",
+        "ptd.od.shipment.carrier.pickup": "Pickup person: ",
+        "ptd.od.shipment.carrier.alternatepickup": "Alternate pickup person: ",
+        "ptd.od.esd.download.link": "Download",
+        "ptd.od.esd.signin.link": "Sign in",
+        "ptd.od.esd.signin.text": "{signIn} to download",
+        "ptd.od.shipment.status.store.readyforpickup": "Ready for pick up",
+        "ptd.od.shipment.status.store.pickedup": "Picked up",
+        "ptd.od.shipment.track.items": "Track {count, plural, one {this item} other{these items}}",
+        "ptd.od.shipment.tracking.noavail": "Tracking not available yet. {whyNot}",
+        "ptd.od.shipment.tracking.noavail.why": " Why not?",
+        "ptd.od.shipment.tracking.noavail.title": "Why can't I see tracking information?",
+        "ptd.od.shipment.tracking.noavail.message": "Tracking information becomes available once a carrier has picked up a shipment. Please note that some third-party carriers do not provide tracking information.",
+        "ptd.od.buttons.modify": "Modify order",
+        "ptd.od.buttons.modify.modal.title": "Modify this Order?",
+        "ptd.od.buttons.modify.modal.msg": "Your order will be canceled and a new order will be created for you to modify.",
+        "ptd.od.buttons.modify.modal.continue": "Continue modify",
+        "ptd.od.buttons.modify.modal.goBack": "Go back",
+        "ptd.od.buttons.modify.modal.fail": "We are not able to process this request at this time.",
+        "ptd.od.buttons.cancelItems": "Cancel items",
+        "ptd.od.buttons.return": "Return an item",
+        "ptd.od.buttons.buyAgain": "Buy it again",
+        "ptd.od.alert.duplicate.msg": "The pricing set up for the {itemCount, plural, one {item} other {items}} {items} {itemCount, plural, one {is} other {are}} not in the current catalog and will not be added to cart. Click to continue to {link}",
+        "ptd.od.alert.duplicate.link": "duplicate order.",
+        "ptd.od.shipment.returns.refund.message": "Refund will post to your account in 3-5 business days after your return is processed.",
+        "ptd.od.shipment.returns.refund.message1": "Refund will post to your account in 3-5 business days once processing is complete.",
+        "ptd.od.shipment.returns.refund.message2": "Refund will post to your account in 3-5 business days.",
+        "ptd.od.shipment.returns.instruction.returnlabel.expired": "Please call customer service to complete this return.",
+        "ptd.od.shipment.returns.instruction.returnlabel.next.step": "Next steps:",
+        "ptd.od.shipment.returns.instruction.customerContact": "A return specialist will contact you within 3 business days to provide you with expectations for your return and refund.",
+        "ptd.od.shipment.returns.instruction.creditonly": "No action is needed from you.  You will receive a credit email with your refund details.",
+        "ptd.od.shipment.returns.instruction.undeliverable": "We are unable to deliver your items and they have been returned to the warehouse. You will receive an email with your refund details.",
+        "ptd.od.shipment.returns.instruction.hassleFree": "We have received your return and are processing it. Once the return is complete, you will receive an email containing your refund details.",
+        "ptd.od.shipment.returns.instruction.customerKeep": "You do not need to return the following item(s). You will receive a credit email with your refund details.",
+        "ptd.od.shipment.returns.instruction.customerKeep.title": "Please feel free to",
+        "ptd.od.shipment.returns.instruction.customerKeep.keep": "Keep product and use at your discretion or",
+        "ptd.od.shipment.returns.instruction.customerKeep.donate": "Donate the product to a worthy cause or",
+        "ptd.od.shipment.returns.instruction.customerKeep.discard": "Discard the product, if recyclable please dispose of correctly",
+        "ptd.od.shipment.returns.instruction.pickup": "We will be sending a driver to collect your items. The driver will arrive soon as the next business day from when you placed your return or upto 5 business days.",
+        "ptd.od.shipment.returns.instruction.pickup.title": "Pick up instructions",
+        "ptd.od.shipment.returns.instruction.package.title": "Package your items",
+        "ptd.od.shipment.returns.instruction.package.desc": "Reuse your original box or any box suitable for shipping. Include any of the following in the box to expedite receiving your credit:",
+        "ptd.od.shipment.returns.instruction.package.step1": "Printout of your return confirmation email",
+        "ptd.od.shipment.returns.instruction.package.step2": "Return confirmation page",
+        "ptd.od.shipment.returns.instruction.package.step3": "Original packing slip",
+        "ptd.od.shipment.returns.instruction.package.step4": "Order Details printout",
+        "ptd.od.shipment.returns.instruction.pickup.prepare.title": "Prepare for pick up",
+        "ptd.od.shipment.returns.instruction.pickup.prepare.desc": "Leave the box where deliveries are typically made to your location. This could be the front door, side door. loading deck. or front desk of your building.",
+        "ptd.od.shipment.returns.instruction.pickup.wait.title": "Wait for pick up",
+        "ptd.od.shipment.returns.instruction.pickup.wait.desc": "Your items will be picked up as early as the next business day after your return was placed between the hours of 9am to 5pm. If your return has not been picked up within 5 business days, please contact us for further assistance.",
+        "ptd.od.shipment.returns.instruction.shipping": "To return your items, you will receive an email from pkinfo@ups.com with your UPS shipping label.",
+        "ptd.od.shipment.returns.instruction.refund.staples": "You will receive an email when Staples has issued your refund.",
+        "ptd.od.shipment.returns.instruction.refund": "You will receive an email once your refund has been issued.",
+        "ptd.od.shipment.returns.instruction.shipping.title": "UPS instructions",
+        "ptd.od.shipment.returns.instruction.shipping.prepare.title": "Prepare package",
+        "ptd.od.shipment.returns.instruction.shipping.prepare.desc": "Cutout and secure your UPS shipping label to the box with packing tape. Remove other tracking labels or stickers.",
+        "ptd.od.shipment.returns.instruction.shipping.arrange.title": "Arrange for return",
+        "ptd.od.shipment.returns.instruction.shipping.arrange.desc": "Send your box back to Staples using one of these shipping methods:",
+        "ptd.od.shipment.returns.instruction.shipping.arrange.step1": "Take your box to a Staples store UPS Shipping Center",
+        "ptd.od.shipment.returns.instruction.shipping.arrange.step2": "Give the labeled box to your UPS driver",
+        "ptd.od.shipment.returns.instruction.shipping.arrange.step3": "Take it to a UPS Service Center location",
+        "ptd.od.shipment.returns.instruction.show.less": "Show less",
+        "ptd.od.shipment.returns.instruction.show.more": "Show more",
+        "ptd.od.shipment.palletization": "Palletizated shipment",
+        "ptd.od.alert.editShipping.failure": "Sorry we are not able to update your shipping address on this order.",
+        "ptd.od.alert.editShipping.success": "Please allow a few minutes for this update to process and reflect on your order. You will also receive an updated order confirmation email. This will reflect if this change affects the expected delivery dates, tax amount, or item availability.",
+        "ptd.od.approval.status": "Approval status: ",
+        "ptd.od.approval.pending": "Pending approval with: ",
+        "ptd.od.approval.group": "Approver group: ",
+        "ptd.od.approval.approver": "Approver: ",
+        "ptd.od.approval.approvedOn": "Approved on: ",
+        "ptd.od.approval.declinedOn": "Declined on: ",
+        "ptd.od.approval.viewApprovalHistory": "View approval history",
+        "ptd.od.approval.declineReason": "Reason for decline: ",
+        "ptd.od.approval.approverComment": "Comments: ",
+        "ptd.od.approval.orderedBy": "Ordered by: ",
+        "ptd.od.approval.approverGroup.title": "Users in approver group",
+        "ptd.od.approval.approvalHistory.title": "Approval history",
+        "ptd.od.approval.approvalHistory.on": " on ",
+        "ptd.od.approval.approvalHistory.approved": "Approved",
+        "ptd.od.approval.approvalHistory.declined": "Declined",
+        "ptd.od.buttons.decline.modal.title": "Decline order # {orderNumber}",
+        "ptd.od.buttons.decline.modal.description": "Briefly explain why this order has been declined and click 'Decline.' An email notification will automatically be sent to the user.",
+        "ptd.od.buttons.decline.modal.reason.label": "Reason for Decline (500 characters)",
+        "ptd.od.buttons.decline": "Decline",
+        "ptd.od.buttons.cancel": "Cancel",
+        "ptd.od.buttons.approve": "Approve",
+        "ptd.od.buttons.pending.modify": "Modify",
+        "ptd.od.alert.velocity.msg": "Item(s) on this order have exceeded a quantity limit threshold and cannot be approved as is. {link}",
+        "ptd.od.alert.velocity.link": "Adjust the order here.",
+        "ptd.od.tile.cancel.qty": "QTY: {qty}",
+        "ptd.od.tile.backordered": "Back Ordered",
+        "ptd.od.tile.unavailable": "Item Unavailable",
+        "ptd.od.tile.openMarket": "Open Market",
+        "ptd.od.tile.onContract": "On Contract",
+        "ptd.od.tile.notification.returned": "Returned",
+        "ptd.od.tile.notification.replacement": "Replacement",
+        "ptd.od.tile.cancel.notification": "Cancelled",
+        "ptd.od.tile.badge.freeSample": "Free sample",
+        "ptd.od.tile.freeSample.fullItem.link": "View full item",
+        "ptd.od.tile.downloadProof.link": "Download Proof",
+        "ptd.od.tile.downloadProof.preview": "Preview",
+        "ptd.od.tile.budgetCenter.label": "Budget center",
+        "ptd.od.tile.packingSlip.label": "Packing slip note",
+        "ptd.od.tile.tpvTrack.link": "Track",
+        "ptd.od.tile.cutomized.msg": "This is a customized print product and itemized charges may have been applied. When duplicating the order, this item will not automatically be added to your cart.",
+        "ptd.od.editshipping.link": "({link})",
+        "ptd.od.editshipping.edit": "Edit",
+        "ptd.od.breadcrumb.home": "Home",
+        "ptd.od.breadcrumb.orderDetails": "Order details",
+        "ptd.od.breadcrumb.purchaseHistory": "Purchase history",
+        "ptd.od.breadcrumb.approveOrders": "Approve orders",
+        "ptd.od.return.refund.total": "Total refund: ",
+        "ptd.od.return.refund.instant": "Expedited refund: ",
+        "ptd.od.return.refund.merchandise": "Merchandise refund",
+        "ptd.od.return.refund.coupons": "Coupons & Rewards",
+        "ptd.od.return.refund.shipping": "Shipping refund",
+        "ptd.od.return.refund.tax": "Tax refund",
+        "ptd.od.math.coupon.discount": "Discount",
+        "ptd.od.math.free.sample.text": "Free",
+        "ptd.od.alert.esd": "Unable to provide link, User doesn't match original User for Order.",
+        "ptd.od.alert.modifying.other.order": "You are currently modifying order # {ordernumber}. {link}",
+        "ptd.od.alert.modifying.other.user": "This order is currently being modified by {fistName} {lastName}.",
+        "ptd.od.alert.modifying.same.order": "You are currently modifying this order. {link}",
+        "ptd.od.alert.modify.click": "Click here to submit the order or cancel modification.",
+        "ptd.od.alert.processingOrder": "This order is still being processed and will take up to 10 minutes. When this is complete, the ability to cancel or modify will be available.",
+        "ptd.od.alert.cancelFailure": "We are unable to cancel your order. Please contact {link} for any questions.",
+        "ptd.od.alert.link.customerService": "customer service",
+        "ptd.od.alert.cancelSubmitted": "Your cancellation has been received and you will get an email with all the details. It might take a moment before this page is updated.",
+        "ptd.od.alert.cancelSubmitted.timeout": "Your cancelation has been received and we are processing it. When it is complete, you will get an email confirming cancelation.",
+        "ptd.od.alert.returnSubmitted": "Your return request is processing. Your return & refund information will display on this page but it will take a few moments for it to update.",
+        "ptd.od.alert.returnSubmitted.email": "Your return request is processing. You will receive an email detailing your return & refund information at {email}. It may take a few moments for your return details to display on this page.",
+        "ptd.od.alert.itemNum": "Item #",
+        "ptd.od.alert.partialCancelled.success": "Items that were successfully canceled",
+        "ptd.od.alert.partialCancelled.failure": "Items that were not able to be canceled",
+        "ptd.od.editShipping.success.title": "Your shipping address is updated!",
+        "ptd.od.editShipping.success.text1": "We will notify you if this change affects the expected delivery dates, tax amount, or item availability on your order.",
+        "ptd.od.editShipping.success.text2": "Please allow a few minutes for this update to process and reflect on your order. You will also receive an updated order confirmation email shortly.",
+        "ptd.od.editShipping.success.continue": "Continue",
+        "ptd.od.tile.xmpie.msg": "This is a customized print product and itemized charges may have been applied. To reorder this item, start by clicking this link. {link}",
+        "ptd.od.reauth.button.text": "Update Payment",
+        "ptd.od.reauth.update.payment.title": "Update credit card",
+        "ptd.od.reauth.required.message": "We are having trouble authorizing your payment and your order may be delayed. Please update your method of payment to process your order.",
+        "ptd.od.reauth.blocked.message": "We are having trouble authorizing your payment. Please call us at 1-800-333-3330 to help process your order.",
+        "ptd.od.reauth.failure.message": "We are not able to update your payment at this time. Please try again later.",
+        "ptd.od.reauth.approved.message": "Request to update payment is in process. Your changes will be reflected once it has been processed, this may take up to 10 minutes",
+        "ptd.od.tile.xmpie.reorder": "Reorder",
+        "ptd.od.shipment.returns.instruction.returnlabel": "We will be sending a driver to collect your items. The driver will arrive soon as the next business day from when you placed your return or up to 5 business days",
+        "ptd.od.shipment.returns.instruction.returnlabel.title": "Pick up instructions",
+        "ptd.od.returnlabel.link": "Return label",
+        "ptd.od.shipment.returns.instruction.returnlabel.print": "<b>Print your shipping label.</b>",
+        "ptd.od.shipment.returns.instruction.returnlabel.package": "<b>Package your items</b> using the original box or any package suitable for shipping and affix the shipping label to the outside of the box.",
+        "ptd.od.shipment.returns.instruction.returnlabel.insert": "<b>Insert packing slip</b> inside the package with the item being returned.",
+        "ptd.od.shipment.returns.instruction.returnlabel.wait.staples": "<b>Wait for pickup.</b> Your item(s) will be picked up within 1 to 5 business days after your return was submitted between the hours of 9am and 5pm. You will receive an email when Staples has issued your refund.",
+        "ptd.od.shipment.returns.instruction.returnlabel.wait": "<b>Wait for pickup.</b> Your item(s) will be picked up within 1 to 5 business days after your return was submitted between the hours of 9am and 5pm. You will receive an email once your refund has been issued.",
+        "ptd.od.alert.returnLabel.nocontent": "Label not available, a driver will arrive in 1-5 days.",
+        "ptd.od.alert.returnLabel.serviceerror": "Service is temporarily not responding, please try again.",
+        "ptd.od.furniturereceiver.heading": "Receiving furniture delivery",
+        "ptd.od.furniturereceiver.name": "Furniture Receiver:",
+        "ptd.od.furniturereceiver.phone": "Phone #:",
+        "ptd.od.furniturereceiver.email": "Email:",
+        "ptd.od.text.logo.print": "Staples",
+        "ptd.od.buttons.return.noteligible": "There are no items eligible for return on your order.",
+        "ptd.od.returnpolicy.text": "Have questions about returns, learn more about our{policy}",
+        "ptd.od.returnpolicy.link": "Return policy",
+        "ptd.od.points.text": " pts",
+        "ptd.od.points.earned": "Earned points",
+        "ptd.od.points.pendingstate": "Your points are still in a pending state. Your points status will change when the points have been awarded. Points are awarded after an item ships.",
+        "ptd.od.points.redeemed": "Redeemed points:",
+        "ptd.od.points.redeemed.value": "{spend} pts (${spendValue})",
+        "ptd.od.points.none": "There were no points earned with this order. Check the rewards center to find the listed Staples offerings.",
+        "ptd.od.points.rewardscenter.text": "For more details on your points visit the{link}",
+        "ptd.od.points.rewardscenter.link": "Easy Rewards Dashboard",
+        "ptd.od.points.details": "Points details",
+        "ptd.od.points.pending": "Pending",
+        "ptd.od.points.earn": "+{current} pts",
+        "ptd.od.points.notenrolled": "You are currently not enrolled in Staples Easy Rewards. Sign up now and start earning points today.",
+        "ptd.od.points.join": "Join free now",
+        "ptd.od.summary.billingshipping.accordion": "Billing & Shipping",
+        "ptd.od.store.details": "Store: {storeDetails}",
+        "ptd.od.points.guest": "To view your Easy Rewards breakdown, please sign into an existing Staples account.",
+        "ptd.od.points.error": "Temporary service issue, please retry or check back later.",
+        "ptd.od.summary.label.coupons": "Coupons",
+        "ptd.od.summary.pointsredeemed": "Points redemption",
+        "ptd.od.return.refund.label.coupons": "Coupons",
+        "ptd.od.return.refund.pointsredeemed": "Points redemption",
+        "ptd.od.return.refund.cardDetails": "ending in *{cardNo}",
+        "ptd.od.protectioninfo.contact": "Contact:",
+        "ptd.od.protectioninfo.contact.number": "844-728-7854",
+        "ptd.od.protectioninfo.learnmore": "If you would like to learn more about this Protection and Tech plan, {coverageLink} or visit {termsLink}.",
+        "ptd.od.protectioninfo.viewcoverage": "View Coverage",
+        "ptd.od.protectioninfo.terms": "Terms & Conditions",
+        "ptd.od.protectioninfo.protectionandtech": "Protection and Tech Help",
+        "ptd.od.protectioninfo.poweredby": "Powered by Asurion",
+        "ptd.od.pending.approval.ordersnapshot": "Order Snapshot",
+        "ptd.ordertracking.pacakge.carriername.label": "Carrier:",
+        "ptd.ordertracking.pacakge.tracking.number.label": "Tracking #:",
+        "ptd.ordertracking.pacakge.signedby.label": "Signed by:",
+        "ptd.ordertracking.package.status.processing": "Processing",
+        "ptd.ordertracking.package.status.delivered": "Delivered",
+        "ptd.ordertracking.package.status.shipped": "Shipped",
+        "ptd.ordertracking.package.status.returnInitiated": "Return Initiated",
+        "ptd.ordertracking.package.status.outForDelivery": "Out for delivery",
+        "ptd.ordertracking.package.expectedBy.label": "Expected by {date}",
+        "ptd.ordertracking.package.totalItems": "{total, plural, one {1 item} other{# items}}",
+        "ptd.ordertracking.package.indication": "Box {package} of {packages}",
+        "ptd.ordertracking.package.print": "Print",
+        "ptd.ordertracking.title": "Track order",
+        "ptd.ordertracking.orderNumber.heading": "Order # {number}",
+        "ptd.ordertracking.returnOrderNumber.heading": "Return Order # {number}",
+        "ptd.ordertracking.packages.total": "{totalPackages, plural, one {1 box} other{# boxes}}",
+        "ptd.ordertracking.package.last.scan": "Last scan: {date}",
+        "ptd.ordertracking.package.loading.error": "There is no order tracking available at this time, please check back later.",
+        "ptd.ordertracking.package.retrieve.retry": "Try again",
+        "ptd.ordertracking.package.trackingDetail.unavailable": "Package tracking details are not available for this box at this time",
+        "ptd.ordertracking.pof.hide": "(-) Hide proof of delivery",
+        "ptd.ordertracking.pof.show": "(+) View proof of delivery",
+        "ptd.od.points.submitrequest.text": "Not seeing your points?{link}",
+        "ptd.od.points.submitrequest.link": "Submit a request",
+        "ptd.od.alert.pendingorders.warning": "This order requires accounting information and must be modified before it can be approved.",
+        "ptd.od.shipment.hl4cancelled": "Item is ineligible for delivery for selected location/state.",
+        "ptd.od.actionitems.subscription.link": "Manage Subscription",
+        "ptd.common.component.error.sba.orderNumber.minLength": "Please enter a valid number",
+        "ptd.common.component.error.zipCode.minLength": "Please enter a valid zip code",
+        "ptd.common.component.ordernumber.label": "Order number",
+        "ptd.common.component.zipcode.label": "Zip code",
+        "ptd.common.component.zipcode.placeholder": "00000",
+        "ptd.common.component.ordernumber.name": "orderNumber",
+        "ptd.common.component.zipcode.name": "StaplesPTDInputZipCode",
+        "ptd.common.component.error.orderNumber.minLength": "Please enter a valid 10 digit order number",
+        "ptd.common.temporary.service.error": "Sorry, we are having temporary service issues at this time. Please try again.",
+        "ptd.common.label.required.state": "State*",
+        "ptd.common.customorder.CNP.customer.service": "customer service",
+        "ptd.common.orders.customorder": "Please click {link} to check your Print Order Status.",
+        "ptd.common.orders.customorder.CNP": "Please contact {link} if you have question about your order.",
+        "ptd.common.ordernumber.orderMsg": "This is a required field. Please enter the information.",
+        "ptd.common.orders.printorder.status.here": "here",
+        "ptd.common.noauth.accessLabel": "For full access to all your account information.",
+        "ptd.common.myorders.title": "My Orders",
+        "ptd.common.noauth.account.title": "Account",
+        "ptd.common.noauth.lookup.label": "Look up by order number",
+        "ptd.common.noauth.lookup.button": "Look up",
+        "ptd.common.noauth.signin": "Sign in",
+        "ptd.common.response.noorders.description": "Sorry, we do not have any orders for your account. Please try looking up your order by Order Number & Zip code.",
+        "ptd.od.editshipping.maincontainer.title": "Change shipping address",
+        "ptd.od.editshipping.savedshipping.address": "Saved shipping address ",
+        "ptd.od.editshipping.new.address": "add a new address",
+        "ptd.od.editshipping.updateaddress": "Update address",
+        "ptd.od.editshipping.confirmation.title": "Your shipping address is updated!",
+        "ptd.od.editshipping.confirmation.text1": "We will notify you if this change affects the expected delivery dates, tax amount, or item availability on your order.",
+        "ptd.od.editshipping.confirmation.text2": "Please allow a few minutes for this update to process and reflect on your order. You will also receive an updated order confirmation email shortly.",
+        "ptd.od.editshipping.suggested.title": "Shipping Address Validation",
+        "ptd.od.editshipping.suggested.error": "We were not able to verify your address, but found a close match",
+        "ptd.od.editshipping.addressas.entered.title": "Address as entered",
+        "ptd.od.editshipping.suggested.address.title": "Suggested address",
+        "ptd.od.editshipping.confirmationmodal.continuebutton": "Continue",
+        "ptd.od.editshipping.add.address": "Add Address",
+        "ptd.od.editshipping.suggested.address.text": "Use suggested",
+        "ptd.od.editshipping.usewhatientered.text": "Use what I entered",
+        "ptd.od.editshipping.primary.checkbox": "Make this my primary address",
+        "ptd.od.editshipping.editaddress.link": "Edit address",
+        "ptd.od.softwaredownload.failure.message": "Sorry, something seems wrong! If this order belongs to you please contact customer Care.",
+        "ptd.od.noauth.error": "Sorry, we could not find any matching orders. Please check the order number & zip code, and try again.",
+        "ptd.od.address.pobox.error": "Staples.com does not ship to P.O.Boxes",
+        "ptd.od.noauth.service.error": "Sorry, we are unable to retrieve Order #{orderNumber} at this time. Please try again.",
+        "ptd.od.editshipping.newaddress.label.required.firstname": "First Name*",
+        "ptd.od.editshipping.newaddress.label.required.lastname": "Last Name*",
+        "ptd.od.editshipping.newaddress.required.street.address": "Street Address*",
+        "ptd.od.editshipping.newaddress.optional.apartment": "Apt. Bldg (optional)",
+        "ptd.od.editshipping.newaddress.required.zip": "Zip*",
+        "ptd.od.editshipping.newaddress.required.city": "City*",
+        "ptd.od.editshipping.newaddress.optional.companyname": "Company Name (optional)",
+        "ptd.od.editshipping.newaddress.required.phone": "Phone*",
+        "ptd.od.editshipping.newaddress.optional.extn": "Extn (optional)",
+        "ptd.od.editshipping.newaddress.continue": "Continue",
+        "ptd.a11y.common.page.printpage": "Print this page",
+        "ptd.a11y.od.pdfreceipt.link": "View receipt",
+        "ptd.a11y.od.esd.download": "Download",
+        "ptd.a11y.od.esd.signin": "Sign in to download",
+        "ptd.a11y.od.shipment.tracking.noavail": "Tracking not available yet. Why not?",
+        "ptd.a11y.od.actionitems.autorestock.link": "Subscription",
+        "ptd.reviews.sort.dropdown": "Sort by",
+        "ptd.reviews.reviewssortdropdown.recent": "Sort by Most Recent Review",
+        "ptd.reviews.reviewssortdropdown.highest": "Sort Highest to Lowest Rating",
+        "ptd.reviews.reviewssortdropdown.lowest": "Sort Lowest to Highest Rating",
+        "ptd.reviews.reviewssortdropdown.helpful": "Sort by Most Helpful",
+        "ptd.reviews.showmore": "See {moreRows} more reviews for {relatedText}",
+        "ptd.reviews.response.from": "Response from ",
+        "ptd.reviews.read.full": "Read full review",
+        "ptd.reviews.posted": "Posted ",
+        "ptd.reviews.incentivized": "This reviewer received a free product or coupon in exchange for an unbiased review of the product",
+        "ptd.reviews.reviewedat": "Reviewed at:",
+        "ptd.reviews.related": "Related Reviews",
+        "ptd.reviews.show.all": "Show all reviews",
+        "ptd.reviews.reviewcontainer.filterby": "Filtered by:",
+        "ptd.reviews.sortdropdown.recent": "Most recent reviews",
+        "ptd.reviews.sortdropdown.highest": "Highest rating",
+        "ptd.reviews.sortdropdown.lowest": "Lowest rating",
+        "ptd.reviews.sortdropdown.helpful": "Most helpful reviews",
+        "ptd.reviews.toggle.photosOnly": "Only with photos",
+        "ptd.reviews.noreview.description": "There are no reviews yet. {firstReview}",
+        "ptd.reviews.noreview.description.first": "Be the first to write one!",
+        "ptd.reviews.title": "Reviews",
+        "ptd.reviews.searchreviews.placeholder": "Search reviews",
+        "ptd.reviews.reviewlist.relatedreview.title": "See reviews for similar products",
+        "ptd.reviews.helpfulreview.positive": "Most helpful positive review",
+        "ptd.reviews.helpfulreview.critical": "Most helpful critical review",
+        "ptd.reviews.writeareviewbutton.text": "Write a review",
+        "ptd.reviews.writeareviewbutton.review.submission.success.text": "You have already submitted a review. Thank you.",
+        "ptd.reviews.writeareview.submit": "Submit",
+        "ptd.reviews.writeareview.submit.requirement.text": "Please fill in all the required fields before submitting your review.",
+        "ptd.reviews.writeareview.submit.success.text": "Thanks for your review.  We check all feedback before we publish it.  It may take a few days for your review to appear.",
+        "ptd.reviews.writeareview.submit.success.already.submitted.text": "Thanks, we already have your review for this product.",
+        "ptd.reviews.writeareview.submit.error.text": "Error submitting review. Please try again.",
+        "ptd.reviews.writeareview.cancel": "Cancel",
+        "ptd.reviews.writeareview.cancel.confirmation.text": "Do you really want to cancel this review and lose all your edits?",
+        "ptd.reviews.writeareview.cancel.confirmation.yes": "Yes",
+        "ptd.reviews.writeareview.cancel.confirmation.no": "No",
+        "ptd.reviews.writeareview.title": "Write a review",
+        "ptd.reviews.writeareview.myrating": "My rating",
+        "ptd.reviews.writeareview.rating.hint": "Select between 1 (poor) and 5 (excellent) stars",
+        "ptd.reviews.writeareview.label.reviewtitle": "Review title",
+        "ptd.reviews.writeareview.label.reviewtitle.hint": "50 characters max",
+        "ptd.reviews.writeareview.label.reviewcomment": "Tell us what you think",
+        "ptd.reviews.writeareview.label.reviewcomment.hint": "2500 characters max",
+        "ptd.reviews.writeareview.label.reviewcomment.placeholder": "At least 10 characters",
+        "ptd.reviews.writeareview.label.displayname": "Display name",
+        "ptd.reviews.writeareview.label.displayname.hint": "4 characters min, 25 characters max",
+        "ptd.reviews.writeareview.photos.title": "Add photos",
+        "ptd.reviews.writeareview.photos.description": "Upload up to five photos (jpg, png). Max image size 10mb",
+        "ptd.reviews.writeareview.photos.error.maxfile": "You can only upload maximum of 5 photos",
+        "ptd.reviews.writeareview.photos.error.maxsize": "File too big. Please choose a photo that is 10mb or less",
+        "ptd.reviews.writeareview.photos.error.invalid.type": "Photo image format must be jpg or png",
+        "ptd.reviews.list.image.alt": "Image {currentImageIndex}",
+        "ptd.reviews.image.customer.alt": "{nickname} Customer Photo {currentImageIndex}",
+        "ptd.reviews.reviewlistmodal.close.button": "Close",
+        "ptd.reviews.reviewlistmodal.heading": "Customer Photos",
+        "ptd.reviews.wrtieareviewlink.text": "Write a review",
+        "ptd.review.writereview.notvalid": "Not all necessary fields completed. Fields marked with a {star} must be completed to submit review.",
+        "ptd.reviews.seo.title": "Customer Reviews for {skuName}",
+        "ptd.review.options.withcomments": "With comments",
+        "ptd.review.options.allreviews": "All reviews",
+        "ptd.review.options.withphotos": "With photos",
+        "ptd.reviews.seo.button.seeallreviews": "See all reviews",
+        "ptd.reviews.seo.meta.title": "Staples Customer Reviews for {skuName}",
+        "ptd.reviews.writeareview.thankyou.heading": "Thanks for your review.",
+        "ptd.reviews.writeareview.thankyou.description": "We check all feedback before we publish it. It may take a few days for your review to appear.",
+        "ptd.reviews.writeareview.thankyou.close": "Close",
+        "ptd.reviews.writeareview.reviewmore.heading": "Review more items",
+        "ptd.reviews.writeareview.reviewmore.description": "We'd love your opinion on these other products you've purchased.",
+        "ptd.reviews.writeareview.community.guideline": "Community Guidelines & Terms of Use",
+        "ptd.reviews.guidelines.customersupport": "customer support",
+        "ptd.reviews.guidelines.terms": "Terms of use.",
+        "ptd.reviews.writeareview.community.guideline.paragraph": "We value your input and invite you to rate and review your purchase",
+        "ptd.reviews.writeareview.community.guideline.paragraph1": "Be sure to explain why you like or dislike the product and focus on the product features and your own experience using it.",
+        "ptd.reviews.writeareview.community.guideline.paragraph2": "If you have a comment about product selection, pricing, ordering, delivery or other issues, please contact our",
+        "ptd.reviews.writeareview.community.guideline.paragraph3": "Please refrain from including any of the following in your review",
+        "ptd.reviews.writeareview.community.guideline.paragraph3.list1": "Obscene or discriminatory language;",
+        "ptd.reviews.writeareview.community.guideline.paragraph3.list2": "Critical or inappropriate comments about other reviews and shoppers;",
+        "ptd.reviews.writeareview.community.guideline.paragraph3.list3": "Advertising, spam, references to other websites or retailer; or",
+        "ptd.reviews.writeareview.community.guideline.paragraph3.list4": "Any Personal information, such as email addresses, phone numbers or physical addresses.",
+        "ptd.reviews.writeareview.community.guideline.paragraph4": "All reviews are subject to these",
+        "ptd.reviews.errorpage.mainText": "Whoops!",
+        "ptd.reviews.errorpage.subMainText": "Something is broken.",
+        "ptd.reviews.errorpage.errorMessage": " We're unable to display the page you're looking for. Try ",
+        "ptd.reviews.errorpage.buttonAndLinkText": "refreshing the page",
+        "ptd.reviews.errorpage.continueText": "or continue",
+        "ptd.reviews.errorpage.exploringText": "exploring the site",
+        "ptd.a11y.reviews.sort.star": "Filter to view {ratingStar} {rating} star reviews",
+        "ptd.a11y.reviews.showall": "Show all reviews",
+        "ptd.a11y.reviews.vote.yes": "Yes votes {votes}",
+        "ptd.a11y.reviews.vote.no": "No votes {votes}",
+        "ptd.a11y.reviews.search.clear": "Clear text",
+        "ptd.a11y.reviews.rating": "Select to rate the item {rating} out of 5 stars",
+        "ptd.a11y.reviews.search.textbox": "Search reviews",
+        "ptd.a11y.reviews.sort.dropdown": "Sort reviews",
+        "ptd.a11y.reviews.list.image": "Display image {currentImageIndex} of {totalImages}"
+      }
+    },
+    "ptdMMXOrderDetails": {
+      "orderDetails": {},
+      "duplicateOrderOptions": {},
+      "rewardsConfig": {
+        "dashboardUrl": "",
+        "rewardsMember": false
+      }
+    },
+    "ptdOrderDetails": {
+      "orderDetails": {
+        "orderDetails": {
+          "responseInfo": {
+            "responseCode": 200,
+            "responseMsg": "OK",
+            "timeStamp": "2026-02-23T21:56:13.722693373",
+            "resourceName": "OrderDetails",
+            "transactionId": "1f79096b4f284e1380d1eebabea6a070",
+            "tenantId": "StaplesDotCom"
+          },
+          "orderNumber": "9921378832",
+          "masterAccountNumber": "3025391875",
+          "salesOrderHeaderKey": "202405020953353682135459",
+          "orderDate": "2024-05-02T09:53:35",
+          "keyForOrderDetails": "U3RNREZPcEJ6SUtMb0JaUjZldDR1ZHhYdVY0UHIrVlBJWjc0Y1hEOFZyLzFnZHZEcy8wWXFNUEc4eXBNd1FlVGE1N3NvbA==",
+          "orderUrlKey": "U3RNREZPcEJ6SUtMb0JaUjZldDR1ZHhYdVY0UHIrVlBJWjc0Y1hEOFZyLzFnZHZEcy8wWXFNUEc4eXBNd1FlVGE1N3NvbA==",
+          "customerNumberKey": "U3RNREhYUDF3aDZqS01YSmxSNnZIK1RNVUZ2dWVWeDZMYldkdDAzT1FUNld1dkdRMTF6SDdHd0E9PQ==",
+          "ecoFeeCharge": 0,
+          "tenantId": "StaplesDotCom",
+          "enterpriseCode": "SBD_US",
+          "divisionCode": "PUB",
+          "channel": "WEB",
+          "method": "IN",
+          "numberOfReturnOrders": 0,
+          "purchaseOrderValue": " ",
+          "poUpdtReqByApprover": false,
+          "billToAddress": {
+            "id": "-1",
+            "addressGroup": "CUSTOMER_ADDRESS",
+            "firstName": "SVETLANA",
+            "lastName": "SIVAK",
+            "addressLine1": "5 ACKERMAN PLACE",
+            "addressLine2": "A",
+            "addressLine3": " ",
+            "city": "PALISADES PARK",
+            "state": "NJ",
+            "zipCode": "07650"
+          },
+          "merchandiseTotal": 538.47,
+          "discountsTotal": 536.77,
+          "couponsTotal": 170.77,
+          "pointsRedeemedValue": 366,
+          "shippingAndHandlingFeeTotal": 0,
+          "expeditedCharge": 0,
+          "handlingCharge": 0,
+          "baseShippingCharge": 0,
+          "shippingAndDeliveryFeeTotal": 0,
+          "taxesTotal": 0.11,
+          "grandTotal": 1.81,
+          "largeOrderDiscount": 0,
+          "otherDiscounts": 0,
+          "furnitureServicesFee": 0,
+          "minimumOrderFee": 0,
+          "payments": [
+            {
+              "amount": 1.81,
+              "paymentMethodType": "VISA",
+              "displayNo": "7722"
+            }
+          ],
+          "isFutureOrder": false,
+          "isReturnable": true,
+          "isCancellable": false,
+          "isAnyItemCancellable": false,
+          "transactionExists": true,
+          "allowDuplicateOrder": true,
+          "paymentRequired": false,
+          "totalSavings": 170.77,
+          "showAddressesAndPayments": true,
+          "requesterAuthorizedToApprove": false,
+          "userCanApprove": false,
+          "userCanDecline": false,
+          "userCanModify": false,
+          "shipToAddress": [
+            {
+              "id": "202403040041272421653150",
+              "addressGroup": "CUSTOMER_ADDRESS",
+              "firstName": "SVETLANA",
+              "lastName": "SIVAK",
+              "phone1": "3475254533",
+              "emailId": "LANA@X-DEALS.COM",
+              "addressLine1": "5 ACKERMAN PLACE",
+              "addressLine2": "A",
+              "city": "PALISADES PARK",
+              "state": "NJ",
+              "zipCode": "07650"
+            }
+          ],
+          "shipments": [
+            {
+              "shipmentId": "42176815076",
+              "shipmentNumber": "3019921378832000001",
+              "shipToAddressId": "202403040041272421653150",
+              "shipmentType": "STA",
+              "actualShipDate": "2024-05-03T04:47:35Z",
+              "currentDeliveryDate": "2024-05-03T16:35:00Z",
+              "originalEstimatedDeliveryDate": "2024-05-03T16:35:00Z",
+              "isShipmentDelayed": false,
+              "trackingInfo": {
+                "statusCode": 700,
+                "statusDescription": "Delivered",
+                "carrierName": "Capstone Logistics",
+                "latestScanDateTime": "2024-05-03T16:35:00.000+00:00",
+                "lastOFDDate": "2024-05-03T10:12:00.000+00:00",
+                "signedBy": "Left on Front Porch",
+                "trackingNumbers": [
+                  "00000006831860909103",
+                  "00000006831860909097"
+                ]
+              },
+              "totalQuantitiesInShipment": 3,
+              "totalContainersInShipment": 2,
+              "containerIdVsShipmentLinesMap": {
+                "00000006831860909103": [
+                  {
+                    "scId": "SC43",
+                    "itemId": "147220",
+                    "compareItemID": "147220",
+                    "url": "/brother-tn-221-black-standard-yield-toner-cartridge-print-up-to-2-500-pages-tn221bk/product_147220",
+                    "image": "https://www.staples-3p.com/s7/is/image/Staples/CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7?$std$",
+                    "images": [
+                      "https://www.staples-3p.com/s7/is/image/Staples/CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/7E41C2AE-EABE-4736-8C94B88BE073F557_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/7FFEAE41-F9D8-4706-B2740E6E998EE612_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/9B8095DA-66C2-477E-8CFAC92F423557FB_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/4D751F46-46F2-496A-B68D26BB5FFA583B_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/CE91E8E8-2DF3-4F55-A8B0F6682ABC91B8_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/AC9452AB-A9BE-4B47-ACDA3CD827745178_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/sp149495751_sc7?$thb$"
+                    ],
+                    "imageAltTexts": [
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~7E41C2AE-EABE-4736-8C94B88BE073F557_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~7FFEAE41-F9D8-4706-B2740E6E998EE612_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~9B8095DA-66C2-477E-8CFAC92F423557FB_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~4D751F46-46F2-496A-B68D26BB5FFA583B_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~CE91E8E8-2DF3-4F55-A8B0F6682ABC91B8_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~AC9452AB-A9BE-4B47-ACDA3CD827745178_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~sp149495751_sc7"
+                    ],
+                    "title": "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)",
+                    "model": "TN221BK",
+                    "tenantId": "StaplesDotCom",
+                    "productIDs": [
+                      {
+                        "idName": "Item",
+                        "idValue": "147220"
+                      },
+                      {
+                        "idName": "Model",
+                        "idValue": "TN221BK"
+                      }
+                    ],
+                    "manufacturerName": "Brother",
+                    "brandName": "Brother",
+                    "baseCatName": "",
+                    "baseCatId": "SC43",
+                    "hierarchy": {
+                      "department": {
+                        "id": "DP1578",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "category": {
+                        "id": "CG3",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "supercategory": {
+                        "id": "SC12",
+                        "name": "Ink & Toner"
+                      },
+                      "class": {
+                        "id": "CL30001",
+                        "name": "Printer Ink Cartridges & Toner Finder"
+                      }
+                    },
+                    "restrictionDetails": {
+                      "viewDetailsTxt": "View details"
+                    },
+                    "catalogId": "CL30001",
+                    "bopisEligible": true,
+                    "inStoreOnly": false,
+                    "seePriceInCart": false,
+                    "isSSPT": true,
+                    "ctaText": "Add",
+                    "actionLabel": "addToCart",
+                    "isQtyChangeAvailable": true,
+                    "isDeliveryInstock": true,
+                    "actionUrl": "",
+                    "unitsNum": "",
+                    "units": "",
+                    "rating": 4.53,
+                    "ratingCount": 2464,
+                    "ratingUrl": "/brother-tn-221-black-standard-yield-toner-cartridge-print-up-to-2-500-pages-tn221bk/product_147220?scrollToReviews=Y",
+                    "reviewDetails": [
+                      {
+                        "rating": 1,
+                        "reviewCount": 118,
+                        "reviewPercent": 5
+                      },
+                      {
+                        "rating": 2,
+                        "reviewCount": 47,
+                        "reviewPercent": 2
+                      },
+                      {
+                        "rating": 3,
+                        "reviewCount": 138,
+                        "reviewPercent": 6
+                      },
+                      {
+                        "rating": 4,
+                        "reviewCount": 272,
+                        "reviewPercent": 11
+                      },
+                      {
+                        "rating": 5,
+                        "reviewCount": 1889,
+                        "reviewPercent": 77
+                      }
+                    ],
+                    "price": "$91.99",
+                    "priceValue": 91.99,
+                    "isPriceNotAvailable": false,
+                    "pricePerUnit": "",
+                    "isOutOfStock": false,
+                    "pickupMessage": "30-min pickup",
+                    "isInstoreInstock": false,
+                    "autoRestockEligible": true,
+                    "itemAvailability": {
+                      "inventoryMode": "STANDARD",
+                      "availableQuantity": 50,
+                      "minLeadTime": 2,
+                      "maxLeadTime": 2,
+                      "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                      "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                    },
+                    "additionalMsg": {
+                      "type": "DELIVERY_MSG",
+                      "text": "Free delivery",
+                      "moreText": "by Thu, ",
+                      "date": "Thu Feb 26 2026",
+                      "deliveryType": "regular",
+                      "icon": ""
+                    },
+                    "description": {
+                      "paragraph": [
+                        "Print crisp, easy-to-read reports, forms and contracts with this Brother genuine black toner cartridge. A page yield of up to 2,500 pages* makes this toner ideal for use in small offices or workgroups, and the laser print quality delivers a professional look to every document you create. With its precision design, this Brother genuine black toner cartridge installs easily into select Brother printers and copiers."
+                      ],
+                      "descriptionLineSize": 3,
+                      "bullets": [
+                        "Compatible with Brother HL-3140CW, HL-3170CDW, HL-3180CDW, MFC-9130CW, MFC-9330CDW, MFC-9340CDW",
+                        "Page Yield of up to 2,500 pages*.",
+                        "Intelligently engineered as part of a complete printing system to work seamlessly with your Brother printer.",
+                        "Brother Genuine TN221BK Standard-Yield Black Toner Cartridge.",
+                        "Brother Genuine toner produces superior quality results that withstand the test of time.",
+                        "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges. Visit www.brother-usa.com/environment for more information.",
+                        "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                      ],
+                      "headliner": [
+                        "Get rich, deep color that stands out from the printed page from this Brother genuine black toner cartridge."
+                      ],
+                      "expandedDescr": [
+                        "Brother TN-221BK Black Laser Toner Cartridge<p>Keep your printers fully stocked and performing their best with our Brother TN-221BK black laser toner cartridge. When you know that your printer is always ready when employees need it, you are free to concentrate on your workday. Reduce downtime and increase productivity by using reliable supplies that consistently get the job done right.</p>Enjoy Superb Image and Text Quality<p>This high-quality toner cartridge produces exceptional quality imaging for both text and graphic applications, and it can even be used to print stunning black-and-white photographs. Enjoy a deep and rich black hue that gives your documents that high-end look that just exudes professionalism. Text documents are crisp, clear, and easy to read without straining. The little details matter in a business setting, and this toner cartridge is just one small part of a much bigger picture. Make the best possible impression on everyone who views your documents.</p>Depend on Brother OEM Cartridges<p>Our original equipment manufacturer toner cartridges are the real deal. Brother is a highly reputable brand in the printer industry, and experts recommend using OEM toner cartridges to maximize the performance of your printers. Stay well within your company budget without compromising your commitment to quality and dependability. Our high-yield Brother TN-221BK black laser toner cartridge offers up to a 2,500-page yield at 5 percent coverage, making it the perfect solution for substantial print runs that may otherwise run dry prematurely.</p>Maximize Efficiency and Decrease Downtime<p>The equipment that you depend on should make your workday easier, not more difficult. Don't waste valuable time fussing with cartridges that are difficult to install or that run out quickly. Order the best possible supplies the first time so that you can concentrate on more important matters without interruption.</p>"
+                      ]
+                    },
+                    "skusetID": "SS238924153",
+                    "totalSavingsPercentage": 0,
+                    "isRPDC": true,
+                    "STSEligible": true,
+                    "shipmentLineId": "19515894533",
+                    "containerId": "00000006831860909103",
+                    "salesTranLineId": "222631969629",
+                    "skuDescription": "Brother TN221 Black Standard Yield Toner Cartridge   TN221BK",
+                    "skuNumber": "147220",
+                    "unitPrice": 79.49,
+                    "qtyOrdered": 1,
+                    "qtyShipped": 1,
+                    "isReshipped": false,
+                    "unitOfMeasure": "EACH",
+                    "lineTotal": 0.25,
+                    "status": 700,
+                    "statusDescription": "Delivered",
+                    "lineType": " ",
+                    "taxTotal": 0.02,
+                    "taxdetails": [
+                      {
+                        "chargeNo": "1_NEW JERSEY",
+                        "chargeCategory": "TaxCharge",
+                        "chargeName": "State",
+                        "chargeAmount": 0.02,
+                        "chargePerUnit": 0.02
+                      }
+                    ],
+                    "couponTotal": 79.24,
+                    "couponDetails": [
+                      {
+                        "chargeNo": "28249",
+                        "chargeName": "Easy Rewards Points Redemption",
+                        "chargeDesc": "Easy Rewards Points Redemption",
+                        "chargeAmount": 54.04,
+                        "chargePerUnit": 54.04
+                      },
+                      {
+                        "chargeNo": "4121942921037593",
+                        "chargeName": "15% off your purchase.",
+                        "chargeDesc": "15% off your purchase.",
+                        "chargeAmount": 25.2,
+                        "chargePerUnit": 25.2
+                      }
+                    ],
+                    "regularCouponsTotal": 79.24,
+                    "pointsRedeemedValue": 0,
+                    "deliveryChargeFee": 0,
+                    "subTotal": 79.49,
+                    "isItemsAvailable": true,
+                    "isFurnitureServiceFeeSKU": false
+                  }
+                ],
+                "00000006831860909097": [
+                  {
+                    "scId": "SC43",
+                    "itemId": "24401678",
+                    "compareItemID": "24401678",
+                    "url": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+                    "image": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$std$",
+                    "images": [
+                      "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/1EA662B7-94A2-450A-833DB3A1917FCA65_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/9BABCE00-8136-49AC-A676E6C6EC02247B_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/91015CE0-B582-46D5-99D4C75DC67ABD44_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7?$thb$"
+                    ],
+                    "imageAltTexts": [
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B503710F-014F-44A4-AA70795FAFFB9C13_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~1EA662B7-94A2-450A-833DB3A1917FCA65_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~9BABCE00-8136-49AC-A676E6C6EC02247B_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91015CE0-B582-46D5-99D4C75DC67ABD44_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7"
+                    ],
+                    "title": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+                    "model": "TN4313PK",
+                    "tenantId": "StaplesDotCom",
+                    "productIDs": [
+                      {
+                        "idName": "Item",
+                        "idValue": "24401678"
+                      },
+                      {
+                        "idName": "Model",
+                        "idValue": "TN4313PK"
+                      }
+                    ],
+                    "manufacturerName": "Brother",
+                    "brandName": "Brother",
+                    "baseCatName": "",
+                    "baseCatId": "SC43",
+                    "hierarchy": {
+                      "department": {
+                        "id": "DP1578",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "category": {
+                        "id": "CG3",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "supercategory": {
+                        "id": "SC12",
+                        "name": "Ink & Toner"
+                      },
+                      "class": {
+                        "id": "CL30001",
+                        "name": "Printer Ink Cartridges & Toner Finder"
+                      }
+                    },
+                    "restrictionDetails": {
+                      "viewDetailsTxt": "View details"
+                    },
+                    "catalogId": "CL30001",
+                    "bopisEligible": false,
+                    "inStoreOnly": false,
+                    "seePriceInCart": false,
+                    "isSSPT": true,
+                    "ctaText": "Add",
+                    "actionLabel": "addToCart",
+                    "isQtyChangeAvailable": true,
+                    "isDeliveryInstock": true,
+                    "actionUrl": "",
+                    "unitsNum": "",
+                    "units": "3/Pack",
+                    "rating": 4.43,
+                    "ratingCount": 861,
+                    "ratingUrl": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678?scrollToReviews=Y",
+                    "reviewDetails": [
+                      {
+                        "rating": 1,
+                        "reviewCount": 72,
+                        "reviewPercent": 8
+                      },
+                      {
+                        "rating": 2,
+                        "reviewCount": 22,
+                        "reviewPercent": 3
+                      },
+                      {
+                        "rating": 3,
+                        "reviewCount": 33,
+                        "reviewPercent": 4
+                      },
+                      {
+                        "rating": 4,
+                        "reviewCount": 74,
+                        "reviewPercent": 9
+                      },
+                      {
+                        "rating": 5,
+                        "reviewCount": 660,
+                        "reviewPercent": 77
+                      }
+                    ],
+                    "price": "$265.49",
+                    "priceValue": 265.49,
+                    "isPriceNotAvailable": false,
+                    "pricePerUnit": "$0.15/Cost Per Page",
+                    "isOutOfStock": false,
+                    "autoRestockEligible": true,
+                    "itemAvailability": {
+                      "inventoryMode": "STANDARD",
+                      "availableQuantity": 332,
+                      "minLeadTime": 2,
+                      "maxLeadTime": 2,
+                      "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                      "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                    },
+                    "additionalMsg": {
+                      "type": "DELIVERY_MSG",
+                      "text": "Free delivery",
+                      "moreText": "by Thu, ",
+                      "date": "Thu Feb 26 2026",
+                      "deliveryType": "regular",
+                      "icon": ""
+                    },
+                    "description": {
+                      "paragraph": [
+                        "Delivering professional, vivid prints with 1800-page yield*, Brother TN-431 3PK genuine standard-yield color toner cartridges are intelligently engineered to work seamlessly with Brother printers for consistent results. Pack includes one each of cyan toner, yellow toner, and magenta toner."
+                      ],
+                      "descriptionLineSize": 3,
+                      "bullets": [
+                        "Compatible with Brother HL-L8260CDW, HL-L8360CDW, HL-L8360CDWMT, HL-L8360CDWT, MFC-L8610CDW, MFC-L8900CDW",
+                        "Brother Genuine TN4313PK Standard-Yield 3 Pack Color Ink Cartridges \u2013 includes 1 Cyan, 1 Magenta and 1 Yellow Cartridge.",
+                        "Page Yield of up to 1,800 pages* per cartridge.",
+                        "Brother Genuine toner produces superior quality results that withstand the test of time",
+                        "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                        "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                      ],
+                      "headliner": [
+                        "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                      ]
+                    },
+                    "skusetID": null,
+                    "totalSavingsPercentage": 0,
+                    "isRPDC": true,
+                    "STSEligible": true,
+                    "shipmentLineId": "19515894535",
+                    "containerId": "00000006831860909097",
+                    "salesTranLineId": "222631969633",
+                    "skuDescription": "Brother TN431 CyanMagentaYellow Standard Yield Toner Cartridge 3Pack  TN4313PK",
+                    "skuNumber": "24401678",
+                    "unitPrice": 229.49,
+                    "qtyOrdered": 2,
+                    "qtyShipped": 2,
+                    "isReshipped": false,
+                    "unitOfMeasure": "EACH",
+                    "lineTotal": 1.45,
+                    "status": 700,
+                    "statusDescription": "Delivered",
+                    "lineType": " ",
+                    "taxTotal": 0.09,
+                    "taxdetails": [
+                      {
+                        "chargeNo": "1_NEW JERSEY",
+                        "chargeCategory": "TaxCharge",
+                        "chargeName": "State",
+                        "chargeAmount": 0.09,
+                        "chargePerUnit": 0.045
+                      }
+                    ],
+                    "couponTotal": 457.53,
+                    "couponDetails": [
+                      {
+                        "chargeNo": "28249",
+                        "chargeName": "Easy Rewards Points Redemption",
+                        "chargeDesc": "Easy Rewards Points Redemption",
+                        "chargeAmount": 311.96,
+                        "chargePerUnit": 155.98
+                      },
+                      {
+                        "chargeNo": "4121942921037593",
+                        "chargeName": "15% off your purchase.",
+                        "chargeDesc": "15% off your purchase.",
+                        "chargeAmount": 145.57,
+                        "chargePerUnit": 72.785
+                      }
+                    ],
+                    "regularCouponsTotal": 457.53,
+                    "pointsRedeemedValue": 0,
+                    "deliveryChargeFee": 0,
+                    "subTotal": 458.98,
+                    "isItemsAvailable": true,
+                    "isFurnitureServiceFeeSKU": false
+                  }
+                ]
+              },
+              "isItemsAvailable": true,
+              "containerVsItemsCountMap": {
+                "00000006831860909103": 1,
+                "00000006831860909097": 2
+              }
+            }
+          ],
+          "productsOnOrder": [
+            "24401678",
+            "147220"
+          ],
+          "orderPlacedBy": "1445647760",
+          "storeNumber": "-1",
+          "isItemsAvailable": true,
+          "nonCatalogItemsInOrder": [],
+          "itemMap": {},
+          "freeItemMap": {},
+          "itemsToDuplicateOrder": [],
+          "itemStatusesSummaryList": [
+            {
+              "addressGroup": "DELIVERY",
+              "statusesAgainstDates": [
+                {
+                  "date": "2024-05-03T16:35:00Z",
+                  "quantity": 3,
+                  "isDelayed": false,
+                  "isDelivered": true,
+                  "isNowPrintShipment": false
+                }
+              ]
+            }
+          ],
+          "totalNoOfQuantiesForStatus": 3
+        },
+        "shipToNShipmentsMap": {
+          "CUSTOMER_ADDRESS_202403040041272421653150": [
+            {
+              "shipmentId": "42176815076",
+              "shipmentNumber": "3019921378832000001",
+              "shipToAddressId": "202403040041272421653150",
+              "shipmentType": "STA",
+              "actualShipDate": "2024-05-03T04:47:35Z",
+              "currentDeliveryDate": "2024-05-03T16:35:00Z",
+              "originalEstimatedDeliveryDate": "2024-05-03T16:35:00Z",
+              "isShipmentDelayed": false,
+              "trackingInfo": {
+                "statusCode": 700,
+                "statusDescription": "Delivered",
+                "carrierName": "Capstone Logistics",
+                "latestScanDateTime": "2024-05-03T16:35:00.000+00:00",
+                "lastOFDDate": "2024-05-03T10:12:00.000+00:00",
+                "signedBy": "Left on Front Porch",
+                "trackingNumbers": [
+                  "00000006831860909103",
+                  "00000006831860909097"
+                ]
+              },
+              "totalQuantitiesInShipment": 3,
+              "totalContainersInShipment": 2,
+              "containerIdVsShipmentLinesMap": {
+                "00000006831860909103": [
+                  {
+                    "scId": "SC43",
+                    "itemId": "147220",
+                    "compareItemID": "147220",
+                    "url": "/brother-tn-221-black-standard-yield-toner-cartridge-print-up-to-2-500-pages-tn221bk/product_147220",
+                    "image": "https://www.staples-3p.com/s7/is/image/Staples/CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7?$std$",
+                    "images": [
+                      "https://www.staples-3p.com/s7/is/image/Staples/CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/7E41C2AE-EABE-4736-8C94B88BE073F557_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/7FFEAE41-F9D8-4706-B2740E6E998EE612_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/9B8095DA-66C2-477E-8CFAC92F423557FB_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/4D751F46-46F2-496A-B68D26BB5FFA583B_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/CE91E8E8-2DF3-4F55-A8B0F6682ABC91B8_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/AC9452AB-A9BE-4B47-ACDA3CD827745178_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/sp149495751_sc7?$thb$"
+                    ],
+                    "imageAltTexts": [
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~CC5F3592-8E82-41A9-9D84662ED7EF67BA_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~7E41C2AE-EABE-4736-8C94B88BE073F557_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~7FFEAE41-F9D8-4706-B2740E6E998EE612_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~9B8095DA-66C2-477E-8CFAC92F423557FB_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~4D751F46-46F2-496A-B68D26BB5FFA583B_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~CE91E8E8-2DF3-4F55-A8B0F6682ABC91B8_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~AC9452AB-A9BE-4B47-ACDA3CD827745178_sc7",
+                      "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)~#|#~sp149495751_sc7"
+                    ],
+                    "title": "Brother TN-221 Black Standard Yield Toner Cartridge (TN221BK)",
+                    "model": "TN221BK",
+                    "tenantId": "StaplesDotCom",
+                    "productIDs": [
+                      {
+                        "idName": "Item",
+                        "idValue": "147220"
+                      },
+                      {
+                        "idName": "Model",
+                        "idValue": "TN221BK"
+                      }
+                    ],
+                    "manufacturerName": "Brother",
+                    "brandName": "Brother",
+                    "baseCatName": "",
+                    "baseCatId": "SC43",
+                    "hierarchy": {
+                      "department": {
+                        "id": "DP1578",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "category": {
+                        "id": "CG3",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "supercategory": {
+                        "id": "SC12",
+                        "name": "Ink & Toner"
+                      },
+                      "class": {
+                        "id": "CL30001",
+                        "name": "Printer Ink Cartridges & Toner Finder"
+                      }
+                    },
+                    "restrictionDetails": {
+                      "viewDetailsTxt": "View details"
+                    },
+                    "catalogId": "CL30001",
+                    "bopisEligible": true,
+                    "inStoreOnly": false,
+                    "seePriceInCart": false,
+                    "isSSPT": true,
+                    "ctaText": "Add",
+                    "actionLabel": "addToCart",
+                    "isQtyChangeAvailable": true,
+                    "isDeliveryInstock": true,
+                    "actionUrl": "",
+                    "unitsNum": "",
+                    "units": "",
+                    "rating": 4.53,
+                    "ratingCount": 2464,
+                    "ratingUrl": "/brother-tn-221-black-standard-yield-toner-cartridge-print-up-to-2-500-pages-tn221bk/product_147220?scrollToReviews=Y",
+                    "reviewDetails": [
+                      {
+                        "rating": 1,
+                        "reviewCount": 118,
+                        "reviewPercent": 5
+                      },
+                      {
+                        "rating": 2,
+                        "reviewCount": 47,
+                        "reviewPercent": 2
+                      },
+                      {
+                        "rating": 3,
+                        "reviewCount": 138,
+                        "reviewPercent": 6
+                      },
+                      {
+                        "rating": 4,
+                        "reviewCount": 272,
+                        "reviewPercent": 11
+                      },
+                      {
+                        "rating": 5,
+                        "reviewCount": 1889,
+                        "reviewPercent": 77
+                      }
+                    ],
+                    "price": "$91.99",
+                    "priceValue": 91.99,
+                    "isPriceNotAvailable": false,
+                    "pricePerUnit": "",
+                    "isOutOfStock": false,
+                    "pickupMessage": "30-min pickup",
+                    "isInstoreInstock": false,
+                    "autoRestockEligible": true,
+                    "itemAvailability": {
+                      "inventoryMode": "STANDARD",
+                      "availableQuantity": 50,
+                      "minLeadTime": 2,
+                      "maxLeadTime": 2,
+                      "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                      "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                    },
+                    "additionalMsg": {
+                      "type": "DELIVERY_MSG",
+                      "text": "Free delivery",
+                      "moreText": "by Thu, ",
+                      "date": "Thu Feb 26 2026",
+                      "deliveryType": "regular",
+                      "icon": ""
+                    },
+                    "description": {
+                      "paragraph": [
+                        "Print crisp, easy-to-read reports, forms and contracts with this Brother genuine black toner cartridge. A page yield of up to 2,500 pages* makes this toner ideal for use in small offices or workgroups, and the laser print quality delivers a professional look to every document you create. With its precision design, this Brother genuine black toner cartridge installs easily into select Brother printers and copiers."
+                      ],
+                      "descriptionLineSize": 3,
+                      "bullets": [
+                        "Compatible with Brother HL-3140CW, HL-3170CDW, HL-3180CDW, MFC-9130CW, MFC-9330CDW, MFC-9340CDW",
+                        "Page Yield of up to 2,500 pages*.",
+                        "Intelligently engineered as part of a complete printing system to work seamlessly with your Brother printer.",
+                        "Brother Genuine TN221BK Standard-Yield Black Toner Cartridge.",
+                        "Brother Genuine toner produces superior quality results that withstand the test of time.",
+                        "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges. Visit www.brother-usa.com/environment for more information.",
+                        "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                      ],
+                      "headliner": [
+                        "Get rich, deep color that stands out from the printed page from this Brother genuine black toner cartridge."
+                      ],
+                      "expandedDescr": [
+                        "Brother TN-221BK Black Laser Toner Cartridge<p>Keep your printers fully stocked and performing their best with our Brother TN-221BK black laser toner cartridge. When you know that your printer is always ready when employees need it, you are free to concentrate on your workday. Reduce downtime and increase productivity by using reliable supplies that consistently get the job done right.</p>Enjoy Superb Image and Text Quality<p>This high-quality toner cartridge produces exceptional quality imaging for both text and graphic applications, and it can even be used to print stunning black-and-white photographs. Enjoy a deep and rich black hue that gives your documents that high-end look that just exudes professionalism. Text documents are crisp, clear, and easy to read without straining. The little details matter in a business setting, and this toner cartridge is just one small part of a much bigger picture. Make the best possible impression on everyone who views your documents.</p>Depend on Brother OEM Cartridges<p>Our original equipment manufacturer toner cartridges are the real deal. Brother is a highly reputable brand in the printer industry, and experts recommend using OEM toner cartridges to maximize the performance of your printers. Stay well within your company budget without compromising your commitment to quality and dependability. Our high-yield Brother TN-221BK black laser toner cartridge offers up to a 2,500-page yield at 5 percent coverage, making it the perfect solution for substantial print runs that may otherwise run dry prematurely.</p>Maximize Efficiency and Decrease Downtime<p>The equipment that you depend on should make your workday easier, not more difficult. Don't waste valuable time fussing with cartridges that are difficult to install or that run out quickly. Order the best possible supplies the first time so that you can concentrate on more important matters without interruption.</p>"
+                      ]
+                    },
+                    "skusetID": "SS238924153",
+                    "totalSavingsPercentage": 0,
+                    "isRPDC": true,
+                    "STSEligible": true,
+                    "shipmentLineId": "19515894533",
+                    "containerId": "00000006831860909103",
+                    "salesTranLineId": "222631969629",
+                    "skuDescription": "Brother TN221 Black Standard Yield Toner Cartridge   TN221BK",
+                    "skuNumber": "147220",
+                    "unitPrice": 79.49,
+                    "qtyOrdered": 1,
+                    "qtyShipped": 1,
+                    "isReshipped": false,
+                    "unitOfMeasure": "EACH",
+                    "lineTotal": 0.25,
+                    "status": 700,
+                    "statusDescription": "Delivered",
+                    "lineType": " ",
+                    "taxTotal": 0.02,
+                    "taxdetails": [
+                      {
+                        "chargeNo": "1_NEW JERSEY",
+                        "chargeCategory": "TaxCharge",
+                        "chargeName": "State",
+                        "chargeAmount": 0.02,
+                        "chargePerUnit": 0.02
+                      }
+                    ],
+                    "couponTotal": 79.24,
+                    "couponDetails": [
+                      {
+                        "chargeNo": "28249",
+                        "chargeName": "Easy Rewards Points Redemption",
+                        "chargeDesc": "Easy Rewards Points Redemption",
+                        "chargeAmount": 54.04,
+                        "chargePerUnit": 54.04
+                      },
+                      {
+                        "chargeNo": "4121942921037593",
+                        "chargeName": "15% off your purchase.",
+                        "chargeDesc": "15% off your purchase.",
+                        "chargeAmount": 25.2,
+                        "chargePerUnit": 25.2
+                      }
+                    ],
+                    "regularCouponsTotal": 79.24,
+                    "pointsRedeemedValue": 0,
+                    "deliveryChargeFee": 0,
+                    "subTotal": 79.49,
+                    "isItemsAvailable": true,
+                    "isFurnitureServiceFeeSKU": false
+                  }
+                ],
+                "00000006831860909097": [
+                  {
+                    "scId": "SC43",
+                    "itemId": "24401678",
+                    "compareItemID": "24401678",
+                    "url": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+                    "image": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$std$",
+                    "images": [
+                      "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/1EA662B7-94A2-450A-833DB3A1917FCA65_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/9BABCE00-8136-49AC-A676E6C6EC02247B_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/91015CE0-B582-46D5-99D4C75DC67ABD44_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7?$thb$",
+                      "https://www.staples-3p.com/s7/is/image/Staples/B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7?$thb$"
+                    ],
+                    "imageAltTexts": [
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B503710F-014F-44A4-AA70795FAFFB9C13_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~1EA662B7-94A2-450A-833DB3A1917FCA65_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~9BABCE00-8136-49AC-A676E6C6EC02247B_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91015CE0-B582-46D5-99D4C75DC67ABD44_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7",
+                      "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7"
+                    ],
+                    "title": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+                    "model": "TN4313PK",
+                    "tenantId": "StaplesDotCom",
+                    "productIDs": [
+                      {
+                        "idName": "Item",
+                        "idValue": "24401678"
+                      },
+                      {
+                        "idName": "Model",
+                        "idValue": "TN4313PK"
+                      }
+                    ],
+                    "manufacturerName": "Brother",
+                    "brandName": "Brother",
+                    "baseCatName": "",
+                    "baseCatId": "SC43",
+                    "hierarchy": {
+                      "department": {
+                        "id": "DP1578",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "category": {
+                        "id": "CG3",
+                        "name": "Ink & Toner Finder"
+                      },
+                      "supercategory": {
+                        "id": "SC12",
+                        "name": "Ink & Toner"
+                      },
+                      "class": {
+                        "id": "CL30001",
+                        "name": "Printer Ink Cartridges & Toner Finder"
+                      }
+                    },
+                    "restrictionDetails": {
+                      "viewDetailsTxt": "View details"
+                    },
+                    "catalogId": "CL30001",
+                    "bopisEligible": false,
+                    "inStoreOnly": false,
+                    "seePriceInCart": false,
+                    "isSSPT": true,
+                    "ctaText": "Add",
+                    "actionLabel": "addToCart",
+                    "isQtyChangeAvailable": true,
+                    "isDeliveryInstock": true,
+                    "actionUrl": "",
+                    "unitsNum": "",
+                    "units": "3/Pack",
+                    "rating": 4.43,
+                    "ratingCount": 861,
+                    "ratingUrl": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678?scrollToReviews=Y",
+                    "reviewDetails": [
+                      {
+                        "rating": 1,
+                        "reviewCount": 72,
+                        "reviewPercent": 8
+                      },
+                      {
+                        "rating": 2,
+                        "reviewCount": 22,
+                        "reviewPercent": 3
+                      },
+                      {
+                        "rating": 3,
+                        "reviewCount": 33,
+                        "reviewPercent": 4
+                      },
+                      {
+                        "rating": 4,
+                        "reviewCount": 74,
+                        "reviewPercent": 9
+                      },
+                      {
+                        "rating": 5,
+                        "reviewCount": 660,
+                        "reviewPercent": 77
+                      }
+                    ],
+                    "price": "$265.49",
+                    "priceValue": 265.49,
+                    "isPriceNotAvailable": false,
+                    "pricePerUnit": "$0.15/Cost Per Page",
+                    "isOutOfStock": false,
+                    "autoRestockEligible": true,
+                    "itemAvailability": {
+                      "inventoryMode": "STANDARD",
+                      "availableQuantity": 332,
+                      "minLeadTime": 2,
+                      "maxLeadTime": 2,
+                      "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                      "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                    },
+                    "additionalMsg": {
+                      "type": "DELIVERY_MSG",
+                      "text": "Free delivery",
+                      "moreText": "by Thu, ",
+                      "date": "Thu Feb 26 2026",
+                      "deliveryType": "regular",
+                      "icon": ""
+                    },
+                    "description": {
+                      "paragraph": [
+                        "Delivering professional, vivid prints with 1800-page yield*, Brother TN-431 3PK genuine standard-yield color toner cartridges are intelligently engineered to work seamlessly with Brother printers for consistent results. Pack includes one each of cyan toner, yellow toner, and magenta toner."
+                      ],
+                      "descriptionLineSize": 3,
+                      "bullets": [
+                        "Compatible with Brother HL-L8260CDW, HL-L8360CDW, HL-L8360CDWMT, HL-L8360CDWT, MFC-L8610CDW, MFC-L8900CDW",
+                        "Brother Genuine TN4313PK Standard-Yield 3 Pack Color Ink Cartridges \u2013 includes 1 Cyan, 1 Magenta and 1 Yellow Cartridge.",
+                        "Page Yield of up to 1,800 pages* per cartridge.",
+                        "Brother Genuine toner produces superior quality results that withstand the test of time",
+                        "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                        "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                      ],
+                      "headliner": [
+                        "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                      ]
+                    },
+                    "skusetID": null,
+                    "totalSavingsPercentage": 0,
+                    "isRPDC": true,
+                    "STSEligible": true,
+                    "shipmentLineId": "19515894535",
+                    "containerId": "00000006831860909097",
+                    "salesTranLineId": "222631969633",
+                    "skuDescription": "Brother TN431 CyanMagentaYellow Standard Yield Toner Cartridge 3Pack  TN4313PK",
+                    "skuNumber": "24401678",
+                    "unitPrice": 229.49,
+                    "qtyOrdered": 2,
+                    "qtyShipped": 2,
+                    "isReshipped": false,
+                    "unitOfMeasure": "EACH",
+                    "lineTotal": 1.45,
+                    "status": 700,
+                    "statusDescription": "Delivered",
+                    "lineType": " ",
+                    "taxTotal": 0.09,
+                    "taxdetails": [
+                      {
+                        "chargeNo": "1_NEW JERSEY",
+                        "chargeCategory": "TaxCharge",
+                        "chargeName": "State",
+                        "chargeAmount": 0.09,
+                        "chargePerUnit": 0.045
+                      }
+                    ],
+                    "couponTotal": 457.53,
+                    "couponDetails": [
+                      {
+                        "chargeNo": "28249",
+                        "chargeName": "Easy Rewards Points Redemption",
+                        "chargeDesc": "Easy Rewards Points Redemption",
+                        "chargeAmount": 311.96,
+                        "chargePerUnit": 155.98
+                      },
+                      {
+                        "chargeNo": "4121942921037593",
+                        "chargeName": "15% off your purchase.",
+                        "chargeDesc": "15% off your purchase.",
+                        "chargeAmount": 145.57,
+                        "chargePerUnit": 72.785
+                      }
+                    ],
+                    "regularCouponsTotal": 457.53,
+                    "pointsRedeemedValue": 0,
+                    "deliveryChargeFee": 0,
+                    "subTotal": 458.98,
+                    "isItemsAvailable": true,
+                    "isFurnitureServiceFeeSKU": false
+                  }
+                ]
+              },
+              "isItemsAvailable": true,
+              "containerVsItemsCountMap": {
+                "00000006831860909103": 1,
+                "00000006831860909097": 2
+              }
+            }
+          ]
+        },
+        "unavailableItemShipments": {},
+        "sortedAddressGroupMap": {
+          "CUSTOMER_ADDRESS": [
+            {
+              "id": "202403040041272421653150",
+              "addressGroup": "CUSTOMER_ADDRESS",
+              "firstName": "SVETLANA",
+              "lastName": "SIVAK",
+              "phone1": "3475254533",
+              "emailId": "LANA@X-DEALS.COM",
+              "addressLine1": "5 ACKERMAN PLACE",
+              "addressLine2": "A",
+              "city": "PALISADES PARK",
+              "state": "NJ",
+              "zipCode": "07650"
+            }
+          ]
+        },
+        "addressGroupMap": {
+          "CUSTOMER_ADDRESS": [
+            {
+              "id": "202403040041272421653150",
+              "addressGroup": "CUSTOMER_ADDRESS",
+              "firstName": "SVETLANA",
+              "lastName": "SIVAK",
+              "phone1": "3475254533",
+              "emailId": "LANA@X-DEALS.COM",
+              "addressLine1": "5 ACKERMAN PLACE",
+              "addressLine2": "A",
+              "city": "PALISADES PARK",
+              "state": "NJ",
+              "zipCode": "07650"
+            }
+          ]
+        }
+      },
+      "duplicateOrderOptions": {},
+      "rewardsConfig": {
+        "rewardsMember": true,
+        "dashboardUrl": "/grs/rewards/sr/loyaltycenter"
+      },
+      "error": {
+        "hasError": false,
+        "errorMessage": "",
+        "errorCode": null,
+        "redirectionUrl": ""
+      }
+    }
+  }
+}

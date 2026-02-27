@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREdvcS9LQlZQWHhzNlNLYUZxMEpHdTI0N3RwM0xLckwrWFVLSUNWa2tjeEVnQlRrdDZTUklNckgvU3B6Sm94YjFiZk92WHQ3OHYyaG1tVC9YNU5zTU09",
+  "keyForOrderDetails": "U3RNREc1Ni9IdWFySzk4eEI5dTkzY0NQVithaWxlT3VwMk4rQ2d0ZXI4UmR0WUNSTjIybkV0dm9lbm11dzVBZTh6TnJmMHpKSjF4Z3N5MlEwRVdQVGpNL2M9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -99,22 +99,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:35.353919129",
+      "timeStamp": "2026-02-23T21:53:49.773709168",
       "resourceName": "OrderDetails",
-      "transactionId": "1a84f121a82243d68f2e35e8241a95fa",
+      "transactionId": "1db2e2abc11046a4ae3b626c4ff62ace",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20250913.4.19708",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20250913.4.19708",
     "orderDate": "2025-09-13T18:23:53",
-    "keyForOrderDetails": "U3RNREVSNVAyM3k5MXdxQ29YUjVtdXNqbGxlVG5Seks4VWoveVFCK3RrMEtTcWlhb2c0dUR5WFpmb3lLVkhZNlZ6ZGgwZ3JLUUJZVHNCeFEzKzd1ZmhOT2s9",
-    "orderUrlKey": "U3RNREVSNVAyM3k5MXdxQ29YUjVtdXNqbGxlVG5Seks4VWoveVFCK3RrMEtTcWlhb2c0dUR5WFpmb3lLVkhZNlZ6ZGgwZ3JLUUJZVHNCeFEzKzd1ZmhOT2s9",
-    "customerNumberKey": "U3RNREU0NGJ0NTR5NGIwaGJ5bU14c0drb1RLUXZNSm5oLzZZbDNJSTZWUzBKV2xwRHU5WTZENUE9PQ==",
+    "keyForOrderDetails": "U3RNREdNU2xuN3M0REcxSnFqMmcvVFVncDNhbFpVa2FDTXowOWYrZnRZd2JhaUw4Q2NWcWl2TUhZTlFxendJYVA0WHdVMVFpeW9zWTZoa0lsNDlONG9ZWWc9",
+    "orderUrlKey": "U3RNREdNU2xuN3M0REcxSnFqMmcvVFVncDNhbFpVa2FDTXowOWYrZnRZd2JhaUw4Q2NWcWl2TUhZTlFxendJYVA0WHdVMVFpeW9zWTZoa0lsNDlONG9ZWWc9",
+    "customerNumberKey": "U3RNREUvYkJPR2IwNlk2WlJrSmVZTDVjbjJaeWxjbDBuVFJ2cS9WZ2RjcTR0WTdNeVJlTTdRK3c9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -273,15 +274,15 @@
                 "availableQuantity": 99999,
                 "minLeadTime": 42,
                 "maxLeadTime": 42,
-                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
-                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+                "minDeliveryDate": "2026-04-23T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-23T00:00:00-04:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Apr 21 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Apr 23 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -460,15 +461,15 @@
                 "availableQuantity": 673,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -646,8 +647,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

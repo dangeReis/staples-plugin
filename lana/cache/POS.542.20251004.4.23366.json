@@ -1,0 +1,346 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20251004.4.23366",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-10-04T15:05:10",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREYxZzFDN1Qxd25BTVlrR0hoeFJQMHk5NUZLZWJXNDdwTkQ0Qkk5ZjRQWnZmamdjenp4MHAwSExORmlsRzRKRHQxVXRRcCtHbTU0bzlPWjMrRGtraVk9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 40.98,
+  "orderLines": [
+    {
+      "productSku": "865670",
+      "productName": "Green Mountain Dark Magic Coffee Keurig",
+      "productShortDesc": "Green Mountain Dark Magic Coffee Keurig",
+      "productLongDesc": "Green Mountain Dark Magic Coffee Keurig",
+      "unitPrice": 76.99,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7?$thb$",
+      "productURL": "green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670",
+      "model": "4061",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "865670",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:39:00.491583293",
+      "resourceName": "OrderDetails",
+      "transactionId": "39bb18f797ac46c6ace1ffbf7cca7694",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20251004.4.23366",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20251004.4.23366",
+    "orderDate": "2025-10-04T15:05:10",
+    "keyForOrderDetails": "U3RNREVJR3kvcXpGMVFpTk9rQzFjcDVZNytTWVUzakdhK3IvKzZOalU3cFBrS1dmeFJJUnRCZE9SdzJ4SlpSUTBwNll3VmVRSktsNVd3SU53LzR4YmZ0Ukk9",
+    "orderUrlKey": "U3RNREVJR3kvcXpGMVFpTk9rQzFjcDVZNytTWVUzakdhK3IvKzZOalU3cFBrS1dmeFJJUnRCZE9SdzJ4SlpSUTBwNll3VmVRSktsNVd3SU53LzR4YmZ0Ukk9",
+    "customerNumberKey": "U3RNREc3UXFabXlqRlU2WHl6Y05EUUVwaVBwdDFuQ3l2TFdyY2JyTzNNRWtpdEZ0SHkvZUU3N0E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 153.98,
+    "discountsTotal": 113,
+    "couponsTotal": 103,
+    "pointsRedeemedValue": 10,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 40.98,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "865670",
+              "compareItemID": "865670",
+              "url": "/green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5942D4DF-1120-4ECF-80D4520BC90CBDCA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3B524E70-44E5-4DDD-A334EE1A931CA4CE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/69B750FC-C118-4E81-AB849A7CB584ECCB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BE37DFA4-0044-4E0D-B886AAEBF8156D44_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)~#|#~BE2C8945-87E2-4A8B-96A6EFE3B044F990_sc7",
+                "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)~#|#~5942D4DF-1120-4ECF-80D4520BC90CBDCA_sc7",
+                "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)~#|#~3B524E70-44E5-4DDD-A334EE1A931CA4CE_sc7",
+                "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)~#|#~69B750FC-C118-4E81-AB849A7CB584ECCB_sc7",
+                "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)~#|#~BE37DFA4-0044-4E0D-B886AAEBF8156D44_sc7"
+              ],
+              "title": "Green Mountain Dark Magic Coffee Keurig\u00ae K-Cup\u00ae Pods, Dark Roast, 96/Carton (4061)",
+              "model": "4061",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "865670"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "4061"
+                }
+              ],
+              "manufacturerName": "Green Mountain",
+              "brandName": "Green Mountain",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "96/Carton",
+              "rating": 4.73,
+              "ratingCount": 6998,
+              "ratingUrl": "/green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 142,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 78,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 209,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 671,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 5898,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$76.99",
+              "priceValue": 76.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.80/Pod",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 171,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Let customers, employees and visitors enjoy great-tasting coffee with these dark-roast K-Cup pods. Made from 100 percent Arabica beans and with an extra-bold flavor, each single-serve pod offers a rich, satisfying taste and aroma. This 96-pack of Green Mountain Coffee Roasters Dark Magic coffee pods is easy to prepare with compatible coffee machines."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Dark roast coffee with Dark Magic flavor",
+                  "96 K-Cups per carton",
+                  "The product is kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Perk up everyone's day in the workplace or reception area with Green Mountain Coffee Roasters Dark Magic Keurig K-Cup pods."
+                ]
+              },
+              "skusetID": "SS115832192",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5942D4DF-1120-4ECF-80D4520BC90CBDCA_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Green Mountain Dark Magic Coffee Keurig",
+              "skuNumber": "865670",
+              "unitPrice": 76.99,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 40.98,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 113,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 7.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 30,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 48,
+                  "chargePerUnit": 24
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 5
+                }
+              ],
+              "regularCouponsTotal": 113,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 153.98,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "865670"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11713DJN4C16KF"
+  }
+}

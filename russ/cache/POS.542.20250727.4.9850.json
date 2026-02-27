@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREVZVHBPVHIrOXFqa3k3Vms1YTBWL2d3MXFmVkV3dGpNNi9RTlFvUThyYmlEbHJYZjhud1QyOHVudkl2a0c2UDlrWGZ3aVVNK1R0OVJHS2Q0RGpHdz09",
+  "keyForOrderDetails": "U3RNREcxekNWTGhtZnJEYmlxRE16RkJsUm0zdzBQeGV5UHp2bGZ1OE9BOWpodkhPYWRWMmFzUUlJWmVmQ0YxcURkVkJtcWl1S3RYU2x6RkJxMnJ0OXd0UT09",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -149,22 +149,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:54.244970855",
+      "timeStamp": "2026-02-23T21:54:08.795728582",
       "resourceName": "OrderDetails",
-      "transactionId": "274d8b9fc7e84cbb8979f9e57498bd8a",
+      "transactionId": "55137290bb284c88b65639b089e89ce7",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20250727.4.9850",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20250727.4.9850",
     "orderDate": "2025-07-27T13:10:16",
-    "keyForOrderDetails": "U3RNREhucGk4eUpwMUY4anpiUG90dWczRG9GRmNSRzg2ZGFoZFVnUW10bzhpZVZ5V0ViK201YmV0emZRNnR5Ni94MGg2SGZZSkFVNkxVd2h3VUM1ejRSZz09",
-    "orderUrlKey": "U3RNREhucGk4eUpwMUY4anpiUG90dWczRG9GRmNSRzg2ZGFoZFVnUW10bzhpZVZ5V0ViK201YmV0emZRNnR5Ni94MGg2SGZZSkFVNkxVd2h3VUM1ejRSZz09",
-    "customerNumberKey": "U3RNREVYUS9uM2F6K3N5aFNpa0FYMTlhV29iY2NRS1RtTk1UeTVkSXF0czFRQitJUHlBcXJUSWc9PQ==",
+    "keyForOrderDetails": "U3RNREY1M3I2MGoyNnZXa2RCU1RkdHovbU5iYzVPUGsrM0FQU05ZYVdRK2hqazlxWStnOEZVNnc0cGJKMU84QmNFSTBVZFlnaitoWERQVk5sRFFXWmxQdz09",
+    "orderUrlKey": "U3RNREY1M3I2MGoyNnZXa2RCU1RkdHovbU5iYzVPUGsrM0FQU05ZYVdRK2hqazlxWStnOEZVNnc0cGJKMU84QmNFSTBVZFlnaitoWERQVk5sRFFXWmxQdz09",
+    "customerNumberKey": "U3RNREh2ZkdWc2Zub0dxV0pmQjNncW5raGVzcFV5MXNkOHhhRTBYYUVtSTZINzJTaVM1T2dERmc9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -278,7 +279,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.66,
-              "ratingCount": 820,
+              "ratingCount": 823,
               "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -298,12 +299,12 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 125,
+                  "reviewCount": 127,
                   "reviewPercent": 15
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 638,
+                  "reviewCount": 639,
                   "reviewPercent": 78
                 }
               ],
@@ -318,8 +319,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -441,7 +442,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.66,
-              "ratingCount": 820,
+              "ratingCount": 823,
               "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -461,12 +462,12 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 125,
+                  "reviewCount": 127,
                   "reviewPercent": 15
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 638,
+                  "reviewCount": 639,
                   "reviewPercent": 78
                 }
               ],
@@ -481,8 +482,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -604,7 +605,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.66,
-              "ratingCount": 820,
+              "ratingCount": 823,
               "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -624,12 +625,12 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 125,
+                  "reviewCount": 127,
                   "reviewPercent": 15
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 638,
+                  "reviewCount": 639,
                   "reviewPercent": 78
                 }
               ],
@@ -644,8 +645,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -807,8 +808,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -924,7 +925,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.66,
-              "ratingCount": 820,
+              "ratingCount": 823,
               "ratingUrl": "/Staples-2-Pocket-Folder-Assorted-Colors/product_430579?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -944,12 +945,12 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 125,
+                  "reviewCount": 127,
                   "reviewPercent": 15
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 638,
+                  "reviewCount": 639,
                   "reviewPercent": 78
                 }
               ],
@@ -964,8 +965,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

@@ -1,0 +1,233 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.39.20240928.2.15213",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-09-28T13:53:26",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREg3cFJ4czJROFRPbnMwMU5Iamp0b2hMRC9TV01LS3BpRGFZWGxtQ0o0blB5SHJja2FzU3FrSC8rMHRrVUIwZExiQitFVjdIbjhWR09vWk0xOHR0dz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "690804",
+      "productName": "PRINTER RECYCLING",
+      "productShortDesc": "PRINTER RECYCLING",
+      "productLongDesc": "PRINTER RECYCLING",
+      "unitPrice": 0.01,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "PRINTER RECYCLING",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "39",
+  "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+  "storeCity": "PARAMUS",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:41:44.294626601",
+      "resourceName": "OrderDetails",
+      "transactionId": "e75aae8e1b9e41ca89379e9591882c80",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.39.20240928.2.15213",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.39.20240928.2.15213",
+    "orderDate": "2024-09-28T13:53:26",
+    "keyForOrderDetails": "U3RNREV6T092NEpIUXBvTDFSKzhmSzlGeGUyckI4cXFBL3UrQmhaTnltejB4Q1VTek8zQmJqMkVzSEcxYzN4ZkZjMXpSRXErcW14L2ZmTzZtVmdhRU1PZz09",
+    "orderUrlKey": "U3RNREV6T092NEpIUXBvTDFSKzhmSzlGeGUyckI4cXFBL3UrQmhaTnltejB4Q1VTek8zQmJqMkVzSEcxYzN4ZkZjMXpSRXErcW14L2ZmTzZtVmdhRU1PZz09",
+    "customerNumberKey": "U3RNREYvQkNxQ3crSWRQblhBT3R2QWxyMDVKbTJaMTN3SmtBUytnUEVuVGxwdkhXeUlJTWVtcUE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.01,
+    "discountsTotal": 0.01,
+    "couponsTotal": 0.01,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "501 Route 17 SOUTH, STE 1",
+        "city": "PARAMUS",
+        "state": "NJ",
+        "zipCode": "07652"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "PRINTER RECYCLING",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_690804?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "PRINTER RECYCLING",
+              "skuNumber": "690804",
+              "unitPrice": 0.01,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.01,
+              "couponDetails": [
+                {
+                  "chargeNo": "204342",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #23687",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.01,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.01,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.01,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "690804"
+    ],
+    "storeNumber": "39",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "501 Route 17 SOUTH, STE 1",
+      "city": "PARAMUS",
+      "state": "NJ",
+      "zipCode": "07652"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T11313I11411TI64AYENT"
+  }
+}

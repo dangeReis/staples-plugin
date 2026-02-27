@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREU1SFRFcTNGSzE0ak93OUFpNDQ4cHVoY3Jxd0lLMzNtV3VIbGNIeHd3VTRMcGRlNFFReVZjOEdVQklqbjdwMkh2Qjd0U0N3UUVwekxWdTFNc1kyeU09",
+  "keyForOrderDetails": "U3RNREVaa1JSRllyOVZ4TDFQVmNWVnVoYmNRbzRqZ0pWcmo1Q1NZa1hrOU9tTUVhRXFFSE5HWEVuM1JKMCtRc0tkalljdmsvSm9WaVQ4dW4rOFJDYVprcmc9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -323,22 +323,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:36:14.874294190",
+      "timeStamp": "2026-02-23T21:56:34.286967653",
       "resourceName": "OrderDetails",
-      "transactionId": "d39c46a27a50432f995c4fb15243b1fb",
+      "transactionId": "0f31b954ca62450c9ce17109a7146308",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.567.20240518.3.64224",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.567.20240518.3.64224",
     "orderDate": "2024-05-18T20:56:53",
-    "keyForOrderDetails": "U3RNREdTcjJQNE9FdEVmTmJaM2h0ZHcwRDhPRUNTZUdCYXNYbklvaUhxeG51Ryt0SXBWdkZkVEFWTCtVTnRia1NiTU1NVndLd0N3U0VKUS9qdWpiYXQyR0U9",
-    "orderUrlKey": "U3RNREdTcjJQNE9FdEVmTmJaM2h0ZHcwRDhPRUNTZUdCYXNYbklvaUhxeG51Ryt0SXBWdkZkVEFWTCtVTnRia1NiTU1NVndLd0N3U0VKUS9qdWpiYXQyR0U9",
-    "customerNumberKey": "U3RNREhLdm1ZUVhNdStZaHVrSm9lUjhPbkVDdjZuQ2NYTzVPUFMyclp1ekxPQ08xTmJnU3JGc3c9PQ==",
+    "keyForOrderDetails": "U3RNREZ4NTAyTHdSdjBOV21aMng5bDd5cFV0YWtoZnplYUkyUXhpLzB1UXJkUUtxRTVLcXhZVHlaRmp2Qi9XNlFhR3c0V3RFUTF3Vk1wdGkwN0pIRU9qb3c9",
+    "orderUrlKey": "U3RNREZ4NTAyTHdSdjBOV21aMng5bDd5cFV0YWtoZnplYUkyUXhpLzB1UXJkUUtxRTVLcXhZVHlaRmp2Qi9XNlFhR3c0V3RFUTF3Vk1wdGkwN0pIRU9qb3c9",
+    "customerNumberKey": "U3RNREZGc3ZpQUJiQTI0NmM3ZWFCSktDdmdrS1FHMjdwMTNueUI5Qk5SbUM3QkJKVmgwekYwNGc9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -661,8 +662,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1950,7 +1951,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.79,
-              "ratingCount": 397,
+              "ratingCount": 399,
               "ratingUrl": "/greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -1965,18 +1966,18 @@
                 },
                 {
                   "rating": 3,
-                  "reviewCount": 5,
-                  "reviewPercent": 1
+                  "reviewCount": 6,
+                  "reviewPercent": 2
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 33,
-                  "reviewPercent": 8
+                  "reviewCount": 34,
+                  "reviewPercent": 9
                 },
                 {
                   "rating": 5,
                   "reviewCount": 349,
-                  "reviewPercent": 88
+                  "reviewPercent": 87
                 }
               ],
               "price": "$19.99",
@@ -1988,8 +1989,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

@@ -1,0 +1,588 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20241222.4.73344",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-12-22T12:37:23",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREh5OUlrQW0xWkpxZnRHN0ZvdlNpQ1o2NFRYUzdET3dZTFlZaThvQTdFa2xiT1k4RXlOZ1RhL0IwS1FUVDg5bVNrRkdBaml4WGZMc2hwcDNHZkNUQTA9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 53.72,
+  "orderLines": [
+    {
+      "productSku": "2711216",
+      "productName": "DURACELL 2450 3 VO",
+      "productShortDesc": "DURACELL 2450 3 VO",
+      "productLongDesc": "DURACELL 2450 3 VO",
+      "unitPrice": 4.99,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell 2450 Lithium Battery (DL2450BPK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$thb$",
+      "productURL": "duracell-2450-lithium-coin-cell-battery/product_2711216",
+      "model": "DL2450BPK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2711216",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "503573",
+      "productName": "COPPERTOP 9 VOLT B",
+      "productShortDesc": "COPPERTOP 9 VOLT B",
+      "productLongDesc": "COPPERTOP 9 VOLT B",
+      "unitPrice": 18.19,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/044C46C9-8619-4FEB-998DA362056D00E2_sc7?$thb$",
+      "productURL": "duracell-coppertop-9v-alkaline-batteries-4-pack-mn16rt4z/product_503573",
+      "model": "MN16RT4Z",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "503573",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:43:05.351747469",
+      "resourceName": "OrderDetails",
+      "transactionId": "6394b14f5253491e9eb3f31752ac54e9",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241222.4.73344",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20241222.4.73344",
+    "orderDate": "2024-12-22T12:37:23",
+    "keyForOrderDetails": "U3RNREdDcGt5Zk5raWZRdTFiVFdsc0JUNGdzRFQ2dUV1MjNjNi9vN3lFaC82MDI2Z2ZUOGVidE9hbUNjVldOSmZNQmpXRFEzaUNVWTlnQlgxTExwUzFOSG89",
+    "orderUrlKey": "U3RNREdDcGt5Zk5raWZRdTFiVFdsc0JUNGdzRFQ2dUV1MjNjNi9vN3lFaC82MDI2Z2ZUOGVidE9hbUNjVldOSmZNQmpXRFEzaUNVWTlnQlgxTExwUzFOSG89",
+    "customerNumberKey": "U3RNREhKUjNHWUZVNHk2YitEalRlaVRzQnVaajZ4Y2Y2Y2RiSEtwdXdQWHd1RlUxbjN5bGxIZkE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 82.74,
+    "discountsTotal": 32.36,
+    "couponsTotal": 25.36,
+    "pointsRedeemedValue": 7,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 3.34,
+    "grandTotal": 53.72,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC350075",
+              "itemId": "2711216",
+              "compareItemID": "2711216",
+              "url": "/duracell-2450-lithium-coin-cell-battery/product_2711216",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/3179A547-7095-4FE2-BA71657CAD100551_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A459BB31-8E35-43A4-8AADFB3CF93D2965_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/90EE7A3F-1EF2-4579-9881A49ECB322463_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D759C52D-5DB3-4946-908BA5D005825CA6_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~3179A547-7095-4FE2-BA71657CAD100551_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~A459BB31-8E35-43A4-8AADFB3CF93D2965_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~90EE7A3F-1EF2-4579-9881A49ECB322463_sc7",
+                "Duracell 2450 Lithium Battery (DL2450BPK)~#|#~D759C52D-5DB3-4946-908BA5D005825CA6_sc7"
+              ],
+              "title": "Duracell 2450 Lithium Battery (DL2450BPK)",
+              "model": "DL2450BPK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2711216"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DL2450BPK"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.51,
+              "ratingCount": 84,
+              "ratingUrl": "/duracell-2450-lithium-coin-cell-battery/product_2711216?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 5,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 3,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 9,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 65,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 116,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "They have up to a 10-year guarantee in storage so you can be confident these lithium coin batteries will be ready when you need them. To help ensure the safety of your children, they come in a child-resistant package. Duracell Lithium Coin batteries are great for devices like glucometers, calculators and car remotes. And you can be assured that they\u2019re batteries you can trust because Duracell is the #1 trusted battery brand."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "LITHIUM COIN BATTERY: Duracell's 2450 3V Lithium Coin batteries provide reliable, long lasting power for your medical devices, security devices, electronics and more.",
+                  "LONG LASTING POWER: Duracell Lithium Coin batteries are engineered for long lasting performance.",
+                  "CHILD-RESISTANT PACKAGING: To help ensure the safety of your children, Duracell Lithium Coin batteries come in a child-resistant package.",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell Lithium Coin batteries are guaranteed for 10 years in storage.",
+                  "#1 TRUSTED BATTERY BRAND: This Duracell 2450 3 Volt Lithium Coin battery is equivalent to DL2450 and CR2450.",
+                  "Size (mm): 24.5 X 5",
+                  "mAh: 620",
+                  "IEC: CR2450",
+                  "<a href=\"http://sds.staples.com/msds/2711216.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Duracell Lithium Coin batteries provide reliable, long-lasting power for your specialty devices."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C15D3CCA-92E2-4164-A726DD6EF6E3CBB0_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "DURACELL 2450 3 VO",
+              "skuNumber": "2711216",
+              "unitPrice": 4.99,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 5.91,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3916
+                }
+              ],
+              "couponTotal": 4.07,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.81,
+                  "chargePerUnit": 0.905
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeDesc": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeAmount": 1.2,
+                  "chargePerUnit": 0.6
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.83,
+                  "chargePerUnit": 0.415
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $4.87",
+                  "chargeName": "100% Price Guarantee $4.87",
+                  "chargeDesc": "100% Price Guarantee $4.87",
+                  "chargeAmount": 0.23,
+                  "chargePerUnit": 0.115
+                }
+              ],
+              "regularCouponsTotal": 4.07,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 9.98,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC350075",
+              "itemId": "503573",
+              "compareItemID": "503573",
+              "url": "/duracell-coppertop-9v-alkaline-batteries-4-pack-mn16rt4z/product_503573",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/044C46C9-8619-4FEB-998DA362056D00E2_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/044C46C9-8619-4FEB-998DA362056D00E2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/366C553F-5B30-4906-BE41EB6FBFCEE1B4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/42681BE9-1558-4153-8432E153A71270E6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5CAA5E4D-68A4-414B-8EEBA5AFD2302D26_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EB387F2A-6C6B-4A47-A1A012AA699FCE82_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)~#|#~044C46C9-8619-4FEB-998DA362056D00E2_sc7",
+                "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)~#|#~366C553F-5B30-4906-BE41EB6FBFCEE1B4_sc7",
+                "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)~#|#~42681BE9-1558-4153-8432E153A71270E6_sc7",
+                "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)~#|#~5CAA5E4D-68A4-414B-8EEBA5AFD2302D26_sc7",
+                "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)~#|#~EB387F2A-6C6B-4A47-A1A012AA699FCE82_sc7"
+              ],
+              "title": "Duracell Coppertop 9V Alkaline Battery, 4/Pack (MN16RT4Z)",
+              "model": "MN16RT4Z",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "503573"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MN16RT4Z"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$7.00",
+                  "description": "Custom Pick Savings",
+                  "type": "CUSTOM_PICK_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Custom Pick",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.7,
+              "ratingCount": 1164,
+              "ratingUrl": "/duracell-coppertop-9v-alkaline-batteries-4-pack-mn16rt4z/product_503573?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 25,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 10,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 32,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 161,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 936,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$16.99",
+              "priceValue": 16.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$4.25/Battery",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 441,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Duracell Coppertop 9V batteries are engineered to deliver the power you need for your professional devices."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Duracell 9V Batteries: The Duracell Coppertop 9 Volt alkaline battery is designed for use in office items like smoke and CO2 detectors, digital scales, and more.",
+                  "Duracell guarantees these batteries against defects in material and workmanship. Should any device be damaged due to a battery defect, Duracell will repair or replace it at their option. For more details go to https://www.duracell.com/en-us/faq/",
+                  "Long Lasting Power: Duracell alkaline batteries are designed and developed for long lasting quality performance.",
+                  "Guaranteed for 5 years in Storage: Duracell 9V alkaline batteries provide durable value because they are guaranteed for 5 years in storage.",
+                  "#1 Trusted Battery Brand: Duracell Coppertop are available in Double A (AA), Triple A (AAA), C, D and 9V sizes.",
+                  "An essential item for your breakroom or supply closet.",
+                  "<a href=\"http://sds.staples.com/msds/503573.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "expandedDescr": [
+                  "Duracell Coppertop all-purpose alkaline batteries are not only dependable, they\u2019re also long-lasting. You can take comfort in a 10-year guarantee (5-year guarantee for 9V) in storage. They\u2019re great for many of the devices you use on a daily basis. And from storm season to medical needs to the holidays, Duracell is the #1 trusted battery brand so you know it\u2019s a battery you can trust."
+                ]
+              },
+              "skusetID": "SS118478826",
+              "totalSavingsPercentage": 29.18,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/366C553F-5B30-4906-BE41EB6FBFCEE1B4_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$23.99",
+              "originalPriceLabel": "Regular price",
+              "STSEligible": true,
+              "skuDescription": "COPPERTOP 9 VOLT B",
+              "skuNumber": "503573",
+              "unitPrice": 18.19,
+              "qtyOrdered": 4,
+              "qtyShipped": 4,
+              "isReshipped": false,
+              "lineTotal": 44.47,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.946
+                }
+              ],
+              "couponTotal": 28.29,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeDesc": "15% off your in-store purchase when you recycle batteries.",
+                  "chargeAmount": 8.93,
+                  "chargePerUnit": 2.2325
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 13.19,
+                  "chargePerUnit": 3.2975
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 6.17,
+                  "chargePerUnit": 1.5425
+                }
+              ],
+              "regularCouponsTotal": 28.29,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 72.76,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "503573",
+      "2711216"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT117177HX4AYHYY"
+  }
+}

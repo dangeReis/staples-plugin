@@ -1,0 +1,345 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.522.20250222.2.96110",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-02-22T18:19:29",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhJcU84MmYrSUlvdWJ5TTVUUjZxMjdMc0xoV1ZOUzhGSklKc0k4VjhHUTVKMWQyRUFjMFJnN0Uwa05QSFdaU2RqOUcrRlZNU21tb3ZtVGpFMnF4RG89",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 58.97,
+  "orderLines": [
+    {
+      "productSku": "2847075",
+      "productName": "BOUNTY SAS DOUBLE",
+      "productShortDesc": "BOUNTY SAS DOUBLE",
+      "productLongDesc": "BOUNTY SAS DOUBLE",
+      "unitPrice": 25.99,
+      "orderQty": 3,
+      "originalOrderedQty": 3,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$thb$",
+      "productURL": "bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075",
+      "model": "57053/61305",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2847075",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:40:46.617684009",
+      "resourceName": "OrderDetails",
+      "transactionId": "8ea806776a624a228620f135e0f2d22e",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250222.2.96110",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.522.20250222.2.96110",
+    "orderDate": "2025-02-22T18:19:29",
+    "keyForOrderDetails": "U3RNREhNRk42WlFucHpoMlIvY0Rza1pPWElKa3NiKzdnYXQ0WkF6eTN0U2N0NmlHeXFyRncwdnJmQm5vdmM4K0hHRy9RMXVpQ0N0d0NVVFNjaEJMS3JlMTA9",
+    "orderUrlKey": "U3RNREhNRk42WlFucHpoMlIvY0Rza1pPWElKa3NiKzdnYXQ0WkF6eTN0U2N0NmlHeXFyRncwdnJmQm5vdmM4K0hHRy9RMXVpQ0N0d0NVVFNjaEJMS3JlMTA9",
+    "customerNumberKey": "U3RNREhzQ1pEVnc0SUZzQjNXZmljZnFKVkZvREk5NUdQcnVDVDhUa0VQQTF5TWk1OFVSQnY2bmc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 77.97,
+    "discountsTotal": 19,
+    "couponsTotal": 19,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 58.97,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "2847075",
+              "compareItemID": "2847075",
+              "url": "/bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/76E729C1-AD44-405D-8C941D7C170211B0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/62653839-88E2-43D0-AEBCACB3F6F590B9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A32E9B52-0F4B-4E2C-AED062F3232DF8B4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36EA02BB-5D9D-47A1-97AE73F7C6DA826E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D8B08DB5-A134-4DB6-A80CA1595E295240_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F5AF694-DE60-4663-985047F609E800B8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/AFB4CC48-AA1F-4A93-8664E3ED24DDC696_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7C126882-CD20-4101-AE09F96B9DCC15FC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D8CE9105-014E-4695-A93F216F7317C08F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~76E729C1-AD44-405D-8C941D7C170211B0_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~62653839-88E2-43D0-AEBCACB3F6F590B9_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~A32E9B52-0F4B-4E2C-AED062F3232DF8B4_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~36EA02BB-5D9D-47A1-97AE73F7C6DA826E_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~D8B08DB5-A134-4DB6-A80CA1595E295240_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~7F5AF694-DE60-4663-985047F609E800B8_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~AFB4CC48-AA1F-4A93-8664E3ED24DDC696_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~7C126882-CD20-4101-AE09F96B9DCC15FC_sc7",
+                "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)~#|#~D8CE9105-014E-4695-A93F216F7317C08F_sc7"
+              ],
+              "title": "Bounty Select-A-Size Double Roll Paper Towels, 2-ply, 82 Sheets/Roll, 12 Rolls/Pack (66541/06130)",
+              "model": "57053/61305",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2847075"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "57053/61305"
+                }
+              ],
+              "manufacturerName": "Bounty",
+              "brandName": "Bounty",
+              "baseCatName": "Janitorial Paper & Dispensers",
+              "baseCatId": "CL141826",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1865",
+                  "name": "Paper Products"
+                },
+                "category": {
+                  "id": "CG3930",
+                  "name": "Janitorial Paper & Dispensers"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141826",
+                  "name": "Paper Towels"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141826",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Pack",
+              "rating": 4.63,
+              "ratingCount": 9568,
+              "ratingUrl": "/bounty-select-a-size-paper-towels-2-ply-90-sheets-roll-12-rolls-pack-66541-06130/product_2847075?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 403,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 185,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 241,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 863,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 7876,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$40.89",
+              "priceValue": 40.89,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$4.16/100 Sheets",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$38.85",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 3280,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Spilled your drink? Quick! The Quicker Picker Upper. Be ready to tackle messes and spills with Bounty Paper Towels! Each sheet is 2x more absorbent, so you can use less and pick up spills and messes quicker than the leading ordinary brand. That\u2019s why Bounty is the Quicker Picker Upper!"
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Kitchen Roll Towel",
+                  "2-Ply Thickness",
+                  "Pack contains 12 Double Rolls, 82 Sheets/Roll (984 total sheets)",
+                  "12 Double Rolls = 24 Regular Rolls",
+                  "More absorbent so you can use less* *vs. leading ordinary brand",
+                  "With Select-A-Size rolls you can choose your sheet size based on the size of your mess",
+                  "Most Awarded Paper Towel* *based on online media awards for the past 6 years",
+                  "Picks up messes quicker* *vs. leading ordinary brand",
+                  "Now more clothlike* *vs. previous product",
+                  "Why use more when you can use less* *vs. leading ordinary brand"
+                ],
+                "headliner": [
+                  "Select-A-Size feature lets you use only however much is required and save the rest for later use."
+                ],
+                "expandedDescr": [
+                  "Bounty Paper Towels are available in two sheet sizes, Full Sheet and Select-A-Size, so you can choose which option works best for you. Bounty Select-A-Size towels are versatile, so you can choose your sheet size depending on your mess. And if you\u2019re buying the bigger packs, you\u2019ll always have Bounty on hand. Bounty has a variety of pack and roll sizes to fit your needs. Bounty products are proudly made with American jobs and we\u2019re fully committed to creating solutions for a sustainable future. Across all our products, we consider the impact on people, forests, and the world. That\u2019s why for every tree we use, at least two are regrown so you can conveniently and confidently clean messes in the kitchen and around the house knowing Bounty Paper Towels is helping to keep forests greener. Bounty always has your back in and out of the kitchen so whether it\u2019s juice on the counter or ice cream on the table, we make sure spills won\u2019t stand a chance. *vs. leading ordinary brand"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/62653839-88E2-43D0-AEBCACB3F6F590B9_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "skuDescription": "BOUNTY SAS DOUBLE",
+              "skuNumber": "2847075",
+              "unitPrice": 25.99,
+              "qtyOrdered": 3,
+              "qtyShipped": 3,
+              "isReshipped": false,
+              "lineTotal": 58.97,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 19,
+              "couponDetails": [
+                {
+                  "chargeNo": "214750",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #58324",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 9,
+                  "chargePerUnit": 3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $50 or more of Procter and Gamble products.",
+                  "chargeDesc": "$10 off your purchase of $50 or more of Procter and Gamble products.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 3.333333333
+                }
+              ],
+              "regularCouponsTotal": 19,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 77.97,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "2847075"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411419H7J4AYQYR"
+  }
+}

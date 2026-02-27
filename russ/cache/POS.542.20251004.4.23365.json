@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREVFVndCcm44b0I4WEM3U0drUU93Mm1sU3RvR0NEZ1BHUXJkNUp6cHJMaDlDeEtNVE16Y1M1RDNFZlB6TmxaMjV0MG1Yc1pNMzFmRTZrS3RKMmlaeHM9",
+  "keyForOrderDetails": "U3RNREVRbVlDZmlKNzNDK2MwYjU0ZVRqV1ZmTUg2NkdzU2ZUSjFHd000emM5ZmY2NnkrUGJXSG5ENldKTjFPd3BYUzdRYzZ1ZFV2cTNYb1hvaG1uck5uMFk9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -49,22 +49,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:34.106669679",
+      "timeStamp": "2026-02-23T21:53:48.231623903",
       "resourceName": "OrderDetails",
-      "transactionId": "960a66f3a909479ca427ad66613833c7",
+      "transactionId": "dcbb2becc7904c939983901c2c417eda",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20251004.4.23365",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20251004.4.23365",
     "orderDate": "2025-10-04T15:03:17",
-    "keyForOrderDetails": "U3RNREdPbCtVcERzMENmdEY1Sm1iamlXdzhyQUlGS0xuTkNRZG05ejhISU1Xakk2TWRSVmdGUHFDMXZOdWhaU2tNMERpRDFXS2NUYmY1MUhpWEt5Vzltb1E9",
-    "orderUrlKey": "U3RNREdPbCtVcERzMENmdEY1Sm1iamlXdzhyQUlGS0xuTkNRZG05ejhISU1Xakk2TWRSVmdGUHFDMXZOdWhaU2tNMERpRDFXS2NUYmY1MUhpWEt5Vzltb1E9",
-    "customerNumberKey": "U3RNREhhS1ZRWTE2RTVoS0l5TG5tL3J0aUdTZzJjTmdJdU16QzNJbnFoU0QyY1ZIRXQwckUxMEE9PQ==",
+    "keyForOrderDetails": "U3RNREYyMmpZSklNWFRCeCtYdDQ2eTVkUWVYU05ITE1nK3M2RTVRdmhmTWhPQmUzNEZBVVNqbW1LSUxlT2E2RFFFcHN2RURobEdJTUxKRnFnNlprQVFHSTQ9",
+    "orderUrlKey": "U3RNREYyMmpZSklNWFRCeCtYdDQ2eTVkUWVYU05ITE1nK3M2RTVRdmhmTWhPQmUzNEZBVVNqbW1LSUxlT2E2RFFFcHN2RURobEdJTUxKRnFnNlprQVFHSTQ9",
+    "customerNumberKey": "U3RNREVDbWJmVHNpNEZNUGxzYk5DTmxDRms4RnM3Ly9EU2dLNlJCMkw0RFdGWmp5UjdLbkdJS1E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -179,19 +180,12 @@
               "ctaText": "Add",
               "actionLabel": "addToCart",
               "isQtyChangeAvailable": true,
-              "savings": [
-                {
-                  "valueText": "$37.00",
-                  "description": "Member Savings",
-                  "type": "MEMBER_SAVINGS"
-                }
-              ],
               "isDeliveryInstock": true,
               "actionUrl": "",
               "unitsNum": "",
               "units": "96/Carton",
               "rating": 4.73,
-              "ratingCount": 6991,
+              "ratingCount": 6996,
               "ratingUrl": "/green-mountain-dark-magic-coffee-keurig-k-cup-pods-dark-roast-96-carton-4061/product_865670?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -211,34 +205,34 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 670,
+                  "reviewCount": 671,
                   "reviewPercent": 10
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 5892,
+                  "reviewCount": 5896,
                   "reviewPercent": 84
                 }
               ],
-              "price": "$39.99",
-              "priceValue": 39.99,
+              "price": "$76.99",
+              "priceValue": 76.99,
               "isPriceNotAvailable": false,
-              "pricePerUnit": "$0.42/Pod",
+              "pricePerUnit": "$0.80/Pod",
               "isOutOfStock": false,
               "autoRestockEligible": true,
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 147,
+                "availableQuantity": 158,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -259,11 +253,9 @@
                 ]
               },
               "skusetID": "SS115832192",
-              "totalSavingsPercentage": 48.06,
+              "totalSavingsPercentage": 0,
               "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/5942D4DF-1120-4ECF-80D4520BC90CBDCA_sc7?$std$",
               "isRPDC": true,
-              "originalPrice": "$76.99",
-              "originalPriceLabel": "Regular price",
               "STSEligible": true,
               "skuDescription": "Green Mountain Dark Magic Coffee Keurig",
               "skuNumber": "865670",

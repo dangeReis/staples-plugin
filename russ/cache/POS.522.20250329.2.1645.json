@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREVqRWlRazAvSWh0YVNIc0V1TWpQK0hoN3d6clpVZEt4cFRjL3BhVXQ2T3k2b1c2bHl2VlU0ODErWkhYNHM3MUo5Q0tGRVdoOTdoTGpuRU1pWHBXQT09",
+  "keyForOrderDetails": "U3RNREZKZFdFLzVmZzRGM1RJYmZwaFBCUU1lMHVWTko0dDZZNUhwOGJmalUyNzk3Y01Qb3lac1UrdUZJUHlnaTNENmlHN2R2ZUpYVFh4cmpTZ0ZjUWdUdz09",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -181,22 +181,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:40.472109203",
+      "timeStamp": "2026-02-23T21:54:55.736409774",
       "resourceName": "OrderDetails",
-      "transactionId": "7f176813cee6434fbd2fa6106c9c443b",
+      "transactionId": "fe451f068de64d5bb8aa3a899f6f2d1b",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20250329.2.1645",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20250329.2.1645",
     "orderDate": "2025-03-29T18:36:42",
-    "keyForOrderDetails": "U3RNREdHdTFKMUp0ZzUrUUhZdXJncFdNenB4VTRxbnMwekJXbmU2Tk1ZNVNUTDIzOEJLR0doV3R4WEp0bU1CMWdYaWYyYjZ0ODR3Slk1K2lVZ3Z5WkpBdz09",
-    "orderUrlKey": "U3RNREdHdTFKMUp0ZzUrUUhZdXJncFdNenB4VTRxbnMwekJXbmU2Tk1ZNVNUTDIzOEJLR0doV3R4WEp0bU1CMWdYaWYyYjZ0ODR3Slk1K2lVZ3Z5WkpBdz09",
-    "customerNumberKey": "U3RNREZDM01wa1d4Z1UzT0cvdVJ4YzN1c01ycEZzRHNtN25aazM4N216eGZ2M1JpSnRxN2lMUkE9PQ==",
+    "keyForOrderDetails": "U3RNREh1aCtkanJSSFk1Z3FzRTRCakxlampyTDM3TmFDc3ZsMkl1TEVmVExhSFVvVEV6S2hLZTNocUVmODl1NmpRbmEraU5LWTJkeHpocDMrNGhFRW96Zz09",
+    "orderUrlKey": "U3RNREh1aCtkanJSSFk1Z3FzRTRCakxlampyTDM3TmFDc3ZsMkl1TEVmVExhSFVvVEV6S2hLZTNocUVmODl1NmpRbmEraU5LWTJkeHpocDMrNGhFRW96Zz09",
+    "customerNumberKey": "U3RNREcwMEx3TGNoaXI2QnVHWDRvNlZIZnhNWXI3S3dlSHhxSjRQQnJjVEliTCt0UkFsWnBjWFE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -534,8 +535,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -688,7 +689,7 @@
               "unitsNum": "",
               "units": "100/Box",
               "rating": 4.7,
-              "ratingCount": 1604,
+              "ratingCount": 1606,
               "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -713,7 +714,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 1298,
+                  "reviewCount": 1300,
                   "reviewPercent": 81
                 }
               ],
@@ -728,18 +729,18 @@
               "autoRestockPrice": "$17.47",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 1877,
+                "availableQuantity": 1776,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -850,20 +851,20 @@
               "couponTotal": 19.31,
               "couponDetails": [
                 {
-                  "chargeNo": "214092",
-                  "chargeCategory": "SMPL",
-                  "chargeName": "Instant Savings #37593",
-                  "chargeDesc": "PROMOTION",
-                  "chargeAmount": 2,
-                  "chargePerUnit": 2
-                },
-                {
                   "chargeNo": "0",
                   "chargeCategory": "SLP",
                   "chargeName": "Easy Rewards Points Redemption",
                   "chargeDesc": "Easy Rewards Points Redemption",
                   "chargeAmount": 17.31,
                   "chargePerUnit": 17.31
+                },
+                {
+                  "chargeNo": "214092",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #37593",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 2,
+                  "chargePerUnit": 2
                 }
               ],
               "regularCouponsTotal": 19.31,
@@ -990,8 +991,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1549,14 +1550,14 @@
                   "couponTotal": 234.18,
                   "couponDetails": [
                     {
-                      "chargeNo": "0",
-                      "chargeName": "Easy Rewards Points Redemption",
-                      "chargeAmount": 215.53
-                    },
-                    {
                       "chargeNo": "215677",
                       "chargeName": "Instant Savings #",
                       "chargeAmount": 18.65
+                    },
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 215.53
                     }
                   ],
                   "regularCouponsTotal": 234.18,
@@ -1651,7 +1652,7 @@
                   "unitsNum": "",
                   "units": "100/Box",
                   "rating": 4.7,
-                  "ratingCount": 1604,
+                  "ratingCount": 1606,
                   "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
                   "reviewDetails": [
                     {
@@ -1676,7 +1677,7 @@
                     },
                     {
                       "rating": 5,
-                      "reviewCount": 1298,
+                      "reviewCount": 1300,
                       "reviewPercent": 81
                     }
                   ],
@@ -1691,18 +1692,18 @@
                   "autoRestockPrice": "$17.47",
                   "itemAvailability": {
                     "inventoryMode": "STANDARD",
-                    "availableQuantity": 1877,
+                    "availableQuantity": 1776,
                     "minLeadTime": 2,
                     "maxLeadTime": 2,
-                    "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                    "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                    "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
                   },
                   "savingsPercentageOverSTAPrice": 5,
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1810,14 +1811,14 @@
                   "couponTotal": 19.31,
                   "couponDetails": [
                     {
-                      "chargeNo": "0",
-                      "chargeName": "Easy Rewards Points Redemption",
-                      "chargeAmount": 17.31
-                    },
-                    {
                       "chargeNo": "214092",
                       "chargeName": "Instant Savings #",
                       "chargeAmount": 2
+                    },
+                    {
+                      "chargeNo": "0",
+                      "chargeName": "Easy Rewards Points Redemption",
+                      "chargeAmount": 17.31
                     }
                   ],
                   "regularCouponsTotal": 19.31,
@@ -1831,7 +1832,7 @@
             "itemsCount": 2
           }
         ],
-        "orderUrlKey": "U3RNREUzenU3YmkrRGVJeEFKbU9TSkMwZFQ5UGpLcEMrQ3JuUDVVN2dGQTRVRGNOcU9WUkFOSWVZVW5Pd2JHVTFjK3RWWjFzTUhaMmNBbFBid2JRbjdRYWM9"
+        "orderUrlKey": "U3RNREh2Q0t4YWdLTkNwbkJ3OTBXZEptVzVWUlljbEw1UVZmN01WdjV2M3Q1ZGg0ZklSajQwNHlQRnpjWEZ1eldZSnFEZU85cWEwcEhjM1N0L2tqWFhCU2M9"
       },
       {
         "returnOrderNumber": "POS.542.20250406.2.41370",
@@ -1970,8 +1971,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -2148,8 +2149,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -2214,7 +2215,7 @@
             "itemsCount": 2
           }
         ],
-        "orderUrlKey": "U3RNREcvWnN5VjVjSkNJSTZudHZnSlR6WGZJR2J1ZWJiS1cxOHIwTzdMUENqdHlzdWpaNmlwVHR3bTJjb0pwUTVLYUdyRGdlWHpDVE1lb294U3Z5eVE1YWs9"
+        "orderUrlKey": "U3RNREdBbTBlNDNYemVSYlNjTHZnSTlUSlNLanVwY1QzdkRzZEZxZmdBZmo2YmxDdHFNMm5lUGZzV1NpeU9hdGZVUjI2dy9Ba3JLbVg2ekQrc0h3aGVIMnc9"
       }
     ],
     "productsOnOrder": [

@@ -1,0 +1,123 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "9929237809",
+  "orderType": "SALES",
+  "orderChannel": "WEB",
+  "orderDate": "2025-03-27T21:00:07",
+  "paymentRequired": false,
+  "isAnyItemCancelable": false,
+  "transactionExists": true,
+  "allowDuplicateOrder": true,
+  "onlyShipmentTotalMatched": false,
+  "keyForOrderDetails": "U3RNREhYVFp4UEF4S0xxb0dZMkpvZ1N3YWNHZmJpYS8rYkZmdTduOGRLOWNmVzZhNlBiN25KVVdRSHZ5TExHaXdhUnk3Ug==",
+  "salesTranID": "25505123407",
+  "ordererUserID": "1445647760",
+  "linelevelBCEnabled": false,
+  "statusCd": "850",
+  "statusDesc": "Partially Picked up",
+  "merchandiseTotal": 0,
+  "grandTotal": 0.5,
+  "orderLines": [
+    {
+      "salesTranLineItemId": "241904042341",
+      "lineType": "ISP",
+      "productSku": "485949",
+      "productName": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+      "productDepartment": "7",
+      "productClass": "799",
+      "productSubClass": "79",
+      "vendorModel": "4011-LONG",
+      "productUOM": "EACH",
+      "unitPrice": 32.39,
+      "orderQty": 1,
+      "originalOrderedQty": 2,
+      "returnedQty": 0,
+      "total": 0.16,
+      "invoicedTotal": 0.16,
+      "statuses": [
+        {
+          "statusCode": "1000",
+          "statusDesc": "Picked up",
+          "totalQty": 1,
+          "statusQty": 1
+        },
+        {
+          "statusCode": "100",
+          "statusDesc": "Item(s) Unavailable",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "3700.200",
+      "productDesc": "Scotch Foam Double-Sided Mounting Tape, 1\" x 12.5 yds., Gray (4011-LONG)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/674F3405-F7B1-424A-8DC2464FBE7C6B4E_sc7?$thb$",
+      "productURL": "scotch-outdoor-mounting-tape-1-x-450-gray-1-roll-4011-long/product_485949",
+      "model": "4011-LONG",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "485949",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "salesTranLineItemId": "241904042338",
+      "lineType": "ISP",
+      "productSku": "2841782",
+      "productName": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+      "productDepartment": "7",
+      "productClass": "806",
+      "productSubClass": "80",
+      "vendorModel": "25091-CHOCO-ST",
+      "productUOM": "EACH",
+      "unitPrice": 16.99,
+      "orderQty": 4,
+      "originalOrderedQty": 5,
+      "returnedQty": 0,
+      "total": 0.34,
+      "invoicedTotal": 0.34,
+      "statuses": [
+        {
+          "statusCode": "1000",
+          "statusDesc": "Picked up",
+          "totalQty": 4,
+          "statusQty": 4
+        },
+        {
+          "statusCode": "100",
+          "statusDesc": "Item(s) Unavailable",
+          "totalQty": 1,
+          "statusQty": 1
+        }
+      ],
+      "isReturnable": false,
+      "isCancelable": false,
+      "lineStatusCode": "3700.200",
+      "productDesc": "Kennedy International Simplify Open Lid Storage Bin, Chocolate (25091-CHOCO-ST)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp106730872_sc7?$thb$",
+      "productURL": "kennedy-international-simplify-open-lid-storage-bin-chocolate-25091-choco-st/product_2841782",
+      "model": "25091-CHOCO-ST",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2841782",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "pointsIssued": 0,
+  "pointsRedeemed": 29800,
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "online"
+}

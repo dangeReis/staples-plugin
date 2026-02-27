@@ -186,7 +186,7 @@ def fetch_online_details(context, order_num, tp_sid_key):
     if tp_sid_key:
         tp_sid_key = quote(tp_sid_key)
 
-    url = f"https://www.staples.com/sdc/ptd/api/orderDetails/ptd/orderdetails?orderNo={order_num}&orderType=online_online"
+    url = "https://www.staples.com/sdc/ptd/api/orderDetails/ptd/orderdetails?orderType=online_online"
     if tp_sid_key:
         url += f"&tp_sid={tp_sid_key}"
     url += "&pgIntlO=Y"

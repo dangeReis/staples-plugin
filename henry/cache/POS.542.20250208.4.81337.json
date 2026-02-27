@@ -1,0 +1,325 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.542.20250208.4.81337",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-02-08T15:58:46",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREgyMm1GdkVwVXk5WlFKQyt1aFB5c1ZzZEpoUHR0MzJ5NHd4a1FZL2YrbmxqWi9mR2gvVkRGY3Z1cTBIUGxPNHdHeXJMamN3eGMxZUgrNktzOGxEcEE9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.49,
+  "orderLines": [
+    {
+      "productSku": "24520588",
+      "productName": "TP-LINK AX1500 WI-",
+      "productShortDesc": "TP-LINK AX1500 WI-",
+      "productLongDesc": "TP-LINK AX1500 WI-",
+      "unitPrice": 49.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163287979_sc7?$thb$",
+      "productURL": "tp-link-archer-ax1500-dual-band-mu-mimo-gaming-router-black-archer-ax1500/product_24520588",
+      "model": "ARCHER AX1500",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24520588",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:46:11.288382636",
+      "resourceName": "OrderDetails",
+      "transactionId": "b2d9aeb2cd594960ab7ec137ba2ab765",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250208.4.81337",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.542.20250208.4.81337",
+    "orderDate": "2025-02-08T15:58:46",
+    "keyForOrderDetails": "U3RNREVIWWg1c0piVGRHa2QvMkVVd0k2bnUxYWw0VHNTWGJ0MXg2Ymg0QlBGbHFzVnFqSzFCZ3c4amZVNFo1VldmMERjUEtzSStLdGc3dWZFRUtzNE1TOUk9",
+    "orderUrlKey": "U3RNREVIWWg1c0piVGRHa2QvMkVVd0k2bnUxYWw0VHNTWGJ0MXg2Ymg0QlBGbHFzVnFqSzFCZ3c4amZVNFo1VldmMERjUEtzSStLdGc3dWZFRUtzNE1TOUk9",
+    "customerNumberKey": "U3RNREYzR2FTL2t1bFBpMDBzUjl2RitxMy9sZWJYb2JlVDk2WVdrRk5DdndEWm52cjZoL2doa1E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 49.46,
+    "discountsTotal": 49,
+    "couponsTotal": 0,
+    "pointsRedeemedValue": 49,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.03,
+    "grandTotal": 0.49,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5487",
+              "itemId": "24520588",
+              "compareItemID": "24520588",
+              "url": "/tp-link-archer-ax1500-dual-band-mu-mimo-gaming-router-black-archer-ax1500/product_24520588",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp163287979_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287979_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287980_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp205877104_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287983_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287984_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287985_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287986_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287979_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287980_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp205877104_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287983_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287984_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287985_sc7",
+                "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)~#|#~sp163287986_sc7"
+              ],
+              "title": "TP-LINK Archer AX1500 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX1500)",
+              "model": "ARCHER AX1500",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24520588"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ARCHER AX1500"
+                }
+              ],
+              "manufacturerName": "TP-LINK",
+              "brandName": "TP-LINK",
+              "baseCatName": "",
+              "baseCatId": "CL165749",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4735",
+                  "name": "Networking & WiFi"
+                },
+                "category": {
+                  "id": "CG3066",
+                  "name": "Networking & WiFi"
+                },
+                "supercategory": {
+                  "id": "SC5487",
+                  "name": "Networking & WiFi"
+                },
+                "class": {
+                  "id": "CL165749",
+                  "name": "Routers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165749",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.33,
+              "ratingCount": 163,
+              "ratingUrl": "/tp-link-archer-ax1500-dual-band-mu-mimo-gaming-router-black-archer-ax1500/product_24520588?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 14,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 7,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 7,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 19,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 116,
+                  "reviewPercent": 71
+                }
+              ],
+              "price": "$65.99",
+              "priceValue": 65.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The Archer AX1500 is equipped with the latest Wi-Fi 6 for faster speeds, increased capacity and reduced network congestion. Dual-Band speeds of up to 1.5 Gbps for a buffer-free 4K/HD streaming and gaming experience. Connect more devices via OFDMA and MU-MIMO technology while eliminating network congestion and lag. Five Gigabit ports give you wired stability and speed on more devices. The Archer AX1500 is backwards compatible with all previous Wi-Fi standards and all devices with Wi-Fi capabilities. Download the Tether app to set up your router in minutes."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wi-Fi 6 Technology: Archer AX1500 comes equipped with the latest wireless technology, Wi-Fi 6, for faster speeds, greater capacity and reduced network congestion.",
+                  "Next-Gen 1.5 Gbps Speeds: Archer AX1500 dual-band router reaches even faster speeds up to 1.5 Gbps (1201 Mbps on 5 GHz band and 300 Mbps on 2.4 GHz band).",
+                  "Connect More Devices than Ever Before: Wi-Fi 6 technology simultaneously communicates more data to more devices using OFDMA and MU-MIMO while reducing lag.",
+                  "More Reliable Coverage: Achieve the strongest, most reliable Wi-Fi coverage with Archer AX1500 as it focuses signal strength to your devices using Beamforming technology and four antennas.",
+                  "Increased Battery Life: Target Wake Time technology reduces your devices' power consumption to extend their battery life.",
+                  "Powerful Gigabit LAN Ports: 4 Gigabit Ethernet LAN ports give you wired stability and speed on more devices.",
+                  "Easy Setup: Set up your router in minutes with the powerful TP-Link Tether App.",
+                  "Backward Compatible: Archer AX1500 supports all previous 802.11 standards and all Wi-Fi devices.",
+                  "Warranty and Support: 2-year warranty, 24/7 unlimited technical support."
+                ]
+              },
+              "skusetID": "SS239292602",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp163287980_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TP-LINK AX1500 WI-",
+              "skuNumber": "24520588",
+              "unitPrice": 49.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.46,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0305
+                }
+              ],
+              "couponTotal": 49,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 49,
+                  "chargePerUnit": 49
+                }
+              ],
+              "regularCouponsTotal": 49,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 49.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24520588"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11717LDE4AYQGJ"
+  }
+}

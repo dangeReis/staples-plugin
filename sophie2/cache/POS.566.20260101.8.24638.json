@@ -1,0 +1,233 @@
+{
+  "customerNumber": "7774224799",
+  "orderNumber": "POS.566.20260101.8.24638",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2026-01-01T13:42:42.753",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVrZFhzbndYVUtNbUxObEVsN1VoZ01QM0lrSXRMUlBhQTF3WGQ0ekdQVVZtOG1OSWsreFVFOHhLdGdKNmljQVFkRmNHWVNKdHc1ODk2RDNyaEJrU2M9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "725137",
+      "productName": "INK RECYCLING LIMI",
+      "productShortDesc": "INK RECYCLING LIMI",
+      "productLongDesc": "INK RECYCLING LIMI",
+      "unitPrice": 0.01,
+      "orderQty": 6,
+      "originalOrderedQty": 6,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "INK RECYCLING LIMI",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "566",
+  "storeAddressLine1": "760 Route 46 West",
+  "storeCity": "Parsippany",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:33:06.953508490",
+      "resourceName": "OrderDetails",
+      "transactionId": "a8f5bd7afeb6439bb08211f3deeb718f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.566.20260101.8.24638",
+    "masterAccountNumber": "7774224799",
+    "salesOrderHeaderKey": "POS.566.20260101.8.24638",
+    "orderDate": "2026-01-01T13:42:42.753",
+    "keyForOrderDetails": "U3RNREdRVE9aZ1FOclN6TVJvNzN4aFZVdjlaRjBJMDl3UXFhNjVDVVNrZGVUWGFYOVRYRWZleEdFNEY4dGpydGh3TTEvQS9aN1lFdzBIQzMyRG94Y0pjek09",
+    "orderUrlKey": "U3RNREdRVE9aZ1FOclN6TVJvNzN4aFZVdjlaRjBJMDl3UXFhNjVDVVNrZGVUWGFYOVRYRWZleEdFNEY4dGpydGh3TTEvQS9aN1lFdzBIQzMyRG94Y0pjek09",
+    "customerNumberKey": "U3RNREZ2VUpxRkpUOVVMbmpEeCtPUEQ5QUlzZUwvWVIzR01wZXV6OFk2VDZPemlFemoyUCtkOWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.06,
+    "discountsTotal": 0.06,
+    "couponsTotal": 0.06,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "760 Route 46 West",
+        "city": "Parsippany",
+        "state": "NJ",
+        "zipCode": "07054"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "INK RECYCLING LIMI",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_725137?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "INK RECYCLING LIMI",
+              "skuNumber": "725137",
+              "unitPrice": 0.01,
+              "qtyOrdered": 6,
+              "qtyShipped": 6,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.06,
+              "couponDetails": [
+                {
+                  "chargeNo": "218010",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #27943",
+                  "chargeDesc": "Instant Savings #27943",
+                  "chargeAmount": 0.06,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.06,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.06,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "725137"
+    ],
+    "storeNumber": "566",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "760 Route 46 West",
+      "city": "Parsippany",
+      "state": "NJ",
+      "zipCode": "07054"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RQ11D13FGL4C1HM9"
+  }
+}

@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZKQ21rWXN0dlNkOWZ4Z1laVkczOXIzM08vV1pNUzlWbm5nKzhlQkJaUysrRDl0YnA5WXdjY0FrMVNaY2ltcTVIRm9ZcVk4OFdpQlMzbnFYM24=",
+  "keyForOrderDetails": "U3RNREg5b3poZ2lVV0w5QXF2WGVWaktpREZaMDdzaEFYbUI3TTR1S0N4ZkpnZ3dhcHN5NkZ0T25qT3QrSUFjcDAxUHJWYTZkdXRmRG03U0pSRHlaWUM=",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -60,22 +60,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:47.022165560",
+      "timeStamp": "2026-02-23T21:55:02.417646847",
       "resourceName": "OrderDetails",
-      "transactionId": "b3cd84ed180946c6b73564587876abe9",
+      "transactionId": "fa0e7698042f4ad28bf2c5b33e17c0b9",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.522.20250320.2.395",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.522.20250320.2.395",
     "orderDate": "2025-03-20T17:58:04",
-    "keyForOrderDetails": "U3RNREZyd0RVZlZIQit2RWYrSlp3bFgxNTJKanYrckEzRnpMckxwTTR0YlVDUzZod21MTG1Fd2Y4R1RuTWlaOUhrK2tUMVNSOU9Wckg2OGUyMXJLOGM=",
-    "orderUrlKey": "U3RNREZyd0RVZlZIQit2RWYrSlp3bFgxNTJKanYrckEzRnpMckxwTTR0YlVDUzZod21MTG1Fd2Y4R1RuTWlaOUhrK2tUMVNSOU9Wckg2OGUyMXJLOGM=",
-    "customerNumberKey": "U3RNREZZZFZOZXcwRUZ2VGZidnhSN3RCNkh0eHg0SnZZRlVseGc4ek4reFdBSUFuWmlUT2JaZGc9PQ==",
+    "keyForOrderDetails": "U3RNREVFZFl2cmNPamZ4NHpZUGpKckxFcEtQbVlyUEdTaHVsUFgzYzhldjZnWWZXSGFDUmR4ekxjMm5rckJSWTRqNVQyTmx2bHhQdnlFTzVvenNxbHk=",
+    "orderUrlKey": "U3RNREVFZFl2cmNPamZ4NHpZUGpKckxFcEtQbVlyUEdTaHVsUFgzYzhldjZnWWZXSGFDUmR4ekxjMm5rckJSWTRqNVQyTmx2bHhQdnlFTzVvenNxbHk=",
+    "customerNumberKey": "U3RNREhheDlodDZpdnZ1MHhEMUxoM3I2emFod3lybHIrcmtCcEozQ2pWMzU1dHQ3K25yQWdVR2c9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -203,7 +204,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.59,
-              "ratingCount": 11133,
+              "ratingCount": 11134,
               "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -228,7 +229,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 8418,
+                  "reviewCount": 8419,
                   "reviewPercent": 76
                 }
               ],
@@ -413,7 +414,7 @@
                   "unitsNum": "",
                   "units": "",
                   "rating": 4.59,
-                  "ratingCount": 11133,
+                  "ratingCount": 11134,
                   "ratingUrl": "/cascade-original-actionpacs-dishwashing-detergent-fresh-scent-105-pods-box-3700028028/product_24552240?scrollToReviews=Y",
                   "reviewDetails": [
                     {
@@ -438,7 +439,7 @@
                     },
                     {
                       "rating": 5,
-                      "reviewCount": 8418,
+                      "reviewCount": 8419,
                       "reviewPercent": 76
                     }
                   ],
@@ -511,7 +512,7 @@
             "itemsCount": 1
           }
         ],
-        "orderUrlKey": "U3RNREZrZFdNOVRwNFA2ejhQdHJJZzlTR2swc2tuNmpJZURZS2N6dmtLc2tTd0h0ZVFoSys5Zms2UlRKcHpUNVR3cXRSL2NMZVMrNzN3Nlc4TWNaZ2RFOGs9"
+        "orderUrlKey": "U3RNREVOU0NsNVVuOFA1NXR3NXkyMmwzYmprWGl6Nm9GbHRjaW5Ed1FiM1ZFcVlVSnl3N3JVZ1JISm0xTlJpSEszSGVtb2JVTnlrMHBWVWQybmR6MjNMMDg9"
       }
     ],
     "productsOnOrder": [

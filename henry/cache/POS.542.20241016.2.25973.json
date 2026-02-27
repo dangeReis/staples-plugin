@@ -1,0 +1,370 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.542.20241016.2.25973",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-16T20:56:05",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdTWmxHVC9VcVprd1Z4dkdBamNKbVA1emFWYVVBcUcrUVFEaU1Ga1RFQ0hSNG1rVHBIc2JXUG9ySjdiRWNvbTFGRzl4Q0JkZjY4dTJlZmExdXFDL3c9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 213.77,
+  "orderLines": [
+    {
+      "productSku": "24401670",
+      "productName": "Brother TN223 BlackCyanMagentaYellow St",
+      "productShortDesc": "Brother TN223 BlackCyanMagentaYellow St",
+      "productLongDesc": "Brother TN223 BlackCyanMagentaYellow St",
+      "unitPrice": 272.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/08219005-A1F2-4F3C-B2333B623F9EAFBE_sc7?$thb$",
+      "productURL": "brother-tn-223-black-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-4-pack-tn2234pk/product_24401670",
+      "model": "TN2234PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401670",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:53:30.659819463",
+      "resourceName": "OrderDetails",
+      "transactionId": "95061990cd134f7abb67221c057f2a00",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241016.2.25973",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.542.20241016.2.25973",
+    "orderDate": "2024-10-16T20:56:05",
+    "keyForOrderDetails": "U3RNREVKYjRnRkdMNFdmMm9DVHdhTmdIa21wdFlnNS91OUNSVVA1c0VrNlRMOXVoTDFFSHNxL3ZtbjBOTHVuMnVodUFPV0FSV2hJTXhjbWJzUDdnbEJwMXM9",
+    "orderUrlKey": "U3RNREVKYjRnRkdMNFdmMm9DVHdhTmdIa21wdFlnNS91OUNSVVA1c0VrNlRMOXVoTDFFSHNxL3ZtbjBOTHVuMnVodUFPV0FSV2hJTXhjbWJzUDdnbEJwMXM9",
+    "customerNumberKey": "U3RNREU2SXlqUk52MnZWSHRtc053RjhYckdaS05nNzBUYlB2Rnd0SjN0UURENFViWGRjWWMzb3c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 272.49,
+    "discountsTotal": 72,
+    "couponsTotal": 65,
+    "pointsRedeemedValue": 7,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 13.28,
+    "grandTotal": 213.77,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC43",
+              "itemId": "24401670",
+              "compareItemID": "24401670",
+              "url": "/brother-tn-223-black-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-4-pack-tn2234pk/product_24401670",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/08219005-A1F2-4F3C-B2333B623F9EAFBE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/08219005-A1F2-4F3C-B2333B623F9EAFBE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EABCEBF6-DC12-4C98-B27F8499AEF4F08D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/5288FCF4-CBB3-463D-94AAAC4A11C79CE4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/50FAD90C-91DB-411D-80C40FA993B0FCC0_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/72B458BE-A8D9-4761-96E79C154D5D762B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/99A56CE6-1CBD-4E46-BBFC3DF7D414F356_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9EBED374-2E82-4C93-AB64E9967F82AB20_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/062777C3-FF1B-4414-AE863F410C1CB079_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/457A1F64-1C72-43C2-A398192B62EB6960_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~08219005-A1F2-4F3C-B2333B623F9EAFBE_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~EABCEBF6-DC12-4C98-B27F8499AEF4F08D_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~5288FCF4-CBB3-463D-94AAAC4A11C79CE4_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~50FAD90C-91DB-411D-80C40FA993B0FCC0_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~72B458BE-A8D9-4761-96E79C154D5D762B_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~99A56CE6-1CBD-4E46-BBFC3DF7D414F356_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~9EBED374-2E82-4C93-AB64E9967F82AB20_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~062777C3-FF1B-4414-AE863F410C1CB079_sc7",
+                "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)~#|#~457A1F64-1C72-43C2-A398192B62EB6960_sc7"
+              ],
+              "title": "Brother TN-223 Black/Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 4/Pack (TN2234PK)",
+              "model": "TN2234PK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24401670"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN2234PK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.23,
+              "ratingCount": 1817,
+              "ratingUrl": "/brother-tn-223-black-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-4-pack-tn2234pk/product_24401670?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 213,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 51,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 102,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1264,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$314.99",
+              "priceValue": 314.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 236,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Brother TN2234PK four-pack of genuine standard-yield toner cartridges contains one cartridge each of black, cyan, magenta, and yellow toner that deliver consistent, professional laser-quality prints you can rely on for up to 1400 pages* per black cartridge and up to 1300 pages* per each color cartridge. The Brother four-pack of laser cartridges offers the convenience of having extra toner cartridges on hand. Brother toner is intelligently engineered to work seamlessly with your Brother printer to consistently deliver rich, vivid laser-quality color prints and sharp, crisp black and white laser-quality prints that withstand the test of time. Use of Brother multipack laser toner offers convenience and helps minimize the number of repeat toner orders you need to place."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW and MFC-L3770CDW.",
+                  "Black - Page Yield of up to 1,400 pages* per cartridge; Color - Page Yield of up to 1,300 pages* per cartridge",
+                  "Multi-pack - 4 individual colors (Black, Cyan, Magenta, Yellow).",
+                  "Brother Genuine TN223 4PK 4-Pack Toner Cartridges; includes 1 each of Black, Cyan, Magenta and Yellow.",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time.",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges. Visit www.brother-usa.com/environment for more information.",
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ],
+                "headliner": [
+                  "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Brother TN223 BlackCyanMagentaYellow St",
+              "skuNumber": "24401670",
+              "unitPrice": 272.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 200.49,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 13.2825
+                }
+              ],
+              "couponTotal": 72,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 7,
+                  "chargePerUnit": 7
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 20,
+                  "chargePerUnit": 20
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                }
+              ],
+              "regularCouponsTotal": 72,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 272.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24401670"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11413HFY4AYFF3"
+  }
+}

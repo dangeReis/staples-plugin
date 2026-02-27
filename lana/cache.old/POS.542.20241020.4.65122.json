@@ -1,0 +1,605 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20241020.4.65122",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-20T12:34:13",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdjSDZGZU1zdjJJWWd0RlZ1bGFSL0FFZ2kxZk5qc1NxazVkRWg1S3k5c0Ezc0JRWUpMMndYenI1bTZ6eWRVMjRzSWdmMSt4Yk5ER2RueURLZGtndlU9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 213.32,
+  "orderLines": [
+    {
+      "productSku": "24401678",
+      "productName": "BROTHER TN4313PK",
+      "productShortDesc": "BROTHER TN4313PK",
+      "productLongDesc": "BROTHER TN4313PK",
+      "unitPrice": 229.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+      "productURL": "brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+      "model": "TN4313PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401678",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.89,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:46:49.392714088",
+      "resourceName": "OrderDetails",
+      "transactionId": "0710ed833f414ec09b3992d97eb5d731",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241020.4.65122",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20241020.4.65122",
+    "orderDate": "2024-10-20T12:34:13",
+    "keyForOrderDetails": "U3RNREc0Skg2cjAxZDZrOEVLbXl0ZkM4RTdBTmJVblBBN2NNci9Ield2ekpJZzRBNG1Qc1EyTEkwMzdCeFUzdnNiYmdpMDk4VXJ1Q0dEcmhXRDVTMXArcm89",
+    "orderUrlKey": "U3RNREc0Skg2cjAxZDZrOEVLbXl0ZkM4RTdBTmJVblBBN2NNci9Ield2ekpJZzRBNG1Qc1EyTEkwMzdCeFUzdnNiYmdpMDk4VXJ1Q0dEcmhXRDVTMXArcm89",
+    "customerNumberKey": "U3RNREc4Y1lTR0o4UnlmNG9waGx4Tm00Y0pzRWdHNDhIT2VPY0xvLzc0LzJvUncxc0hjT2RHdVE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 259.38,
+    "discountsTotal": 58.79,
+    "couponsTotal": 56.79,
+    "pointsRedeemedValue": 2,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 12.73,
+    "grandTotal": 213.32,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC43",
+              "itemId": "24401678",
+              "compareItemID": "24401678",
+              "url": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B503710F-014F-44A4-AA70795FAFFB9C13_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1EA662B7-94A2-450A-833DB3A1917FCA65_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9BABCE00-8136-49AC-A676E6C6EC02247B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/91015CE0-B582-46D5-99D4C75DC67ABD44_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B503710F-014F-44A4-AA70795FAFFB9C13_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~1EA662B7-94A2-450A-833DB3A1917FCA65_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~9BABCE00-8136-49AC-A676E6C6EC02247B_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~2D074232-3C96-4507-B2D02E7FB2FEAA1A_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91015CE0-B582-46D5-99D4C75DC67ABD44_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~91AA9B7A-8E4D-4165-BCB52B9F87BB1098_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~3E5D0793-4628-4B52-B3EF30B32C6D3FAA_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~654C91D6-97A3-42E7-A23B2119DD5A4E6D_sc7",
+                "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)~#|#~B1A38628-F6CB-42E2-B4BCF9EE60793711_sc7"
+              ],
+              "title": "Brother TN-431 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack (TN4313PK)",
+              "model": "TN4313PK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24401678"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN4313PK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "3/Pack",
+              "rating": 4.43,
+              "ratingCount": 861,
+              "ratingUrl": "/brother-tn-431-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-800-pages-3-pack-tn4313pk/product_24401678?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 72,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 22,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 33,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 74,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 660,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$265.49",
+              "priceValue": 265.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.15/Cost Per Page",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 332,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Delivering professional, vivid prints with 1800-page yield*, Brother TN-431 3PK genuine standard-yield color toner cartridges are intelligently engineered to work seamlessly with Brother printers for consistent results. Pack includes one each of cyan toner, yellow toner, and magenta toner."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L8260CDW, HL-L8360CDW, HL-L8360CDWMT, HL-L8360CDWT, MFC-L8610CDW, MFC-L8900CDW",
+                  "Brother Genuine TN4313PK Standard-Yield 3 Pack Color Ink Cartridges \u2013 includes 1 Cyan, 1 Magenta and 1 Yellow Cartridge.",
+                  "Page Yield of up to 1,800 pages* per cartridge.",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ],
+                "headliner": [
+                  "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BROTHER TN4313PK",
+              "skuNumber": "24401678",
+              "unitPrice": 229.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 192.19,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 12.7326
+                }
+              ],
+              "couponTotal": 37.3,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 13.27,
+                  "chargePerUnit": 13.27
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 8.85,
+                  "chargePerUnit": 8.85
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 8.85,
+                  "chargePerUnit": 8.85
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 4.42,
+                  "chargePerUnit": 4.42
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.91,
+                  "chargePerUnit": 1.91
+                }
+              ],
+              "regularCouponsTotal": 37.3,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 229.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-23T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-23T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Apr 23 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.89,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 8.4,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 21.49,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.73,
+                  "chargePerUnit": 1.73
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.15,
+                  "chargePerUnit": 1.15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.15,
+                  "chargePerUnit": 1.15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.58,
+                  "chargePerUnit": 0.58
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.09,
+                  "chargePerUnit": 0.09
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $23.1",
+                  "chargeName": "100% Price Guarantee $23.1",
+                  "chargeDesc": "100% Price Guarantee $23.1",
+                  "chargeAmount": 6.79,
+                  "chargePerUnit": 6.79
+                }
+              ],
+              "regularCouponsTotal": 21.49,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.89,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24401678",
+      "901974"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716NDN4AYFJ7"
+  }
+}

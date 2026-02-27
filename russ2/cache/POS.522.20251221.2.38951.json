@@ -1,0 +1,346 @@
+{
+  "customerNumber": "7773900985",
+  "orderNumber": "POS.522.20251221.2.38951",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-12-21T17:25:45.299",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZlVEVGaG5wdlZkUkRHdld2TDVEQ3dVTkJCNUVwVE5sSUJ3em41aG5Beklad0FRejNpcFJEdzgzTlhTUDR4S25ITlRlWGF1aWlLL09zOVpEWklwNDg9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 44.95,
+  "orderLines": [
+    {
+      "productSku": "62171",
+      "productName": "Duracell AA NiMH Battery rechargeable 4",
+      "productShortDesc": "Duracell AA NiMH Battery rechargeable 4",
+      "productLongDesc": "Duracell AA NiMH Battery rechargeable 4",
+      "unitPrice": 19.29,
+      "orderQty": 4,
+      "originalOrderedQty": 4,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+      "productURL": "duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+      "model": "DX1500B4N001",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "62171",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "Hackensack",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T09:50:14.424702641",
+      "resourceName": "OrderDetails",
+      "transactionId": "2ab0972b2d6f4aa5b496564168860e18",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20251221.2.38951",
+    "masterAccountNumber": "7773900985",
+    "salesOrderHeaderKey": "POS.522.20251221.2.38951",
+    "orderDate": "2025-12-21T17:25:45.299",
+    "keyForOrderDetails": "U3RNREc4d2JmbDJ1N3NqZDI1WmJoaUozSzJCbzJXMlRsRlc5OElDYjFWdmFHRnFhdWYyR0QxR2dZblF0Ymh0eVRuQU10T2s1M29kM0p1QXBsSmhDZllaNVU9",
+    "orderUrlKey": "U3RNREc4d2JmbDJ1N3NqZDI1WmJoaUozSzJCbzJXMlRsRlc5OElDYjFWdmFHRnFhdWYyR0QxR2dZblF0Ymh0eVRuQU10T2s1M29kM0p1QXBsSmhDZllaNVU9",
+    "customerNumberKey": "U3RNREZkNXdSLzNvM1pGczRBY0lEcFBRYURFRW0wbE5DeXVzOWxFUkxFeVpKU2pPTVhIUEtyM2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 77.16,
+    "discountsTotal": 35,
+    "couponsTotal": 25,
+    "pointsRedeemedValue": 10,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.79,
+    "grandTotal": 44.95,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC350075",
+              "itemId": "62171",
+              "compareItemID": "62171",
+              "url": "/duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/701D0441-5356-490A-B9BF8BAC156D6E0F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/70497F82-EAC4-4A05-817324FEC5AE46EB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9D4BCD4B-862B-40AC-AB455D18CDDF9482_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EA33A502-3A00-4F3E-BF4D6BD791693D0C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/76BD84C3-C450-4715-8371C388C8C99250_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1FFE4092-BCE0-45AC-9597A19FAF08D171_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~701D0441-5356-490A-B9BF8BAC156D6E0F_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~70497F82-EAC4-4A05-817324FEC5AE46EB_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~9D4BCD4B-862B-40AC-AB455D18CDDF9482_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~EA33A502-3A00-4F3E-BF4D6BD791693D0C_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~76BD84C3-C450-4715-8371C388C8C99250_sc7",
+                "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)~#|#~1FFE4092-BCE0-45AC-9597A19FAF08D171_sc7"
+              ],
+              "title": "Duracell AA NiMH Battery, rechargeable, 4/Pack (DX1500B4N001)",
+              "model": "DX1500B4N001",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "62171"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "DX1500B4N001"
+                }
+              ],
+              "manufacturerName": "Duracell",
+              "brandName": "Duracell",
+              "baseCatName": "Battery Shop",
+              "baseCatId": "CL80302",
+              "hierarchy": {
+                "department": {
+                  "id": "DP803",
+                  "name": "Battery Shop"
+                },
+                "category": {
+                  "id": "CG75",
+                  "name": "Battery Shop"
+                },
+                "supercategory": {
+                  "id": "SC350075",
+                  "name": "Batteries & Power"
+                },
+                "class": {
+                  "id": "CL80302",
+                  "name": "General Purpose Batteries"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL80302",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "4/Pack",
+              "rating": 4.22,
+              "ratingCount": 728,
+              "ratingUrl": "/duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 71,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 19,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 42,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 140,
+                  "reviewPercent": 19
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 456,
+                  "reviewPercent": 63
+                }
+              ],
+              "price": "$19.29",
+              "priceValue": 19.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$4.82/Battery",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 142,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "With its Ion Core technology you get amazing power in every battery. Plus, they come pre-charged and ready to use. They are guaranteed to last for 10 years* in storage and they will hold a charge for up to 1 year when not in use. These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times. *or up to 400 recharges, whichever comes first."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "DURACELL AA RECHARGEABLE BATTERIES: The Duracell Rechargeable AA battery is designed for use in video game controllers, wireless electronics, baby monitors, and more.",
+                  "RECHARGEABLE BATTERIES: These powerful NiMH batteries work in any NiMH charger and you can recharge them up to 400 times, helping save you money.",
+                  "LONG LASTING CHARGE: Designed and developed with Ion Core technology. You can get hundreds of cycles out of each Duracell Rechargeable battery.",
+                  "GUARANTEED FOR 10 YEARS IN STORAGE: Duracell Rechargeable batteries are guaranteed to perform for up to 10 years in storage* in storage and will hold a charge for up to 1 year when not in use.",
+                  "#1 TRUSTED BATTERY BRAND: Duracell Rechargeable batteries are available in Double A (AA) and Triple A (AAA) sizes.",
+                  "<a href=\"http://sds.staples.com/msds/62171.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Duracell Rechargeable Pre-Charged NiMH batteries let you charge hundreds of times, helping you save money."
+                ]
+              },
+              "skusetID": "SS298632093",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/70497F82-EAC4-4A05-817324FEC5AE46EB_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "Duracell AA NiMH Battery rechargeable 4",
+              "skuNumber": "62171",
+              "unitPrice": 19.29,
+              "qtyOrdered": 4,
+              "qtyShipped": 4,
+              "isReshipped": false,
+              "lineTotal": 42.16,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.79
+                }
+              ],
+              "couponTotal": 35,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 3.75
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $50 or more",
+                  "chargeDesc": "$10 off your purchase of $50 or more",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 2.5
+                }
+              ],
+              "regularCouponsTotal": 35,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 77.16,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "62171"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "Hackensack",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4114149L64C1AKD"
+  }
+}

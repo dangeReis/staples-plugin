@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZNQTkzYk1SU01mYWkxK014UTRVTmNmZ2xNc2R3M3dtOXYrQUdqS1RxeE1iUm1lNHZuc2JVT3o4c0lIa1MybktjalZwemFEdzJXWEtnMjNrTldGQT09",
+  "keyForOrderDetails": "U3RNREdyc3lsempJVGViQjArYUFaYUoxK250VGVBalpqcVZKalRkSTlnZTB4aXh1dk03TmtNSVdPUDhNMzBLbTlyTU9uYXFRWU1NNlFSaXU3eWpzaGpBQT09",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -124,22 +124,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:37.706390383",
+      "timeStamp": "2026-02-23T21:54:53.088737769",
       "resourceName": "OrderDetails",
-      "transactionId": "6cd01246e8b64c6689efb724887bb7f8",
+      "transactionId": "30210822a3c24d109d2e247edf956fcd",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.39.20250402.3.89971",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.39.20250402.3.89971",
     "orderDate": "2025-04-02T21:07:16",
-    "keyForOrderDetails": "U3RNREVNUzNsVDlFMG9OMnY0cU9ibmI0clZFbFE3aXBqWVJ2MStKclIrczJiTExoU3Z4bnB5QW1nMTFWbFphN1lzcDVXeXkzMXJRdTQrNzVaVTZYQXFFUT09",
-    "orderUrlKey": "U3RNREVNUzNsVDlFMG9OMnY0cU9ibmI0clZFbFE3aXBqWVJ2MStKclIrczJiTExoU3Z4bnB5QW1nMTFWbFphN1lzcDVXeXkzMXJRdTQrNzVaVTZYQXFFUT09",
-    "customerNumberKey": "U3RNREhKc1U5c0pIczduS0FxdjBqcHkxOWo2MXVneVRXdjJQSHBkNFpEaEJLUnZKYUp2U0JJTVE9PQ==",
+    "keyForOrderDetails": "U3RNREYwM3FnV20wQi95UVd1VVVTZVRId2krdWoyOVVjY25TMUthU1cvWm1rTGJUdzZBTW9xVk54RnFCQ0gxZzhkMjNYcFNIZFJOZHV3bnVucnV5OU9vUT09",
+    "orderUrlKey": "U3RNREYwM3FnV20wQi95UVd1VVVTZVRId2krdWoyOVVjY25TMUthU1cvWm1rTGJUdzZBTW9xVk54RnFCQ0gxZzhkMjNYcFNIZFJOZHV3bnVucnV5OU9vUT09",
+    "customerNumberKey": "U3RNREdwWExXaGgvU3paY3QvZEJHU0t5ZWkzdTc2Sk1lV2x5TGI4TS9rS2RNQ0xvU0hWOUR3dVE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -297,8 +298,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -483,8 +484,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -662,8 +663,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -852,8 +853,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1059,8 +1060,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1226,8 +1227,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1402,8 +1403,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1578,8 +1579,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Feb 24 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1646,7 +1647,7 @@
             "itemsCount": 4
           }
         ],
-        "orderUrlKey": "U3RNREdJeEhjd004UHdHeVV0aUNYWlpGcTA1RHNQTEtnZEVhdVJGZmg5Qmt6blY2NlNUd3RpNFhQR3JKNHVBUHMzRjltZUtDRzQzUXBpT2g3cm80R3Q1a0U9"
+        "orderUrlKey": "U3RNREdqbnRkQmU3YkIvK3NTNVhKRitGRmk1amVWbXNlYnZ2M3VkaVRVTmdrdlhWYkoxamJpRHc5bGpFV1BMeGFtVlVTSzZucHN1RWRYRXFRS1YvSnJVUmc9"
       }
     ],
     "productsOnOrder": [

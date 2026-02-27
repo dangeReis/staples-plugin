@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREhoYjRaSkd4TGJRN1dpWURCMlg0Y1dUcU55Ymg5T2YvRENIOVRMeU5rWHA3WnpnMG5MeTlPQ2pseHFmc1dVUHcvemQyckVIWWVxc0NPZndSTEowWmM9",
+  "keyForOrderDetails": "U3RNREVrbWswK0VHMTBaMWMza0NsZWtVckdjL0ZuTGhNY0tjMHRHdGREQ2ZvK2c5Y0s3UUdjSDk2UVpVL1BhNXdETnZmVElzVGFScWdKVUhpOXZLb1dxNTA9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -49,22 +49,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:35:32.871128852",
+      "timeStamp": "2026-02-23T21:55:49.876849524",
       "resourceName": "OrderDetails",
-      "transactionId": "79b311c1ff6f47bbb8b829245df0545e",
+      "transactionId": "48e074585df54f9580236f89f5e97893",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20241020.4.65132",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20241020.4.65132",
     "orderDate": "2024-10-20T12:52:51",
-    "keyForOrderDetails": "U3RNREh4RGRkWituWVRWN042UWhVdExZbnNHTGJYOE9OYkhmNkh2TE5RdWR2Ykl5ZHZDdmJjLzRsZDF1K1RSY1oyeWxWbDBya2dqMDZXYXJ4NW9aWEZsa0k9",
-    "orderUrlKey": "U3RNREh4RGRkWituWVRWN042UWhVdExZbnNHTGJYOE9OYkhmNkh2TE5RdWR2Ykl5ZHZDdmJjLzRsZDF1K1RSY1oyeWxWbDBya2dqMDZXYXJ4NW9aWEZsa0k9",
-    "customerNumberKey": "U3RNREVmRFVleGU5aEtNTkhaRDQyaTQxOFJ6RkNUWlhPNmlvdWt0TnhLSlg4dkJhc2tCZnRzMWc9PQ==",
+    "keyForOrderDetails": "U3RNREhTZDI1L2lwRElDdzZ2VElHUmxmUXY5bVc5UHdSV3JNMkFjV1dMblg3QWs3UVduRzFRclNoS1g1Qmd4c3ozdTFBdk0xUEo4NjlGTkExVEdwTXk5ODg9",
+    "orderUrlKey": "U3RNREhTZDI1L2lwRElDdzZ2VElHUmxmUXY5bVc5UHdSV3JNMkFjV1dMblg3QWs3UVduRzFRclNoS1g1Qmd4c3ozdTFBdk0xUEo4NjlGTkExVEdwTXk5ODg9",
+    "customerNumberKey": "U3RNREVPcU1HNSs2RVZEQ0NLRDFpeHFmNVNNd1dRckFRSFZDTlE5UUp0NTVEYjNBQ1kwWk9Fb2c9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -190,12 +191,12 @@
               "unitsNum": "",
               "units": "500/Ream",
               "rating": 4.63,
-              "ratingCount": 40193,
+              "ratingCount": 40220,
               "ratingUrl": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408?scrollToReviews=Y",
               "reviewDetails": [
                 {
                   "rating": 1,
-                  "reviewCount": 840,
+                  "reviewCount": 843,
                   "reviewPercent": 2
                 },
                 {
@@ -210,12 +211,12 @@
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 7212,
+                  "reviewCount": 7215,
                   "reviewPercent": 18
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 30275,
+                  "reviewCount": 30296,
                   "reviewPercent": 75
                 }
               ],
@@ -230,18 +231,18 @@
               "autoRestockPrice": "$13.39",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 173396,
+                "availableQuantity": 176386,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

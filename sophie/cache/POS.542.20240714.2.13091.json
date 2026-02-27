@@ -1,0 +1,1317 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20240714.2.13091",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-07-14T15:19:53",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdxTVFyNm0zSnVNNTFyQ0pIRnNjSGdrYWNWc2phUndDMW04c2REczM3a1FLOThveVY3UVdKRzZPM0dTT3o4MjkzVTY2ZFdvMmRSdE1LbFNCaUhubzQ9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.27,
+  "orderLines": [
+    {
+      "productSku": "505711",
+      "productName": "TICONDEROGA YELLOW",
+      "productShortDesc": "TICONDEROGA YELLOW",
+      "productLongDesc": "TICONDEROGA YELLOW",
+      "unitPrice": 3.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+      "productURL": "ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+      "model": "X13924X",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "505711",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "300525",
+      "productName": "CRAYOLA 12CT COLOR",
+      "productShortDesc": "CRAYOLA 12CT COLOR",
+      "productLongDesc": "CRAYOLA 12CT COLOR",
+      "unitPrice": 1.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/5D27A585-FF26-4D7E-AF465FFEB2F8345D_sc7?$thb$",
+      "productURL": "crayola-colored-pencils-assorted-colors-12-box-68-4012/product_300525",
+      "model": "68-4012",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "300525",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "2773034",
+      "productName": "12 INCH BEVELED WO",
+      "productShortDesc": "12 INCH BEVELED WO",
+      "productLongDesc": "12 INCH BEVELED WO",
+      "unitPrice": 0.5,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/F71CFC76-AFA8-43A2-82E326C95D2DCED5_sc7?$thb$",
+      "productURL": "staples-12-wooden-standard-imperial-scale-ruler-wooden-51881-cc/product_2773034",
+      "model": "ST51881-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2773034",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24476692",
+      "productName": "ELMERS GLUE STICKS",
+      "productShortDesc": "ELMERS GLUE STICKS",
+      "productLongDesc": "ELMERS GLUE STICKS",
+      "unitPrice": 6.29,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Elmer's Jumbo School Glue Washable Glue Sticks, 0.77 oz. (E578)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp132347869_sc7?$thb$",
+      "productURL": "elmer-s-school-glue-washable-glue-sticks-77-oz-e578/product_24476692",
+      "model": "E578",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24476692",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24585052",
+      "productName": "STPLS PROGEL SINGL",
+      "productShortDesc": "STPLS PROGEL SINGL",
+      "productLongDesc": "STPLS PROGEL SINGL",
+      "unitPrice": 1.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "STPLS PROGEL SINGL",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.89,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:02:28.103138659",
+      "resourceName": "OrderDetails",
+      "transactionId": "2b7ba5faf4d84f2c9a6e8a6a9d59fd19",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20240714.2.13091",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20240714.2.13091",
+    "orderDate": "2024-07-14T15:19:53",
+    "keyForOrderDetails": "U3RNREhoYmYyRERxcXpKQmh1T0NPWGV5ZEVvWWhLcEJydFdCT25HZExPZHVXQXBtQnQyd1JYdVJtSWEramJXUGwrcUJpcG9RNzZpcktGSDNiMzdsakJqUUU9",
+    "orderUrlKey": "U3RNREhoYmYyRERxcXpKQmh1T0NPWGV5ZEVvWWhLcEJydFdCT25HZExPZHVXQXBtQnQyd1JYdVJtSWEramJXUGwrcUJpcG9RNzZpcktGSDNiMzdsakJqUUU9",
+    "customerNumberKey": "U3RNREV3QThnbmZ1SWl5ZEkyVEZzSS8rTGhrQk1yZDZYZU5ZRlZrZzZoQllxSHFPR2NlTXR1Z0E9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 44.45,
+    "discountsTotal": 44.19,
+    "couponsTotal": 24.19,
+    "pointsRedeemedValue": 20,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.01,
+    "grandTotal": 0.27,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5787",
+              "itemId": "300525",
+              "compareItemID": "300525",
+              "url": "/crayola-colored-pencils-assorted-colors-12-box-68-4012/product_300525",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/5D27A585-FF26-4D7E-AF465FFEB2F8345D_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/5D27A585-FF26-4D7E-AF465FFEB2F8345D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/12D715CB-091E-4CEB-A592F528A41F3A39_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0AD39FB7-989F-453C-A9263138AEA15D3F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/35A652D4-B70D-42F3-B3556E4906C6F7DC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/E7741D8E-CEEE-4656-9517293FC4EA812E_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)~#|#~5D27A585-FF26-4D7E-AF465FFEB2F8345D_sc7",
+                "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)~#|#~12D715CB-091E-4CEB-A592F528A41F3A39_sc7",
+                "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)~#|#~0AD39FB7-989F-453C-A9263138AEA15D3F_sc7",
+                "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)~#|#~35A652D4-B70D-42F3-B3556E4906C6F7DC_sc7",
+                "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)~#|#~E7741D8E-CEEE-4656-9517293FC4EA812E_sc7"
+              ],
+              "title": "Crayola Colored Pencils, Assorted Colors, 12/Box (68-4012)",
+              "model": "68-4012",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "300525"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "68-4012"
+                }
+              ],
+              "manufacturerName": "Crayola",
+              "brandName": "Crayola",
+              "baseCatName": "",
+              "baseCatId": "CL221589",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10799",
+                  "name": "Drawing & Coloring"
+                },
+                "category": {
+                  "id": "CG821",
+                  "name": "Art Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5787",
+                  "name": "Arts & Crafts"
+                },
+                "class": {
+                  "id": "CL221589",
+                  "name": "Drawing & Colored Pencils"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL221589",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Box",
+              "rating": 4.76,
+              "ratingCount": 1094,
+              "ratingUrl": "/crayola-colored-pencils-assorted-colors-12-box-68-4012/product_300525?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 16,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 7,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 23,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 137,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 911,
+                  "reviewPercent": 83
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 1456,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Crayola Colored pencil in assorted colors provide smooth, scratch-free rich coloring. pencil with 3.3 mm core feature wood barrel nontoxic lead for safety usage, sold as 12 per box."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Full-length colored pencils",
+                  "3.3 mm",
+                  "AP Certified Non-toxic",
+                  "Ideal for drawing methods requiring precise lines, greater detail and control of color",
+                  "Versatile colors blend easily",
+                  "Pre-sharpened, thick, soft leads for easy blending",
+                  "AP Seal of Performance Safety",
+                  "Set includes the following colors: yellow, orange, red orange, red, yellow green, green, sky blue, blue, violet, white, brown, and black",
+                  "AP non-toxic",
+                  "12-count box includes: red, orange, yellow, green, blue, violet, brown, black, red/orange, yellow/green, sky blue & light brown",
+                  "3.3 mm leads for smooth, rich coloring",
+                  "<a href=\"http://sds.staples.com/msds/300525.pdf\" target=\"new\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Crayola Colored Pencils- Draw Detailed Pictures"
+                ],
+                "expandedDescr": [
+                  "<br />With Crayola colored pencils, any artist, young or old, can create detailed images in vivid color. The fine tips and easy-flow leads provide smooth lines and rich coloring. With a few simple techniques, such as changing the pencil angle or altering drawing pressure, it's easy to create a variety of different textures and details for artwork that is uniquely yours. <br /><br />Rich, Vibrant Colors<br />The 12-count box of Crayola colored pencils provides all the basic colors you need to create whatever images you can imagine. You can easily blend colors to create more variety, or you can upgrade to the 24-count box to choose from even more rich colors. <br /><br />Presharpened for Immediate Use<br />The pencils come presharpened, so they are ready to use right out of the box. When they wear down, the smooth lead tips sharpen easily. <br /><br />Convenient Packaging<br />Each set of Crayola colored pencils comes in a sturdy box that is perfect for storing the pencils. It keeps them safe and ready for use, so you don't have to worry about lost or broken pencils."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/12D715CB-091E-4CEB-A592F528A41F3A39_sc7?$std$",
+              "isRPDC": true,
+              "skuDescription": "CRAYOLA 12CT COLOR",
+              "skuNumber": "300525",
+              "unitPrice": 1.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.01,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0007
+                }
+              ],
+              "couponTotal": 1.98,
+              "couponDetails": [
+                {
+                  "chargeNo": "209502",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.33,
+                  "chargePerUnit": 0.33
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.65,
+                  "chargePerUnit": 0.65
+                }
+              ],
+              "regularCouponsTotal": 1.98,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "2773034",
+              "compareItemID": "2773034",
+              "url": "/staples-12-wooden-standard-imperial-scale-ruler-wooden-51881-cc/product_2773034",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/F71CFC76-AFA8-43A2-82E326C95D2DCED5_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/F71CFC76-AFA8-43A2-82E326C95D2DCED5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1206565_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1206567_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1206569_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1206570_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)~#|#~F71CFC76-AFA8-43A2-82E326C95D2DCED5_sc7",
+                "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)~#|#~s1206565_sc7",
+                "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)~#|#~s1206567_sc7",
+                "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)~#|#~s1206569_sc7",
+                "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)~#|#~s1206570_sc7"
+              ],
+              "title": "Staples 12\" Wooden Standard Imperial Scale Ruler, Wooden (51881-CC)",
+              "model": "ST51881-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2773034"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST51881-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Office Basics",
+              "baseCatId": "CL10503",
+              "hierarchy": {
+                "department": {
+                  "id": "DP353722",
+                  "name": "Rulers & Measuring Devices"
+                },
+                "category": {
+                  "id": "CG1036",
+                  "name": "Office Basics"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL10503",
+                  "name": "Rulers & Measuring Devices"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL10503",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.68,
+              "ratingCount": 271,
+              "ratingUrl": "/staples-12-wooden-standard-imperial-scale-ruler-wooden-51881-cc/product_2773034?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 6,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 8,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 16,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 232,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$5.19",
+              "priceValue": 5.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Measure with precision by using this 12-inch beveled wood ruler. The ruler features a brass beveled edge on one side, letting you draw straight and accurate lines, while the wood construction provides the durability necessary for frequent use. This Staples beveled wood ruler has a clear lacquer finish to protect it from splitting and employs an imperial 1/16-inch scale to ensure precise measurement."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Brown ruler made of selected hardwood with a clear lacquer finish",
+                  "Imperial 0.06\" scale offers accurate measurement",
+                  "Dimensions: 12\"L x 1.2\"W",
+                  "Ruler with brass beveled edge on one side for straight and accurate lines"
+                ],
+                "headliner": [
+                  "Draw straight lines and take accurate measurements with this Staples 12-inch beveled wood ruler."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1206565_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "12 INCH BEVELED WO",
+              "skuNumber": "2773034",
+              "unitPrice": 0.5,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.5,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 0.17,
+                  "chargePerUnit": 0.17
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.33,
+                  "chargePerUnit": 0.33
+                }
+              ],
+              "regularCouponsTotal": 0.5,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.5,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24476692",
+              "compareItemID": "24476692",
+              "url": "/elmer-s-school-glue-washable-glue-sticks-77-oz-e578/product_24476692",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp132347869_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp132347869_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp132347973_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp132347972_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Elmer's Jumbo School Glue Washable Glue Sticks, 0.77 oz. (E578)~#|#~sp132347869_sc7",
+                "Elmer's Jumbo School Glue Washable Glue Sticks, 0.77 oz. (E578)~#|#~sp132347973_sc7",
+                "Elmer's Jumbo School Glue Washable Glue Sticks, 0.77 oz. (E578)~#|#~sp132347972_sc7"
+              ],
+              "title": "Elmer's Jumbo School Glue Washable Glue Sticks, 0.77 oz. (E578)",
+              "model": "E578",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24476692"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "E578"
+                }
+              ],
+              "manufacturerName": "Elmer's",
+              "brandName": "Elmer's",
+              "baseCatName": "Tape, Fasteners & Adhesives",
+              "baseCatId": "CL166024",
+              "hierarchy": {
+                "department": {
+                  "id": "DP11089",
+                  "name": "Glue & Adhesives"
+                },
+                "category": {
+                  "id": "CG3745",
+                  "name": "Tape, Fasteners & Adhesives"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL166024",
+                  "name": "Glue & Glue Sticks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL166024",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.65,
+              "ratingCount": 409,
+              "ratingUrl": "/elmer-s-school-glue-washable-glue-sticks-77-oz-e578/product_24476692?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 12,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 11,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 40,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 335,
+                  "reviewPercent": 82
+                }
+              ],
+              "price": "$9.31",
+              "priceValue": 9.31,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$12.09/Ounces",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$8.84",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 238,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Assemble school projects, crafts, decorations, and more with the non-toxic adhesive of Elmer's Disappearing Purple School Glue. Specially formulated to be easy to use and clean up, Elmer's Disappearing Purple School Glue is purple when first applied so it's easy to see, then it dries clear for great results. Elmer's Disappearing Purple School Glue is washable, photo safe, and non-toxic for fun and easy crafting."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Goes on purple and dries clear so you can see where you are gluing!",
+                  "Goes on smooth for easy application",
+                  "Acid Free, photo safe, non-toxic and washable",
+                  "Bonds to paper, cardboard, foam board, display board, and more",
+                  "Perfect for arts, crafts, and school projects",
+                  "Includes 6, 22g glue sticks"
+                ],
+                "headliner": [
+                  "Mount photos safely with this 2-pack of Elmer's School glue sticks."
+                ],
+                "expandedDescr": [
+                  "Purple on contact yet drying clear, Elmer\u2019s Disappearing Purple School Glue Sticks help you see exactly where you\u2019re sticking your charts, pictures and more! The glue stick applies smoothly with a disappearing purple formula, making it perfect for kids just learning how to glue. Add on its non-toxic, acid-free formula and you can see why it\u2019s the ideal adhesive for classrooms, homes and youngsters."
+                ]
+              },
+              "skusetID": "SS276832092",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp132347973_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "ELMERS GLUE STICKS",
+              "skuNumber": "24476692",
+              "unitPrice": 6.29,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.06,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.004
+                }
+              ],
+              "couponTotal": 6.23,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 2.07,
+                  "chargePerUnit": 2.07
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 4.16,
+                  "chargePerUnit": 4.16
+                }
+              ],
+              "regularCouponsTotal": 6.23,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 6.29,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-23T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-23T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Apr 23 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.89,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.16,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 29.73,
+              "couponDetails": [
+                {
+                  "chargeCategory": "100% Price Guarantee $18.49",
+                  "chargeName": "100% Price Guarantee $18.49",
+                  "chargeDesc": "100% Price Guarantee $18.49",
+                  "chargeAmount": 11.4,
+                  "chargePerUnit": 11.4
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 6.11,
+                  "chargePerUnit": 6.11
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12.22,
+                  "chargePerUnit": 12.22
+                }
+              ],
+              "regularCouponsTotal": 29.73,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.89,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "STPLS PROGEL SINGL",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24585052?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "STPLS PROGEL SINGL",
+              "skuNumber": "24585052",
+              "unitPrice": 1.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 1.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Free Staples\u00ae ProGel retractable gel pen.",
+                  "chargeDesc": "Free Staples\u00ae ProGel retractable gel pen.",
+                  "chargeAmount": 1.79,
+                  "chargePerUnit": 1.79
+                }
+              ],
+              "regularCouponsTotal": 1.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "505711",
+              "compareItemID": "505711",
+              "url": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/052DB59F-FA7E-4411-890DEC20751DC751_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/43591D45-A913-42BE-A376D8C7E5074049_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/9AAC918A-7C75-461E-8600003043656DA7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~6C8A5B5E-EBF7-42C9-A2E0C4E317F393EF_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~052DB59F-FA7E-4411-890DEC20751DC751_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~43591D45-A913-42BE-A376D8C7E5074049_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~9AAC918A-7C75-461E-8600003043656DA7_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~ECFF7DFB-5053-451D-A0B9C14BABB0A229_sc7",
+                "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)~#|#~57FAE047-C3C8-4B37-9A40111FFD244EB3_sc7"
+              ],
+              "title": "Ticonderoga The World's Best Pencil Wooden Pencil, 2.2mm, #2 Soft Lead, 24/Pack (X13924X)",
+              "model": "X13924X",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "505711"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "X13924X"
+                }
+              ],
+              "manufacturerName": "Ticonderoga",
+              "brandName": "Ticonderoga",
+              "baseCatName": "Writing Supplies & Instruments",
+              "baseCatId": "CL110200",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4953",
+                  "name": "Writing Supplies"
+                },
+                "category": {
+                  "id": "CG11",
+                  "name": "Writing Supplies & Instruments"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL110200",
+                  "name": "Pencils"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL110200",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "24/Pack",
+              "rating": 4.76,
+              "ratingCount": 670,
+              "ratingUrl": "/ticonderoga-the-world-s-best-pencil-wooden-pencil-2-2mm-2-soft-lead-2-dozen-x13924x/product_505711?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 11,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 9,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 18,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 53,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 579,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$6.99",
+              "priceValue": 6.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.29/Pencil",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$6.64",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 658,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write easy-to-read notes with these Dixon Ticonderoga wood-case #2 soft, yellow-barrel pencils. These pencils are sold in a pack of 24, which is ideal for busy offices and classrooms, and the solid graphite core delivers a smooth performance and easy-to-read text. These Dixon Ticonderoga wood-case pencils have a latex-free eraser to make it easy to correct mistakes on paper."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "High-quality wooden pencils",
+                  "This pencil has No. 2 lead that resists breakage for smooth writing",
+                  "This smooth-writing quality pencil features the classic yellow hexagonal shape",
+                  "Features a soft lead for smooth, polished writing",
+                  "Pencils come in pack of 24 and can replace pens during many common work-related tasks or projects",
+                  "Top-quality, latex-free eraser provides easy, clean corrections"
+                ],
+                "headliner": [
+                  "Sketch and jot down notes with accuracy with this 24-pack of Dixon Ticonderoga wood-case #2 soft yellow-barrel pencils."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/939E04CB-B5C9-4832-A7AB4B90345DDD20_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TICONDEROGA YELLOW",
+              "skuNumber": "505711",
+              "unitPrice": 3.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.03,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.002
+                }
+              ],
+              "couponTotal": 3.96,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeDesc": "$10 off your purchase of $30 or more when you recycle batteries.",
+                  "chargeAmount": 1.32,
+                  "chargePerUnit": 1.32
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2.64,
+                  "chargePerUnit": 2.64
+                }
+              ],
+              "regularCouponsTotal": 3.96,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 3.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24585052",
+      "2773034",
+      "901974",
+      "505711",
+      "24476692",
+      "300525"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11411PEI4AYAQH"
+  }
+}

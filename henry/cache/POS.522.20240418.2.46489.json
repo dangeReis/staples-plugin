@@ -1,0 +1,593 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.522.20240418.2.46489",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-04-18T20:56:32",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhmUHA1N0FyNEZkMzFockdkQ1BQN2N3TS9TaS9TM3VJbG9pY21uQS9UaHQ3UmwrNzdRdnF5UnRxOC9mZ3hXWUFkakJZU0xBWm5TL0ovQTVQc3l5eVk9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 121.79,
+  "orderLines": [
+    {
+      "productSku": "24339498",
+      "productName": "BROTHER TN227 HI-Y",
+      "productShortDesc": "BROTHER TN227 HI-Y",
+      "productLongDesc": "BROTHER TN227 HI-Y",
+      "unitPrice": 78.99,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$thb$",
+      "productURL": "brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498",
+      "model": "TN227BK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24339498",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "616319",
+      "productName": "CLOROX DSNFCT WIPE",
+      "productShortDesc": "CLOROX DSNFCT WIPE",
+      "productLongDesc": "CLOROX DSNFCT WIPE",
+      "unitPrice": 5.79,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$thb$",
+      "productURL": "clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319",
+      "model": "15949",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "616319",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T01:00:49.509136470",
+      "resourceName": "OrderDetails",
+      "transactionId": "0b4fa725fe88410ca2a7431115787b25",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20240418.2.46489",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.522.20240418.2.46489",
+    "orderDate": "2024-04-18T20:56:32",
+    "keyForOrderDetails": "U3RNREZ2Z1JEZVIwMjlnNzFkajZieThSeGVUYVJ4MHFwSVNvZjFFQ05VRmttMEt0d1pBYmdxQUl3N3lWTWo2Rm9aSGRBK2luWVNZbFByOVlENGNiN3BMZ2M9",
+    "orderUrlKey": "U3RNREZ2Z1JEZVIwMjlnNzFkajZieThSeGVUYVJ4MHFwSVNvZjFFQ05VRmttMEt0d1pBYmdxQUl3N3lWTWo2Rm9aSGRBK2luWVNZbFByOVlENGNiN3BMZ2M9",
+    "customerNumberKey": "U3RNREgxRE9GNzlPbFZQOVBXdlg5eXhTT3pUdUc0WXBBSm1oTUpMaW9iMTNKUnJBTzdCQUR4YXc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 163.77,
+    "discountsTotal": 49.55,
+    "couponsTotal": 49.55,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 7.57,
+    "grandTotal": 121.79,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "616319",
+              "compareItemID": "616319",
+              "url": "/clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/7F54A6DB-25FA-42A7-862078217A546E56_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B1FD91E3-9A5A-4578-B8DF2F8FA0AEB5A7_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B380D37C-2813-4A53-95953648864B1DF3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/870D7722-CAC1-4DFF-A1A1791F92D31CC8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F0EF1EA4-EFCB-43F6-AAF8E9EAA0680A33_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C37F0590-F50A-421F-A36ED2E1288FBA3A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4C84585D-D7BC-4629-80ED97093556CC26_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/94CD0868-CF46-40D2-962CD9CAD61A6480_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~7F54A6DB-25FA-42A7-862078217A546E56_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~B1FD91E3-9A5A-4578-B8DF2F8FA0AEB5A7_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~B380D37C-2813-4A53-95953648864B1DF3_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~870D7722-CAC1-4DFF-A1A1791F92D31CC8_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~F0EF1EA4-EFCB-43F6-AAF8E9EAA0680A33_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~C37F0590-F50A-421F-A36ED2E1288FBA3A_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~4C84585D-D7BC-4629-80ED97093556CC26_sc7",
+                "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)~#|#~94CD0868-CF46-40D2-962CD9CAD61A6480_sc7"
+              ],
+              "title": "CloroxPro Clorox Disinfecting Wipes, Fresh Scent, 75 Wipes/Container (15949)",
+              "model": "15949",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "616319"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "15949"
+                }
+              ],
+              "manufacturerName": "CloroxPro",
+              "brandName": "CloroxPro",
+              "baseCatName": "Cleaning Chemicals & Wipes",
+              "baseCatId": "CL220881",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10274",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "category": {
+                  "id": "CG3668",
+                  "name": "Cleaning Chemicals & Wipes"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL220881",
+                  "name": "Disinfectant Wipes"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL220881",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$1.51",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "75/Pack",
+              "rating": 4.8,
+              "ratingCount": 1834,
+              "ratingUrl": "/clorox-disinfecting-wipes-fresh-scent-scent-75-wipes-container-75-pack-15949/product_616319?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 28,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 12,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 30,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 165,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1599,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$4.99",
+              "priceValue": 4.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.07/Wipe",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$4.74",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 2660,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Clorox Disinfecting Wipes clean and disinfect in one easy step*. These sanitizing wipes are EPA-registered to kill 99.9% of germs including cold and flu viruses* in 15 seconds. They also remove common allergens like pet dander, pollen particles and grass. One antibacterial wipe can kill 99.9% of bacteria** in just 10 seconds. In addition, these wipes meet EPA criteria for use against SARS-CoV-2, the virus that causes COVID-19, on hard nonporous surfaces. The premoistened, textured wipes are suitable for a variety of surfaces including acrylic, glass and vinyl. Use on germ hot spots such as doorknobs, handrails and faucets. Ideal for offices, daycares, schools, hotels, restaurants and more. *When used according to disinfection directions. **Bacteria: Campylobacter jejuni, Escherichia coli O157:H7 (E. coli), Klebsiella pneumoniae (Kleb), Methicillin-resistant Staphylococcus aureus (MRSA), Salmonella enterica (Salmonella), Staphylococcus aureus (Staph), Streptococcus pyogenes (Strep)."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "DISINFECTING WIPES: EPA registered to kill 99.9% of viruses and bacteria**; Meets EPA criteria for use against SARS-CoV-2, the virus that causes COVID-19, on non-porous surfaces",
+                  "VERSITILE CLEANING WIPE: Create clean public spaces with these wet wipes that breakdown grease, soap scum and grime so you can tackle messes on a variety of surfaces, bleach-free",
+                  "ALL PURPOSE WIPE: Quickly sanitizes bacteria** and kills most viruses in as little as 15 seconds; removes common allergens and deodorizes, preventing the odor causing bacteria for up to 24 hours",
+                  "MULTI-SURFACE DISINFECTANT AND SANITIZER: Germs occur on more than breakroom and restroom surfaces; safely wipe down desks, remotes, doorknobs or clean up spills",
+                  "GREAT FOR COMMERCIAL USE: Ideal for use in offices, day care centers, schools, hotels, restaurants and other commercial facilities; CloroxPro, where clean means everything",
+                  "<a href=\"http://sds.staples.com/msds/616319.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Clean and disinfect all in one swipe* with CloroxPro Disinfecting Wipes that kill 99.9% of germs including cold and flu viruses* in 15 seconds."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b> DIRECTIONS FOR USE: It is a violation of Federal law to use this product in a manner inconsistent with its labeling. Not for cleaning or sanitizing skin. Do not use as a diaper wipe or for personal cleansing. These wipes will not harm most surfaces, including acrylic, fiberglass and vinyl. Not recommended for use on unpainted wood. For surfaces that may come in contact with food, a potable water rinse is required. Do not use on glasses, dishes or utensils. Do not use to disinfect appliances, refrigerator interiors and microwave oven interiors.<br><br><b>Ingredients:</b> Active ingredients: n-Alkyl (C14 60%, C16 30%, C12 5%, C18 5%) Dimethyl Benzyl Ammonium Chloride 0.184%*, n-Alkyl (C12 68%, C14 32%) Dimethyl Ethylbenzyl Ammonium Chloride 0.184%*, other ingredients 99.632%. *Does not include weight of dry wipe.<br><br><b>Caution Statement:</b> CAUTION: Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet. Wear gloves for prolonged or frequent use. FIRST AID: IF IN EYES: Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses, if present, after the first 5 minutes, then continue rinsing eye. Call a poison control center or doctor for further treatment advice."
+                ]
+              },
+              "skusetID": "SS287522553",
+              "totalSavingsPercentage": 23.23,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/86EE54D3-BCF6-4358-9E69A42F169CF25A_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$6.50",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "CLOROX DSNFCT WIPE",
+              "skuNumber": "616319",
+              "unitPrice": 5.79,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 5.79,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.53,
+                  "chargePerUnit": 0.53
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.71,
+                  "chargePerUnit": 0.71
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 4.55,
+                  "chargePerUnit": 4.55
+                }
+              ],
+              "regularCouponsTotal": 5.79,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 5.79,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC43",
+              "itemId": "24339498",
+              "compareItemID": "24339498",
+              "url": "/brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/B51E193C-FACF-4E79-A4250A5474CEED72_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3437C2C3-4220-4716-BD9270FD06316D9B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D57B84D8-406D-4831-AAA73FDE6A2CD19E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CB9E6C17-7B30-410E-915FC9DE5AFB1E9B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1D841545-4F82-4016-969508161F20DBDB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2B33879F-FA83-4FB8-8D67EC9CFFD2BAC3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4CD1248C-FC18-4FCC-88B2FC30F233088F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163289823_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~B51E193C-FACF-4E79-A4250A5474CEED72_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~3437C2C3-4220-4716-BD9270FD06316D9B_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~D57B84D8-406D-4831-AAA73FDE6A2CD19E_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~CB9E6C17-7B30-410E-915FC9DE5AFB1E9B_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~1D841545-4F82-4016-969508161F20DBDB_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~2B33879F-FA83-4FB8-8D67EC9CFFD2BAC3_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~4CD1248C-FC18-4FCC-88B2FC30F233088F_sc7",
+                "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)~#|#~sp163289823_sc7"
+              ],
+              "title": "Brother TN-227 Black High Yield Toner Cartridge, Print Up to 3,000 Pages (TN227BK)",
+              "model": "TN227BK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24339498"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN227BK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.23,
+              "ratingCount": 1817,
+              "ratingUrl": "/brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 213,
+                  "reviewPercent": 12
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 51,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 102,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 187,
+                  "reviewPercent": 10
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1264,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$96.29",
+              "priceValue": 96.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.03/Cost Per Page",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 135,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Brother Genuine TN-227BK High Yield Black Toner Cartridges deliver consistent, crisp, professional print quality with an up to 3,000- page yield.* Brother Genuine toner is intelligently engineered to work seamlessly with your Brother printer to produce superior quality results that withstand the test of time. Use only Brother Genuine toner cartridges for reliable results. Brother offers an environmentally responsible way for customers to dispose of Brother Genuine cartridges at end of life."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW and MFC-L3770CDW",
+                  "High Yield Black Toner Cartridge",
+                  "Intelligently engineered as part of a complete printing system to work seamlessly with your Brother printer",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges",
+                  "Brother Genuine Toner Cartridge"
+                ],
+                "headliner": [
+                  "Brother TN227BK toner delivers superior laser print quality."
+                ],
+                "expandedDescr": [
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "BROTHER TN227 HI-Y",
+              "skuNumber": "24339498",
+              "unitPrice": 78.99,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 114.22,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 7.567
+                }
+              ],
+              "couponTotal": 43.76,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 14.47,
+                  "chargePerUnit": 7.235
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 19.29,
+                  "chargePerUnit": 9.645
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 STATEMENT",
+                  "chargeDesc": "$5 STATEMENT",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 2.5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5 STATEMENT",
+                  "chargeDesc": "$5 STATEMENT",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 2.5
+                }
+              ],
+              "regularCouponsTotal": 43.76,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 157.98,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "616319",
+      "24339498"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411414LQ34AY6GE"
+  }
+}

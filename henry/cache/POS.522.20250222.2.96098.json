@@ -1,0 +1,571 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.522.20250222.2.96098",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-02-22T17:38:44",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVxbWNmU2VDR3MyNDhPVXhzUjVTbUd1aURPTHpHdDIzN0p6UnpOMG5jcm5JN1BLWVErazQ2T3h4VmtvNXpRUXJpMmpIczNlQ2NFN2JNNGFkRnh2b2c9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 54.04,
+  "orderLines": [
+    {
+      "productSku": "24520586",
+      "productName": "TP-LINK AX4400 WI-",
+      "productShortDesc": "TP-LINK AX4400 WI-",
+      "productLongDesc": "TP-LINK AX4400 WI-",
+      "unitPrice": 169.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "TP-LINK Archer AX4400 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX4400)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp163287975_sc7?$thb$",
+      "productURL": "tp-link-archer-ax4400-dual-band-mu-mimo-gaming-router-black-archer-ax4400/product_24520586",
+      "model": "ARCHER AX4400",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "description": "This item has been discontinued.",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "24472996"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "24520586",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "2837194",
+      "productName": "Smead ETYJ Color Coding Labels 34 x 1 1",
+      "productShortDesc": "Smead ETYJ Color Coding Labels 34 x 1 1",
+      "productLongDesc": "Smead ETYJ Color Coding Labels 34 x 1 1",
+      "unitPrice": 0.69,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Smead ETYJ Color Coding Labels, 3/4\" x 1 1/2\", Light Blue with White Numerals, 500/Roll (68318)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp45960181_sc7?$thb$",
+      "productURL": "smead-etyj-color-coding-labels-3-4-x-1-1-2-light-blue-with-white-numerals-500-roll-68318/product_2837194",
+      "model": "68318",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2837194",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:45:17.280629500",
+      "resourceName": "OrderDetails",
+      "transactionId": "1299c056e2c142d49055e3caf8a333a8",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250222.2.96098",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.522.20250222.2.96098",
+    "orderDate": "2025-02-22T17:38:44",
+    "keyForOrderDetails": "U3RNREgvRXRjWXJTU2F1bnVNYi9CL2dlWmdxZTdJYU5reFVqWHN4OTRBN0liQm1sOTVnOS8wMHJlZWJLbjJoY05VUXdkNW1mV1hOYmZtTmxmbHlMUUV0cjQ9",
+    "orderUrlKey": "U3RNREgvRXRjWXJTU2F1bnVNYi9CL2dlWmdxZTdJYU5reFVqWHN4OTRBN0liQm1sOTVnOS8wMHJlZWJLbjJoY05VUXdkNW1mV1hOYmZtTmxmbHlMUUV0cjQ9",
+    "customerNumberKey": "U3RNREcyR1BZWUZsNzk3K3FVd04yT2FnOTc0Z29aSG5TTnRVSXc1c3hwNzRPT1BjNWY4cmxSL3c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 170.68,
+    "discountsTotal": 120,
+    "couponsTotal": 120,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 3.36,
+    "grandTotal": 54.04,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "2837194",
+              "compareItemID": "2837194",
+              "url": "/smead-etyj-color-coding-labels-3-4-x-1-1-2-light-blue-with-white-numerals-500-roll-68318/product_2837194",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp45960181_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp45960181_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Smead ETYJ Color Coding Labels, 3/4\" x 1 1/2\", Light Blue with White Numerals, 500/Roll (68318)~#|#~sp45960181_sc7"
+              ],
+              "title": "Smead ETYJ Color Coding Labels, 3/4\" x 1 1/2\", Light Blue with White Numerals, 500/Roll (68318)",
+              "model": "68318",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2837194"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "68318"
+                }
+              ],
+              "manufacturerName": "Smead",
+              "brandName": "Smead",
+              "baseCatName": "",
+              "baseCatId": "CL142725",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10842",
+                  "name": "Labels"
+                },
+                "category": {
+                  "id": "CG3858",
+                  "name": "Labels"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL142725",
+                  "name": "Labels"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL142725",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "500/Roll",
+              "rating": 5,
+              "ratingCount": 1,
+              "ratingUrl": "/smead-etyj-color-coding-labels-3-4-x-1-1-2-light-blue-with-white-numerals-500-roll-68318/product_2837194?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$17.59",
+              "priceValue": 17.59,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Complete current-year file folder creation with this Smead ETYJ 2018 year label roll. The mirror design fits over the edge of end-tab file folders for easy visibility on both sides, while the turquoise color stands out from previous years' hues for easy identification. Each sticker on this Smead ETYJ 2018 year label roll features an adhesive backing to ensure accurate filing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Color-coding labels for call attention to documents, inventory, sale items, calendars, and more",
+                  "Individual labels measure 3/4\"H x 1 1/2\"W",
+                  "Light blue with white numerals color for an attractive look",
+                  "Contains 500 per roll for bulk purchasing"
+                ],
+                "headliner": [
+                  "File documents by date with this Smead ETYJ color-coded light blue with white numerals 2018 year label roll."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "Smead ETYJ Color Coding Labels 34 x 1 1",
+              "skuNumber": "2837194",
+              "unitPrice": 0.69,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.53,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.04
+                }
+              ],
+              "couponTotal": 0.16,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.08,
+                  "chargePerUnit": 0.08
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.08,
+                  "chargePerUnit": 0.08
+                }
+              ],
+              "regularCouponsTotal": 0.16,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.69,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC5487",
+              "itemId": "24520586",
+              "compareItemID": "24520586",
+              "url": "/tp-link-archer-ax4400-dual-band-mu-mimo-gaming-router-black-archer-ax4400/product_24520586",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp163287975_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287975_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287976_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287977_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp163287978_sc7?$thb$"
+              ],
+              "imageAltTexts": [],
+              "title": "TP-LINK Archer AX4400 Dual Band MU-MIMO Gaming Router, Black (ARCHER AX4400)",
+              "model": "ARCHER AX4400",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24520586"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ARCHER AX4400"
+                }
+              ],
+              "manufacturerName": "TP-LINK",
+              "brandName": "TP-LINK",
+              "baseCatName": "",
+              "baseCatId": "CL165749",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4735",
+                  "name": "Networking & WiFi"
+                },
+                "category": {
+                  "id": "CG3066",
+                  "name": "Networking & WiFi"
+                },
+                "supercategory": {
+                  "id": "SC5487",
+                  "name": "Networking & WiFi"
+                },
+                "class": {
+                  "id": "CL165749",
+                  "name": "Routers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "description": "This item has been discontinued.",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "24472996"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL165749",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.66,
+              "ratingCount": 44,
+              "ratingUrl": "/tp-link-archer-ax4400-dual-band-mu-mimo-gaming-router-black-archer-ax4400/product_24520586?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 8,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 34,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$169.99",
+              "priceValue": 169.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy stable Wi-Fi connections, even in the kitchen and bedroom, with this TP-LINK Archer AX4400 Wi-Fi 6 router. High-power FEM, six antennas, beamforming, and 4T4R structures combine to adapt Wi-Fi coverage to perfectly fit your home and concentrate signal strength towards your devices. Easily handle dozens of devices streaming and gaming at the same time: OFDMA and MU-MIMO combine to future-proof your home network by providing greater capacity to connect more devices."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Dual-band router reaches speeds up to 4400Mbps (3843Mbps on the 5GHz band and 574Mbps on the 2.4GHz band)",
+                  "Features dual-band Wi-Fi 6 connectivity, 1 x Gigabit WAN port, and 4 x Gigabit LAN ports",
+                  "1.5GHz triple-core CPU handles data throughput up to multi-gigs and minimizes the latency within your home network, delivering you a smooth experience",
+                  "Dimensions: 2\"H x 10.3\"W x 5.7\"D",
+                  "TP-LINK Tether app allows you to set up the router in minutes",
+                  "Meets or exceeds the FCC, CE, RoHS standards",
+                  "Comes equipped with the wireless technology Wi-Fi 6 for faster speeds, greater capacity, and reduced network congestion",
+                  "Router supports all previous 802.11 standards and all Wi-Fi devices",
+                  "Achieve a highly strong and reliable Wi-Fi coverage with this router as it focuses signal strength to your devices using the beamforming technology and six antennas",
+                  "Supports MU-MIMO and OFDMA to reduce congestion and quadruple the average throughput",
+                  "Equipped with the top structure of 4T4R and HE160 on the 5GHz band to enable 3.8Gbps ultrafast connection",
+                  "Premium security services keep your home network safe with cutting-edge features for network and IoT protection",
+                  "USB 3.0 port enables easy media sharing and private cloud building",
+                  "Box includes: Wi-Fi router, power adapter, RJ45 Ethernet cable, and quick installation guide",
+                  "Firewall security: SPI firewall, IP and MAC address binding",
+                  "Supported VPN servers: OpenVPN, PPTP VPN",
+                  "Parental controls restrict Internet access time and content for children's devices",
+                  "Comes in black"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp163287976_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TP-LINK AX4400 WI-",
+              "skuNumber": "24520586",
+              "unitPrice": 169.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 50.15,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 3.32
+                }
+              ],
+              "couponTotal": 119.84,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 14.92,
+                  "chargePerUnit": 14.92
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 12
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 28,
+                  "chargePerUnit": 28
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$50 off all routers and modems.",
+                  "chargeDesc": "$50 off all routers and modems.",
+                  "chargeAmount": 50,
+                  "chargePerUnit": 50
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 14.92,
+                  "chargePerUnit": 14.92
+                }
+              ],
+              "regularCouponsTotal": 119.84,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 169.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24520586",
+      "2837194"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411419H744AYQYR"
+  }
+}

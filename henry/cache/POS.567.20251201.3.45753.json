@@ -1,0 +1,386 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.567.20251201.3.45753",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-12-01T12:58:22.85",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREV2eEtTRWtKMS85dnBpSUhNQWZVR2ZpRGtyUnBKUGwzaGtMRkJuNzZLSFY0Umo2L2hqZHY2MmRhdjlxVjVsZUJNR3RRWDN3cGtuWjErNGpSZ0hXalU9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.99,
+  "orderLines": [
+    {
+      "productSku": "122374",
+      "productName": "HAMMERMILL 20/92 1",
+      "productShortDesc": "HAMMERMILL 20/92 1",
+      "productLongDesc": "HAMMERMILL 20/92 1",
+      "unitPrice": 48.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/95CBC599-9581-4384-AB7E87134750EEBE_sc7?$thb$",
+      "productURL": "hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-5000-sheets-carton-105007/product_122374",
+      "model": "105007CT/27061",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "122374",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "567",
+  "storeAddressLine1": "1300 Rt 17 North",
+  "storeCity": "Ramsey",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:34:54.221947156",
+      "resourceName": "OrderDetails",
+      "transactionId": "b7eb59c7eadf4c81ba5ba36c9d0c8a81",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.567.20251201.3.45753",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.567.20251201.3.45753",
+    "orderDate": "2025-12-01T12:58:22.85",
+    "keyForOrderDetails": "U3RNREdrMGI5L2VWWkgyOEo0OGZwdk5zd01qd0VhVHBxVnZxb04zaWxBOXk2cnJOaVFsN1IvOFJwa1d6VFNONG8rdm1XODRtelA2WjFqRnl2KzNSMXRrV009",
+    "orderUrlKey": "U3RNREdrMGI5L2VWWkgyOEo0OGZwdk5zd01qd0VhVHBxVnZxb04zaWxBOXk2cnJOaVFsN1IvOFJwa1d6VFNONG8rdm1XODRtelA2WjFqRnl2KzNSMXRrV009",
+    "customerNumberKey": "U3RNREVVL1lXSUdGYllLeGlYSDJ6aDhEUERaRFlBeG12TEdYRzFLTnlnRWduQTVKeFlISzJpWGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 48.99,
+    "discountsTotal": 48,
+    "couponsTotal": 12,
+    "pointsRedeemedValue": 36,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.99,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "1300 Rt 17 North",
+        "city": "Ramsey",
+        "state": "NJ",
+        "zipCode": "07446"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1676",
+              "itemId": "122374",
+              "compareItemID": "122374",
+              "url": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-5000-sheets-carton-105007/product_122374",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/95CBC599-9581-4384-AB7E87134750EEBE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/95CBC599-9581-4384-AB7E87134750EEBE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167071710_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072079_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072081_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072082_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167071718_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072083_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~95CBC599-9581-4384-AB7E87134750EEBE_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167071710_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167072079_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167072081_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167072082_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167071718_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)~#|#~sp167072083_sc7"
+              ],
+              "title": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 5000 Sheets/Carton (105007)",
+              "model": "105007CT/27061",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "122374"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "105007CT/27061"
+                }
+              ],
+              "manufacturerName": "Hammermill",
+              "brandName": "Hammermill",
+              "baseCatName": "",
+              "baseCatId": "CL140691",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10823",
+                  "name": "Copy Paper"
+                },
+                "category": {
+                  "id": "CG3853",
+                  "name": "Copy Paper"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL140691",
+                  "name": "Copy & Printer Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140691",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$33.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "5000/Carton",
+              "rating": 4.63,
+              "ratingCount": 40220,
+              "ratingUrl": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-5000-sheets-carton-105007/product_122374?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 843,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 466,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1400,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 7215,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 30296,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$46.99",
+              "priceValue": 46.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 4341,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bring a high-quality look to official documents and office paperwork with this Hammermill Copy Plus copy paper. ColorLok technology prevents smudging and smears to keep each printout looking crisp, and the 20-pound paper weight is ideal for everyday use. This Hammermill Copy Plus copy paper comes with a 99.99 percent jam-free guarantee for effortless printing."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Reliable multipurpose paper is perfect for everyday use",
+                  "Paper weight: 20 lbs.; 50.8 lb. Text",
+                  "Sheet dimensions: 8.5\" x 11\" (US letter)",
+                  "Brightness rating: 92",
+                  "Smooth finish",
+                  "5000 sheets per carton",
+                  "Acid Free",
+                  "Color: White",
+                  "FSC Certified"
+                ],
+                "headliner": [
+                  "Keep a ream of Hammermill Copy Plus 8.5\" x 11\" copy paper ready for whenever you need to print a stack of forms or list of reports."
+                ],
+                "expandedDescr": [
+                  "<strong>Hammermill Copy Plus Copy Paper for Reliable Printing</strong><p>Print images with vivid colors or create black-and-white documents with bold blacks for increased visibility using this Hammermill Copy Plus copy paper. Make sure every printer in the office has enough paper, as this item comes with 500 sheets per ream and 10 reams per carton. Utilizing ColorLok Technology, this paper dries quickly, so you can hand documents to clients without waiting a long time for the ink to dry, and the acid-free design preserves the contents of the paper, allowing you to store documents for later use. This durable paper is designed to prevent paper jams, so you can avoid that dreaded \"paper jam\" notification on the display of your printer.<p><strong>ColorLok Technology Helps You Create Captivating, Sharp Prints</strong><p>While this paper is suitable for use in inkjet and laser printers, the ColorLok technology improves picture quality when using an inkjet printer with pigmented inks. Print documents with bold blacks and vivid colors to create stunning presentations, and look like the star of the day when you hand a presentation to an important client. The fast drying time ensures none of the ink smears.<p><strong>99.99% Jam-Free Guarantee Provides Security Against Printer Jams</strong><p>Hold an office farewell party for paper jams when you stock your office with this Hammermill copy paper. The 99.99% Jam-Free Guarantee ensures no more than one paper jam for every 10,000 sheets. If you do experience more than one jam, change the theme of the party to saving money in the office because the manufacturer provides a refund or a new supply of paper."
+                ]
+              },
+              "skusetID": "SS101841976",
+              "totalSavingsPercentage": 41.26,
+              "paperFlavorDetails": [
+                {
+                  "attribute": "brightness",
+                  "specValue": "92",
+                  "specName": "Brightness",
+                  "iconName": "brightness-alt",
+                  "firstSpecificationName": "Brightness"
+                },
+                {
+                  "attribute": "weight",
+                  "specValue": "20",
+                  "specName": "Weight",
+                  "iconName": "weight-alt",
+                  "firstSpecificationName": "Paper Weight (lbs.)"
+                },
+                {
+                  "attribute": "paper",
+                  "specValue": "8.5\" x 11\"",
+                  "specName": "Paper size",
+                  "iconName": "paper-alt",
+                  "firstSpecificationName": "Width in Inches",
+                  "secondSpecificationName": "Length in Inches"
+                },
+                {
+                  "attribute": "sheets",
+                  "specValue": "5,000",
+                  "specName": "Sheets",
+                  "iconName": "sheets-alt",
+                  "firstSpecificationName": "Total Number of Sheets"
+                },
+                {
+                  "attribute": "reams",
+                  "specValue": "10",
+                  "specName": "Reams",
+                  "iconName": "reams-alt",
+                  "firstSpecificationName": "Number of Reams"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp167071710_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$79.99",
+              "originalPriceLabel": "Regular price",
+              "ecoId": true,
+              "skuDescription": "HAMMERMILL 20/92 1",
+              "skuNumber": "122374",
+              "unitPrice": 48.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 48,
+              "couponDetails": [
+                {
+                  "chargeNo": "218761",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #44883",
+                  "chargeDesc": "Instant Savings #44883",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 12
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 36,
+                  "chargePerUnit": 36
+                }
+              ],
+              "regularCouponsTotal": 48,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 48.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "122374"
+    ],
+    "storeNumber": "567",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "1300 Rt 17 North",
+      "city": "Ramsey",
+      "state": "NJ",
+      "zipCode": "07446"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RR11614KMP4C19R1"
+  }
+}

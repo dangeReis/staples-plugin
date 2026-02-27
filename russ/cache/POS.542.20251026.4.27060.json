@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREdnR1BJaWRMUHhKVHVkUjByYzNSQTZNTGZiaTU1VGZQemdsUE5CaWd2M0o1UkFRNjI0VEZ3dEc5Q1hjaTlFUE8rejAvY0prKzNySitKY0VwTUsvNDQ9",
+  "keyForOrderDetails": "U3RNREZQbzgwV0RWVGowMVIySmNla21yNlh4M0E5R2V6R04rWDJVZWZyTUYzV2UrRWFRakNRSExWOHIrY1oxRmFaaHB2TG9aVkdPbHVSWkZIbVBwTjd2UmM9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -74,22 +74,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:25.370781299",
+      "timeStamp": "2026-02-23T21:53:39.391475604",
       "resourceName": "OrderDetails",
-      "transactionId": "a83e97f3626449c6995d32f96e2a8165",
+      "transactionId": "ec5f223a336340c7924120ed98e7d02c",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20251026.4.27060",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20251026.4.27060",
     "orderDate": "2025-10-26T12:23:39",
-    "keyForOrderDetails": "U3RNREVMM3picGk1OG8yeDQ1c2tvaWNnbTc0NkJzTHBKN0hqelhadDhuODVqdGhNbm1rTVV4UDNsUGxIa212Ti8yRG81NzBOOTllYnhOK0d0RGZQOXkxdXM9",
-    "orderUrlKey": "U3RNREVMM3picGk1OG8yeDQ1c2tvaWNnbTc0NkJzTHBKN0hqelhadDhuODVqdGhNbm1rTVV4UDNsUGxIa212Ti8yRG81NzBOOTllYnhOK0d0RGZQOXkxdXM9",
-    "customerNumberKey": "U3RNREZUNkJVQ1RLTG5QT3lNYXErQ3dTSDNONWF4b3FQeGgrOGFacGVCeW9YSFo2R3JMOWd1blE9PQ==",
+    "keyForOrderDetails": "U3RNREhOcVQwUDZENHpoM3pxSFpobW1rd3R6aUo0MWZROXYvN0EvZlA2TlpaWTQ0T0RPYldrOUdDUjZjdUpIVnNTT1NVZmw2akR5WXdFZlhFWmhvQmpXQ2M9",
+    "orderUrlKey": "U3RNREhOcVQwUDZENHpoM3pxSFpobW1rd3R6aUo0MWZROXYvN0EvZlA2TlpaWTQ0T0RPYldrOUdDUjZjdUpIVnNTT1NVZmw2akR5WXdFZlhFWmhvQmpXQ2M9",
+    "customerNumberKey": "U3RNREZoSnBWZWV0Q24xSExUaHFnRE5SUHA5dUxyMlpwemM2eWwwVWptNEpRZWlERWZhdFBva3c9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -211,7 +212,7 @@
               "unitsNum": "",
               "units": "4/Pack",
               "rating": 4.22,
-              "ratingCount": 727,
+              "ratingCount": 728,
               "ratingUrl": "/duracell-aa-nimh-battery-4-pack-dx1500b4n001/product_62171?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -236,7 +237,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 455,
+                  "reviewCount": 456,
                   "reviewPercent": 63
                 }
               ],
@@ -250,17 +251,17 @@
               "autoRestockEligible": true,
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 106,
+                "availableQuantity": 143,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -403,12 +404,19 @@
               "ctaText": "Add",
               "actionLabel": "addToCart",
               "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$19.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
               "isDeliveryInstock": true,
               "actionUrl": "",
               "unitsNum": "",
               "units": "44/Box",
               "rating": 4.74,
-              "ratingCount": 11410,
+              "ratingCount": 11433,
               "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -423,43 +431,43 @@
                 },
                 {
                   "rating": 3,
-                  "reviewCount": 316,
+                  "reviewCount": 317,
                   "reviewPercent": 3
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 842,
+                  "reviewCount": 843,
                   "reviewPercent": 7
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 9859,
+                  "reviewCount": 9880,
                   "reviewPercent": 86
                 }
               ],
-              "price": "$38.89",
-              "priceValue": 38.89,
+              "price": "$19.99",
+              "priceValue": 19.99,
               "isPriceNotAvailable": false,
-              "pricePerUnit": "$0.88/Pod",
+              "pricePerUnit": "$0.45/Pod",
               "isOutOfStock": false,
               "pickupMessage": "30-min pickup",
               "isInstoreInstock": false,
               "autoRestockEligible": true,
-              "autoRestockPrice": "$36.95",
+              "autoRestockPrice": "$18.99",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 11097,
+                "availableQuantity": 10753,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -480,9 +488,11 @@
                 ]
               },
               "skusetID": "SS114501307",
-              "totalSavingsPercentage": 0,
+              "totalSavingsPercentage": 48.73,
               "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$std$",
               "isRPDC": true,
+              "originalPrice": "$38.99",
+              "originalPriceLabel": "Regular price",
               "STSEligible": true,
               "skuDescription": "KCUP DUNKIN ORIG 4",
               "skuNumber": "2091512",

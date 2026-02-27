@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREUxS0xRRjhaVkk3RXFEZEc0engrck16SjlGUWxObmNXYnVjbGdpTjc0aFVNVkZ6LzNZUzFDQU90aU53MmNvWEI3YW8rSnBPb3BHR1Rtakg1K24xVUE9",
+  "keyForOrderDetails": "U3RNREU4NlNLWlYxOTNqSy9Md1ZHKzJ2Q01pWnozTnF2dkhpSExBUUVzejdlc0ZDY1gwaXRMZXprMUxpeFNLQXhqRGNLQmh4V1FJeHJvTm1FeUVmcmV3ZFU9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -105,22 +105,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:49.503531882",
+      "timeStamp": "2026-02-23T21:55:04.873805591",
       "resourceName": "OrderDetails",
-      "transactionId": "07d79eda210d4538ad06d072d82904ff",
+      "transactionId": "3cf863ff0b1145f5937eadb79da9151e",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.161.20250314.2.81787",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.161.20250314.2.81787",
     "orderDate": "2025-03-14T21:05:10",
-    "keyForOrderDetails": "U3RNREd2OEVFZmJ6ek5XNTlDQ0htWkZBYzc5YXNXb1NidVQyUTJTVmNKd3o3cWJSSEIwbHh6eGc1LzAzbHQ0U3NnNEppZDdtbTlzWmNIRlN4K01NY1Bwa3c9",
-    "orderUrlKey": "U3RNREd2OEVFZmJ6ek5XNTlDQ0htWkZBYzc5YXNXb1NidVQyUTJTVmNKd3o3cWJSSEIwbHh6eGc1LzAzbHQ0U3NnNEppZDdtbTlzWmNIRlN4K01NY1Bwa3c9",
-    "customerNumberKey": "U3RNREZURWVtcDhqZDd4WEo1V0pPR0JlYktHV0FCcUI0cytWc3Qwb3d5bG1sMVZHeXhXUTNIOFE9PQ==",
+    "keyForOrderDetails": "U3RNREZOS2VGOVhMckhqUmZTQTRYbmJsa29mSjZ0bkZ3T0ZKMkcvQUZ1KzNIcTdoRzhZL2tBdWxULytlOElRUW9wcTB1UDF3NmdkemhYYTBHZ2pPYTRIYkk9",
+    "orderUrlKey": "U3RNREZOS2VGOVhMckhqUmZTQTRYbmJsa29mSjZ0bkZ3T0ZKMkcvQUZ1KzNIcTdoRzhZL2tBdWxULytlOElRUW9wcTB1UDF3NmdkemhYYTBHZ2pPYTRIYkk9",
+    "customerNumberKey": "U3RNREVMaS8yeE5PWVBITFV2b05ickcvOVY5YW5iTmM5ajNQQXRsb3lGTC96SkJSeEhidDd5S0E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -239,7 +240,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.64,
-              "ratingCount": 412,
+              "ratingCount": 413,
               "ratingUrl": "/staples-24-x-16-x-10-32-ect-box-each/product_742295?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -264,7 +265,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 331,
+                  "reviewCount": 332,
                   "reviewPercent": 80
                 }
               ],
@@ -418,7 +419,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.78,
-              "ratingCount": 341,
+              "ratingCount": 342,
               "ratingUrl": "/staples-12-x-9-x-9-32-ect-box-each/product_1989257?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -443,7 +444,7 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 297,
+                  "reviewCount": 298,
                   "reviewPercent": 87
                 }
               ],
@@ -587,14 +588,14 @@
               "actionUrl": "",
               "unitsNum": "",
               "units": "",
-              "rating": 4.76,
+              "rating": 4.77,
               "ratingCount": 318,
               "ratingUrl": "/16-L-x-12-W-x-10-H-Shipping-Box-32-ECT-Brown-Each/product_742293?scrollToReviews=Y",
               "reviewDetails": [
                 {
                   "rating": 1,
-                  "reviewCount": 5,
-                  "reviewPercent": 2
+                  "reviewCount": 4,
+                  "reviewPercent": 1
                 },
                 {
                   "rating": 2,
@@ -613,8 +614,8 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 268,
-                  "reviewPercent": 84
+                  "reviewCount": 269,
+                  "reviewPercent": 85
                 }
               ],
               "price": "$3.50",

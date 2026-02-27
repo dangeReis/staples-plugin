@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREZwekhWT2VXcGdFSk5JNUVlWjhJWGx3TDZXazd3OFR4VXFkMDBKeTVSWGNMZUk2SXc1MkNpUzVWUWtWcDZMbHdOR3VpNW93STQwVzdpQnRpYkJ5YVk9",
+  "keyForOrderDetails": "U3RNREd4a25EREsrM0RqT2ZFWGlMb3RPSGl4dWtick0rU2RqT2ZBUm5mOVdVdFFjc0hhdjVkYmRzcE5jcHVRRkJHaWx1UFhMZnVUMnJvelF2SjNyNklIeWs9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -128,22 +128,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:34:43.012572505",
+      "timeStamp": "2026-02-23T21:54:58.443381395",
       "resourceName": "OrderDetails",
-      "transactionId": "9da42bfcb75b4bab960baa812b07054f",
+      "transactionId": "99b7289396b34af0a7c742745d9a8a1e",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20250327.4.89424",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20250327.4.89424",
     "orderDate": "2025-03-27T21:01:26",
-    "keyForOrderDetails": "U3RNREdXakZIY1dLaStZTGJldVFFajJYK0ZjVUtHRHBUMkh5dzAvTWkyWGxEZ0tPV2F1bmNCR3gzTkY2UDlOdEJaL0poRFh0UUNtR3A4dHNRQTA4NEpWcUE9",
-    "orderUrlKey": "U3RNREdXakZIY1dLaStZTGJldVFFajJYK0ZjVUtHRHBUMkh5dzAvTWkyWGxEZ0tPV2F1bmNCR3gzTkY2UDlOdEJaL0poRFh0UUNtR3A4dHNRQTA4NEpWcUE9",
-    "customerNumberKey": "U3RNREVqZUR0dU9sZElpeEo1ODdnR2lHR0c1ZUR5Y2dRSmFLTTJmNTZGcUlJVVJRTEtXM2lSY2c9PQ==",
+    "keyForOrderDetails": "U3RNREV3bzd1c2lBNmhqRFU0bEo3ZmdDRHdyUmc0Rkk2eGFVS2RnOWFMQXVpNjlWcWFtYmJTYlBabUlTVWNFMUlBbnhjYXhRbytNMkFXUE8wNFYwOEdadUE9",
+    "orderUrlKey": "U3RNREV3bzd1c2lBNmhqRFU0bEo3ZmdDRHdyUmc0Rkk2eGFVS2RnOWFMQXVpNjlWcWFtYmJTYlBabUlTVWNFMUlBbnhjYXhRbytNMkFXUE8wNFYwOEdadUE9",
+    "customerNumberKey": "U3RNREVwVnlhem9zSzlob3hxa0I1cHk4L0RaQ0JzWXoxMHRNelJVbHNyUzBuMUw0enZWeng4UFE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -839,8 +840,8 @@
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Mar 03 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Mar 05 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -1413,8 +1414,8 @@
                   "additionalMsg": {
                     "type": "DELIVERY_MSG",
                     "text": "Delivery",
-                    "moreText": "by Tue, ",
-                    "date": "Tue Mar 03 2026",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Mar 05 2026",
                     "deliveryType": "regular",
                     "icon": ""
                   },
@@ -1477,7 +1478,7 @@
             "itemsCount": 3
           }
         ],
-        "orderUrlKey": "U3RNREZMVXNpMzBVTThacDZvbzFiNlc4RjF6ZnZRRUgyOGFKVGYveGxNU25JeUJmTWw0UFFiTVlRMWZPUlVnQXNOTzlSVzB1UWliT0V4WVZsTWFjTC82QT09"
+        "orderUrlKey": "U3RNREhNZE9mc1E4L0lxcnhVck9Ya0F6dXdtMWZ1Y1VoQnpNbE9XbHVmM0lldnhLQ3dVZGxEYTQxdzREVzY4bUhQdGQ0dXFXQzFKTkVJZ0ZNamYwV0NXZz09"
       }
     ],
     "productsOnOrder": [

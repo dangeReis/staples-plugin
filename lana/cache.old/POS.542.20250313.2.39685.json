@@ -1,0 +1,344 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250313.2.39685",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-13T19:31:34",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZQMUp2bkpiYkpiaHVDVzRVb09PcXBHVXFnMUpnYWZ3YjMrcndQakFvcWkxWTJEUXh4dWIyRVFqbnpIOS9XR1ZGaDlhSHJGdkpGN21ZQzlSOTdyTUE9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.63,
+  "orderLines": [
+    {
+      "productSku": "24600082",
+      "productName": "BOX LOCK 6 PACK 2",
+      "productShortDesc": "BOX LOCK 6 PACK 2",
+      "productLongDesc": "BOX LOCK 6 PACK 2",
+      "unitPrice": 37.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$thb$",
+      "productURL": "scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082",
+      "model": "3950S-6-2BR6GC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24600082",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:37:14.785054723",
+      "resourceName": "OrderDetails",
+      "transactionId": "18edc864752d45c891993fb108e0f76e",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250313.2.39685",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250313.2.39685",
+    "orderDate": "2025-03-13T19:31:34",
+    "keyForOrderDetails": "U3RNREVBd0xDMXdkdVViamtCU0VERk9FR1A2UVVxamZGdlZoT2cxM1RKaFl3QTl4NE9Gc21JbHFJTTJ2Z3RTcXZYWXRHd3Q0Q05oMHM5UkxwV0t4MWlZMDQ9",
+    "orderUrlKey": "U3RNREVBd0xDMXdkdVViamtCU0VERk9FR1A2UVVxamZGdlZoT2cxM1RKaFl3QTl4NE9Gc21JbHFJTTJ2Z3RTcXZYWXRHd3Q0Q05oMHM5UkxwV0t4MWlZMDQ9",
+    "customerNumberKey": "U3RNREhnK1htWCtBT3UrOVpEbFBYOGVEcFI3eU1Uc0xxT21OWWZ6QU1rM1kvVjdPeld6cHJ6aXc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 37.99,
+    "discountsTotal": 37.4,
+    "couponsTotal": 11.4,
+    "pointsRedeemedValue": 26,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.04,
+    "grandTotal": 0.63,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "24600082",
+              "compareItemID": "24600082",
+              "url": "/scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/0668F931-F054-4721-843DD759F817FE10_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/03250233-84DA-4A06-810E49A57C2F2D97_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A248CB93-CAF6-46EE-8195C3A8A1A16255_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/97E767C0-15B5-4A9B-9A42FD2ED0164622_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F66EB7C-4A04-4305-93F28D35EBD7E60E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3CAE57E0-0705-452B-AC35227D195E7A58_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F843C782-DC67-44CE-AA09D5FC17977111_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/253EB0D8-3F5A-4423-8FF04E68FE6818D8_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~0668F931-F054-4721-843DD759F817FE10_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~03250233-84DA-4A06-810E49A57C2F2D97_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~A248CB93-CAF6-46EE-8195C3A8A1A16255_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~97E767C0-15B5-4A9B-9A42FD2ED0164622_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~7F66EB7C-4A04-4305-93F28D35EBD7E60E_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~3CAE57E0-0705-452B-AC35227D195E7A58_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~F843C782-DC67-44CE-AA09D5FC17977111_sc7",
+                "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)~#|#~253EB0D8-3F5A-4423-8FF04E68FE6818D8_sc7"
+              ],
+              "title": "Scotch Box Lock Heavy Duty Packing Tape, 1.88\" x 38.2 yds., Clear, 8/Pack (3950S-6-2BR6GC)",
+              "model": "3950S-6-2BR6GC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24600082"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "3950S-6-2BR6GC"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL140631",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350281",
+                  "name": "Packing Tape & Dispensers"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL140631",
+                  "name": "Packing Tape"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140631",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "8/Pack",
+              "rating": 5,
+              "ratingCount": 8,
+              "ratingUrl": "/scotch-box-lock-heavy-duty-packing-tape-1-88-x-38-2-yds-clear-8-pack-3950s-6-2br6gc/product_24600082?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$45.09",
+              "priceValue": 45.09,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Scotch Box Lock Packaging Tape sticks instantly to any box! It has the power of extreme grip to ensure boxes stay securely sealed, even during rough handling. Its new advanced adhesive creates a secure seal over box edges, and its thickness and durability reduces splitting and tearing and makes it easier to find the start of the roll. This tape can be used to seal any type of box, including harder-to-stick to 100% recycled boxes."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Sticks instantly to any box!",
+                  "Has the power of extreme grip, giving you confidence your box will stay sealed through rough handling",
+                  "Designed for better box adhesion",
+                  "Guaranteed to Stay Sealed* (If your box does not stay sealed, 3M will refund the purchase price of this tape. Proof of purchase required",
+                  "New advanced adhesive creates a secure seal over box edges & seams",
+                  "Easy to find the start of the roll",
+                  "Can be used on any box, including harder-to-stick-to 100% recycled boxes",
+                  "No slivering, splitting or tearing",
+                  "Crystal clear and clear-to-core",
+                  "Premium sticking power",
+                  "Smooth unwind & quiet release",
+                  "You don't need layers of tape for a secure seal - One strip and it ships!",
+                  "Includes refillable dispenser that delivers a clean cut, and fall-back tabs helps ensure the tape doesn\u2019t fall back on the roll",
+                  "Strong, durable, solvent-free hot melt adhesive seals and protects"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/40DE9B4E-119E-4C9B-A96F5EB37E941F80_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "BOX LOCK 6 PACK 2",
+              "skuNumber": "24600082",
+              "unitPrice": 37.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.59,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0391
+                }
+              ],
+              "couponTotal": 37.4,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "30% off select shipping supplies",
+                  "chargeDesc": "30% off select shipping supplies",
+                  "chargeAmount": 11.4,
+                  "chargePerUnit": 11.4
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 26,
+                  "chargePerUnit": 26
+                }
+              ],
+              "regularCouponsTotal": 37.4,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 37.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24600082"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414ANE4AYRNL"
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.39.20250317.2.37941",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-17T21:07:56",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVUeUp2SlBvZmQ1QWt5SW9vdHkvdTdLa1VMS0lYdHZ1T0pINUExd0JXa1Y4ZUFBb1F3WG1Nb1dRQXB3M0oxZlNzUXZ3S3hzRW51V1V2eGtPYTJqQT09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 12.57,
+  "orderLines": [
+    {
+      "productSku": "487264",
+      "productName": "BROTHER 12MM BK/SL",
+      "productShortDesc": "BROTHER 12MM BK/SL",
+      "productLongDesc": "BROTHER 12MM BK/SL",
+      "unitPrice": 16.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp42804859_sc7?$thb$",
+      "productURL": "brother-p-touch-m-931-label-maker-tape-1-2-x-26-2-10-black-on-silver-m-931/product_487264",
+      "model": "M931",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "487264",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "39",
+  "storeAddressLine1": "501 Route 17 SOUTH, STE 1",
+  "storeCity": "PARAMUS",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T23:50:20.182523369",
+      "resourceName": "OrderDetails",
+      "transactionId": "97a743a811074abd95be4e7af310042e",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.39.20250317.2.37941",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.39.20250317.2.37941",
+    "orderDate": "2025-03-17T21:07:56",
+    "keyForOrderDetails": "U3RNREV3MlV4aDd0N2JTUlh3K0hhMWg5eG9PUDNxV2xjaEtxU1JNbVJtTzNISmtjelR0dUNwaENXU3RYZ0JraFgvUWlPcDlCNEt5RXFQRXZKRzRRYW9RUT09",
+    "orderUrlKey": "U3RNREV3MlV4aDd0N2JTUlh3K0hhMWg5eG9PUDNxV2xjaEtxU1JNbVJtTzNISmtjelR0dUNwaENXU3RYZ0JraFgvUWlPcDlCNEt5RXFQRXZKRzRRYW9RUT09",
+    "customerNumberKey": "U3RNREY4WVhxOGxKNml2T25MSVVZcUJ3TGVXeVBEWkRBT29vRWk4Qjd1SFVwemJLdzJIcG9HNVE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 16.99,
+    "discountsTotal": 5.2,
+    "couponsTotal": 5.2,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.78,
+    "grandTotal": 12.57,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "501 Route 17 SOUTH, STE 1",
+        "city": "PARAMUS",
+        "state": "NJ",
+        "zipCode": "07652"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1681",
+              "itemId": "487264",
+              "compareItemID": "487264",
+              "url": "/brother-p-touch-m-931-label-maker-tape-1-2-x-26-2-10-black-on-silver-m-931/product_487264",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp42804859_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp42804859_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp42804858_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver~#|#~sp42804859_sc7",
+                "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver~#|#~sp42804858_sc7"
+              ],
+              "title": "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver",
+              "model": "M931",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "487264"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "M931"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "Label Makers & Tapes",
+              "baseCatId": "CL140557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10108",
+                  "name": "Label Makers & Tapes"
+                },
+                "category": {
+                  "id": "CG3619",
+                  "name": "Label Makers & Tapes"
+                },
+                "supercategory": {
+                  "id": "SC1681",
+                  "name": "Shredders, Projectors & Office Machines"
+                },
+                "class": {
+                  "id": "CL140557",
+                  "name": "Label Maker Tapes & Printer Labels"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.5,
+              "ratingCount": 90,
+              "ratingUrl": "/brother-p-touch-m-931-label-maker-tape-1-2-x-26-2-10-black-on-silver-m-931/product_487264?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 2,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 5,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 27,
+                  "reviewPercent": 30
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 56,
+                  "reviewPercent": 62
+                }
+              ],
+              "price": "$13.49",
+              "priceValue": 13.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$12.82",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 33,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Label office files, binders or other business items with this black-on-silver label tape. The unusual contrast of this tape allows users to read labels even in dark areas. This Brother M series non-laminated label tape resists fading, water and abrasion."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Create labels for home, work, or school with this 0.47\" wide & 26.2' yield label tape",
+                  "Black print on silver tape for easy identification",
+                  "Compatible with: P-Touch PT-100, PT-110, PT-45M, PT-55, PT-65 (see expanded description for more)",
+                  "Uses direct thermal printing technology for mess-free printing without toner or ink",
+                  "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Create attractive, easy-to-read labels with this Brother M series non-laminated label tape."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp42804858_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BROTHER 12MM BK/SL",
+              "skuNumber": "487264",
+              "unitPrice": 16.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 11.79,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.7811
+                }
+              ],
+              "couponTotal": 5.2,
+              "couponDetails": [
+                {
+                  "chargeCategory": "Your Rewards Price $11.79",
+                  "chargeName": "Your Rewards Price $11.79",
+                  "chargeDesc": "Your Rewards Price $11.79",
+                  "chargeAmount": 5.2,
+                  "chargePerUnit": 5.2
+                }
+              ],
+              "regularCouponsTotal": 5.2,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 16.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.39.20250329.2.39668",
+        "masterOrderNumber": "POS.39.20250317.2.37941",
+        "returnedDate": "2025-03-29T13:53:36",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 16.99,
+            "couponTotal": 5.2,
+            "regularCouponsTotal": 5.2,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.7811,
+            "grandTotal": 12.5711,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1681",
+                  "itemId": "487264",
+                  "compareItemID": "487264",
+                  "url": "/brother-p-touch-m-931-label-maker-tape-1-2-x-26-2-10-black-on-silver-m-931/product_487264",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/sp42804859_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp42804859_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/sp42804858_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver~#|#~sp42804859_sc7",
+                    "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver~#|#~sp42804858_sc7"
+                  ],
+                  "title": "Brother P-touch M-931 Label Maker Tape, 1/2\" x 26-2/10', Black on Silver",
+                  "model": "M931",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "487264"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "M931"
+                    }
+                  ],
+                  "manufacturerName": "Brother",
+                  "brandName": "Brother",
+                  "baseCatName": "Label Makers & Tapes",
+                  "baseCatId": "CL140557",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10108",
+                      "name": "Label Makers & Tapes"
+                    },
+                    "category": {
+                      "id": "CG3619",
+                      "name": "Label Makers & Tapes"
+                    },
+                    "supercategory": {
+                      "id": "SC1681",
+                      "name": "Shredders, Projectors & Office Machines"
+                    },
+                    "class": {
+                      "id": "CL140557",
+                      "name": "Label Maker Tapes & Printer Labels"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL140557",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.5,
+                  "ratingCount": 90,
+                  "ratingUrl": "/brother-p-touch-m-931-label-maker-tape-1-2-x-26-2-10-black-on-silver-m-931/product_487264?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 2,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 0,
+                      "reviewPercent": 0
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 5,
+                      "reviewPercent": 6
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 27,
+                      "reviewPercent": 30
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 56,
+                      "reviewPercent": 62
+                    }
+                  ],
+                  "price": "$13.49",
+                  "priceValue": 13.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": true,
+                  "autoRestockPrice": "$12.82",
+                  "itemAvailability": {
+                    "inventoryMode": "STANDARD",
+                    "availableQuantity": 33,
+                    "minLeadTime": 2,
+                    "maxLeadTime": 2,
+                    "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                  },
+                  "savingsPercentageOverSTAPrice": 5,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Label office files, binders or other business items with this black-on-silver label tape. The unusual contrast of this tape allows users to read labels even in dark areas. This Brother M series non-laminated label tape resists fading, water and abrasion."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Create labels for home, work, or school with this 0.47\" wide & 26.2' yield label tape",
+                      "Black print on silver tape for easy identification",
+                      "Compatible with: P-Touch PT-100, PT-110, PT-45M, PT-55, PT-65 (see expanded description for more)",
+                      "Uses direct thermal printing technology for mess-free printing without toner or ink",
+                      "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                    ],
+                    "headliner": [
+                      "Create attractive, easy-to-read labels with this Brother M series non-laminated label tape."
+                    ]
+                  },
+                  "skusetID": null,
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp42804858_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "BROTHER 12MM BK/SL",
+                  "skuNumber": "487264",
+                  "unitPrice": 16.99,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 12.5711,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.7811,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.7811
+                    }
+                  ],
+                  "couponTotal": 5.2,
+                  "couponDetails": [
+                    {
+                      "chargeName": "Your Rewards Price $-11.79",
+                      "chargeAmount": 5.2
+                    }
+                  ],
+                  "regularCouponsTotal": 5.2,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 16.99,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREY1S2MyeC9XckxKTTNPWUtKMkZrUGVtVGM4Qzl5QW9zMVdFTjZDT2tJSkJnei9GT3o0dGlRcDNUaEp5dFpNeUNyeEZoODNJMkk3SnZ0N1VaVG9ZZz09"
+      }
+    ],
+    "productsOnOrder": [
+      "487264"
+    ],
+    "storeNumber": "39",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "501 Route 17 SOUTH, STE 1",
+      "city": "PARAMUS",
+      "state": "NJ",
+      "zipCode": "07652"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-03-29T13:53:36",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T11313I1141476C4AYRTE"
+  }
+}

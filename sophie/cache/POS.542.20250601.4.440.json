@@ -1,0 +1,590 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.542.20250601.4.440",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-06-01T17:33:18",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREhKZ2pXcXNwRVhRT2JOdVpSTm5mLzVucWIwdFFNSVB2VjBtWFBmbzA3VWFjZW10elBHWlRwb1M0RjNsTHoydU5SSXRRelowUCtRelZlU2E1UHQ=",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.75,
+  "orderLines": [
+    {
+      "productSku": "2091512",
+      "productName": "KCUP DUNKIN ORIG 4",
+      "productShortDesc": "KCUP DUNKIN ORIG 4",
+      "productLongDesc": "KCUP DUNKIN ORIG 4",
+      "unitPrice": 38.99,
+      "orderQty": 5,
+      "originalOrderedQty": 5,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+      "model": "5000380570",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2091512",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24418185",
+      "productName": "TR PLSTC STPLR CMB",
+      "productShortDesc": "TR PLSTC STPLR CMB",
+      "productLongDesc": "TR PLSTC STPLR CMB",
+      "unitPrice": 2.16,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "TRU RED\u2122 Desktop Stapler Kit, 20-Sheet Capacity, Black (TR58081)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s1180325_sc7?$thb$",
+      "productURL": "tru-red-desktop-stapler-kit-20-sheet-capacity-black-tr58081/product_24418185",
+      "model": "TR58081",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details",
+        "type": "DISCONTINUED",
+        "displayName": "Discontinued",
+        "description": "This item has been discontinued.",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "",
+        "actionLabel": "expertsSuggest",
+        "altProducts": [
+          "489562"
+        ],
+        "limitedQtyTxt": "Limited quantities"
+      },
+      "itemId": "24418185",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T23:46:08.263861832",
+      "resourceName": "OrderDetails",
+      "transactionId": "5c3ef908af7645ba8b03666b67ad14c3",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250601.4.440",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.542.20250601.4.440",
+    "orderDate": "2025-06-01T17:33:18",
+    "keyForOrderDetails": "U3RNREdrcDZYNm9OM3lDOEdRb1c2RTFLVVREVnpveGxCNEZ3dzkwYWpHdmdQQWFncXAwRVdlQnUvbzhaSVB6eG5hVjN1bVNvM2dDNXhnVU93WTdTT3o=",
+    "orderUrlKey": "U3RNREdrcDZYNm9OM3lDOEdRb1c2RTFLVVREVnpveGxCNEZ3dzkwYWpHdmdQQWFncXAwRVdlQnUvbzhaSVB6eG5hVjN1bVNvM2dDNXhnVU93WTdTT3o=",
+    "customerNumberKey": "U3RNREhFcUF0Y2tlQ05zYkZUTWJtQXdjNzlBV1JOOUUweWlhTERiRnFGTGZyb0ZhMk1vNHlVdGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 197.11,
+    "discountsTotal": 196.36,
+    "couponsTotal": 131.36,
+    "pointsRedeemedValue": 65,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0.75,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "24418185",
+              "compareItemID": "24418185",
+              "url": "/tru-red-desktop-stapler-kit-20-sheet-capacity-black-tr58081/product_24418185",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1180325_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1180325_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1180317_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1179728_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "TRU RED\u2122 Desktop Stapler Kit, 20-Sheet Capacity, Black (TR58081)~#|#~s1180325_sc7",
+                "TRU RED\u2122 Desktop Stapler Kit, 20-Sheet Capacity, Black (TR58081)~#|#~s1180317_sc7",
+                "TRU RED\u2122 Desktop Stapler Kit, 20-Sheet Capacity, Black (TR58081)~#|#~s1179728_sc7"
+              ],
+              "title": "TRU RED\u2122 Desktop Stapler Kit, 20-Sheet Capacity, Black (TR58081)",
+              "model": "TR58081",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24418185"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TR58081"
+                }
+              ],
+              "manufacturerName": "TRU RED",
+              "brandName": "TRU RED",
+              "baseCatName": "Staplers & Staples",
+              "baseCatId": "CL10700",
+              "hierarchy": {
+                "department": {
+                  "id": "DP353716",
+                  "name": "Staplers & Staples"
+                },
+                "category": {
+                  "id": "CG350747",
+                  "name": "Staplers & Staples"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL10700",
+                  "name": "Staplers"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details",
+                "type": "DISCONTINUED",
+                "displayName": "Discontinued",
+                "description": "This item has been discontinued.",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "",
+                "actionLabel": "expertsSuggest",
+                "altProducts": [
+                  "489562"
+                ],
+                "limitedQtyTxt": "Limited quantities"
+              },
+              "catalogId": "CL10700",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.65,
+              "ratingCount": 240,
+              "ratingUrl": "/tru-red-desktop-stapler-kit-20-sheet-capacity-black-tr58081/product_24418185?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 7,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 4,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 9,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 27,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 193,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$13.99",
+              "priceValue": 13.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Mar 05 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bind important documents and reports with this classic stapler which sits easily on your desk. The rubber bottom provides a firm no-slip grip, and the 20-sheet capacity lets you bind large reports easily. A convenient low-staple indicator lets you know when it's time for a refill. This TRU RED full-strip stapler opens flat for effortless tacking on bulletin boards, telephone poles and walls."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Kit includes desktop stapler for simple stapling performance that is perfect for occasional use, staples set, and claw staple remover",
+                  "Stapler has full-strip capacity and holds 1/4\" staples",
+                  "This stapler can staple up to 20 sheets at a time",
+                  "Comes in black and made of plastic",
+                  "Includes stapler, claw staple remover, and 1250 staples (26/6)",
+                  "Top loading of staples increases ease of use",
+                  "Low-staple indicator on side of magazine makes it easy to identify when staples run out"
+                ],
+                "headliner": [
+                  "Keep your office fully equipped with this TRU RED full-strip stapler kit."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1180317_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "TR PLSTC STPLR CMB",
+              "skuNumber": "24418185",
+              "unitPrice": 2.16,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.01,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 2.15,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.19,
+                  "chargePerUnit": 0.19
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.29,
+                  "chargePerUnit": 0.29
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.67,
+                  "chargePerUnit": 1.67
+                }
+              ],
+              "regularCouponsTotal": 2.15,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 2.16,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "2091512",
+              "compareItemID": "2091512",
+              "url": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s1222878_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647834_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647831_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp118647836_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~s1222878_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647833_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647834_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647831_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)~#|#~sp118647836_sc7"
+              ],
+              "title": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 44/Box (006933)",
+              "model": "5000380570",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2091512"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "5000380570"
+                }
+              ],
+              "manufacturerName": "Dunkin'",
+              "brandName": "Dunkin'",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$19.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "44/Box",
+              "rating": 4.74,
+              "ratingCount": 11433,
+              "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 295,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 98,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 317,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 843,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 9880,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.45/Pod",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$18.99",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 10752,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy the smooth, classic taste of these Dunkin' original blend coffee pods. Each one is fully caffeinated to deliver a surge of energy, while the original blend provides a rich, silky experience. There are 44 of these Keurig K-Cup Dunkin' coffee pods in each pack, so you can share them with friends, family and coworkers."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium-roast coffee with Original Blend flavor",
+                  "44 K-Cups per box",
+                  "The product is kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Restock coffee supplies in break rooms, waiting rooms or your home with this 44-count Keurig K-Cup Dunkin' original blend coffee pods."
+                ]
+              },
+              "skusetID": "SS114501307",
+              "totalSavingsPercentage": 48.73,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$38.99",
+              "originalPriceLabel": "Regular price",
+              "STSEligible": true,
+              "skuDescription": "KCUP DUNKIN ORIG 4",
+              "skuNumber": "2091512",
+              "unitPrice": 38.99,
+              "qtyOrdered": 5,
+              "qtyShipped": 5,
+              "isReshipped": false,
+              "lineTotal": 0.74,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 194.21,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 14.71,
+                  "chargePerUnit": 2.942
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 9.81,
+                  "chargePerUnit": 1.962
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 35,
+                  "chargePerUnit": 7
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 50,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "25% off all kcups",
+                  "chargeDesc": "25% off all kcups",
+                  "chargeAmount": 21.36,
+                  "chargePerUnit": 4.272
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 63.33,
+                  "chargePerUnit": 12.666
+                }
+              ],
+              "regularCouponsTotal": 194.21,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 194.95,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24418185",
+      "2091512"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT117111LX4AYXQR"
+  }
+}

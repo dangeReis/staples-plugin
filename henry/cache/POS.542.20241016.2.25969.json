@@ -1,0 +1,864 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.542.20241016.2.25969",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-16T20:36:57",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZFVUZzbHBBQXo4bi9GcHdza0Rwd2RJMmZOVWFWYzZ0ZFQ0d0FEY2NUVmlkUytpV0FrRmF1UXpXdU1YbHN6WG50RmpJdlQrRDErZjMwNUttTVlnS2c9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 47.94,
+  "orderLines": [
+    {
+      "productSku": "122408",
+      "productName": "HAMMERMILL 20/92 1",
+      "productShortDesc": "HAMMERMILL 20/92 1",
+      "productLongDesc": "HAMMERMILL 20/92 1",
+      "unitPrice": 8.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$thb$",
+      "productURL": "hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408",
+      "model": "105007/27062",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "122408",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24580119",
+      "productName": "SD AY25 WC ABSTRAC",
+      "productShortDesc": "SD AY25 WC ABSTRAC",
+      "productLongDesc": "SD AY25 WC ABSTRAC",
+      "unitPrice": 4.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "SD AY25 WC ABSTRAC",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": true,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "type": "OUTOFSTOCK",
+        "viewAlternateTxt": "Our experts suggest",
+        "ctaText": "Similar items",
+        "actionLabel": "expertsSuggest",
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24431692",
+      "productName": "MSKN CLSSC RLD XL",
+      "productShortDesc": "MSKN CLSSC RLD XL",
+      "productLongDesc": "MSKN CLSSC RLD XL",
+      "unitPrice": 31.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E85BC33D-6931-438F-AE3EED69264CB2E5_sc7?$thb$",
+      "productURL": "moleskine-classic-professional-notebooks-7-5-x-9-75-narrow-ruled-192-sheets-hydrangea-blue-851014/product_24431692",
+      "model": "851014",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24431692",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24387349",
+      "productName": "HD 4 PCKT PPR FLDR",
+      "productShortDesc": "HD 4 PCKT PPR FLDR",
+      "productLongDesc": "HD 4 PCKT PPR FLDR",
+      "unitPrice": 1.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 3-Hole Punched 4-Pocket Paper Presentation Folder, Teal (ST56215-CC)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/51040389-77F2-4533-90D4AAE3AC9D10CE_sc7?$thb$",
+      "productURL": "staples-3-hole-punched-4-pocket-paper-folder-teal-st56215-cc/product_24387349",
+      "model": "ST56215-CC",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24387349",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:53:43.900209731",
+      "resourceName": "OrderDetails",
+      "transactionId": "8788293d3cb241b0b6c759ff3afa34ae",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241016.2.25969",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.542.20241016.2.25969",
+    "orderDate": "2024-10-16T20:36:57",
+    "keyForOrderDetails": "U3RNREdZalpzM25pKzQ5MDNpb1VIaFM1bXFpT2xNUmdXRm5KdG0yNXlabEdwYVpheVE0bHN6L3dhUURrSmhJUjFDbjJMM1lSaFYrY0NTc1dZUDFKS3Jvcmc9",
+    "orderUrlKey": "U3RNREdZalpzM25pKzQ5MDNpb1VIaFM1bXFpT2xNUmdXRm5KdG0yNXlabEdwYVpheVE0bHN6L3dhUURrSmhJUjFDbjJMM1lSaFYrY0NTc1dZUDFKS3Jvcmc9",
+    "customerNumberKey": "U3RNREhuT3VrUGRXdSsyT2hidHRObmU3SXB6eThaU0tNMjR3Q0FjWU5TRkZkZ2RycjAvaHZFcWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 47.96,
+    "discountsTotal": 3,
+    "couponsTotal": 3,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.98,
+    "grandTotal": 47.94,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1676",
+              "itemId": "122408",
+              "compareItemID": "122408",
+              "url": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072084_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072086_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072087_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072089_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072090_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167071732_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072234_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp167072236_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072084_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072086_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072087_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072089_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072090_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167071732_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072234_sc7",
+                "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)~#|#~sp167072236_sc7"
+              ],
+              "title": "Hammermill Copy Plus 8.5\" x 11\" Copy Paper, 20 lbs., 92 Brightness, 500 Sheets/Ream (105007)",
+              "model": "105007/27062",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "122408"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "105007/27062"
+                }
+              ],
+              "manufacturerName": "Hammermill",
+              "brandName": "Hammermill",
+              "baseCatName": "",
+              "baseCatId": "CL140691",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10823",
+                  "name": "Copy Paper"
+                },
+                "category": {
+                  "id": "CG3853",
+                  "name": "Copy Paper"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL140691",
+                  "name": "Copy & Printer Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140691",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "500/Ream",
+              "rating": 4.63,
+              "ratingCount": 40222,
+              "ratingUrl": "/hammermill-copy-plus-8-5-x-11-copy-paper-20-lbs-92-brightness-500-sheets-ream-105007/product_122408?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 843,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 466,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1400,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 7215,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 30298,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$14.09",
+              "priceValue": 14.09,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$13.39",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 176396,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Bring a vibrant look to your printouts with this Hammermill Copy Plus copy paper. ColorLok technology delivers bold monochrome and bright color to each page, and the acid-free construction resists yellowing with age for archive-ready documents. This Hammermill Copy Plus copy paper comes with a 99.99 percent jam-free guarantee and is designed for use in all home and office printers, giving you a dependable and versatile option for office paperwork."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Reliable multipurpose paper is perfect for everyday use",
+                  "Paper weight: 20 lbs.; 50.8 lb. Text",
+                  "Sheet dimensions: 8.5\" x 11\" (US letter)",
+                  "Brightness rating: 92",
+                  "Smooth finish",
+                  "500 sheets per ream",
+                  "Acid Free",
+                  "Color: White",
+                  "FSC Certified"
+                ],
+                "headliner": [
+                  "Print professional-quality graphs, charts and diagrams with this Hammermill Copy Plus 8.5 x 11-inch copy paper."
+                ]
+              },
+              "skusetID": "SS101841976",
+              "totalSavingsPercentage": 0,
+              "paperFlavorDetails": [
+                {
+                  "attribute": "brightness",
+                  "specValue": "92",
+                  "specName": "Brightness",
+                  "iconName": "brightness-alt",
+                  "firstSpecificationName": "Brightness"
+                },
+                {
+                  "attribute": "weight",
+                  "specValue": "20",
+                  "specName": "Weight",
+                  "iconName": "weight-alt",
+                  "firstSpecificationName": "Paper Weight (lbs.)"
+                },
+                {
+                  "attribute": "paper",
+                  "specValue": "8.5\" x 11\"",
+                  "specName": "Paper size",
+                  "iconName": "paper-alt",
+                  "firstSpecificationName": "Width in Inches",
+                  "secondSpecificationName": "Length in Inches"
+                },
+                {
+                  "attribute": "sheets",
+                  "specValue": "500",
+                  "specName": "Sheets",
+                  "iconName": "sheets-alt",
+                  "firstSpecificationName": "Total Number of Sheets"
+                },
+                {
+                  "attribute": "reams",
+                  "specValue": "1",
+                  "specName": "Ream",
+                  "iconName": "reams-alt",
+                  "firstSpecificationName": "Number of Reams"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp167072086_sc7?$std$",
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "HAMMERMILL 20/92 1",
+              "skuNumber": "122408",
+              "unitPrice": 8.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 5.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3968
+                }
+              ],
+              "couponTotal": 3,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$5.99 for Hammermill\u00ae Copy Plus\u00ae copy paper, 500 sheets.",
+                  "chargeDesc": "$5.99 for Hammermill\u00ae Copy Plus\u00ae copy paper, 500 sheets.",
+                  "chargeAmount": 2,
+                  "chargePerUnit": 2
+                },
+                {
+                  "chargeNo": "212372",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #30170",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 1,
+                  "chargePerUnit": 1
+                }
+              ],
+              "regularCouponsTotal": 3,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 8.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "24431692",
+              "compareItemID": "24431692",
+              "url": "/moleskine-classic-professional-notebooks-7-5-x-9-75-narrow-ruled-192-sheets-hydrangea-blue-851014/product_24431692",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/E85BC33D-6931-438F-AE3EED69264CB2E5_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/E85BC33D-6931-438F-AE3EED69264CB2E5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/882BE0A2-6658-4B29-B37652B810364C1F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B0D35565-7908-403A-BD31A8F945E14869_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/661BFF69-CD94-4D4C-85F7F24CB0C31287_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/65E005D4-100D-46D1-AF594B5A5D4B2444_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2471672D-D64B-45B0-94A8E10AA6CFD571_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/256C4725-B586-467B-8572AEF398957F53_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~E85BC33D-6931-438F-AE3EED69264CB2E5_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~882BE0A2-6658-4B29-B37652B810364C1F_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~B0D35565-7908-403A-BD31A8F945E14869_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~661BFF69-CD94-4D4C-85F7F24CB0C31287_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~65E005D4-100D-46D1-AF594B5A5D4B2444_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~2471672D-D64B-45B0-94A8E10AA6CFD571_sc7",
+                "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)~#|#~256C4725-B586-467B-8572AEF398957F53_sc7"
+              ],
+              "title": "Moleskine Classic Professional Notebooks, 7.5\" x 9.75\", Narrow Ruled, 192 Sheets, Hydrangea Blue (851014)",
+              "model": "851014",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24431692"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "851014"
+                }
+              ],
+              "manufacturerName": "Moleskine",
+              "brandName": "Moleskine",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "/moleskine-classic-professional-notebooks-7-5-x-9-75-narrow-ruled-192-sheets-hydrangea-blue-851014/product_24431692?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "$31.99",
+              "priceValue": 31.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "We believe that taking notes by hand is the best way to generate ideas, and that creativity blossoms with every stroke on the page. This elegant, well-designed tool is the perfect space to put pen to paper. The Classic Notebook traces its origins to the legendary notebooks used by artists and writers over the centuries \u2013 every word and sketch you add to its pages make you part of the story."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Soft cover available in black, red, blue and other colors",
+                  "Rounded corners, elastic closure and matching ribbon bookmark",
+                  "Ivory-colored, 70 g/m\u00b2, acid-free paper: plain, ruled, dotted or squared",
+                  "'In case of loss' printed on the flyleaf",
+                  "Expandable inner pocket in the back",
+                  "Reusable paperband B-SIDE featuring additional printed tools",
+                  "lies flat, opens at 180\u00b0",
+                  "The history of Moleskine is inside",
+                  "The paper of this Moleskine object is made of material from well-managed, FSC\u2122-certified forests and other controlled sources."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/882BE0A2-6658-4B29-B37652B810364C1F_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "MSKN CLSSC RLD XL",
+              "skuNumber": "24431692",
+              "unitPrice": 31.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 31.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.1193
+                }
+              ],
+              "couponTotal": 0,
+              "regularCouponsTotal": 0,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 31.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "SD AY25 WC ABSTRAC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "type": "OUTOFSTOCK",
+                "viewAlternateTxt": "Our experts suggest",
+                "ctaText": "Similar items",
+                "actionLabel": "expertsSuggest",
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Similar items",
+              "actionLabel": "expertsSuggest",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "Out of stock",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24580119?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": true,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "SD AY25 WC ABSTRAC",
+              "skuNumber": "24580119",
+              "unitPrice": 4.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 4.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.3306
+                }
+              ],
+              "couponTotal": 0,
+              "regularCouponsTotal": 0,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 4.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1",
+              "itemId": "24387349",
+              "compareItemID": "24387349",
+              "url": "/staples-3-hole-punched-4-pocket-paper-folder-teal-st56215-cc/product_24387349",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/51040389-77F2-4533-90D4AAE3AC9D10CE_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/51040389-77F2-4533-90D4AAE3AC9D10CE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/37AFBD10-9E68-4D71-84F2C9D74355F5CE_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/2CEC187F-37C1-4282-AF1C199CF158F7F9_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 3-Hole Punched 4-Pocket Paper Presentation Folder, Teal (ST56215-CC)~#|#~51040389-77F2-4533-90D4AAE3AC9D10CE_sc7",
+                "Staples 3-Hole Punched 4-Pocket Paper Presentation Folder, Teal (ST56215-CC)~#|#~37AFBD10-9E68-4D71-84F2C9D74355F5CE_sc7",
+                "Staples 3-Hole Punched 4-Pocket Paper Presentation Folder, Teal (ST56215-CC)~#|#~2CEC187F-37C1-4282-AF1C199CF158F7F9_sc7"
+              ],
+              "title": "Staples 3-Hole Punched 4-Pocket Paper Presentation Folder, Teal (ST56215-CC)",
+              "model": "ST56215-CC",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24387349"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST56215-CC"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Folders & Filing",
+              "baseCatId": "CL140674",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350320",
+                  "name": "Pocket & Presentation Folders"
+                },
+                "category": {
+                  "id": "CG3539",
+                  "name": "Folders & Filing"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL140674",
+                  "name": "Pocket Folders"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140674",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.75,
+              "ratingCount": 353,
+              "ratingUrl": "/staples-3-hole-punched-4-pocket-paper-folder-teal-st56215-cc/product_24387349?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 6,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 4,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 13,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 28,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 302,
+                  "reviewPercent": 86
+                }
+              ],
+              "price": "$2.99",
+              "priceValue": 2.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.84",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 1915,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "The 4-pocket folder comes in teal and includes a weight and length conversion table, printed ruler in inches and metric with and has 2 horizontal and 2 vertical pockets, making it perfect for carrying presentation materials or everyday reports."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Teal Folder",
+                  "Includes a weight and length conversion table, printed ruler in inches and metric, and other measurement tables for easy reference.",
+                  "Pre-punched holes for easy use with a ring binder",
+                  "Staples brand 100% satisfaction guaranteed"
+                ],
+                "headliner": [
+                  "The Staples four-pocket folder in teal is made of paper with 2 horizontal and 2 vertical pockets that offer great durability."
+                ]
+              },
+              "skusetID": "SS111253210",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/37AFBD10-9E68-4D71-84F2C9D74355F5CE_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "STSEligible": true,
+              "skuDescription": "HD 4 PCKT PPR FLDR",
+              "skuNumber": "24387349",
+              "unitPrice": 1.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 1.99,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.1318
+                }
+              ],
+              "couponTotal": 0,
+              "regularCouponsTotal": 0,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 1.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 4
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24580119",
+      "24387349",
+      "122408",
+      "24431692"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11413HFR4AYFFL"
+  }
+}

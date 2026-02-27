@@ -1,0 +1,537 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.522.20240504.2.48579",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-05-04T10:41:34",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVscXBya3BmbWhXcUc3QWhqMmFkTXpDY2JwbGVDMlFBZ2ppSEt6YW9PaDhTNzNWRXhWVmJ1VFZRYUwrU05wVEdmY3VzeE5zVHBBQ3B2VXNodEwzenM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "24555520",
+      "productName": "CASIO FX-991CW",
+      "productShortDesc": "CASIO FX-991CW",
+      "productLongDesc": "CASIO FX-991CW",
+      "unitPrice": 22.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$thb$",
+      "productURL": "casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520",
+      "model": "FX-991CW",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24555520",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24555520",
+      "productName": "CASIO FX-991CW",
+      "productShortDesc": "CASIO FX-991CW",
+      "productLongDesc": "CASIO FX-991CW",
+      "unitPrice": 22.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$thb$",
+      "productURL": "casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520",
+      "model": "FX-991CW",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "description": "Out of stock for delivery to your shipping location.",
+        "showAltDeliveryItems": true,
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24555520",
+      "bopisEligible": true,
+      "isDeliveryInstock": false
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T01:00:23.086234594",
+      "resourceName": "OrderDetails",
+      "transactionId": "6cc182345d6d4ae7baac62960dd59b6f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20240504.2.48579",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.522.20240504.2.48579",
+    "orderDate": "2024-05-04T10:41:34",
+    "keyForOrderDetails": "U3RNREhWYjJrWlNTNEh3ZEZHNmdueTFUWTd1VU5ZRjJzbGZMMU5NU2JEbkRoemhaYzZlbHk5cUNiQXZ0bFJFMFExUDBwd3gwNTY4ZUNZWFlIdVdzUUpXSE09",
+    "orderUrlKey": "U3RNREhWYjJrWlNTNEh3ZEZHNmdueTFUWTd1VU5ZRjJzbGZMMU5NU2JEbkRoemhaYzZlbHk5cUNiQXZ0bFJFMFExUDBwd3gwNTY4ZUNZWFlIdVdzUUpXSE09",
+    "customerNumberKey": "U3RNREZMWGZrQUI4ck1GOWNqZEJyR2F2WENEd1VDcUkyZGNyMnFnSGZBRlYzYUZtZ3FlZXV2SWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 45.98,
+    "discountsTotal": 45.98,
+    "couponsTotal": 21.98,
+    "pointsRedeemedValue": 24,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1681",
+              "itemId": "24555520",
+              "compareItemID": "24555520",
+              "url": "/casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C785B1DC-A483-4ABB-BFA014112D64B75D_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)~#|#~E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7",
+                "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)~#|#~C785B1DC-A483-4ABB-BFA014112D64B75D_sc7"
+              ],
+              "title": "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)",
+              "model": "FX-991CW",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24555520"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "FX-991CW"
+                }
+              ],
+              "manufacturerName": "Casio",
+              "brandName": "Casio",
+              "baseCatName": "Calculators",
+              "baseCatId": "CL90002",
+              "hierarchy": {
+                "department": {
+                  "id": "DP900",
+                  "name": "Calculators & Accessories"
+                },
+                "category": {
+                  "id": "CG3981",
+                  "name": "Calculators"
+                },
+                "supercategory": {
+                  "id": "SC1681",
+                  "name": "Shredders, Projectors & Office Machines"
+                },
+                "class": {
+                  "id": "CL90002",
+                  "name": "Scientific Calculators"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL90002",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 3.83,
+              "ratingCount": 6,
+              "ratingUrl": "/casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 3,
+                  "reviewPercent": 50
+                }
+              ],
+              "price": "$24.99",
+              "priceValue": 24.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "The Casio ClassWiz calculator is designed for today's teaching and studying. Its advanced, approachable UI and various features encourage math learning. Provides simple cursor-based operations and a key layout that follows the natural flow of use. Features portable design with fast calculation for smooth performance in class or during examinations."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "This calculator with four-gradation natural textbook display (10 + 2 digits) is perfect for teaching and studying",
+                  "Portable calculator with fast calculation for smooth performance in class or during examinations",
+                  "Provides simple cursor-based operations and a key layout that follows the natural flow of use",
+                  "Battery-powered and can charge from solar power",
+                  "Memory features: answer memory, function memory, and memory protection",
+                  "Dimensions: 0.42\"H x 3.03\"W x 6.38\"D",
+                  "Easily select a calculator app from the home screen that is suitable for the type of calculation that you want to perform",
+                  "Spreadsheet is useful for learning statistics, recursive formulas, and more; handles up to five columns and 45 rows (maximum of 170 data items)",
+                  "Easily generate QR codes of equations input into the calculator",
+                  "Graphs and other graphics can be displayed on smartphones or tablets",
+                  "Catalog menu shows store values to variables categories of commands, functions, and symbols according to the calculator app that you are currently using and the current status of the app (the displayed screen or current settings)",
+                  "<a href=\"http://sds.staples.com/msds/24555520.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C785B1DC-A483-4ABB-BFA014112D64B75D_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "CASIO FX-991CW",
+              "skuNumber": "24555520",
+              "unitPrice": 22.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 22.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 12
+                },
+                {
+                  "chargeCategory": "Price Override $17",
+                  "chargeName": "Price Override $17",
+                  "chargeDesc": "Price Override $17",
+                  "chargeAmount": 5.99,
+                  "chargePerUnit": 5.99
+                }
+              ],
+              "regularCouponsTotal": 22.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 22.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1681",
+              "itemId": "24555520",
+              "compareItemID": "24555520",
+              "url": "/casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C785B1DC-A483-4ABB-BFA014112D64B75D_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)~#|#~E4DCC617-9CA4-46C8-9C0BBD00CCFE0F93_sc7",
+                "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)~#|#~C785B1DC-A483-4ABB-BFA014112D64B75D_sc7"
+              ],
+              "title": "Casio ClassWiz 12-Digit Battery/Solar Powered Scientific Calculator, Black (FX-991CW)",
+              "model": "FX-991CW",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24555520"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "FX-991CW"
+                }
+              ],
+              "manufacturerName": "Casio",
+              "brandName": "Casio",
+              "baseCatName": "Calculators",
+              "baseCatId": "CL90002",
+              "hierarchy": {
+                "department": {
+                  "id": "DP900",
+                  "name": "Calculators & Accessories"
+                },
+                "category": {
+                  "id": "CG3981",
+                  "name": "Calculators"
+                },
+                "supercategory": {
+                  "id": "SC1681",
+                  "name": "Shredders, Projectors & Office Machines"
+                },
+                "class": {
+                  "id": "CL90002",
+                  "name": "Scientific Calculators"
+                }
+              },
+              "restrictionDetails": {
+                "description": "Out of stock for delivery to your shipping location.",
+                "showAltDeliveryItems": true,
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL90002",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Pick up",
+              "secondaryCTAText": "Pick up in store",
+              "actionLabel": "pickUpToday",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 3.83,
+              "ratingCount": 6,
+              "ratingUrl": "/casio-classwiz-12-digit-battery-solar-powered-scientific-calculator-black-fx-991cw/product_24555520?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 17
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 3,
+                  "reviewPercent": 50
+                }
+              ],
+              "price": "$24.99",
+              "priceValue": 24.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "BOPIS",
+                "text": "Pick up in 30 minutes"
+              },
+              "description": {
+                "paragraph": [
+                  "The Casio ClassWiz calculator is designed for today's teaching and studying. Its advanced, approachable UI and various features encourage math learning. Provides simple cursor-based operations and a key layout that follows the natural flow of use. Features portable design with fast calculation for smooth performance in class or during examinations."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "This calculator with four-gradation natural textbook display (10 + 2 digits) is perfect for teaching and studying",
+                  "Portable calculator with fast calculation for smooth performance in class or during examinations",
+                  "Provides simple cursor-based operations and a key layout that follows the natural flow of use",
+                  "Battery-powered and can charge from solar power",
+                  "Memory features: answer memory, function memory, and memory protection",
+                  "Dimensions: 0.42\"H x 3.03\"W x 6.38\"D",
+                  "Easily select a calculator app from the home screen that is suitable for the type of calculation that you want to perform",
+                  "Spreadsheet is useful for learning statistics, recursive formulas, and more; handles up to five columns and 45 rows (maximum of 170 data items)",
+                  "Easily generate QR codes of equations input into the calculator",
+                  "Graphs and other graphics can be displayed on smartphones or tablets",
+                  "Catalog menu shows store values to variables categories of commands, functions, and symbols according to the calculator app that you are currently using and the current status of the app (the displayed screen or current settings)",
+                  "<a href=\"http://sds.staples.com/msds/24555520.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C785B1DC-A483-4ABB-BFA014112D64B75D_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "CASIO FX-991CW",
+              "skuNumber": "24555520",
+              "unitPrice": 22.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 22.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 5,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 12
+                },
+                {
+                  "chargeCategory": "Price Override $17",
+                  "chargeName": "Price Override $17",
+                  "chargeDesc": "Price Override $17",
+                  "chargeAmount": 5.99,
+                  "chargePerUnit": 5.99
+                }
+              ],
+              "regularCouponsTotal": 22.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 22.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24555520"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411414PTG4AY737"
+  }
+}

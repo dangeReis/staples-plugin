@@ -1,0 +1,555 @@
+{
+  "customerNumber": "2148568054",
+  "orderNumber": "POS.522.20250317.3.59210",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-03-17T20:36:13",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREdKQStMdk1HWGtLYmd3akRTbG5DOHBFZFhTbjg5NndEanI0M2hGemxQN2Z2bTdiZFhJOHRKZVFCU1Jjc2hrVWRxQ21QYkwwTHRMbUtXMU9XeWMwcGc9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 10.97,
+  "orderLines": [
+    {
+      "productSku": "517212",
+      "productName": "DYMO BLACK ON CLEA",
+      "productShortDesc": "DYMO BLACK ON CLEA",
+      "productLongDesc": "DYMO BLACK ON CLEA",
+      "unitPrice": 12.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7?$thb$",
+      "productURL": "dymo-letratag-16952-plastic-label-maker-tape-1-2-x-13-black-on-clear-16952/product_517212",
+      "model": "16952",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "517212",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T23:50:33.632987889",
+      "resourceName": "OrderDetails",
+      "transactionId": "62dc9be64b6f46a785a0664df195fe1b",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20250317.3.59210",
+    "masterAccountNumber": "2148568054",
+    "salesOrderHeaderKey": "POS.522.20250317.3.59210",
+    "orderDate": "2025-03-17T20:36:13",
+    "keyForOrderDetails": "U3RNREZFWHd6dmY1NTRTWmhrNmZkWnVzMDUxa0lxcGxtbUFkWmxhRHcwR1V4NHVwbERyVGx4TXJXWWdqcVAyZGhhOGpic3Yrem1IcThJdEZIblF0Z2Q1YjQ9",
+    "orderUrlKey": "U3RNREZFWHd6dmY1NTRTWmhrNmZkWnVzMDUxa0lxcGxtbUFkWmxhRHcwR1V4NHVwbERyVGx4TXJXWWdqcVAyZGhhOGpic3Yrem1IcThJdEZIblF0Z2Q1YjQ9",
+    "customerNumberKey": "U3RNREhKTW9Yd2FoMjhTSndEdHZXazNSU3cvdzNXUkVhOGJjVFpOTU1Ic0w4V000YmQ5Y0w0OWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 12.49,
+    "discountsTotal": 2.2,
+    "couponsTotal": 2.2,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.68,
+    "grandTotal": 10.97,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1681",
+              "itemId": "517212",
+              "compareItemID": "517212",
+              "url": "/dymo-letratag-16952-plastic-label-maker-tape-1-2-x-13-black-on-clear-16952/product_517212",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C9EA5A46-3363-4544-BB7B338F361D4C78_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/19CEE3FA-DB4A-4A58-B6909F8457AEA061_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/D93E5050-A47D-43AA-808286950D7BA25C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7313C95C-5007-4534-8F65FDFF4F209F86_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/01094272-B6F1-42D7-BEC56FAEB588859C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EE429AB8-7853-42AE-917A157F64AD8D56_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~C9EA5A46-3363-4544-BB7B338F361D4C78_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~19CEE3FA-DB4A-4A58-B6909F8457AEA061_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~D93E5050-A47D-43AA-808286950D7BA25C_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~7313C95C-5007-4534-8F65FDFF4F209F86_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~01094272-B6F1-42D7-BEC56FAEB588859C_sc7",
+                "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~EE429AB8-7853-42AE-917A157F64AD8D56_sc7"
+              ],
+              "title": "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)",
+              "model": "16952",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "517212"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "16952"
+                }
+              ],
+              "manufacturerName": "Dymo",
+              "brandName": "Dymo",
+              "baseCatName": "Label Makers & Tapes",
+              "baseCatId": "CL140557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10108",
+                  "name": "Label Makers & Tapes"
+                },
+                "category": {
+                  "id": "CG3619",
+                  "name": "Label Makers & Tapes"
+                },
+                "supercategory": {
+                  "id": "SC1681",
+                  "name": "Shredders, Projectors & Office Machines"
+                },
+                "class": {
+                  "id": "CL140557",
+                  "name": "Label Maker Tapes & Printer Labels"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.58,
+              "ratingCount": 217,
+              "ratingUrl": "/dymo-letratag-16952-plastic-label-maker-tape-1-2-x-13-black-on-clear-16952/product_517212?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 8,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 4,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 5,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 38,
+                  "reviewPercent": 18
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 162,
+                  "reviewPercent": 75
+                }
+              ],
+              "price": "$11.49",
+              "priceValue": 11.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$10.92",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 100,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Use this black-on-clear label tape on storage containers, folders or other items for quick identification. This DYMO LetraTag Series label tape features an easy-peel backing that makes it simple to dispense and apply as needed."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Create labels for home, work, or school with this 0.5\" wide & 13' yield label tape",
+                  "Black print on clear tape for legibility",
+                  "Compatible with: LetraTag LT-100H, LT-100T, Plus LT-100T, QX50",
+                  "Thermal print technology requires no ink or toner",
+                  "Tear-resistant for absolute safekeeping",
+                  "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ],
+                "headliner": [
+                  "Make items identifiable at a glance by using this DYMO LetraTag Series black-on-clear label tape."
+                ]
+              },
+              "skusetID": "SS230722375",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C9EA5A46-3363-4544-BB7B338F361D4C78_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "DYMO BLACK ON CLEA",
+              "skuNumber": "517212",
+              "unitPrice": 12.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 10.29,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.6817
+                }
+              ],
+              "couponTotal": 2.2,
+              "couponDetails": [
+                {
+                  "chargeCategory": "Your Rewards Price $10.29",
+                  "chargeName": "Your Rewards Price $10.29",
+                  "chargeDesc": "Your Rewards Price $10.29",
+                  "chargeAmount": 2.2,
+                  "chargePerUnit": 2.2
+                }
+              ],
+              "regularCouponsTotal": 2.2,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 12.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "returnOrders": [
+      {
+        "returnOrderNumber": "POS.39.20250329.2.39669",
+        "masterOrderNumber": "POS.522.20250317.3.59210",
+        "returnedDate": "2025-03-29T13:54:19",
+        "returnShipments": [
+          {
+            "returnDispositionType": "CSR_CONTACT",
+            "trackingInfo": {
+              "statusCode": 1400,
+              "statusDescription": "Return Complete"
+            },
+            "merchandiseTotal": 12.49,
+            "couponTotal": 2.2,
+            "regularCouponsTotal": 2.2,
+            "pointsRedeemedValue": 0,
+            "shippingFees": 0,
+            "taxTotal": 0.6817,
+            "grandTotal": 10.9717,
+            "containerIdVsShipmentLinesMap": {
+              "dummyKey": [
+                {
+                  "scId": "SC1681",
+                  "itemId": "517212",
+                  "compareItemID": "517212",
+                  "url": "/dymo-letratag-16952-plastic-label-maker-tape-1-2-x-13-black-on-clear-16952/product_517212",
+                  "image": "https://www.staples-3p.com/s7/is/image/Staples/77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7?$std$",
+                  "images": [
+                    "https://www.staples-3p.com/s7/is/image/Staples/77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/C9EA5A46-3363-4544-BB7B338F361D4C78_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/19CEE3FA-DB4A-4A58-B6909F8457AEA061_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/D93E5050-A47D-43AA-808286950D7BA25C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/7313C95C-5007-4534-8F65FDFF4F209F86_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/01094272-B6F1-42D7-BEC56FAEB588859C_sc7?$thb$",
+                    "https://www.staples-3p.com/s7/is/image/Staples/EE429AB8-7853-42AE-917A157F64AD8D56_sc7?$thb$"
+                  ],
+                  "imageAltTexts": [
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~77D41B96-9F1B-4FF5-8B74A55F5CD3BB6C_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~C9EA5A46-3363-4544-BB7B338F361D4C78_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~19CEE3FA-DB4A-4A58-B6909F8457AEA061_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~D93E5050-A47D-43AA-808286950D7BA25C_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~7313C95C-5007-4534-8F65FDFF4F209F86_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~01094272-B6F1-42D7-BEC56FAEB588859C_sc7",
+                    "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)~#|#~EE429AB8-7853-42AE-917A157F64AD8D56_sc7"
+                  ],
+                  "title": "DYMO LetraTag 16952 Label Maker Tape, 1/2\" x 13', Black on Clear (16952)",
+                  "model": "16952",
+                  "tenantId": "StaplesDotCom",
+                  "productIDs": [
+                    {
+                      "idName": "Item",
+                      "idValue": "517212"
+                    },
+                    {
+                      "idName": "Model",
+                      "idValue": "16952"
+                    }
+                  ],
+                  "manufacturerName": "Dymo",
+                  "brandName": "Dymo",
+                  "baseCatName": "Label Makers & Tapes",
+                  "baseCatId": "CL140557",
+                  "hierarchy": {
+                    "department": {
+                      "id": "DP10108",
+                      "name": "Label Makers & Tapes"
+                    },
+                    "category": {
+                      "id": "CG3619",
+                      "name": "Label Makers & Tapes"
+                    },
+                    "supercategory": {
+                      "id": "SC1681",
+                      "name": "Shredders, Projectors & Office Machines"
+                    },
+                    "class": {
+                      "id": "CL140557",
+                      "name": "Label Maker Tapes & Printer Labels"
+                    }
+                  },
+                  "restrictionDetails": {
+                    "viewDetailsTxt": "View details"
+                  },
+                  "catalogId": "CL140557",
+                  "bopisEligible": true,
+                  "inStoreOnly": false,
+                  "seePriceInCart": false,
+                  "isSSPT": true,
+                  "ctaText": "Add",
+                  "actionLabel": "addToCart",
+                  "isQtyChangeAvailable": true,
+                  "isDeliveryInstock": true,
+                  "actionUrl": "",
+                  "unitsNum": "",
+                  "units": "",
+                  "rating": 4.58,
+                  "ratingCount": 217,
+                  "ratingUrl": "/dymo-letratag-16952-plastic-label-maker-tape-1-2-x-13-black-on-clear-16952/product_517212?scrollToReviews=Y",
+                  "reviewDetails": [
+                    {
+                      "rating": 1,
+                      "reviewCount": 8,
+                      "reviewPercent": 4
+                    },
+                    {
+                      "rating": 2,
+                      "reviewCount": 4,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 3,
+                      "reviewCount": 5,
+                      "reviewPercent": 2
+                    },
+                    {
+                      "rating": 4,
+                      "reviewCount": 38,
+                      "reviewPercent": 18
+                    },
+                    {
+                      "rating": 5,
+                      "reviewCount": 162,
+                      "reviewPercent": 75
+                    }
+                  ],
+                  "price": "$11.49",
+                  "priceValue": 11.49,
+                  "isPriceNotAvailable": false,
+                  "pricePerUnit": "",
+                  "isOutOfStock": false,
+                  "pickupMessage": "30-min pickup",
+                  "isInstoreInstock": false,
+                  "autoRestockEligible": true,
+                  "autoRestockPrice": "$10.92",
+                  "itemAvailability": {
+                    "inventoryMode": "STANDARD",
+                    "availableQuantity": 100,
+                    "minLeadTime": 2,
+                    "maxLeadTime": 2,
+                    "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                    "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+                  },
+                  "savingsPercentageOverSTAPrice": 5,
+                  "additionalMsg": {
+                    "type": "DELIVERY_MSG",
+                    "text": "Delivery",
+                    "moreText": "by Thu, ",
+                    "date": "Thu Feb 26 2026",
+                    "deliveryType": "regular",
+                    "icon": ""
+                  },
+                  "description": {
+                    "paragraph": [
+                      "Use this black-on-clear label tape on storage containers, folders or other items for quick identification. This DYMO LetraTag Series label tape features an easy-peel backing that makes it simple to dispense and apply as needed."
+                    ],
+                    "descriptionLineSize": 2,
+                    "bullets": [
+                      "Create labels for home, work, or school with this 0.5\" wide & 13' yield label tape",
+                      "Black print on clear tape for legibility",
+                      "Compatible with: LetraTag LT-100H, LT-100T, Plus LT-100T, QX50",
+                      "Thermal print technology requires no ink or toner",
+                      "Tear-resistant for absolute safekeeping",
+                      "<a href=\"http://sds.staples.com/msds/StaplesMSDS_Exempt.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                    ],
+                    "headliner": [
+                      "Make items identifiable at a glance by using this DYMO LetraTag Series black-on-clear label tape."
+                    ]
+                  },
+                  "skusetID": "SS230722375",
+                  "totalSavingsPercentage": 0,
+                  "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/C9EA5A46-3363-4544-BB7B338F361D4C78_sc7?$std$",
+                  "isRPDC": true,
+                  "STSEligible": true,
+                  "skuDescription": "DYMO BLACK ON CLEAR TAPE",
+                  "skuNumber": "517212",
+                  "unitPrice": 12.49,
+                  "qtyOrdered": 0,
+                  "qtyShipped": 1,
+                  "lineTotal": 10.9717,
+                  "status": 1400,
+                  "statusDescription": "Return Complete",
+                  "taxTotal": 0.6817,
+                  "taxdetails": [
+                    {
+                      "chargeCategory": "TAXCHARGE",
+                      "chargeName": "ITM",
+                      "chargeAmount": 0.6817
+                    }
+                  ],
+                  "couponTotal": 2.2,
+                  "couponDetails": [
+                    {
+                      "chargeName": "Your Rewards Price $-10.29",
+                      "chargeAmount": 2.2
+                    }
+                  ],
+                  "regularCouponsTotal": 2.2,
+                  "pointsRedeemedValue": 0,
+                  "deliveryChargeFee": 0,
+                  "subTotal": 12.49,
+                  "isSpecialItem": false
+                }
+              ]
+            },
+            "itemsCount": 1
+          }
+        ],
+        "orderUrlKey": "U3RNREgzOHdPTW52Q1ZLRjFhQzRsKzVVbm1GQTRJM2NxWng3SGxkNU9yVldzcnh3UVZYUGdSeTIycUVZVXcyVEZ0dk1nZEJQelZFWHNTWE1KYklHcHJQdz09"
+      }
+    ],
+    "productsOnOrder": [
+      "517212"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [
+      {
+        "addressGroup": "RETURNS",
+        "statusesAgainstDates": [
+          {
+            "type": "Return initiated",
+            "date": "2025-03-29T13:54:19",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411616EKD4AYRTR"
+  }
+}

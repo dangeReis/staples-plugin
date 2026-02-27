@@ -1,0 +1,805 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.522.20241221.2.86177",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-12-21T15:09:31",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREV3cDRCUG50TWJrR0YxWitDblBPZDZRRThhVDVyZTI1Mi83R3RmYXRWa1A0OVM5OE1sQkpYOGVkYkVWTWh1ZUhQVkVadml2TUhvN2JabEtLcDNoV0U9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 213.56,
+  "orderLines": [
+    {
+      "productSku": "319320",
+      "productName": "SOUR PATCH KIDS 3.",
+      "productShortDesc": "SOUR PATCH KIDS 3.",
+      "productLongDesc": "SOUR PATCH KIDS 3.",
+      "unitPrice": 2.29,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$thb$",
+      "productURL": "cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320",
+      "model": "SPK12",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "319320",
+      "bopisEligible": false,
+      "isDeliveryInstock": false
+    },
+    {
+      "productSku": "24591315",
+      "productName": "BOSE QUIETCOM HEAD",
+      "productShortDesc": "BOSE QUIETCOM HEAD",
+      "productLongDesc": "BOSE QUIETCOM HEAD",
+      "unitPrice": 349,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/8910D360-943E-45E9-95B1DA11436D9F8E_sc7?$thb$",
+      "productURL": "bose-quietcomfort-bluetooth-wireless-active-noise-cancelling-over-the-ear-headphones-black-884367-0100/product_24591315",
+      "model": "884367-0100",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24591315",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "24489892",
+      "productName": "APPLE AIRTAG 4-PAC",
+      "productShortDesc": "APPLE AIRTAG 4-PAC",
+      "productLongDesc": "APPLE AIRTAG 4-PAC",
+      "unitPrice": 89,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/3FA6CE23-A207-4A95-B2F79C442CB339A8_sc7?$thb$",
+      "productURL": "apple-airtag-tracker-4-pack-mx542am-a/product_24489892",
+      "model": "MX542AM/A",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24489892",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "HACKENSACK",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:41:10.008219664",
+      "resourceName": "OrderDetails",
+      "transactionId": "ce35d6429ec94a689b9521447326381f",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20241221.2.86177",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.522.20241221.2.86177",
+    "orderDate": "2024-12-21T15:09:31",
+    "keyForOrderDetails": "U3RNREZvUVIvWFkzcjlYWEZtay9wL1l1UWVJVXhJWk5YWWwvNkVTTzRmeHlEcnhYbHVJOU1aUWxDeEt3Vmw4dFR2R1JCK2NCTkQzb052cGRyYXFla3N1ZXM9",
+    "orderUrlKey": "U3RNREZvUVIvWFkzcjlYWEZtay9wL1l1UWVJVXhJWk5YWWwvNkVTTzRmeHlEcnhYbHVJOU1aUWxDeEt3Vmw4dFR2R1JCK2NCTkQzb052cGRyYXFla3N1ZXM9",
+    "customerNumberKey": "U3RNREgxajFUdVBOeU9LUmxCd3JxVmt1K2ZEV0ZVSWVWeUVwdVVET1BFMWtsVTJoNWkydWw0dnc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 440.29,
+    "discountsTotal": 240,
+    "couponsTotal": 240,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 13.27,
+    "grandTotal": 213.56,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5829",
+              "itemId": "24591315",
+              "compareItemID": "24591315",
+              "url": "/bose-quietcomfort-bluetooth-wireless-active-noise-cancelling-over-the-ear-headphones-black-884367-0100/product_24591315",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/8910D360-943E-45E9-95B1DA11436D9F8E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/8910D360-943E-45E9-95B1DA11436D9F8E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4296AF5B-40AA-4A27-9082E65199667460_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/80024AE7-EF32-44D5-A341A22ABB153C41_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F89AB01E-4310-4B7E-9271FCFF3609462D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/1A214649-EAB7-4F17-A1045C4B894C79E6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/63BD9681-DB9A-478B-A2437E701591C472_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B9967538-58DE-44DB-9817ECE6EC245188_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~8910D360-943E-45E9-95B1DA11436D9F8E_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~4296AF5B-40AA-4A27-9082E65199667460_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~80024AE7-EF32-44D5-A341A22ABB153C41_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~F89AB01E-4310-4B7E-9271FCFF3609462D_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~1A214649-EAB7-4F17-A1045C4B894C79E6_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~63BD9681-DB9A-478B-A2437E701591C472_sc7",
+                "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)~#|#~B9967538-58DE-44DB-9817ECE6EC245188_sc7"
+              ],
+              "title": "Bose QuietComfort Bluetooth Wireless Active Noise Cancelling Over-the-Ear Headphones, Black (884367-0100)",
+              "model": "884367-0100",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24591315"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "884367-0100"
+                }
+              ],
+              "manufacturerName": "Bose",
+              "brandName": "Bose",
+              "baseCatName": "Headphones",
+              "baseCatId": "CL210844",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10113",
+                  "name": "Headphones"
+                },
+                "category": {
+                  "id": "CG3625",
+                  "name": "Headphones"
+                },
+                "supercategory": {
+                  "id": "SC5829",
+                  "name": "Audio"
+                },
+                "class": {
+                  "id": "CL210844",
+                  "name": "Headphones"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL210844",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.59,
+              "ratingCount": 1523,
+              "ratingUrl": "/bose-quietcomfort-bluetooth-wireless-active-noise-cancelling-over-the-ear-headphones-black-884367-0100/product_24591315?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 44,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 37,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 72,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 194,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1176,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$359.00",
+              "priceValue": 359,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Take charge of your music and stride along to the beat. High-fidelity audio and legendary noise cancellation work their magic by sealing you in, eliminating distractions, and letting you dive deep into your own rhythm. Toggle between Quiet and Aware Modes, or create a Custom Mode and adjust outside sound to the moment. The design is iconic and the comfort lasting, while an optional audio cable with an in-line microphone plugs you into sound as bold as you, even without a Bluetooth\u00ae connection."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Chin up, shoulders back, music blasting. Press play and take charge of the music with Bose QuietComfort noise cancelling headphones as they empower your music and style with bold sound, custom legendary noise cancelling, and a striking limited-edition color.",
+                  "QuietComfort noise cancelling headphones are ready for even your marathon playlists, with up to 24 hours* on a single charge using a USB-C. A quick, 15-minute boost gives your Bluetooth headphones up to 2.5 hours of play time.",
+                  "Take charge of what you hear and what you don\u2019t. These wireless headphones come with legendary noise cancelling technology that works its magic by sealing you in with high-fidelity audio, eliminating distractions, and letting you dive deep into your own rhythm.",
+                  "The plush ear cushions are perfect for long listening sessions, the headband uses steel, and the underside of the band uses soft protein-leather-covered foam.",
+                  "These over-ear headphones come equipped with Quiet and Aware Modes to toggle between full noise cancelling or full awareness of your surroundings. Or create a custom mode, add Wind Block to tune out breezy environments, and revisit custom settings any time.",
+                  "Control the music and adjust the sound on your Bluetooth headphones with the Bose Music app. Crank the bass, tweak the treble, and balance the mid-range with Adjustable EQ. Plug in the included audio cable to use your headphones without a Bluetooth connection.",
+                  "Pair your Bose QuietComfort noise cancelling headphones with select Bose smart soundbars and speakers. Lower or mute your soundbar and keep your headphones as loud as you like. Group and sync devices without your phone or connect a pre-existing group or device with Action button.",
+                  "Spotify users can access their music by pressing and holding the \u201cAction\u201d button. Press down again for Spotify to offer up recommendations for other music you might like. Set your shortcut to \u201cSpotify\u201d in the Bose Music app to enable this feature.",
+                  "Testing conducted by Bose with active noise cancelling on and audio playback at a loudness of 75dBSPL. Battery life varies based on settings and usage. Time to achieve fully charged headphones was determined by charging battery-depleted headphones to 100%",
+                  "What's Included: Bose QuietComfort headphones, USB-C (A to C) audio cable (12\"), Audio cable with in-line microphone, Carry case, Safety sheet",
+                  "Maximum Wireless Range\n30 feet",
+                  "Number Of Devices Connectable Simultaneously: 2",
+                  "Charging Interface(s): \nUSB Type C",
+                  "Cord Length: \n1 feet",
+                  "Manufacturer's Warranty - Parts & Labor",
+                  "<a href=\"http://sds.staples.com/msds/24591315.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ],
+                "headliner": [
+                  "Bose QuietComfort Headphones go beyond the beat with sound that puts you on top of the world!"
+                ],
+                "expandedDescr": [
+                  "Create a custom mode on these Bluetooth headphones to adjust noise cancellation and add Wind Block to tune out breezy environments. Just press play on these over ear headphones for high-fidelity sound that\u2019s also customizable with adjustable EQ. Use the Bose Music app to crank the bass, tweak the treble, and personalize your experience. Plus, these headphones with built in microphone are crafted with all-day wear and multi-taskers in mind. Available in Black, White Smoke, and limited edition Cypress Green, the premium materials and bold, iconic design combine comfort and style. On-ear toggles make switching from music to calls easy and the powerful battery means it\u2019s ready for the long haul. Enjoy up to 24 hours of play time on a single charge with the Bose QC wireless headphones and up to 2.5 hours of play time with a quick 15-minute boost."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/4296AF5B-40AA-4A27-9082E65199667460_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "BOSE QUIETCOM HEAD",
+              "skuNumber": "24591315",
+              "unitPrice": 349,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 127.36,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 8.4376
+                }
+              ],
+              "couponTotal": 221.64,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 76.12,
+                  "chargePerUnit": 76.12
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 73.88,
+                  "chargePerUnit": 73.88
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$30 Courtesy Coupon",
+                  "chargeDesc": "$30 Courtesy Coupon",
+                  "chargeAmount": 19.07,
+                  "chargePerUnit": 19.07
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 9.86,
+                  "chargePerUnit": 9.86
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 promo card valid in-store only.",
+                  "chargeDesc": "$20 promo card valid in-store only.",
+                  "chargeAmount": 12.71,
+                  "chargePerUnit": 12.71
+                }
+              ],
+              "regularCouponsTotal": 221.64,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 349,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "319320",
+              "compareItemID": "319320",
+              "url": "/cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/m000113077_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)~#|#~m000113077_sc7"
+              ],
+              "title": "Sour Patch Kids Assorted Gummy Candy, 3.5 oz, 12/Box (SPK12)",
+              "model": "SPK12",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "319320"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "SPK12"
+                }
+              ],
+              "manufacturerName": "Sour Patch Kids",
+              "brandName": "Sour Patch Kids",
+              "baseCatName": "Candy, Gum & Mints",
+              "baseCatId": "CL354485",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4695",
+                  "name": "Candy, Gum & Mints"
+                },
+                "category": {
+                  "id": "CG1253",
+                  "name": "Candy, Gum & Mints"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL354485",
+                  "name": "Gummy & Chewy Candy"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL354485",
+              "bopisEligible": false,
+              "inStoreOnly": true,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": null,
+              "actionLabel": "",
+              "isQtyChangeAvailable": false,
+              "isDeliveryInstock": false,
+              "badgeDetails": {
+                "productBadge": "In-store only",
+                "badgeType": "product"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "Box",
+              "rating": 4.81,
+              "ratingCount": 84,
+              "ratingUrl": "/cadbury-adams-sour-patch-kids-3-5-oz-theater-box-12-packs-order/product_319320?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 1,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 7,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 74,
+                  "reviewPercent": 88
+                }
+              ],
+              "price": "$2.29",
+              "priceValue": 2.29,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {
+                "paragraph": [
+                  "Cadbury Adams 3.5 oz Sour patch kid's theater box comes with lemon orange, lime and cherry flavor candies. Theater box has candies that are fat/nut free and is ideal for fun parties."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Lemon, Orange, Lime, and Cherry",
+                  "3.5 oz. Theater Box",
+                  "12 Theater Boxes per order",
+                  "Made in the USA",
+                  "Fat Free",
+                  "Nut Free"
+                ],
+                "headliner": [
+                  "Soft gummy candy with a coating of sour sugar and packed in a 3.5 oz. theater box."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "SOUR PATCH KIDS 3.",
+              "skuNumber": "319320",
+              "unitPrice": 2.29,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 1.71,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.1133
+                }
+              ],
+              "couponTotal": 0.58,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 promo card valid in-store only.",
+                  "chargeDesc": "$20 promo card valid in-store only.",
+                  "chargeAmount": 0.18,
+                  "chargePerUnit": 0.18
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$30 Courtesy Coupon",
+                  "chargeDesc": "$30 Courtesy Coupon",
+                  "chargeAmount": 0.26,
+                  "chargePerUnit": 0.26
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.14,
+                  "chargePerUnit": 0.14
+                }
+              ],
+              "regularCouponsTotal": 0.58,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 2.29,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1682",
+              "itemId": "24489892",
+              "compareItemID": "24489892",
+              "url": "/apple-airtag-tracker-4-pack-mx542am-a/product_24489892",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/3FA6CE23-A207-4A95-B2F79C442CB339A8_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/3FA6CE23-A207-4A95-B2F79C442CB339A8_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp258404795_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp258404796_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp258404797_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp258404799_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)~#|#~3FA6CE23-A207-4A95-B2F79C442CB339A8_sc7",
+                "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)~#|#~sp258404795_sc7",
+                "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)~#|#~sp258404796_sc7",
+                "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)~#|#~sp258404797_sc7",
+                "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)~#|#~sp258404799_sc7"
+              ],
+              "title": "Apple AirTag 1st Gen Bluetooth Tracker, 4/Pack (MX542AM/A)",
+              "model": "MX542AM/A",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24489892"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "MX542AM/A"
+                }
+              ],
+              "manufacturerName": "Apple",
+              "brandName": "Apple",
+              "baseCatName": "",
+              "baseCatId": "CL213856",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8304",
+                  "name": "Cell Phones & Accessories"
+                },
+                "category": {
+                  "id": "CG6",
+                  "name": "Cell Phones & Accessories"
+                },
+                "supercategory": {
+                  "id": "SC1682",
+                  "name": "Phones, Cameras & Electronics"
+                },
+                "class": {
+                  "id": "CL213856",
+                  "name": "Cell Phone Accessories"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL213856",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$20.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.65,
+              "ratingCount": 318,
+              "ratingUrl": "/apple-airtag-tracker-4-pack-mx542am-a/product_24489892?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 4
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 5,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 9,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 27,
+                  "reviewPercent": 8
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 264,
+                  "reviewPercent": 83
+                }
+              ],
+              "price": "$79.00",
+              "priceValue": 79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Apple AirTag is an easy way to keep track of your stuff. Attach one to your keys, slip another one in your backpack. And just like that, they're on your radar in the Find My app. AirTag has your back. Only you can see where your AirTag is. Your location data and history are never stored on the AirTag itself. Devices that relay the location of your AirTag also stay anonymous, and that location data is encrypted every step of the way. So not even Apple knows the location of your AirTag or the identity of the device that helps find it."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Attach an AirTag to your keys, wallet, backpack anything you might lose track of. If you misplace something, just use the Find My app to locate it.",
+                  "Each round AirTag is small and lightweight, features precision-etched polished stainless steel, and is IP67 water- and dust-resistant.",
+                  "An AirTag can be shared with up to five people, so friends and family can keep track of items everyone uses.",
+                  "Made of 100% recycled tin in the solder of the main logic board, comes in black with white",
+                  "You can play a sound on the built-in speaker by going to the new Items tab in the Find My app",
+                  "If your tracker is nearby, your iPhone can lead you straight to it with Precision Finding, you'll see the distance to your tracker and the direction to head in, all thanks to Ultra Wideband technology",
+                  "Precision Finding compatible with: iPhone 11/11 Pro/11 Pro Max/12/12 mini/12 Pro/12 Pro Max",
+                  "Can be put into Lost Mode; then, when it's detected by a device in the network, you'll automatically get a notification, or set it so someone can get your contact info by tapping your tracker with an NFC-capable smartphone",
+                  "One-tap setup instantly connects the device with your iPhone or iPad; enter a name, attach it to the item you want to track, and you're good to go",
+                  "Designed to keep going more than a year on a standard battery you can easily replace",
+                  "Bluetooth connectivity for proximity finding",
+                  "Apple-designed U1 chip for Ultra Wideband and Precision Finding",
+                  "NFC tap for Lost Mode",
+                  "Product is mercury-, BFR-, PVC-, and beryllium-free",
+                  "Compatible with iPhone and iPod touch models with iOS 14.5 or later, iPad models with iPadOS 14.5 or later",
+                  "Meets or exceeds IP67 under IEC 60529 standard",
+                  "Size: 0.31\"H x 1.26\"Dia.",
+                  "Pack contains four trackers with CR2032 coin cell batteries installed, documentation"
+                ],
+                "headliner": [
+                  "Lose your knack for losing things with the Apple AirTag!"
+                ]
+              },
+              "skusetID": "SS255186709",
+              "totalSavingsPercentage": 20.2,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp258404795_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$99.00",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "APPLE AIRTAG 4-PAC",
+              "skuNumber": "24489892",
+              "unitPrice": 89,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 71.22,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 4.7183
+                }
+              ],
+              "couponTotal": 17.78,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$30 Courtesy Coupon",
+                  "chargeDesc": "$30 Courtesy Coupon",
+                  "chargeAmount": 10.67,
+                  "chargePerUnit": 10.67
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 promo card valid in-store only.",
+                  "chargeDesc": "$20 promo card valid in-store only.",
+                  "chargeAmount": 7.11,
+                  "chargePerUnit": 7.11
+                }
+              ],
+              "regularCouponsTotal": 17.78,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 89,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "319320",
+      "24489892",
+      "24591315"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "HACKENSACK",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q411417WHI4AYHXH"
+  }
+}

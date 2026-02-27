@@ -1,0 +1,329 @@
+{
+  "customerNumber": "7774224799",
+  "orderNumber": "POS.542.20251229.2.61029",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-12-29T12:59:50.649",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREY1VkNSbzhiRmNnb0JuRTEreWFPZ3hmOGRIb3pYNThidFB1SkVvUUo1bTBmRERhZUUwVWNsZzRHRnlUQ0ZaQmhHMFR3TE9tbFpzWldIamh2N0g3NHM9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 43.65,
+  "orderLines": [
+    {
+      "productSku": "24593284",
+      "productName": "GREENMADE 27G BLK/",
+      "productShortDesc": "GREENMADE 27G BLK/",
+      "productLongDesc": "GREENMADE 27G BLK/",
+      "unitPrice": 10.99,
+      "orderQty": 6,
+      "originalOrderedQty": 6,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/0D10B184-9931-444B-AF72DFF59A711F66_sc7?$thb$",
+      "productURL": "greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284",
+      "model": "669871",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24593284",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W. Central St.",
+  "storeCity": "Bergenfield",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:33:59.859072718",
+      "resourceName": "OrderDetails",
+      "transactionId": "6821696bfce648ef88ec70119209db13",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20251229.2.61029",
+    "masterAccountNumber": "7774224799",
+    "salesOrderHeaderKey": "POS.542.20251229.2.61029",
+    "orderDate": "2025-12-29T12:59:50.649",
+    "keyForOrderDetails": "U3RNREdYdUtGbEhNcUFGbmxBU2RaMW5RMlFYUDFzcVhDSVMyTHpseE9xNkpIdUJJeThIcnZkUmdLb0o2czg3c0d2UzA1dy9pZWFKdzErL3ZlSGNUQ3pIRUU9",
+    "orderUrlKey": "U3RNREdYdUtGbEhNcUFGbmxBU2RaMW5RMlFYUDFzcVhDSVMyTHpseE9xNkpIdUJJeThIcnZkUmdLb0o2czg3c0d2UzA1dy9pZWFKdzErL3ZlSGNUQ3pIRUU9",
+    "customerNumberKey": "U3RNREhITXk5SzN0aEZMMlpPelI2OVVZcmtlTzVXUisvSHM4bzJxRlAveDFkU1dKTnR6Z1FtWWc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 65.94,
+    "discountsTotal": 25,
+    "couponsTotal": 22,
+    "pointsRedeemedValue": 3,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 2.71,
+    "grandTotal": 43.65,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W. Central St.",
+        "city": "Bergenfield",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1",
+              "itemId": "24593284",
+              "compareItemID": "24593284",
+              "url": "/greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/0D10B184-9931-444B-AF72DFF59A711F66_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/0D10B184-9931-444B-AF72DFF59A711F66_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8D699136-3914-4533-858C22D5DDF29DB2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F443DFD4-8F91-4965-AC154C0F8FD9179F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/730CE98C-7B9A-4FA0-A16582BCF53EAB54_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~0D10B184-9931-444B-AF72DFF59A711F66_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~8D699136-3914-4533-858C22D5DDF29DB2_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~F443DFD4-8F91-4965-AC154C0F8FD9179F_sc7",
+                "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)~#|#~730CE98C-7B9A-4FA0-A16582BCF53EAB54_sc7"
+              ],
+              "title": "Greenmade 108 Qt. Storage Bin with Snap Lid, Plastic, Black/Yellow (669871)",
+              "model": "669871",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24593284"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "669871"
+                }
+              ],
+              "manufacturerName": "Greenmade",
+              "brandName": "Greenmade",
+              "baseCatName": "Storage & Organization",
+              "baseCatId": "CL215127",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8128",
+                  "name": "Storage & Organization"
+                },
+                "category": {
+                  "id": "CG3633",
+                  "name": "Storage & Organization"
+                },
+                "supercategory": {
+                  "id": "SC1",
+                  "name": "Office Supplies"
+                },
+                "class": {
+                  "id": "CL215127",
+                  "name": "Storage Containers & Boxes"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL215127",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.79,
+              "ratingCount": 399,
+              "ratingUrl": "/greenmade-stackable-plastic-storage-bin-14-7-x-20-5-x-30-5-108-qt-black-yellow-669871/product_24593284?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 9,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 1,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 6,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 34,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 349,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$19.99",
+              "priceValue": 19.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Introducing the Greenmade 27 Gal. Black/Yellow Storage Bin, the ultimate solution for all your storage needs. Whether you\u2019re organizing your garage, attic, or outdoor shed, this heavy-duty storage bin is designed to keep your items safe and secure."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Extra Heavy-Duty Construction",
+                  "Stackable",
+                  "Padlock Holes for Locking",
+                  "Sturdy handles for easy transport",
+                  "Storage bin with snap fit lid to secure valuables"
+                ]
+              },
+              "skusetID": "SS272849092",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8D699136-3914-4533-858C22D5DDF29DB2_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "GREENMADE 27G BLK/",
+              "skuNumber": "24593284",
+              "unitPrice": 10.99,
+              "qtyOrdered": 6,
+              "qtyShipped": 6,
+              "isReshipped": false,
+              "lineTotal": 40.94,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 2.712
+                }
+              ],
+              "couponTotal": 25,
+              "couponDetails": [
+                {
+                  "chargeNo": "222556",
+                  "chargeCategory": "CTHR",
+                  "chargeName": "Buy More / Save More",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 12,
+                  "chargePerUnit": 2
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $50 or more",
+                  "chargeDesc": "$10 off your purchase of $50 or more",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 1.666666667
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 3,
+                  "chargePerUnit": 0.5
+                }
+              ],
+              "regularCouponsTotal": 25,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 65.94,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24593284"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W. Central St.",
+      "city": "Bergenfield",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11416HCC4C1AWL"
+  }
+}

@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREYwRDJZWkVVVHlLb0N1MDZOTXFRcTZiMlgzQzFVYVRVeXhrY21UM0l3S0hWdC9FdldXUm9GQVpGdk9JZEpPMVBYUW1JZ082Z0J0a3pXQi8yR0svZ289",
+  "keyForOrderDetails": "U3RNREVoM0g1S1gvZjlTU0dPb2hrM3AxZWdLbHBJSkczMkU4WW0vTFhFTEtWWmpqOHFvTlVocWZRTXBnaUJBd2hzNzQzYnJ4Uk1tY2N3Y0hSaURweFcvR0k9",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -49,22 +49,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:33:11.667532288",
+      "timeStamp": "2026-02-23T21:53:25.389543914",
       "resourceName": "OrderDetails",
-      "transactionId": "d86afb3c09104585940ec455d112d466",
+      "transactionId": "55c6c0bd174f4112ba715c483b5a27b0",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20251101.4.28192",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20251101.4.28192",
     "orderDate": "2025-11-01T16:25:30",
-    "keyForOrderDetails": "U3RNREZibDkvNHN2VnRwU1h2YlEreGx6cHFEQm1rK3dhNjlBejlWaUFpNjJIc1hNMlQrYXhVaFFkNUUxQlJYV2lmRlZFRlgwbzNLckw1ZldoQm9pNkg3a1E9",
-    "orderUrlKey": "U3RNREZibDkvNHN2VnRwU1h2YlEreGx6cHFEQm1rK3dhNjlBejlWaUFpNjJIc1hNMlQrYXhVaFFkNUUxQlJYV2lmRlZFRlgwbzNLckw1ZldoQm9pNkg3a1E9",
-    "customerNumberKey": "U3RNREVRTG5IQVBIR3N3ZHB0TTY4N0MwSUZPVFV5N2pGRHNDNG5kRm4zTnRPSUNuZjU3Ty9icFE9PQ==",
+    "keyForOrderDetails": "U3RNREgxRXdLN0swendaZlhlUk1peVJBejA0V1REYUsvRi9jWlMxU3k5L0ZOc0JFSGFKb3llcE5NTUVjRE41Und5bzBKempLUllNWkV0ckdhcTQwdmdadTQ9",
+    "orderUrlKey": "U3RNREgxRXdLN0swendaZlhlUk1peVJBejA0V1REYUsvRi9jWlMxU3k5L0ZOc0JFSGFKb3llcE5NTUVjRE41Und5bzBKempLUllNWkV0ckdhcTQwdmdadTQ9",
+    "customerNumberKey": "U3RNREdGOFQwMFhzZ1p6VDFhZHN2bzJkdlIyK0U4YUJ1QnA0dnUrTUFscGthcEhpcWxWcCtlaUE9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -179,12 +180,19 @@
               "ctaText": "Add",
               "actionLabel": "addToCart",
               "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$19.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
               "isDeliveryInstock": true,
               "actionUrl": "",
               "unitsNum": "",
               "units": "44/Box",
               "rating": 4.74,
-              "ratingCount": 11410,
+              "ratingCount": 11433,
               "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-44-box-006933/product_2091512?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -199,43 +207,43 @@
                 },
                 {
                   "rating": 3,
-                  "reviewCount": 316,
+                  "reviewCount": 317,
                   "reviewPercent": 3
                 },
                 {
                   "rating": 4,
-                  "reviewCount": 842,
+                  "reviewCount": 843,
                   "reviewPercent": 7
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 9859,
+                  "reviewCount": 9880,
                   "reviewPercent": 86
                 }
               ],
-              "price": "$38.89",
-              "priceValue": 38.89,
+              "price": "$19.99",
+              "priceValue": 19.99,
               "isPriceNotAvailable": false,
-              "pricePerUnit": "$0.88/Pod",
+              "pricePerUnit": "$0.45/Pod",
               "isOutOfStock": false,
               "pickupMessage": "30-min pickup",
               "isInstoreInstock": false,
               "autoRestockEligible": true,
-              "autoRestockPrice": "$36.95",
+              "autoRestockPrice": "$18.99",
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 11097,
+                "availableQuantity": 10753,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -256,9 +264,11 @@
                 ]
               },
               "skusetID": "SS114501307",
-              "totalSavingsPercentage": 0,
+              "totalSavingsPercentage": 48.73,
               "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp118647833_sc7?$std$",
               "isRPDC": true,
+              "originalPrice": "$38.99",
+              "originalPriceLabel": "Regular price",
               "STSEligible": true,
               "skuDescription": "KCUP DUNKIN ORIG 4",
               "skuNumber": "2091512",

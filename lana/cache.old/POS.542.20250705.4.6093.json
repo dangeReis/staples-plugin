@@ -1,0 +1,731 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250705.4.6093",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-07-05T17:27:10",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREZLM1FWZ0dVTFFVakF0RnpJanlETzBJRlBwMVJjbVFRZGY4WGpNN2M0bXJXcjF2MUlMaTJYdFZ6QkZDSkVhSkN0TU9KOEtWRVpSZGlxTm81NTRLdz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.96,
+  "orderLines": [
+    {
+      "productSku": "482898",
+      "productName": "GLAD DS TRASH BAGS",
+      "productShortDesc": "GLAD DS TRASH BAGS",
+      "productLongDesc": "GLAD DS TRASH BAGS",
+      "unitPrice": 19.39,
+      "orderQty": 5,
+      "originalOrderedQty": 5,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+      "productURL": "cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+      "model": "CLO 78526",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "482898",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "712654",
+      "productName": "BioTuf 6064 Gallon Compostable Industri",
+      "productShortDesc": "BioTuf 6064 Gallon Compostable Industri",
+      "productLongDesc": "BioTuf 6064 Gallon Compostable Industri",
+      "unitPrice": 25.92,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "BioTuf 60-64 Gallon Compostable Industrial Trash Bag, 47\" x 60\", Low Density, 1 Mil, Green, 100 Bags/Pack (Y9460YE R01)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0217300_sc7?$thb$",
+      "productURL": "biotuf-60-64-gallon-compostable-industrial-trash-bag-47-x-60-low-density-1-mil-green-5-rolls-y9460ye-r01/product_712654",
+      "model": "Y9460YE R01",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "712654",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T17:22:15.570604344",
+      "resourceName": "OrderDetails",
+      "transactionId": "ef31b2931c4a47fd98cc9179230bdb71",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250705.4.6093",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250705.4.6093",
+    "orderDate": "2025-07-05T17:27:10",
+    "keyForOrderDetails": "U3RNREhIMnd2MVRyNWFDcjJjUEtCcXJMNnduMmpSOTl1MUIrOEdCNEoraENUdFZhTHR1M2pMMjlwQ2JQQUd1WWRZUk9MTkQ1U25ORjJSZUR4WiszZzdXUT09",
+    "orderUrlKey": "U3RNREhIMnd2MVRyNWFDcjJjUEtCcXJMNnduMmpSOTl1MUIrOEdCNEoraENUdFZhTHR1M2pMMjlwQ2JQQUd1WWRZUk9MTkQ1U25ORjJSZUR4WiszZzdXUT09",
+    "customerNumberKey": "U3RNREh6bWU1WExoenhXOGxpY0ZIRUdVMzBJTWZ4VElnaFdyOVZKbW5iRjF6MnlGMUFQSitySkE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 122.87,
+    "discountsTotal": 121.97,
+    "couponsTotal": 73.97,
+    "pointsRedeemedValue": 48,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.06,
+    "grandTotal": 0.96,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "482898",
+              "compareItemID": "482898",
+              "url": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EF671402-80CD-4293-860B193A8D2779A5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C245B1BF-731C-4665-A97F5636842E00E4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~F1F654A8-6A7A-4291-8399F324B381406E_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~EF671402-80CD-4293-860B193A8D2779A5_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~C245B1BF-731C-4665-A97F5636842E00E4_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7"
+              ],
+              "title": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+              "model": "CLO 78526",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "482898"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "CLO 78526"
+                }
+              ],
+              "manufacturerName": "Glad",
+              "brandName": "Glad",
+              "baseCatName": "Waste & Recycling",
+              "baseCatId": "CL141923",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8181",
+                  "name": "Waste & Recycling"
+                },
+                "category": {
+                  "id": "CG2827",
+                  "name": "Waste & Recycling"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141923",
+                  "name": "Trash Bags"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141923",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$1.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "100/Box",
+              "rating": 4.7,
+              "ratingCount": 1606,
+              "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 33,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 16,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 38,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 219,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1300,
+                  "reviewPercent": 81
+                }
+              ],
+              "price": "$18.39",
+              "priceValue": 18.39,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.18/bag",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$17.47",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 1779,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Glad ForceFlex Tall Drawstring Trash Bags are designed with stretchable strength to handle the heaviest loads without tearing. The ForceFlex technology delivers extra toughness as it flexes and expands around sharp edges and heavy loads without ripping. Featuring two layers of extra leak protection and RipGuard technology, these trash bags guard against punctures and tears, and trap liquids in the bag so you can put your most demanding trash up for the challenge. Let the stretchable strength of Glad handle the toughest messes your business encounters and then some. The Grips The Can Drawstring ensures that the bag stays in place, until you are ready to take it out. Ideal for offices, daycares, schools, hotels, restaurants and more. CloroxPro, where clean means everything."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GLAD DRAWSTRING TRASH BAGS: Tackle your demanding business needs with versatile, unscented Glad ForceFlex Tall Drawstring Trash Bags, designed with stretchable strength; packaging may vary",
+                  "RIPGUARD PROTECTION: Designed with double side seams and a reinforced bottom to trap liquids and prevent leaks, these trash bags are strong enough to handle the heaviest load",
+                  "FORCEFLEX TECHNOLOGY: The patented dual layer protection is designed to give extra flex as it expands around sharp edges and heavy loads while resisting punctures, rips and tears",
+                  "2 LAYERS EXTRA LEAK PROTECTION: These stretchable garbage bags are equipped with two layers so you never have to think twice about messy trash leaks",
+                  "GREAT FOR COMMERCIAL USE: Ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities; CloroxPro, where clean means everything",
+                  "GRIPS-THE-CAN DRAWSTRING: The durable 3-ply drawstring design grips the can so the garbage bag stays in place, and makes it easy to close and easy to carry out the trash, with no fear of leaks or tears",
+                  "GREAT FOR COMMERCIAL USE: These Tall Kitchen Trash Bags from Glad\u00ae are ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities"
+                ],
+                "headliner": [
+                  "Glad ForceFlex Tall Drawstring Trash bags are designed with stretchable strength to handle the heaviest loads without leaks, rips or tears."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b>  Lift the trash bag from the container by pulling the drawstrings on either side of the bag. Knot the drawstrings for added security. Carry the bag by the drawstring and toss into garbage.<br><br><b>Ingredients:</b>  Not applicable.<br><br><b>Caution Statement:</b>  Plastic bags can be dangerous. To avoid danger of suffocation, keep all plastic bags away from babies and children. DO NOT USE FOR FOOD STORAGE."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 5.16,
+              "trashBagHighlights": [
+                {
+                  "attribute": "Capacity",
+                  "specValue": "13 Gallons",
+                  "specName": "Capacity",
+                  "iconName": "capacity",
+                  "specificationName": [
+                    "Max Trash Bag Capacity (Gallons)"
+                  ]
+                },
+                {
+                  "attribute": "Material",
+                  "specValue": "Low Density",
+                  "specName": "Material",
+                  "iconName": "material",
+                  "specificationName": [
+                    "Density"
+                  ]
+                },
+                {
+                  "attribute": "Strength",
+                  "specValue": "Standard .72mil",
+                  "specName": "Strength",
+                  "iconName": "weight-alt",
+                  "specificationName": [
+                    "Trash Bag Strength",
+                    "Trash Bag Thickness (mil or mic)"
+                  ]
+                },
+                {
+                  "attribute": "Pack Qty",
+                  "specValue": "100",
+                  "specName": "Pack Qty",
+                  "iconName": "pack-quantity",
+                  "specificationName": [
+                    "Pack Qty"
+                  ]
+                },
+                {
+                  "attribute": "Size",
+                  "specValue": "8.5\" x 8.5\"",
+                  "specName": "Size",
+                  "iconName": "size",
+                  "specificationName": [
+                    "Width in Inches",
+                    "Height in Inches"
+                  ]
+                },
+                {
+                  "attribute": "Closure",
+                  "specValue": "Drawstring",
+                  "specName": "Closure",
+                  "iconName": "closure",
+                  "specificationName": [
+                    "Trash Bag Closure"
+                  ]
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$19.39",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "GLAD DS TRASH BAGS",
+              "skuNumber": "482898",
+              "unitPrice": 19.39,
+              "qtyOrdered": 5,
+              "qtyShipped": 5,
+              "isReshipped": false,
+              "lineTotal": 0.64,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.04
+                }
+              ],
+              "couponTotal": 96.31,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 16.4,
+                  "chargePerUnit": 3.28
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 11.39,
+                  "chargePerUnit": 2.278
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 3
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "35% off your trash bags purchase of $10 or more.",
+                  "chargeDesc": "35% off your trash bags purchase of $10 or more.",
+                  "chargeAmount": 18.96,
+                  "chargePerUnit": 3.792
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 34.56,
+                  "chargePerUnit": 6.912
+                }
+              ],
+              "regularCouponsTotal": 96.31,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 96.95,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1683",
+              "itemId": "712654",
+              "compareItemID": "712654",
+              "url": "/biotuf-60-64-gallon-compostable-industrial-trash-bag-47-x-60-low-density-1-mil-green-5-rolls-y9460ye-r01/product_712654",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0217300_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/s0217300_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "BioTuf 60-64 Gallon Compostable Industrial Trash Bag, 47\" x 60\", Low Density, 1 Mil, Green, 100 Bags/Pack (Y9460YE R01)~#|#~s0217300_sc7"
+              ],
+              "title": "BioTuf 60-64 Gallon Compostable Industrial Trash Bag, 47\" x 60\", Low Density, 1 Mil, Green, 100 Bags/Pack (Y9460YE R01)",
+              "model": "Y9460YE R01",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "712654"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "Y9460YE R01"
+                }
+              ],
+              "manufacturerName": "BioTuf",
+              "brandName": "BioTuf",
+              "baseCatName": "Waste & Recycling",
+              "baseCatId": "CL141923",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8181",
+                  "name": "Waste & Recycling"
+                },
+                "category": {
+                  "id": "CG2827",
+                  "name": "Waste & Recycling"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141923",
+                  "name": "Trash Bags"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141923",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$135.60",
+                  "description": "Save",
+                  "type": "SAVE_COMPONENT"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Clearance",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "100/Pack",
+              "rating": 5,
+              "ratingCount": 1,
+              "ratingUrl": "/biotuf-60-64-gallon-compostable-industrial-trash-bag-47-x-60-low-density-1-mil-green-5-rolls-y9460ye-r01/product_712654?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "reviewPercent": 100
+                }
+              ],
+              "price": "$61.69",
+              "priceValue": 61.69,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.62/Bag",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$58.61",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 128,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "BioTuf Compostable Trash Bags are some of the strongest compostable trash bags available. These bags meet the ASTM D6400 standards and are certified by the Biodegradable Products Institute guaranteeing these trash bags will compost along with other organic materials. BioTuf Compostable Trash Bags have performance similar to regular plastic trash bags. These compostable trash bags have a star-sealed bottom which is nearly leakproof and allows transportation of refuse without concern of causing a mess. BioTuf Compostable Trash Bags come in coreless rolls for ease of use and also have a convenient dual dispensing box."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "60-64 Gallon Trash Bags, 47x60",
+                  "1 Mil Regular strength trash bags are excellent for general purpose use",
+                  "100 bags per case - 5 rolls of 20 bags per roll",
+                  "This 47x60 bag is a good fit for 60-64 Gallon trash cans",
+                  "Green coloring to identify the trash bag as compostable",
+                  "Compostable, meets ASTM D6400 & BPI standards",
+                  "Coreless Rolls Offer Ease of Dispensing"
+                ],
+                "headliner": [
+                  "BioTuf\u00ae Compostable Trash Bags certified for use with composting materials"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 68.73,
+              "trashBagHighlights": [
+                {
+                  "attribute": "Capacity",
+                  "specValue": "64 Gallons",
+                  "specName": "Capacity",
+                  "iconName": "capacity",
+                  "specificationName": [
+                    "Max Trash Bag Capacity (Gallons)"
+                  ]
+                },
+                {
+                  "attribute": "Material",
+                  "specValue": "Low Density",
+                  "specName": "Material",
+                  "iconName": "material",
+                  "specificationName": [
+                    "Density"
+                  ]
+                },
+                {
+                  "attribute": "Strength",
+                  "specValue": "Standard 1 Mil",
+                  "specName": "Strength",
+                  "iconName": "weight-alt",
+                  "specificationName": [
+                    "Trash Bag Strength",
+                    "Trash Bag Thickness (mil or mic)"
+                  ]
+                },
+                {
+                  "attribute": "Pack Qty",
+                  "specValue": "100",
+                  "specName": "Pack Qty",
+                  "iconName": "pack-quantity",
+                  "specificationName": [
+                    "Pack Qty"
+                  ]
+                },
+                {
+                  "attribute": "Size",
+                  "specValue": "47\" x 60\"",
+                  "specName": "Size",
+                  "iconName": "size",
+                  "specificationName": [
+                    "Width in Inches",
+                    "Height in Inches"
+                  ]
+                },
+                {
+                  "attribute": "Closure",
+                  "specValue": "None",
+                  "specName": "Closure",
+                  "iconName": "closure",
+                  "specificationName": [
+                    "Trash Bag Closure"
+                  ]
+                }
+              ],
+              "hoverImage": "",
+              "isRPDC": true,
+              "originalPrice": "$197.29",
+              "originalPriceLabel": "Regular price",
+              "ecoId": true,
+              "skuDescription": "BioTuf 6064 Gallon Compostable Industri",
+              "skuNumber": "712654",
+              "unitPrice": 25.92,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.26,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.02
+                }
+              ],
+              "couponTotal": 25.66,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 5.18,
+                  "chargePerUnit": 5.18
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 3.61,
+                  "chargePerUnit": 3.61
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "20% off your in-store purchase with teacher ID.",
+                  "chargeDesc": "20% off your in-store purchase with teacher ID.",
+                  "chargeAmount": 3.43,
+                  "chargePerUnit": 3.43
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 13.44,
+                  "chargePerUnit": 13.44
+                }
+              ],
+              "regularCouponsTotal": 25.66,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 25.92,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 6
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "482898",
+      "712654"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11711E1E4C114K"
+  }
+}

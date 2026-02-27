@@ -1,0 +1,371 @@
+{
+  "customerNumber": "3301279182",
+  "orderNumber": "POS.542.20250824.2.50225",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-08-24T18:21:14",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREV6RFRMNDJlQnY2MXlKL1RtYjhmOThNLzdTNXgrRFE3cEFuUzdFNUxXc0VIY0F6V004SFpYMHlwYlBtZzFCcnRUTjV0TitYWkNtR2pndVRhM1A3TXc9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.49,
+  "orderLines": [
+    {
+      "productSku": "750834",
+      "productName": "SCOTCH HD TAPE 18P",
+      "productShortDesc": "SCOTCH HD TAPE 18P",
+      "productLongDesc": "SCOTCH HD TAPE 18P",
+      "unitPrice": 97.59,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/6163E317-8813-4CD9-9862A90BD98D0327_sc7?$thb$",
+      "productURL": "scotch-heavy-duty-packing-tape-1-88-x-54-6-yds-clear-18-pack-385018cp/product_750834",
+      "model": "385018CP",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "750834",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T22:39:45.378116478",
+      "resourceName": "OrderDetails",
+      "transactionId": "98b674a24b2b42938de78a2fe33678e5",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250824.2.50225",
+    "masterAccountNumber": "3301279182",
+    "salesOrderHeaderKey": "POS.542.20250824.2.50225",
+    "orderDate": "2025-08-24T18:21:14",
+    "keyForOrderDetails": "U3RNREd2ZkVFSnlxQ2NXWndEaTVLRFF6RG1NMk9WMFZxcENIR1AwUjlrWnFPTlI0dFFQWmZLS2lDQmJFZlVVK0tWNjdxWHBzeW9XOVY0N295cmNTelVWY0U9",
+    "orderUrlKey": "U3RNREd2ZkVFSnlxQ2NXWndEaTVLRFF6RG1NMk9WMFZxcENIR1AwUjlrWnFPTlI0dFFQWmZLS2lDQmJFZlVVK0tWNjdxWHBzeW9XOVY0N295cmNTelVWY0U9",
+    "customerNumberKey": "U3RNREhoSXRZVzFwWmY4ZXRKOFltQ21ZSURRQmJDcDY2dXJpTmNxOVorK1Fub3hKK0taV25uMGc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 97.59,
+    "discountsTotal": 97.13,
+    "couponsTotal": 67.13,
+    "pointsRedeemedValue": 30,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.03,
+    "grandTotal": 0.49,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC5585",
+              "itemId": "750834",
+              "compareItemID": "750834",
+              "url": "/scotch-heavy-duty-packing-tape-1-88-x-54-6-yds-clear-18-pack-385018cp/product_750834",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/6163E317-8813-4CD9-9862A90BD98D0327_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/6163E317-8813-4CD9-9862A90BD98D0327_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/8FB31CA2-97E9-4876-929F352D04EB75B4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7891CC46-A561-48A3-80DF92417D54DCEC_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7DB4A355-6D70-4B94-B668EDE9DF9BF463_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/DC604E65-19CE-4086-82F337B585A647B6_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/B6FFB65D-4E01-432D-B74C761DE4A3D77C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/57D694D1-3CE2-49B0-8F9021C0EED6C6D2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/210D7105-1E55-47C6-8C2ECDB20AA488D2_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C596DF00-EC3F-4550-A2012F566B60D495_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~6163E317-8813-4CD9-9862A90BD98D0327_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~8FB31CA2-97E9-4876-929F352D04EB75B4_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~7891CC46-A561-48A3-80DF92417D54DCEC_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~7DB4A355-6D70-4B94-B668EDE9DF9BF463_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~DC604E65-19CE-4086-82F337B585A647B6_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~B6FFB65D-4E01-432D-B74C761DE4A3D77C_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~57D694D1-3CE2-49B0-8F9021C0EED6C6D2_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~210D7105-1E55-47C6-8C2ECDB20AA488D2_sc7",
+                "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)~#|#~C596DF00-EC3F-4550-A2012F566B60D495_sc7"
+              ],
+              "title": "Scotch Heavy Duty Packing Tape, 1.88\" x 54.6 yds., Clear, 18/Pack (385018CP)",
+              "model": "385018CP",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "750834"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "385018CP"
+                }
+              ],
+              "manufacturerName": "Scotch",
+              "brandName": "Scotch",
+              "baseCatName": "Shipping Supplies",
+              "baseCatId": "CL140631",
+              "hierarchy": {
+                "department": {
+                  "id": "DP350281",
+                  "name": "Packing Tape & Dispensers"
+                },
+                "category": {
+                  "id": "CG1257",
+                  "name": "Shipping Supplies"
+                },
+                "supercategory": {
+                  "id": "SC5585",
+                  "name": "Shipping, Packing & Mailing Supplies"
+                },
+                "class": {
+                  "id": "CL140631",
+                  "name": "Packing Tape"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL140631",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "18/Pack",
+              "rating": 4.6,
+              "ratingCount": 1034,
+              "ratingUrl": "/scotch-heavy-duty-packing-tape-1-88-x-54-6-yds-clear-18-pack-385018cp/product_750834?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 52,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 14,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 26,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 116,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 826,
+                  "reviewPercent": 80
+                }
+              ],
+              "price": "$97.59",
+              "priceValue": 97.59,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$5.42/Roll",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$92.71",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 207,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Now even the heaviest packages can withstand rough handling. Our Scotch Heavy Duty Shipping Packaging Tape holds strong on all box types, including 100% recycled boxes. It's even guaranteed to stay sealed. The strong, tough, solvent-free hot melt adhesive locks in your heavy duty contents and locks out everything else."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GUARANTEED TO STAY SEALED: Boxes sealed with Scotch Heavy Duty Packaging Tape are guaranteed to stay sealed. (If your box does not stay sealed, 3M will refund the purchase price of this tape. Proof of purchase required. Call 1-800-3M-HELPS)",
+                  "BEST-SELLING: Scotch Brand is America's #1 selling Packaging  Tape Brand, based on NPD 2022 full year packaging tape category sales",
+                  "MOST TRUSTED BRAND: Scotch Brand is the Most Trusted, Most Recommended and Most Preferred brand of Packaging Tape in the USA, based on a 2022 Scotch Brand Health Study of Packaging Tape Purchasers",
+                  "SUPER STRONG HOLDING POWER: Provides excellent holding power for heavy-duty packaging and shipping. Strong, durable solvent-free adhesive seals and protects",
+                  "MADE TO SHIP: Designed with industrial strength adhesive that can withstand rough handling",
+                  "CLEAR: Clear to the core, clear on boxes",
+                  "DURABLE THICKNESS: Typical thickness 3 mil",
+                  "ONE STRIP AND IT SHIPS: You don\u2019t need layers of tape to get the job done - just one strip each seam top and bottom - so you save time",
+                  "HASSLE-FREE: Included dispenser includes fall-back tabs to help ensure the tape doesn't fall back on the roll and will be 'ready-to-roll' for the next use",
+                  "RECYCLED CONTENT: Dispenser contains 80% recycled content",
+                  "SCOTCH BRAND'S #1 BEST-SELLING TAPE TYPE: Heavy Duty is our #1 selling Scotch Brand Packaging Tape based on 2022 global consumer sales of Scotch Brand consumer packaging tapes"
+                ],
+                "headliner": [
+                  "Scotch Heavy Duty Shipping Packaging Tape Cabinet Pack, 1.88 in x 54.6 yd, 18/Pack"
+                ]
+              },
+              "skusetID": "SS129720148",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/8FB31CA2-97E9-4876-929F352D04EB75B4_sc7?$std$",
+              "isRPDC": true,
+              "madeInAmerica": true,
+              "STSEligible": true,
+              "skuDescription": "SCOTCH HD TAPE 18P",
+              "skuNumber": "750834",
+              "unitPrice": 97.59,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.46,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.03
+                }
+              ],
+              "couponTotal": 97.13,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 15
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 19.52,
+                  "chargePerUnit": 19.52
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "20% off all packing tape, boxes, bubble roll and other select mailing supplies.",
+                  "chargeDesc": "20% off all packing tape, boxes, bubble roll and other select mailing supplies.",
+                  "chargeAmount": 12.61,
+                  "chargePerUnit": 12.61
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$20 off your in-store purchase.",
+                  "chargeDesc": "$20 off your in-store purchase.",
+                  "chargeAmount": 20,
+                  "chargePerUnit": 20
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 30,
+                  "chargePerUnit": 30
+                }
+              ],
+              "regularCouponsTotal": 97.13,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 97.59,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "750834"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414TCP4C141X"
+  }
+}

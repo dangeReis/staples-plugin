@@ -7,7 +7,7 @@
   "paymentRequired": false,
   "transactionExists": false,
   "allowDuplicateOrder": true,
-  "keyForOrderDetails": "U3RNREhZc1U3WUFVYXJMdmdpZjM1d3EzU2M3S25WS2NnV2VXVDI2dXNlRjFUbiswNjFaOW8vSTRhR1ZiT243M25zT1U2elBtY3RheW9oVUNMM2kzOGt5QT09",
+  "keyForOrderDetails": "U3RNREdrcTcwOFVXTyt4SHBJNWNDOGpYOEdya080bFNUV0lwU2tudlJYOTNzV2J6TjVNQ0NJVkNSK2ZnNHJrUTBxNVZMVllGdWk2S2xheFpzWVlpcFM4Zz09",
   "linelevelBCEnabled": false,
   "statusCd": "725",
   "statusDesc": "Purchased at store",
@@ -74,22 +74,23 @@
   "storeState": "NJ",
   "returnable": false,
   "cancelable": false,
+  "_order_type": "in-store",
   "_pos_detail": {
     "responseInfo": {
       "responseCode": 200,
       "responseMsg": "OK",
-      "timeStamp": "2026-02-20T10:36:18.592889405",
+      "timeStamp": "2026-02-23T21:56:38.047992681",
       "resourceName": "OrderDetails",
-      "transactionId": "a4a7b1710199465a913879f1807df4c6",
+      "transactionId": "91105fa1d8a24334bd2ac0134ebe7443",
       "tenantId": "RetailUS"
     },
     "orderNumber": "POS.542.20240422.2.3035",
     "masterAccountNumber": "3439231444",
     "salesOrderHeaderKey": "POS.542.20240422.2.3035",
     "orderDate": "2024-04-22T19:57:12",
-    "keyForOrderDetails": "U3RNREVJdXlxL3RzZnFlRFprK2R1ZTAvM0lscisyNDBQWmRWYlgybnl4MkR0dWdwSFpDb3IvMm5uaENMQjZwazZBNWkzNG1yL0podFZKcmRGSkw5WFVwUT09",
-    "orderUrlKey": "U3RNREVJdXlxL3RzZnFlRFprK2R1ZTAvM0lscisyNDBQWmRWYlgybnl4MkR0dWdwSFpDb3IvMm5uaENMQjZwazZBNWkzNG1yL0podFZKcmRGSkw5WFVwUT09",
-    "customerNumberKey": "U3RNREhPZ1RVL3BlK0gxZ3ZVY0tjUkt3anJ6SjlCc2VLa2dTMXNGQTFoRW1ralk1c2dLVUk2Ymc9PQ==",
+    "keyForOrderDetails": "U3RNREZkZGxlUG1BUEtFbk5oL1Q1b2RDQmgxL2FXMldvdmxMZHFJcVJTM0RGSEJyeTNWMjVxUEhldktoSlEvZG1ZME85d2I2SHJvU2wxWGYwUDZOaHhWQT09",
+    "orderUrlKey": "U3RNREZkZGxlUG1BUEtFbk5oL1Q1b2RDQmgxL2FXMldvdmxMZHFJcVJTM0RGSEJyeTNWMjVxUEhldktoSlEvZG1ZME85d2I2SHJvU2wxWGYwUDZOaHhWQT09",
+    "customerNumberKey": "U3RNREdBOXFnQWNwVjJlM2lKTkpxdXljcHA5V0dSZm1vMG9xTkhVbGdOdVRJa0tJd0VFQjhKd1E9PQ==",
     "ecoFeeCharge": 0,
     "tenantId": "RetailUS",
     "enterpriseCode": "RetailUS",
@@ -215,7 +216,7 @@
               "unitsNum": "",
               "units": "",
               "rating": 4.23,
-              "ratingCount": 1812,
+              "ratingCount": 1817,
               "ratingUrl": "/brother-tn-227-black-high-yield-toner-cartridge-print-up-to-3-000-pages-tn227bk/product_24339498?scrollToReviews=Y",
               "reviewDetails": [
                 {
@@ -240,8 +241,8 @@
                 },
                 {
                   "rating": 5,
-                  "reviewCount": 1259,
-                  "reviewPercent": 69
+                  "reviewCount": 1264,
+                  "reviewPercent": 70
                 }
               ],
               "price": "$96.29",
@@ -254,17 +255,17 @@
               "autoRestockEligible": true,
               "itemAvailability": {
                 "inventoryMode": "STANDARD",
-                "availableQuantity": 145,
+                "availableQuantity": 135,
                 "minLeadTime": 2,
                 "maxLeadTime": 2,
-                "minDeliveryDate": "2026-02-24T00:00:00-05:00",
-                "maxDeliveryDate": "2026-02-24T00:00:00-05:00"
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
               },
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Free delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Feb 24 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },
@@ -447,15 +448,15 @@
                 "availableQuantity": 99999,
                 "minLeadTime": 42,
                 "maxLeadTime": 42,
-                "minDeliveryDate": "2026-04-21T00:00:00-04:00",
-                "maxDeliveryDate": "2026-04-21T00:00:00-04:00"
+                "minDeliveryDate": "2026-04-23T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-23T00:00:00-04:00"
               },
               "savingsPercentageOverSTAPrice": 5,
               "additionalMsg": {
                 "type": "DELIVERY_MSG",
                 "text": "Delivery",
-                "moreText": "by Tue, ",
-                "date": "Tue Apr 21 2026",
+                "moreText": "by Thu, ",
+                "date": "Thu Apr 23 2026",
                 "deliveryType": "regular",
                 "icon": ""
               },

@@ -1,0 +1,1982 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.567.20240912.4.8487",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-09-12T09:34:48",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVlbTY3R2NXTFdQbzJIMmdzSWI2UXlYSlV5cFBPcFdKWmcyNG9qRnhhZFJNRDNvODJDaWZjamZ0VjZyOEpIVWhMT2JWbVcvTWszUzNrQk9PdWFPZz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "772968",
+      "productName": "STPLS FILLER 8X10.",
+      "productShortDesc": "STPLS FILLER 8X10.",
+      "productLongDesc": "STPLS FILLER 8X10.",
+      "unitPrice": 0.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+      "productURL": "staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+      "model": "ST37426D",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "772968",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "772968",
+      "productName": "STPLS FILLER 8X10.",
+      "productShortDesc": "STPLS FILLER 8X10.",
+      "productLongDesc": "STPLS FILLER 8X10.",
+      "unitPrice": 0.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+      "productURL": "staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+      "model": "ST37426D",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "772968",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "772968",
+      "productName": "STPLS FILLER 8X10.",
+      "productShortDesc": "STPLS FILLER 8X10.",
+      "productLongDesc": "STPLS FILLER 8X10.",
+      "unitPrice": 0.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+      "productURL": "staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+      "model": "ST37426D",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "772968",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "772968",
+      "productName": "STPLS FILLER 8X10.",
+      "productShortDesc": "STPLS FILLER 8X10.",
+      "productLongDesc": "STPLS FILLER 8X10.",
+      "unitPrice": 0.46,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+      "productURL": "staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+      "model": "ST37426D",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "772968",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "572549",
+      "productName": "STPLS COMP ASST CO",
+      "productShortDesc": "STPLS COMP ASST CO",
+      "productLongDesc": "STPLS COMP ASST CO",
+      "unitPrice": 0.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+      "model": "ST55063C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "572549",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "572549",
+      "productName": "STPLS COMP ASST CO",
+      "productShortDesc": "STPLS COMP ASST CO",
+      "productLongDesc": "STPLS COMP ASST CO",
+      "unitPrice": 0.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+      "model": "ST55063C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "572549",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "572549",
+      "productName": "STPLS COMP ASST CO",
+      "productShortDesc": "STPLS COMP ASST CO",
+      "productLongDesc": "STPLS COMP ASST CO",
+      "unitPrice": 0.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+      "model": "ST55063C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "572549",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "572549",
+      "productName": "STPLS COMP ASST CO",
+      "productShortDesc": "STPLS COMP ASST CO",
+      "productLongDesc": "STPLS COMP ASST CO",
+      "unitPrice": 0.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+      "productURL": "staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+      "model": "ST55063C",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "572549",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "1558167",
+      "productName": "TI 84 CE BLACK",
+      "productShortDesc": "TI 84 CE BLACK",
+      "productLongDesc": "TI 84 CE BLACK",
+      "unitPrice": 159.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Texas Instruments TI-84 Plus CE 10-Digit Graphing Calculator, Black",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/2F0F72D8-12E4-41CA-819677F026C95B4F_sc7?$thb$",
+      "productURL": "texas-instruments-ti-84-plus-ce-10-digit-graphing-calculator-black/product_1558167",
+      "model": "TI-84 PLUS CE",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "1558167",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "567",
+  "storeAddressLine1": "1300 Rt. 17 North",
+  "storeCity": "RAMSEY",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:55:17.701285732",
+      "resourceName": "OrderDetails",
+      "transactionId": "0f7e1415672c47dc9e1551aff813af44",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.567.20240912.4.8487",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.567.20240912.4.8487",
+    "orderDate": "2024-09-12T09:34:48",
+    "keyForOrderDetails": "U3RNREg4czNQbWJsU3ZTRDJGc2pCdTEvV0IyWjNTN0pkZzB0N1l4cFk3cDJMeFB1NVdwc3pPQlVxdms3Uzl0ak9MeWVMK1VnTi9CNC9rSWdsOTY4dHcwQT09",
+    "orderUrlKey": "U3RNREg4czNQbWJsU3ZTRDJGc2pCdTEvV0IyWjNTN0pkZzB0N1l4cFk3cDJMeFB1NVdwc3pPQlVxdms3Uzl0ak9MeWVMK1VnTi9CNC9rSWdsOTY4dHcwQT09",
+    "customerNumberKey": "U3RNREdjRXVqQ3NXa083RU1wOTNvbDRlbUxGZXJsK25WVldGVjhwRDZvSnR6Rkhmc09mTmFsMXc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 165.79,
+    "discountsTotal": 165.79,
+    "couponsTotal": 65.79,
+    "pointsRedeemedValue": 100,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "1300 Rt. 17 North",
+        "city": "RAMSEY",
+        "state": "NJ",
+        "zipCode": "07446"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1676",
+              "itemId": "772968",
+              "compareItemID": "772968",
+              "url": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227238_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227329_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227082_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227078_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~9BC57877-9AF1-4091-9CF4CA458246F87E_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227241_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227238_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227329_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227082_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227078_sc7"
+              ],
+              "title": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+              "model": "ST37426D",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "772968"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST37426D"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "",
+              "baseCatId": "CL161811",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4962",
+                  "name": "Paper & Stationery"
+                },
+                "category": {
+                  "id": "CG1305",
+                  "name": "Paper & Stationery"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL161811",
+                  "name": "Loose Leaf & Graph Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161811",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "120/Pack",
+              "rating": 4.58,
+              "ratingCount": 881,
+              "ratingUrl": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 195,
+                  "reviewPercent": 22
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 616,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$2.19",
+              "priceValue": 2.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.02/Sheet",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.08",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 30488,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Stock your paper supplies with this wide ruled filler paper. The sturdy construction is ideal for everyday use, and each sheet is three-hole punched to fit into standard binders. This Staples Business Essentials 8 x 10.5-inch wide ruled filler paper comes with 120 sheets per pack, ensuring you have paper ready to use at appointments, class and other important meetings."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wide ruled filler paper is a perfect choice for all your note-taking needs",
+                  "Sheet size: 8\" x 10.5\"",
+                  "Three-hole punched paper",
+                  "Paper weight: 15 lbs.",
+                  "120 sheets per pack",
+                  "White paper",
+                  "Features 27 lines per page"
+                ],
+                "headliner": [
+                  "Take notes, draw pictures and write essays with this 120-pack of Staples Business Essentials 8 x 10.5-inch wide ruled filler paper."
+                ]
+              },
+              "skusetID": "SS245807438",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS FILLER 8X10.",
+              "skuNumber": "772968",
+              "unitPrice": 0.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.46
+                }
+              ],
+              "regularCouponsTotal": 0.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "772968",
+              "compareItemID": "772968",
+              "url": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227238_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227329_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227082_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227078_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~9BC57877-9AF1-4091-9CF4CA458246F87E_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227241_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227238_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227329_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227082_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227078_sc7"
+              ],
+              "title": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+              "model": "ST37426D",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "772968"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST37426D"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "",
+              "baseCatId": "CL161811",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4962",
+                  "name": "Paper & Stationery"
+                },
+                "category": {
+                  "id": "CG1305",
+                  "name": "Paper & Stationery"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL161811",
+                  "name": "Loose Leaf & Graph Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161811",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "120/Pack",
+              "rating": 4.58,
+              "ratingCount": 881,
+              "ratingUrl": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 195,
+                  "reviewPercent": 22
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 616,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$2.19",
+              "priceValue": 2.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.02/Sheet",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.08",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 30488,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Stock your paper supplies with this wide ruled filler paper. The sturdy construction is ideal for everyday use, and each sheet is three-hole punched to fit into standard binders. This Staples Business Essentials 8 x 10.5-inch wide ruled filler paper comes with 120 sheets per pack, ensuring you have paper ready to use at appointments, class and other important meetings."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wide ruled filler paper is a perfect choice for all your note-taking needs",
+                  "Sheet size: 8\" x 10.5\"",
+                  "Three-hole punched paper",
+                  "Paper weight: 15 lbs.",
+                  "120 sheets per pack",
+                  "White paper",
+                  "Features 27 lines per page"
+                ],
+                "headliner": [
+                  "Take notes, draw pictures and write essays with this 120-pack of Staples Business Essentials 8 x 10.5-inch wide ruled filler paper."
+                ]
+              },
+              "skusetID": "SS245807438",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS FILLER 8X10.",
+              "skuNumber": "772968",
+              "unitPrice": 0.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.46
+                }
+              ],
+              "regularCouponsTotal": 0.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "572549",
+              "compareItemID": "572549",
+              "url": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227386_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1226880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227179_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~A3534A50-9865-41CC-BA256BAD2E67B32A_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227386_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1226880_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227179_sc7"
+              ],
+              "title": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+              "model": "ST55063C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "572549"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55063C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 1687,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 27,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 182,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1424,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 21960,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write important information to remember in this college-ruled assorted-color composition book. The college-ruled spacing lets you fit more words on each page, while the assorted colors make this notebook ideal for a color-coded system. This Staples 7.5 x 9.75-inch assorted-color composition book has 80 sheets, so there's plenty of room for all your notes, while the standard size offers easy organization."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "100 sheets of college-ruled paper for efficient use of space",
+                  "Assorted Colors",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen at random, customer cannot decide"
+                ],
+                "headliner": [
+                  "Protect notes from the wear of regular use with this Staples 7.5 x 9.75-inch assorted-color composition notebook."
+                ]
+              },
+              "skusetID": "SS276828486",
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP ASST CO",
+              "skuNumber": "572549",
+              "unitPrice": 0.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "208529",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.49,
+                  "chargePerUnit": 0.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.5,
+                  "chargePerUnit": 0.5
+                }
+              ],
+              "regularCouponsTotal": 0.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "772968",
+              "compareItemID": "772968",
+              "url": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227238_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227329_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227082_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227078_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~9BC57877-9AF1-4091-9CF4CA458246F87E_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227241_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227238_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227329_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227082_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227078_sc7"
+              ],
+              "title": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+              "model": "ST37426D",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "772968"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST37426D"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "",
+              "baseCatId": "CL161811",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4962",
+                  "name": "Paper & Stationery"
+                },
+                "category": {
+                  "id": "CG1305",
+                  "name": "Paper & Stationery"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL161811",
+                  "name": "Loose Leaf & Graph Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161811",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "120/Pack",
+              "rating": 4.58,
+              "ratingCount": 881,
+              "ratingUrl": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 195,
+                  "reviewPercent": 22
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 616,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$2.19",
+              "priceValue": 2.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.02/Sheet",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.08",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 30488,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Stock your paper supplies with this wide ruled filler paper. The sturdy construction is ideal for everyday use, and each sheet is three-hole punched to fit into standard binders. This Staples Business Essentials 8 x 10.5-inch wide ruled filler paper comes with 120 sheets per pack, ensuring you have paper ready to use at appointments, class and other important meetings."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wide ruled filler paper is a perfect choice for all your note-taking needs",
+                  "Sheet size: 8\" x 10.5\"",
+                  "Three-hole punched paper",
+                  "Paper weight: 15 lbs.",
+                  "120 sheets per pack",
+                  "White paper",
+                  "Features 27 lines per page"
+                ],
+                "headliner": [
+                  "Take notes, draw pictures and write essays with this 120-pack of Staples Business Essentials 8 x 10.5-inch wide ruled filler paper."
+                ]
+              },
+              "skusetID": "SS245807438",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS FILLER 8X10.",
+              "skuNumber": "772968",
+              "unitPrice": 0.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.46
+                }
+              ],
+              "regularCouponsTotal": 0.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "572549",
+              "compareItemID": "572549",
+              "url": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227386_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1226880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227179_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~A3534A50-9865-41CC-BA256BAD2E67B32A_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227386_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1226880_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227179_sc7"
+              ],
+              "title": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+              "model": "ST55063C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "572549"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55063C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 1687,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 27,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 182,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1424,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 21960,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write important information to remember in this college-ruled assorted-color composition book. The college-ruled spacing lets you fit more words on each page, while the assorted colors make this notebook ideal for a color-coded system. This Staples 7.5 x 9.75-inch assorted-color composition book has 80 sheets, so there's plenty of room for all your notes, while the standard size offers easy organization."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "100 sheets of college-ruled paper for efficient use of space",
+                  "Assorted Colors",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen at random, customer cannot decide"
+                ],
+                "headliner": [
+                  "Protect notes from the wear of regular use with this Staples 7.5 x 9.75-inch assorted-color composition notebook."
+                ]
+              },
+              "skusetID": "SS276828486",
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP ASST CO",
+              "skuNumber": "572549",
+              "unitPrice": 0.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "208529",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.49,
+                  "chargePerUnit": 0.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.5,
+                  "chargePerUnit": 0.5
+                }
+              ],
+              "regularCouponsTotal": 0.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "572549",
+              "compareItemID": "572549",
+              "url": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227386_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1226880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227179_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~A3534A50-9865-41CC-BA256BAD2E67B32A_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227386_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1226880_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227179_sc7"
+              ],
+              "title": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+              "model": "ST55063C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "572549"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55063C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 1687,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 27,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 182,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1424,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 21960,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write important information to remember in this college-ruled assorted-color composition book. The college-ruled spacing lets you fit more words on each page, while the assorted colors make this notebook ideal for a color-coded system. This Staples 7.5 x 9.75-inch assorted-color composition book has 80 sheets, so there's plenty of room for all your notes, while the standard size offers easy organization."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "100 sheets of college-ruled paper for efficient use of space",
+                  "Assorted Colors",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen at random, customer cannot decide"
+                ],
+                "headliner": [
+                  "Protect notes from the wear of regular use with this Staples 7.5 x 9.75-inch assorted-color composition notebook."
+                ]
+              },
+              "skusetID": "SS276828486",
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP ASST CO",
+              "skuNumber": "572549",
+              "unitPrice": 0.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "208529",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.49,
+                  "chargePerUnit": 0.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.5,
+                  "chargePerUnit": 0.5
+                }
+              ],
+              "regularCouponsTotal": 0.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "572549",
+              "compareItemID": "572549",
+              "url": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/A3534A50-9865-41CC-BA256BAD2E67B32A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227386_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1226880_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227179_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~A3534A50-9865-41CC-BA256BAD2E67B32A_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227386_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1226880_sc7",
+                "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)~#|#~s1227179_sc7"
+              ],
+              "title": "Staples 1-Subject Composition Notebook, 7.5\" x 9.75\", College Ruled, 100 Sheets, Color chosen at random (ST55063C)",
+              "model": "ST55063C",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "572549"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST55063C"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "Notebooks & Notepads",
+              "baseCatId": "CL165557",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10636",
+                  "name": "Notebooks & Notepads"
+                },
+                "category": {
+                  "id": "CG3783",
+                  "name": "Notebooks & Notepads"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL165557",
+                  "name": "Notebooks"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL165557",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.76,
+              "ratingCount": 1687,
+              "ratingUrl": "/staples-composition-notebook-7-5-x-9-75-college-ruled-100-sheets-assorted-colors-st55063/product_572549?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 27,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 8,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 182,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1424,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$2.49",
+              "priceValue": 2.49,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.37",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 21960,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Write important information to remember in this college-ruled assorted-color composition book. The college-ruled spacing lets you fit more words on each page, while the assorted colors make this notebook ideal for a color-coded system. This Staples 7.5 x 9.75-inch assorted-color composition book has 80 sheets, so there's plenty of room for all your notes, while the standard size offers easy organization."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Composition notebook is great for permanent note-taking in class or at home",
+                  "100 sheets of college-ruled paper for efficient use of space",
+                  "Assorted Colors",
+                  "Casebound construction is strong and durable",
+                  "Colors chosen at random, customer cannot decide"
+                ],
+                "headliner": [
+                  "Protect notes from the wear of regular use with this Staples 7.5 x 9.75-inch assorted-color composition notebook."
+                ]
+              },
+              "skusetID": "SS276828486",
+              "totalSavingsPercentage": 0,
+              "quantityLimitQvd": 10,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/88478BEC-610F-4061-B1EEB0FDEBBF3CE9_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS COMP ASST CO",
+              "skuNumber": "572549",
+              "unitPrice": 0.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "208529",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 0.49,
+                  "chargePerUnit": 0.49
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.5,
+                  "chargePerUnit": 0.5
+                }
+              ],
+              "regularCouponsTotal": 0.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1681",
+              "itemId": "1558167",
+              "compareItemID": "1558167",
+              "url": "/texas-instruments-ti-84-plus-ce-10-digit-graphing-calculator-black/product_1558167",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/2F0F72D8-12E4-41CA-819677F026C95B4F_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/2F0F72D8-12E4-41CA-819677F026C95B4F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Texas Instruments TI-84 Plus CE 10-Digit Graphing Calculator, Black~#|#~2F0F72D8-12E4-41CA-819677F026C95B4F_sc7"
+              ],
+              "title": "Texas Instruments TI-84 Plus CE 10-Digit Graphing Calculator, Black",
+              "model": "TI-84 PLUS CE",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "1558167"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TI-84 PLUS CE"
+                }
+              ],
+              "manufacturerName": "Texas Instruments",
+              "brandName": "Texas Instruments",
+              "baseCatName": "Calculators",
+              "baseCatId": "CL90003",
+              "hierarchy": {
+                "department": {
+                  "id": "DP900",
+                  "name": "Calculators & Accessories"
+                },
+                "category": {
+                  "id": "CG3981",
+                  "name": "Calculators"
+                },
+                "supercategory": {
+                  "id": "SC1681",
+                  "name": "Shredders, Projectors & Office Machines"
+                },
+                "class": {
+                  "id": "CL90003",
+                  "name": "Graphing Calculators"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL90003",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 4.7,
+              "ratingCount": 828,
+              "ratingUrl": "/texas-instruments-ti-84-plus-ce-10-digit-graphing-calculator-black/product_1558167?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 28,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 5,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 21,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 76,
+                  "reviewPercent": 9
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 698,
+                  "reviewPercent": 84
+                }
+              ],
+              "price": "$159.99",
+              "priceValue": 159.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Equip students for success in STEM classes with this graphing calculator. The high-resolution backlit color display delivers bright, clear views of graphs, equations, and other figures, and the color-coding options let you distinguish between plots and points with better accuracy. Pre-loaded apps and images offer added assistance with a range of problems. This calculator boasts clearly labeled function keys and an alphabetical on-screen catalog of all available operations, so you can quickly find the right choice for your work. The ultra-thin design fits neatly in a backpack or pocket. Approved for use on PSAT, SAT, and ACT exams, this Texas Instruments TI-84 Plus CE calculator is a perfect tool for students."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Non-CAS graphing calculator with 10-digit color display - lightweight, yet durable enough to withstand the demands of the classroom year after year",
+                  "Graph in vibrant colors to make faster, stronger connections",
+                  "Powered by a TI Rechargeable Battery that can last up to one month on a single charge",
+                  "Distraction-free (no Bluetooth, Wi-Fi, internet access) to keep students focused on learning",
+                  "Code on the go \u2014 students can code anytime, anywhere with the power of portable programming",
+                  "Ideal for students to use in any learning environment, virtual or in person",
+                  "Display expressions, symbols and fractions just as you write them",
+                  "3000KB of ROM memory and 154KB of RAM memory capacity to tackle complex computing",
+                  "Applications: Cabri Jr., CellSheet, Conics, Inequality Graphing, Language Localizer, Periodic Table, Polynomial Root Finder/Simultaneous Equation Solver, Probability Simulation, Science Tools, TI TestGuard, Transformation Graphing, and Vernier EasyData",
+                  "1-year manufacturer limited warranty",
+                  "<a href=\"http://sds.staples.com/msds/1558167.pdf\" target=\"_blank\">Safety Data Sheet</a><br>"
+                ],
+                "headliner": [
+                  "Perform advanced math functions effortlessly with this Texas Instruments TI-84 Plus CE graphing calculator."
+                ],
+                "expandedDescr": [
+                  "The same menu structure and navigation as the TI-84 Plus family make it easy to pick up and learn. Built-in MathPrint\u2122 functionality allows you to input and view math symbols, formulas and stacked fractions exactly as they appear in textbooks. USB port for computer connectivity, unit-to-unit communication with TI-84 Plus, TI-84 Plus Silver Edition, TI-84 Plus C Silver Edition, and other TI-84 Plus CE graphing calculators. <p> Compatible Applications: Cabri\u2122 Jr, CellSheet\u2122, Conics, Inequality Graphing, Language Localizers, Periodic Table, Polynomial Root Finder/Simultaneous Equation Solver, Probability Simulation, Science Tools, TI TestGuard\u2122, Transformation Graphing, Vernier EasyData\u00ae."
+                ]
+              },
+              "skusetID": "SS132861911",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "TI 84 CE BLACK",
+              "skuNumber": "1558167",
+              "unitPrice": 159.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 159.99,
+              "couponDetails": [
+                {
+                  "chargeNo": "208532",
+                  "chargeCategory": "PQL_",
+                  "chargeName": "Special Promotion",
+                  "chargeDesc": "PROMOTION",
+                  "chargeAmount": 20,
+                  "chargePerUnit": 20
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 100,
+                  "chargePerUnit": 100
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $120",
+                  "chargeName": "100% Price Guarantee $120",
+                  "chargeDesc": "100% Price Guarantee $120",
+                  "chargeAmount": 39.99,
+                  "chargePerUnit": 39.99
+                }
+              ],
+              "regularCouponsTotal": 159.99,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 159.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1676",
+              "itemId": "772968",
+              "compareItemID": "772968",
+              "url": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/9BC57877-9AF1-4091-9CF4CA458246F87E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227238_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227329_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227082_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/s1227078_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~9BC57877-9AF1-4091-9CF4CA458246F87E_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227241_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227238_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227329_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227082_sc7",
+                "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)~#|#~s1227078_sc7"
+              ],
+              "title": "Staples\u00ae Wide Ruled Filler Paper, 8\" x 10.5\", White, 120 Sheets/Pack (ST37426D)",
+              "model": "ST37426D",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "772968"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "ST37426D"
+                }
+              ],
+              "manufacturerName": "Staples",
+              "brandName": "Staples",
+              "baseCatName": "",
+              "baseCatId": "CL161811",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4962",
+                  "name": "Paper & Stationery"
+                },
+                "category": {
+                  "id": "CG1305",
+                  "name": "Paper & Stationery"
+                },
+                "supercategory": {
+                  "id": "SC1676",
+                  "name": "Paper"
+                },
+                "class": {
+                  "id": "CL161811",
+                  "name": "Loose Leaf & Graph Paper"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL161811",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "120/Pack",
+              "rating": 4.58,
+              "ratingCount": 881,
+              "ratingUrl": "/staples-wide-ruled-filler-paper-8-x-10-5-white-120-sheets-pack-st37426d/product_772968?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 13,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 11,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 46,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 195,
+                  "reviewPercent": 22
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 616,
+                  "reviewPercent": 70
+                }
+              ],
+              "price": "$2.19",
+              "priceValue": 2.19,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.02/Sheet",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$2.08",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 30488,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Stock your paper supplies with this wide ruled filler paper. The sturdy construction is ideal for everyday use, and each sheet is three-hole punched to fit into standard binders. This Staples Business Essentials 8 x 10.5-inch wide ruled filler paper comes with 120 sheets per pack, ensuring you have paper ready to use at appointments, class and other important meetings."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Wide ruled filler paper is a perfect choice for all your note-taking needs",
+                  "Sheet size: 8\" x 10.5\"",
+                  "Three-hole punched paper",
+                  "Paper weight: 15 lbs.",
+                  "120 sheets per pack",
+                  "White paper",
+                  "Features 27 lines per page"
+                ],
+                "headliner": [
+                  "Take notes, draw pictures and write essays with this 120-pack of Staples Business Essentials 8 x 10.5-inch wide ruled filler paper."
+                ]
+              },
+              "skusetID": "SS245807438",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/s1227241_sc7?$std$",
+              "isRPDC": true,
+              "isSBG": true,
+              "skuDescription": "STPLS FILLER 8X10.",
+              "skuNumber": "772968",
+              "unitPrice": 0.46,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.46,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.46,
+                  "chargePerUnit": 0.46
+                }
+              ],
+              "regularCouponsTotal": 0.46,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.46,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 9
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "772968",
+      "572549",
+      "1558167"
+    ],
+    "storeNumber": "567",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "1300 Rt. 17 North",
+      "city": "RAMSEY",
+      "state": "NJ",
+      "zipCode": "07446"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131RR11711HJG4AYE4Q"
+  }
+}

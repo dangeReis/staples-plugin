@@ -1,0 +1,341 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250626.4.4689",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-06-26T18:13:04",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREcxd005MVovQVc5RFFhcmJZdFNvYXF5b2VIaGhJaVNzVHg1MnptdURmQm5jUlN2bFdrTWFINXJ2K1JRaUhUM0RRSVB6OStXMjczcUJ3c3hqWjhwZz09",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 85.97,
+  "orderLines": [
+    {
+      "productSku": "2646682",
+      "productName": "Dunkin Original Blend Coffee Keurig KCu",
+      "productShortDesc": "Dunkin Original Blend Coffee Keurig KCu",
+      "productLongDesc": "Dunkin Original Blend Coffee Keurig KCu",
+      "unitPrice": 82.99,
+      "orderQty": 3,
+      "originalOrderedQty": 3,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/DBCD5204-968F-4BD8-8694993879BC461B_sc7?$thb$",
+      "productURL": "dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-88-carton-400845/product_2646682",
+      "model": "400845",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "2646682",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T10:40:00.488967219",
+      "resourceName": "OrderDetails",
+      "transactionId": "569640cfd2564d57bf3d904bab693777",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250626.4.4689",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250626.4.4689",
+    "orderDate": "2025-06-26T18:13:04",
+    "keyForOrderDetails": "U3RNREY4NUc0czRtM0pVdEJOd1p4bFJIRElSSjBDaUVEb25lNzdJZGlCZzhQaHhmNmVncHVZdW5XYzNFcnQxNFhRZjNSM2FLMmVVZU04dExra0o5Y0lFUT09",
+    "orderUrlKey": "U3RNREY4NUc0czRtM0pVdEJOd1p4bFJIRElSSjBDaUVEb25lNzdJZGlCZzhQaHhmNmVncHVZdW5XYzNFcnQxNFhRZjNSM2FLMmVVZU04dExra0o5Y0lFUT09",
+    "customerNumberKey": "U3RNREZ6VThreEt0S3AvUHN1RnhaOUcwQS9yQlk2bVQvYUtoYTZCd3FBWXpST1FvUDhGZ0NFT2c9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 248.97,
+    "discountsTotal": 163,
+    "couponsTotal": 163,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 85.97,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1684",
+              "itemId": "2646682",
+              "compareItemID": "2646682",
+              "url": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-88-carton-400845/product_2646682",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/DBCD5204-968F-4BD8-8694993879BC461B_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/DBCD5204-968F-4BD8-8694993879BC461B_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/7F6D5576-06DB-4260-98ECCA110B67281C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/6F4D65D2-6D66-499E-9D9CBB4C50358EEB_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/938AD9DA-57B7-4C71-81D4B7797382A3F3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/AD386C14-A843-4F52-B9CF65FEF4C6FE0F_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)~#|#~DBCD5204-968F-4BD8-8694993879BC461B_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)~#|#~7F6D5576-06DB-4260-98ECCA110B67281C_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)~#|#~6F4D65D2-6D66-499E-9D9CBB4C50358EEB_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)~#|#~938AD9DA-57B7-4C71-81D4B7797382A3F3_sc7",
+                "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)~#|#~AD386C14-A843-4F52-B9CF65FEF4C6FE0F_sc7"
+              ],
+              "title": "Dunkin' Original Blend Coffee Keurig\u00ae K-Cup\u00ae Pods, Medium Roast, 88/Carton (400845)",
+              "model": "400845",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "2646682"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "400845"
+                }
+              ],
+              "manufacturerName": "Dunkin'",
+              "brandName": "Dunkin'",
+              "baseCatName": "Coffee, Coffee Makers & Supplies",
+              "baseCatId": "CL164886",
+              "hierarchy": {
+                "department": {
+                  "id": "DP10256",
+                  "name": "Coffee, Tea, & Cocoa"
+                },
+                "category": {
+                  "id": "CG1038",
+                  "name": "Coffee, Coffee Makers & Supplies"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL164886",
+                  "name": "Single Serve Coffee, Tea & Cocoa"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL164886",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "88/Carton",
+              "rating": 4.75,
+              "ratingCount": 12512,
+              "ratingUrl": "/dunkin-original-blend-coffee-keurig-k-cup-pods-medium-roast-88-carton-400845/product_2646682?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 330,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 102,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 329,
+                  "reviewPercent": 3
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 894,
+                  "reviewPercent": 7
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 10857,
+                  "reviewPercent": 87
+                }
+              ],
+              "price": "$82.99",
+              "priceValue": 82.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.94/Pod",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 496,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Enjoy traditional coffee shop flavor with these Keurig K-Cup Dunkin' Original Blend coffee pods. The medium-roast beans deliver a rich, smooth taste, and the K-Cup format lets you brew coffee one mug at a time. This 88-count package, makes them ideal for stocking break rooms, office kitchens and reception areas."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "Coffee K-Cups for Keurig brewers",
+                  "Medium roast coffee with Original Blend flavor",
+                  "88 K-Cups per carton",
+                  "Orthodox Union Kosher",
+                  "Made with 100% Arabica coffee"
+                ],
+                "headliner": [
+                  "Give staff and guests a delicious beverage option with these Keurig K-Cup Dunkin' Original Blend coffee pods."
+                ],
+                "expandedDescr": [
+                  "INTRODUCING RECYCLABLE* K-CUP PODS: Simple. Delicious. And now Recyclable. Enjoy the same great-tasting coffee you know and love, and when you\u2019re done just peel, empty and recycle. *Check locally, not recycled in all communities. Packaging may vary."
+                ]
+              },
+              "skusetID": "SS114501307",
+              "totalSavingsPercentage": 0,
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/7F6D5576-06DB-4260-98ECCA110B67281C_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Dunkin Original Blend Coffee Keurig KCu",
+              "skuNumber": "2646682",
+              "unitPrice": 82.99,
+              "qtyOrdered": 3,
+              "qtyShipped": 3,
+              "isReshipped": false,
+              "lineTotal": 85.97,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 163,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 15,
+                  "chargePerUnit": 5
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 3.333333333
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 87,
+                  "chargePerUnit": 29
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 51,
+                  "chargePerUnit": 17
+                }
+              ],
+              "regularCouponsTotal": 163,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 248.97,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "2646682"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11711AXE4AYYPG"
+  }
+}

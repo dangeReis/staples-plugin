@@ -1,0 +1,819 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.542.20241020.4.65120",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2024-10-20T12:23:59",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREU4WUQyelpBN2tINi83U0Y4aThYNVdlLzdxOWcxMWsxYmlzeGJPaW1vQ3N2U2JHT1JNMUN1RnhOVzBQemg5bE5QUFl1WUhzZ3JjY0RrWlJEVGhsSVU9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 200.95,
+  "orderLines": [
+    {
+      "productSku": "24401679",
+      "productName": "Brother TN221 CyanMagentaYellow Standar",
+      "productShortDesc": "Brother TN221 CyanMagentaYellow Standar",
+      "productLongDesc": "Brother TN221 CyanMagentaYellow Standar",
+      "unitPrice": 180.39,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/BF0D4F43-FE10-4077-8D1E4B79F682929D_sc7?$thb$",
+      "productURL": "brother-tn-221-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-3-pack-tn2213pk/product_24401679",
+      "model": "TN2213PK",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "24401679",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "69092",
+      "productName": "Brother LC1032PKS Black High Yield Ink",
+      "productShortDesc": "Brother LC1032PKS Black High Yield Ink",
+      "productLongDesc": "Brother LC1032PKS Black High Yield Ink",
+      "unitPrice": 40.49,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Brother LC1032PKS Black High Yield Ink Cartridge, 2/Pack",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp40875720_sc7?$thb$",
+      "productURL": "brother-lc1032pks-black-high-yield-ink-cartridge-2-pack/product_69092",
+      "model": "LC1032PKS",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "69092",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    },
+    {
+      "productSku": "901974",
+      "productName": "EVIAN 1LITER 12PK",
+      "productShortDesc": "EVIAN 1LITER 12PK",
+      "productLongDesc": "EVIAN 1LITER 12PK",
+      "unitPrice": 29.89,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+      "productURL": "evian-water-1-liter-pack-of-12-evi10000/product_901974",
+      "model": "EVI10000",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "901974",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:52:50.685359478",
+      "resourceName": "OrderDetails",
+      "transactionId": "45620a05b10d407b90d0d49f18715709",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20241020.4.65120",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.542.20241020.4.65120",
+    "orderDate": "2024-10-20T12:23:59",
+    "keyForOrderDetails": "U3RNREVqSEhJRmp0bWZZZERIKzlSWW0zYU5GbVVFQzRuSUpTUVluM1IzOHlDWklDc1dZOXNzaHdsSFdGdktXZ3NzR3dzRkRMQ1Q0TUxCcU11bFdseGk5YzA9",
+    "orderUrlKey": "U3RNREVqSEhJRmp0bWZZZERIKzlSWW0zYU5GbVVFQzRuSUpTUVluM1IzOHlDWklDc1dZOXNzaHdsSFdGdktXZ3NzR3dzRkRMQ1Q0TUxCcU11bFdseGk5YzA9",
+    "customerNumberKey": "U3RNREZidXFwRG9WSEtnV3NGSThMamVkRkczcmI5T0tEbmNRRERjMWUrQ2YvRWFVb05wNG5wSmc9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 250.77,
+    "discountsTotal": 49.82,
+    "couponsTotal": 47.82,
+    "pointsRedeemedValue": 2,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 200.95,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC43",
+              "itemId": "69092",
+              "compareItemID": "69092",
+              "url": "/brother-lc1032pks-black-high-yield-ink-cartridge-2-pack/product_69092",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp40875720_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp40875720_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp40875721_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp40875722_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother LC1032PKS Black High Yield Ink Cartridge, 2/Pack~#|#~sp40875720_sc7",
+                "Brother LC1032PKS Black High Yield Ink Cartridge, 2/Pack~#|#~sp40875721_sc7",
+                "Brother LC1032PKS Black High Yield Ink Cartridge, 2/Pack~#|#~sp40875722_sc7"
+              ],
+              "title": "Brother LC1032PKS Black High Yield Ink Cartridge, 2/Pack",
+              "model": "LC1032PKS",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "69092"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "LC1032PKS"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "2/Pack",
+              "rating": 4.52,
+              "ratingCount": 4783,
+              "ratingUrl": "/brother-lc1032pks-black-high-yield-ink-cartridge-2-pack/product_69092?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 227,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 94,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 239,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 606,
+                  "reviewPercent": 13
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 3617,
+                  "reviewPercent": 76
+                }
+              ],
+              "price": "$46.79",
+              "priceValue": 46.79,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 22,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Produce archival-quality documents with these long-lasting ink cartridges. Crafted to work with select Brother inkjet printers in seamless unison, these ink cartridges are simple to install and produce high-quality results. These Brother high-yield ink cartridges have a production capacity of 600 pages each and feature black ink, delivering bold, sharp text and making it ideal for printing contracts, reports and other documents."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "High-yield ink cartridge yields up to 600 pages",
+                  "Convenient multipack contains two individual color cartridges (black)",
+                  "Brother's technology is the guarantee of continuously accurate printing in any situation",
+                  "Multipack saves you money",
+                  "Compatible with Brother DCP-J152W, MFC-J245, MFC-J285DW, MFC-J450DW, MFC-J470DW, MFC-J475DW, MFC-J650DW, MFC-J6520DW, MFC-J6720DW, MFC-J6920DW, MFC-J870DW, MFC-J875DW",
+                  "Innobella ink technology provides high-quality print with vivid colors and better definition; designed as part of an entire printing system to provide a superior degree of quality"
+                ],
+                "headliner": [
+                  "Cover printing needs in the classroom, home or small office with this 2-pack of Brother LC103 high-yield black ink cartridges."
+                ],
+                "expandedDescr": [
+                  "<a href=\"http://sds.staples.com/msds/69092.pdf\" target=\"_blank\">Safety Data Sheet</a>"
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "ecoId": true,
+              "STSEligible": true,
+              "skuDescription": "Brother LC1032PKS Black High Yield Ink",
+              "skuNumber": "69092",
+              "unitPrice": 40.49,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 33.64,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 6.85,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 2.42,
+                  "chargePerUnit": 2.42
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.61,
+                  "chargePerUnit": 1.61
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.81,
+                  "chargePerUnit": 0.81
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 1.68,
+                  "chargePerUnit": 1.68
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.33,
+                  "chargePerUnit": 0.33
+                }
+              ],
+              "regularCouponsTotal": 6.85,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 40.49,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC43",
+              "itemId": "24401679",
+              "compareItemID": "24401679",
+              "url": "/brother-tn-221-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-3-pack-tn2213pk/product_24401679",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/BF0D4F43-FE10-4077-8D1E4B79F682929D_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/BF0D4F43-FE10-4077-8D1E4B79F682929D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F958916A-F895-42AC-944EA2416FD5D05F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/069B7D72-CD56-4CDA-A7D893F5605A17C4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/032B13F5-5832-4E3D-970BE6F927035084_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/A2AFF5C4-2F2B-40BC-A95B6BC0D40E217C_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/CF672B42-6D17-4656-853942C882F4E55D_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/3138F64C-E74C-4F87-85AD290D01EC58FF_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/36FADD47-6776-48C9-A8910A60DFE520A4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/0DE7E6A4-A05B-425B-9D87F6CB4910FF45_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~BF0D4F43-FE10-4077-8D1E4B79F682929D_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~F958916A-F895-42AC-944EA2416FD5D05F_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~069B7D72-CD56-4CDA-A7D893F5605A17C4_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~032B13F5-5832-4E3D-970BE6F927035084_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~A2AFF5C4-2F2B-40BC-A95B6BC0D40E217C_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~CF672B42-6D17-4656-853942C882F4E55D_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~3138F64C-E74C-4F87-85AD290D01EC58FF_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~36FADD47-6776-48C9-A8910A60DFE520A4_sc7",
+                "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)~#|#~0DE7E6A4-A05B-425B-9D87F6CB4910FF45_sc7"
+              ],
+              "title": "Brother TN-221 Cyan/Magenta/Yellow Standard Yield Toner Cartridge, 3/Pack  (TN2213PK)",
+              "model": "TN2213PK",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "24401679"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "TN2213PK"
+                }
+              ],
+              "manufacturerName": "Brother",
+              "brandName": "Brother",
+              "baseCatName": "",
+              "baseCatId": "SC43",
+              "hierarchy": {
+                "department": {
+                  "id": "DP1578",
+                  "name": "Ink & Toner Finder"
+                },
+                "category": {
+                  "id": "CG3",
+                  "name": "Ink & Toner Finder"
+                },
+                "supercategory": {
+                  "id": "SC12",
+                  "name": "Ink & Toner"
+                },
+                "class": {
+                  "id": "CL30001",
+                  "name": "Printer Ink Cartridges & Toner Finder"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL30001",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "3/Pack",
+              "rating": 4.53,
+              "ratingCount": 2464,
+              "ratingUrl": "/brother-tn-221-cyan-magenta-yellow-standard-yield-toner-cartridge-up-to-1-400-pages-3-pack-tn2213pk/product_24401679?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 118,
+                  "reviewPercent": 5
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 47,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 138,
+                  "reviewPercent": 6
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 272,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1889,
+                  "reviewPercent": 77
+                }
+              ],
+              "price": "$203.99",
+              "priceValue": 203.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 23,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Free delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Brother TN2213PK standard-yield 3-pack black toner cartridges are intelligently engineered to work in seamless unison with your Brother printer. They offer professional color laser print quality you can consistently rely on. Brother toners produce rich color prints that withstand the test of time."
+                ],
+                "descriptionLineSize": 3,
+                "bullets": [
+                  "Compatible with Brother HL-3140CW, HL-3170CDN, HL-3170CDW, HL-3170CW, HL-3180CDW, MFC-9130CW, MFC-9330CDW, MFC-9340CDW",
+                  "Page Yield of up to 1,400 pages* per cartridge.",
+                  "Brother Genuine TN2213PK Standard-Yield 3 Pack Color Ink Cartridges \u2013 includes 1 Cyan, 1 Magenta and 1 Yellow Cartridge.",
+                  "Brother Genuine Multi-Pack Toner TN2213PK Standard-Yield Color Toner Cartridges.",
+                  "Brother Genuine toner produces superior quality results that withstand the test of time.",
+                  "Brother offers an environmentally responsible way to dispose of Brother Genuine cartridges. Visit www.brother-usa.com/environment for more information.",
+                  "Disclaimers: *Approximate cartridge yield in accordance with ISO/IEC 19798 (letter/A4)."
+                ],
+                "headliner": [
+                  "Using Brother multi-pack toner helps cut down on the frequency of replacement orders and offers a convenient way to always have replacement toner on hand."
+                ]
+              },
+              "skusetID": "SS238924153",
+              "totalSavingsPercentage": 0,
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "Brother TN221 CyanMagentaYellow Standar",
+              "skuNumber": "24401679",
+              "unitPrice": 180.39,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 149.87,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 30.52,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 3.6,
+                  "chargePerUnit": 3.6
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 10.79,
+                  "chargePerUnit": 10.79
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 7.19,
+                  "chargePerUnit": 7.19
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 7.45,
+                  "chargePerUnit": 7.45
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 1.49,
+                  "chargePerUnit": 1.49
+                }
+              ],
+              "regularCouponsTotal": 30.52,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 180.39,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            },
+            {
+              "scId": "SC1684",
+              "itemId": "901974",
+              "compareItemID": "901974",
+              "url": "/evian-water-1-liter-pack-of-12-evi10000/product_901974",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/sp66392483_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp66392483_sc7",
+                "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)~#|#~sp82921271_sc7"
+              ],
+              "title": "Evian Natural Spring Water, 33.8 oz., 12 Bottles/Pack (EVI10000)",
+              "model": "EVI10000",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "901974"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "EVI10000"
+                }
+              ],
+              "manufacturerName": "Evian",
+              "brandName": "Evian",
+              "baseCatName": "Water & Beverages",
+              "baseCatId": "CL141077",
+              "hierarchy": {
+                "department": {
+                  "id": "DP4983",
+                  "name": "Beverages"
+                },
+                "category": {
+                  "id": "CG1251",
+                  "name": "Water & Beverages"
+                },
+                "supercategory": {
+                  "id": "SC1684",
+                  "name": "Coffee, Water & Snacks"
+                },
+                "class": {
+                  "id": "CL141077",
+                  "name": "Water"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141077",
+              "bopisEligible": false,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "badgeDetails": {
+                "productBadge": "Backorder",
+                "badgeType": "stock"
+              },
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "12/Carton",
+              "rating": 4.89,
+              "ratingCount": 9,
+              "ratingUrl": "/evian-water-1-liter-pack-of-12-evi10000/product_901974?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 0,
+                  "reviewPercent": 0
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 1,
+                  "reviewPercent": 11
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "reviewPercent": 89
+                }
+              ],
+              "price": "$38.99",
+              "priceValue": 38.99,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.10/oz.",
+              "isOutOfStock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$37.04",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 99999,
+                "minLeadTime": 42,
+                "maxLeadTime": 42,
+                "minDeliveryDate": "2026-04-23T00:00:00-04:00",
+                "maxDeliveryDate": "2026-04-23T00:00:00-04:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Apr 23 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "This personal sized bottle of Evian natural spring water is ideal for instant refreshment anytime, the perfect size to slip in your backpack, bag or purse. Our natural spring water from the French Alps has a balanced mineral composition and naturally occurring electrolytes that give it a distinctive, smooth taste that's refreshing, rehydrating & delicious either cold or at room temperature. Evian's commitment to quality ensures that you enjoy natural hydration with every sip. The recyclable plastic bottles are designed for convenience, making it easy to stay refreshed on the go."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "All natural hydration",
+                  "Natural electrolytes",
+                  "Crafted by nature"
+                ],
+                "headliner": [
+                  "Experience the pure, refreshing taste of Evian Natural Spring Water."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "badges": [
+                {
+                  "name": "Remove"
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/sp82921271_sc7?$std$",
+              "isRPDC": true,
+              "STSEligible": true,
+              "skuDescription": "EVIAN 1LITER 12PK",
+              "skuNumber": "901974",
+              "unitPrice": 29.89,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 17.44,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 12.45,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.2,
+                  "chargePerUnit": 1.2
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 1.79,
+                  "chargePerUnit": 1.79
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "Coupon",
+                  "chargeDesc": "Coupon",
+                  "chargeAmount": 0.59,
+                  "chargePerUnit": 0.59
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your purchase of $30 or more.",
+                  "chargeDesc": "$10 off your purchase of $30 or more.",
+                  "chargeAmount": 0.87,
+                  "chargePerUnit": 0.87
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 0.18,
+                  "chargePerUnit": 0.18
+                },
+                {
+                  "chargeCategory": "100% Price Guarantee $22.07",
+                  "chargeName": "100% Price Guarantee $22.07",
+                  "chargeDesc": "100% Price Guarantee $22.07",
+                  "chargeAmount": 7.82,
+                  "chargePerUnit": 7.82
+                }
+              ],
+              "regularCouponsTotal": 12.45,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 29.89,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 3
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24401679",
+      "901974",
+      "69092"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11716NDL4AYFJ4"
+  }
+}

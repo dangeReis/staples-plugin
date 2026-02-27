@@ -1,0 +1,219 @@
+{
+  "customerNumber": "5061348487",
+  "orderNumber": "POS.522.20251130.1.38128",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-11-30T17:56:26.753",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREgzMTdWeUZpbE5Ya3VQQXNNWlo4S0hELzR2aUsrdjFaNE5qSU9ZZGhOYzlPV1VYYUlrazZlcW1IdnZQaldNOWc3YnBKL0NpNGo4SVNDMUQxdUhzdkk9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0,
+  "orderLines": [
+    {
+      "productSku": "24535465",
+      "productName": "BATTERIES RECYCLIN",
+      "productShortDesc": "BATTERIES RECYCLIN",
+      "productLongDesc": "BATTERIES RECYCLIN",
+      "unitPrice": 0.01,
+      "orderQty": 2,
+      "originalOrderedQty": 2,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "BATTERIES RECYCLIN",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+      "productURL": "",
+      "model": "",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "",
+      "bopisEligible": false,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "522",
+  "storeAddressLine1": "466 Hackensack Ave",
+  "storeCity": "Hackensack",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-24T00:35:47.210327380",
+      "resourceName": "OrderDetails",
+      "transactionId": "e0b74a3854594c14b4994b3e1b6f465a",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.522.20251130.1.38128",
+    "masterAccountNumber": "5061348487",
+    "salesOrderHeaderKey": "POS.522.20251130.1.38128",
+    "orderDate": "2025-11-30T17:56:26.753",
+    "keyForOrderDetails": "U3RNREV6dUQzMVpaYk5wVVZUeW1SeHlyUXNtbytjWXMwUCtRejZLK013T04vRTVWdGFEcnpER3kwaktIM0lmazJXbUYra3NSeUUweEFaMnJRT3lmdnlXcnc9",
+    "orderUrlKey": "U3RNREV6dUQzMVpaYk5wVVZUeW1SeHlyUXNtbytjWXMwUCtRejZLK013T04vRTVWdGFEcnpER3kwaktIM0lmazJXbUYra3NSeUUweEFaMnJRT3lmdnlXcnc9",
+    "customerNumberKey": "U3RNREdVTDdDOGVsNkZOL1FpS1pJQjdlVlp0aHN2MWZ6Zldkd1dnMElvSm43YXA4RERZckpWSFE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 0.02,
+    "discountsTotal": 0.02,
+    "couponsTotal": 0.02,
+    "pointsRedeemedValue": 0,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0,
+    "grandTotal": 0,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "466 Hackensack Ave",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zipCode": "07601"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "",
+              "itemId": "",
+              "compareItemID": "",
+              "url": "",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/s0577688_sc7?$small$",
+              "images": [],
+              "imageAltTexts": [],
+              "title": "BATTERIES RECYCLIN",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [],
+              "brandName": "",
+              "baseCatId": null,
+              "hierarchy": {},
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "",
+              "bopisEligible": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "",
+              "rating": 0,
+              "ratingCount": 0,
+              "ratingUrl": "//product_24535465?scrollToReviews=Y",
+              "reviewDetails": [],
+              "price": "",
+              "priceValue": "",
+              "isPriceNotAvailable": true,
+              "pricePerUnit": "",
+              "isOutOfStock": false,
+              "autoRestockEligible": false,
+              "additionalMsg": {},
+              "description": {},
+              "skusetID": null,
+              "totalSavingsPercentage": 0,
+              "discontinued": true,
+              "hoverImage": "",
+              "isRPDC": true,
+              "skuDescription": "BATTERIES RECYCLIN",
+              "skuNumber": "24535465",
+              "unitPrice": 0.01,
+              "qtyOrdered": 2,
+              "qtyShipped": 2,
+              "isReshipped": false,
+              "lineTotal": 0,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "couponTotal": 0.02,
+              "couponDetails": [
+                {
+                  "chargeNo": "214058",
+                  "chargeCategory": "SMPL",
+                  "chargeName": "Instant Savings #12244",
+                  "chargeDesc": "Instant Savings #12244",
+                  "chargeAmount": 0.02,
+                  "chargePerUnit": 0.01
+                }
+              ],
+              "regularCouponsTotal": 0.02,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 0.02,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 2
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "24535465"
+    ],
+    "storeNumber": "522",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "466 Hackensack Ave",
+      "city": "Hackensack",
+      "state": "NJ",
+      "zipCode": "07601"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131Q4113147FH4C19QN"
+  }
+}

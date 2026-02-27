@@ -1,0 +1,430 @@
+{
+  "customerNumber": "3025391875",
+  "orderNumber": "POS.542.20250517.2.43911",
+  "orderType": "Sales",
+  "recordType": "0001",
+  "orderDate": "2025-05-17T18:20:29",
+  "paymentRequired": false,
+  "transactionExists": false,
+  "allowDuplicateOrder": true,
+  "keyForOrderDetails": "U3RNREVRN3RFREF2WnQ1cWVod05MMGRVbkM3YkIvL29PODlKc0p3NHFEVE00aFFKR2ordWluSldaV1AxVGYwNjdpQ2VpWFhodzR3V21OWUJkeENPWnpKdXc9",
+  "linelevelBCEnabled": false,
+  "statusCd": "725",
+  "statusDesc": "Purchased at store",
+  "grandTotal": 0.31,
+  "orderLines": [
+    {
+      "productSku": "482898",
+      "productName": "GLAD DS TRASH BAGS",
+      "productShortDesc": "GLAD DS TRASH BAGS",
+      "productLongDesc": "GLAD DS TRASH BAGS",
+      "unitPrice": 21.99,
+      "orderQty": 1,
+      "originalOrderedQty": 1,
+      "statuses": [
+        {
+          "statusCode": "REGULAR"
+        }
+      ],
+      "productDesc": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+      "productImageURL": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+      "productURL": "cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+      "model": "CLO 78526",
+      "isOutOfStock": false,
+      "restrictionDetails": {
+        "viewDetailsTxt": "View details"
+      },
+      "itemId": "482898",
+      "bopisEligible": true,
+      "isDeliveryInstock": true
+    }
+  ],
+  "requesterAuthorizedToApprove": false,
+  "userCanApprove": false,
+  "userCanDecline": false,
+  "userCanModify": false,
+  "storeNumber": "542",
+  "storeAddressLine1": "25 W Central Ave",
+  "storeCity": "BERGENFIELD",
+  "storeState": "NJ",
+  "returnable": false,
+  "cancelable": false,
+  "_order_type": "in-store",
+  "_pos_detail": {
+    "responseInfo": {
+      "responseCode": 200,
+      "responseMsg": "OK",
+      "timeStamp": "2026-02-23T21:33:41.266726967",
+      "resourceName": "OrderDetails",
+      "transactionId": "2ce2dbb7b4b243f5bf8cef98f631b7a8",
+      "tenantId": "RetailUS"
+    },
+    "orderNumber": "POS.542.20250517.2.43911",
+    "masterAccountNumber": "3025391875",
+    "salesOrderHeaderKey": "POS.542.20250517.2.43911",
+    "orderDate": "2025-05-17T18:20:29",
+    "keyForOrderDetails": "U3RNREhwK1o1UGlOL3FaMEY0dlJGQkE4dURlR2E1VGhFVVZUSzFPTDB1eTI5NkJtdE43WDZVZE1CSldTTWZQOENONE1pZ04rMVBRVlVhWlJxWkQ4cU0zdjg9",
+    "orderUrlKey": "U3RNREhwK1o1UGlOL3FaMEY0dlJGQkE4dURlR2E1VGhFVVZUSzFPTDB1eTI5NkJtdE43WDZVZE1CSldTTWZQOENONE1pZ04rMVBRVlVhWlJxWkQ4cU0zdjg9",
+    "customerNumberKey": "U3RNREdFWEUwcGFNQmgwR29MeFp1T1RzWGV1S3FKVE4yK0Nwd0xYVmZZZDY1cTNuTXhsYWkwYlE9PQ==",
+    "ecoFeeCharge": 0,
+    "tenantId": "RetailUS",
+    "enterpriseCode": "RetailUS",
+    "numberOfReturnOrders": 0,
+    "poUpdtReqByApprover": false,
+    "merchandiseTotal": 21.99,
+    "discountsTotal": 21.7,
+    "couponsTotal": 19.7,
+    "pointsRedeemedValue": 2,
+    "shippingAndHandlingFeeTotal": 0,
+    "expeditedCharge": 0,
+    "handlingCharge": 0,
+    "baseShippingCharge": 0,
+    "shippingAndDeliveryFeeTotal": 0,
+    "taxesTotal": 0.02,
+    "grandTotal": 0.31,
+    "largeOrderDiscount": 0,
+    "otherDiscounts": 0,
+    "furnitureServicesFee": 0,
+    "minimumOrderFee": 0,
+    "isFutureOrder": false,
+    "isReturnable": false,
+    "isCancellable": false,
+    "isAnyItemCancellable": false,
+    "transactionExists": false,
+    "allowDuplicateOrder": true,
+    "paymentRequired": false,
+    "requesterAuthorizedToApprove": false,
+    "userCanApprove": false,
+    "userCanDecline": false,
+    "userCanModify": false,
+    "shipToAddress": [
+      {
+        "id": "1",
+        "addressGroup": "CASHNCARRY",
+        "addressLine1": "25 W Central Ave",
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "zipCode": "07621"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "1CNC",
+        "shipToAddressId": "1",
+        "shipmentType": "CNC",
+        "containerIdVsShipmentLinesMap": {
+          "dummyKey": [
+            {
+              "scId": "SC1683",
+              "itemId": "482898",
+              "compareItemID": "482898",
+              "url": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898",
+              "image": "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$std$",
+              "images": [
+                "https://www.staples-3p.com/s7/is/image/Staples/74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/EF671402-80CD-4293-860B193A8D2779A5_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/C245B1BF-731C-4665-A97F5636842E00E4_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7?$thb$",
+                "https://www.staples-3p.com/s7/is/image/Staples/97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7?$thb$"
+              ],
+              "imageAltTexts": [
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~74F8AA12-A8FB-4D8E-912BB494CB6DEEB3_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~F1F654A8-6A7A-4291-8399F324B381406E_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BF25A7EE-97D7-4E4A-96DB6C80B82DDE1A_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~EF671402-80CD-4293-860B193A8D2779A5_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~DEABDF69-0FCA-4D13-AFCBE9A2836CB908_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~C245B1BF-731C-4665-A97F5636842E00E4_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~BC6665B1-13E5-4881-AED9ADDF33FA5368_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~4DA89961-03D1-4AE5-9AEED911C3153A0F_sc7",
+                "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)~#|#~97A1D4D4-AC78-48E1-847FB7C05E735BD2_sc7"
+              ],
+              "title": "Glad ForceFlex Tall 13 Gallon Drawstring Kitchen Trash Bag, White, 100 Total Bags (78374)",
+              "model": "CLO 78526",
+              "tenantId": "StaplesDotCom",
+              "productIDs": [
+                {
+                  "idName": "Item",
+                  "idValue": "482898"
+                },
+                {
+                  "idName": "Model",
+                  "idValue": "CLO 78526"
+                }
+              ],
+              "manufacturerName": "Glad",
+              "brandName": "Glad",
+              "baseCatName": "Waste & Recycling",
+              "baseCatId": "CL141923",
+              "hierarchy": {
+                "department": {
+                  "id": "DP8181",
+                  "name": "Waste & Recycling"
+                },
+                "category": {
+                  "id": "CG2827",
+                  "name": "Waste & Recycling"
+                },
+                "supercategory": {
+                  "id": "SC1683",
+                  "name": "Cleaning Supplies"
+                },
+                "class": {
+                  "id": "CL141923",
+                  "name": "Trash Bags"
+                }
+              },
+              "restrictionDetails": {
+                "viewDetailsTxt": "View details"
+              },
+              "catalogId": "CL141923",
+              "bopisEligible": true,
+              "inStoreOnly": false,
+              "seePriceInCart": false,
+              "isSSPT": true,
+              "ctaText": "Add",
+              "actionLabel": "addToCart",
+              "isQtyChangeAvailable": true,
+              "savings": [
+                {
+                  "valueText": "$1.00",
+                  "description": "Member Savings",
+                  "type": "MEMBER_SAVINGS"
+                }
+              ],
+              "isDeliveryInstock": true,
+              "actionUrl": "",
+              "unitsNum": "",
+              "units": "100/Box",
+              "rating": 4.7,
+              "ratingCount": 1606,
+              "ratingUrl": "/cloroxpro-glad-forceflex-13-gallon-tall-kitchen-trash-bag-8-75-x-9-06-low-density-95-mil-white-100-bags-box-clo-78526/product_482898?scrollToReviews=Y",
+              "reviewDetails": [
+                {
+                  "rating": 1,
+                  "reviewCount": 33,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 2,
+                  "reviewCount": 16,
+                  "reviewPercent": 1
+                },
+                {
+                  "rating": 3,
+                  "reviewCount": 38,
+                  "reviewPercent": 2
+                },
+                {
+                  "rating": 4,
+                  "reviewCount": 219,
+                  "reviewPercent": 14
+                },
+                {
+                  "rating": 5,
+                  "reviewCount": 1300,
+                  "reviewPercent": 81
+                }
+              ],
+              "price": "$18.39",
+              "priceValue": 18.39,
+              "isPriceNotAvailable": false,
+              "pricePerUnit": "$0.18/bag",
+              "isOutOfStock": false,
+              "pickupMessage": "30-min pickup",
+              "isInstoreInstock": false,
+              "autoRestockEligible": true,
+              "autoRestockPrice": "$17.47",
+              "itemAvailability": {
+                "inventoryMode": "STANDARD",
+                "availableQuantity": 1777,
+                "minLeadTime": 2,
+                "maxLeadTime": 2,
+                "minDeliveryDate": "2026-02-26T00:00:00-05:00",
+                "maxDeliveryDate": "2026-02-26T00:00:00-05:00"
+              },
+              "savingsPercentageOverSTAPrice": 5,
+              "additionalMsg": {
+                "type": "DELIVERY_MSG",
+                "text": "Delivery",
+                "moreText": "by Thu, ",
+                "date": "Thu Feb 26 2026",
+                "deliveryType": "regular",
+                "icon": ""
+              },
+              "description": {
+                "paragraph": [
+                  "Glad ForceFlex Tall Drawstring Trash Bags are designed with stretchable strength to handle the heaviest loads without tearing. The ForceFlex technology delivers extra toughness as it flexes and expands around sharp edges and heavy loads without ripping. Featuring two layers of extra leak protection and RipGuard technology, these trash bags guard against punctures and tears, and trap liquids in the bag so you can put your most demanding trash up for the challenge. Let the stretchable strength of Glad handle the toughest messes your business encounters and then some. The Grips The Can Drawstring ensures that the bag stays in place, until you are ready to take it out. Ideal for offices, daycares, schools, hotels, restaurants and more. CloroxPro, where clean means everything."
+                ],
+                "descriptionLineSize": 2,
+                "bullets": [
+                  "GLAD DRAWSTRING TRASH BAGS: Tackle your demanding business needs with versatile, unscented Glad ForceFlex Tall Drawstring Trash Bags, designed with stretchable strength; packaging may vary",
+                  "RIPGUARD PROTECTION: Designed with double side seams and a reinforced bottom to trap liquids and prevent leaks, these trash bags are strong enough to handle the heaviest load",
+                  "FORCEFLEX TECHNOLOGY: The patented dual layer protection is designed to give extra flex as it expands around sharp edges and heavy loads while resisting punctures, rips and tears",
+                  "2 LAYERS EXTRA LEAK PROTECTION: These stretchable garbage bags are equipped with two layers so you never have to think twice about messy trash leaks",
+                  "GREAT FOR COMMERCIAL USE: Ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities; CloroxPro, where clean means everything",
+                  "GRIPS-THE-CAN DRAWSTRING: The durable 3-ply drawstring design grips the can so the garbage bag stays in place, and makes it easy to close and easy to carry out the trash, with no fear of leaks or tears",
+                  "GREAT FOR COMMERCIAL USE: These Tall Kitchen Trash Bags from Glad\u00ae are ideal for use in schools, daycare centers, restaurants, hotels and other commercial facilities"
+                ],
+                "headliner": [
+                  "Glad ForceFlex Tall Drawstring Trash bags are designed with stretchable strength to handle the heaviest loads without leaks, rips or tears."
+                ],
+                "expandedDescr": [
+                  "<b>Usage Directions:</b>  Lift the trash bag from the container by pulling the drawstrings on either side of the bag. Knot the drawstrings for added security. Carry the bag by the drawstring and toss into garbage.<br><br><b>Ingredients:</b>  Not applicable.<br><br><b>Caution Statement:</b>  Plastic bags can be dangerous. To avoid danger of suffocation, keep all plastic bags away from babies and children. DO NOT USE FOR FOOD STORAGE."
+                ]
+              },
+              "skusetID": null,
+              "totalSavingsPercentage": 5.16,
+              "trashBagHighlights": [
+                {
+                  "attribute": "Capacity",
+                  "specValue": "13 Gallons",
+                  "specName": "Capacity",
+                  "iconName": "capacity",
+                  "specificationName": [
+                    "Max Trash Bag Capacity (Gallons)"
+                  ]
+                },
+                {
+                  "attribute": "Material",
+                  "specValue": "Low Density",
+                  "specName": "Material",
+                  "iconName": "material",
+                  "specificationName": [
+                    "Density"
+                  ]
+                },
+                {
+                  "attribute": "Strength",
+                  "specValue": "Standard .72mil",
+                  "specName": "Strength",
+                  "iconName": "weight-alt",
+                  "specificationName": [
+                    "Trash Bag Strength",
+                    "Trash Bag Thickness (mil or mic)"
+                  ]
+                },
+                {
+                  "attribute": "Pack Qty",
+                  "specValue": "100",
+                  "specName": "Pack Qty",
+                  "iconName": "pack-quantity",
+                  "specificationName": [
+                    "Pack Qty"
+                  ]
+                },
+                {
+                  "attribute": "Size",
+                  "specValue": "8.5\" x 8.5\"",
+                  "specName": "Size",
+                  "iconName": "size",
+                  "specificationName": [
+                    "Width in Inches",
+                    "Height in Inches"
+                  ]
+                },
+                {
+                  "attribute": "Closure",
+                  "specValue": "Drawstring",
+                  "specName": "Closure",
+                  "iconName": "closure",
+                  "specificationName": [
+                    "Trash Bag Closure"
+                  ]
+                }
+              ],
+              "hoverImage": "https://www.staples-3p.com/s7/is/image/Staples/F1F654A8-6A7A-4291-8399F324B381406E_sc7?$std$",
+              "isRPDC": true,
+              "originalPrice": "$19.39",
+              "originalPriceLabel": "Regular price",
+              "skuDescription": "GLAD DS TRASH BAGS",
+              "skuNumber": "482898",
+              "unitPrice": 21.99,
+              "qtyOrdered": 1,
+              "qtyShipped": 1,
+              "isReshipped": false,
+              "lineTotal": 0.29,
+              "status": 725,
+              "statusDescription": "Purchased at store",
+              "lineType": "CNC",
+              "taxTotal": 0,
+              "taxdetails": [
+                {
+                  "chargeCategory": "TAXCHARGE",
+                  "chargeName": "ITM",
+                  "chargeDesc": "LINE ITEM",
+                  "chargeAmount": 0.0192
+                }
+              ],
+              "couponTotal": 21.7,
+              "couponDetails": [
+                {
+                  "chargeNo": "0",
+                  "chargeName": "25% off all trash bags.",
+                  "chargeDesc": "25% off all trash bags.",
+                  "chargeAmount": 4.1,
+                  "chargePerUnit": 4.1
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeName": "$10 off your in-store purchase.",
+                  "chargeDesc": "$10 off your in-store purchase.",
+                  "chargeAmount": 10,
+                  "chargePerUnit": 10
+                },
+                {
+                  "chargeNo": "0",
+                  "chargeCategory": "SLP",
+                  "chargeName": "Easy Rewards Points Redemption",
+                  "chargeDesc": "Easy Rewards Points Redemption",
+                  "chargeAmount": 2,
+                  "chargePerUnit": 2
+                },
+                {
+                  "chargeCategory": "Your Rewards Price $16.39",
+                  "chargeName": "Your Rewards Price $16.39",
+                  "chargeDesc": "Your Rewards Price $16.39",
+                  "chargeAmount": 5.6,
+                  "chargePerUnit": 5.6
+                }
+              ],
+              "regularCouponsTotal": 21.7,
+              "pointsRedeemedValue": 0,
+              "deliveryChargeFee": 0,
+              "subTotal": 21.99,
+              "isItemsAvailable": true,
+              "isFurnitureServiceFeeSKU": false
+            }
+          ]
+        },
+        "isItemsAvailable": true,
+        "containerVsItemsCountMap": {
+          "dummyKey_1CNC": 1
+        }
+      }
+    ],
+    "productsOnOrder": [
+      "482898"
+    ],
+    "storeNumber": "542",
+    "storeAddress": {
+      "id": "1",
+      "addressGroup": "STORE",
+      "addressLine1": "25 W Central Ave",
+      "city": "BERGENFIELD",
+      "state": "NJ",
+      "zipCode": "07621"
+    },
+    "isItemsAvailable": true,
+    "nonCatalogItemsInOrder": [],
+    "itemMap": {},
+    "freeItemMap": {},
+    "itemsToDuplicateOrder": [],
+    "itemStatusesSummaryList": [],
+    "totalNoOfQuantiesForStatus": 0,
+    "transactionBarCode": "T1131QT11414HXW4AYX9G"
+  }
+}
